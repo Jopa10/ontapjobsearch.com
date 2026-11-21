@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "sampleSize": 20,
+  "sourceRevision": "a828536b62928d5c287fa9e18aa7924769851e29",
+  "sampleObservedOn": "2026-11-02",
+  "firstImportWasReplay": false,
+  "before": {
+    "suppliers": 0,
+    "jobs": 0,
+    "supplier_adverts": 0,
+    "feed_runs": 0,
+    "advert_appearances": 0,
+    "selection_decisions": 0
+  },
+  "after": {
+    "suppliers": 1,
+    "jobs": 20,
+    "supplier_adverts": 20,
+    "feed_runs": 1,
+    "advert_appearances": 20,
+    "selection_decisions": 20
+  },
+  "checks": [
+    "12 tables",
+    "sample persisted",
+    "replay adds no duplicates",
+    "unchanged advert keeps hash and identity",
+    "changed advert updates in place",
+    "stable public URL ID",
+    "gap remains visible",
+    "return clears inactivity",
+    "verification changes rolled back",
+    "conflicting replay rejected atomically"
+  ],
+  "scope": "Published JobG8 sample only; full raw-feed import, exclusion reasoning and expiry policy not tested.",
+  "databaseBytes": 8912896,
+  "deploymentId": "dpl_ByCsyjqCviLDoQPyo4z8BB24vTwc",
+  "testedCommit": "bb08111dda3b11ce5c8978c43124b7e0af98eeb4",
+  "readyState": "READY"
+}

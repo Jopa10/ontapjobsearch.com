@@ -1,14 +1,13 @@
-Warning: truncated output (original token count: 20617)
-Total output lines: 393
-
 # Ontap System Overview
 
-**Last updated:** 10 November 2026
-**Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
+**Last updated:** 21 November 2026
+**Status:** Production/site baseline reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production publishing remains file-based; no cutover has occurred. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 21 November 2026 — Saturday Neon Preview refresh and parity checks passed. Refresh `44908662586` used source publication `44880614175`; 5,630 selected adverts across 256 scopes passed ID, payload, hash, position, decision and scope checks. Master refresh recorded 588 inserted, 93 updated and 4,949 unchanged; cleanup was dry-run only and purged nothing. Full-site parity `44923851824` matched selected IDs, Apply links and order across 314 published inventory files. Route checks `44924984048` passed SSR, canonicals, sitemap, structured data and Preview noindex. Production publishing remains file-based.
 
 - 10 November 2026 — **Eleven requested region/family pages registered for the next feed:** the exact owner-requested pairs are now LIVE in the pipeline register, and Lancashire - Blackpool & Fylde has been added using its established Blackpool anchor. The existing public inventory and deployment are untouched. Tomorrow's feed will generate their lists; reconcile counts and exact job IDs before running the verified publisher.
 
@@ -277,7 +276,7 @@ PostgreSQL must precede a second commercial job feed. Build and test JobG8 → d
 
 ## Current state
 
-Reconciled from `pipeline/registers/region_category_slice_register.csv` on 10 November 2026, the register contains **250 LIVE rows** and **8 CANDIDATE rows**. The 11 new pairs are registered, but their page data and exact job IDs still need reconciliation before publication. These are activation counts; current job availability must be read from the deployed inventory.
+Reconciled from `pipeline/registers/region_category_slice_register.csv` on 21 November 2026, the register contains **256 LIVE region/family rows**: Service Admin 65, Marketing 33, Customer Sales 30, Finance / Accounts 53, Support Worker 16, HR / Recruitment 19, Customer Service / Contact Centre 12 and Legal Assistant / Paralegal 28. Another 8 rows are CANDIDATE. The 16 November update added six region/family slices plus the Luton and Trafford broad-city routes; the Tuesday feed verification was confirmed. These are activation counts; current job availability must be read from the deployed inventory.
 
 The full JobG8 workflow assesses all eight families across all 78 UK markets (624 rows) and retains up to 14 feed-date snapshots. The shared city mechanism owns 66 active permanent routes (65 Admin and office, one Support Worker). Production deployment uses a Vercel CLI deployment after successful verified-page publishing; automatic Git builds are disabled. NHS Administrative & Clerical inventory is isolated safely on feed failure, remains capped at 20% per Service Admin page and uses the 4+1 display order. Live vacancy pages and search use deployment-built static/current inventory; expired-job recovery remains separate. Teaching Vacancies retains the source-isolation and concurrent-write safeguards described above.
 - 21 September 2026 — **Google indexing now gives JobG8 first claim on the daily allowance:** after the fixed deletion allowance, every available eligible JobG8 URL is selected before any non-JobG8 URL. Non-paying sources are capped at **20 of 200 submissions (10%)**; unused JobG8 capacity is never released to them. Workflow summaries now show live inventory, indexing candidates and selected submissions by source.

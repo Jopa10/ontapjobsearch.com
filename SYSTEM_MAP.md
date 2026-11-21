@@ -1,16 +1,15 @@
-Warning: truncated output (original token count: 21771)
-Total output lines: 420
-
 # Ontap System Map
 
-**Last updated:** 10 November 2026
-**Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
+**Last updated:** 21 November 2026
+**Status:** Production architecture reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production vacancy publishing remains file-based. External service settings and current live deployment require separate verification.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 21 November 2026 — **Neon Preview refresh and website parity passed:** automatic refresh run `44908662586` found source publication run `44880614175` and verified advert IDs, payloads, hashes, feed-row positions, decisions and scopes. Full-site parity run `44923851824` matched selected IDs, Apply links, membership and order across 314 inventory files; route checks `44924984048` passed server-rendered page, canonical, sitemap, structured-data and Preview noindex checks. Production publishing remains file-based; no cutover occurred.
 
 - 10 November 2026 — **Eleven requested region/family pages registered for the next feed:** added the exact owner-requested pairs to the LIVE register and configured Lancashire - Blackpool & Fylde with its established slug and Blackpool anchor from `england_assessable_regions.json`. The next daily JobG8 run will generate their pipeline outputs. No public page data or production deployment is changed by registration; keep the verified publisher blocked until each output's counts and exact job IDs are reconciled against the existing inventory.
 
@@ -251,7 +250,7 @@ This changes the trigger from every `main` push to a successful verified-page pu
 
 ## Validation state
 
-As reconciled from `pipeline/registers/region_category_slice_register.csv` on 10 November 2026, the register contains **250 LIVE rows** and **8 CANDIDATE rows**. The 11 newly registered pairs still require generated page data and exact job-ID reconciliation before publication. The LIVE register is authoritative for family/region activation; activation does not itself prove deployed inventory.
+As reconciled from `pipeline/registers/region_category_slice_register.csv` on 21 November 2026, the register contains **256 LIVE region/family rows** and **8 CANDIDATE rows**: Service Admin 65, Marketing 33, Customer Sales 30, Finance / Accounts 53, Support Worker 16, HR / Recruitment 19, Customer Service / Contact Centre 12 and Legal Assistant / Paralegal 28. The 16 November update added six region/family slices and the Luton and Trafford broad-city routes; the Tuesday feed verification was confirmed. These are activation counts; current job availability must be read from deployed inventory.
 
 The full JobG8 workflow enforces the current **78 markets × eight families = 624 rows** diagnostic contract and up to 14 feed-date snapshots. `city-page-register.json` contains **66 active permanent family-city routes (65 Admin and office, one Support Worker)**; `broad-city-page-register.json` contains **41 active permanent all-jobs city routes** (registered activation state; deployed population requires separate verification). NHS feed isolation, the 20% Service Admin ceiling, the 4+1 display rhythm, Teaching Vacancies source isolation, deployment-built search/static live vacancy pages and publish-triggered Vercel CLI deployment with live-SHA verification remains the verified production architecture.
 

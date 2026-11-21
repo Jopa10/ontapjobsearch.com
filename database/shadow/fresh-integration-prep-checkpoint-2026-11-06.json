@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-06",
+  "preparedAt": "2026-11-06T09:59:55Z",
+  "status": "6-nov-selector-parity-complete",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "pullRequest": 336,
+  "branchHeadBeforeCheckpoint": "95b1188bef970bbf574974501811356fed0bba36",
+  "sourceChecksumPrerequisiteResolved": true,
+  "pinnedSavedSource": {
+    "evidenceSource": "Owner CloudShell head-object and sha256sum output shown 2026-11-06",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "region": "eu-west-2",
+    "s3Sources": {
+      "2026-11-06": {
+        "key": "jobg8/raw/2026-11-06.zip",
+        "bytes": 35301499,
+        "etag": "\"d8984284780f209b4542816cb0ab76c6-5\"",
+        "lastModified": "2026-11-06T07:46:01+00:00",
+        "sha256": "861d80cfc02376d4aa26468365e62af7950ac11e42e5dcb75a5b05affb2db86f"
+      }
+    },
+    "archiveChecksums": {
+      "current": "861d80cfc02376d4aa26468365e62af7950ac11e42e5dcb75a5b05affb2db86f"
+    },
+    "expectedCurrentCounts": {
+      "sourceRows": 43409,
+      "uniqueSupplierIds": 43407,
+      "exactRepeatRows": 0,
+      "conflictingIdsHeld": [
+        "1401785815",
+        "1401786160"
+      ],
+      "cleanRecords": 43405
+    },
+    "originalNeonSourceSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+    "note": "Byte count, ETag and LastModified are from CloudShell head-object; SHA-256 is from downloaded ZIP sha256sum. Owner confirmed the fresh presigned URL was placed in existing ONTAP_SAVED_FEED_URL secret. Workflow must independently verify downloaded byte count/SHA and capture row/quarantine counts."
+  },
+  "selectorWorkflowStarted": true,
+  "neonMutationBeforeSelectorParity": false,
+  "productionChanged": false,
+  "safety": {
+    "selectorReplayOnly": true,
+    "neonWrite": false,
+    "productionChanged": false,
+    "emailSent": false,
+    "expiryEnabled": false,
+    "purgeExecuted": false
+  },
+  "next": "Selector-to-post-review production output ID parity is exact for 5 and 6 November. No selector replay or 5 November integration needs repeating. If full active inventory reconciliation is required, first obtain a date-specific active JobG8 ID list to explain the count-only extras (12 on 5 Nov; 73 on 6 Nov); otherwise proceed only with separately authorized Preview read-only checks.",
+  "selectorReplay": {
+    "runId": 42199961447,
+    "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/42199961447",
+    "runCommit": "ca949467ffd67cecfcd0ee49941040020d099730",
+    "jobId": 127832512236,
+    "conclusion": "success",
+    "mode": "fresh_selection_parity",
+    "rulesRevision": "ca949467ffd67cecfcd0ee49941040020d099730",
+    "sourceRequestSha256": "85bd1e453270210a352798def65c33b1e9b3d1cc1bad3d055953cadcf37831fd",
+    "sourceRows": 43409,
+    "uniqueSupplierIds": 43407,
+    "exactRepeatRows": 0,
+    "conflictingIdsHeld": [
+      "1401785815",
+      "1401786160"
+    ],
+    "cleanRecords": 43405,
+    "scopes": 239,
+    "exactFileOutputParity": true,
+    "outputsSha256": "316df170b742819b2a898ae01f70a385765fc7543b3267b16076782d42db464e",
+    "outcomes": {
+      "admin_service": {
+        "exclude": 40040,
+        "include": 3182,
+        "review": 183
+      },
+      "support_worker": {
+        "exclude": 42879,
+        "include": 362,
+        "review": 164
+      },
+      "customer_sales": {
+        "exclude": 42989,
+        "include": 416
+      },
+      "finance_accounts": {
+        "exclude": 42415,
+        "include": 990
+      },
+      "hr_recruitment": {
+        "exclude": 43269,
+        "include": 136
+      },
+      "marketing": {
+        "exclude": 43004,
+        "include": 401
+      },
+      "legal_assistant_paralegal": {
+        "exclude": 43146,
+        "include": 259
+      },
+      "customer_service_contact_centre": {
+        "exclude": 43310,
+        "include": 81,
+        "review": 14
+      }
+    },
+    "artifacts": [
+      {
+        "id": 13495232218,
+        "name": "neon-shadow-selection-parity",
+        "sizeBytes": 4389204,
+        "sha256": "a2d221f53eb714fe8167d2cd67468a89dd113eb45c53b541d4a7852c218f57f2",
+        "expiresAt": "2026-11-13T10:28:50Z"
+      },
+      {
+        "id": 13494244665,
+        "name": "neon-shadow-selector-recovery",
+        "sizeBytes": 11072286,
+        "sha256": "9894e5bb064a922fee1e481747a8b88a7f552aea27e3ea9b029ee87431fb6a3b",
+        "expiresAt": "2026-11-08T10:28:52Z"
+      }
+    ],
+    "safety": {
+      "neonWrite": false,
+      "productionChanged": false,
+      "emailSent": false,
+      "expiryEnabled": false,
+      "purgeExecuted": false
+    }
+  },
+  "retentionCheck": {
+    "checkpoint": "database/shadow/retention-checkpoint-2026-11-06.json",
+    "previewOnly": true,
+    "deploymentId": "dpl_5CrxTpZcRj3VH5Azv6YCc6WNZgyF",
+    "projectId": "prj_sLI0SohbF03NrRFj6yZyuN8mOOZB",
+    "neonGuard": "noisy-fire-97386602",
+    "query": "SELECT count(*) AS payload_count, sum(octet_length(raw_payload)) AS stored_payload_bytes, sum(octet_length(raw_payload::text)) AS text_payload_bytes FROM ontap_shadow.supplier_adverts WHERE exclude_review_started_on <= DATE '2026-11-04' AND raw_payload IS NOT NULL;",
+    "result": {
+      "payloadCount": 34754,
+      "storedPayloadBytes": 80394566,
+      "textPayloadBytes": 130156666
+    },
+    "databaseBytes": 518569984,
+    "databaseCeilingBytes": 838860800,
+    "protectedReserveBytes": 67108864,
+    "headroomAboveReserveBytes": 253181952,
+    "transactionReadOnly": "on",
+    "verification": "SELECT/SHOW only; no database changes."
+  },
+  "productionOutputComparison": {
+    "method": "Compare unique JobG8 supplier job IDs with decision=include in each shadow selection.json.gz to unique JobG8 IDs in that date's post-review applied production output artifacts (service-admin plus support-worker). Also compare same-day newly-published JobG8 IDs from the production live-job report.",
+    "results": {
+      "2026-11-05": {
+        "shadowSelectedUniqueIds": 4946,
+        "postReviewProductionOutputUniqueIds": 4946,
+        "intersection": 4946,
+        "shadowOnly": 0,
+        "productionOnly": 0,
+        "sortedIdSetSha256": "159cc068b971f1f8e2dcc7c9f8870b4fb104c0e383b2235aec48e39a3b9f53cf",
+        "newlyPublishedJobG8Ids": 219,
+        "newlyPublishedIdsInShadowSet": 219,
+        "liveInventory": {
+          "allSources": 5396,
+          "jobG8": 4958
+        },
+        "activeJobG8CountExcessVsDailyOutput": 12
+      },
+      "2026-11-06": {
+        "shadowSelectedUniqueIds": 4904,
+        "postReviewProductionOutputUniqueIds": 4904,
+        "intersection": 4904,
+        "shadowOnly": 0,
+        "productionOnly": 0,
+        "sortedIdSetSha256": "b3cb44814274c1190f9efc0b4e42a7ae5a5a8cb67a71a0ba6b1c8afdbd7eadcf",
+        "newlyPublishedJobG8Ids": 214,
+        "newlyPublishedIdsInShadowSet": 214,
+        "liveInventory": {
+          "allSources": 5418,
+          "jobG8": 4977
+        },
+        "activeJobG8CountExcessVsDailyOutput": 73
+      }
+    },
+    "evidence": {
+      "shadowSelectorRuns": {
+        "2026-11-05": 42023032553,
+        "2026-11-06": 42199961447
+      },
+      "dailyJobG8Runs": {
+        "2026-11-05": 41987783060,
+        "2026-11-06": 42181392463
+      },
+      "postReviewRuns": {
+        "2026-11-05": 41995739952,
+        "2026-11-06": 42187655651
+      },
+      "productionAppliedOutputArtifactIds": {
+        "2026-11-05": [
+          13403005450,
+          13401419597
+        ],
+        "2026-11-06": [
+          13489862703,
+          13489793166
+        ]
+      },
+      "liveReportArtifactIds": {
+        "2026-11-05": 13403281367,
+        "2026-11-06": 13491405496
+      }
+    },
+    "interpretation": "Exact set parity is proven between the PostgreSQL-method selector results and the post-review daily JobG8 production output for both dates; all same-day newly-published JobG8 IDs are also in the corresponding tested set. This is not parity against every currently active JobG8 URL: the live report supplies counts, not a date-specific active-ID list. Active JobG8 counts exceed the daily output sets by 12 (5 Nov) and 73 (6 Nov); the existing report does not explain those extras, so an all-active-ID reconciliation needs an active listing snapshot."
+  }
+}

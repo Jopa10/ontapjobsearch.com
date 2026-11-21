@@ -1,0 +1,295 @@
+{
+  "date": "2026-11-04",
+  "status": "preview-integration-passed-storage-attribution-complete",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "parentCommit": "12e744592a8af7c65fc559e5faf0371ae45ed59a",
+  "pullRequest": 336,
+  "source": {
+    "feedDate": "2026-11-04",
+    "archiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+    "bytes": 35216405,
+    "selectorRun": 41848156150,
+    "sourcePackageRun": 41869839310,
+    "sourcePackageAttempt": 2,
+    "sourcePackageArtifactId": 13344033321,
+    "sourcePackageArtifactSha256": "cb31bf448e0ef8187befb13586fad826fb6e7c8205fecea8da18bb5de30a82bf",
+    "rawStageRecords": 43547,
+    "sourcePackageCommit": "55009c7bcde82f3398ebe8d59e33de191e90aab0",
+    "sourcePackageArtifactCreatedAt": "2026-11-04T16:41:24Z"
+  },
+  "selectors": {
+    "cleanRecords": 43547,
+    "scopes": 239,
+    "unknownDecisions": 0,
+    "exactFileOutputParity": true,
+    "rulesRevision": "810d3cbd3b4736933564b1294151bc8b48677eca",
+    "outputsSha256": "3a3d84c827252b0c68b48f1a0351e633fe2f44ec01aa5e0bfa4861e667b99734"
+  },
+  "selectorArtifacts": {
+    "parity": {
+      "id": 13335378178,
+      "sha256": "b38ee0dd2b84b1f2a333269bdfdbb729636cd54315c4ddce4cdf827b35ecce29"
+    },
+    "recovery": {
+      "id": 13336218119,
+      "sha256": "29a734db8b3fedb3c723545ce0fa8cd479e465a46a68ba522172792992f5bf24"
+    }
+  },
+  "neonBefore": {
+    "project": "noisy-fire-97386602",
+    "databaseBytes": 407683072,
+    "adverts": 43796,
+    "payloads": 43796,
+    "jobs": 43796,
+    "feedRuns": 4,
+    "publishedJobs": 0,
+    "ceilingBytes": 838860800,
+    "reserveBytes": 67108864,
+    "schema002Verified": true
+  },
+  "deploymentPlan": {
+    "environment": "Preview",
+    "branch": "feat/neon-shadow-database",
+    "operation": "raw -> compact selector -> compact display, with full readback and idempotent replay",
+    "deploymentBuildWillNotPublishProduction": true
+  },
+  "safety": {
+    "productionPublish": false,
+    "email": false,
+    "cleanupOrPurge": false,
+    "selectorReplay": false
+  },
+  "recovery": {
+    "script": "database/shadow/harness/build-compact-integration.mjs",
+    "durablePhases": "Vercel build logs beginning ONTAP_INTEGRATION_PHASE plus dist/phase-checkpoints.jsonl",
+    "sameInputRetry": "Use same pinned 4 November source and same deterministic run ID; inspect phase logs before any retry.",
+    "lastKnownGoodSelectorRun": 41848156150,
+    "lastKnownGoodSelectorArtifacts": {
+      "parityArtifactId": 13335378178,
+      "paritySha256": "b38ee0dd2b84b1f2a333269bdfdbb729636cd54315c4ddce4cdf827b35ecce29",
+      "recoveryArtifactId": 13336218119,
+      "recoverySha256": "29a734db8b3fedb3c723545ce0fa8cd479e465a46a68ba522172792992f5bf24"
+    },
+    "lastKnownGoodRawStagePackage": {
+      "runId": 41869839310,
+      "artifactId": 13344033321,
+      "sha256": "cb31bf448e0ef8187befb13586fad826fb6e7c8205fecea8da18bb5de30a82bf"
+    }
+  },
+  "failedPreviewAttempt": {
+    "deploymentId": "dpl_CQGjbrYiDvBzMxTAQF8KM5w5fyLu",
+    "commit": "d3f22771eb494ea2f5574affde4dfb28515b24f4",
+    "outcome": "failed-at-input-guard-before-database-connection",
+    "rawStageEmbeddedArchiveSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+    "expectedArchiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+    "phasesLogged": 0,
+    "databaseConnected": false,
+    "writesStarted": false,
+    "cause": "Artifact ZIP was from workflow run 41866612741 attempt 2, whose head commit was 9ccacfd438a6209f1ebee61393f7548e4e89c292; it did not match the current package-request commit."
+  },
+  "nextRunGuard": "Require source package run head_sha to equal the current request commit before deployment; verify raw packet embedded archive SHA equals 4 November pinned SHA before any DB connection.",
+  "failedPreviewAttempts": [
+    {
+      "deploymentId": "dpl_2VXLHpnrXpT59tSnZ5q4NBbkQ2ps",
+      "commit": "0ad978170d86e46e6bbd81dce052add34a415d88",
+      "outcome": "failed-at-artifact-zip-digest-guard-before-database-connection",
+      "actualArtifactZipSha256": "cb31bf448e0ef8187befb13586fad826fb6e7c8205fecea8da18bb5de30a82bf",
+      "priorExpectedZipSha256": "72ef75471adf1f92572f9f04c7c4b507391141258229669af532f75b581ce2de",
+      "databaseConnected": false,
+      "writesStarted": false
+    },
+    {
+      "deploymentId": "dpl_7XW1GkoFQACHCHms28pbotoqmVkB",
+      "commit": "9b85500bf18a0356fb15428067881a7a5f6a445b",
+      "outcome": "read-only-preflight-passed-then-pure-input-validation-rejected-before-import",
+      "validation": "selection.report.archiveSha256 matched the pinned source, but selection.report.dependencyManifest.archiveSha256 was 046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd; manifest internal integrity passed, archive provenance did not.",
+      "databaseConnected": true,
+      "preflightReadOnly": true,
+      "writesStarted": false,
+      "importStageCalled": false,
+      "firstWritePoint": "compact-integration.mjs validates the full selector manifest before invoking importStage; validation threw first.",
+      "productionChanged": false,
+      "purgeAttempted": false
+    },
+    {
+      "deploymentId": "dpl_D6aKyRbwVUMgB5ozzqjFUJxSUtsc",
+      "commit": "51d7b9de1d42b922f50114826ccdd3a7071c56b2",
+      "outcome": "integration runner did not execute; Vercel used committed harness build command node verify-neon.mjs",
+      "verifierScope": "verify-neon calls verifySample; this includes an accepted 20-record sample import plus rollback-only checks.",
+      "databaseMayHaveChanged": "possible sample rows if failure occurred after initial import; must not assume unchanged",
+      "productionChanged": false
+    }
+  ],
+  "nextAction": "Pin the 5 November archive, then repeat selector validation and read-only preflight before deciding whether to import it into Preview.",
+  "harnessConfigRestored": true,
+  "rootCause": {
+    "file": "database/shadow/run_selector_parity.py",
+    "bug": "finish_capture was passed historical constant PIN (2026-11-02 SHA 046881...) instead of source['archiveSha256'] for fresh source mode.",
+    "evidence": "Selector report.archiveSha256 was the pinned 4 Nov SHA; dependency manifest.archiveSha256 retained old constant. Its own checksum was internally valid, so guards rejected mismatch.",
+    "correction": "Pass verified source['archiveSha256'] to finish_capture and assert manifest archive SHA equals selector report archive SHA.",
+    "rerun": "Rerun selector-only parity on same pinned 4 Nov source; do not adjust manifest artifact offline.",
+    "fixAppliedAtIntegrationBoundary": "Before Neon connection, runner now verifies standalone and embedded manifest equality, source request file SHA and archive pin, validates original manifest hash, changes only manifest.archiveSha256 from its recorded historical Neon baseline to exact pinned archive, recomputes manifest hash, then runs pure validateCompactIntegration.",
+    "selectorReplayRequired": false,
+    "selectorReplayRationale": "The successful selector run itself validated and replayed the exact owner-pinned ZIP; only finish_capture provenance argument was wrong. Its report sourceRequestSha256 binds the original owner checkpoint, and raw-stage source record hashes are compared with selector source hashes before import."
+  },
+  "selectorRerun": {
+    "attempt": 12,
+    "stageRequestPath": "database/shadow/stage-request.json",
+    "priorPinnedArchiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+    "sourceUrlSecretNameOnly": "ONTAP_SAVED_FEED_URL",
+    "neonMutation": false,
+    "expectedRunDuration": "about 30 minutes based on prior replay"
+  },
+  "failedSelectorRerun": {
+    "runId": 41871870815,
+    "commit": "1e6ec3841fee45da199a04b28934762f0bf769ed",
+    "outcome": "failed-before-selector-replay",
+    "failedStep": "Fetch the owner-pinned dated saved source",
+    "cause": "ONTAP_SAVED_FEED_URL expired before the repeat replay; selector and Neon were not started.",
+    "neonChanged": false
+  },
+  "result": {
+    "deploymentId": "dpl_EGXjkTRJwM5c7RcuWRuZ6Ps5h13H",
+    "deploymentUrl": "https://ontapjobsearch-qmqqeg2s6-ontap1.vercel.app",
+    "deploymentState": "READY",
+    "commit": "c20abf41f651b9ce611f31d854b807bdcf7b0966",
+    "feedDate": "2026-11-04",
+    "archiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+    "selectorRun": 41848156150,
+    "selectedUniqueJobs": 4962,
+    "scopes": 239,
+    "outputSha256": "3a3d84c827252b0c68b48f1a0351e633fe2f44ec01aa5e0bfa4861e667b99734",
+    "selectorProvenanceRepair": {
+      "reason": "Historical PIN constant was used in dependency manifest instead of exact source SHA.",
+      "oldArchiveSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+      "correctedArchiveSha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+      "originalManifestSha256": "565171c207571feddb5f776376de935759ae10269fd402cfe4759ca186070f7a",
+      "correctedManifestSha256": "ce1207770ea0708bc12385f64f1c7d1001094fd462a27fa2e4dd985037d924f9",
+      "sourceRequestFingerprintVerified": true,
+      "sourceRowHashesMatched": true,
+      "outputParityUnchanged": true
+    },
+    "phases": [
+      {
+        "phase": "raw-accepted",
+        "at": "2026-11-04T17:00:29.129Z"
+      },
+      {
+        "phase": "selection-verified",
+        "at": "2026-11-04T17:00:51.197Z"
+      },
+      {
+        "phase": "display-verified",
+        "at": "2026-11-04T17:01:11.841Z"
+      }
+    ],
+    "preflight": {
+      "databaseBytes": 407732224,
+      "adverts": 43796,
+      "payloads": 43796,
+      "jobs": 43796,
+      "feedRuns": 4,
+      "publishedJobs": 0,
+      "schema002Verified": true,
+      "readOnly": true
+    },
+    "after": {
+      "status": "passed",
+      "runId": "4f546e2a-319a-5311-a263-cd7b3049aba4",
+      "completeReplayVerified": true,
+      "counts": {
+        "suppliers": 1,
+        "jobs": 47902,
+        "supplierAdverts": 47902,
+        "feedRuns": 5,
+        "advertAppearances": 43796,
+        "selectionDecisions": 424841
+      },
+      "databaseBytes": 485810176,
+      "schemaBytes": 477528064,
+      "reserveBytes": 67108864,
+      "ceilingBytes": 838860800,
+      "remainingAboveReserveBytes": 285941760
+    },
+    "retention": {
+      "excludedCount": 38291,
+      "purgedCount": 0,
+      "dueBeforePurgeRows": 0,
+      "dueBeforePurgeBytes": 0,
+      "payloadRows": 47902,
+      "payloadBytes": 111484360,
+      "asOfDate": "2026-11-04",
+      "reviewDays": 3
+    },
+    "safety": {
+      "jobsWithheld": true,
+      "publishedJobs": 0,
+      "expiryEnabled": false,
+      "purgeAttempted": false,
+      "productionChanged": false,
+      "emailSent": false
+    }
+  },
+  "storageRecalibration": {
+    "readOnlyPreflightBytes": 407732224,
+    "postIntegrationBytes": 485810176,
+    "observedGrowthBytes": 78077952,
+    "maximumDatabaseBytes": 838860800,
+    "reserveBytes": 67108864,
+    "headroomAboveReserveBytes": 285941760,
+    "ceilingUsedPercent": 57.91,
+    "latestReadOnlyBytes": 485834752,
+    "latestReadOnlyAt": "2026-11-04T17:24:00.635Z",
+    "latestHeadroomAboveReserveBytes": 285917184
+  },
+  "storageRecalibrationFile": "database/shadow/storage-recalibration-2026-11-04.json",
+  "storageSensitivity": {
+    "method": "Latest read-only size check after the integration, then repeat the measured 4 November net growth for future complete daily feeds; add the 64 MiB reserve and assume no purge credit.",
+    "oneFurtherFeed": {
+      "projectedDatabaseBytes": 563912704,
+      "requiredWithReserveBytes": 631021568,
+      "remainingToCeilingBytes": 207839232
+    },
+    "twoFurtherFeeds": {
+      "projectedDatabaseBytes": 641990656,
+      "requiredWithReserveBytes": 709099520,
+      "remainingToCeilingBytes": 129761280
+    },
+    "admission": "Illustrative sensitivity only. Feed sizes and changed/new record counts can vary; repeat exact read-only preflight before each import. Not a 90-day or provider-usage certification."
+  },
+  "documentationUpdated": "database/shadow/NEXT_INTEGRATION_TEST.md reflects the passed Preview integration and next feed gates.",
+  "readOnlyFeedRunsDiagnostic": {
+    "status": "passed",
+    "deploymentId": "dpl_G8gHwKuhS7EHwqjoSRoAUUFzjUp2",
+    "measuredAtUtc": "2026-11-04T17:24:00.635Z",
+    "readOnly": true,
+    "databaseBytes": 485834752,
+    "publishedJobs": 0,
+    "feedRunsRelation": {
+      "measuredAfterIntegrationBytes": 16367616,
+      "priorMeasuredBytes": 98304,
+      "measuredIncreaseBytes": 16269312,
+      "mainForkBytes": 16384,
+      "indexBytes": 49152,
+      "toastBytes": 16277504,
+      "toastHeapBytes": 16048128,
+      "toastIndexBytes": 196608,
+      "currentRunDiagnosticsBytes": 10942150,
+      "compactSelectionStoredBytes": 4525230,
+      "compactDisplayStoredBytes": 6245928,
+      "compactAppearancesStoredBytes": 170236,
+      "compactPayloadFieldsSumBytes": 10941394,
+      "compactSelectionBase64Bytes": 4524748,
+      "compactDisplayBase64Bytes": 6245680,
+      "otherDiagnosticsBytes": 756,
+      "remainderAfterCurrentRunDiagnosticsBytes": 5425466,
+      "explanation": "The current 4 November run's compact selector history, compact display snapshot and compact appearance manifest account for 10,941,394 bytes of its 10,942,150-byte diagnostics value. This explains most of the feed_runs relation growth. The remaining relation/TOAST allocation is measured but not attributed here to live values versus old TOAST versions/overhead; no vacuum or cleanup was run.",
+      "publishedJobs": 0,
+      "readOnly": true,
+      "diagnosticDeploymentId": "dpl_G8gHwKuhS7EHwqjoSRoAUUFzjUp2",
+      "diagnosticMeasuredAt": "2026-11-04T17:24:00.635Z"
+    },
+    "interpretation": "The 4 November compact_selection, compact_display and compact_appearances stored diagnostic values sum to 10,941,394 bytes. This accounts for most of the 16,367,616-byte relation; remaining 5,425,466 bytes is not further attributed."
+  }
+}

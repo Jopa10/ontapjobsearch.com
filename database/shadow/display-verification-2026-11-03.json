@@ -1,0 +1,27 @@
+{
+  "outputs_sha256": "c2b1c7710151669e4592b0954ec6023ddd250638ebbf9eb00aeda6959b02ae83",
+  "scopes": 239,
+  "selectedDecisionRows": 5821,
+  "source": "verified production selector outputs",
+  "beforeBytes": 390012928,
+  "afterBytes": 407306240,
+  "replayed": false,
+  "status": "passed",
+  "duplicateProtectionPassed": true,
+  "uniqueJobs": 4884,
+  "jobDetailPages": 4884,
+  "scope": "Database-backed saved JobG8 family display preview; city derivation and final publisher unverified",
+  "productionChanged": false,
+  "deploymentId": "dpl_CrdoMGjyLYY7i3gszcJVrJiyghZm",
+  "deploymentUrl": "https://ontapjobsearch-ot0bj3nlo-ontap1.vercel.app",
+  "sourceArtifactId": 13183730978,
+  "sourceRunId": 41530087079,
+  "productionDeploymentUnchanged": "dpl_EYL6UPXQyg8BHAZpcZHGTWe7MDwb",
+  "httpSample": {
+    "jobId": "23643_225396424",
+    "status": 200,
+    "titleMatched": true,
+    "salaryMatched": true,
+    "noindex": true
+  }
+}

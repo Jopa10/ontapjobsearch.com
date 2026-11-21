@@ -1,0 +1,367 @@
+{
+  "date": "2026-11-05",
+  "status": "5-nov-preview-integration-complete",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "pullRequest": 336,
+  "branchHeadBeforeCheckpoint": "e925951c5159e05fc4b89fa4e7e84ac847896a15",
+  "sourceChecksumPrerequisiteResolved": true,
+  "pinnedSavedSource": {
+    "evidenceSource": "Owner CloudShell head-object and sha256sum output supplied 2026-11-05",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "region": "eu-west-2",
+    "s3Sources": {
+      "2026-11-05": {
+        "key": "jobg8/raw/2026-11-05.zip",
+        "bytes": 35093994,
+        "etag": "\"6f9830213c9956b05435f69d59bce540-5\"",
+        "lastModified": "2026-11-05T07:50:24+00:00",
+        "sha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d"
+      }
+    },
+    "expectedCurrentCounts": {
+      "sourceRows": 43391,
+      "uniqueSupplierIds": 43389,
+      "exactRepeatRows": 0,
+      "conflictingIdsHeld": [
+        "1401785815",
+        "1401786160"
+      ],
+      "cleanRecords": 43387
+    },
+    "note": "Object size, ETag and LastModified were supplied from CloudShell head-object. SHA-256 was supplied from CloudShell sha256sum. Owner reports ONTAP_SAVED_FEED_URL updated for this object; selector workflow must still verify downloaded byte count and SHA-256. Counts remain to be captured from this exact pinned archive during selector validation.",
+    "archiveChecksums": {
+      "current": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d"
+    },
+    "originalNeonSourceSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd"
+  },
+  "selectorWorkflowStarted": false,
+  "neonMutationBeforeSelectorParity": false,
+  "productionChanged": false,
+  "next": "On 6 November, inspect this checkpoint and current branch/PR/workflow state. When the saved feed exists, pin that exact archive, validate selector parity, then run read-only Neon preflight. Do not rerun 5 November selector or integration.",
+  "secretUpdateReportedByOwner": true,
+  "selectorParity": {
+    "runId": 42023032553,
+    "workflow": "Isolated Neon JobG8 shadow tests",
+    "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/42023032553",
+    "triggerCommit": "8bca60e82c6df07dda33d7fc47129934efb884c0",
+    "rulesRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
+    "sourceRequestSha256": "9ac9b678c9a9ae4493373a8ec4abfe129003a28b27f432fc1cdec6178a1cc99d",
+    "archiveSha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d",
+    "outputsSha256": "b4f3950d3cc1f1ea1fdbaa100b8fdf47a39703a2fc83043b40022d677777a6a2",
+    "scopes": 239,
+    "exactFileOutputParity": true,
+    "selectedUniqueJobs": 4946,
+    "unknowns": 0,
+    "receipt": {
+      "sourceRows": 43391,
+      "uniqueSupplierIds": 43389,
+      "exactRepeatRows": 0,
+      "conflictingIdsHeld": [
+        "1401785815",
+        "1401786160"
+      ],
+      "cleanRecords": 43387
+    },
+    "artifactIds": {
+      "selectionParity": {
+        "id": 13414222935,
+        "expiresAt": "2026-11-12T12:28:27Z"
+      },
+      "selectorRecovery": {
+        "id": 13415015292,
+        "expiresAt": "2026-11-07T12:28:29Z"
+      }
+    },
+    "safety": {
+      "selectorReplayOnly": true,
+      "neonWrite": false,
+      "productionChanged": false,
+      "emailSent": false
+    }
+  },
+  "readOnlyNeonPreflight": {
+    "status": "passed",
+    "deploymentId": "dpl_2Rp4W183qRtBQJFAmSdFupDrw1Xa",
+    "deploymentUrl": "https://ontapjobsearch-d9ounsy70-ontap1.vercel.app",
+    "sourceCommit": "7e88c839a34d29059d53006a9b36982352aea048",
+    "observedAt": "2026-11-05T12:36:08.190Z",
+    "readOnly": true,
+    "transactionReadOnly": "on",
+    "databaseBytes": 485834752,
+    "ceilingBytes": 838860800,
+    "protectedReserveBytes": 67108864,
+    "headroomAboveReserveBytes": 285917184,
+    "storageForecastPriorIntegrationGrowth": 78077952,
+    "illustrativeHeadroomAfterSameGrowth": 207839232,
+    "noPurgeCredit": true,
+    "feedRuns": {
+      "live": 5,
+      "dead": 9,
+      "bytes": 16367616
+    },
+    "supplierAdverts": {
+      "rows": 47902,
+      "bytes": 219226112,
+      "payloadRows": 47902,
+      "payloadBytes": 111484360,
+      "payloadJsonTextBytes": 180471642,
+      "feedDateRange": [
+        "2026-11-02",
+        "2026-11-04"
+      ],
+      "inactiveRows": 0
+    },
+    "jobs": {
+      "withheld": 47902,
+      "bytes": 9274466
+    },
+    "selectorPayloadBreakdown": {
+      "latestSelectorFeedDate": "2026-11-02",
+      "fullyExcluded": {
+        "rows": 38633,
+        "bytes": 89249552
+      },
+      "otherDecided": {
+        "rows": 5163,
+        "bytes": 12406699
+      },
+      "withoutCompleteSelector": {
+        "rows": 4106,
+        "bytes": 9828109
+      }
+    },
+    "tableBytes": {
+      "selection_decisions": 207036416,
+      "jobs": 25944064,
+      "advert_appearances": 8708096
+    },
+    "safety": {
+      "noDatabaseWrite": true,
+      "productionChanged": false,
+      "jobsPublished": false,
+      "emailSent": false,
+      "expiryEnabled": false,
+      "purgeExecuted": false
+    }
+  },
+  "retentionSafetyReview": {
+    "status": "guard-added",
+    "finding": "compact-integration.mjs now explicitly calls applyExcludeReviewWindow with purgeDuePayloads:false. The helper retains its prior default for other callers; this integration cannot issue the payload-clearing UPDATE.",
+    "commits": [
+      "b188a628b518d80d3b6ec3b4f845402449957fda",
+      "7616b1114952b94265bbb6e4e7106da659260183"
+    ],
+    "noPurgeInIntegration": true,
+    "purgeExecuted": false,
+    "expiryEnabled": false
+  },
+  "integrationSourcePackage": {
+    "status": "passed",
+    "runId": 42029634762,
+    "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/42029634762",
+    "retryAttempt": 2,
+    "jobId": 127255282171,
+    "artifactId": 13415213643,
+    "artifactName": "neon-shadow-integration-source-2026-11-05",
+    "artifactZipSha256": "76dda805bf5930da1793697bb4ca180beb9ca6011712d122d004d0328cd2b241",
+    "artifactExpiresAt": "2026-11-07T12:50:14Z",
+    "verifiedRawStage": {
+      "archiveDate": "2026-11-05",
+      "archiveSha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d",
+      "sourceRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
+      "percentage": 100,
+      "totalReceived": 43391,
+      "eligibleRecords": 43387,
+      "rawPayloadBytes": 162988947,
+      "receiptDiagnostics": {
+        "sourceRows": 43391,
+        "uniqueSupplierIds": 43389,
+        "exactRepeatRows": 0,
+        "conflictingIdsHeld": [
+          "1401785815",
+          "1401786160"
+        ]
+      }
+    },
+    "selectorArtifact": {
+      "runId": 42023032553,
+      "id": 13414222935,
+      "sha256": "657e1ce3d1f6915984fd1ba8b3dbbe63bec91bf0c06c73f2b2fb20dad1cb1591"
+    },
+    "recoveryArtifact": {
+      "id": 13415015292,
+      "sha256": "14a5771c30eae98eaf595d385d3694f23ba1d45bbebcab726c8f1e93dc61e4fb"
+    },
+    "neonImportStarted": false,
+    "productionChanged": false
+  },
+  "safety": {
+    "sourcePackageFailedBeforeArtifact": true,
+    "neonImportStarted": false,
+    "productionChanged": false,
+    "emailSent": false,
+    "purgeExecuted": false,
+    "expiryEnabled": false,
+    "jobsPublished": false
+  },
+  "previewRunner": {
+    "status": "prepared",
+    "runnerPath": "database/shadow/harness/build-compact-integration.mjs",
+    "sourceCommit": "267f4fcae2d0467a2182a6d8c41547562945e73d",
+    "projectId": "prj_sLI0SohbF03NrRFj6yZyuN8mOOZB",
+    "teamId": "team_xjm8VOa1951ZXxawa7UFF2gd",
+    "branch": "feat/neon-shadow-database",
+    "projectGuard": "noisy-fire-97386602",
+    "databaseBaseline": {
+      "bytes": 485834752,
+      "adverts": 47902,
+      "payloads": 47902,
+      "jobs": 47902,
+      "feedRuns": 5,
+      "publishedJobs": 0,
+      "ceilingBytes": 838860800,
+      "reserveBytes": 67108864
+    },
+    "sourcePins": {
+      "archiveDate": "2026-11-05",
+      "archiveSha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d",
+      "rulesRevision": "8bca60e82c6df07dda33d7fc47129934efb884c0",
+      "outputSha256": "b4f3950d3cc1f1ea1fdbaa100b8fdf47a39703a2fc83043b40022d677777a6a2",
+      "sourceRows": 43391,
+      "cleanRecords": 43387,
+      "scopes": 239,
+      "selectedUniqueJobs": 4946
+    },
+    "artifactZipSha256": {
+      "raw": "76dda805bf5930da1793697bb4ca180beb9ca6011712d122d004d0328cd2b241",
+      "parity": "657e1ce3d1f6915984fd1ba8b3dbbe63bec91bf0c06c73f2b2fb20dad1cb1591",
+      "recovery": "14a5771c30eae98eaf595d385d3694f23ba1d45bbebcab726c8f1e93dc61e4fb"
+    },
+    "guards": {
+      "previewOnly": true,
+      "branchExact": true,
+      "neonProjectExact": true,
+      "publishedJobsMustBeZero": true,
+      "expectedBaselineExact": true,
+      "storageReserveEnforced": true,
+      "expiryEnabled": false,
+      "purgeDuePayloads": false
+    },
+    "localValidation": {
+      "nodeSyntaxCheck": "passed for build-compact-integration.mjs, compact-integration.mjs, exclude-retention.mjs",
+      "purgeCallDisabled": "compact integration passes purgeDuePayloads:false"
+    },
+    "safety": {
+      "neonImportStarted": false,
+      "productionChanged": false,
+      "jobsPublished": false,
+      "emailSent": false,
+      "purgeExecuted": false
+    },
+    "buildCommand": "node build-compact-integration.mjs",
+    "outputDirectory": "dist",
+    "artifactVariablesBranchScoped": true,
+    "deploymentOverrideFinding": "Per-deployment buildCommand was ignored because committed vercel.json took precedence; vercel.json has now been updated explicitly."
+  },
+  "previewIntegration": {
+    "date": "2026-11-05",
+    "status": "passed",
+    "deploymentId": "dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq",
+    "deploymentUrl": "https://ontapjobsearch-176ds8cae-ontap1.vercel.app",
+    "sourceCommit": "15f38c73508a7607e3ff5405d3c7d36123d89dbf",
+    "runId": "714c55e3-0e3c-56b2-9d9f-83ddb62d1b8f",
+    "receiptUrl": "https://ontapjobsearch-176ds8cae-ontap1.vercel.app/integration-result.json",
+    "selectorRun": 42023032553,
+    "archive": {
+      "feedDate": "2026-11-05",
+      "bytes": 35093994,
+      "sha256": "866570e8e23c38863292dc3f1fedc1518a18d750012c4449b7a208e7c51d019d"
+    },
+    "selector": {
+      "sourceRows": 43391,
+      "cleanRecords": 43387,
+      "scopes": 239,
+      "selectedUniqueJobs": 4946,
+      "unknowns": 0,
+      "outputSha256": "b4f3950d3cc1f1ea1fdbaa100b8fdf47a39703a2fc83043b40022d677777a6a2"
+    },
+    "storage": {
+      "beforeBytes": 485834752,
+      "afterBytes": 518569984,
+      "netGrowthBytes": 32735232,
+      "ceilingBytes": 838860800,
+      "reserveBytes": 67108864,
+      "headroomAboveReserveBeforeBytes": 285917184,
+      "headroomAboveReserveAfterBytes": 253181952
+    },
+    "readback": {
+      "completeReplayVerified": true,
+      "jobs": 50252,
+      "supplierAdverts": 50252,
+      "feedRuns": 6,
+      "publishedJobs": 0,
+      "payloadRows": 50252,
+      "payloadBytes": 117114518
+    },
+    "retention": {
+      "excludedMarked": 38138,
+      "duePayloadRows": 0,
+      "purgedRows": 0,
+      "purgeDuePayloads": false,
+      "expiryEnabled": false
+    },
+    "previousSnapshot": {
+      "jobs": 47902,
+      "adverts": 47902,
+      "feedRuns": 5
+    },
+    "safety": {
+      "jobsWithheld": true,
+      "productionChanged": false,
+      "emailSent": false,
+      "purgeExecuted": false,
+      "expiryEnabled": false
+    }
+  },
+  "previewIntegrationDeploymentAttempts": [
+    {
+      "id": "dpl_8KZXJcAf7we8xRoaLwzRmiBWb7uZ",
+      "result": "read-only retention audit ran; no DB changes"
+    },
+    {
+      "id": "dpl_9qRMfbFC8oja2LFZZpvFnh3DBGMF",
+      "result": "cancelled before build after detecting wrong project root; no integration phase"
+    },
+    {
+      "id": "dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq",
+      "result": "passed compact Preview integration"
+    }
+  ],
+  "cleanup": {
+    "status": "complete",
+    "previewArtifactUrlVariablesCleared": true,
+    "variableKeys": [
+      "ONTAP_INTEGRATION_RAW_STAGE_URL",
+      "ONTAP_INTEGRATION_PARITY_URL",
+      "ONTAP_INTEGRATION_RECOVERY_URL"
+    ],
+    "scope": "Preview only, feat/neon-shadow-database",
+    "harnessVercelBuildRestored": "node measure-retention.mjs",
+    "outputDirectory": "retention-dist",
+    "productionEnvChanged": false
+  },
+  "finalVerification": {
+    "pullRequest": 336,
+    "pullRequestState": "open",
+    "merged": false,
+    "deploymentId": "dpl_6cmnV7csw5GdiatNVaWmHqSHBXNq",
+    "deploymentState": "READY",
+    "target": "Preview; Vercel target null",
+    "jobsPublished": 0,
+    "productionChanged": false,
+    "emailSent": false,
+    "purgeExecuted": false,
+    "expiryEnabled": false
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-04",
+  "status": "november_4_selector_parity_passed_storage_admission_pending",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "pullRequest": 336,
+  "preparedFromHead": "d1227bfcc432cabb06977e423a0d2f7983ee166a",
+  "context": {
+    "priorAttemptRunId": 41836073962,
+    "priorAttemptOutcome": "failed before selector replay because current 2026-11-03 S3 object no longer matched the pinned bytes/SHA256",
+    "priorAttemptSelectorStarted": false,
+    "priorAttemptNeonChanged": false,
+    "branchHeadAtCheck": "d1227bfcc432cabb06977e423a0d2f7983ee166a",
+    "draftPrOpen": true
+  },
+  "approvedNextSource": {
+    "feedDate": "2026-11-04",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "region": "eu-west-2",
+    "key": "jobg8/raw/2026-11-04.zip",
+    "bytes": 35216405,
+    "etag": "\"0a16efd3ba33a6018e721d5ef52605a5-5\"",
+    "lastModified": "2026-11-04T07:59:10+00:00",
+    "sha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+    "sourceRows": null,
+    "cleanRecords": null,
+    "conflictingIdsHeld": null,
+    "fingerprintStatus": "owner CloudShell head-object and downloaded-file SHA-256 verified"
+  },
+  "neonBaseline": {
+    "deploymentId": "dpl_2cc1SchxPFFGdQ8xUhE1oGm2hgJo",
+    "measuredBytes": 407363584,
+    "payloadRows": 43796,
+    "fullyExcludedPayloadRows": 38633,
+    "fullyExcludedPayloadBytes": 89251788,
+    "readOnly": true
+  },
+  "guardrails": {
+    "selectorParityOnlyFirst": true,
+    "noNeonMutationBeforeParityAndCombinedHeadroomReview": true,
+    "jobsWithheld": true,
+    "expiryDisabled": true,
+    "productionFileBased": true,
+    "noCutoverMergeCleanupIngestionEmailsOrPaidUpgrade": true,
+    "doNotRepeatSizingProbesOldSelectorReplaysArchiveUploadsOrTurnoverComparisons": true
+  },
+  "nextActions": [
+    "Calculate fresh-feed raw turnover and combined raw/selection/display storage headroom against the unchanged Neon baseline of 407363584 bytes, preserving the 64 MiB reserve.",
+    "Read-only verify current Neon table and payload counts before considering the separate Preview-only migration 002 and compact integration.",
+    "Only proceed with Neon writes if the updated combined forecast fits the existing 800 MiB cap; keep jobs withheld and expiry disabled.",
+    "Do not force the real three-day purge: this source date is 2026-11-04 and no rows have aged through the policy window."
+  ],
+  "updatedAtUtc": "2026-11-04T14:02:00Z",
+  "branchHeadBeforeSourcePin": "4dfd6bfc0e1d097acdf4c56f6fa4f6394b03eb6e",
+  "request": {
+    "path": "database/shadow/stage-request.json",
+    "archiveDate": "2026-11-04",
+    "mode": "fresh_selection_parity",
+    "attempt": 10,
+    "sourceRevision": "a828536b62928d5c287fa9e18aa7924769851e29"
+  },
+  "workflowSafety": {
+    "workflow": ".github/workflows/test-neon-jobg8-staged.yml",
+    "operation": "download exact owner-pinned archive; verify SHA and size; run isolated selector parity only",
+    "expectedDatabaseWrites": false,
+    "expectedSupplierFetch": false,
+    "secretNameOnly": "ONTAP_SAVED_FEED_URL",
+    "secretValueRecorded": false,
+    "ownerConfirmedSecretUpdated": true
+  },
+  "recovery": [
+    "Workflow is triggered only by committing the updated stage-request.json.",
+    "Monitor the resulting GitHub Actions run; inspect its artifact/report before proceeding.",
+    "No Neon mutation occurs in this selector-only run.",
+    "Only after exact selector evidence and combined storage headroom pass, plan a separate Preview-only Neon integration.",
+    "Keep jobs withheld, expiry disabled, and production file-based."
+  ],
+  "checkpointSavedBeforeRemoteExecution": true,
+  "priorCheckpointHead": "142aae849e3daaa4df35af9200cf8cd2a1408c56",
+  "sourcePin": {
+    "date": "2026-11-04",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "key": "jobg8/raw/2026-11-04.zip",
+    "bytes": 35216405,
+    "etag": "\"0a16efd3ba33a6018e721d5ef52605a5-5\"",
+    "lastModified": "2026-11-04T07:59:10+00:00",
+    "sha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06"
+  },
+  "failedAttempts": [
+    {
+      "attempt": 10,
+      "runId": 41847569371,
+      "commit": "c395fde1e6f7092d2aff1641e232e0d5cc6284c7",
+      "outcome": "failed before selector replay",
+      "archiveDownloaded": true,
+      "archiveSha256Verified": true,
+      "downloadedBytes": 35216405,
+      "focusedWorkflowGuardsPassed": true,
+      "selectorReplayStarted": false,
+      "neonChanged": false,
+      "cause": "The workflow used a nested PYDATE heredoc inside a shell command substitution; YAML indentation prevented the delimiter from being recognized, so bash exited with unexpected EOF.",
+      "artifacts": [],
+      "recovery": "Replace the nested heredoc with the already validated archiveDate output from the request-resolution step, then checkpoint and retry the same pinned source."
+    }
+  ],
+  "retryPlan": {
+    "attempt": 11,
+    "workflowFixCommit": "4311d16b39f73a9edf62d646f8f8a2775781b6ee",
+    "localChecksPassed": [
+      "YAML parsed",
+      "validated archiveDate output produced",
+      "no nested date heredoc remains"
+    ],
+    "secretNameOnly": "ONTAP_SAVED_FEED_URL",
+    "ownerConfirmedSecretUpdated": true,
+    "sourcePinUnchanged": true,
+    "expectedDatabaseWrites": false
+  },
+  "selectorRun": {
+    "attempt": 11,
+    "runId": 41848156150,
+    "runUrl": "https://github.com/Jopa10/ontapjobsearch.com/actions/runs/41848156150",
+    "triggerCommit": "810d3cbd3b4736933564b1294151bc8b48677eca",
+    "conclusion": "success",
+    "startedAt": "2026-11-04T14:30:52.233954+00:00",
+    "finishedAt": "2026-11-04T15:02:30.092755+00:00",
+    "selectorRevision": "810d3cbd3b4736933564b1294151bc8b48677eca",
+    "sourceRequestSha256": "ee019e4df2c2a58935922896f6d72e0911a78e6928c6a18f278e5bca70d97b9f",
+    "dependencyManifestSha256": "565171c207571feddb5f776376de935759ae10269fd402cfe4759ca186070f7a",
+    "outputSha256": "3a3d84c827252b0c68b48f1a0351e633fe2f44ec01aa5e0bfa4861e667b99734",
+    "sourceRows": 43551,
+    "uniqueSupplierIds": 43549,
+    "exactRepeatRows": 0,
+    "conflictingIdsHeld": [
+      "1401785815",
+      "1401786160"
+    ],
+    "cleanRecords": 43547,
+    "selectedUniqueJobs": 4962,
+    "scopes": 239,
+    "unknownDecisions": 0,
+    "exactFileOutputParity": true,
+    "runtimeCaptured": true,
+    "sourceUnchanged": true,
+    "outcomes": {
+      "admin_service": {
+        "exclude": 40157,
+        "include": 3222,
+        "review": 168
+      },
+      "support_worker": {
+        "exclude": 43025,
+        "include": 359,
+        "review": 163
+      },
+      "customer_sales": {
+        "exclude": 43128,
+        "include": 419
+      },
+      "finance_accounts": {
+        "exclude": 42539,
+        "include": 1008
+      },
+      "hr_recruitment": {
+        "exclude": 43410,
+        "include": 137
+      },
+      "marketing": {
+        "exclude": 43142,
+        "include": 405
+      },
+      "legal_assistant_paralegal": {
+        "exclude": 43290,
+        "include": 257
+      },
+      "customer_service_contact_centre": {
+        "exclude": 43450,
+        "include": 86,
+        "review": 11
+      }
+    },
+    "neonChanged": false,
+    "productionChanged": false
+  },
+  "resultReport": "database/shadow/selection-verification-2026-11-04.json",
+  "artifacts": [
+    {
+      "name": "neon-shadow-selection-parity",
+      "id": 13335378178,
+      "sizeBytes": 4390288,
+      "expiresAt": "2026-11-11T15:02:36Z",
+      "sha256": "b38ee0dd2b84b1f2a333269bdfdbb729636cd54315c4ddce4cdf827b35ecce29"
+    },
+    {
+      "name": "neon-shadow-selector-recovery",
+      "id": 13336218119,
+      "sizeBytes": 11227227,
+      "expiresAt": "2026-11-06T15:02:38Z",
+      "sha256": "29a734db8b3fedb3c723545ce0fa8cd479e465a46a68ba522172792992f5bf24"
+    }
+  ]
+}

@@ -1,0 +1,1217 @@
+{
+  "snapshotDate": "2026-11-02",
+  "regionalOutputs": 239,
+  "activeCities": [
+    {
+      "city_key": "newcastle-service-administrator",
+      "route": "/newcastle/service-administrator-jobs",
+      "jobs": 18,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "southampton-support-worker",
+      "route": "/southampton/support-worker",
+      "jobs": 2,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "sheffield-service-administrator-jobs",
+      "route": "/sheffield/service-administrator-jobs",
+      "jobs": 24,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "leeds-service-administrator-jobs",
+      "route": "/leeds/service-administrator-jobs",
+      "jobs": 93,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "coventry-service-administrator-jobs",
+      "route": "/coventry/service-administrator-jobs",
+      "jobs": 19,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "southampton-service-administrator-jobs",
+      "route": "/southampton/service-administrator-jobs",
+      "jobs": 11,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "brighton-hove-service-administrator-jobs",
+      "route": "/brighton-hove/service-administrator-jobs",
+      "jobs": 7,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "bradford-service-administrator-jobs",
+      "route": "/bradford/service-administrator-jobs",
+      "jobs": 26,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "huddersfield-service-administrator-jobs",
+      "route": "/huddersfield/service-administrator-jobs",
+      "jobs": 19,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "york-service-administrator-jobs",
+      "route": "/york/service-administrator-jobs",
+      "jobs": 10,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "barnsley-service-administrator-jobs",
+      "route": "/barnsley/service-administrator-jobs",
+      "jobs": 10,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "doncaster-service-administrator-jobs",
+      "route": "/doncaster/service-administrator-jobs",
+      "jobs": 16,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "bristol-service-administrator-jobs",
+      "route": "/bristol/service-administrator-jobs",
+      "jobs": 58,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "manchester-service-administrator-jobs",
+      "route": "/manchester/service-administrator-jobs",
+      "jobs": 124,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "cambridge-service-administrator-jobs",
+      "route": "/cambridge/service-administrator-jobs",
+      "jobs": 21,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "birmingham-service-administrator-jobs",
+      "route": "/birmingham/service-administrator-jobs",
+      "jobs": 103,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "peterborough-service-administrator-jobs",
+      "route": "/peterborough/service-administrator-jobs",
+      "jobs": 23,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "warrington-service-administrator-jobs",
+      "route": "/warrington/service-administrator-jobs",
+      "jobs": 24,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "liverpool-service-administrator-jobs",
+      "route": "/liverpool/service-administrator-jobs",
+      "jobs": 46,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "hull-service-administrator-jobs",
+      "route": "/hull/service-administrator-jobs",
+      "jobs": 17,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "oxford-service-administrator-jobs",
+      "route": "/oxford/service-administrator-jobs",
+      "jobs": 4,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "belfast-service-administrator-jobs",
+      "route": "/belfast/service-administrator-jobs",
+      "jobs": 7,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "glasgow-service-administrator-jobs",
+      "route": "/glasgow/service-administrator-jobs",
+      "jobs": 35,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "edinburgh-service-administrator-jobs",
+      "route": "/edinburgh/service-administrator-jobs",
+      "jobs": 26,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "cardiff-service-administrator-jobs",
+      "route": "/cardiff/service-administrator-jobs",
+      "jobs": 18,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "exeter-service-administrator-jobs",
+      "route": "/exeter/service-administrator-jobs",
+      "jobs": 20,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "milton-keynes-service-administrator-jobs",
+      "route": "/milton-keynes/service-administrator-jobs",
+      "jobs": 23,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "farnham-service-administrator-jobs",
+      "route": "/farnham/service-administrator-jobs",
+      "jobs": 4,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "northampton-service-administrator-jobs",
+      "route": "/northampton/service-administrator-jobs",
+      "jobs": 17,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "poole-service-administrator-jobs",
+      "route": "/poole/service-administrator-jobs",
+      "jobs": 8,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "portsmouth-service-administrator-jobs",
+      "route": "/portsmouth/service-administrator-jobs",
+      "jobs": 11,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "stoke-on-trent-service-administrator-jobs",
+      "route": "/stoke-on-trent/service-administrator-jobs",
+      "jobs": 4,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "hemel-hempstead-service-administrator-jobs",
+      "route": "/hemel-hempstead/service-administrator-jobs",
+      "jobs": 6,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "basingstoke-service-administrator-jobs",
+      "route": "/basingstoke/service-administrator-jobs",
+      "jobs": 7,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "chelmsford-service-administrator-jobs",
+      "route": "/chelmsford/service-administrator-jobs",
+      "jobs": 15,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "gloucester-service-administrator-jobs",
+      "route": "/gloucester/service-administrator-jobs",
+      "jobs": 9,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "leicester-service-administrator-jobs",
+      "route": "/leicester/service-administrator-jobs",
+      "jobs": 22,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "maidstone-service-administrator-jobs",
+      "route": "/maidstone/service-administrator-jobs",
+      "jobs": 5,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "newtownabbey-service-administrator-jobs",
+      "route": "/newtownabbey/service-administrator-jobs",
+      "jobs": 0,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "plymouth-service-administrator-jobs",
+      "route": "/plymouth/service-administrator-jobs",
+      "jobs": 5,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "sunderland-service-administrator-jobs",
+      "route": "/sunderland/service-administrator-jobs",
+      "jobs": 2,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "worcester-service-administrator-jobs",
+      "route": "/worcester/service-administrator-jobs",
+      "jobs": 1,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "altrincham-service-administrator-jobs",
+      "route": "/altrincham/service-administrator-jobs",
+      "jobs": 16,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "ashford-service-administrator-jobs",
+      "route": "/ashford/service-administrator-jobs",
+      "jobs": 8,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "aylesbury-service-administrator-jobs",
+      "route": "/aylesbury/service-administrator-jobs",
+      "jobs": 5,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "bedford-service-administrator-jobs",
+      "route": "/bedford/service-administrator-jobs",
+      "jobs": 3,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "bournemouth-service-administrator-jobs",
+      "route": "/bournemouth/service-administrator-jobs",
+      "jobs": 4,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "chester-le-street-service-administrator-jobs",
+      "route": "/chester-le-street/service-administrator-jobs",
+      "jobs": 0,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "macclesfield-service-administrator-jobs",
+      "route": "/macclesfield/service-administrator-jobs",
+      "jobs": 10,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "rotherham-service-administrator-jobs",
+      "route": "/rotherham/service-administrator-jobs",
+      "jobs": 3,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "scarborough-service-administrator-jobs",
+      "route": "/scarborough/service-administrator-jobs",
+      "jobs": 3,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "shrewsbury-service-administrator-jobs",
+      "route": "/shrewsbury/service-administrator-jobs",
+      "jobs": 4,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "warwick-service-administrator-jobs",
+      "route": "/warwick/service-administrator-jobs",
+      "jobs": 17,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "wigston-service-administrator-jobs",
+      "route": "/wigston/service-administrator-jobs",
+      "jobs": 0,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "dartford-service-administrator-jobs",
+      "route": "/dartford/service-administrator-jobs",
+      "jobs": 13,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "stockport-service-administrator-jobs",
+      "route": "/stockport/service-administrator-jobs",
+      "jobs": 17,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "swansea-service-administrator-jobs",
+      "route": "/swansea/service-administrator-jobs",
+      "jobs": 7,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "walsall-service-administrator-jobs",
+      "route": "/walsall/service-administrator-jobs",
+      "jobs": 13,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "bath-service-administrator-jobs",
+      "route": "/bath/service-administrator-jobs",
+      "jobs": 4,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "eastleigh-service-administrator-jobs",
+      "route": "/eastleigh/service-administrator-jobs",
+      "jobs": 4,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "harrogate-service-administrator-jobs",
+      "route": "/harrogate/service-administrator-jobs",
+      "jobs": 2,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "watford-service-administrator-jobs",
+      "route": "/watford/service-administrator-jobs",
+      "jobs": 4,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "crawley-service-administrator-jobs",
+      "route": "/crawley/service-administrator-jobs",
+      "jobs": 10,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "swindon-service-administrator-jobs",
+      "route": "/swindon/service-administrator-jobs",
+      "jobs": 21,
+      "launch_threshold": 4,
+      "status": "active"
+    },
+    {
+      "city_key": "horsham-service-administrator-jobs",
+      "route": "/horsham/service-administrator-jobs",
+      "jobs": 0,
+      "launch_threshold": 6,
+      "status": "active"
+    },
+    {
+      "city_key": "lincoln-service-administrator-jobs",
+      "route": "/lincoln/service-administrator-jobs",
+      "jobs": 43,
+      "launch_threshold": 6,
+      "status": "active"
+    }
+  ],
+  "cityResults": [
+    {
+      "city_key": "newcastle-service-administrator",
+      "route": "/newcastle/service-administrator-jobs",
+      "parent_count": 108,
+      "include_count": 18,
+      "review_count": 61,
+      "exclude_count": 29,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "southampton-support-worker",
+      "route": "/southampton/support-worker",
+      "parent_count": 37,
+      "include_count": 2,
+      "review_count": 22,
+      "exclude_count": 13,
+      "threshold": 6,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "sheffield-service-administrator-jobs",
+      "route": "/sheffield/service-administrator-jobs",
+      "parent_count": 67,
+      "include_count": 24,
+      "review_count": 13,
+      "exclude_count": 30,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "leeds-service-administrator-jobs",
+      "route": "/leeds/service-administrator-jobs",
+      "parent_count": 192,
+      "include_count": 93,
+      "review_count": 42,
+      "exclude_count": 57,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "coventry-service-administrator-jobs",
+      "route": "/coventry/service-administrator-jobs",
+      "parent_count": 108,
+      "include_count": 19,
+      "review_count": 3,
+      "exclude_count": 86,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "southampton-service-administrator-jobs",
+      "route": "/southampton/service-administrator-jobs",
+      "parent_count": 159,
+      "include_count": 11,
+      "review_count": 107,
+      "exclude_count": 41,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "brighton-hove-service-administrator-jobs",
+      "route": "/brighton-hove/service-administrator-jobs",
+      "parent_count": 115,
+      "include_count": 7,
+      "review_count": 88,
+      "exclude_count": 20,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "bradford-service-administrator-jobs",
+      "route": "/bradford/service-administrator-jobs",
+      "parent_count": 192,
+      "include_count": 26,
+      "review_count": 39,
+      "exclude_count": 127,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "huddersfield-service-administrator-jobs",
+      "route": "/huddersfield/service-administrator-jobs",
+      "parent_count": 192,
+      "include_count": 19,
+      "review_count": 39,
+      "exclude_count": 134,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "york-service-administrator-jobs",
+      "route": "/york/service-administrator-jobs",
+      "parent_count": 43,
+      "include_count": 10,
+      "review_count": 17,
+      "exclude_count": 16,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "barnsley-service-administrator-jobs",
+      "route": "/barnsley/service-administrator-jobs",
+      "parent_count": 67,
+      "include_count": 10,
+      "review_count": 13,
+      "exclude_count": 44,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "doncaster-service-administrator-jobs",
+      "route": "/doncaster/service-administrator-jobs",
+      "parent_count": 67,
+      "include_count": 16,
+      "review_count": 13,
+      "exclude_count": 38,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "bristol-service-administrator-jobs",
+      "route": "/bristol/service-administrator-jobs",
+      "parent_count": 73,
+      "include_count": 58,
+      "review_count": 11,
+      "exclude_count": 4,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "manchester-service-administrator-jobs",
+      "route": "/manchester/service-administrator-jobs",
+      "parent_count": 160,
+      "include_count": 124,
+      "review_count": 27,
+      "exclude_count": 9,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "cambridge-service-administrator-jobs",
+      "route": "/cambridge/service-administrator-jobs",
+      "parent_count": 56,
+      "include_count": 21,
+      "review_count": 10,
+      "exclude_count": 25,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "birmingham-service-administrator-jobs",
+      "route": "/birmingham/service-administrator-jobs",
+      "parent_count": 127,
+      "include_count": 103,
+      "review_count": 14,
+      "exclude_count": 10,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "peterborough-service-administrator-jobs",
+      "route": "/peterborough/service-administrator-jobs",
+      "parent_count": 56,
+      "include_count": 23,
+      "review_count": 10,
+      "exclude_count": 23,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "warrington-service-administrator-jobs",
+      "route": "/warrington/service-administrator-jobs",
+      "parent_count": 36,
+      "include_count": 24,
+      "review_count": 7,
+      "exclude_count": 5,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "liverpool-service-administrator-jobs",
+      "route": "/liverpool/service-administrator-jobs",
+      "parent_count": 52,
+      "include_count": 46,
+      "review_count": 6,
+      "exclude_count": 0,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "hull-service-administrator-jobs",
+      "route": "/hull/service-administrator-jobs",
+      "parent_count": 33,
+      "include_count": 17,
+      "review_count": 16,
+      "exclude_count": 0,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "oxford-service-administrator-jobs",
+      "route": "/oxford/service-administrator-jobs",
+      "parent_count": 69,
+      "include_count": 4,
+      "review_count": 29,
+      "exclude_count": 36,
+      "threshold": 6,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "belfast-service-administrator-jobs",
+      "route": "/belfast/service-administrator-jobs",
+      "parent_count": 14,
+      "include_count": 7,
+      "review_count": 7,
+      "exclude_count": 0,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "glasgow-service-administrator-jobs",
+      "route": "/glasgow/service-administrator-jobs",
+      "parent_count": 42,
+      "include_count": 35,
+      "review_count": 7,
+      "exclude_count": 0,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "edinburgh-service-administrator-jobs",
+      "route": "/edinburgh/service-administrator-jobs",
+      "parent_count": 33,
+      "include_count": 26,
+      "review_count": 7,
+      "exclude_count": 0,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "cardiff-service-administrator-jobs",
+      "route": "/cardiff/service-administrator-jobs",
+      "parent_count": 19,
+      "include_count": 18,
+      "review_count": 1,
+      "exclude_count": 0,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "exeter-service-administrator-jobs",
+      "route": "/exeter/service-administrator-jobs",
+      "parent_count": 68,
+      "include_count": 20,
+      "review_count": 48,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "milton-keynes-service-administrator-jobs",
+      "route": "/milton-keynes/service-administrator-jobs",
+      "parent_count": 85,
+      "include_count": 23,
+      "review_count": 62,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "farnham-service-administrator-jobs",
+      "route": "/farnham/service-administrator-jobs",
+      "parent_count": 170,
+      "include_count": 4,
+      "review_count": 166,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "northampton-service-administrator-jobs",
+      "route": "/northampton/service-administrator-jobs",
+      "parent_count": 92,
+      "include_count": 17,
+      "review_count": 75,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "poole-service-administrator-jobs",
+      "route": "/poole/service-administrator-jobs",
+      "parent_count": 55,
+      "include_count": 8,
+      "review_count": 47,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "portsmouth-service-administrator-jobs",
+      "route": "/portsmouth/service-administrator-jobs",
+      "parent_count": 159,
+      "include_count": 11,
+      "review_count": 148,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "stoke-on-trent-service-administrator-jobs",
+      "route": "/stoke-on-trent/service-administrator-jobs",
+      "parent_count": 68,
+      "include_count": 4,
+      "review_count": 64,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "hemel-hempstead-service-administrator-jobs",
+      "route": "/hemel-hempstead/service-administrator-jobs",
+      "parent_count": 101,
+      "include_count": 6,
+      "review_count": 95,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "basingstoke-service-administrator-jobs",
+      "route": "/basingstoke/service-administrator-jobs",
+      "parent_count": 159,
+      "include_count": 7,
+      "review_count": 152,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "chelmsford-service-administrator-jobs",
+      "route": "/chelmsford/service-administrator-jobs",
+      "parent_count": 145,
+      "include_count": 15,
+      "review_count": 130,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "gloucester-service-administrator-jobs",
+      "route": "/gloucester/service-administrator-jobs",
+      "parent_count": 84,
+      "include_count": 9,
+      "review_count": 75,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "leicester-service-administrator-jobs",
+      "route": "/leicester/service-administrator-jobs",
+      "parent_count": 97,
+      "include_count": 22,
+      "review_count": 75,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "maidstone-service-administrator-jobs",
+      "route": "/maidstone/service-administrator-jobs",
+      "parent_count": 156,
+      "include_count": 5,
+      "review_count": 151,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "newtownabbey-service-administrator-jobs",
+      "route": "/newtownabbey/service-administrator-jobs",
+      "parent_count": 14,
+      "include_count": 0,
+      "review_count": 14,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "plymouth-service-administrator-jobs",
+      "route": "/plymouth/service-administrator-jobs",
+      "parent_count": 68,
+      "include_count": 5,
+      "review_count": 63,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "sunderland-service-administrator-jobs",
+      "route": "/sunderland/service-administrator-jobs",
+      "parent_count": 108,
+      "include_count": 2,
+      "review_count": 106,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "worcester-service-administrator-jobs",
+      "route": "/worcester/service-administrator-jobs",
+      "parent_count": 32,
+      "include_count": 1,
+      "review_count": 31,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "altrincham-service-administrator-jobs",
+      "route": "/altrincham/service-administrator-jobs",
+      "parent_count": 42,
+      "include_count": 16,
+      "review_count": 26,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "ashford-service-administrator-jobs",
+      "route": "/ashford/service-administrator-jobs",
+      "parent_count": 156,
+      "include_count": 8,
+      "review_count": 148,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "aylesbury-service-administrator-jobs",
+      "route": "/aylesbury/service-administrator-jobs",
+      "parent_count": 85,
+      "include_count": 5,
+      "review_count": 80,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "bedford-service-administrator-jobs",
+      "route": "/bedford/service-administrator-jobs",
+      "parent_count": 32,
+      "include_count": 3,
+      "review_count": 29,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "bournemouth-service-administrator-jobs",
+      "route": "/bournemouth/service-administrator-jobs",
+      "parent_count": 55,
+      "include_count": 4,
+      "review_count": 51,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "chester-le-street-service-administrator-jobs",
+      "route": "/chester-le-street/service-administrator-jobs",
+      "parent_count": 108,
+      "include_count": 0,
+      "review_count": 108,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "macclesfield-service-administrator-jobs",
+      "route": "/macclesfield/service-administrator-jobs",
+      "parent_count": 31,
+      "include_count": 10,
+      "review_count": 21,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "rotherham-service-administrator-jobs",
+      "route": "/rotherham/service-administrator-jobs",
+      "parent_count": 67,
+      "include_count": 3,
+      "review_count": 64,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "scarborough-service-administrator-jobs",
+      "route": "/scarborough/service-administrator-jobs",
+      "parent_count": 43,
+      "include_count": 3,
+      "review_count": 40,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "shrewsbury-service-administrator-jobs",
+      "route": "/shrewsbury/service-administrator-jobs",
+      "parent_count": 36,
+      "include_count": 4,
+      "review_count": 32,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "warwick-service-administrator-jobs",
+      "route": "/warwick/service-administrator-jobs",
+      "parent_count": 108,
+      "include_count": 17,
+      "review_count": 91,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "wigston-service-administrator-jobs",
+      "route": "/wigston/service-administrator-jobs",
+      "parent_count": 97,
+      "include_count": 0,
+      "review_count": 97,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "dartford-service-administrator-jobs",
+      "route": "/dartford/service-administrator-jobs",
+      "parent_count": 156,
+      "include_count": 13,
+      "review_count": 110,
+      "exclude_count": 33,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "stockport-service-administrator-jobs",
+      "route": "/stockport/service-administrator-jobs",
+      "parent_count": 42,
+      "include_count": 17,
+      "review_count": 25,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "swansea-service-administrator-jobs",
+      "route": "/swansea/service-administrator-jobs",
+      "parent_count": 14,
+      "include_count": 7,
+      "review_count": 7,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "walsall-service-administrator-jobs",
+      "route": "/walsall/service-administrator-jobs",
+      "parent_count": 56,
+      "include_count": 13,
+      "review_count": 43,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "bath-service-administrator-jobs",
+      "route": "/bath/service-administrator-jobs",
+      "parent_count": 73,
+      "include_count": 4,
+      "review_count": 69,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "eastleigh-service-administrator-jobs",
+      "route": "/eastleigh/service-administrator-jobs",
+      "parent_count": 159,
+      "include_count": 4,
+      "review_count": 107,
+      "exclude_count": 48,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "harrogate-service-administrator-jobs",
+      "route": "/harrogate/service-administrator-jobs",
+      "parent_count": 43,
+      "include_count": 2,
+      "review_count": 17,
+      "exclude_count": 24,
+      "threshold": 4,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "watford-service-administrator-jobs",
+      "route": "/watford/service-administrator-jobs",
+      "parent_count": 101,
+      "include_count": 4,
+      "review_count": 97,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "crawley-service-administrator-jobs",
+      "route": "/crawley/service-administrator-jobs",
+      "parent_count": 115,
+      "include_count": 10,
+      "review_count": 88,
+      "exclude_count": 17,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "swindon-service-administrator-jobs",
+      "route": "/swindon/service-administrator-jobs",
+      "parent_count": 48,
+      "include_count": 21,
+      "review_count": 27,
+      "exclude_count": 0,
+      "threshold": 4,
+      "threshold_met": true,
+      "live_status": "published"
+    },
+    {
+      "city_key": "horsham-service-administrator-jobs",
+      "route": "/horsham/service-administrator-jobs",
+      "parent_count": 115,
+      "include_count": 0,
+      "review_count": 88,
+      "exclude_count": 27,
+      "threshold": 6,
+      "threshold_met": false,
+      "live_status": "withheld-below-threshold"
+    },
+    {
+      "city_key": "lincoln-service-administrator-jobs",
+      "route": "/lincoln/service-administrator-jobs",
+      "parent_count": 47,
+      "include_count": 43,
+      "review_count": 4,
+      "exclude_count": 0,
+      "threshold": 6,
+      "threshold_met": true,
+      "live_status": "published"
+    }
+  ],
+  "clearedInventoryFiles": 295,
+  "scope": "Pinned JobG8 snapshot only; external source composition and ongoing ingestion not exercised",
+  "remoteDeploymentId": "dpl_7PjH6yDhdu2esqKB6B8w3BkE2hJV",
+  "remoteDeploymentUrl": "https://ontapjobsearch-j6131j2ml-ontap1.vercel.app",
+  "remoteStatus": "READY; build, representative HTTP rendering and desktop UI verified",
+  "localPreparationPassed": true,
+  "failedAttempt": {
+    "deploymentId": "dpl_2TntDxthA37CKoEhtzhGxiX6bDs7",
+    "reason": "Missing openpyxl in Vercel build; no database writes"
+  },
+  "testsPassed": {
+    "cityDerivation": 19,
+    "activeCityPersistence": 2
+  },
+  "failedAttempts": [
+    {
+      "deploymentId": "dpl_62e4aDLetmk6RJMxrAGBnVd1n9pL",
+      "reason": "System Python rejects global pip install (PEP 668); fixed with private /tmp target"
+    }
+  ],
+  "finalReceipt": "database/shadow/full-site-verification-2026-11-03.json"
+}

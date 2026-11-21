@@ -1,0 +1,20 @@
+{
+  "mode": "independent_selector_replay",
+  "archiveDate": "2026-11-17",
+  "productionOutputRunId": 44039319889,
+  "productionRunCommitSha": "6e001e11000854fd211f984c7d4db9f8b40e51e1",
+  "publishedOutputArtifacts": [
+    {
+      "name": "service-admin-output",
+      "id": 14311541647,
+      "sha256": "4810e5e48995767e5db4f234b5defde7aaa01907abea56239769d010bcaa6f71"
+    },
+    {
+      "name": "support-worker-output",
+      "id": 14311691542,
+      "sha256": "09bfd854487b24e2ded737285d26503799b03dba9eb296a9ac5a4802080dd369"
+    }
+  ],
+  "attempt": 5,
+  "notes": "Replay the complete archived Tuesday feed through the exact Python selector revision used by production run 44039319889; compare against Tuesday production artifacts only after selection. No Neon write, production publish or rule edit."
+}

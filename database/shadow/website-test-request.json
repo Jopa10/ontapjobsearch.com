@@ -1,0 +1,22 @@
+{
+  "mode": "website_parity",
+  "purpose": "Preview-only rerun after PR conflict resolution at branch head 690eb07526e6a261ffca3d626e3fef5cc9f78c80; reuse Saturday 21 November read-back Neon records and exact Saturday production output artifacts; verify full-site membership, order, Apply links and noindex routes.",
+  "archiveDate": "2026-11-21",
+  "productionOutputRunId": 44880614175,
+  "publishedOutputArtifacts": [
+    {
+      "name": "service-admin-output",
+      "id": 14700308219,
+      "sha256": "17a9dc979ed24e0baa3489fdbb3607b059ea6c8e6327b5657037ad897bedb769"
+    },
+    {
+      "name": "support-worker-output",
+      "id": 14700288271,
+      "sha256": "bb31ecc80d2f9b6781b406f1050cca025d31004a1bf2559ce8a406f712e7500f"
+    }
+  ],
+  "attempt": 10,
+  "storageMode": "compressed_verified_snapshot",
+  "productionAppCommitSha": "9b1fb4dcc2681c593eea677e58be0f79e151f650",
+  "compareFinalInventories": true
+}

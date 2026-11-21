@@ -1,0 +1,34 @@
+name: Neon website Preview route verification
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/route-test-request.json]
+permissions:
+  contents: read
+jobs:
+  route-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - run: npm install --no-save --ignore-scripts --prefix "$RUNNER_TEMP/cli" vercel@65.14.0
+      - name: Read deployed Preview routes with existing authenticated CLI
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+        run: |
+          export VERCEL_CLI="$RUNNER_TEMP/cli/node_modules/.bin/vercel"
+          python database/shadow/verify-preview-routes.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: neon-preview-route-evidence
+          path: ${{ runner.temp }}/routes
+          retention-days: 30

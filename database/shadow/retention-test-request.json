@@ -1,0 +1,8 @@
+{
+  "mode": "four_retention_tests",
+  "attempt": 1,
+  "mutationScope": "temporary PostgreSQL tables only",
+  "source": "existing latest verified Neon publication",
+  "productionExpiryEnabled": false,
+  "excludePayloadStorage": false
+}

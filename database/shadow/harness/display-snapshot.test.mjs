@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {projection,reconstruct} from './display-snapshot.mjs';
+const row={job_id:'a/b',title:'Administrator',apply_url:'https://example.com/apply',salary_text:'Salary not stated',description:'<script>unsafe</script>'};
+test('lossless regional display roundtrip preserves order, empty slices and variant fields',()=>{const o={'admin_service:North':[row,{...row,job_id:'2'}],'finance_accounts:North':[],'admin_service:South':[{...row,location:'South'}]};assert.deepEqual(reconstruct(projection(o),Object.keys(o)),o);});
+test('duplicate identity, non-http apply URL and corrupt display ordering rejected',()=>{assert.throws(()=>projection({'admin_service:X':[row,row]}));assert.throws(()=>projection({'admin_service:X':[{...row,apply_url:'javascript:alert(1)'}]}));assert.throws(()=>reconstruct([{scope:'production:admin_service',displayRows:[{region:'X',position:1,row}]}],['admin_service:X']));});

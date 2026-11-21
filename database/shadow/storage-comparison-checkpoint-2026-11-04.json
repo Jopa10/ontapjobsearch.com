@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-04",
+  "status": "ready_for_owner_cloudshell_read_only_storage_comparison",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "pr": 336,
+  "codeHead": "ef6e6bc4b81f1b44523c81136f8c96a25b650409",
+  "purpose": "Compare the pinned 2 November Neon source baseline with the exact 4 November saved feed and produce raw/combined illustrative headroom. No Neon access or writes.",
+  "source": {
+    "feedDate": "2026-11-04",
+    "key": "jobg8/raw/2026-11-04.zip",
+    "bytes": 35216405,
+    "sha256": "d691ee876b6f93d1518ee6019fb28f8e036cad9e9d7d0eb9fb12330e08d78b06",
+    "selectorRun": 41848156150,
+    "selectedUniqueJobs": 4962,
+    "scopes": 239,
+    "unknownDecisions": 0,
+    "exactFileOutputParity": true
+  },
+  "neonBaseline": {
+    "measurement": "database/shadow/retention-measurement-2026-11-04.json",
+    "source": "database/shadow/exclude-review-baseline-2026-11-04.json",
+    "measuredBytes": 407363584,
+    "ceilingBytes": 838860800,
+    "reserveBytes": 67108864,
+    "readOnly": true
+  },
+  "remoteOperation": {
+    "environment": "owner AWS CloudShell",
+    "commandPurpose": "Download pinned comparison script/supporting Python files and measurement JSON from the recorded GitHub commit; run compare_saved_archives.py --s3 --current-date 2026-11-04.",
+    "reads": [
+      "AWS caller identity",
+      "S3 bucket location",
+      "pinned 2 Nov raw ZIP",
+      "pinned 4 Nov raw ZIP",
+      "pinned compact display baseline object"
+    ],
+    "writes": [
+      "temporary local files in CloudShell only"
+    ],
+    "prohibited": [
+      "Neon access or mutation",
+      "feed import",
+      "expiry or cleanup",
+      "production changes",
+      "email",
+      "paid upgrade"
+    ],
+    "expectedOutputs": [
+      "ontap-2026-11-04-turnover.json",
+      "ontap-2026-11-04-turnover.sources.json"
+    ],
+    "expectedSafety": "Fail closed if owner, region, object key, archive bytes, checksum, row counts or pinned diagnostics differ."
+  },
+  "checkpointSavedBeforeRemoteExecution": true,
+  "nextGate": "Review raw and combined illustrative headroom. A passing estimate is not import authorization; separately read-only recheck Neon before any Preview-only write."
+}

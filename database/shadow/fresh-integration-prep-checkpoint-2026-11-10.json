@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-10",
+  "preparedAt": "2026-11-10T13:17:48Z",
+  "status": "archive-checksum-confirmed; selector-replay-pending",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "pullRequest": 336,
+  "sourceChecksumPrerequisiteResolved": true,
+  "pinnedSavedSource": {
+    "evidenceSource": "Owner CloudShell s3 cp, wc -c and sha256sum output shown 2026-11-10",
+    "bucket": "ontap-jobg8-archive-179402568934-eu-west-2-an",
+    "region": "eu-west-2",
+    "s3Sources": {
+      "2026-11-10": {
+        "key": "jobg8/raw/2026-11-10.zip",
+        "bytes": 37926215,
+        "sha256": "da0d20498d25005dd66bc5a843105c082d6481d95f61cd74e31c60a55a440c15"
+      }
+    },
+    "archiveChecksums": {
+      "current": "da0d20498d25005dd66bc5a843105c082d6481d95f61cd74e31c60a55a440c15"
+    },
+    "expectedCurrentCounts": {
+      "sourceRows": 46440
+    },
+    "note": "The 46,440 row count is the daily JobG8 received count. Selector clean-record, duplicate and held-ID counts must be measured from this exact ZIP; do not treat 46,440 as a selector-output count. SHA-256 verifies the downloaded S3 object bytes; ETag was not captured and is not used as a checksum."
+  },
+  "productionComparison": {
+    "workflowRunId": 42775839327,
+    "workflowHeadSha": "6659f18fae2412de4bfc35ece322187158fc9cb3",
+    "availableArtifacts": [
+      {
+        "id": 13746955350,
+        "name": "service-admin-output",
+        "sizeBytes": 5782652,
+        "sha256": "2b8dafe1308916b3010a46b3ffbcd171f3997e97e46c8a205e3118e36340d28f"
+      },
+      {
+        "id": 13746187400,
+        "name": "support-worker-output",
+        "sizeBytes": 306354,
+        "sha256": "1d6dc487ff019de712b98c9b87580d5703f5cbbdbe95e86e2e0e553dc87acc5a"
+      }
+    ],
+    "reportReferences": {
+      "feedDate": "2026-11-10",
+      "administrationClassifiedOutputIds": 1177,
+      "allJobG8OutputIds": 5541
+    },
+    "evidenceGap": "The same-run artifacts contain output JSON only. They do not contain per-ID human review decisions with decision timestamps. Do not label absent output IDs as Review or claim Published/Review parity without that evidence."
+  },
+  "execution": {
+    "selectorReplayRun": null,
+    "neonWriteReadback": null,
+    "status": "NOT RUN",
+    "blockers": [
+      "Feature workflow changes are not yet committed/pushed.",
+      "ONTAP_SAVED_FEED_URL must be a fresh presigned URL for the 10 November S3 object before the branch workflow can download this exact archive.",
+      "Per-ID human review decision timestamps and final Published/Review evidence are not present in the same-run output artifacts."
+    ],
+    "safety": {
+      "productionChanged": false,
+      "neonWritten": false,
+      "published": false,
+      "emailsSent": false,
+      "expiryEnabled": false,
+      "purgeExecuted": false
+    }
+  }
+}

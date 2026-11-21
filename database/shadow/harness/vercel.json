@@ -1,0 +1,17 @@
+{
+  "framework": null,
+  "buildCommand": "node bootstrap-stage.mjs",
+  "installCommand": "npm ci --omit=dev --ignore-scripts",
+  "outputDirectory": "dist",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ]
+}

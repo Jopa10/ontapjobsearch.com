@@ -1,0 +1,202 @@
+name: Full-feed JobG8 selector parity against Monday publication
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/full-feed-parity-request.json]
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ontap-full-feed-parity
+  cancel-in-progress: false
+jobs:
+  parity:
+    if: github.ref == 'refs/heads/feat/neon-shadow-database'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Install selector runtime dependencies
+        run: python -m pip install pandas openpyxl
+      - name: Validate pinned Monday request
+        id: request
+        run: |
+          python - <<'PY'
+          import json, os, re
+          from pathlib import Path
+          r=json.loads(Path('database/shadow/full-feed-parity-request.json').read_text())
+          if r.get('archiveDate') != '2026-11-16':
+              raise SystemExit('This run is pinned to the Monday 16 November publication')
+          if not re.fullmatch(r'[a-f0-9]{64}', r.get('archiveSha256','')):
+              raise SystemExit('Missing pinned full archive SHA-256')
+          if not isinstance(r.get('productionOutputRunId'),int) or r['productionOutputRunId'] <= 0:
+              raise SystemExit('Missing production run ID')
+          artifacts=r.get('publishedOutputArtifacts')
+          if not isinstance(artifacts,list) or {x.get('name') for x in artifacts} != {'service-admin-output','support-worker-output'}:
+              raise SystemExit('Both Monday production output artifacts are required')
+          if any(not isinstance(x.get('id'),int) or x['id'] <= 0 or not re.fullmatch(r'[a-f0-9]{64}',x.get('sha256','')) for x in artifacts):
+              raise SystemExit('Invalid production artifact ID or checksum')
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              f.write('date='+r['archiveDate']+'\n')
+              f.write('sha='+r['archiveSha256']+'\n')
+              f.write('run_id='+str(r['productionOutputRunId'])+'\n')
+              f.write('artifact_ids='+','.join(str(x['id']) for x in artifacts)+'\n')
+          PY
+      - name: Download exact saved Monday feed to temporary runner storage
+        env:
+          ONTAP_SAVED_FEED_URL: ${{ secrets.ONTAP_SAVED_FEED_URL }}
+        run: |
+          set -euo pipefail
+          test -n "$ONTAP_SAVED_FEED_URL"
+          case "$ONTAP_SAVED_FEED_URL" in https://*) ;; *) echo "::error::Saved feed URL must use HTTPS"; exit 1 ;; esac
+          mkdir -p "$RUNNER_TEMP/ontap-full-feed"
+          archive="$RUNNER_TEMP/ontap-full-feed/jobg8-2026-11-16.zip"
+          response="$RUNNER_TEMP/ontap-full-feed/response.xml"
+          status="$(curl --silent --show-error --location --connect-timeout 30 --max-time 240 --write-out '%{http_code}' "$ONTAP_SAVED_FEED_URL" --output "$response")"
+          if [ "$status" != "200" ]; then
+            python - "$response" "$status" <<'PYERR'
+          import sys, xml.etree.ElementTree as ET
+          try:
+              root=ET.parse(sys.argv[1]).getroot()
+              fields={x.tag.rsplit('}',1)[-1]:(x.text or '') for x in root.iter()}
+              code=fields.get('Code','unknown'); message=fields.get('Message','no S3 error text')
+          except Exception:
+              code='unavailable'; message='response was not an S3 XML error'
+          print(f'Saved feed request failed: HTTP {sys.argv[2]}; S3 code {code}; {message}')
+          PYERR
+            exit 1
+          fi
+          mv "$response" "$archive"
+          echo "Downloaded Monday archive to temporary runner storage."
+      - name: Verify archive and create measured source receipt
+        env:
+          EXPECTED_SHA: ${{ steps.request.outputs.sha }}
+          FEED_DATE: ${{ steps.request.outputs.date }}
+        run: |
+          python - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          archive=Path(os.environ['RUNNER_TEMP'])/'ontap-full-feed'/f"jobg8-{os.environ['FEED_DATE']}.zip"
+          digest=hashlib.sha256(archive.read_bytes()).hexdigest()
+          if digest != os.environ['EXPECTED_SHA']:
+              raise SystemExit(f"Archive SHA-256 mismatch: expected {os.environ['EXPECTED_SHA']}, received {digest}")
+          receipt={
+            'date':os.environ['FEED_DATE'],
+            'sourceChecksumPrerequisiteResolved':True,
+            'pinnedSavedSource':{
+              'bucket':'ontap-jobg8-archive-179402568934-eu-west-2-an',
+              'region':'eu-west-2',
+              'archiveChecksums':{'current':digest},
+              's3Sources':{
+                os.environ['FEED_DATE']:{
+                  'key':f"jobg8/raw/{os.environ['FEED_DATE']}.zip",
+                  'sha256':digest,
+                  'bytes':archive.stat().st_size
+                }
+              }
+            }
+          }
+          Path('database/shadow/fresh-integration-prep-checkpoint-'+os.environ['FEED_DATE']+'.json').write_text(json.dumps(receipt,indent=2)+'\n')
+          print(json.dumps({'archiveSha256':digest,'archiveBytes':archive.stat().st_size,'date':os.environ['FEED_DATE']}))
+          PY
+      - name: Download exact Monday production outputs
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          artifact-ids: ${{ steps.request.outputs.artifact_ids }}
+          run-id: ${{ steps.request.outputs.run_id }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/ontap-full-feed/production-output
+          merge-multiple: true
+      - name: Replay unchanged Python selectors on the complete feed
+        run: |
+          python -u database/shadow/run_selector_parity.py \
+            --archive "$RUNNER_TEMP/ontap-full-feed/jobg8-2026-11-16.zip" \
+            --source-request database/shadow/fresh-integration-prep-checkpoint-2026-11-16.json \
+            --work "$RUNNER_TEMP/ontap-full-feed/selector-replay"
+      - name: Compare every replay scope with Monday published job IDs
+        env:
+          FEED_DATE: ${{ steps.request.outputs.date }}
+          PRODUCTION_RUN_ID: ${{ steps.request.outputs.run_id }}
+          ARTIFACT_IDS: ${{ steps.request.outputs.artifact_ids }}
+        run: |
+          python - <<'PY'
+          import collections, hashlib, json, os
+          from pathlib import Path
+          import sys
+          sys.path.insert(0,str(Path('pipeline/scripts').resolve()))
+          from slice_registry import live_slices
+          from slice_catalog import output_filename
+          base=Path(os.environ['RUNNER_TEMP'])/'ontap-full-feed'
+          replay=json.loads((base/'selector-replay/plain/outputs.json').read_text())
+          production_dir=base/'production-output'
+          expected_files=set()
+          published={}
+          for region,family in sorted(live_slices()):
+              name=output_filename(region,family)
+              expected_files.add(name)
+              path=production_dir/name
+              if not path.is_file():
+                  raise SystemExit(f'Missing Monday published output artifact file: {name}')
+              rows=json.loads(path.read_text(encoding='utf-8-sig'))
+              published[f'{family}:{region}']=[str(row['job_id']) for row in rows if row.get('source')=='JobG8' and row.get('job_id')]
+          actual_files={p.name for p in production_dir.glob('*.json')}
+          if actual_files != expected_files:
+              raise SystemExit(f'Monday artifact scope files differ: expected {len(expected_files)}, found {len(actual_files)}')
+          replay_ids={scope:[str(row['job_id']) for row in rows if row.get('source')=='JobG8' and row.get('job_id')] for scope,rows in replay.items()}
+          if set(replay_ids) != set(published):
+              raise SystemExit('Replay and Monday publication scope sets differ')
+          exact=order_only=membership=0
+          examples=[]
+          for scope in sorted(published):
+              a,b=replay_ids[scope],published[scope]
+              if a==b:
+                  exact+=1
+              elif collections.Counter(a)==collections.Counter(b):
+                  order_only+=1
+                  if len(examples)<25: examples.append({'scope':scope,'difference':'order_only','replayFirst':a[:8],'publishedFirst':b[:8]})
+              else:
+                  membership+=1
+                  if len(examples)<25:
+                      examples.append({'scope':scope,'difference':'membership','missingFromReplay':sorted(set(b)-set(a))[:30],'extraInReplay':sorted(set(a)-set(b))[:30]})
+          replay_unique=set(x for rows in replay_ids.values() for x in rows)
+          published_unique=set(x for rows in published.values() for x in rows)
+          report={
+            'status':'passed' if exact==len(published) else 'differences_found',
+            'test':'full_archived_feed_replayed_through_unchanged_python_selector_vs_same_day_published_jobg8_outputs',
+            'feedDate':os.environ['FEED_DATE'],
+            'archiveSha256':hashlib.sha256((base/'jobg8-2026-11-16.zip').read_bytes()).hexdigest(),
+            'productionWorkflowRunId':int(os.environ['PRODUCTION_RUN_ID']),
+            'productionArtifactIds':[int(x) for x in os.environ.get('ARTIFACT_IDS','').split(',') if x],
+            'replayScopes':len(replay_ids),'publishedScopes':len(published),
+            'exactScopes':exact,'orderOnlyScopes':order_only,'membershipDifferentScopes':membership,
+            'replayScopeJobRows':sum(map(len,replay_ids.values())),
+            'publishedScopeJobRows':sum(map(len,published.values())),
+            'replayUniqueJobG8Ids':len(replay_unique),'publishedUniqueJobG8Ids':len(published_unique),
+            'jobIdsMissingFromReplay':sorted(published_unique-replay_unique),
+            'extraReplayJobIds':sorted(replay_unique-published_unique),
+            'scopeDifferenceExamples':examples,
+            'neonWrites':False,'excludedPayloadsPersisted':False,'productionChanged':False
+          }
+          out=base/'full-feed-parity-report.json'
+          out.write_text(json.dumps(report,indent=2)+'\n')
+          print(json.dumps({k:v for k,v in report.items() if k not in ('scopeDifferenceExamples','jobIdsMissingFromReplay','extraReplayJobIds')}))
+          print('REPORT_PATH='+str(out))
+          if exact != len(published):
+              raise SystemExit('Full-feed parity did not exactly reproduce Monday published ordering and membership')
+          PY
+      - name: Preserve full-feed parity report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: full-feed-parity-2026-11-16
+          path: |
+            ${{ runner.temp }}/ontap-full-feed/full-feed-parity-report.json
+            ${{ runner.temp }}/ontap-full-feed/selector-replay/report.json
+          if-no-files-found: ignore
+          retention-days: 30

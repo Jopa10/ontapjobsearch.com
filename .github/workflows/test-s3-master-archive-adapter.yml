@@ -1,0 +1,20 @@
+name: S3 master archive adapter contract checks
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/s3-adapter-test-request.json]
+permissions:
+  contents: read
+jobs:
+  verify-adapter-guards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - name: Test S3 conditional-write and archive-integrity contract without AWS calls
+        run: node --test database/shadow/harness/s3-master-archive-store.test.mjs

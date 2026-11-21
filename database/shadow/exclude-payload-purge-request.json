@@ -1,0 +1,7 @@
+{
+  "mode": "purge",
+  "attempt": 2,
+  "allowPayloadRemoval": true,
+  "supplier": "jobg8",
+  "purpose": "Remove only the read-only audit-confirmed EXCLUDE raw_payload values from isolated Neon Preview; preserve advert/job IDs, selector decisions, reasons, feed/run history, appearances and linked user history; protect every published or any-date SELECTED/REVIEW record; enforce the 800 MiB ceiling and 64 MiB reserve; no production or archive writes."
+}

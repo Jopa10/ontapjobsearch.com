@@ -1,0 +1,65 @@
+name: Neon Preview safeguards retention and rollback
+on:
+  push:
+    branches: [feat/neon-shadow-database]
+    paths: [database/shadow/safeguard-test-request.json]
+permissions:
+  contents: read
+jobs:
+  boundary-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - run: npm ci --ignore-scripts --prefix database/shadow/harness
+      - name: Exercise actual guards and three-day retention with isolated PostgreSQL fixtures
+        run: node --test database/shadow/harness/publisher-safeguards.test.mjs database/shadow/harness/exclude-retention.test.mjs
+  preview-rollback:
+    needs: boundary-tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: feat/neon-shadow-database
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - name: Configure isolated rollback verifier
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('database/shadow/harness/vercel.json')
+          x=json.loads(p.read_text());x['buildCommand']='node verify-publisher-rollback.mjs'
+          p.write_text(json.dumps(x))
+          PY
+      - name: Run rollback probe in Neon Preview and read report
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+        run: |
+          set -euo pipefail
+          npm install --no-save --ignore-scripts --prefix "$RUNNER_TEMP/cli" vercel@65.14.0
+          cli="$RUNNER_TEMP/cli/node_modules/.bin/vercel"
+          cd database/shadow/harness
+          "$cli" deploy --yes --target=preview --token="$VERCEL_TOKEN" --scope ontap1 > "$RUNNER_TEMP/rollback-deploy.log" 2>&1 || { cat "$RUNNER_TEMP/rollback-deploy.log"; exit 1; }
+          url="$(grep -Eo 'https://[^[:space:]]+\.vercel\.app' "$RUNNER_TEMP/rollback-deploy.log" | tail -1)"
+          "$cli" curl /safeguard-report.json --deployment "$url" --scope ontap1 > "$RUNNER_TEMP/safeguard-report.json"
+          python -c "import json,os; r=json.load(open(os.environ['RUNNER_TEMP']+'/safeguard-report.json')); assert r['status']=='passed'; print(r)"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: neon-preview-safeguards-rollback
+          path: |
+            ${{ runner.temp }}/safeguard-report.json
+            ${{ runner.temp }}/rollback-deploy.log
+          retention-days: 90

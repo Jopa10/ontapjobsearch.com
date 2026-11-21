@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-10",
+  "stage": "3/5",
+  "purpose": "Prepare the date-agnostic Preview write/readback path for same-feed Python selector parity.",
+  "repository": "Jopa10/ontapjobsearch.com",
+  "branch": "feat/neon-shadow-database",
+  "pullRequest": 336,
+  "baseHead": "8231e418edabae1fa38b9055cf80a58c14d9fb59",
+  "implementation": {
+    "files": [
+      ".github/workflows/test-neon-jobg8-staged.yml",
+      "database/shadow/harness/bootstrap-stage.mjs",
+      "database/shadow/harness/verify-fresh-selection-neon.mjs",
+      "database/shadow/harness/verify-fresh-selection-neon.test.mjs",
+      "database/shadow/README.md",
+      "SYSTEM_MAP.md",
+      "SYSTEM_OVERVIEW.md"
+    ],
+    "behavior": "Same-feed test now requires date-matched production output files and report references. It compares Administration-classified exact IDs first against the 1,177 reference, then all unique JobG8 IDs against 5,541; it also compares each production output scope ID-for-ID with Python output before Neon access. After guarded Neon Preview writeback it compares every stored/read-back automated ID and outcome, verifies idempotent replay, keeps jobs withheld, and checks storage headroom.",
+    "safety": "Preview project noisy-fire-97386602 only; jobs remain withheld; no expiry, purge, publication, production write, email, merge, or cutover is invoked. GitHub Actions receives no Neon connection string.",
+    "manifest_limits": "Preview output explicitly marks human review decisions/timestamps and final website Published/Review ID lists as unavailable until matching dated post-review evidence is supplied. No publication parity is claimed."
+  },
+  "verification": {
+    "commands": [
+      "node --check database/shadow/harness/verify-fresh-selection-neon.mjs",
+      "node --check database/shadow/harness/bootstrap-stage.mjs",
+      "node --test database/shadow/harness/selection-importer.test.mjs database/shadow/harness/dependency-provenance.test.mjs database/shadow/harness/verify-fresh-selection-neon.test.mjs",
+      "python -m unittest discover -s database/shadow -p test_fresh_source_request.py -v",
+      "YAML parse and git diff --check"
+    ],
+    "result": "11 Node tests passed; 3 fresh-source request tests passed; both JavaScript files parse; workflow YAML and checkpoint JSON parse; diff check clean.",
+    "meaning": "Local synthetic database and source-receipt checks only. No 10 November archive replay and no Neon Preview connection/write/readback occurred."
+  },
+  "feedStatus": {
+    "requestedFirstComparisonDate": "2026-11-10",
+    "currentStageRequestDate": "2026-11-06",
+    "requiredNextEvidence": [
+      "Feature-branch implementation committed and pushed after review; do not change the 6 November stage request until the 10 November run is ready.",
+      "Fresh presigned ONTAP_SAVED_FEED_URL for the exact 10 November S3 object, so GitHub Actions downloads the checksum-verified archive.",
+      "Per-ID human review decision and decision timestamp evidence for the 10 November run; the two same-run output artifacts contain output JSON only and cannot label missing IDs as Review."
+    ],
+    "executionStatus": "BLOCKED only until the feature workflow is committed/pushed and ONTAP_SAVED_FEED_URL is confirmed for the exact 10 November object. The automated Python-to-Neon Preview comparison can use the available same-run output ID artifacts. Those artifacts do not record human Select/Exclude actions or their timestamps, so that separate audit data will be marked unavailable; it is not a blocker to testing automated Review outcomes.",
+    "archiveReceipt": {
+      "date": "2026-11-10",
+      "s3Key": "s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/2026-11-10.zip",
+      "bytes": 37926215,
+      "sha256": "da0d20498d25005dd66bc5a843105c082d6481d95f61cd74e31c60a55a440c15",
+      "evidence": "User CloudShell output displayed in chat on 2026-11-10"
+    }
+  },
+  "countInterpretation": {
+    "administrationReceived": 1793,
+    "administrationReportReference": 1177,
+    "administrationStage": "The 1,177 reference is the unique Administration-classified ID count in family output JSON after Python selection; it is not the final website live inventory. The test compares its exact IDs and verifies this report stage.",
+    "allJobG8ReportReference": 5541,
+    "allJobG8Stage": "The 5,541 reference is the unique JobG8 ID count in the same family output JSON stage. The test compares exact IDs and per-scope IDs, not counts alone.",
+    "websiteReconciliation": "Separate downstream measure: user-supplied 5,457 live JobG8 + 360 other-source = 5,817 sitewide; the dated live-source report separately shows 5,594 + 363 = 5,957 and remains unreconciled."
+  },
+  "dailyDesign": "The ongoing PostgreSQL pipeline should process each day's exact production feed and record that run's checksum. 10 November is only the first comparison. This feature-branch test workflow remains request-driven; no production schedule or production workflow was changed.",
+  "preparedAtUtc": "2026-11-10T13:17:48Z",
+  "productionEvidence": {
+    "workflowRunId": 42775839327,
+    "artifacts": [
+      {
+        "id": 13746955350,
+        "name": "service-admin-output",
+        "bytes": 5782652,
+        "sha256": "2b8dafe1308916b3010a46b3ffbcd171f3997e97e46c8a205e3118e36340d28f"
+      },
+      {
+        "id": 13746187400,
+        "name": "support-worker-output",
+        "bytes": 306354,
+        "sha256": "1d6dc487ff019de712b98c9b87580d5703f5cbbdbe95e86e2e0e553dc87acc5a"
+      }
+    ],
+    "referenceCounts": {
+      "administrationClassifiedOutputIds": 1177,
+      "allJobG8OutputIds": 5541
+    },
+    "availableReviewEvidence": "These artifacts are per-ID output JSON but do not include per-ID human review decisions/timestamps. The manifest will mark that missing and will not claim final Published/Review parity."
+  }
+}

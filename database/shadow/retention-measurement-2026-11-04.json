@@ -1,0 +1,380 @@
+{
+  "measuredAt": "2026-11-04T11:47:36.983Z",
+  "readOnly": true,
+  "maximumDatabaseBytes": 838860800,
+  "transactionReadOnly": "on",
+  "database": {
+    "bytes": "407363584"
+  },
+  "tables": [
+    {
+      "name": "selection_decisions",
+      "heap_bytes": "126943232",
+      "table_with_toast_bytes": "140853248",
+      "index_bytes": "66174976",
+      "total_bytes": "207028224",
+      "n_live_tup": "424841",
+      "n_dead_tup": "5771"
+    },
+    {
+      "name": "supplier_adverts",
+      "heap_bytes": "44679168",
+      "table_with_toast_bytes": "143622144",
+      "index_bytes": "14974976",
+      "total_bytes": "158597120",
+      "n_live_tup": "43796",
+      "n_dead_tup": "0"
+    },
+    {
+      "name": "jobs",
+      "heap_bytes": "17588224",
+      "table_with_toast_bytes": "17629184",
+      "index_bytes": "6799360",
+      "total_bytes": "24428544",
+      "n_live_tup": "43796",
+      "n_dead_tup": "0"
+    },
+    {
+      "name": "advert_appearances",
+      "heap_bytes": "5038080",
+      "table_with_toast_bytes": "5070848",
+      "index_bytes": "3637248",
+      "total_bytes": "8708096",
+      "n_live_tup": "43796",
+      "n_dead_tup": "0"
+    },
+    {
+      "name": "feed_runs",
+      "heap_bytes": "16384",
+      "table_with_toast_bytes": "49152",
+      "index_bytes": "49152",
+      "total_bytes": "98304",
+      "n_live_tup": "4",
+      "n_dead_tup": "3"
+    },
+    {
+      "name": "suppliers",
+      "heap_bytes": "8192",
+      "table_with_toast_bytes": "16384",
+      "index_bytes": "32768",
+      "total_bytes": "49152",
+      "n_live_tup": "1",
+      "n_dead_tup": "10"
+    },
+    {
+      "name": "activity_events",
+      "heap_bytes": "0",
+      "table_with_toast_bytes": "8192",
+      "index_bytes": "32768",
+      "total_bytes": "40960",
+      "n_live_tup": "0",
+      "n_dead_tup": "0"
+    },
+    {
+      "name": "emails_sent",
+      "heap_bytes": "0",
+      "table_with_toast_bytes": "8192",
+      "index_bytes": "32768",
+      "total_bytes": "40960",
+      "n_live_tup": "0",
+      "n_dead_tup": "0"
+    },
+    {
+      "name": "subscribers",
+      "heap_bytes": "0",
+      "table_with_toast_bytes": "8192",
+      "index_bytes": "24576",
+      "total_bytes": "32768",
+      "n_live_tup": "0",
+      "n_dead_tup": "0"
+    },
+    {
+      "name": "subscriber_preferences",
+      "heap_bytes": "0",
+      "table_with_toast_bytes": "8192",
+      "index_bytes": "24576",
+      "total_bytes": "32768",
+      "n_live_tup": "0",
+      "n_dead_tup": "0"
+    },
+    {
+      "name": "consent_history",
+      "heap_bytes": "0",
+      "table_with_toast_bytes": "8192",
+      "index_bytes": "16384",
+      "total_bytes": "24576",
+      "n_live_tup": "0",
+      "n_dead_tup": "0"
+    },
+    {
+      "name": "job_recommendations",
+      "heap_bytes": "0",
+      "table_with_toast_bytes": "8192",
+      "index_bytes": "16384",
+      "total_bytes": "24576",
+      "n_live_tup": "0",
+      "n_dead_tup": "0"
+    }
+  ],
+  "adverts": {
+    "rows": "43796",
+    "payload_rows": "43796",
+    "stored_payload_bytes": "101655870",
+    "text_payload_bytes": "164477431",
+    "min": "2026-11-02",
+    "max": "2026-11-02",
+    "inactive_rows": "0"
+  },
+  "decisions": [
+    {
+      "scope": "production:admin_service",
+      "decision": "exclude",
+      "rows": "40487",
+      "row_bytes": "11790216",
+      "stored_evidence_bytes": "2955551",
+      "text_evidence_bytes": "2510194",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "production:admin_service",
+      "decision": "include",
+      "rows": "3149",
+      "row_bytes": "8111064",
+      "stored_evidence_bytes": "7300613",
+      "text_evidence_bytes": "10853395",
+      "display_text_bytes": "10608291"
+    },
+    {
+      "scope": "production:admin_service",
+      "decision": "review",
+      "rows": "160",
+      "row_bytes": "67792",
+      "stored_evidence_bytes": "13604",
+      "text_evidence_bytes": "11990",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "production:customer_sales",
+      "decision": "exclude",
+      "rows": "43378",
+      "row_bytes": "10698136",
+      "stored_evidence_bytes": "2267518",
+      "text_evidence_bytes": "1833727",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "production:customer_sales",
+      "decision": "include",
+      "rows": "418",
+      "row_bytes": "1114432",
+      "stored_evidence_bytes": "1028046",
+      "text_evidence_bytes": "1510116",
+      "display_text_bytes": "1479229"
+    },
+    {
+      "scope": "production:customer_service_contact_centre",
+      "decision": "exclude",
+      "rows": "43701",
+      "row_bytes": "11196264",
+      "stored_evidence_bytes": "2145653",
+      "text_evidence_bytes": "1664812",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "production:customer_service_contact_centre",
+      "decision": "include",
+      "rows": "82",
+      "row_bytes": "216840",
+      "stored_evidence_bytes": "199521",
+      "text_evidence_bytes": "294574",
+      "display_text_bytes": "288343"
+    },
+    {
+      "scope": "production:customer_service_contact_centre",
+      "decision": "review",
+      "rows": "13",
+      "row_bytes": "4472",
+      "stored_evidence_bytes": "897",
+      "text_evidence_bytes": "767",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "production:finance_accounts",
+      "decision": "exclude",
+      "rows": "42781",
+      "row_bytes": "10652112",
+      "stored_evidence_bytes": "1929201",
+      "text_evidence_bytes": "1501325",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "production:finance_accounts",
+      "decision": "include",
+      "rows": "1015",
+      "row_bytes": "2427752",
+      "stored_evidence_bytes": "2214019",
+      "text_evidence_bytes": "3213366",
+      "display_text_bytes": "3135071"
+    },
+    {
+      "scope": "production:hr_recruitment",
+      "decision": "exclude",
+      "rows": "43655",
+      "row_bytes": "10931312",
+      "stored_evidence_bytes": "1965819",
+      "text_evidence_bytes": "1529269",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "production:hr_recruitment",
+      "decision": "include",
+      "rows": "141",
+      "row_bytes": "377576",
+      "stored_evidence_bytes": "347395",
+      "text_evidence_bytes": "538856",
+      "display_text_bytes": "527930"
+    },
+    {
+      "scope": "production:legal_assistant_paralegal",
+      "decision": "exclude",
+      "rows": "43531",
+      "row_bytes": "10738888",
+      "stored_evidence_bytes": "1960583",
+      "text_evidence_bytes": "1525266",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "production:legal_assistant_paralegal",
+      "decision": "include",
+      "rows": "265",
+      "row_bytes": "649784",
+      "stored_evidence_bytes": "595824",
+      "text_evidence_bytes": "867890",
+      "display_text_bytes": "847869"
+    },
+    {
+      "scope": "production:marketing",
+      "decision": "exclude",
+      "rows": "43386",
+      "row_bytes": "10273248",
+      "stored_evidence_bytes": "1954298",
+      "text_evidence_bytes": "1520404",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "production:marketing",
+      "decision": "include",
+      "rows": "410",
+      "row_bytes": "1126144",
+      "stored_evidence_bytes": "1044710",
+      "text_evidence_bytes": "1634524",
+      "display_text_bytes": "1603594"
+    },
+    {
+      "scope": "production:support_worker",
+      "decision": "exclude",
+      "rows": "43301",
+      "row_bytes": "12307608",
+      "stored_evidence_bytes": "3160973",
+      "text_evidence_bytes": "2684662",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "production:support_worker",
+      "decision": "include",
+      "rows": "341",
+      "row_bytes": "872632",
+      "stored_evidence_bytes": "782589",
+      "text_evidence_bytes": "1123250",
+      "display_text_bytes": "1098951"
+    },
+    {
+      "scope": "production:support_worker",
+      "decision": "review",
+      "rows": "154",
+      "row_bytes": "66216",
+      "stored_evidence_bytes": "12706",
+      "text_evidence_bytes": "11185",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "published_snapshot",
+      "decision": "include",
+      "rows": "20",
+      "row_bytes": "7112",
+      "stored_evidence_bytes": "2332",
+      "text_evidence_bytes": "2272",
+      "display_text_bytes": "0"
+    },
+    {
+      "scope": "raw_feed_pending_selection",
+      "decision": "unknown",
+      "rows": "74453",
+      "row_bytes": "29781200",
+      "stored_evidence_bytes": "11614668",
+      "text_evidence_bytes": "10392763",
+      "display_text_bytes": "0"
+    }
+  ],
+  "appearances": [
+    {
+      "seen_on": "2026-11-02",
+      "rows": "43796",
+      "row_bytes": "3153312"
+    }
+  ],
+  "runs": [
+    {
+      "feed_key": "published-sample-2026-11-02-a828536b6292",
+      "feed_date": "2026-11-02",
+      "status": "accepted",
+      "received_count": 20,
+      "rules_revision": "a828536b62928d5c287fa9e18aa7924769851e29"
+    },
+    {
+      "feed_key": "raw-stage:046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd:20",
+      "feed_date": "2026-11-02",
+      "status": "accepted",
+      "received_count": 43798,
+      "rules_revision": "a828536b62928d5c287fa9e18aa7924769851e29"
+    },
+    {
+      "feed_key": "raw-stage:046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd:50",
+      "feed_date": "2026-11-02",
+      "status": "accepted",
+      "received_count": 43798,
+      "rules_revision": "a828536b62928d5c287fa9e18aa7924769851e29"
+    },
+    {
+      "feed_key": "raw-stage:046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd:100",
+      "feed_date": "2026-11-02",
+      "status": "accepted",
+      "received_count": 43798,
+      "rules_revision": "a828536b62928d5c287fa9e18aa7924769851e29"
+    }
+  ],
+  "jobs": [
+    {
+      "publication_status": "withheld",
+      "rows": "43796",
+      "row_bytes": "8470496"
+    }
+  ],
+  "deploymentId": "dpl_CpW9YzU2p8Y2foqopoVBKbLtowAV",
+  "deploymentStatus": "READY",
+  "implementationCommit": "d471eff9b0e939909062eea8f68a6ec6cbc66409",
+  "productionObservedReady": "dpl_CU6xQY2Ns7NALVPja55GMgdErbFq",
+  "limitations": [
+    "pg_stat live/dead tuple counts are estimates; grouped counts are exact.",
+    "Logical field bytes and table allocations are different and not additive.",
+    "One current full feed date only; no current turnover rate can be measured.",
+    "Read-only queries do not prevent provider maintenance changing physical allocation.",
+    "First attempt completed queries but failed static report packaging; retry retained full JSON."
+  ],
+  "sevenSnapshotCalibrationBytes": 51003392,
+  "oneSnapshotCalibrationBytes": 11329536,
+  "sourceAudit": "database/shadow/exclude-review-baseline-2026-11-04.json",
+  "sourceArchiveSha256": "046881410cda7588c5589af808449b6e3f41c8b889955de8b57c23be426ab5bd",
+  "feedDate": "2026-11-02",
+  "latestResult": "Selector replay passed for 2026-11-04; no Neon writes since this read-only measurement."
+}

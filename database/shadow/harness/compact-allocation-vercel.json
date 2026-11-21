@@ -1,0 +1,17 @@
+{
+  "framework": null,
+  "buildCommand": "node --max-old-space-size=4096 measure-compact-allocation.mjs",
+  "installCommand": "npm ci --omit=dev --ignore-scripts",
+  "outputDirectory": "compact-allocation-dist",
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ]
+}
