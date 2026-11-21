@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-20
-review_fingerprint: dd2717f609431a856891116f13fc7e5b953122bc277a323724e1c685fb544c19
+review_date: 2026-11-21
+review_fingerprint: b8b0e9b7bd9c14708162010dbdb58fd4b235f33c273b151a7fa3ea0016a65cfb
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-20T15:42:26+00:00
+Run generated: 2026-11-21T14:52:26+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1060
+JobG8 comparison rows: 1127
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -28,10 +28,10 @@ Approved NEJobs comparison rows: 0
 
 ## Outcomes
 - HC: 0
-- POSS: 8
-- HARD_PASS: 6
+- POSS: 9
+- HARD_PASS: 5
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 8
+- Final POSS awaiting decision: 9
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -42,6 +42,19 @@ Approved NEJobs comparison rows: 0
 
 ## POSS — choose SELECT or EXCLUDE
 
+---
+action:
+POSS | North East | Hybrid | £31,000 Per Annum | Sunderland Good Food Partnership Co-Ordinator
+employer: OASES
+closing_date: 08 December 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173769
+vacancy_fingerprint: 1f72c572a5045f884a0b2f097607feadc19219fccfe4fc27d5fc8b92d274b3d0
+source_job_id: 173769
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173769
+---
 ---
 action:
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,000 to 28,403 Per Annum | Hospital Discharge Partnership Coordinator
@@ -154,7 +167,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173702
 
 - [Business Crime Navigator](https://www.vonne.org.uk/vonne-jobs-details?cid=173723) — insufficient service-admin evidence.
 - [CLA Triage Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173690) — out-of-scope VONNE occupation.
-- [Communications & Brand Identity Consultant (freelance)](https://www.vonne.org.uk/vonne-jobs-details?cid=173679) — out-of-scope VONNE occupation.
 - [School Based Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173700) — insufficient service-admin evidence.
 - [South Tyneside Child and Young Person Mental Health Service Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173730) — insufficient service-admin evidence.
 - [Team Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173717) — out-of-scope VONNE occupation.
