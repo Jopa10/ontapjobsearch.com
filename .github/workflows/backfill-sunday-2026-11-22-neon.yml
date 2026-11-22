@@ -1,0 +1,132 @@
+name: One-time Neon backfill for Sunday 22 November 2026
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/backfill-sunday-2026-11-22-neon.yml
+
+permissions:
+  actions: read
+  contents: read
+  id-token: write
+
+jobs:
+  backfill:
+    name: Copy exact Sunday published jobs to Production Neon
+    runs-on: ubuntu-latest
+    environment: neon-prod-daily-shadow
+    steps:
+      - name: Check out Sunday publication code and outputs
+        uses: actions/checkout@v4
+        with:
+          ref: 1a74c4df24d6269f278c579be937ed1da24c419c
+          persist-credentials: false
+
+      - name: Download Sunday's published service-admin outputs
+        uses: actions/download-artifact@v4
+        with:
+          name: service-admin-output
+          run-id: 44998593106
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/ontap-prod-daily/outputs
+
+      - name: Download Sunday's published support-worker outputs
+        uses: actions/download-artifact@v4
+        with:
+          name: support-worker-output
+          run-id: 44998593106
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/ontap-prod-daily/outputs
+
+      - name: Configure AWS credentials for JobG8 archive
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::179402568934:role/OntapJobG8ArchiveGitHubRole
+          aws-region: eu-west-2
+
+      - name: Download the original Sunday JobG8 feed
+        run: aws s3 cp s3://ontap-jobg8-archive-179402568934-eu-west-2-an/jobg8/raw/2026-11-22.zip "$RUNNER_TEMP/jobg8-sunday.zip"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install source preparation dependencies
+        run: python -m pip install --upgrade pip pandas openpyxl boto3
+
+      - name: Prepare exact Sunday snapshot and published scope order
+        env:
+          ONTAP_PROD_SOURCE_DIR: ${{ runner.temp }}/ontap-prod-daily
+          GITHUB_RUN_ID: 44998593106
+          GITHUB_SHA: 1a971be1177fb131090cd66953e6b7608027bf19
+        run: |
+          set -euo pipefail
+          mkdir -p "$ONTAP_PROD_SOURCE_DIR/outputs"
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          import sys
+          sys.path.insert(0, str(Path('pipeline').resolve()))
+          from scripts import publish_verified_pages_live_config as p
+          scopes = []
+          for mapping in p.core.MAPPINGS:
+              rows = json.loads(Path(mapping.source).read_text(encoding='utf-8-sig'))
+              ids = [str(r['job_id']) for r in rows if r.get('source') == 'JobG8']
+              scopes.append({'scope': mapping.category + ':' + mapping.region, 'jobg8Ids': ids})
+          (Path(os.environ['ONTAP_PROD_SOURCE_DIR']) / 'daily-scopes.json').write_text(json.dumps(scopes, separators=(',', ':')) + '\n')
+          print('Prepared Sunday published scopes:', len(scopes))
+          PY
+          python database/shadow/prepare_selected_review_payloads.py \
+            --archive "$RUNNER_TEMP/jobg8-sunday.zip" \
+            --outputs "$ONTAP_PROD_SOURCE_DIR/outputs" \
+            --reviews pipeline/reviews/jobg8 \
+            --date 2026-11-22 \
+            --production-run-id 44998593106 \
+            --production-run-commit 1a971be1177fb131090cd66953e6b7608027bf19 \
+            --app-commit 1a74c4df24d6269f278c579be937ed1da24c419c \
+            --output "$ONTAP_PROD_SOURCE_DIR/selected-review-payloads.json"
+          python - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          root = Path(os.environ['ONTAP_PROD_SOURCE_DIR'])
+          raw = (root / 'selected-review-payloads.json').read_bytes()
+          snapshot = json.loads(raw)
+          source = {
+              'mode': 'daily_latest', 'dateProvidedByRequest': False,
+              'archiveDate': snapshot['feedDate'], 'archiveKey': snapshot['archiveKey'],
+              'archiveSha256': snapshot['archiveSha256'],
+              'productionOutputRunId': snapshot['productionWorkflowRunId'],
+              'productionAppCommitSha': snapshot['productionAppCommit'],
+              'productionRunCommitSha': snapshot['productionRunCommit'],
+              'payloadPackageSha256': hashlib.sha256(raw).hexdigest(),
+              'archiveOrigin': {'kind': 'original Sunday JobG8 source archive'}
+          }
+          (root / 'daily-source.json').write_text(json.dumps(source, separators=(',', ':')) + '\n')
+          PY
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Neon harness dependencies
+        run: npm ci --prefix database/shadow/harness --ignore-scripts --no-audit --no-fund
+
+      - name: Write and verify Sunday's snapshot in Production Neon
+        env:
+          ONTAP_NEON_PROD_DAILY_WRITE_URL: ${{ secrets.ONTAP_NEON_PROD_DAILY_WRITE_URL }}
+          ONTAP_PROD_SOURCE_DIR: ${{ runner.temp }}/ontap-prod-daily
+          ONTAP_PROD_REPORT_PATH: ${{ runner.temp }}/ontap-sunday-neon-report.json
+        run: node database/shadow/harness/write-production-daily-shadow.mjs
+
+      - name: Save Production Neon write receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-neon-sunday-backfill-44998593106
+          path: ${{ runner.temp }}/ontap-sunday-neon-report.json
+          if-no-files-found: ignore
+          retention-days: 30
