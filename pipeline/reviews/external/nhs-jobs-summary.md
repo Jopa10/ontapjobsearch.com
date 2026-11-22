@@ -2,11 +2,11 @@
 
 review_date: 2026-11-22
 
-- Open Administrative & Clerical rows reviewed: 2183
-- Auto/remembered selected: 360
-- Selected HC Tier A: 186
+- Open Administrative & Clerical rows reviewed: 2178
+- Auto/remembered selected: 359
+- Selected HC Tier A: 185
 - Selected HC Tier B: 174
-- POSS awaiting decision: 1729
+- POSS awaiting decision: 1725
 - Excluded: 0
 - HARD_PASS: 94
 
@@ -386,18 +386,6 @@ factual_fingerprint: f1a22768e013c2bda58bc2d4d2d8d1ce169d89b8dd2efa540595c677405
 
 ---
 action:
-POSS | NHS Jobs | London | London, E1 8DE | £34186.00 to £37389.00 | People and Culture Hub Officer
-source_job_id: 5742698
-title: People and Culture Hub Officer
-employer: East London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-00015
-factual_fingerprint: 3a4a157dec64d98c8677eaa96ba6600f40488c99dd19ac6dbb175964600e96cb
----
-
----
-action:
 POSS | NHS Jobs | Bedfordshire | Bedford, MK416AT | £25760.00 to £27476.00 | Referral Management Service (RMS) Administrator
 source_job_id: 5742311
 title: Referral Management Service (RMS) Administrator
@@ -430,18 +418,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-00009
 factual_fingerprint: 4a04d14334c65f03e5ef9c3f30f76153703ddaf0bc278da8c5212672743c0771
----
-
----
-action:
-POSS | NHS Jobs | London | London, E9 6SR | £34186.00 to £37389.00 | Team Administrator/Receptionist
-source_job_id: 5742041
-title: Team Administrator/Receptionist
-employer: East London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-00005
-factual_fingerprint: f086a95402f3ffc59acc283f8a29399ae0c4ec1cc58b9c21030ca4f097c959c9
 ---
 
 ---
@@ -3010,18 +2986,6 @@ region: West Midlands - Coventry & Warwickshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-00004
 factual_fingerprint: 686a68e844de1dc86a7501837e749e94e5cafa3324e5b0fd5c783bb2170430b0
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £28392.00 to £31157.00 | Paediatric Data Co-ordinator
-source_job_id: 5738120
-title: Paediatric Data Co-ordinator
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-00001
-factual_fingerprint: 2380e09ad11c100e6082473465ca9a77508dfd71405f92b5d9c9f59e8e100770
 ---
 
 ---
@@ -17458,18 +17422,6 @@ region: Leicestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3364-26-0011
 factual_fingerprint: 19da3232f37d3dd7526843695acc0ccdad47d0e233e8e4b62f28820d2da32513
----
-
----
-action:
-POSS | NHS Jobs | London | London, WC1N 3JH | £58133.00 to £65261.00 | Senior Configuration Analyst
-source_job_id: 5714744
-title: Senior Configuration Analyst
-employer: Great Ormond Street Hospital for Children NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0463
-factual_fingerprint: 9eb0e43cc915daeeb284ad55fb38e8b2df516e901d87a76d6193ab14eaf62219
 ---
 
 ---
