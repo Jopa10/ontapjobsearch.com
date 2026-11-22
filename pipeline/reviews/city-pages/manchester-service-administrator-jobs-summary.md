@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 147
+- Effective included jobs: 148
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 147
+- automatic include: 148
 - automatic review: 62
 - automatic exclude: 8
-- effective include: 147
+- effective include: 148
 - effective review: 62
 - effective exclude: 8
 
-## INCLUDE (147)
+## INCLUDE (148)
 
 ---
 action: 
@@ -488,7 +488,7 @@ title: Credit Controller
 company: Reed - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2361425
+job_id: jobg8-2420876
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -524,7 +524,7 @@ title: Credit Controller (12-Month FTC)
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2379406
+job_id: jobg8-2421043
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -724,6 +724,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Document Controller (Architecture / Construction)
+company: Rise Technical Recruitment - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225860653
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Entry-level Legal Role - Redemptions and Completions - Close-knit team
 company: qed legal - Agency - Permanent
 location: Manchester
@@ -848,7 +860,7 @@ title: Finance Assistant (Grad Role)
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2370509
+job_id: jobg8-2413665
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1016,7 +1028,7 @@ title: Insolvency Administrator
 company: FRP Group - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2393629
+job_id: jobg8-2415319
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1256,7 +1268,7 @@ title: Paralegal - Commercial Debt Litigation
 company: HF - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2380064
+job_id: jobg8-2420894
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1316,7 +1328,7 @@ title: Payroll Administrator- hybrid
 company: Sheridan Maine - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2383964
+job_id: jobg8-2414304
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1412,7 +1424,7 @@ title: Purchase Ledger Clerk
 company: Axon Moore Group Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2365800
+job_id: jobg8-2420276
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1640,7 +1652,7 @@ title: Service Advisor
 company: The Recruitment Solution (London) Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2383731
+job_id: jobg8-2421635
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1822,7 +1834,7 @@ title: Accounts Assistant
 company: Robert Walters - Agency - Permanent
 location: Eccles
 source: JobG8
-job_id: jobg8-2375763
+job_id: jobg8-2419324
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2086,7 +2098,7 @@ title: Events and Community Engagement Manager
 company: Cobalt Recruitment - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2338471
+job_id: jobg8-2421699
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2326,7 +2338,7 @@ title: Personal Injury Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2370554
+job_id: jobg8-2419234
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2410,7 +2422,7 @@ title: Purchase Ledger Clerk
 company: Michael Page Finance - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2376933
+job_id: jobg8-2412953
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2530,7 +2542,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2401680
+job_id: jobg8-2412560
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -2544,7 +2556,7 @@ title: Accounts Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Salford
 source: JobG8
-job_id: jobg8-2380372
+job_id: jobg8-2418013
 reason: Separate exact-city market at launch.
 ---
 

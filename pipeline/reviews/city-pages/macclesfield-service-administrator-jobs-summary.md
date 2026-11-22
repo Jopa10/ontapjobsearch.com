@@ -176,7 +176,7 @@ title: Payroll Administrator
 company: McLennan Knight Recruitment Limited - Agency - Permanent
 location: Macclesfield
 source: JobG8
-job_id: jobg8-2396419
+job_id: jobg8-2420257
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -262,7 +262,7 @@ title: Accounts Assistant
 company: KPI Recruiting - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2391231
+job_id: jobg8-2413405
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -298,7 +298,7 @@ title: Accounts Assistant - Supplier Rebates
 company: Axon Moore Group Ltd - Agency - Permanent
 location: Knutsford
 source: JobG8
-job_id: jobg8-2366220
+job_id: jobg8-2414115
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -334,7 +334,7 @@ title: Accounts Payable Officer
 company: Michael Page Finance - Agency - Permanent
 location: Cheshire
 source: JobG8
-job_id: jobg8-2376643
+job_id: jobg8-2419740
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

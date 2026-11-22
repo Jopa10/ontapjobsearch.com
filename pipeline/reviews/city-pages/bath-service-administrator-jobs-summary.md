@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 84
+- automatic review: 83
 - automatic exclude: 0
 - effective include: 10
-- effective review: 84
+- effective review: 83
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-2389042
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (84)
+## REVIEW (83)
 
 ---
 action: 
@@ -203,6 +203,18 @@ company: Sirona care & health CIC
 location: Bristol, BS6 6AU
 source: NHS Jobs
 job_id: nhs-5716128
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bid Coordinator
+company: Ridge & Partners LLP - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108335719
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -310,7 +322,7 @@ title: Credit Controller
 company: M2 Professional Recruitment Services Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2377049
+job_id: jobg8-2419593
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -334,7 +346,7 @@ title: Credit Controller
 company: Morgan McKinley - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2361736
+job_id: jobg8-2412521
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -383,18 +395,6 @@ company: Hamilton Woods - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225826675
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Interaction Recruitment - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225758669
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -479,18 +479,6 @@ company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2410324
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Morgan McKinley (South West) - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225760729
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -586,7 +574,7 @@ title: Interim Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2380288
+job_id: jobg8-2412899
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -598,7 +586,7 @@ title: Interim Senior Paralegal
 company: Page Group - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2376692
+job_id: jobg8-2421132
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -886,7 +874,7 @@ title: Property Coordinator
 company: Countrywide HQ - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2400294
+job_id: jobg8-2411800
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1018,7 +1006,7 @@ title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2370928
+job_id: jobg8-2415101
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1102,7 +1090,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2401671
+job_id: jobg8-2412551
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

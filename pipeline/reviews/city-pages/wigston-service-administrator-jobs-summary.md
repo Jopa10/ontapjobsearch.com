@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 99
+- automatic review: 97
 - automatic exclude: 0
 - effective include: 0
-- effective review: 99
+- effective review: 97
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (99)
+## REVIEW (97)
 
 ---
 action: 
@@ -119,18 +119,6 @@ company: Fisher German - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225769706
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Exemplar Health Care - Company - Permanent
-location: Coalville
-source: JobG8
-job_id: jobg8-23643_225759984
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -318,18 +306,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service & Sales Coordinator
-company: Fabric Recruitment Ltd - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225761329
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Administrator
 company: Universal Business Team - Agency - Permanent
 location: Loughborough
@@ -466,7 +442,7 @@ title: Finance Assistant
 company: SF Partners - Agency - Permanent
 location: Loughborough
 source: JobG8
-job_id: jobg8-2361935
+job_id: jobg8-2420036
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -582,6 +558,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: HR Officer
+company: People First Recruitment Solutions - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225861017
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Insurance Administrator - Hybrid
 company: Office Angels - Agency - Permanent
 location: Leicester
@@ -634,7 +622,7 @@ title: Marketing Assistant
 company: GCS Associates - Agency - Permanent
 location: Leicester
 source: JobG8
-job_id: jobg8-2391258
+job_id: jobg8-2414024
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -718,7 +706,7 @@ title: Part Time Accounts Assistant
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2370085
+job_id: jobg8-2421087
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -1162,7 +1150,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2401678
+job_id: jobg8-2412558
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -1199,18 +1187,6 @@ company: University Hospitals of Leicester NHS Trust
 location: Leicester, LE15WW
 source: NHS Jobs
 job_id: nhs-5736375
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Workspace Operations and Services Coordinator
-company: Jones Lang LaSalle Limited - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-108284328
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

@@ -486,18 +486,6 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Finance Coordinator
-company: NFU - Agency - Permanent
-location: Stone
-source: JobG8
-job_id: jobg8-108316277
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Officer
 company: Trinity House Group - Agency - Permanent
 location: Staffordshire
@@ -730,7 +718,7 @@ title: Part-Time Credit Controller - Fully Remote
 company: eRecruitSmart - Agency - Permanent
 location: Staffordshire
 source: JobG8
-job_id: jobg8-2366367
+job_id: jobg8-2421314
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -983,6 +971,18 @@ company: Pertemps Wolverhampton and Walsall - Agency - Temporary
 location: Cannock
 source: JobG8
 job_id: jobg8-23643_225769049
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Adullam Homes - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-108330971
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

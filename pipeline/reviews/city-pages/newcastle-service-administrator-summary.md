@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 60
+- Effective included jobs: 59
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 60
+- automatic include: 59
 - automatic review: 90
-- automatic exclude: 48
-- effective include: 60
+- automatic exclude: 46
+- effective include: 59
 - effective review: 90
-- effective exclude: 48
+- effective exclude: 46
 
-## INCLUDE (60)
+## INCLUDE (59)
 
 ---
 action: 
@@ -724,18 +724,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Executive
-company: RecruitedUK - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-23643_225439351
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Scheduler/ Planner
 company: Adecco - Agency - Permanent
 location: Newcastle
@@ -850,20 +838,8 @@ title: Accounts Receivable Clerk
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
-job_id: jobg8-2380342
+job_id: jobg8-2414781
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: RG Setsquare - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225758640
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -886,7 +862,7 @@ title: Activities/ Therapy Co-ordinator
 company: Cygnet - Agency - Permanent
 location: Northumberland
 source: JobG8
-job_id: jobg8-2392595
+job_id: jobg8-2413262
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -958,7 +934,7 @@ title: Bookkeeper
 company: TC Group - Agency - Permanent
 location: Hexham
 source: JobG8
-job_id: jobg8-2391000
+job_id: jobg8-2419928
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1172,9 +1148,9 @@ decision: review
 automatic_decision: review
 title: Customer Service Representative
 company: MTrec Recruitment - Agency - Permanent
-location: Washington
+location: Wallsend
 source: JobG8
-job_id: jobg8-2372031
+job_id: jobg8-2372603
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1184,9 +1160,9 @@ decision: review
 automatic_decision: review
 title: Customer Service Representative
 company: MTrec Recruitment - Agency - Permanent
-location: Wallsend
+location: Washington
 source: JobG8
-job_id: jobg8-2372603
+job_id: jobg8-2413474
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1279,6 +1255,18 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
+company: Bernicia - Agency - Permanent
+location: Ashington
+source: JobG8
+job_id: jobg8-23643_225859244
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
 company: KCR Solutions - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
@@ -1318,7 +1306,7 @@ title: Financial Services Administrator - IMMEDIATE START
 company: Reed - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2361908
+job_id: jobg8-2419453
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1330,7 +1318,7 @@ title: Fractional Finance
 company: Reed - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2362016
+job_id: jobg8-2421517
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1522,7 +1510,7 @@ title: Payroll & Accounts Payable
 company: Portfolio Payroll - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2361391
+job_id: jobg8-2419721
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1602,11 +1590,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Property Repairs Administrator
-company: Service Care Solutions - Agency - Temporary
-location: Bishop Auckland
+title: Project Administrator
+company: Daniel Owen Ltd - Agency - Contract
+location: Blyth
 source: JobG8
-job_id: jobg8-23643_225807428
+job_id: jobg8-23643_225860288
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1614,12 +1602,12 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Clerk
-company: Paul Card Recruitment - Agency - Permanent
-location: Tyne And Wear
+title: Property Repairs Administrator
+company: Service Care Solutions - Agency - Temporary
+location: Bishop Auckland
 source: JobG8
-job_id: jobg8-23643_225757826
-reason: Broad location; review before city inclusion.
+job_id: jobg8-23643_225807428
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -1786,7 +1774,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2401681
+job_id: jobg8-2412561
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1826,7 +1814,7 @@ job_id: jobg8-2379186
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (48)
+## EXCLUDE (46)
 
 ---
 action: 
@@ -1957,18 +1945,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Durham, DH9 0AB
 source: NHS Jobs
 job_id: nhs-5717516
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Commercial Administrator
-company: Jackson Hogg Ltd - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225646128
 reason: Separate employment market.
 ---
 
@@ -2137,18 +2113,6 @@ company: Reed - Agency - Permanent
 location: Durham
 source: JobG8
 job_id: jobg8-2406930
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Front of House Property Admin
-company: Integro People Limited - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225826691
 reason: Separate employment market.
 ---
 

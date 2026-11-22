@@ -91,6 +91,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0102-26-00000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -110,6 +113,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2671-26-00000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -126,7 +132,7 @@
     "salary_text": "£26,244 - £35,682 per year",
     "posted_date": "2026-11-20",
     "description": "ASSESSOR IN ACCOUNTING\n\nFull-time 37 hours per week\nLocation: Newcastle College\nSalary: £26,244 - £35,682 - Pay Award Pending\n\n£5,000 annual salary supplement for qualified candidates\n5% annual bonus scheme is also in operation.\n\nNewcastle and Stafford Colleges Group (NSCG) is one of the very best colleges in the country click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?7PhVxzLSGdHHD%2bT1M%2baLdRAzZZ5DzMbMv",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?sRc1aB%2brxisjwGI5%2frMq6uA5huIO%2fL6ri",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
@@ -1456,31 +1462,6 @@
     "advertiser_name": "AMS CWS",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225439351",
-    "title": "Sales Executive",
-    "company": "RecruitedUK - Agency - Permanent",
-    "advertiser_name": "RecruitedUK",
-    "advertiser_type": "Agency",
-    "location": "Newcastle Upon Tyne",
-    "region": "North East",
-    "country": "UK",
-    "category": "Customer Sales / Sales Advisor",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "35000",
-    "salary_text": "£30000 - £35000 per year",
-    "posted_date": "2026-10-15",
-    "description": "We have an exciting opportunity for an experienced Internal Sales Executive to join a growing, successful business providing technical services and solutions to the UK construction industry.\n\nThis is a fantastic opportunity for someone who enjoys B2 B sales, outbound calling, and developing customer relationships. You ll be responsible for generating new business opportunities while also managing and growing an established portfolio of customers.\n\nThe Role\n\nAs an Internal Sales Executive, you will:\n- Make proactive outbound calls to prospective B2 B customers\n- Identify key decision-makers and generate new business opportunities\n- Qualify prospects to understand their requirements, budgets and upcoming projects\n- Book qualified appointments and opportunities for field-based Business Development Managers\n- Manage and develop an existing portfolio of smaller B2 B accounts\n- Re-engage dormant customers and identify opportunities to increase spend\n- Identify cross-selling and up-selling opportunities\n- Respond to sales enquiries, quotes and orders generated through your activity\n- Maintain accurate customer and sales information within the CRM\n- Build strong, long-term relationships with customers across the UK\n\nAbout You\n\nTo be considered for this role, you should have:\n- Previous experience within B2 B telesales, internal sales, lead generation or business development\n- Proven experience making outbound calls and working towards sales targets\n- Confidence overcoming objections and speaking with key decision-makers\n- A strong telephone manner with excellent rapport-building and questioning skills\n- The ability to identify and qualify genuine commercial opportunities\n- Good organisational and time-management skills\n- Experience using CRM systems and Microsoft Office\n- A proactive, resilient and self-motivated approach to sales\n\nExperience within construction supplies, plant hire, tool hire, technical services, engineering or industrial sectors would be advantageous, although this is not essential.\n\nPrevious experience as a Sales Development Representative (SDR), Appointment Setter, Telesales Executive, Internal Sales Executive or Business Development Executive would also be highly relevant.\n\nWhat s on Offer\n- Opportunity to work from Leeds or the Northeast\n- Established portfolio of existing B2 B customers\n- Genuine opportunity to generate and develop new business\n- Work with an established and growing national organisation\n- Support from experienced field-based Business Development Managers\n- Varied role combining new business development and account management\n- Excellent opportunity for long-term career development\n\nAdditional Information\n\nThis is a proactive sales position and will suit someone who genuinely enjoys picking up the phone, building relationships and creating commercial opportunities. The role has a target of approximately 35 proactive outbound calls per day, split between new business development and existing account management.\n\nDue to the high volume of applications, we aim to respond to all candidates, although this is not always possible. If you have not been contacted within 5 days, please assume your application has not been successful on this occasion. However, we may retain your details for future opportunities.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?sRc1aB%2brxiujtt5falv4GQz7bm4IYP1ii",
-    "source": "JobG8",
-    "customer_sales_classification": "DIRECT_SALES",
-    "customer_sales_reason": "sales-led title: sales executive",
-    "customer_sales_overlap_policy": "non-exclusive",
-    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   }

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 132
-- automatic exclude: 40
+- automatic review: 130
+- automatic exclude: 41
 - effective include: 10
-- effective review: 132
-- effective exclude: 40
+- effective review: 130
+- effective exclude: 41
 
 ## INCLUDE (10)
 
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225814869
 reason: Exact approved Crawley workplace.
 ---
 
-## REVIEW (132)
+## REVIEW (130)
 
 ---
 action: 
@@ -202,7 +202,7 @@ title: Accounts Assistant
 company: TPF Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2390906
+job_id: jobg8-2413645
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -538,7 +538,7 @@ title: Conveyancing Assistant
 company: GerrardWhite - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2380438
+job_id: jobg8-2420989
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -587,18 +587,6 @@ company: G2 Legal Limited - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2402201
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Creative Content Lead
-company: Travail Employment Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225757592
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -694,7 +682,7 @@ title: Credit Controller
 company: Tony Alan Recruitment - Agency - Permanent
 location: Hailsham
 source: JobG8
-job_id: jobg8-2376979
+job_id: jobg8-2414137
 reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -888,6 +876,18 @@ location: Buxted, TN22 5FD, Heathfield, TN21 0DS
 source: NHS Jobs
 job_id: nhs-5734103
 reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrative Assistant (Secondment Cover)
+company: Chichester College Group - Company - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-108336357
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
 ---
@@ -1258,7 +1258,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2360449
+job_id: jobg8-2420243
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1367,18 +1367,6 @@ company: Browne Construction - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225835692
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Coordinator - ASAP Start
-company: Office Angels - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225761647
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1522,7 +1510,7 @@ title: Residential Property Legal Secretary
 company: The Recruiter Specialists Group Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2366270
+job_id: jobg8-2418000
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1546,7 +1534,7 @@ title: Sales Administrator
 company: Hamptons - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2333527
+job_id: jobg8-2415657
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1559,18 +1547,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225790443
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Executive
-company: Michael Page - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225759198
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1702,7 +1678,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2401670
+job_id: jobg8-2412550
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1730,7 +1706,7 @@ job_id: jobg8-2380086
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
-## EXCLUDE (40)
+## EXCLUDE (41)
 
 ---
 action: 
@@ -1956,7 +1932,7 @@ title: Financial Services Administrator
 company: Morgan McKinley - Agency - Permanent
 location: Horsham
 source: JobG8
-job_id: jobg8-2360350
+job_id: jobg8-2413459
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 
@@ -2005,6 +1981,18 @@ company: Blakemore Recruitment - Agency - Permanent
 location: Horsham
 source: JobG8
 job_id: jobg8-2373788
+reason: The stated workplace belongs outside the approved Crawley employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Order processing Administrator
+company: Gi Group - Agency - Temporary
+location: Horsham
+source: JobG8
+job_id: jobg8-23643_225853065
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 

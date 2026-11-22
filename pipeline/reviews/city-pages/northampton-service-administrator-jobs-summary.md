@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: ACS Recruitment Solutions Ltd - Agency - Permanent
 location: Northampton
 source: JobG8
-job_id: jobg8-2370900
+job_id: jobg8-2414025
 reason: Exact approved Northampton workplace.
 ---
 
@@ -286,7 +286,7 @@ title: Admin and Accounts Assistant
 company: Robert Half - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-2394315
+job_id: jobg8-2415539
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -354,6 +354,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Business Operations Coordinator
+company: ACS Staffing Solutions - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225860477
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Call Centre Operator - Reserve Staff
 company: SolviT Recruitment Ltd - Agency - Temporary
 location: Northamptonshire
@@ -407,18 +419,6 @@ company: eNL Legal Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2355342
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Counter Sales & Branch Support Administrator
-company: Interaction Recruitment - Agency - Permanent
-location: Kettering
-source: JobG8
-job_id: jobg8-23643_225757794
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -790,7 +790,7 @@ title: Payroll & HR Administrator
 company: Oasis Business Personnel Ltd - Agency - Permanent
 location: Daventry
 source: JobG8
-job_id: jobg8-2393999
+job_id: jobg8-2419190
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

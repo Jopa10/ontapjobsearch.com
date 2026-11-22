@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 37
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 37
+- automatic include: 35
 - automatic review: 13
 - automatic exclude: 0
-- effective include: 37
+- effective include: 35
 - effective review: 13
 - effective exclude: 0
 
-## INCLUDE (37)
+## INCLUDE (35)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator/ Co-ordinator
-company: Spire Healthcare - Company - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225757658
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Bookkeeper
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Edinburgh
@@ -176,7 +164,7 @@ title: Credit Controller
 company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2391043
+job_id: jobg8-2422439
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -188,7 +176,7 @@ title: Credit Controller / Billing Assistant
 company: Michael Page Business Support - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2394307
+job_id: jobg8-2415083
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -213,18 +201,6 @@ company: Pontoon - Agency - Temporary
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225816628
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Search Consultancy Ltd - Agency - Contract
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225757111
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -260,7 +236,7 @@ title: Finance Assistant
 company: Robert Half - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2394835
+job_id: jobg8-2420566
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

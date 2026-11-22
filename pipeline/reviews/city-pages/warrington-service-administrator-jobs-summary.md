@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
+- automatic include: 29
 - automatic review: 8
 - automatic exclude: 5
-- effective include: 30
+- effective include: 29
 - effective review: 8
 - effective exclude: 5
 
-## INCLUDE (30)
+## INCLUDE (29)
 
 ---
 action: 
@@ -128,7 +128,7 @@ title: Credit Controller
 company: Adecco - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2383000
+job_id: jobg8-2421608
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -176,7 +176,7 @@ title: eCommerce Co-Ordinator
 company: The Solution Auto - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2370925
+job_id: jobg8-2415022
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -364,18 +364,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temp Receptionist
-company: Zachary Daniels Recruitment - Agency - Temporary
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225760575
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary Project Administrator / Project Coordinator
 company: Clarify Consultancy Ltd - Agency - Permanent
 location: Warrington
@@ -406,7 +394,7 @@ title: Finance Administrator
 company: Reed - Agency - Permanent
 location: Cheshire
 source: JobG8
-job_id: jobg8-2360493
+job_id: jobg8-2421224
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

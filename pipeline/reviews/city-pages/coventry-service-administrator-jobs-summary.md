@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 19
 - automatic review: 2
-- automatic exclude: 109
+- automatic exclude: 110
 - effective include: 19
 - effective review: 2
-- effective exclude: 109
+- effective exclude: 110
 
 ## INCLUDE (19)
 
@@ -188,7 +188,7 @@ title: Purchase Ledger Clerk
 company: SF Partners - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-2361337
+job_id: jobg8-2414401
 reason: Approved Coventry catchment.
 ---
 
@@ -278,7 +278,7 @@ job_id: jobg8-23643_225799801
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (109)
+## EXCLUDE (110)
 
 ---
 action: 
@@ -576,7 +576,7 @@ title: Bookkeeper
 company: Four Squared - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2331154
+job_id: jobg8-2414318
 reason: Separate employment market.
 ---
 
@@ -648,7 +648,7 @@ title: Commercial Property Paralegal
 company: The Eventus Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2386461
+job_id: jobg8-2419363
 reason: Separate employment market.
 ---
 
@@ -660,7 +660,7 @@ title: Content Writer
 company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2332054
+job_id: jobg8-2414914
 reason: Separate employment market.
 ---
 
@@ -768,7 +768,7 @@ title: Credit Controller
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2369638
+job_id: jobg8-2414056
 reason: Separate employment market.
 ---
 
@@ -876,7 +876,7 @@ title: Employment Law Paralegal
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Leamington Spa
 source: JobG8
-job_id: jobg8-2390916
+job_id: jobg8-2413818
 reason: Separate employment market.
 ---
 
@@ -936,7 +936,7 @@ title: Finance Administrator
 company: Reed - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2361784
+job_id: jobg8-2413853
 reason: Separate employment market.
 ---
 
@@ -1212,7 +1212,7 @@ title: Payroll Administrator
 company: Four Squared - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2331155
+job_id: jobg8-2414319
 reason: Separate employment market.
 ---
 
@@ -1484,6 +1484,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Senior Business Development Executive
+company: VIQU IT Recruitment - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-108349391
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Senior Marketing Executive
 company: TalentTech Recruitment - Agency - Permanent
 location: Warwickshire
@@ -1572,7 +1584,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2401673
+job_id: jobg8-2412553
 reason: Separate employment market.
 ---
 

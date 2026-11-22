@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 79
+- automatic review: 77
 - automatic exclude: 0
 - effective include: 17
-- effective review: 79
+- effective review: 77
 - effective exclude: 0
 
 ## INCLUDE (17)
@@ -228,7 +228,7 @@ job_id: jobg8-23643_225790550
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (79)
+## REVIEW (77)
 
 ---
 action: 
@@ -239,18 +239,6 @@ company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-2365136
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Autograph Specialist Recruitment - Agency - Permanent
-location: Lydney
-source: JobG8
-job_id: jobg8-23643_225757854
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -714,18 +702,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Land and Property Coordinator
-company: The Ernest Cook Trust - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225759079
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: London Market Insurance Administrator - Hybrid Working + Career Progression!
 company: Anderson Recruitment Ltd - Agency - Permanent
 location: Cheltenham
@@ -754,7 +730,7 @@ title: Marketing Assistant - Hybrid Working!
 company: Anderson Recruitment Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2380077
+job_id: jobg8-2421631
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

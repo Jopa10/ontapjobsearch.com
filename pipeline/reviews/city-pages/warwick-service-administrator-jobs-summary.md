@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 112
+- automatic review: 113
 - automatic exclude: 0
 - effective include: 18
-- effective review: 112
+- effective review: 113
 - effective exclude: 0
 
 ## INCLUDE (18)
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225852190
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (112)
+## REVIEW (113)
 
 ---
 action: 
@@ -586,7 +586,7 @@ title: Bookkeeper
 company: Four Squared - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2331154
+job_id: jobg8-2414318
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -646,7 +646,7 @@ title: Commercial Property Paralegal
 company: The Eventus Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2386461
+job_id: jobg8-2419363
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -658,7 +658,7 @@ title: Content Writer
 company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2332054
+job_id: jobg8-2414914
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -778,7 +778,7 @@ title: Credit Controller
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2369638
+job_id: jobg8-2414056
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -850,7 +850,7 @@ title: Employment Law Paralegal
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Leamington Spa
 source: JobG8
-job_id: jobg8-2390916
+job_id: jobg8-2413818
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -910,7 +910,7 @@ title: Finance Administrator
 company: Reed - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2361784
+job_id: jobg8-2413853
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1174,7 +1174,7 @@ title: Payroll Administrator
 company: Four Squared - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2331155
+job_id: jobg8-2414319
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1258,7 +1258,7 @@ title: Purchase Ledger Clerk
 company: SF Partners - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-2361337
+job_id: jobg8-2414401
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1458,6 +1458,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Senior Business Development Executive
+company: VIQU IT Recruitment - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-108349391
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Marketing Executive
 company: TalentTech Recruitment - Agency - Permanent
 location: Warwickshire
@@ -1558,7 +1570,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2401673
+job_id: jobg8-2412553
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

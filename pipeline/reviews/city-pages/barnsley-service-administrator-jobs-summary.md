@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 13
-- automatic exclude: 66
+- automatic exclude: 65
 - effective include: 6
 - effective review: 13
-- effective exclude: 66
+- effective exclude: 65
 
 ## INCLUDE (6)
 
@@ -44,7 +44,7 @@ title: Assistant Credit Controller
 company: Elevation Recruitment Group - Agency - Permanent
 location: Barnsley
 source: JobG8
-job_id: jobg8-2365699
+job_id: jobg8-2412884
 reason: Approved Barnsley catchment.
 ---
 
@@ -250,11 +250,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2401685
+job_id: jobg8-2412565
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (66)
+## EXCLUDE (65)
 
 ---
 action: 
@@ -276,7 +276,7 @@ title: Accounts Receivable Officer
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2387649
+job_id: jobg8-2420020
 reason: Separate employment market.
 ---
 
@@ -548,18 +548,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Education Delivery Coordinator, Alternative Provision South Yorkshire (new Yorkshire office opening early 2027)
-company: AP Education - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225830921
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Education, Communications & Outreach Officer
 company: Veolia - Agency - Contract
 location: Sheffield
@@ -732,7 +720,7 @@ title: Payroll Administrator
 company: Chase and Holland Recruitment Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2361743
+job_id: jobg8-2412948
 reason: Separate employment market.
 ---
 
@@ -825,6 +813,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225859246
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -840,7 +840,7 @@ title: Payroll Administrator - Local Authority
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2361759
+job_id: jobg8-2413288
 reason: Separate employment market.
 ---
 
@@ -852,7 +852,7 @@ title: Payroll Assistant
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2386390
+job_id: jobg8-2413946
 reason: Separate employment market.
 ---
 
@@ -972,7 +972,7 @@ title: SEO Executive
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2361989
+job_id: jobg8-2420999
 reason: Separate employment market.
 ---
 
@@ -1021,18 +1021,6 @@ company: CCA Recruitment Group - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225789027
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225796381
 reason: Separate employment market.
 ---
 

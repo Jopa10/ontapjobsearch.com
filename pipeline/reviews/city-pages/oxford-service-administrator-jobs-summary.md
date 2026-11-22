@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 16
-- automatic exclude: 59
-- effective include: 18
-- effective review: 16
-- effective exclude: 59
+- automatic include: 17
+- automatic review: 15
+- automatic exclude: 60
+- effective include: 17
+- effective review: 15
+- effective exclude: 60
 
-## INCLUDE (18)
+## INCLUDE (17)
 
 ---
 action: 
@@ -184,18 +184,6 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger & Office Administrator
-company: Humand - Agency - Permanent
-location: Oxford
-source: JobG8
-job_id: jobg8-23643_225586374
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Quality Control Administrator
 company: Morson Edge - Agency - Contract
 location: Oxford
@@ -240,7 +228,7 @@ job_id: nhs-5725243
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -402,18 +390,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Coordinator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Kidlington
-source: JobG8
-job_id: jobg8-23643_225828894
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Administrator
 company: Auto Skills UK - Agency - Permanent
 location: Bicester
@@ -434,7 +410,7 @@ job_id: jobg8-2393941
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (59)
+## EXCLUDE (60)
 
 ---
 action: 
@@ -468,7 +444,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2361447
+job_id: jobg8-2421644
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -480,7 +456,7 @@ title: Accounts Assistant
 company: Savant Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2379267
+job_id: jobg8-2413604
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -505,6 +481,18 @@ company: In2 Consult - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2382000
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Activities Coordinator
+company: Care UK - Company - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-108227130
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -864,7 +852,7 @@ title: Part Time Payroll Supervisor
 company: Portfolio Payroll - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2360459
+job_id: jobg8-2420426
 reason: Broad county location; not Oxford-city evidence.
 ---
 

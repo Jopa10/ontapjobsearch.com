@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 40
+- Effective included jobs: 41
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 40
+- automatic include: 41
 - automatic review: 12
 - automatic exclude: 28
-- effective include: 40
+- effective include: 41
 - effective review: 12
 - effective exclude: 28
 
-## INCLUDE (40)
+## INCLUDE (41)
 
 ---
 action: 
@@ -44,7 +44,7 @@ title: Accounts Assistant
 company: EC Resourcing - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2371024
+job_id: jobg8-2421850
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -104,7 +104,7 @@ title: Accounts Payable Officer
 company: Eclectic Recruitment - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2389759
+job_id: jobg8-2421509
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -237,6 +237,18 @@ company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2410088
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Pure Resourcing Solutions Limited - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225860346
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -424,18 +436,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: PR manager
-company: Kidney Research UK - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2385080
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Product Marketing Executive
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
@@ -489,6 +489,18 @@ company: Peasgood & Skeates - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225830754
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: School HR Administrator - Cambridge
+company: Randstad Education - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225860463
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -720,7 +732,7 @@ title: Credit Control Administrator
 company: The One Group - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2361390
+job_id: jobg8-2419717
 reason: Separate employment market.
 ---
 
@@ -732,7 +744,7 @@ title: Credit Controller
 company: Broster Buchanan - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2379992
+job_id: jobg8-2414593
 reason: Separate employment market.
 ---
 
@@ -744,7 +756,7 @@ title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Huntingdon
 source: JobG8
-job_id: jobg8-2377127
+job_id: jobg8-2420774
 reason: Separate employment market.
 ---
 

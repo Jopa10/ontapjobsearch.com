@@ -68,7 +68,7 @@ title: Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Swansea
 source: JobG8
-job_id: jobg8-2379299
+job_id: jobg8-2414814
 reason: Exact approved Swansea workplace.
 ---
 

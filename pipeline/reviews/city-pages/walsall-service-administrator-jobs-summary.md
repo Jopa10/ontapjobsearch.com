@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 12
 - automatic review: 61
 - automatic exclude: 0
-- effective include: 11
+- effective include: 12
 - effective review: 61
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -105,6 +105,18 @@ company: Opus People Solutions Ltd - Agency - Temporary
 location: Walsall
 source: JobG8
 job_id: jobg8-23643_225810957
+reason: Exact approved Walsall workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
+company: Focus Resourcing - Agency - Permanent
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_225859992
 reason: Exact approved Walsall workplace.
 ---
 
@@ -214,7 +226,7 @@ title: Accounts Assistant
 company: Robert Half - Agency - Permanent
 location: Oldbury
 source: JobG8
-job_id: jobg8-2394788
+job_id: jobg8-2419249
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -262,7 +274,7 @@ title: Accounts Payable Assistant
 company: Mitchell Adam - Agency - Permanent
 location: West Midlands
 source: JobG8
-job_id: jobg8-2370544
+job_id: jobg8-2419192
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -286,7 +298,7 @@ title: Accounts Receivable Administrator
 company: People Solutions Group Limited - Agency - Permanent
 location: Dudley
 source: JobG8
-job_id: jobg8-2382867
+job_id: jobg8-2412926
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -298,7 +310,7 @@ title: Accounts Receivable Administrator
 company: People Solutions Group Limited - Agency - Permanent
 location: Dudley
 source: JobG8
-job_id: jobg8-2382981
+job_id: jobg8-2421064
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -370,7 +382,7 @@ title: BMW Service Advisor
 company: Sytner Group - Agency - Permanent
 location: Oldbury
 source: JobG8
-job_id: jobg8-2379379
+job_id: jobg8-2420080
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -479,6 +491,18 @@ company: Mayfair Compliance Group Ltd - Agency - Permanent
 location: Oldbury
 source: JobG8
 job_id: jobg8-23643_225847535
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Office Angels - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-23643_225860188
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -875,18 +899,6 @@ company: Connect2Dudley - Agency - Temporary
 location: Dudley
 source: JobG8
 job_id: jobg8-23643_225799717
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Warehouse Admin
-company: Pertemps Dudley Industrial - Agency - Temporary
-location: Brierley Hill
-source: JobG8
-job_id: jobg8-23643_225757388
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

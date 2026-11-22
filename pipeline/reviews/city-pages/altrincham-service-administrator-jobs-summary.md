@@ -178,7 +178,7 @@ title: Accounts Assistant
 company: Halecroft Recruitment - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2375773
+job_id: jobg8-2419851
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -414,11 +414,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Outcomes First Group - Company - Permanent
+title: Operations Administrator
+company: Hays Business Support - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-20091_330300
+job_id: jobg8-23643_225773301
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -426,11 +426,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Operations Administrator
-company: Hays Business Support - Agency - Permanent
+title: Pallet Network & Customer Service Coordinator
+company: Kinaxia Logistics Limited - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-23643_225773301
+job_id: jobg8-23643_225859441
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

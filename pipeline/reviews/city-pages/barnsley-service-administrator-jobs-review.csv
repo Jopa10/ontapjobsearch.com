@@ -1,6 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225797675,Accounts Payable and Receivable Officer,Sewell Wallis Ltd - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
-include,jobg8-2365699,Assistant Credit Controller,Elevation Recruitment Group - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
+include,jobg8-2412884,Assistant Credit Controller,Elevation Recruitment Group - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-2399824,Conveyancing Assistant,SJC Partners - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-20279_64721-73c6bdafd2de8d1f8e432733f85ddafd,Customer Service Advisor,EE - Company - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-23643_225799720,Technical Administrator,Kingdom People - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
@@ -17,9 +17,9 @@ review,jobg8-2402611,Purchase Ledger Clerk,Elevation Recruitment Group - Agency 
 review,jobg8-2408729,Purchase Ledger Clerk,Marks Sattin - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Barnsley catchment rule matched; local review required.,fallback,barnsley-service-administrator-jobs
 review,jobg8-2359627,Purchase Ledger Clerk,Sharp Consultancy - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Barnsley catchment rule matched; local review required.,fallback,barnsley-service-administrator-jobs
 review,jobg8-2369032,Trade Mark Paralegal,G2 Legal Limited - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Barnsley catchment rule matched; local review required.,fallback,barnsley-service-administrator-jobs
-review,jobg8-2401685,Trainee Digital Marketing Manager No experience needed (Ref: 6901),Qualify Nation Recruitment - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Barnsley catchment rule matched; local review required.,fallback,barnsley-service-administrator-jobs
+review,jobg8-2412565,Trainee Digital Marketing Manager No experience needed (Ref: 6901),Qualify Nation Recruitment - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Barnsley catchment rule matched; local review required.,fallback,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225809502,Accounts Administrator,BDS (Northern) Limited - Agency - Temporary,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,jobg8-2387649,Accounts Receivable Officer,PRATAP PARTNERSHIP LTD - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
+exclude,jobg8-2420020,Accounts Receivable Officer,PRATAP PARTNERSHIP LTD - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-2390551,Activity Coordinator,Cygnet - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225815405,Administrator,The Talent Division - Agency - Temporary,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-2359207,Audience Development Coordinator - Local Authority - Libraries,Reed - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
@@ -42,7 +42,6 @@ exclude,jobg8-23643_225806252,Customer Service Advisor,Search Consultancy Ltd - 
 exclude,jobg8-2365206,Debt Recovery Paralegal,CRA Consulting - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-2390804,Demobilisation Fleet and Asset Coordinator,Morgan Sindall Property Services - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225814635,Document Controller,Build Recruitment - Agency - Contract,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,jobg8-23643_225830921,"Education Delivery Coordinator, Alternative Provision South Yorkshire (new Yorkshire office opening early 2027)",AP Education - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225849624,"Education, Communications & Outreach Officer",Veolia - Agency - Contract,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,nhs-5742402,GP Receptionist,Wickersley Medical Practice,"Rotherham, S66 2JQ",NHS Jobs,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225797871,Green Space Activation Coordinator,Voluntary Action Rotherham - Agency - Contract,Brinsworth,JobG8,exclude,exclude,Separate employment market.,context:rotherham,barnsley-service-administrator-jobs
@@ -57,7 +56,7 @@ exclude,jobg8-2360201,Paralegal,Reed - Agency - Permanent,Doncaster,JobG8,exclud
 exclude,jobg8-23643_225798831,PART TIME ACCOUNT COORDINATOR,Gi Group - Agency - Temporary,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-2408370,Part Time Accounts Assistant,Elevation Recruitment Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-2359784,Part-time Payroll Admin,Portfolio Payroll - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
-exclude,jobg8-2361743,Payroll Administrator,Chase and Holland Recruitment Ltd - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
+exclude,jobg8-2412948,Payroll Administrator,Chase and Holland Recruitment Ltd - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225823247,Payroll Administrator,Edwards & Pearce - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-2363027,Payroll Administrator,Elevation Recruitment Group - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-2398944,Payroll Administrator,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
@@ -65,9 +64,10 @@ exclude,jobg8-2358585,Payroll Administrator,Portfolio Payroll - Agency - Permane
 exclude,jobg8-2396665,Payroll Administrator,Portfolio Payroll - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-2407670,Payroll Administrator,Portfolio Payroll - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225825341,Payroll Administrator,Portfolio Payroll Limited - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,jobg8-23643_225859246,Payroll Administrator,Portfolio Payroll Limited - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-2386656,Payroll Administrator,PRATAP PARTNERSHIP LTD - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
-exclude,jobg8-2361759,Payroll Administrator - Local Authority,Reed - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,jobg8-2386390,Payroll Assistant,PRATAP PARTNERSHIP LTD - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
+exclude,jobg8-2413288,Payroll Administrator - Local Authority,Reed - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,jobg8-2413946,Payroll Assistant,PRATAP PARTNERSHIP LTD - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225821310,Payroll Officer,Beyond Talent Solutions Ltd - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,nhs-5734719,Personal Assistant,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S13 7LY",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-2363386,Purchase Ledger Clerk,Elevation Recruitment Group - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
@@ -77,10 +77,9 @@ exclude,nhs-5732921,Receptionist,Gateway Primary Care CIC,"Rotherham, S65 1DJ, R
 exclude,nhs-5743031,Receptionist,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S10 2JF",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225816534,Sales Ledger Administrator,Sewell Wallis Ltd - Agency - Temporary,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225821916,Sales Support Executive,Bowdon Associates Limited - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,jobg8-2361989,SEO Executive,Reed - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,jobg8-2420999,SEO Executive,Reed - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225823403,Site Administrator,Albion Search - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225860479,Switchboard Operator/Receptionist,Staff 365 Recruitment Services - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-2408637,Temp Accounts Assistant - Charity Organisation,Office Angels - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-23643_225789027,Temporary Receptionist,CCA Recruitment Group - Agency - Temporary,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,jobg8-23643_225796381,Transactional Finance Officer,Sewell Wallis Ltd - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,nhs-5734842,Ward Clerk,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S5 7AU",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs

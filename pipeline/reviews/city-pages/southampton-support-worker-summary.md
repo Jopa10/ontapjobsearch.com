@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 14
-- automatic exclude: 10
+- automatic review: 15
+- automatic exclude: 9
 - effective include: 10
-- effective review: 14
-- effective exclude: 10
+- effective review: 15
+- effective exclude: 9
 
 ## INCLUDE (10)
 
@@ -144,19 +144,7 @@ job_id: jobg8-2389628
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (14)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Assistant
-company: Care First UK Recruitment Solutions - Agency - Permanent
-location: Totton
-source: JobG8
-job_id: jobg8-23643_225760935
-reason: No approved Southampton catchment rule matched; local review required.
----
+## REVIEW (15)
 
 ---
 action: 
@@ -216,6 +204,18 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-1401786179
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Extra Care Support Worker
+company: SCA Care - Agency - Temporary
+location: New Milton
+source: JobG8
+job_id: jobg8-108321029
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -314,7 +314,19 @@ job_id: jobg8-23643_225653471
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Waking Night Support Worker
+company: SeeAbility - Agency - Permanent
+location: Tadley
+source: JobG8
+job_id: jobg8-108357109
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+## EXCLUDE (9)
 
 ---
 action: 
@@ -421,17 +433,5 @@ company: SCA Care - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-108298282
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Support Worker - Part Time Hours
-company: Enham Trust - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-108330792
 reason: Separate employment market.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/hemel-hempstead/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 109
+- automatic include: 7
+- automatic review: 108
 - automatic exclude: 0
-- effective include: 9
-- effective review: 109
+- effective include: 7
+- effective review: 108
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (7)
 
 ---
 action: 
@@ -88,35 +88,11 @@ reason: Exact approved Hemel Hempstead workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Coordinator - 12 month fixed term contract
-company: Think Specialist Recruitment - Agency - Permanent
-location: Hemel Hempstead
-source: JobG8
-job_id: jobg8-23643_225757313
-reason: Exact approved Hemel Hempstead workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Administrator
 company: One Stop Healthcare
 location: HEMEL HEMPSTEAD, HP2 7YU
 source: NHS Jobs
 job_id: nhs-5735656
-reason: Exact approved Hemel Hempstead workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Logistics Operations Coordinator
-company: Think Specialist Recruitment - Agency - Permanent
-location: Hemel Hempstead
-source: JobG8
-job_id: jobg8-23643_225757424
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
@@ -132,7 +108,7 @@ job_id: jobg8-23643_225771491
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (109)
+## REVIEW (108)
 
 ---
 action: 
@@ -271,18 +247,6 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: Tate - Agency - Permanent
-location: Potters Bar
-source: JobG8
-job_id: jobg8-23643_225759236
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
 company: The GK Group Limited - Agency - Permanent
 location: Hertfordshire
 source: JobG8
@@ -310,7 +274,7 @@ title: Accounts Payable Administrator
 company: Michael Page Finance - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2376955
+job_id: jobg8-2413559
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -322,7 +286,7 @@ title: Accounts Payable Officer - Part Time
 company: Robertson Bell - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2362027
+job_id: jobg8-2422108
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -334,7 +298,7 @@ title: Administrator
 company: Accountancy Action - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2360455
+job_id: jobg8-2420406
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -370,7 +334,19 @@ title: Assistant Brand Manager - Quick & Easy Meals
 company: Premier Foods - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2409692
+job_id: jobg8-2411844
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: B2C Marketing Executive - 12 month FTC
+company: Think Specialist Recruitment - Agency - Contract
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225858526
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -418,7 +394,7 @@ title: Bookkeeper
 company: Chiltern Recruitment Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2377101
+job_id: jobg8-2420354
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -430,7 +406,7 @@ title: Bookkeeper
 company: SelectStaff Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2394678
+job_id: jobg8-2422288
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -754,7 +730,7 @@ title: GP Receptionist
 company: Get Staffed Online Recruitment Limited - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2384025
+job_id: jobg8-2419788
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -826,7 +802,7 @@ title: Junior Private Client Legal Assistant
 company: Allstaff Recruitment - Agency - Permanent
 location: Harpenden
 source: JobG8
-job_id: jobg8-2366320
+job_id: jobg8-2420557
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -886,7 +862,7 @@ title: Legal Secretary
 company: Additional Resources Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2365686
+job_id: jobg8-2422079
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1006,7 +982,7 @@ title: Mortgage & Protection Administrator
 company: CareerStone - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2379983
+job_id: jobg8-2414569
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1042,7 +1018,7 @@ title: Mortgage Administrator
 company: GCB Recruitment - Agency - Permanent
 location: Hertford
 source: JobG8
-job_id: jobg8-2364980
+job_id: jobg8-2420626
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1194,18 +1170,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Proposals Coordinator
-company: VolkerWessels Uk - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-108339699
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Clerk
 company: NLB Solutions - Agency - Permanent
 location: Hertfordshire
@@ -1246,7 +1210,7 @@ title: Real Estate Paralegal
 company: Fame Recruitment Consultants Ltd - Agency - Permanent
 location: Hertford
 source: JobG8
-job_id: jobg8-2366250
+job_id: jobg8-2415016
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

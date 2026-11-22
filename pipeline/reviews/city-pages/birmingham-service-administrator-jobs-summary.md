@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 134
+- Effective included jobs: 132
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 134
+- automatic include: 132
 - automatic review: 15
-- automatic exclude: 9
-- effective include: 134
+- automatic exclude: 10
+- effective include: 132
 - effective review: 15
-- effective exclude: 9
+- effective exclude: 10
 
-## INCLUDE (134)
+## INCLUDE (132)
 
 ---
 action: 
@@ -440,7 +440,7 @@ title: Credit Controller
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2380408
+job_id: jobg8-2420333
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -452,7 +452,7 @@ title: Credit Controller
 company: James Andrew Recruitment Solutions (JAR Solutions) - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2372053
+job_id: jobg8-2419689
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -568,18 +568,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Ardour Associates Ltd - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225582367
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Coordinator
 company: EA Recruitment - Agency - Contract
 location: Birmingham
@@ -621,18 +609,6 @@ company: Healthtrust Europe - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2391645
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Digital Marketing Account Executive
-company: Elite Executive Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225759333
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -992,7 +968,7 @@ title: Marketing and Communications Assistant
 company: PYVITAL LTD - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2393661
+job_id: jobg8-2419663
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1004,7 +980,7 @@ title: Marketing Assistant
 company: Robert Walters - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2375771
+job_id: jobg8-2419681
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1268,7 +1244,7 @@ title: Purchase Ledger
 company: Four Squared - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2331966
+job_id: jobg8-2414779
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1328,7 +1304,7 @@ title: Sales Administrator
 company: Stellantis &You - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2390960
+job_id: jobg8-2414728
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1388,7 +1364,7 @@ title: Sales Support Administrator
 company: M2 Professional Recruitment Services Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2377064
+job_id: jobg8-2419787
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1592,7 +1568,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2401669
+job_id: jobg8-2412549
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1814,7 +1790,19 @@ job_id: jobg8-23643_225809975
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (10)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: AD Finance - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-2422088
+reason: Separate exact-city market at launch.
+---
 
 ---
 action: 

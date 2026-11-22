@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 16
 - automatic review: 35
 - automatic exclude: 0
-- effective include: 15
+- effective include: 16
 - effective review: 35
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (16)
 
 ---
 action: 
@@ -32,7 +32,7 @@ title: Accounts Payable Clerk - 6 Month FTC
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Bedford
 source: JobG8
-job_id: jobg8-2380081
+job_id: jobg8-2422428
 reason: Exact approved Bedford workplace.
 ---
 
@@ -93,6 +93,18 @@ company: 1st Choice Staff Recruitment - Agency - Temporary
 location: Bedford
 source: JobG8
 job_id: jobg8-23643_225795458
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Document Controller
+company: Frontline Construction Recruitment - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225859458
 reason: Exact approved Bedford workplace.
 ---
 
@@ -214,7 +226,7 @@ title: Accounts Administrator
 company: Hello Recruitment Associates Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2383650
+job_id: jobg8-2414713
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -334,7 +346,7 @@ title: Credit Control/Accounts Receivable
 company: Michael Page Finance - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2377015
+job_id: jobg8-2414932
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -406,7 +418,7 @@ title: Legal Secretary
 company: Additional Resources Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2365685
+job_id: jobg8-2422078
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -502,7 +514,7 @@ title: Payroll Assistant
 company: NLB Solutions - Agency - Permanent
 location: Luton
 source: JobG8
-job_id: jobg8-2375758
+job_id: jobg8-2419147
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

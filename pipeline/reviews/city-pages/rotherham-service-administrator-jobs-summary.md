@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 77
+- automatic review: 76
 - automatic exclude: 0
 - effective include: 8
-- effective review: 77
+- effective review: 76
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -92,7 +92,7 @@ title: Payroll Assistant
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
 source: JobG8
-job_id: jobg8-2386390
+job_id: jobg8-2413946
 reason: Exact approved Rotherham workplace.
 ---
 
@@ -120,7 +120,7 @@ job_id: jobg8-2408637
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (77)
+## REVIEW (76)
 
 ---
 action: 
@@ -166,7 +166,7 @@ title: Accounts Receivable Officer
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2387649
+job_id: jobg8-2420020
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -202,7 +202,7 @@ title: Assistant Credit Controller
 company: Elevation Recruitment Group - Agency - Permanent
 location: Barnsley
 source: JobG8
-job_id: jobg8-2365699
+job_id: jobg8-2412884
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -510,18 +510,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Education Delivery Coordinator, Alternative Provision South Yorkshire (new Yorkshire office opening early 2027)
-company: AP Education - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225830921
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Education, Communications & Outreach Officer
 company: Veolia - Agency - Contract
 location: Sheffield
@@ -694,7 +682,7 @@ title: Payroll Administrator
 company: Chase and Holland Recruitment Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2361743
+job_id: jobg8-2412948
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -763,6 +751,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225859246
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -778,7 +778,7 @@ title: Payroll Administrator - Local Authority
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2361759
+job_id: jobg8-2413288
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -934,7 +934,7 @@ title: SEO Executive
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2361989
+job_id: jobg8-2420999
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -1006,7 +1006,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2401685
+job_id: jobg8-2412565
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -1019,18 +1019,6 @@ company: Anonymous - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225846974
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225796381
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 24
 - automatic review: 12
-- automatic exclude: 44
+- automatic exclude: 45
 - effective include: 24
 - effective review: 12
-- effective exclude: 44
+- effective exclude: 45
 
 ## INCLUDE (24)
 
@@ -80,7 +80,7 @@ title: Credit Control Administrator
 company: The One Group - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2361390
+job_id: jobg8-2419717
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -92,7 +92,7 @@ title: Credit Controller
 company: Broster Buchanan - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2379992
+job_id: jobg8-2414593
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -458,7 +458,7 @@ job_id: jobg8-23643_225768922
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (44)
+## EXCLUDE (45)
 
 ---
 action: 
@@ -480,7 +480,7 @@ title: Accounts Assistant
 company: EC Resourcing - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2371024
+job_id: jobg8-2421850
 reason: Separate employment market.
 ---
 
@@ -552,7 +552,7 @@ title: Accounts Payable Officer
 company: Eclectic Recruitment - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2389759
+job_id: jobg8-2421509
 reason: Separate employment market.
 ---
 
@@ -624,7 +624,7 @@ title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Huntingdon
 source: JobG8
-job_id: jobg8-2377127
+job_id: jobg8-2420774
 reason: Separate employment market.
 ---
 
@@ -697,6 +697,18 @@ company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2410088
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Pure Resourcing Solutions Limited - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225860346
 reason: Separate employment market.
 ---
 
@@ -896,18 +908,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: PR manager
-company: Kidney Research UK - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2385080
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Product Marketing Executive
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
@@ -961,6 +961,18 @@ company: Peasgood & Skeates - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225830754
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: School HR Administrator - Cambridge
+company: Randstad Education - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225860463
 reason: Separate employment market.
 ---
 

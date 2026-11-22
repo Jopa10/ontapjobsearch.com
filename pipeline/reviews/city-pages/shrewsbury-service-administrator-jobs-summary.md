@@ -44,7 +44,7 @@ title: B2B Marketing & Lead Generation Specialist
 company: Thomas Lee Recruitment Limited - Agency - Permanent
 location: Shrewsbury
 source: JobG8
-job_id: jobg8-2391327
+job_id: jobg8-2415708
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -466,6 +466,18 @@ title: Finance Assistant
 company: Office Angels - Agency - Permanent
 location: Wellington
 source: JobG8
+job_id: jobg8-23643_225858530
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Office Angels - Agency - Permanent
+location: Wellington
+source: JobG8
 job_id: jobg8-2406462
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
@@ -479,18 +491,6 @@ company: Robert Half - Agency - Permanent
 location: Telford
 source: JobG8
 job_id: jobg8-2392544
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Temporary
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225814754
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

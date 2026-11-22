@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 41
+- automatic review: 42
 - automatic exclude: 0
 - effective include: 6
-- effective review: 41
+- effective review: 42
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (42)
 
 ---
 action: 
@@ -479,6 +479,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-2373413
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225820459
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

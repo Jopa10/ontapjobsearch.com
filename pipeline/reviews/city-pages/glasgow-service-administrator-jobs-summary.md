@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 42
+- Effective included jobs: 41
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 42
+- automatic include: 41
 - automatic review: 8
 - automatic exclude: 0
-- effective include: 42
+- effective include: 41
 - effective review: 8
 - effective exclude: 0
 
-## INCLUDE (42)
+## INCLUDE (41)
 
 ---
 action: 
@@ -56,7 +56,7 @@ title: Accounts Payable Assistant - Ongoing Temp - Hybrid
 company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2361865
+job_id: jobg8-2415406
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -164,7 +164,7 @@ title: Credit Controller
 company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2390363
+job_id: jobg8-2420413
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -248,7 +248,7 @@ title: Finance Officer - Glasgow - Part-Time
 company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2390253
+job_id: jobg8-2412768
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -260,7 +260,7 @@ title: Internal Sales Executive
 company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2361923
+job_id: jobg8-2419763
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -297,30 +297,6 @@ company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-2409424
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Licensing Coordinator
-company: Adecco - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225757877
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Licensing Coordinator
-company: Pertemps Glasgow Perms - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225757567
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -528,6 +504,18 @@ job_id: jobg8-2403351
 reason: Approved conservative Glasgow launch catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Receptionist / Showroom Host
+company: Office Angels - Agency - Temporary
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225860464
+reason: Approved conservative Glasgow launch catchment.
+---
+
 ## REVIEW (8)
 
 ---
@@ -622,7 +610,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2401675
+job_id: jobg8-2412555
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 
