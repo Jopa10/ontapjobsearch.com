@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-21
-review_fingerprint: 7ae0e3ec42d9b33fb238f5fb392b1f5ef94c1d48cf84b18d17e5d690d467b1c9
-routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
+review_date: 2026-11-22
+review_fingerprint: df09279712aff9ebe484ec61fe292e8ba98def6e98c335a09aa44a2e7f2ae098
+routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 1
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
 
@@ -37,21 +37,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-noe
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Derbyshire | Derby, DE1 3TQ | £26,847.00 - £28,153.00 Annually (Actual) Band 3, SCP 6 - 9 | Finance Assistant
-employer: St Ralph Sherwin Catholic Multi Academy Trust
-closing_date: 2026-11-21T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 033e0a0ff21cfaa20901ec683cac5d79bc194dc0ff1c29bc4938f21529c6791b
-source: Teaching Vacancies
-source_job_id: finance-assistant-st-ralph-sherwin-catholic-multi-academy-trust-derby-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-ralph-sherwin-catholic-multi-academy-trust-derby-not-recorded
----
 
 ---
 action: 

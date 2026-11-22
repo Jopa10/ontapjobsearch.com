@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-21
-review_fingerprint: 0535d16b4f836b6b4106e7a963c400e1ff061ee402b0b0e7a5fa3172729aa29d
-routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
+review_date: 2026-11-22
+review_fingerprint: d7a459abc2608117b3747bec70382994de0ed662149ee3f77bbfaa904a4d7b40
+routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -30,7 +30,7 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b667c15be0ad2ac1316aee92b38b188b70c82f993faac75e32d835f28a7a4d97
+factual_fingerprint: 72c2cde7d55b90057cae8e3c5fe5eb3a2919948a2df4eb28ebcd33c82233f854
 source: Teaching Vacancies
 source_job_id: academy-administrator-e-act-royton-and-crompton-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-e-act-royton-and-crompton-academy

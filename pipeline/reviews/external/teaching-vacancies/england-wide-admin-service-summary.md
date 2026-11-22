@@ -12,13 +12,13 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **650**
-- REVIEW NOW (LIVE regions): **632**
-- EDITABLE NOW (no remembered action): **632**
+- All routed roles: **648**
+- REVIEW NOW (LIVE regions): **630**
+- EDITABLE NOW (no remembered action): **630**
 - REMEMBERED / RESOLVED: **0**
 - DEFERRED - REGION NOT LIVE: **18**
 - SELECTED: **201**
-- POSS: **80**
+- POSS: **78**
 - HARD PASS / EXCLUDED: **351**
 
 ## BEDFORDSHIRE — SELECTED
@@ -608,17 +608,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-noe
 
 ---
 action:
-POSS | Derbyshire | Derby, DE1 3TQ | £26,847.00 - £28,153.00 Annually (Actual) Band 3, SCP 6 - 9 | Finance Assistant
-employer: St Ralph Sherwin Catholic Multi Academy Trust
-closing_date: 2026-11-21T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-factual_fingerprint: 033e0a0ff21cfaa20901ec683cac5d79bc194dc0ff1c29bc4938f21529c6791b
-source_job_id: finance-assistant-st-ralph-sherwin-catholic-multi-academy-trust-derby-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-st-ralph-sherwin-catholic-multi-academy-trust-derby-not-recorded
----
-
----
-action:
 POSS | Derbyshire | Hope Valley, East Midlands, S33 6SD | £26,427.00 - £26,847.00 Annually (FTE) Actual Salary £13,823 - £14,043 | Receptionist
 employer: Hope Valley College
 closing_date: 2026-11-22T23:59:00+00:00
@@ -924,7 +913,7 @@ SELECTED | Greater Manchester - North | Oldham, North West, OL2 6NT | £24,761.2
 employer: E-ACT Royton and Crompton Academy
 closing_date: 2026-11-30T09:00:00+00:00
 reason: Clear admin/service title: administrator
-factual_fingerprint: b667c15be0ad2ac1316aee92b38b188b70c82f993faac75e32d835f28a7a4d97
+factual_fingerprint: 72c2cde7d55b90057cae8e3c5fe5eb3a2919948a2df4eb28ebcd33c82233f854
 source_job_id: academy-administrator-e-act-royton-and-crompton-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-e-act-royton-and-crompton-academy
 ---
@@ -2657,9 +2646,9 @@ POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B38 9D
 employer: Ark Kings Academy
 closing_date: 2026-12-08T00:00:00+00:00
 reason: Borderline school administration title: data officer
-factual_fingerprint: 373a7800ad9d13c1828356add882e19ebbabc04b62fa76f9b0d78ef3ec58a5fc
-source_job_id: data-officer-b1ad482a-c5d0-4d59-88df-dbe1fd45ba9d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-b1ad482a-c5d0-4d59-88df-dbe1fd45ba9d
+factual_fingerprint: 95c06f2ef253f37ab6fda9cce790bc8006b61e08950ebaff760aa4651ea94e35
+source_job_id: data-officer-e774b00a-cbd5-4f66-bb75-d029b35a56cc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-e774b00a-cbd5-4f66-bb75-d029b35a56cc
 ---
 
 ---
@@ -2855,17 +2844,6 @@ reason: Borderline school administration title: data officer
 factual_fingerprint: 640c027ffe68529744f487dbac4b72c7855520e91565c51d69d175cd6f0b3b58
 source_job_id: kmat-data-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
----
-
----
-action:
-POSS | West Midlands - Coventry & Warwickshire | Leamington Spa, West Midlands, CV31 1NJ | £9,468.00 - £10,091.00 Annually (Actual) Band F - SCP 7 - 10 | Office Administrator
-employer: St Anthony's Catholic Primary Academy
-closing_date: 2026-11-22T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-factual_fingerprint: 2ea748922426d92ed443bf264dd5fede8bfc7e59d39cc110ae468335d9d13f4a
-source_job_id: office-administrator-st-anthony-s-catholic-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-anthony-s-catholic-primary-academy
 ---
 
 ---

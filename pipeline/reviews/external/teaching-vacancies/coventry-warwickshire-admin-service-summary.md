@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-21
-review_fingerprint: a24965e130742dc6750ee98fe17f39ee5fba15a9b29adfaeee8f61f322ff2c31
-routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
+review_date: 2026-11-22
+review_fingerprint: 687e02a096b167c00afbf955600668531ee73ab6ee51bb27e2b2714b7617af16
+routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 16
 - Selected: 3
-- POSS awaiting decision: 6
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 8
 
@@ -111,21 +111,6 @@ factual_fingerprint: 640c027ffe68529744f487dbac4b72c7855520e91565c51d69d175cd6f0
 source: Teaching Vacancies
 source_job_id: kmat-data-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
----
-
----
-action: 
-POSS | West Midlands - Coventry & Warwickshire | Leamington Spa, West Midlands, CV31 1NJ | £9,468.00 - £10,091.00 Annually (Actual) Band F - SCP 7 - 10 | Office Administrator
-employer: St Anthony's Catholic Primary Academy
-closing_date: 2026-11-22T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2ea748922426d92ed443bf264dd5fede8bfc7e59d39cc110ae468335d9d13f4a
-source: Teaching Vacancies
-source_job_id: office-administrator-st-anthony-s-catholic-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-anthony-s-catholic-primary-academy
 ---
 
 ---

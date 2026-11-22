@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-11-21
+review_date: 2026-11-22
 review_fingerprint: 462a8e7e774b4aa48fa49c1f910e89845730c1c75439a6fd6675e6dec0da095e
-routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
+routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED

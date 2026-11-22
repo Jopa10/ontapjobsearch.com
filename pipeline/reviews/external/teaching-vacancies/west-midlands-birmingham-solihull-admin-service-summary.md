@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-21
-review_fingerprint: e4dc8aa7d8550da0f2c409031c0c0194529d17359958ce90cf4215e43709bc04
-routing_manifest_sha256: 01459f11464d40042722e03cf3a28e74e12f02487064b7cba39163529a33ffe6
+review_date: 2026-11-22
+review_fingerprint: 1cc366f6457a487917b8d614fa94c9a07b02fca6102d9458c683ebd89d9cf368
+routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -197,10 +197,10 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 373a7800ad9d13c1828356add882e19ebbabc04b62fa76f9b0d78ef3ec58a5fc
+factual_fingerprint: 95c06f2ef253f37ab6fda9cce790bc8006b61e08950ebaff760aa4651ea94e35
 source: Teaching Vacancies
-source_job_id: data-officer-b1ad482a-c5d0-4d59-88df-dbe1fd45ba9d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-b1ad482a-c5d0-4d59-88df-dbe1fd45ba9d
+source_job_id: data-officer-e774b00a-cbd5-4f66-bb75-d029b35a56cc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-e774b00a-cbd5-4f66-bb75-d029b35a56cc
 ---
 
 ---
