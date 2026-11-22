@@ -13,10 +13,9 @@ permissions:
   id-token: write
 
 jobs:
-  backfill:
-    name: Copy exact Sunday published jobs to Production Neon
+  prepare-sunday-snapshot:
+    name: Prepare exact Sunday publication snapshot
     runs-on: ubuntu-latest
-    environment: neon-prod-daily-shadow
     steps:
       - name: Check out Sunday publication code and outputs
         uses: actions/checkout@v4
@@ -107,6 +106,35 @@ jobs:
           (root / 'daily-source.json').write_text(json.dumps(source, separators=(',', ':')) + '\n')
           PY
 
+      - name: Upload exact Sunday Neon input for writer job
+        uses: actions/upload-artifact@v4
+        with:
+          name: ontap-prod-sunday-input-44998593106
+          path: ${{ runner.temp }}/ontap-prod-daily/
+          if-no-files-found: error
+          retention-days: 2
+
+  write-sunday-snapshot:
+    name: Write and verify Sunday snapshot in Production Neon
+    needs: prepare-sunday-snapshot
+    runs-on: ubuntu-latest
+    environment: neon-prod-daily-shadow
+    permissions:
+      actions: read
+      contents: read
+    steps:
+      - name: Check out Sunday publication code
+        uses: actions/checkout@v4
+        with:
+          ref: 1a74c4df24d6269f278c579be937ed1da24c419c
+          persist-credentials: false
+
+      - name: Download prepared Sunday Neon input
+        uses: actions/download-artifact@v4
+        with:
+          name: ontap-prod-sunday-input-44998593106
+          path: ${{ runner.temp }}/ontap-prod-daily
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
@@ -115,7 +143,7 @@ jobs:
       - name: Install Neon harness dependencies
         run: npm ci --prefix database/shadow/harness --ignore-scripts --no-audit --no-fund
 
-      - name: Write and verify Sunday's snapshot in Production Neon
+      - name: Write Sunday's snapshot to Production Neon and verify readback
         env:
           ONTAP_NEON_PROD_DAILY_WRITE_URL: ${{ secrets.ONTAP_NEON_PROD_DAILY_WRITE_URL }}
           ONTAP_PROD_SOURCE_DIR: ${{ runner.temp }}/ontap-prod-daily
