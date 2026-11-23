@@ -274,7 +274,7 @@ jobs:
           EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
         run: |
           set -euo pipefail
-          printf '%s\\n' "$EXPECTED_SHA" > "$RUNNER_TEMP/verified-production-sha.txt"
+          printf '%s\n' "$EXPECTED_SHA" > "$RUNNER_TEMP/verified-production-sha.txt"
           echo "sha=$EXPECTED_SHA" >> "$GITHUB_OUTPUT"
 
       - name: Upload verified Production SHA
