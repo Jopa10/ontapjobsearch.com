@@ -1,5 +1,5 @@
 {
   "mode": "today",
-  "attempt": 33,
-  "purpose": "Discover today's latest verified completed production publication, update isolated Neon Preview, and verify parity and idempotency. No selector rerun or production publish."
+  "attempt": 34,
+  "purpose": "Refresh isolated Neon Preview from Monday 23 November's latest completed production publication and verify its selected JobG8 IDs, payloads, scope order and idempotency. No selector rerun or production publish."
 }
