@@ -226,7 +226,7 @@ title: Accounts Assistant - Maternity Cover
 company: Alexander Lloyd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2366435
+job_id: jobg8-2423451
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -348,6 +348,18 @@ location: East Grinstead
 source: JobG8
 job_id: jobg8-2405897
 reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Building Safety Levy and Building Control Administrator
+company: Hays - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-108313716
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
 ---
@@ -490,7 +502,7 @@ title: Commercial Property Paralegal - Progression opportunities
 company: qed legal - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2372578
+job_id: jobg8-2423277
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -562,7 +574,7 @@ title: Conveyancing Asssitant
 company: GerrardWhite - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2380593
+job_id: jobg8-2423797
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -982,7 +994,7 @@ title: Legal Assistant
 company: Essential Employment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2377341
+job_id: jobg8-2427792
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1102,7 +1114,7 @@ title: Marketing Manager
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2362052
+job_id: jobg8-23643_225830544
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1114,7 +1126,7 @@ title: Marketing Manager
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225830544
+job_id: jobg8-2423167
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1247,18 +1259,6 @@ company: Portfolio Payroll - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2358513
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2420243
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1678,7 +1678,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2412550
+job_id: jobg8-2422862
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1702,7 +1702,7 @@ title: Wellbeing Coordinator
 company: Caring Homes Group - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2380086
+job_id: jobg8-2428962
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -1980,7 +1980,7 @@ title: Mortgage Administrator
 company: Blakemore Recruitment - Agency - Permanent
 location: Horsham
 source: JobG8
-job_id: jobg8-2373788
+job_id: jobg8-2423753
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 
@@ -2004,7 +2004,7 @@ title: Paralegal - Sports & Technology Consultancy
 company: FLTalent - Agency - Permanent
 location: Brighton
 source: JobG8
-job_id: jobg8-2348182
+job_id: jobg8-2427357
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 
@@ -2172,7 +2172,7 @@ title: Social Media Coordinator
 company: BIMM University - Agency - Permanent
 location: Brighton
 source: JobG8
-job_id: jobg8-2397480
+job_id: jobg8-2427674
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 130
+- automatic include: 13
+- automatic review: 128
 - automatic exclude: 49
-- effective include: 14
-- effective review: 130
+- effective include: 13
+- effective review: 128
 - effective exclude: 49
 
-## INCLUDE (14)
+## INCLUDE (13)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Amour Recruitment - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225819016
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4GX
-source: NHS Jobs
-job_id: nhs-5716963
 reason: Approved Southampton catchment.
 ---
 
@@ -192,7 +180,7 @@ job_id: nhs-5730215
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (130)
+## REVIEW (128)
 
 ---
 action: 
@@ -526,7 +514,7 @@ title: Bookkeeper
 company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2366528
+job_id: jobg8-2426707
 reason: Broad location; review before city inclusion.
 ---
 
@@ -946,7 +934,7 @@ title: Finance Assistant
 company: ParkAndersen - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2396580
+job_id: jobg8-2427775
 reason: Broad location; review before city inclusion.
 ---
 
@@ -970,7 +958,7 @@ title: Finance Assistant
 company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2387815
+job_id: jobg8-2423288
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1002,18 +990,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Fostering Recruitment Officer
-company: Hampshire County Council - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1401786442
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Freight Operations Coordinator
 company: WR Logistics - Agency - Permanent
 location: Totton
@@ -1032,18 +1008,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225830103
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Temporary
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225814754
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -1126,7 +1090,7 @@ title: Legal Assistant - Wills Trust & Probate Team
 company: 360 Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2367113
+job_id: jobg8-2427855
 reason: Broad location; review before city inclusion.
 ---
 
@@ -2004,7 +1968,7 @@ title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2365143
+job_id: jobg8-2424558
 reason: Separate employment market.
 ---
 
@@ -2017,6 +1981,18 @@ company: CMA Recruitment Group - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225819689
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: CMA Recruitment Group - Agency - Temporary
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225861255
 reason: Separate employment market.
 ---
 
@@ -2329,17 +2305,5 @@ company: Lloyd Recruitment - Epsom - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225856938
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 5NA
-source: NHS Jobs
-job_id: nhs-5712705
 reason: Separate employment market.
 ---

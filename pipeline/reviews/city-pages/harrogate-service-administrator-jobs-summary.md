@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 13
 - automatic review: 13
-- automatic exclude: 31
+- automatic exclude: 32
 - effective include: 13
 - effective review: 13
-- effective exclude: 31
+- effective exclude: 32
 
 ## INCLUDE (13)
 
@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: Si Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2362183
+job_id: jobg8-2427821
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -128,7 +128,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2362775
+job_id: jobg8-2423615
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -164,7 +164,7 @@ title: Payroll Administrator
 company: Sharp Consultancy - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2360565
+job_id: jobg8-2423409
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -338,7 +338,7 @@ job_id: jobg8-2399792
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -528,7 +528,7 @@ title: Finance Administrator
 company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2360721
+job_id: jobg8-2428158
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -685,6 +685,18 @@ company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2413118
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Officer
+company: SI RECRUITMENT LIMITED - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-108329671
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

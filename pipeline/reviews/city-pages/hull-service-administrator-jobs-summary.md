@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 12
+- automatic review: 13
 - automatic exclude: 0
 - effective include: 7
-- effective review: 12
+- effective review: 13
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -80,7 +80,7 @@ title: Customer Service Assistant (PFI)
 company: Riverside Group - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-2375881
+job_id: jobg8-2423523
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225818060
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (13)
 
 ---
 action: 
@@ -154,7 +154,7 @@ title: Finance Assistant
 company: Consortium Professional Recruitment - Agency - Permanent
 location: Hessle
 source: JobG8
-job_id: jobg8-2391448
+job_id: jobg8-2424329
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -167,6 +167,18 @@ company: Consortium Professional Recruitment Ltd - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-23643_225848634
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: HICA - Agency - Temporary
+location: Hessle
+source: JobG8
+job_id: jobg8-108359481
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

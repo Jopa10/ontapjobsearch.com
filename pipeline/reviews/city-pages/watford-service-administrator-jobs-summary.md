@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 106
+- automatic review: 107
 - automatic exclude: 0
 - effective include: 9
-- effective review: 106
+- effective review: 107
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -32,7 +32,7 @@ title: Business Development Executive
 company: Fortrade - Agency - Permanent
 location: Watford
 source: JobG8
-job_id: jobg8-2393834
+job_id: jobg8-2426912
 reason: Exact approved Watford workplace.
 ---
 
@@ -116,7 +116,7 @@ title: Mortgage Administrator
 company: Blakemore Recruitment - Agency - Permanent
 location: Watford
 source: JobG8
-job_id: jobg8-2377311
+job_id: jobg8-2427300
 reason: Exact approved Watford workplace.
 ---
 
@@ -132,7 +132,7 @@ job_id: nhs-5737554
 reason: Exact approved Watford workplace.
 ---
 
-## REVIEW (106)
+## REVIEW (107)
 
 ---
 action: 
@@ -142,7 +142,7 @@ title: Accounts Assistant
 company: Berry Recruitment - Agency - Permanent
 location: Harpenden
 source: JobG8
-job_id: jobg8-2360582
+job_id: jobg8-23643_225818373
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -154,7 +154,7 @@ title: Accounts Assistant
 company: Berry Recruitment - Agency - Permanent
 location: Harpenden
 source: JobG8
-job_id: jobg8-23643_225818373
+job_id: jobg8-2423670
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -322,7 +322,7 @@ title: Accounts Payable Assistant
 company: Think Accountancy and Finance - Agency - Permanent
 location: Hemel Hempstead
 source: JobG8
-job_id: jobg8-2390492
+job_id: jobg8-2426281
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -334,7 +334,7 @@ title: Accounts Payable Assistant - Immediate Start and Weekly Pay
 company: Think Accountancy and Finance - Agency - Permanent
 location: Hemel Hempstead
 source: JobG8
-job_id: jobg8-2391488
+job_id: jobg8-2427345
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -418,7 +418,7 @@ title: B2C Marketing Executive - 12 month FTC
 company: Think Specialist Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2371169
+job_id: jobg8-2427144
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -934,7 +934,7 @@ title: Marketing Campaign Manager
 company: The Institution of Engineering & Technology - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2376117
+job_id: jobg8-2428043
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -1092,6 +1092,18 @@ location: Hertford
 source: JobG8
 job_id: jobg8-23643_225795262
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paralegal Family Law
+company: Reed - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2428919
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
 ---

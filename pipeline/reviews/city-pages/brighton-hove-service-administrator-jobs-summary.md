@@ -104,7 +104,7 @@ title: Paralegal - Sports & Technology Consultancy
 company: FLTalent - Agency - Permanent
 location: Brighton
 source: JobG8
-job_id: jobg8-2348182
+job_id: jobg8-2427357
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -188,7 +188,7 @@ title: Social Media Coordinator
 company: BIMM University - Agency - Permanent
 location: Brighton
 source: JobG8
-job_id: jobg8-2397480
+job_id: jobg8-2427674
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -274,7 +274,7 @@ title: Accounts Assistant - Maternity Cover
 company: Alexander Lloyd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2366435
+job_id: jobg8-2423451
 reason: Broad location; review before city inclusion.
 ---
 
@@ -396,6 +396,18 @@ location: East Grinstead
 source: JobG8
 job_id: jobg8-2405897
 reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Building Safety Levy and Building Control Administrator
+company: Hays - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-108313716
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -538,7 +550,7 @@ title: Commercial Property Paralegal - Progression opportunities
 company: qed legal - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2372578
+job_id: jobg8-2423277
 reason: Broad location; review before city inclusion.
 ---
 
@@ -610,7 +622,7 @@ title: Conveyancing Asssitant
 company: GerrardWhite - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2380593
+job_id: jobg8-2423797
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1030,7 +1042,7 @@ title: Legal Assistant
 company: Essential Employment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2377341
+job_id: jobg8-2427792
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1150,7 +1162,7 @@ title: Marketing Manager
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2362052
+job_id: jobg8-23643_225830544
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1162,7 +1174,7 @@ title: Marketing Manager
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225830544
+job_id: jobg8-2423167
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1295,18 +1307,6 @@ company: Portfolio Payroll - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2358513
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2420243
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1714,7 +1714,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2412550
+job_id: jobg8-2422862
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1738,7 +1738,7 @@ title: Wellbeing Coordinator
 company: Caring Homes Group - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2380086
+job_id: jobg8-2428962
 reason: Broad location; review before city inclusion.
 ---
 
@@ -2016,7 +2016,7 @@ title: Mortgage Administrator
 company: Blakemore Recruitment - Agency - Permanent
 location: Horsham
 source: JobG8
-job_id: jobg8-2373788
+job_id: jobg8-2423753
 reason: Separate employment market.
 ---
 

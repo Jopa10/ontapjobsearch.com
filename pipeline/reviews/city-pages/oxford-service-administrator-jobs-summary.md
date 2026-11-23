@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 15
-- automatic exclude: 60
-- effective include: 17
-- effective review: 15
-- effective exclude: 60
+- automatic include: 15
+- automatic review: 16
+- automatic exclude: 61
+- effective include: 15
+- effective review: 16
+- effective exclude: 61
 
-## INCLUDE (17)
+## INCLUDE (15)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Pathway Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DU
-source: NHS Jobs
-job_id: nhs-5729139
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Administrator
 company: Robert Half - Agency - Permanent
 location: Oxford
@@ -216,19 +204,7 @@ job_id: nhs-5727065
 reason: Approved conservative Oxford launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: Oxford Health NHS Trust
-location: Oxford, OX3 7JH
-source: NHS Jobs
-job_id: nhs-5725243
-reason: Approved conservative Oxford launch catchment.
----
-
-## REVIEW (15)
+## REVIEW (16)
 
 ---
 action: 
@@ -410,7 +386,19 @@ job_id: jobg8-2393941
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (60)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator
+company: Cameo Consultancy - Agency - Permanent
+location: Banbury
+source: JobG8
+job_id: jobg8-23643_225764102
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+## EXCLUDE (61)
 
 ---
 action: 
@@ -481,18 +469,6 @@ company: In2 Consult - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2382000
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Activities Coordinator
-company: Care UK - Company - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-108227130
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -672,7 +648,7 @@ title: Finance Assistant
 company: Wade Macdonald - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2362055
+job_id: jobg8-2423216
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -684,7 +660,7 @@ title: Finance Officer
 company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2360699
+job_id: jobg8-2427626
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -793,6 +769,18 @@ company: Get Staffed Online Recruitment Limited - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2409651
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Executive
+company: Plus One Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225823002
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -1117,6 +1105,18 @@ company: Performance Resourcing - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225819914
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Delivery Campaign Coordinator
+company: RABI - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-108356675
 reason: Broad county location; not Oxford-city evidence.
 ---
 

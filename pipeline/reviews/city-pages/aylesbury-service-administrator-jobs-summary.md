@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 121
+- automatic review: 119
 - automatic exclude: 0
 - effective include: 6
-- effective review: 121
+- effective review: 119
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: nhs-5738551
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (121)
+## REVIEW (119)
 
 ---
 action: 
@@ -282,30 +282,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Apprentice Clinical Correspondence Co-Ordinator
-company: INSPIRO LEARNING LIMITED - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2395303
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Apprentice Medical Receptionist
-company: INSPIRO LEARNING LIMITED - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2395916
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Campaign Manager
 company: VIA MATCH LIMITED - Agency - Permanent
 location: Milton Keynes
@@ -318,11 +294,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Client Support Executive
-company: Meridian Business Support - Agency - Permanent
-location: Buckinghamshire
+title: Contract & Operations Administrator
+company: FCC Environment - Agency - Permanent
+location: High Wycombe
 source: JobG8
-job_id: jobg8-23643_225776817
+job_id: jobg8-108335581
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -466,7 +442,7 @@ title: Credit Controller
 company: Woodfines Solicitors - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2393772
+job_id: jobg8-2424531
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -502,7 +478,7 @@ title: CREDIT CONTROLLER - PART-TIME
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-2376080
+job_id: jobg8-2427774
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -682,7 +658,7 @@ title: Finance Administrator
 company: Bucks and Berks Recruitment - Agency - Permanent
 location: High Wycombe
 source: JobG8
-job_id: jobg8-2365162
+job_id: jobg8-2424926
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -826,7 +802,7 @@ title: LEGAL ADMINISTRATOR - PRIVATE CLIENT
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2377335
+job_id: jobg8-2427679
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -850,7 +826,7 @@ title: LEGAL SECRETARY - COMMERCIAL PROPERTY
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2377353
+job_id: jobg8-2428202
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -910,7 +886,7 @@ title: Marketing Executive
 company: Headliners Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2377270
+job_id: jobg8-2424999
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -922,7 +898,7 @@ title: Marketing Manager
 company: Candidate Source Ltd - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-2366554
+job_id: jobg8-2427660
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -1054,7 +1030,7 @@ title: PARALEGAL - EMPLOYMENT
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-2377283
+job_id: jobg8-2426217
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -1090,7 +1066,7 @@ title: PARALEGAL - PRIVATE CLIENT
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-2377287
+job_id: jobg8-2426684
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -1366,7 +1342,7 @@ title: Service Administrator
 company: ACS Executive Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2380182
+job_id: jobg8-2425111
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

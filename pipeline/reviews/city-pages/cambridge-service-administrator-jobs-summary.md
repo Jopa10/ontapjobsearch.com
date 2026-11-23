@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 41
+- Effective included jobs: 40
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 41
+- automatic include: 40
 - automatic review: 12
 - automatic exclude: 28
-- effective include: 41
+- effective include: 40
 - effective review: 12
 - effective exclude: 28
 
-## INCLUDE (41)
+## INCLUDE (40)
 
 ---
 action: 
@@ -164,7 +164,7 @@ title: Credit Control
 company: Michael Page Finance - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2377226
+job_id: jobg8-2423923
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -200,7 +200,7 @@ title: Finance Administrator
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2372130
+job_id: jobg8-2424734
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -272,7 +272,7 @@ title: Graduate Finance Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2362000
+job_id: jobg8-2428052
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -296,7 +296,7 @@ title: Junior Finance Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2361995
+job_id: jobg8-2428050
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -309,18 +309,6 @@ company: Owen Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2368887
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Logistics Coordinator
-company: Proactive Global - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225762099
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -598,7 +586,7 @@ title: Marketing Assistant
 company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-2387810
+job_id: jobg8-2423017
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 

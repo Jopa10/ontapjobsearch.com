@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 70
+- Effective included jobs: 71
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 70
+- automatic include: 71
 - automatic review: 13
-- automatic exclude: 10
-- effective include: 70
+- automatic exclude: 9
+- effective include: 71
 - effective review: 13
-- effective exclude: 10
+- effective exclude: 9
 
-## INCLUDE (70)
+## INCLUDE (71)
 
 ---
 action: 
@@ -524,7 +524,7 @@ title: Litigation Paralegal
 company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2360613
+job_id: jobg8-2424243
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -844,6 +844,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Temporary Recruitment Account Coordinator
+company: Staffline Divisions - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-108277024
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Workforce Planner
 company: Huntress - Maidstone - Agency - Temporary
 location: Bristol
@@ -994,7 +1006,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2412551
+job_id: jobg8-2422863
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -1022,7 +1034,7 @@ job_id: jobg8-2399817
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -1129,17 +1141,5 @@ company: Thrive Group - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-23643_225800119
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Property Coordinator
-company: Allen and Harris - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2389042
 reason: Separate employment market.
 ---

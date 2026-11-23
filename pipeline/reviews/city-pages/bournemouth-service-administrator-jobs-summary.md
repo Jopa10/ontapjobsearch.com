@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 61
+- automatic review: 62
 - automatic exclude: 0
 - effective include: 6
-- effective review: 61
+- effective review: 62
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225818968
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (61)
+## REVIEW (62)
 
 ---
 action: 
@@ -283,18 +283,6 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Flux Pumps - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225776346
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
 company: Michael Page - Agency - Temporary
 location: Dorset
 source: JobG8
@@ -323,6 +311,18 @@ company: Bond Williams - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2364211
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Administrator
+company: KAG Recruitment Consultancy - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225771986
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -442,6 +442,18 @@ title: Customer Service Assistant
 company: Compass UK & Ireland - Company - Permanent
 location: Dorset
 source: JobG8
+job_id: jobg8-108203720
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
+location: Dorset
+source: JobG8
 job_id: jobg8-108267388
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
@@ -502,7 +514,7 @@ title: Finance Business Partner
 company: Canford School - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2397368
+job_id: jobg8-2423939
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

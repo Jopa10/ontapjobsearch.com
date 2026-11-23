@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 15
+- automatic include: 9
+- automatic review: 16
 - automatic exclude: 9
-- effective include: 10
-- effective review: 15
+- effective include: 9
+- effective review: 16
 - effective exclude: 9
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -32,19 +32,7 @@ title: Care Assistant
 company: Hamberley Care Management Limited - Company - Permanent
 location: Southampton
 source: JobG8
-job_id: jobg8-23643_225761993
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Assistant Domiciliary Care
-company: S.N.G Recruitment Solutions Limited - Agency - Temporary
-location: Southampton
-source: JobG8
-job_id: jobg8-108288427
+job_id: jobg8-23643_225861146
 reason: Approved Southampton catchment.
 ---
 
@@ -144,7 +132,7 @@ job_id: jobg8-2389628
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (16)
 
 ---
 action: 
@@ -306,6 +294,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Support Worker
+company: SeeAbility - Agency - Permanent
+location: Tadley
+source: JobG8
+job_id: jobg8-108357146
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Therapeutic Children's Support Worker
 company: The Tiger Group Consultancy Ltd - Agency - Permanent
 location: Colden Common
@@ -408,7 +408,7 @@ title: Night Care Assistant
 company: Hamberley Care Management Limited - Company - Permanent
 location: Eastleigh
 source: JobG8
-job_id: jobg8-23643_225761985
+job_id: jobg8-23643_225861138
 reason: Separate employment market.
 ---
 

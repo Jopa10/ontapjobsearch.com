@@ -1,6 +1,5 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225818503,Customer Service Assistant,Acorn by Synergie - Agency - Temporary,Plymouth,JobG8,include,include,Exact approved Plymouth workplace.,exact:plymouth,plymouth-service-administrator-jobs
-include,jobg8-2360713,Finance Assistant,Reed - Agency - Permanent,Plymouth,JobG8,include,include,Exact approved Plymouth workplace.,exact:plymouth,plymouth-service-administrator-jobs
 include,jobg8-23643_225860380,HR Coordinator,Randstad Delivery - Agency - Contract,Plymouth,JobG8,include,include,Exact approved Plymouth workplace.,exact:plymouth,plymouth-service-administrator-jobs
 include,jobg8-2398560,Legal Secretary,Pertemps Gloucester - Agency - Permanent,Plymouth,JobG8,include,include,Exact approved Plymouth workplace.,exact:plymouth,plymouth-service-administrator-jobs
 include,nhs-5719324,Medical Receptionist/Administrator,Oakside Surgery,"Plymouth, PL5 3PY, PLYMOUTH, PL5 4DU",NHS Jobs,include,include,Exact approved Plymouth workplace.,exact:plymouth,plymouth-service-administrator-jobs
@@ -60,7 +59,6 @@ review,jobg8-2404801,Project Finance Support Officer (Hybrid),Essential Employme
 review,jobg8-23643_225801298,Purchasing Administrator,Lockhart Recruitment - Agency - Permanent,Devon,JobG8,review,review,No exact Plymouth workplace matched; local geographic review is required.,fallback,plymouth-service-administrator-jobs
 review,jobg8-2404368,Receptionist,N.E. Recruitment - Agency - Permanent,Devon,JobG8,review,review,No exact Plymouth workplace matched; local geographic review is required.,fallback,plymouth-service-administrator-jobs
 review,jobg8-23643_225813879,Recruitment Administrator,Acorn by Synergie - Agency - Permanent,Exeter,JobG8,review,review,No exact Plymouth workplace matched; local geographic review is required.,fallback,plymouth-service-administrator-jobs
-review,nhs-5726686,Recruitment Administrator,Devon Partnership NHS Trust,"Exeter, EX2 5AF, Dawlish, EX7 0NR",NHS Jobs,review,review,No exact Plymouth workplace matched; local geographic review is required.,fallback,plymouth-service-administrator-jobs
 review,jobg8-23643_225804731,Sales & Operations Administrator,Pertemps Plymouth - Agency - Temporary,Devon,JobG8,review,review,No exact Plymouth workplace matched; local geographic review is required.,fallback,plymouth-service-administrator-jobs
 review,jobg8-23643_225786768,Sales Administrator,Contract Staffing Solutions Ltd - Agency - Permanent,Exeter,JobG8,review,review,No exact Plymouth workplace matched; local geographic review is required.,fallback,plymouth-service-administrator-jobs
 review,jobg8-23643_225814618,Sales Administrator,Office Angels - Agency - Permanent,Exeter,JobG8,review,review,No exact Plymouth workplace matched; local geographic review is required.,fallback,plymouth-service-administrator-jobs

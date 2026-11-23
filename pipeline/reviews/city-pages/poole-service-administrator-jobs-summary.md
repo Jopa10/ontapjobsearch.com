@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 49
+- automatic review: 50
 - automatic exclude: 0
 - effective include: 18
-- effective review: 49
+- effective review: 50
 - effective exclude: 0
 
 ## INCLUDE (18)
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225817065
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (49)
+## REVIEW (50)
 
 ---
 action: 
@@ -391,18 +391,6 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Flux Pumps - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225776346
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
 company: Michael Page - Agency - Temporary
 location: Dorset
 source: JobG8
@@ -443,6 +431,18 @@ company: Bond Williams - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2364211
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Administrator
+company: KAG Recruitment Consultancy - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225771986
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -574,6 +574,18 @@ title: Customer Service Assistant
 company: Compass UK & Ireland - Company - Permanent
 location: Dorset
 source: JobG8
+job_id: jobg8-108203720
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Assistant
+company: Compass UK & Ireland - Company - Permanent
+location: Dorset
+source: JobG8
 job_id: jobg8-108267388
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
@@ -634,7 +646,7 @@ title: Finance Business Partner
 company: Canford School - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2397368
+job_id: jobg8-2423939
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

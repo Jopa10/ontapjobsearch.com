@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 77
+- automatic review: 76
 - automatic exclude: 0
 - effective include: 17
-- effective review: 77
+- effective review: 76
 - effective exclude: 0
 
 ## INCLUDE (17)
@@ -104,7 +104,7 @@ title: Credit Controller
 company: Morgan McKinley - Agency - Permanent
 location: Gloucester
 source: JobG8
-job_id: jobg8-2362197
+job_id: jobg8-2428062
 reason: Exact approved Gloucester workplace.
 ---
 
@@ -140,7 +140,7 @@ title: Purchase Ledger Administrator
 company: Morgan McKinley - Agency - Permanent
 location: Gloucester
 source: JobG8
-job_id: jobg8-2360702
+job_id: jobg8-2427741
 reason: Exact approved Gloucester workplace.
 ---
 
@@ -228,7 +228,7 @@ job_id: jobg8-23643_225790550
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (77)
+## REVIEW (76)
 
 ---
 action: 
@@ -238,7 +238,7 @@ title: Accounts Administrator
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2365136
+job_id: jobg8-2424413
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -334,7 +334,7 @@ title: Bookkeeper
 company: Jeffries Recruitment - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2395056
+job_id: jobg8-2428215
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -430,7 +430,7 @@ title: Client Servicing Administrator (SJP)
 company: Ellis James Partners Limited - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2395018
+job_id: jobg8-2427138
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -478,7 +478,7 @@ title: Credit Controller
 company: Robert Half - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2395012
+job_id: jobg8-2427098
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -550,7 +550,7 @@ title: Digital Communications Executive
 company: Wildfowl & Wetland Trust - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2379536
+job_id: jobg8-2427258
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -930,18 +930,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Cobalt
-location: Cheltenham, GL53 7AS
-source: NHS Jobs
-job_id: nhs-5712268
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales & Purchasing Administrator
 company: Acorn by Synergie - Agency - Temporary
 location: Gloucestershire
@@ -1102,7 +1090,7 @@ title: Temporary Bookkeeping & Payroll Assistant
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2365069
+job_id: jobg8-2423401
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -1138,7 +1126,7 @@ title: Trainee Insurance Administrator
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2365107
+job_id: jobg8-2423988
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

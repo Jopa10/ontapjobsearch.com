@@ -586,7 +586,7 @@ title: Residential Property Legal Secretary - Edinburgh
 company: qed legal - Agency - Permanent
 location: Midlothian
 source: JobG8
-job_id: jobg8-2372594
+job_id: jobg8-2423909
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

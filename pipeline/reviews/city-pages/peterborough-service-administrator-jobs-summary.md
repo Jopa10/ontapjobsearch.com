@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 24
 - automatic review: 12
-- automatic exclude: 45
+- automatic exclude: 44
 - effective include: 24
 - effective review: 12
-- effective exclude: 45
+- effective exclude: 44
 
 ## INCLUDE (24)
 
@@ -394,7 +394,7 @@ title: Marketing Assistant
 company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: St. Ives
 source: JobG8
-job_id: jobg8-2387810
+job_id: jobg8-2423017
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -458,7 +458,7 @@ job_id: jobg8-23643_225768922
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (45)
+## EXCLUDE (44)
 
 ---
 action: 
@@ -612,7 +612,7 @@ title: Credit Control
 company: Michael Page Finance - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2377226
+job_id: jobg8-2423923
 reason: Separate employment market.
 ---
 
@@ -660,7 +660,7 @@ title: Finance Administrator
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2372130
+job_id: jobg8-2424734
 reason: Separate employment market.
 ---
 
@@ -732,7 +732,7 @@ title: Graduate Finance Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2362000
+job_id: jobg8-2428052
 reason: Separate employment market.
 ---
 
@@ -756,7 +756,7 @@ title: Junior Finance Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2361995
+job_id: jobg8-2428050
 reason: Separate employment market.
 ---
 
@@ -781,18 +781,6 @@ company: Owen Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2368887
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Logistics Coordinator
-company: Proactive Global - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225762099
 reason: Separate employment market.
 ---
 

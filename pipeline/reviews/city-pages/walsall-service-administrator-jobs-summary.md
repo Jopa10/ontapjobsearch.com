@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 13
 - automatic review: 61
 - automatic exclude: 0
-- effective include: 12
+- effective include: 13
 - effective review: 61
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -105,6 +105,18 @@ company: Opus People Solutions Ltd - Agency - Temporary
 location: Walsall
 source: JobG8
 job_id: jobg8-23643_225810957
+reason: Exact approved Walsall workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Little London Surgery
+location: Walsall, WS1 3EP
+source: NHS Jobs
+job_id: nhs-5743880
 reason: Exact approved Walsall workplace.
 ---
 
@@ -478,7 +490,7 @@ title: Credit Controller
 company: Robert Walters - Agency - Permanent
 location: Wolverhampton
 source: JobG8
-job_id: jobg8-2375857
+job_id: jobg8-2423154
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -538,7 +550,7 @@ title: Immediate Start Accounts Payable Clerk
 company: Mitchell Adam - Agency - Permanent
 location: Dudley
 source: JobG8
-job_id: jobg8-2369992
+job_id: jobg8-2425270
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

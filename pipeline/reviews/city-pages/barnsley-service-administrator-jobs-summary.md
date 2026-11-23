@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 13
-- automatic exclude: 65
+- automatic exclude: 66
 - effective include: 6
 - effective review: 13
-- effective exclude: 65
+- effective exclude: 66
 
 ## INCLUDE (6)
 
@@ -250,11 +250,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2412565
+job_id: jobg8-2422879
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (65)
+## EXCLUDE (66)
 
 ---
 action: 
@@ -360,31 +360,7 @@ title: Central Transport Purchasing Administrator
 company: ReFood - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2390454
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5723458
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2JF
-source: NHS Jobs
-job_id: nhs-5726273
+job_id: jobg8-2424548
 reason: Separate employment market.
 ---
 
@@ -516,7 +492,7 @@ title: Debt Recovery Paralegal
 company: CRA Consulting - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2365206
+job_id: jobg8-2426310
 reason: Separate employment market.
 ---
 
@@ -528,7 +504,7 @@ title: Demobilisation Fleet and Asset Coordinator
 company: Morgan Sindall Property Services - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2390804
+job_id: jobg8-2426314
 reason: Separate employment market.
 ---
 
@@ -553,6 +529,18 @@ company: Veolia - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225849624
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: GP Receptionist
+company: Elm Lane & Chapeltown Surgery
+location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
+source: NHS Jobs
+job_id: nhs-5725571
 reason: Separate employment market.
 ---
 
@@ -828,7 +816,7 @@ title: Payroll Administrator
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2386656
+job_id: jobg8-2427228
 reason: Separate employment market.
 ---
 
@@ -944,6 +932,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist & Care Navigator
+company: Bentley Surgery
+location: Doncaster, DN5 0AT, DONCASTER, DN5 8DA
+source: NHS Jobs
+job_id: nhs-5726734
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales Ledger Administrator
 company: Sewell Wallis Ltd - Agency - Temporary
 location: Sheffield
@@ -1021,6 +1021,18 @@ company: CCA Recruitment Group - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225789027
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Transactional Finance Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225796381
 reason: Separate employment market.
 ---
 

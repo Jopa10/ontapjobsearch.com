@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 24
-- automatic review: 73
+- automatic review: 75
 - automatic exclude: 0
 - effective include: 24
-- effective review: 73
+- effective review: 75
 - effective exclude: 0
 
 ## INCLUDE (24)
@@ -200,7 +200,7 @@ title: Purchase Ledger Clerk
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
 source: JobG8
-job_id: jobg8-2370080
+job_id: jobg8-2428023
 reason: Exact approved Leicester workplace.
 ---
 
@@ -312,7 +312,7 @@ job_id: nhs-5736375
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (75)
 
 ---
 action: 
@@ -527,6 +527,18 @@ company: Universal Business Team - Agency - Permanent
 location: Loughborough
 source: JobG8
 job_id: jobg8-23643_225782308
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator - Engineering
+company: Office Angels - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225861189
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -898,7 +910,7 @@ title: Payroll Officer
 company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2360697
+job_id: jobg8-23643_225821426
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -910,7 +922,7 @@ title: Payroll Officer
 company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225821426
+job_id: jobg8-2427607
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -970,7 +982,7 @@ title: Porsche Service Advisor
 company: Sytner Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2380709
+job_id: jobg8-2427120
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -1086,6 +1098,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator (Welding / Engineering)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225861343
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator - Engineering
 company: Office Angels - Agency - Permanent
 location: Leicestershire
@@ -1162,7 +1186,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2412558
+job_id: jobg8-2422870
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

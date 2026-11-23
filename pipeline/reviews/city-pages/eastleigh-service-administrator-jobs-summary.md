@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 130
-- automatic exclude: 59
+- automatic review: 128
+- automatic exclude: 58
 - effective include: 4
-- effective review: 130
-- effective exclude: 59
+- effective review: 128
+- effective exclude: 58
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225810949
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (130)
+## REVIEW (128)
 
 ---
 action: 
@@ -406,7 +406,7 @@ title: Bookkeeper
 company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2366528
+job_id: jobg8-2426707
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -826,7 +826,7 @@ title: Finance Assistant
 company: ParkAndersen - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2396580
+job_id: jobg8-2427775
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -850,7 +850,7 @@ title: Finance Assistant
 company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2387815
+job_id: jobg8-2423288
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -882,18 +882,6 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Fostering Recruitment Officer
-company: Hampshire County Council - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1401786442
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Freight Operations Coordinator
 company: WR Logistics - Agency - Permanent
 location: Totton
@@ -912,18 +900,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225830103
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Temporary
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225814754
-reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -1006,7 +982,7 @@ title: Legal Assistant - Wills Trust & Probate Team
 company: 360 Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2367113
+job_id: jobg8-2427855
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -1634,7 +1610,7 @@ job_id: jobg8-23643_225810727
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (59)
+## EXCLUDE (58)
 
 ---
 action: 
@@ -1741,18 +1717,6 @@ company: Dynamite Recruitment - Agency - Temporary
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225845631
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4GX
-source: NHS Jobs
-job_id: nhs-5716963
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1956,7 +1920,7 @@ title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2365143
+job_id: jobg8-2424558
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1969,6 +1933,18 @@ company: CMA Recruitment Group - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225819689
+reason: The stated workplace belongs outside the approved Eastleigh employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: CMA Recruitment Group - Agency - Temporary
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225861255
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -2329,17 +2305,5 @@ company: Lloyd Recruitment - Epsom - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225856938
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 5NA
-source: NHS Jobs
-job_id: nhs-5712705
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---

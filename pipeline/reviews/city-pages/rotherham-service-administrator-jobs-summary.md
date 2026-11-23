@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 76
+- automatic review: 77
 - automatic exclude: 0
 - effective include: 8
-- effective review: 76
+- effective review: 77
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-2408637
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (76)
+## REVIEW (77)
 
 ---
 action: 
@@ -274,31 +274,7 @@ title: Central Transport Purchasing Administrator
 company: ReFood - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2390454
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5723458
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2JF
-source: NHS Jobs
-job_id: nhs-5726273
+job_id: jobg8-2424548
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -466,7 +442,7 @@ title: Debt Recovery Paralegal
 company: CRA Consulting - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2365206
+job_id: jobg8-2426310
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -478,7 +454,7 @@ title: Demobilisation Fleet and Asset Coordinator
 company: Morgan Sindall Property Services - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2390804
+job_id: jobg8-2426314
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -515,6 +491,18 @@ company: Veolia - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225849624
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: GP Receptionist
+company: Elm Lane & Chapeltown Surgery
+location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
+source: NHS Jobs
+job_id: nhs-5725571
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -766,7 +754,7 @@ title: Payroll Administrator
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2386656
+job_id: jobg8-2427228
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -906,6 +894,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist & Care Navigator
+company: Bentley Surgery
+location: Doncaster, DN5 0AT, DONCASTER, DN5 8DA
+source: NHS Jobs
+job_id: nhs-5726734
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Ledger Administrator
 company: Sewell Wallis Ltd - Agency - Temporary
 location: Sheffield
@@ -1006,7 +1006,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2412565
+job_id: jobg8-2422879
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -1019,6 +1019,18 @@ company: Anonymous - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225846974
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Transactional Finance Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225796381
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

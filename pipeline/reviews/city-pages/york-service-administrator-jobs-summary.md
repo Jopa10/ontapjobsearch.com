@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 12
 - automatic review: 13
-- automatic exclude: 32
+- automatic exclude: 33
 - effective include: 12
 - effective review: 13
-- effective exclude: 32
+- effective exclude: 33
 
 ## INCLUDE (12)
 
@@ -326,19 +326,7 @@ job_id: jobg8-2399792
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Si Recruitment - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2362183
-reason: Separate employment market.
----
+## EXCLUDE (33)
 
 ---
 action: 
@@ -349,6 +337,18 @@ company: Si Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-2420682
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Si Recruitment - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2427821
 reason: Separate employment market.
 ---
 
@@ -528,7 +528,7 @@ title: Finance Administrator
 company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2360721
+job_id: jobg8-2428158
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -636,7 +636,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2362775
+job_id: jobg8-2423615
 reason: Separate employment market.
 ---
 
@@ -672,7 +672,7 @@ title: Payroll Administrator
 company: Sharp Consultancy - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2360565
+job_id: jobg8-2423409
 reason: Separate employment market.
 ---
 
@@ -685,6 +685,18 @@ company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2413118
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Officer
+company: SI RECRUITMENT LIMITED - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-108329671
 reason: Broad regional label; not York-city evidence.
 ---
 

@@ -430,7 +430,7 @@ title: Legal Secretary
 company: Hello Recruitment Associates Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2384211
+job_id: jobg8-2425114
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

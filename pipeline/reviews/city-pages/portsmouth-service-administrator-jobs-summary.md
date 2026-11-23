@@ -4,7 +4,7 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 176
+- automatic include: 18
+- automatic review: 172
 - automatic exclude: 0
-- effective include: 17
-- effective review: 176
+- effective include: 18
+- effective review: 172
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (18)
 
 ---
 action: 
@@ -116,7 +116,7 @@ title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2365143
+job_id: jobg8-2424558
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -129,6 +129,18 @@ company: CMA Recruitment Group - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225819689
+reason: Exact approved Portsmouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: CMA Recruitment Group - Agency - Temporary
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225861255
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -228,7 +240,7 @@ job_id: jobg8-23643_225856938
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (176)
+## REVIEW (172)
 
 ---
 action: 
@@ -572,18 +584,6 @@ decision: review
 automatic_decision: review
 title: Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO16 4GX
-source: NHS Jobs
-job_id: nhs-5716963
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO14 3DT
 source: NHS Jobs
 job_id: nhs-5741908
@@ -670,7 +670,7 @@ title: Bookkeeper
 company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2366528
+job_id: jobg8-2426707
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1234,7 +1234,7 @@ title: Finance Assistant
 company: ParkAndersen - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2396580
+job_id: jobg8-2427775
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1258,7 +1258,7 @@ title: Finance Assistant
 company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2387815
+job_id: jobg8-2423288
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1283,18 +1283,6 @@ company: Dynamite Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225801736
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Fostering Recruitment Officer
-company: Hampshire County Council - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1401786442
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1331,18 +1319,6 @@ company: Adecco - Agency - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_225793749
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Temporary
-location: Gosport
-source: JobG8
-job_id: jobg8-23643_225814754
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1474,7 +1450,7 @@ title: Legal Assistant - Wills Trust & Probate Team
 company: 360 Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2367113
+job_id: jobg8-2427855
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -2291,18 +2267,6 @@ company: TEMPLEGATE RECRUITMENT - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2378639
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 5NA
-source: NHS Jobs
-job_id: nhs-5712705
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

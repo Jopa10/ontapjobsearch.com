@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 30
-- automatic review: 63
+- automatic review: 64
 - automatic exclude: 137
 - effective include: 30
-- effective review: 63
+- effective review: 64
 - effective exclude: 137
 
 ## INCLUDE (30)
@@ -116,7 +116,7 @@ title: Credit Controller
 company: JHE & Partners - Agency - Permanent
 location: Bradford
 source: JobG8
-job_id: jobg8-2376251
+job_id: jobg8-2427437
 reason: Approved Bradford catchment.
 ---
 
@@ -368,7 +368,7 @@ title: Senior Marketing Executive
 company: Collett & Sons Ltd - Agency - Permanent
 location: Bradford
 source: JobG8
-job_id: jobg8-2383911
+job_id: jobg8-2423086
 reason: Approved Bradford catchment.
 ---
 
@@ -384,7 +384,7 @@ job_id: jobg8-2395548
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (63)
+## REVIEW (64)
 
 ---
 action: 
@@ -523,10 +523,10 @@ action:
 decision: review
 automatic_decision: review
 title: Conveyancing Assistant
-company: IPS Group - Agency - Permanent
+company: HVLR LTD - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2372629
+job_id: jobg8-2428524
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -538,7 +538,19 @@ title: Conveyancing Assistant
 company: IPS Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2372667
+job_id: jobg8-2426689
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Assistant
+company: IPS Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2428516
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -898,7 +910,7 @@ title: Marketing Specialist - Public Relations - Myton
 company: WM Morrisons - Company - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2388034
+job_id: jobg8-2426433
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -970,7 +982,7 @@ title: Purchase Ledger Clerk
 company: IPS Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2372616
+job_id: jobg8-2425026
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -1006,7 +1018,7 @@ title: Residential Conveyancing Paralegal/Assistant
 company: The Eventus Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2386615
+job_id: jobg8-2424382
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -1090,7 +1102,7 @@ title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Castleford
 source: JobG8
-job_id: jobg8-2369941
+job_id: jobg8-2423780
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -1320,7 +1332,7 @@ title: Accounts Assistant
 company: Sharp Consultancy - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2362091
+job_id: jobg8-2424593
 reason: Separate employment market.
 ---
 
@@ -1428,7 +1440,7 @@ title: Bookkeeper
 company: IPS Group - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2372655
+job_id: jobg8-2427800
 reason: Separate employment market.
 ---
 
@@ -1489,18 +1501,6 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS9 7TF
 source: NHS Jobs
 job_id: nhs-5735675
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer/Receptionist
-company: Leeds Teaching Hospitals
-location: Leeds, LS21 2LY
-source: NHS Jobs
-job_id: nhs-5716439
 reason: Separate employment market.
 ---
 
@@ -1644,7 +1644,7 @@ title: Credit Controller
 company: Agility - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2366511
+job_id: jobg8-2425233
 reason: Separate employment market.
 ---
 
@@ -1956,7 +1956,7 @@ title: Graduate Administrator
 company: Marks Sattin - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2371126
+job_id: jobg8-2425236
 reason: Separate employment market.
 ---
 
@@ -1968,7 +1968,7 @@ title: Group Finance Assistant
 company: HW Finance - Agency - Permanent
 location: Wakefield
 source: JobG8
-job_id: jobg8-2393825
+job_id: jobg8-2426740
 reason: Separate employment market.
 ---
 
@@ -2016,7 +2016,7 @@ title: Insurance Administrator
 company: Get Recruited (UK) Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2365126
+job_id: jobg8-2424284
 reason: Separate employment market.
 ---
 
@@ -2052,7 +2052,7 @@ title: Insurance Lead Generator
 company: PARKER FRANKLYN LIMITED - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2390418
+job_id: jobg8-2423662
 reason: Separate employment market.
 ---
 
@@ -2196,7 +2196,7 @@ title: Marketing Executive
 company: Equals One - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2371129
+job_id: jobg8-2426220
 reason: Separate employment market.
 ---
 
@@ -2328,7 +2328,7 @@ title: Part Time Purchase Ledger
 company: IPS Group - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2372617
+job_id: jobg8-2425027
 reason: Separate employment market.
 ---
 
@@ -2496,7 +2496,7 @@ title: Purchase Ledger Clerk
 company: Sharp Consultancy - Agency - Permanent
 location: Huddersfield
 source: JobG8
-job_id: jobg8-2360564
+job_id: jobg8-2423399
 reason: Separate employment market.
 ---
 
@@ -2593,6 +2593,18 @@ company: Evolve Selection - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-23643_225004750
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Compliance Manager
+company: Michelle Waterworth Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225861266
 reason: Separate employment market.
 ---
 
@@ -2772,7 +2784,7 @@ title: TPS Parts Sales Executive
 company: Sytner Group - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2379506
+job_id: jobg8-2424924
 reason: Separate employment market.
 ---
 

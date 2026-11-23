@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 59
-- automatic review: 90
-- automatic exclude: 46
+- automatic review: 91
+- automatic exclude: 47
 - effective include: 59
-- effective review: 90
-- effective exclude: 46
+- effective review: 91
+- effective exclude: 47
 
 ## INCLUDE (59)
 
@@ -732,7 +732,7 @@ job_id: jobg8-23643_225826542
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (90)
+## REVIEW (91)
 
 ---
 action: 
@@ -814,7 +814,7 @@ title: Accounts Assistant
 company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2362051
+job_id: jobg8-2423157
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1066,7 +1066,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2397815
+job_id: jobg8-2423982
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1148,9 +1148,9 @@ decision: review
 automatic_decision: review
 title: Customer Service Representative
 company: MTrec Recruitment - Agency - Permanent
-location: Wallsend
+location: Washington
 source: JobG8
-job_id: jobg8-2372603
+job_id: jobg8-2413474
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1160,9 +1160,9 @@ decision: review
 automatic_decision: review
 title: Customer Service Representative
 company: MTrec Recruitment - Agency - Permanent
-location: Washington
+location: Wallsend
 source: JobG8
-job_id: jobg8-2413474
+job_id: jobg8-2424214
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1302,6 +1302,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Officer
+company: Parkdean Resorts - Company - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-29110_21887
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Financial Services Administrator - IMMEDIATE START
 company: Reed - Agency - Permanent
 location: Tyne And Wear
@@ -1390,7 +1402,7 @@ title: Income and Finance Officer
 company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2362098
+job_id: jobg8-2424621
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1774,7 +1786,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2412561
+job_id: jobg8-2422875
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1814,7 +1826,7 @@ job_id: jobg8-2379186
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (46)
+## EXCLUDE (47)
 
 ---
 action: 
@@ -1968,7 +1980,7 @@ title: Credit Control
 company: Nigel Wright Group - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2362114
+job_id: jobg8-2424882
 reason: Separate employment market.
 ---
 
@@ -2120,6 +2132,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Front of House Property Admin
+company: Integro People Limited - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225826691
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: GP Receptionist/Administrator
 company: Hylton Medical Group
 location: Sunderland, SR4 7XF
@@ -2160,7 +2184,7 @@ title: Legal Administrator - Commercial Property - Stockton-on-Tees
 company: qed legal - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2372077
+job_id: jobg8-2423060
 reason: Separate employment market.
 ---
 
@@ -2172,7 +2196,7 @@ title: Legal Administrator - Residential Property - Stockton-on Tees
 company: qed legal - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2372092
+job_id: jobg8-2423141
 reason: Separate employment market.
 ---
 
@@ -2184,7 +2208,7 @@ title: Legal Secretary - Dispute Resolution - Stockton-on-Tees
 company: qed legal - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2372075
+job_id: jobg8-2423047
 reason: Separate employment market.
 ---
 

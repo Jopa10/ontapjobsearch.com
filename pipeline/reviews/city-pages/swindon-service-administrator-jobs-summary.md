@@ -176,7 +176,7 @@ title: Italian or French Speaking Accounts Receivable Credit Controller
 company: French Selection UK - Agency - Permanent
 location: Swindon
 source: JobG8
-job_id: jobg8-2362799
+job_id: jobg8-2424078
 reason: Exact approved Swindon workplace.
 ---
 
@@ -334,7 +334,7 @@ title: Credit Controller
 company: Robert Half - Agency - Permanent
 location: Wiltshire
 source: JobG8
-job_id: jobg8-2394933
+job_id: jobg8-2423794
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 83
+- automatic include: 9
+- automatic review: 84
 - automatic exclude: 0
-- effective include: 10
-- effective review: 83
+- effective include: 9
+- effective review: 84
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -132,19 +132,7 @@ job_id: jobg8-23643_225800119
 reason: Exact approved Bath workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Property Coordinator
-company: Allen and Harris - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2389042
-reason: Exact approved Bath workplace.
----
-
-## REVIEW (83)
+## REVIEW (84)
 
 ---
 action: 
@@ -682,7 +670,7 @@ title: Litigation Paralegal
 company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2360613
+job_id: jobg8-2424243
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1086,11 +1074,23 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Temporary Recruitment Account Coordinator
+company: Staffline Divisions - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-108277024
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2412551
+job_id: jobg8-2422863
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

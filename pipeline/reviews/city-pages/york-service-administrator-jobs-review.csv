@@ -24,8 +24,8 @@ review,jobg8-23643_225827387,Part-time Finance Assistant,Michael Page - Agency -
 review,jobg8-2370186,Private Client Legal Assistant,Clear Legal & Financial Recruitment - Agency - Permanent,Malton,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-23643_225825906,Service Coordinator,Travail Employment Group - Agency - Permanent,Knaresborough,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-2399792,Temporary Customer Services Executive / Accounts Assistant,Office Angels - Agency - Permanent,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
-exclude,jobg8-2362183,Accounts Assistant,Si Recruitment - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-2420682,Accounts Assistant,Si Recruitment - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
+exclude,jobg8-2427821,Accounts Assistant,Si Recruitment - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-2421972,Accounts Assistant,Willow Recruit - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-2359123,Accounts Receivable Controller,Nigel Wright Group - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-23643_225848550,Admin Purchasing Assistant,Michael Page - Agency - Temporary,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
@@ -40,7 +40,7 @@ exclude,jobg8-20279_63331-5b8c65a16e74a9f9ccfca20e1c562ac6,Customer Service Advi
 exclude,jobg8-2373723,Digital Marketing Assistant,No1 Legal and Professional - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-2413768,Ecommerce Website Specialist,Hawk 3 Talent Solutions - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-2360289,Ecommerce/Shopify Executive,Reed - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
-exclude,jobg8-2360721,Finance Administrator,Si Recruitment - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
+exclude,jobg8-2428158,Finance Administrator,Si Recruitment - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-2413706,Finance Assistant,IPS Group - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-2382799,Legal Secretary & Office Coordinator,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-2420842,Litigation Legal Assistant,Clear Legal & Financial Recruitment - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
@@ -49,10 +49,11 @@ exclude,nhs-5716437,Medical Receptionist,Posterngate Surgery,"Selby, YO8 4QH",NH
 exclude,jobg8-23643_225788225,Part Time Administrator,KD Recruitment - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-23643_225782883,Part Time Administrator (Fixed Term Contract - 9 Months),KD Recruitment - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-23643_225765937,Part time Reception,Hays Business Support - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
-exclude,jobg8-2362775,Payroll Administrator,Portfolio Payroll - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
+exclude,jobg8-2423615,Payroll Administrator,Portfolio Payroll - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-23643_225822176,Payroll Administrator,Portfolio Payroll Limited - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-23643_225847720,Payroll Administrator,Portfolio Payroll Limited - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
-exclude,jobg8-2360565,Payroll Administrator,Sharp Consultancy - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
+exclude,jobg8-2423409,Payroll Administrator,Sharp Consultancy - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-2413118,Payroll Officer,Si Recruitment - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
+exclude,jobg8-108329671,Payroll Officer,SI RECRUITMENT LIMITED - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-23643_225779537,Service Coordinator (CUPS),Dale Power Solutions - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,nhs-5740133,Ward Clerk,Harrogate and District NHS Foundation Trust,"Harrogate, HG2 7SX",NHS Jobs,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 42
+- automatic review: 41
 - automatic exclude: 0
 - effective include: 6
-- effective review: 42
+- effective review: 41
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (41)
 
 ---
 action: 
@@ -227,6 +227,18 @@ company: VolkerWessels UK Ltd - Company - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225847837
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Manager
+company: Brellis Recruitment - Agency - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-23643_225779372
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -390,18 +402,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Medical Administrator
-company: Riverside Surgery
-location: Evesham, WR11 1JP
-source: NHS Jobs
-job_id: nhs-5732427
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Mortgage Administrator
 company: Eden Rose - Agency - Permanent
 location: Worcestershire
@@ -479,18 +479,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-2373413
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Hawk 3 Talent Solutions - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225820459
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

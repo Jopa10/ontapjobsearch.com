@@ -4,7 +4,7 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 8
 - automatic review: 76
 - automatic exclude: 0
-- effective include: 9
+- effective include: 8
 - effective review: 76
 - effective exclude: 0
 
-## INCLUDE (9)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Baddeley Green Surgery
-location: Stoke-on-trent, ST9 9PB
-source: NHS Jobs
-job_id: nhs-5719881
-reason: Exact approved Stoke-on-trent workplace.
----
+## INCLUDE (8)
 
 ---
 action: 
@@ -323,18 +311,6 @@ company: Sytner Group - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2383346
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Administrator
-company: St Giles Hospice
-location: Lichfield, WS14 9LH
-source: NHS Jobs
-job_id: nhs-5723393
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -778,7 +754,7 @@ title: Payroll Officer
 company: SF Partners - Agency - Permanent
 location: Staffordshire
 source: JobG8
-job_id: jobg8-2360667
+job_id: jobg8-2426287
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -983,6 +959,18 @@ company: Adullam Homes - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-108330971
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sheltered Housing Scheme Coordinator
+company: MY Trust - Agency - Permanent
+location: Rugeley
+source: JobG8
+job_id: jobg8-108332203
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

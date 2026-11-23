@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 39
 - automatic review: 13
-- automatic exclude: 32
+- automatic exclude: 33
 - effective include: 39
 - effective review: 13
-- effective exclude: 32
+- effective exclude: 33
 
 ## INCLUDE (39)
 
@@ -81,30 +81,6 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2385781
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5723458
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2JF
-source: NHS Jobs
-job_id: nhs-5726273
 reason: Approved Sheffield catchment.
 ---
 
@@ -200,7 +176,7 @@ title: Debt Recovery Paralegal
 company: CRA Consulting - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2365206
+job_id: jobg8-2426310
 reason: Approved Sheffield catchment.
 ---
 
@@ -212,7 +188,7 @@ title: Demobilisation Fleet and Asset Coordinator
 company: Morgan Sindall Property Services - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2390804
+job_id: jobg8-2426314
 reason: Approved Sheffield catchment.
 ---
 
@@ -237,6 +213,18 @@ company: Veolia - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225849624
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: GP Receptionist
+company: Elm Lane & Chapeltown Surgery
+location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
+source: NHS Jobs
+job_id: nhs-5725571
 reason: Approved Sheffield catchment.
 ---
 
@@ -484,6 +472,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Transactional Finance Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225796381
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Ward Clerk
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
@@ -646,11 +646,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2412565
+job_id: jobg8-2422879
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -720,7 +720,7 @@ title: Central Transport Purchasing Administrator
 company: ReFood - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2390454
+job_id: jobg8-2424548
 reason: Separate employment market.
 ---
 
@@ -948,7 +948,7 @@ title: Payroll Administrator
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2386656
+job_id: jobg8-2427228
 reason: Separate employment market.
 ---
 
@@ -997,6 +997,18 @@ company: Gateway Primary Care CIC
 location: Rotherham, S65 1DJ, Rotherham, S62 7BT, Rotherham, S60 2JH, Rotherham, S60 8GD
 source: NHS Jobs
 job_id: nhs-5732921
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist & Care Navigator
+company: Bentley Surgery
+location: Doncaster, DN5 0AT, DONCASTER, DN5 8DA
+source: NHS Jobs
+job_id: nhs-5726734
 reason: Separate employment market.
 ---
 

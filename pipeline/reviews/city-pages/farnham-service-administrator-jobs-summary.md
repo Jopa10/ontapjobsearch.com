@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 229
+- automatic review: 225
 - automatic exclude: 0
 - effective include: 5
-- effective review: 229
+- effective review: 225
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225825665
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (229)
+## REVIEW (225)
 
 ---
 action: 
@@ -154,7 +154,7 @@ title: Accounts Assistant
 company: Howett Thorpe - Agency - Permanent
 location: Bagshot
 source: JobG8
-job_id: jobg8-2361933
+job_id: jobg8-2427289
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -214,7 +214,7 @@ title: Accounts Assistant
 company: Plum Personnel - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2370572
+job_id: jobg8-2426779
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -359,18 +359,6 @@ company: Robert Half - Agency - Permanent
 location: Camberley
 source: JobG8
 job_id: jobg8-2407620
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Care UK - Company - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-108242683
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -670,7 +658,7 @@ title: Bookkeeper
 company: Reed - Agency - Permanent
 location: Dorking
 source: JobG8
-job_id: jobg8-2362181
+job_id: jobg8-2427796
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -779,18 +767,6 @@ company: YourRecruit - Agency - Contract
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225814406
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Complaints Administrator
-company: Guidant Global - Agency - Temporary
-location: Surrey
-source: JobG8
-job_id: jobg8-108350106
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1186,7 +1162,7 @@ title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2362043
+job_id: jobg8-2423015
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1210,7 +1186,7 @@ title: Finance Assistant (Sales Ledger)
 company: YourRecruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2422412
+job_id: jobg8-2426776
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1966,7 +1942,7 @@ title: Part Time Bookkeeper
 company: Farrer Barnes Limited - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2365153
+job_id: jobg8-2424727
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -2094,18 +2070,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Performance Sport Coordinator
-company: University of Surrey - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-417629
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Personal Assistant
 company: Faith Recruitment - Agency - Permanent
 location: Surrey
@@ -2218,7 +2182,7 @@ title: Purchase Ledger Assistant
 company: Reed - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2362129
+job_id: jobg8-2426206
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -2351,18 +2315,6 @@ company: Eclectic Recruitment - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225847977
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Dorking Healthcare Ltd.
-location: Redhill, RH1 2NP, Epsom, KT17 4BL, DORKING, RH4 2AA, Warlingham, CR6 9LF, DORKING, RH4 1SD, Epsom, KT17 4BL, WARLINGHAM, CR6 9NW, REDHILL, RH1 1EB
-source: NHS Jobs
-job_id: nhs-5710716
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

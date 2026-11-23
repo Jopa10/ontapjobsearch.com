@@ -238,7 +238,7 @@ title: Accounts Assistant
 company: Adecco - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2384214
+job_id: jobg8-2425208
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -382,7 +382,7 @@ title: Customer Service Advisor
 company: Solus Accident Repair Centres - Company - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-23643_225761938
+job_id: jobg8-23643_225861113
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

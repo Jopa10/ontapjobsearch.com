@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 175
+- automatic review: 173
 - automatic exclude: 0
 - effective include: 6
-- effective review: 175
+- effective review: 173
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: nhs-5718684
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (175)
+## REVIEW (173)
 
 ---
 action: 
@@ -154,7 +154,7 @@ title: Accountancy Administrator Xero Essential &;32k
 company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2384266
+job_id: jobg8-2427949
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -226,7 +226,7 @@ title: Accounts Assistant
 company: HR GO Recruitment - Agency - Permanent
 location: Maidstone
 source: JobG8
-job_id: jobg8-2372577
+job_id: jobg8-2423261
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -370,7 +370,7 @@ title: Bookkeeper
 company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2375926
+job_id: jobg8-2424418
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -392,9 +392,9 @@ decision: review
 automatic_decision: review
 title: Bookkeeper
 company: TPF Recruitment - Agency - Permanent
-location: Kent
+location: Tunbridge Wells
 source: JobG8
-job_id: jobg8-2391477
+job_id: jobg8-2414835
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -404,9 +404,9 @@ decision: review
 automatic_decision: review
 title: Bookkeeper
 company: TPF Recruitment - Agency - Permanent
-location: Tunbridge Wells
+location: Kent
 source: JobG8
-job_id: jobg8-2414835
+job_id: jobg8-2426694
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -682,7 +682,7 @@ title: Credit Controller Sage line 50/200 &;36k Dover
 company: Office Angels - Agency - Permanent
 location: Dover
 source: JobG8
-job_id: jobg8-2384901
+job_id: jobg8-2428068
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -946,7 +946,7 @@ title: Finance Administrator Dover &;28k
 company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2384907
+job_id: jobg8-2428100
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -970,7 +970,7 @@ title: Finance Administrator Start ASAP Temp to Perm Aylesford
 company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2384128
+job_id: jobg8-2423089
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1067,18 +1067,6 @@ company: Redhat - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2405745
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: West Malling
-source: JobG8
-job_id: jobg8-2358441
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1570,7 +1558,7 @@ title: Payroll Assistant
 company: Cobb & Jones Recruitment Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2386596
+job_id: jobg8-2423981
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1811,18 +1799,6 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225783935
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist- St Peters Surgery
-company: Invicta Health CIC
-location: Broadstairs, CT10 2SQ
-source: NHS Jobs
-job_id: nhs-5714106
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

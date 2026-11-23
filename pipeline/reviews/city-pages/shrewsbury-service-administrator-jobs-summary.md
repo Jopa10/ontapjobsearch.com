@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 43
+- automatic review: 44
 - automatic exclude: 0
 - effective include: 11
-- effective review: 43
+- effective review: 44
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: jobg8-23643_225794761
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (44)
 
 ---
 action: 
@@ -286,7 +286,7 @@ title: Accounts Payable Clerk
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2380522
+job_id: jobg8-2423279
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -358,7 +358,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2397814
+job_id: jobg8-2423980
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -491,6 +491,18 @@ company: Robert Half - Agency - Permanent
 location: Telford
 source: JobG8
 job_id: jobg8-2392544
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Temporary
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225814754
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

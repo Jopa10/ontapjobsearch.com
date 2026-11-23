@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 5
+- automatic review: 4
 - automatic exclude: 0
 - effective include: 8
-- effective review: 5
+- effective review: 4
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-2367598
 reason: Exact approved Swansea workplace.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -138,23 +138,11 @@ reason: No approved Swansea employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Admin/Receptionist
-company: Swansea Bay University Health Board
-location: Port Talbot, SA12 7BX
-source: NHS Jobs
-job_id: nhs-5735475
-reason: The stated location is broader or less specific than the approved Swansea employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper
 company: Robert Half - Agency - Permanent
 location: Bridgend
 source: JobG8
-job_id: jobg8-2393829
+job_id: jobg8-2426746
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

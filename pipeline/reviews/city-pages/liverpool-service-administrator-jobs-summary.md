@@ -586,7 +586,7 @@ title: Corporate Paralegal (Liverpool)
 company: Larbey Evans - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2395034
+job_id: jobg8-2427794
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -682,7 +682,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2412559
+job_id: jobg8-2422871
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
