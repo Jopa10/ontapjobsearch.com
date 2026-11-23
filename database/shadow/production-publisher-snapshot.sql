@@ -1,6 +1,6 @@
 -- Apply as the Neon Production owner before selecting Neon as the deployment source.
 -- The restricted daily writer role receives only the permissions needed to replace
--- and read back the dated publisher snapshot.
+-- and read back the current publisher snapshot. Older daily snapshots are pruned on update.
 BEGIN;
 
 CREATE TABLE IF NOT EXISTS ontap_shadow.publisher_snapshots (
