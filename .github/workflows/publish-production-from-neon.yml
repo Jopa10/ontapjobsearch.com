@@ -69,6 +69,9 @@ jobs:
       - name: Install Neon harness dependencies
         run: npm ci --prefix database/shadow/harness --ignore-scripts --no-audit --no-fund
 
+      - name: Install publisher build dependency
+        run: python -m pip install --disable-pip-version-check openpyxl==3.1.5
+
       - name: Prepare a reference from the already-published GitHub inventories
         run: |
           set -euo pipefail
@@ -82,9 +85,6 @@ jobs:
           ONTAP_NEON_PUBLISHER_OUTPUTS_PATH: shadow-db-outputs.json
           ONTAP_PROD_PUBLISHER_REPORT_PATH: ${{ runner.temp }}/ontap-production-neon-readback.json
         run: node database/shadow/harness/publish-production-from-neon.mjs
-
-      - name: Install publisher build dependency
-        run: python -m pip install --disable-pip-version-check openpyxl==3.1.5
 
       - name: Rebuild regional and city pages from Neon readback
         env:
