@@ -2,15 +2,27 @@
 
 review_date: 2026-11-23
 
-- Open Administrative & Clerical rows reviewed: 2141
+- Open Administrative & Clerical rows reviewed: 2139
 - Auto/remembered selected: 365
 - Selected HC Tier A: 186
 - Selected HC Tier B: 179
-- POSS awaiting decision: 1687
+- POSS awaiting decision: 1685
 - Excluded: 0
 - HARD_PASS: 89
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - South | BARNSLEY, S63 9EH | £25537.03 | Receptionist (Part Time)
+source_job_id: 5746835
+title: Receptionist (Part Time)
+employer: Barnsley Healthcare Federation
+region: Yorkshire - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0243-26-00000
+factual_fingerprint: 0150f48dec1cdbdcd41c6649538962a57d0c44991b68f387481f0cb2ca1edb0b
+---
 
 ---
 action:
@@ -1502,18 +1514,6 @@ factual_fingerprint: 9dad17a79f42a9cbb82253c611a123c45dd44ed68599f6591547597f80b
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B13 8JL | £25760.00 to £27476.00 | Band 3 Hub Coordinator–Ward Based
-source_job_id: 5742607
-title: Band 3 Hub Coordinator–Ward Based
-employer: Birmingham Community Healthcare NHS FT
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-00007
-factual_fingerprint: 067b1342d4fb2ab1813976c615282f5b9fdbe7f98498a6138609eaa6c24b6ff7
----
-
----
-action:
 POSS | NHS Jobs | Greater Manchester - South | Ashton-Under-Lyne, OL6 9RW | £25760.00 to £27476.00 | Workforce Insight and Systems Officer
 source_job_id: 5743716
 title: Workforce Insight and Systems Officer
@@ -2542,18 +2542,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-00010
 factual_fingerprint: afe8407e6965e69dfc24b8e00bb5d40070cb984affb78da7bb7e43d88d0c92e0
----
-
----
-action:
-POSS | NHS Jobs | — | Chelsea, SW3 6JJ | £47951.00 to £56863.00 | Configuration Analyst
-source_job_id: 5738847
-title: Configuration Analyst
-employer: The Royal Marsden NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9282-26-00003
-factual_fingerprint: 790b93fca4fe34b535128408b10b023d1cdfc6985673ccc3ab58a648caaa5ef9
 ---
 
 ---
@@ -11566,18 +11554,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2716
 factual_fingerprint: 13c5ac3a12cfc794a6f0ed41f75ad70b789e51bea66792a4f943bd995d22ee58
----
-
----
-action:
-POSS | NHS Jobs | Norfolk | Cromer, NR27 0BQ | £25760.00 to £27476.00 | Waiting List Coordinator - Cromer Hospital
-source_job_id: 5729709
-title: Waiting List Coordinator - Cromer Hospital
-employer: Norfolk and Norwich University Hospital
-region: Norfolk
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-1088
-factual_fingerprint: 829d6c9609eb0f854677b3a6d725c5af1e411dd4e0de905c9cb7d3032c9a2908
 ---
 
 ---
