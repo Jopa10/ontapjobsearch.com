@@ -23,9 +23,9 @@ jobs:
     steps:
       - name: Prepare the verified Production SHA artifact
         id: sha
-        if: \${{ needs.publish-from-neon.result == 'success' }}
+        if: ${{ needs.publish-from-neon.result == 'success' }}
         env:
-          VERIFIED_SHA: \${{ needs.publish-from-neon.outputs.verified_sha }}
+          VERIFIED_SHA: ${{ needs.publish-from-neon.outputs.verified_sha }}
         run: |
           set -euo pipefail
           [[ "$VERIFIED_SHA" =~ ^[0-9a-f]{40}$ ]]
@@ -33,22 +33,22 @@ jobs:
 
       - name: Upload verified Production SHA for downstream jobs
         id: upload_sha
-        if: \${{ steps.sha.outcome == 'success' }}
+        if: ${{ steps.sha.outcome == 'success' }}
         uses: actions/upload-artifact@v4
         with:
           name: verified-production-sha
-          path: \${{ runner.temp }}/verified-production-sha.txt
+          path: ${{ runner.temp }}/verified-production-sha.txt
           retention-days: 7
 
       - name: Open or update stale-production issue
-        if: \${{ always() && (needs.publish-from-neon.result != 'success' || steps.upload_sha.outcome != 'success') }}
+        if: ${{ always() && (needs.publish-from-neon.result != 'success' || steps.upload_sha.outcome != 'success') }}
         env:
-          GH_TOKEN: \${{ github.token }}
-          RUN_RESULT: \${{ needs.publish-from-neon.result }}
+          GH_TOKEN: ${{ github.token }}
+          RUN_RESULT: ${{ needs.publish-from-neon.result }}
         run: |
           set -euo pipefail
           title="Ontap production deployment is stale"
-          body="Production Neon publishing and its GitHub-file fallback did not complete successfully. Reusable workflow result: \${RUN_RESULT}. Workflow: \${GITHUB_SERVER_URL}/\${GITHUB_REPOSITORY}/actions/runs/\${GITHUB_RUN_ID}"
+          body="Production Neon publishing and its GitHub-file fallback did not complete successfully. Reusable workflow result: ${RUN_RESULT}. Workflow: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
 
           existing="$(gh issue list \
             --repo "$GITHUB_REPOSITORY" \
@@ -65,9 +65,9 @@ jobs:
           fi
 
       - name: Close stale-production issue after healthy deploy
-        if: \${{ always() && needs.publish-from-neon.result == 'success' && steps.upload_sha.outcome == 'success' }}
+        if: ${{ always() && needs.publish-from-neon.result == 'success' && steps.upload_sha.outcome == 'success' }}
         env:
-          GH_TOKEN: \${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           title="Ontap production deployment is stale"
@@ -83,5 +83,5 @@ jobs:
           if [ -n "$existing" ]; then
             gh issue close "$existing" \
               --repo "$GITHUB_REPOSITORY" \
-              --comment "Production deployment verified healthy by run \${GITHUB_RUN_ID}."
+              --comment "Production deployment verified healthy by run ${GITHUB_RUN_ID}."
           fi
