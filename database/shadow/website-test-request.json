@@ -1,22 +1,22 @@
 {
   "mode": "website_parity",
-  "purpose": "Preview-only full-site test using Sunday's 22 November Neon Preview refresh and exact Sunday production output artifacts; verify full-site membership, order, Apply links and Preview noindex routes.",
-  "archiveDate": "2026-11-22",
-  "productionOutputRunId": 44998593106,
+  "purpose": "Preview-only full-site test using Monday 23 November's refreshed Neon Preview data and the exact Monday production output artifacts; verify full-site membership, ordering, Apply links and Preview noindex routes against the Monday production deployment.",
+  "archiveDate": "2026-11-23",
+  "productionOutputRunId": 45131686908,
   "publishedOutputArtifacts": [
     {
       "name": "service-admin-output",
-      "id": 14746178048,
-      "sha256": "e2fbb9521b0750000f5f64d4e1248a22890e7237c434dfc1b0bc2a4829ababf4"
+      "id": 14801266732,
+      "sha256": "be251ea20e3304f227824196ee43baaa607debe3ad85cbca39f0c4e88e1351c5"
     },
     {
       "name": "support-worker-output",
-      "id": 14745744580,
-      "sha256": "913c8e51d7556f8fc7111c94e378c0eb96d063b904c19fb82ad989293081005b"
+      "id": 14800499061,
+      "sha256": "3c7669f91babcea2a0be168e6ea3b28e8e56fcfba5ddd6f37283cafbe9b2feb6"
     }
   ],
-  "attempt": 11,
+  "attempt": 12,
   "storageMode": "compressed_verified_snapshot",
-  "productionAppCommitSha": "81fe0efdf37e8525de2ab0f02d302c1cb2704efb",
+  "productionAppCommitSha": "a6f136abd7299f2a6771e634bbbd28b125f8f1ba",
   "compareFinalInventories": true
 }
