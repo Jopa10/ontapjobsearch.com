@@ -85,16 +85,29 @@ jobs:
         run: python -m pip install --disable-pip-version-check openpyxl==3.1.5
 
       - name: Rebuild regional and city pages from Neon readback
+        env:
+          READBACK_REPORT: ${{ runner.temp }}/ontap-production-neon-readback.json
         run: |
           set -euo pipefail
           python database/shadow/harness/prepare-full-preview.py
           python - <<'PY'
           import json
+          import os
           from pathlib import Path
           report = json.loads(Path("public/shadow-verification/city-report.json").read_text())
           assert report.get("exactPublishedInventoryMembershipAndOrder") is True, "Neon rebuild differs from the published inventory"
           assert report.get("inventoryDifferences") == [], "Neon rebuild has inventory differences"
           assert report.get("productionInventoryFilesCompared", 0) >= 300, "Neon rebuild checked too few production inventory files"
+          receipt_path = Path(os.environ["READBACK_REPORT"])
+          receipt = json.loads(receipt_path.read_text())
+          receipt["fullSiteParity"] = {
+              "status": "passed",
+              "productionInventoryFilesCompared": report["productionInventoryFilesCompared"],
+              "inventoryDifferences": report["inventoryDifferences"],
+              "exactPublishedInventoryMembershipAndOrder": True,
+          }
+          receipt["vercelProductionDeployVerified"] = False
+          receipt_path.write_text(json.dumps(receipt, indent=2) + "\\n")
           print("Verified exact published job membership and order across", report["productionInventoryFilesCompared"], "inventory files")
           PY
           rm -f public/shadow-verification/city-report.json
@@ -124,6 +137,7 @@ jobs:
         id: verified
         env:
           EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
+          READBACK_REPORT: ${{ runner.temp }}/ontap-production-neon-readback.json
         run: |
           set -euo pipefail
           production_url="https://www.ontapjobsearch.com/api/deployment-version"
@@ -137,6 +151,15 @@ jobs:
           print((json.loads(data).get("version") or "").strip() if data else "")
           ' 2>/dev/null || true)"
             if [ "$deployed_sha" = "$EXPECTED_SHA" ]; then
+              python - <<'PY'
+          import json, os
+          from pathlib import Path
+          path = Path(os.environ["READBACK_REPORT"])
+          receipt = json.loads(path.read_text())
+          receipt["vercelProductionDeployVerified"] = True
+          receipt["verifiedProductionSha"] = os.environ["EXPECTED_SHA"]
+          path.write_text(json.dumps(receipt, indent=2) + "\\n")
+          PY
               echo "Production serves expected source commit $deployed_sha." >> "$GITHUB_STEP_SUMMARY"
               exit 0
             fi
