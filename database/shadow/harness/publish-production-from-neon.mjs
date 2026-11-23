@@ -137,6 +137,10 @@ try {
     'uncompressed_sha256=excluded.uncompressed_sha256,compressed_payload=excluded.compressed_payload',
     [publication.feedDate, runId, rows.length, digest, compressed]
   );
+  const snapshotCount = Number((await client.query(
+    'SELECT COUNT(*)::text AS count FROM ontap_shadow.publisher_snapshots'
+  )).rows[0].count);
+  assert.equal(snapshotCount, 1, 'Production Neon must retain only the current publisher snapshot');
   const afterWrite = Number((await client.query(
     'SELECT pg_database_size(current_database())::text AS bytes'
   )).rows[0].bytes);
