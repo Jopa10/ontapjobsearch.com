@@ -1,6 +1,16 @@
 name: Publish Ontap from Neon (Production)
 
 on:
+  workflow_call:
+    inputs:
+      confirm_production_publish:
+        description: 'Caller must explicitly select the Neon Production publish path.'
+        required: true
+        type: string
+    outputs:
+      verified_sha:
+        description: Verified Production source commit.
+        value: ${{ jobs.publish-production-from-neon.outputs.verified_sha }}
   workflow_dispatch:
     inputs:
       confirm_production_publish:
@@ -25,6 +35,8 @@ env:
 jobs:
   publish-production-from-neon:
     name: Rebuild and publish from Production Neon
+    outputs:
+      verified_sha: ${{ steps.final_sha.outputs.sha }}
     runs-on: ubuntu-latest
     environment: neon-prod-daily-shadow
 
@@ -73,12 +85,17 @@ jobs:
         run: python -m pip install --disable-pip-version-check openpyxl==3.1.5
 
       - name: Prepare a reference from the already-published GitHub inventories
+        id: source
+        continue-on-error: true
         run: |
           set -euo pipefail
           python database/shadow/prepare-production-publisher-source.py \
             --output "$RUNNER_TEMP/ontap-production-publisher-source.json"
 
       - name: Store the full publisher snapshot in Production Neon and read it back
+        id: neon_write
+        if: ${{ always() && steps.source.outcome == 'success' }}
+        continue-on-error: true
         env:
           ONTAP_NEON_PROD_DAILY_WRITE_URL: ${{ secrets.ONTAP_NEON_PROD_DAILY_WRITE_URL }}
           ONTAP_PUBLISHER_SOURCE_PATH: ${{ runner.temp }}/ontap-production-publisher-source.json
@@ -87,6 +104,9 @@ jobs:
         run: node database/shadow/harness/publish-production-from-neon.mjs
 
       - name: Rebuild regional and city pages from Neon readback
+        id: parity
+        if: ${{ always() && steps.neon_write.outcome == 'success' }}
+        continue-on-error: true
         env:
           READBACK_REPORT: ${{ runner.temp }}/ontap-production-neon-readback.json
         run: |
@@ -116,6 +136,9 @@ jobs:
           rm -f shadow-db-outputs.json shadow-preview-metadata.json
 
       - name: Deploy the Neon-backed build to Production
+        id: neon_deploy
+        if: ${{ always() && steps.parity.outcome == 'success' }}
+        continue-on-error: true
         env:
           EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
@@ -138,6 +161,8 @@ jobs:
 
       - name: Verify Production serves the expected source commit
         id: verified
+        if: ${{ always() && steps.neon_deploy.outcome == 'success' }}
+        continue-on-error: true
         env:
           EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
           READBACK_REPORT: ${{ runner.temp }}/ontap-production-neon-readback.json
@@ -160,6 +185,7 @@ jobs:
           path = Path(os.environ["READBACK_REPORT"])
           receipt = json.loads(path.read_text())
           receipt["vercelProductionDeployVerified"] = True
+          receipt["publisherSource"] = "neon"
           receipt["verifiedProductionSha"] = os.environ["EXPECTED_SHA"]
           path.write_text(json.dumps(receipt, indent=2) + "\n")
           PY
@@ -171,6 +197,102 @@ jobs:
           done
           echo "::error::Production did not reach expected source commit $EXPECTED_SHA."
           exit 1
+
+      - name: Deploy the committed GitHub-file build if Neon publish did not verify
+        id: github_fallback
+        if: ${{ always() && inputs.confirm_production_publish == 'PUBLISH_FROM_NEON' && steps.verified.outcome != 'success' }}
+        env:
+          EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          set -euo pipefail
+          : "${VERCEL_TOKEN:?Repository secret VERCEL_TOKEN is missing}"
+          git reset --hard "$EXPECTED_SHA"
+          git clean -fdx
+          rm -rf .vercel
+          output_file="$(mktemp)"
+          if ! npx --yes vercel@latest deploy \
+            --prod \
+            --yes \
+            --project="$VERCEL_PROJECT_ID" \
+            --env "VERCEL_DEPLOYMENT_SHA=$EXPECTED_SHA" \
+            2>&1 | tee "$output_file"; then
+            if grep -q 'api-deployments-free-per-day' "$output_file"; then
+              echo "::error::Vercel deployment quota is exhausted for the GitHub-file fallback."
+            fi
+            exit 1
+          fi
+
+      - name: Verify Production serves the GitHub-file fallback commit
+        id: github_fallback_verified
+        if: ${{ always() && steps.github_fallback.outcome == 'success' }}
+        env:
+          EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
+          READBACK_REPORT: ${{ runner.temp }}/ontap-production-neon-readback.json
+        run: |
+          set -euo pipefail
+          production_url="https://www.ontapjobsearch.com/api/deployment-version"
+          for attempt in $(seq 1 36); do
+            body="$(curl --silent --show-error --fail \
+              --header 'Cache-Control: no-cache' \
+              "${production_url}?verify=${GITHUB_RUN_ID}-github-fallback-${attempt}" || true)"
+            deployed_sha="$(printf '%s' "$body" | python -c '
+          import json, sys
+          data = sys.stdin.read()
+          print((json.loads(data).get("version") or "").strip() if data else "")
+          ' 2>/dev/null || true)"
+            if [ "$deployed_sha" = "$EXPECTED_SHA" ]; then
+              python - <<'PY'
+          import json, os
+          from pathlib import Path
+          path = Path(os.environ["READBACK_REPORT"])
+          receipt = {}
+          if path.exists():
+              try:
+                  receipt = json.loads(path.read_text())
+              except (OSError, json.JSONDecodeError):
+                  receipt = {}
+          receipt["publisherSource"] = "github_files_fallback"
+          receipt["neonPublishAndVerification"] = "did_not_pass"
+          receipt["vercelProductionDeployVerified"] = True
+          receipt["verifiedProductionSha"] = os.environ["EXPECTED_SHA"]
+          path.write_text(json.dumps(receipt, indent=2) + "\n")
+          PY
+              echo "Production serves the GitHub-file fallback commit $deployed_sha." >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            echo "Fallback verification attempt $attempt/36: production ${deployed_sha:-unavailable}; waiting for $EXPECTED_SHA"
+            sleep 10
+          done
+          echo "::error::Production did not reach the GitHub-file fallback commit $EXPECTED_SHA."
+          exit 1
+
+      - name: Record verified Production SHA
+        id: final_sha
+        if: ${{ always() && (steps.verified.outcome == 'success' || steps.github_fallback_verified.outcome == 'success') }}
+        env:
+          EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
+        run: |
+          set -euo pipefail
+          printf '%s\n' "$EXPECTED_SHA" > "$RUNNER_TEMP/verified-production-sha.txt"
+          echo "sha=$EXPECTED_SHA" >> "$GITHUB_OUTPUT"
+
+      - name: Upload verified Production SHA
+        if: steps.final_sha.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: verified-production-sha
+          path: ${{ runner.temp }}/verified-production-sha.txt
+          retention-days: 7
+
+      - name: Summarize Production publish source
+        if: ${{ always() && (steps.verified.outcome == 'success' || steps.github_fallback_verified.outcome == 'success') }}
+        run: |
+          if [ "${{ steps.verified.outcome }}" = "success" ]; then
+            echo "Production was rebuilt and published from the verified Neon snapshot." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "::warning::Neon did not pass its publish/readback/parity/deploy verification. Production was deployed from the committed GitHub files instead." | tee -a "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: Upload Production Neon publish receipt
         if: always()
