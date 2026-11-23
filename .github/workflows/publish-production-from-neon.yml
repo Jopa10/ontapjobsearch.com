@@ -51,6 +51,8 @@ jobs:
           set -euo pipefail
           git fetch origin main --quiet
           expected_sha="$(git rev-parse origin/main)"
+          git checkout --detach "$expected_sha"
+          test "$(git rev-parse HEAD)" = "$expected_sha"
           echo "sha=$expected_sha" >> "$GITHUB_OUTPUT"
           echo "Expected source commit: $expected_sha" >> "$GITHUB_STEP_SUMMARY"
 
@@ -111,6 +113,7 @@ jobs:
           print("Verified exact published job membership and order across", report["productionInventoryFilesCompared"], "inventory files")
           PY
           rm -f public/shadow-verification/city-report.json
+          rm -f shadow-db-outputs.json shadow-preview-metadata.json
 
       - name: Deploy the Neon-backed build to Production
         env:
