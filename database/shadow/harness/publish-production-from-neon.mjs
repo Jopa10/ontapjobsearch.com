@@ -114,7 +114,7 @@ try {
   for (const name of ['feed_date', 'production_run_id', 'row_count', 'uncompressed_sha256', 'compressed_payload']) {
     assert.ok(columns.includes(name), 'Production publisher snapshot migration is missing column: ' + name);
   }
-  for (const privilege of ['SELECT', 'INSERT', 'UPDATE']) {
+  for (const privilege of ['SELECT', 'INSERT', 'UPDATE', 'DELETE']) {
     assert.equal((await client.query(
       'SELECT has_table_privilege(current_user,$1,$2) AS ok',
       ['ontap_shadow.publisher_snapshots', privilege]
