@@ -5,7 +5,7 @@ import { privateTestEnabled, sendPrivatePreviewTest, PRIVATE_TEST_EMAIL } from "
 
 const env = {
   VERCEL_ENV: "preview",
-  VERCEL_GIT_COMMIT_REF: "feat/cpc-job-alerts-clean",
+  VERCEL_GIT_COMMIT_REF: "feat/cpc-alert-neon-signup",
   VERCEL_URL: "ontap-test.vercel.app",
   CPC_JOB_ALERTS_ENABLED: "true",
   BREVO_JOB_ALERTS_LIST_ID: "3",

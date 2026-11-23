@@ -14,6 +14,7 @@ on:
       - app/api/job-alerts/unsubscribe/route.ts
       - tests/job-alert-signup.test.ts
       - tests/neon-email-alerts.test.ts
+      - tests/private-job-alert-test.test.ts
 
 concurrency:
   group: ontap-private-cpc-daily-test
