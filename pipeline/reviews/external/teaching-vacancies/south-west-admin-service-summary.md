@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-11-22
-review_fingerprint: 31fcf2362261f9e4026431aadb5d2529387b5ccc60b9253e35e84a67d4e3a183
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 9a0f5cb0d0e5e1200b823121483a4373015a0ecda53ce642f59cdbe15ab6109c
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -23,6 +23,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
+SELECTED | South West | Nailsea, South West, BS48 4PD | £25,614.00 Annually (FTE) | Admin Assistant
+employer: St Francis Catholic Primary School
+closing_date: 2026-12-07T12:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 4640f8ae9044bec925b4421e902d848e52049e3bcbbf7603915799e076499db7
+source: Teaching Vacancies
+source_job_id: admin-assistant-st-francis-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-francis-catholic-primary-school
+---
+
+---
+action: 
 SELECTED | South West | Ludgershall, South West, SP11 9RR | £30,023.00 - £32,046.00 Annually (FTE) | PA to the Headteacher
 employer: The Wellington Academy
 closing_date: 2026-11-30T23:59:00+00:00
@@ -34,21 +49,6 @@ factual_fingerprint: c54e30df0f1a6ea3875ab9d5a4e85c60e577189e5a6dcae733009b45bbd
 source: Teaching Vacancies
 source_job_id: pa-to-the-headteacher-the-wellington-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-headteacher-the-wellington-academy
----
-
----
-action: 
-SELECTED | South West | Looe, South West, PL13 2JJ | £25,948.96 Annually (FTE) Actual Salary £11,461.15 per annum | School Administrator
-employer: Polperro Primary Academy
-closing_date: 2026-11-22T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 1798dd71517c89ecb2d482ea3fcd20605f39b2f7478863468771ce2c87083420
-source: Teaching Vacancies
-source_job_id: school-administrator-3fb3fdf8-6f93-4850-a0fb-74160f868551
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-3fb3fdf8-6f93-4850-a0fb-74160f868551
 ---
 
 ## POSS — choose SELECT or EXCLUDE

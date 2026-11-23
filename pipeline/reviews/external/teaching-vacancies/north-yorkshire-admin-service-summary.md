@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-22
+review_date: 2026-11-23
 review_fingerprint: 8a4c66f80d2892aeca7e9accf05c32d8f6c97c92cd01ec496bba13d56b623329
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -76,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pat
 
 - [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-outwood-academy-easingwold) — No usable numeric salary.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-4cb2fc12-063c-4983-8b85-55032fc1e76b) — Insufficient admin/service evidence.
-- [School Business Officer](https://teaching-vacancies.service.gov.uk/jobs/school-business-officer-harrogate-high-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-11-22
-review_fingerprint: f52a7d33c61ffa7067d5c013b8c21f9859ea3eebab58a28eb57b2a27b0ecbdc6
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: e8513f5210bdccf2b895de5a190f804bd893c2aa7863859f40bce813ed6c95c2
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Worcestershire | Worcester, West Midlands, WR4 9SG | £26,016.00 - £26,016.00 Annually (FTE) Actual pro rata salary for term time only and part time hours £21,710 per annum | Administrative Finance Assistant
-employer: Hollymount School
-closing_date: 2026-11-23T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f4402cdb09254c1212cfde47ef316bec6ea0e7db617e516c5567d74dbf0882e3
-source: Teaching Vacancies
-source_job_id: administrative-finance-assistant-hollymount-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-finance-assistant-hollymount-school
----
 
 ---
 action: 

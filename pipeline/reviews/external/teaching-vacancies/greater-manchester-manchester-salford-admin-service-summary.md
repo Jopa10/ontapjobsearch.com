@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-22
-review_fingerprint: 6b801dc374d3393c809e531c08786409af295aceb7a27d8daa51d381aebacc97
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: a1608d687aa0e14287ffc35334003cbb30f06466614c2ac35dd7723264e4260c
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 4
+- Records: 14
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: ece7237408d21af950c82ebc946beb3afde1c220786646cf81f277f0149
 source: Teaching Vacancies
 source_job_id: academy-administrator-l3-dixons-middleton-academy-manchester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-middleton-academy-manchester
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M27 0AP | £23,733.00 - £24,110.00 Annually (Actual) Grade 3 (NJC scale point 5 – 6) | Administration Assistant
-employer: Moorside High School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 53958c6cc96cf84cc6c930bfd600810bab214b0c956a5103909433287b710949
-source: Teaching Vacancies
-source_job_id: administration-assistant-fb86228d-d40f-40f1-8095-d68548677b77
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fb86228d-d40f-40f1-8095-d68548677b77
 ---
 
 ---
@@ -127,7 +112,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-pipe
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-3d87884e-d7d8-49bb-ac76-95af803b7698) — Insufficient admin/service evidence.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Excluded senior/management title.
 - [PDI Operations, Marketing & Programme Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pdi-operations-marketing-programme-support-officer) — Insufficient admin/service evidence.
-- [Reprographics & Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administration-assistant-the-east-manchester-academy) — Insufficient admin/service evidence.
 - [Trust HR Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-officer-greater-manchester-academies-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

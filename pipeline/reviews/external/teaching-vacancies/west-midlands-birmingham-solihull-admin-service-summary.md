@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-22
-review_fingerprint: 1cc366f6457a487917b8d614fa94c9a07b02fca6102d9458c683ebd89d9cf368
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 4884322ca018ee9341b95c33b02635329eff55960bd12b86ba3c7bf9f2672555
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
+- Records: 25
 - Selected: 11
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B18 7AJ | £26,016.00 - £27,709.00 Annually (Actual) | Academy Administrator
+employer: BOA Stage and Screen Production Academy
+closing_date: 2026-12-07T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2607c55edc8a5caee416d4ee8d0ae12842848440c53b7cbd63093e2a11e97542
+source: Teaching Vacancies
+source_job_id: academy-administrator-boa-stage-and-screen-production-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-boa-stage-and-screen-production-academy
+---
 
 ---
 action: 
@@ -49,21 +64,6 @@ factual_fingerprint: a51265b6a15691c46cdf02e097e547019590ac83b4aa46aa60895e9b501
 source: Teaching Vacancies
 source_job_id: administration-assistant-mere-green-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-mere-green-primary-school
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B14 7EG | Full-Time Equivalent Salary: Grade 2, £24,796 - £26,824, Pro Rata (Actual Salary): £21,775 - £23,556 | Administration Assistant (Temporary Contract)
-employer: Bishop Challoner Catholic College
-closing_date: 2026-11-23T10:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d8da855a5895e4ae7c031bdfe55323e1aaa1ffee40830a430b702f39ccf3f9d6
-source: Teaching Vacancies
-source_job_id: administration-assistant-temporary-contract
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-temporary-contract
 ---
 
 ---
@@ -197,25 +197,25 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 95c06f2ef253f37ab6fda9cce790bc8006b61e08950ebaff760aa4651ea94e35
+factual_fingerprint: a74232eb33fc56b5cef0d0a4bbd2b59c52bc37305dca6f4f80f0b3b92a35c234
 source: Teaching Vacancies
-source_job_id: data-officer-e774b00a-cbd5-4f66-bb75-d029b35a56cc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-e774b00a-cbd5-4f66-bb75-d029b35a56cc
+source_job_id: data-officer-12c20029-e860-4403-8544-d48cf90d0ffa
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-12c20029-e860-4403-8544-d48cf90d0ffa
 ---
 
 ---
 action: 
-POSS | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 2NH | £22,858.00 - £23,218.00 Annually (Actual) | Exam and Central Services Assistant
-employer: Bishop Vesey's Grammar School
-closing_date: 2026-11-22T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+POSS | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B75 5NL | £25,614 - £29,071 | Office Administrator
+employer: Little Sutton Primary School
+closing_date: 2026-12-04T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d1f19abf0aa66f6f7d6f56a6d45f4c7ee1b259d931055a145f2e4dc8b2622f60
+factual_fingerprint: 1d4525e6a077021ba523bdaafadfefbf29a20b9107629009292235f6ec5a9e0a
 source: Teaching Vacancies
-source_job_id: exam-and-central-services-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-and-central-services-assistant
+source_job_id: office-administrator-little-sutton-primary-school-sutton-coldfield-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-little-sutton-primary-school-sutton-coldfield-west-midlands
 ---
 
 ---
@@ -254,12 +254,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/regional-hub-governan
 
 ## HARD_PASS
 
+- [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-brays-school) — Insufficient admin/service evidence.
 - [Assistant Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/assistant-trust-clerk-summit-learning-trust) — Insufficient admin/service evidence.
 - [Attendance Welfare Officer - Term Time Plus 2 Weeks / 37 Hours per week](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-term-time-plus-2-weeks-37-hours-per-week-tudor-grange-academy-kingshurst) — Insufficient admin/service evidence.
 - [Exam Access Arrangement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exam-access-arrangement-coordinator) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-leigh-trust-birmingham-not-recorded) — Excluded senior/management title.
 - [Head of House PA](https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-dame-elizabeth-cadbury-school-birmingham-west-midlands) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-clement-s-church-of-england-academy-birmingham-west-midlands) — Excluded senior/management title.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-boys-school-birmingham) — Excluded senior/management title.
 - [School Office Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-senior-administrator) — Excluded senior/management title.
 - [Senior Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-assistant-birches-green-primary-school) — Excluded senior/management title.
 

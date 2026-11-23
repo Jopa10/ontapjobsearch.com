@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-22
-review_fingerprint: 6a66b155a54d74b645c46e07e179dda1e84d1d1e8694374c0dfb03e6a6391c6d
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: bbebf463701137a1a5132238f4a43903371065fedab449e7286e56e35dcd09ee
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 15
 - Selected: 6
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -128,21 +128,6 @@ source_job_id: governance-professional-trust-administration-30854185-0942-4718-8
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-trust-administration-30854185-0942-4718-8d96-39eba204d5e2
 ---
 
----
-action: 
-POSS | Lincolnshire | Lincoln, East Midlands, LN5 0PA | £22,003.00 - £23,063.00 Annually (Actual) NJC 3 - 6 | SEND Administration Assistant
-employer: Sir William Robertson Academy, Welbourn
-closing_date: 2026-11-22T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6bf1f93d3e0dd4364a7fc908df87f5b7c44a46d64e7642a49b3c5a71cc12035c
-source: Teaching Vacancies
-source_job_id: send-administration-assistant-sir-william-robertson-academy-welbourn
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-sir-william-robertson-academy-welbourn
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -153,6 +138,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administration-a
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-e6664367-3eb0-42c0-9724-283bf6ac70a0) — Excluded senior/management title.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership-boston-not-recorded) — Insufficient admin/service evidence.
 - [Pastoral Administrator](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
+- [School Business Manager & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-chief-financial-officer-kesteven-and-grantham-girls-school) — Excluded senior/management title.
 - [School Business Manager (CFO)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cfo) — Excluded senior/management title.
 - [SEND Admin](https://teaching-vacancies.service.gov.uk/jobs/send-admin-sir-robert-pattinson-academy) — No usable numeric salary.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-thomas-middlecott-academy-boston-lincolnshire) — Excluded senior/management title.

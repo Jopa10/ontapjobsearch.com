@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-22
-review_fingerprint: 4dc9e29591e34c7138c1b6b1559916f3b1893cde4fbee965858caa4b35722582
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 1a34951439dcd38cabf15ddba8dc0049d181a06b82d3856d4332e82e79ee42d3
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -45,10 +45,25 @@ reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2087dfe1e8d9e8c826fb48d9712639b4f3d2c7ae609f01bf88f5ce238e110845
+factual_fingerprint: 9ad88c437c62dfef935ee0894747be4261be1c06a93685389d22e3b660c86486
 source: Teaching Vacancies
 source_job_id: business-support-officer-sixth-form
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-sixth-form
+---
+
+---
+action: 
+SELECTED | Suffolk | Ipswich, East of England, IP2 8PL | £25,646.00 - £26,920.00 Annually (Actual) | Examinations Officer
+employer: Stoke High School - Ormiston Academy
+closing_date: 2026-12-04T12:00:00+00:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c33e2caee9b19f9e40dce20978258ad6febb8a7fa18a2aaa22aa63985bc9e274
+source: Teaching Vacancies
+source_job_id: examinations-officer-5c03bed0-c587-4b17-afeb-2ca29fd336b1
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-5c03bed0-c587-4b17-afeb-2ca29fd336b1
 ---
 
 ---
@@ -64,21 +79,6 @@ factual_fingerprint: 17f6af7165da3d0dd7c8ba3ec49f85d576fefc2e3aec3ac828b710e68d6
 source: Teaching Vacancies
 source_job_id: examinations-officer-ormiston-endeavour-academy-ipswich-suffolk
 source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-ormiston-endeavour-academy-ipswich-suffolk
----
-
----
-action: 
-SELECTED | Suffolk | Ipswich, East of England, IP3 9JL | Support Staff Pay Scales, Scale 4 points 7-11 (National) £27,274 - £29,071 | Receptionist Administrator
-employer: Murrayfield Primary - A Paradigm Academy
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 00d6b51e5b874ee0e2e5bf3191f7ad97fbefcc34ebc35b5bde92df94c24bd328
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-murrayfield-primary-a-paradigm-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-murrayfield-primary-a-paradigm-academy
 ---
 
 ---
@@ -100,6 +100,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
+POSS | Suffolk | Woodbridge, East of England, IP12 4JX | £11,989.74 Annually (Actual) | Administrator
+employer: Farlingaye High School
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 213cef6042fa76b0986863a035065129384e56746d686cfacc2e5f9fc8287fdf
+source: Teaching Vacancies
+source_job_id: administrator-ad4a3911-4e57-4520-8f05-85eb38aff13e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ad4a3911-4e57-4520-8f05-85eb38aff13e
+---
+
+---
+action: 
 POSS | Suffolk | Beccles, East of England, NR34 7BQ | £19,350- £22,735 actual pa | Finance Officer
 employer: Beccles High School
 closing_date: 2026-12-20T00:00:00+00:00
@@ -111,21 +126,6 @@ factual_fingerprint: df0a1bf2719198612e34494b397c10a8080c3cab964f56de4ae8702adb4
 source: Teaching Vacancies
 source_job_id: finance-officer-beccles-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccles-high-school
----
-
----
-action: 
-POSS | Suffolk | Woodbridge, IP13 0RP | £41,177.00 - £45,166.00 Annually (FTE) | Trust Finance Officer
-employer: East Anglian Schools Trust Ltd
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Office/finance salary over £40k
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7d0fffc5c952566c08c864a8143115f3efea1c08de3979b53a563bea60670265
-source: Teaching Vacancies
-source_job_id: trust-finance-officer-east-anglian-schools-trust-ltd
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-east-anglian-schools-trust-ltd
 ---
 
 ## EXCLUDED BY REVIEW

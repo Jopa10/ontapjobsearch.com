@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-22
+review_date: 2026-11-23
 review_fingerprint: af9aaf0a722e2f85516a2a476c596705c69540aff54b06533434faf4688bc905
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -93,7 +93,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-cambrian-learning-trust) — Insufficient admin/service evidence.
 - [Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-coordinator-oxford-diocesan-bucks-schools-trust-oxford-not-recorded) — Insufficient admin/service evidence.
 - [RLT Fundraising Officer](https://teaching-vacancies.service.gov.uk/jobs/rlt-fundraising-officer-river-learning-trust) — Insufficient admin/service evidence.
-- [School Health & Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/school-health-safety-and-compliance-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

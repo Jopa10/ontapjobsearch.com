@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-22
+review_date: 2026-11-23
 review_fingerprint: d7a459abc2608117b3747bec70382994de0ed662149ee3f77bbfaa904a4d7b40
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -61,7 +61,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-
 
 ## HARD_PASS
 
-- [Administrative Officer (MAT COVER)](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-mat-cover) — Insufficient admin/service evidence.
 - [Chief Finance and Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-operations-officer-the-pinnacle-learning-trust) — Excluded senior/management title.
 - [Governance Clerk - Casual](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-casual) — Insufficient admin/service evidence.
 - [MIS and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/mis-and-data-manager-north-chadderton-school) — Excluded senior/management title.

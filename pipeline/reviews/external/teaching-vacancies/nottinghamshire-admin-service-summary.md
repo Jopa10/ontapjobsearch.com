@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-22
-review_fingerprint: 1667c0eb3fd8e5132d5e6231b7b43ccc9dec3c3e46a3a89d612c002e69051a58
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 48cedff545f2fd95c1cb0bb7d45a65560c4d011176c7f3226bde3ca9bdd905e2
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
+- Records: 18
 - Selected: 3
-- POSS awaiting decision: 4
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 12
 
 ## SELECTED
 
@@ -85,21 +85,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-POSS | Nottinghamshire | Newark, East Midlands, NG22 0JH | £24,821.00 - £24,821.00 Annually (Actual) | Administrator
-employer: Tuxford Academy
-closing_date: 2026-11-22T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f4217e7a5e1d77a282a27912d9f92877302d337a5c02141f3405ea79ccec43d5
-source: Teaching Vacancies
-source_job_id: administrator-tuxford-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-tuxford-academy
----
-
----
-action: 
 POSS | Nottinghamshire | Retford, East Midlands, DN22 7NJ | £18,299.77 - £18,299.77 Annually (Actual) | Adminstration Assistant
 employer: Retford Oaks Academy
 closing_date: 2026-11-25T23:59:00+00:00
@@ -134,7 +119,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 
 ## HARD_PASS
 
-- [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-king-edward-primary-school-nursery) — No usable numeric salary.
+- [Attendance Officer/Administrator](https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-administrator-jubilee-l-e-a-d-academy) — No usable numeric salary.
 - [Business Team Leader](https://teaching-vacancies.service.gov.uk/jobs/business-team-leader) — Excluded senior/management title.
 - [Data, Timetable and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-timetable-and-cover-manager) — Excluded senior/management title.
 - [Finance & Estate Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-estate-officer) — Salary over £50k.
@@ -142,7 +127,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administration-as
 - [Healthcare Assistant / Administrator](https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-b6dad597-ef3e-406f-a693-7ada1eddda55) — No usable numeric salary.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-nova-education-trust) — Excluded senior/management title.
 - [Pastoral Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-assistant-the-newark-academy) — Insufficient admin/service evidence.
-- [People & Culture Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-culture-advisor-a64c421f-6231-4592-9c8e-33d9670e968a) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c4d506e4-2227-47db-b7f1-9c4c2546f3eb) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hawthorne-primary-and-nursery-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hucknall-national-church-of-england-primary-school) — Excluded senior/management title.

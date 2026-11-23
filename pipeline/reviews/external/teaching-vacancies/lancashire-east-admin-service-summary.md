@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-22
+review_date: 2026-11-23
 review_fingerprint: 2e870d3d63cdf214ac989e9033be9901f8d9980d4ada711a308f9e6c090916ff
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -104,6 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-wilfr
 
 ## HARD_PASS
 
+- [Examinations and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-and-administration-officer-e5f66a6e-ef50-497e-9ee8-9ef39fa4acd0) — Insufficient admin/service evidence.
 - [Funding & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/funding-compliance-manager) — Excluded senior/management title.
 - [Talent Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/talent-systems-manager) — Excluded senior/management title.
 

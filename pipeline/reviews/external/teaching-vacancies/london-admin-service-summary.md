@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-22
-review_fingerprint: 3d454a34f8f6d3e5a14046f3add833cfd029ed8427320d519e4e62516bd544f6
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: cf803c4d3b8775320b4332fe11dd9b571d02e05f73da4dfb03aa235df2512757
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 65
-- Selected: 14
-- POSS awaiting decision: 10
+- Records: 55
+- Selected: 11
+- POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 41
+- Hard pass: 37
 
 ## SELECTED
 
@@ -53,32 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer
 
 ---
 action: 
-SELECTED | London | London, London, W12 0SP | £33,036.00 - £34,488.00 Annually (FTE) Salary will be Prorated | Administrative Assistant to the SENCO
-employer: Cambridge School
-closing_date: 2026-11-27T09:00:00+00:00
+SELECTED | London | West Wickham, London, BR4 0LJ | £13,210.63 Annually (Actual) Bromley Localised Pay Grade BR5 Point 13 | Administrative Assistant
+employer: Oak Lodge Primary School
+closing_date: 2026-12-06T23:59:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e6f99a8bed024e845a292712cdd0f1a9cdf28b0fff6edd6c19f9771e0001d10a
+factual_fingerprint: 238b595bda9674f46898d6b1eb5dc37855fef9045afaf38df0ecb8a19dedbe38
 source: Teaching Vacancies
-source_job_id: administrative-assistant-to-the-senco
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-to-the-senco
----
-
----
-action: 
-SELECTED | London | Lewisham, London, SE4 1SA | £28,947.00 - £29,789.00 Annually (Actual) Scale 4, (point 8-10), £33,515 - £34,488 (pro rata) | Administrator - SEND
-employer: Prendergast Ladywell School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 41f2038325c7101e3ce20ba07fb36738e23e442baeecc9987fdf4392ff7836b8
-source: Teaching Vacancies
-source_job_id: administrator-send-prendergast-ladywell-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-send-prendergast-ladywell-school
+source_job_id: administrative-assistant-oak-lodge-primary-school-west-wickham-kent
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-oak-lodge-primary-school-west-wickham-kent
 ---
 
 ---
@@ -109,21 +94,6 @@ factual_fingerprint: 4dac70c9d6a52ac3b8bc15c30655a5b46041d043d1a5ab8811f56216dd8
 source: Teaching Vacancies
 source_job_id: afternoon-receptionist-bushey-meads-school-bushey-hertfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/afternoon-receptionist-bushey-meads-school-bushey-hertfordshire
----
-
----
-action: 
-SELECTED | London | London, London, NW7 2EP | SCP 15 £29,291 to SCP 18 £30,612 | Attendance Officer
-employer: Copthall School
-closing_date: 2026-11-23T12:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f268b7bcc2f67b9ec641eb09ddbf29ddabe1ddcfba921663534ba1627d50c81e
-source: Teaching Vacancies
-source_job_id: attendance-officer-copthall-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-copthall-school
 ---
 
 ---
@@ -216,21 +186,6 @@ source_job_id: receptionist-administration-assistant-lake-farm-park-academy-haye
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-lake-farm-park-academy-hayes-middlesex
 ---
 
----
-action: 
-SELECTED | London | London, London, SE28 8AT | £30,408.00 - £32,655.00 Annually (FTE) pro rata = £26,507 - £28,466 per annum dependant on experience | SEND Administrative Assistant
-employer: Woolwich Polytechnic School
-closing_date: 2026-11-22T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: af7198216d15aa4ff4c788e80cee96a99b7de6c828e93cd9e2293d3a4d40b498
-source: Teaching Vacancies
-source_job_id: send-administrative-assistant-woolwich-polytechnic-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-assistant-woolwich-polytechnic-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -246,21 +201,6 @@ factual_fingerprint: b720dbece8bb2c7ef36d2a21704f73622035d70db4539a0b8a4bad6226a
 source: Teaching Vacancies
 source_job_id: business-support-officer-marylebone-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-marylebone-academy
----
-
----
-action: 
-POSS | London | London, SE28 8AT | £30,408.00 - £32,655.00 Annually (Actual) | Finance Assistant
-employer: Polymat
-closing_date: 2026-11-22T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8f992b412f817f6e97b806bd4db09c6b83b2067c182956b0b4ca6bd067de5b6d
-source: Teaching Vacancies
-source_job_id: finance-assistant-1c7b0979-6d6b-44fd-8fe2-df7b27f8bc62
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-1c7b0979-6d6b-44fd-8fe2-df7b27f8bc62
 ---
 
 ---
@@ -295,17 +235,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-kin
 
 ---
 action: 
-POSS | London | London, London, N1 5JU | £36,776.00 - £37,883.00 Annually (Actual) Local Government Pension Scheme | Receptionist & Administrator
-employer: City of London Academy, Shoreditch Park
-closing_date: 2026-11-23T09:00:00+00:00
+POSS | London | Dagenham, London, RM10 7FN | £30,847.00 Annually (Actual) | Receptionist/Administrator
+employer: Brook Sixth Form and Academy
+closing_date: 2026-12-04T10:00:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: bc4fd6da58b327f59482b637aaac30adf62f9394a1325e47ace5645fccf1b625
+factual_fingerprint: 43dce890c867db7e4b2a7fc1d820a5fbe8f26a121cc10f1da54ae794d258d3e0
 source: Teaching Vacancies
-source_job_id: receptionist-administrator-city-of-london-academy-shoreditch-park
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-city-of-london-academy-shoreditch-park
+source_job_id: receptionist-administrator-0742551b-6cc4-4d3e-acac-6ef8cfcc262a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-0742551b-6cc4-4d3e-acac-6ef8cfcc262a
 ---
 
 ---
@@ -340,36 +280,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bu
 
 ---
 action: 
-POSS | London | Sutton, SM1 4AF | £32,278.00 - £34,425.00 Annually (FTE) Actual salary £27,197- £29,007 per annum | SENDCO Admin
-employer: Greenshaw Learning Trust
-closing_date: 2026-11-22T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e3e5ab94e5667e9bc0f891d9663aae74ba9b2d390b94ea2dddb76fc7e0720cae
-source: Teaching Vacancies
-source_job_id: sendco-admin
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sendco-admin
----
-
----
-action: 
-POSS | London | Enfield, London, EN2 8GH | £27,666.00 - £29,303.00 Annually (Actual) NJC 8-12 | Sixth Form Administrator
-employer: Wren Academy Enfield
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a6f40da14893d12a465071c054e7a0bed41d06034400fcdb00551edd739a240f
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-wren-academy-enfield
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-wren-academy-enfield
----
-
----
-action: 
 POSS | London | London, SE14 5SF | £34,029.00 - £40,153.00 Annually (FTE) | Trust Finance Officer
 employer: Haberdashers' Aske's Federation Trust
 closing_date: 2026-12-16T23:59:00+00:00
@@ -397,23 +307,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-haberdashers-hatcham-college) — Insufficient admin/service evidence.
 - [Casual Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-administrative-assistant) — No usable numeric salary.
 - [Communications & Digital Media Intern](https://teaching-vacancies.service.gov.uk/jobs/communications-digital-media-intern) — No usable numeric salary.
-- [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-the-boxing-academy-ap-free-school) — Insufficient admin/service evidence.
 - [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-wallington-county-grammar-school) — Excluded senior/management title.
-- [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy-london) — Excluded senior/management title.
 - [Data Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/data-governance-officer) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-winchmore-school) — Excluded senior/management title.
+- [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal-haberdashers-borough-academy-london) — Out-of-scope occupation: principal.
 - [Finance and Admissions Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-admissions-assistant) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-newham-community-learning) — Salary over £50k.
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-8fc0a6b4-5e0b-4d7f-b5d4-016bc3b41dab) — Excluded senior/management title.
 - [Headteacher's PA and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-and-office-manager-carshalton-high-school-for-girls) — Out-of-scope occupation: teacher, headteacher.
-- [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-girls-learning-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-co-ordinator) — Insufficient admin/service evidence.
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-barking-abbey-school-a-specialist-sports-and-humanities-college) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-paddock-school) — No usable numeric salary.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Salary over £50k.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
+- [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover-oak-wood-school) — Excluded senior/management title.
 - [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college-london) — Insufficient admin/service evidence.
 - [Music Department Administrator](https://teaching-vacancies.service.gov.uk/jobs/music-department-administrator) — No usable numeric salary.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-0e28a447-7d05-4d98-a982-7c5d569e40f0) — Excluded senior/management title.
@@ -427,9 +334,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school-london) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-sherwood-school) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-connaught-special-school-london) — Excluded senior/management title.
-- [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-haberdashers-knights-academy) — Excluded senior/management title.
+- [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-22a666a4-eb84-43b5-bf0b-31d45ba81bc5) — Insufficient admin/service evidence.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-the-grove) — Excluded senior/management title.
-- [Sixth Form Admissions and Administration](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admissions-and-administration) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

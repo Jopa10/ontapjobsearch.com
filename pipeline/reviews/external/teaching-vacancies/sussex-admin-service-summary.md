@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-11-22
+review_date: 2026-11-23
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -34,7 +34,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## HARD_PASS
 
 - [Business & Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-manager-the-littlehampton-academy) — Excluded senior/management title.
-- [Cover, Data & Exams Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-data-exams-administrator) — No usable numeric salary.
 - [MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/mis-officer-plumpton-college) — Insufficient admin/service evidence.
 - [Nursery Manager](https://teaching-vacancies.service.gov.uk/jobs/nursery-manager-desmond-anderson-primary-academy) — Out-of-scope occupation: nurse.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-22
-review_fingerprint: 940064874e58041ef93d3f0d346d7031599912909f476ee1ca2adfdddb40666c
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 6bac435b3be937db450cc72872ea44d29927b0f874e240f00f4a7c143cf3ac11
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 6
+- Records: 15
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-SELECTED | West Midlands - Black Country | Cradley Heath, West Midlands, B64 6QU | £26,016.00 - £26,427.00 Annually (Actual) OAT Grade 2, Scale Point 4 - 5 | Safeguarding Administrator
-employer: Ormiston Forge Academy
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cba5625ddd60b7df9e8e678b5c4abf590c5c65fa7b4c2fd6944dff5c0905e312
-source: Teaching Vacancies
-source_job_id: safeguarding-administrator-ormiston-forge-academy-cradley-heath-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-ormiston-forge-academy-cradley-heath-west-midlands
----
-
----
-action: 
 SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B68 8NE | £22,812.00 Annually (Actual) Grade 3 SCP 5 | School Administrative Assistant
 employer: Oldbury Academy
 closing_date: 2026-11-27T09:00:00+00:00
@@ -150,13 +135,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-support-officer-ki
 ## HARD_PASS
 
 - [Aministration Assistant](https://teaching-vacancies.service.gov.uk/jobs/aministration-assistant) — Insufficient admin/service evidence.
-- [Chief Finance and Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-operations-officer-wolverhampton-girls-high-school) — Excluded senior/management title.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-st-francis-of-assisi-catholic-college) — Excluded senior/management title.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-hales-valley-trust) — Excluded senior/management title.
 - [HR Advisor - Senior](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-senior) — Excluded senior/management title.
 - [Office Manager/PA](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa) — Excluded senior/management title.
-- [PA to Head Teacher, Executive Assistant to SLT and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-teacher-executive-assistant-to-slt-and-office-manager-q3-academy-langley) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school-dudley-west-midlands) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-wordsley-school) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-priory-primary-school) — Excluded senior/management title.
 - [Trust Facilities and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-facilities-and-operations-manager) — Excluded senior/management title.
 

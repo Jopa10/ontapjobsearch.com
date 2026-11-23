@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-22
-review_fingerprint: 038969e7f4f0640ff8f57642dbda32b44f4185ff479e409aa7c600400eb5fcdf
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 05d1248e7d85a75944540a886e5413b916972227b8b9deb7dec0ebc65176c055
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 11
 - Selected: 4
-- POSS awaiting decision: 3
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 6
 
 ## SELECTED
 
@@ -70,33 +70,18 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-repr
 action: 
 SELECTED | Buckinghamshire | Milton Keynes, South East, MK7 6BZ | £27,709.00 Annually (FTE) Full time, Term time plus 5 Inset days | Reprographics Technician and Office Administrator
 employer: Kents Hill Park all-through school
-closing_date: 2026-11-24T12:00:00+00:00
+closing_date: 2026-12-07T12:00:00+00:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a2e37e3e5ac4eb597d95a32521fa119e20be05d176973b4b7727b60e6651e40f
+factual_fingerprint: 64bbe1dca84d03467950e072647b654a92291802a15368f88d6fc8ba162e76f1
 source: Teaching Vacancies
 source_job_id: reprographics-technician-and-office-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-and-office-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Buckinghamshire | Aylesbury, HP21 8PE | £27,807.00 - £32,283.00 Annually (Actual) Bucks Pay Range 3/4 – actual salary £27,807 to £32,283 (equivalent to £29,114 to £33,735 for full time) | Human Resources Officer (Employee Relations)
-employer: Insignis Academy Trust
-closing_date: 2026-11-23T12:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 881a657dc4002df9e62f2c4ca0a70ae8e926ff74d1bc65b22a6e3e5839694949
-source: Teaching Vacancies
-source_job_id: human-resources-officer-employee-relations
-source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-employee-relations
----
 
 ---
 action: 
@@ -113,21 +98,6 @@ source_job_id: receptionist-administrator-widmer-end-community-combined-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-widmer-end-community-combined-school
 ---
 
----
-action: 
-POSS | Buckinghamshire | Buckingham, South East, MK18 1AX | £9,015.36 Annually (Actual) 38.6 weeks per annum (to include 3 INSET days) | School Trip / Enrichment Coordinator
-employer: Royal Latin School
-closing_date: 2026-11-23T10:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ce52cfed346a48e0cf8f2b4d8907b85a23ed6277f56ff68c615645018fd78430
-source: Teaching Vacancies
-source_job_id: school-trip-enrichment-coordinator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-trip-enrichment-coordinator
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -139,9 +109,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-trip-enrichmen
 - [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-kents-hill-park-all-through-school) — Insufficient admin/service evidence.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-5-dimensions-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-broughton-fields-primary-school) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-b186e459-f769-41b9-9390-e923eedcb0b6) — Excluded senior/management title.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-stephenson-mk-trust) — Excluded senior/management title.
-- [Sixth Form Study Supervisor & DofE Coordinator](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-study-supervisor-dofe-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

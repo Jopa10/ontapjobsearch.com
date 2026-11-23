@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Wirral
 
-review_date: 2026-11-22
-review_fingerprint: 1ce3e83b3c4e37921fdccf929b8513bf421edd402d859525d18f6497e7e8785a
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Merseyside - Wirral
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 1
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Merseyside - Wirral | Birkenhead, North West, CH42 6RR | £17,802 to £19,311 per year | SEND Administrator
-employer: Prenton High School for Girls
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1ebf3778a82a4bf96e0c3f1c2fe56712125106e7d34ae6cbca0ce10857400fc8
-source: Teaching Vacancies
-source_job_id: send-administrator-prenton-high-school-for-girls
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-prenton-high-school-for-girls
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

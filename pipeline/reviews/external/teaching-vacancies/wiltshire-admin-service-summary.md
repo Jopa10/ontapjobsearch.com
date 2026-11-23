@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-22
-review_fingerprint: c0a765cd64567b0c09461504d14ba817e6404636bd0060c46d1378976d111211
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: bb6c13ca933585d69899c2f4700793b2f7de460fb91b116c3609f424bd4f4cf2
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 7
-- POSS awaiting decision: 1
+- Selected: 6
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 72f2cac22e24bdc5d8edb0faa4674e030805cbaafe28ce4c5a7049ea41a
 source: Teaching Vacancies
 source_job_id: admin-assistant-st-michael-s-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-michael-s-church-of-england-primary-school
----
-
----
-action: 
-SELECTED | Wiltshire | Salisbury, South West, SP1 3GZ | £26,016.00 Annually (Actual) Actual Salary: £7257 per annum | Administrative Assistant
-employer: Greentrees Primary School
-closing_date: 2026-11-23T12:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 224554c65e33986992be017fad09d6c8e85f1479b2cfb13b7d62a3262bcd6108
-source: Teaching Vacancies
-source_job_id: administrative-assistant-0f00fc74-0d9f-4ee5-95bf-98adacca1c95
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-0f00fc74-0d9f-4ee5-95bf-98adacca1c95
 ---
 
 ---
@@ -128,20 +113,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Wiltshire | Salisbury, South West, SP4 6JZ | £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE | Clerk to Governors
-employer: Gomeldon Primary School
-closing_date: 2026-11-22T23:59:00+00:00
-reason: Borderline school administration title: clerk to governors
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6f09f25c60b4ded1ad38e5a060da2dfb8722989b1060e87efadd20f23302dccd
-source: Teaching Vacancies
-source_job_id: clerk-to-governors-gomeldon-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gomeldon-primary-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -149,8 +121,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-go
 
 ## HARD_PASS
 
+- [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-osmund-s-catholic-primary-school-salisbury) — No usable numeric salary.
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-bulford-st-leonard-s-c-of-e-va-primary-school-salisbury-wiltshire) — Insufficient admin/service evidence.
 - [Day Care Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/day-care-admin-officer) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-61dd4b2c-8abb-45aa-8592-00a4fb2c91e7) — Insufficient admin/service evidence.
 - [Primary Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/primary-operations-manager-excalibur-academies-trust) — Excluded senior/management title.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - North
 
-review_date: 2026-11-22
+review_date: 2026-11-23
 review_fingerprint: a7dc05f0a685d703d50097de8c5b6a798a5c3e0cd04422a24f0444ae785e3afe
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Lancashire - North
 slice_category: admin_service
 slice_status: UNREGISTERED

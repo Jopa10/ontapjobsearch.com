@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-22
-review_fingerprint: e254a1c6d44ad2baecbaf9ac9bde47eb0e46626e475a7b122dd4247fe86b8f2b
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 3da20f8700b67d6a3346cdcea8e33d9f810bdc8719b75031cb1c268f73a97f04
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,57 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 9
+- Records: 13
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Hertfordshire | Hatfield, East of England, AL10 8NL | £24,447.00 - £24,825.00 Annually (Actual) H3, £27,180 - £27,600 per annum pro rata | Administration Assistant / Receptionist
-employer: Bishop's Hatfield Girls' School
-closing_date: 2026-11-23T09:00:00+00:00
+SELECTED | Hertfordshire | Ware, East of England, SG12 9NX | £15,170.00 - £15,908.00 Annually (Actual) H4 | Administration Assistant / Cover Receptionist
+employer: Presdales School
+closing_date: 2026-11-30T09:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e9e4cdb5aac75678eba3a08f9c36195bbecc6d589d8062af08b3f14e6c3e28ab
+factual_fingerprint: 068b073fdfef65fbcbc5b1bc321789424854159f1dea44de3bb848c2708f1e68
 source: Teaching Vacancies
-source_job_id: administration-assistant-receptionist-bishop-s-hatfield-girls-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-receptionist-bishop-s-hatfield-girls-school
----
-
----
-action: 
-SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP3 8RL | £26,847.00 - £30,515.00 Annually (FTE) Actual Salary TBC. | Administrative Assistant
-employer: Woodfield School
-closing_date: 2026-11-23T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 70c76b28a705c2d00b2f4eb3f36d80fa4c868aeb2ff6daad15b3fbe0a1ef08d7
-source: Teaching Vacancies
-source_job_id: administrative-assistant-woodfield-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-woodfield-school
----
-
----
-action: 
-SELECTED | Hertfordshire | Hatfield, East of England, AL9 7BN | £30,515.00 - £33,120.00 Annually (FTE) Actual Salary including fringe allowance: £28,125 per annum | Admissions Administrator
-employer: Chancellor's School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5cb0df7e25a63a4049e8deb8234990ec306da6244b47ba360f2c97bff08f97e2
-source: Teaching Vacancies
-source_job_id: admissions-administrator-chancellor-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-administrator-chancellor-s-school
+source_job_id: administration-assistant-cover-receptionist
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-cover-receptionist
 ---
 
 ---
@@ -94,21 +64,6 @@ factual_fingerprint: 1ac2445fc5d090840c0861148acec515e82605b021247186e8e1d56fdd3
 source: Teaching Vacancies
 source_job_id: inclusion-administrator-nicholas-breakspear-catholic-school-st-albans-hertfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-nicholas-breakspear-catholic-school-st-albans-hertfordshire
----
-
----
-action: 
-SELECTED | Hertfordshire | Knebworth, East of England, SG3 6AA | £28,153.00 - £30,515.00 Annually (FTE) | Office Administrator (Maternity Cover)
-employer: Knebworth Primary and Nursery School
-closing_date: 2026-11-23T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 53c584f797c644d480afba29d1f4eaf6075925b28a5c8fefa0c55ffcc5838409
-source: Teaching Vacancies
-source_job_id: office-administrator-maternity-cover-knebworth-primary-and-nursery-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-maternity-cover-knebworth-primary-and-nursery-school
 ---
 
 ---
@@ -183,7 +138,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-cb6272e2-b
 - [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover-ridgeway-academy) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-st-george-s-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lodge-farm-primary-school) — Excluded senior/management title.
-- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-st-mary-s-church-of-england-high-school-va) — Excluded senior/management title.
 - [Trips and Activities Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trips-and-activities-coordinator) — Insufficient admin/service evidence.
 - [Trust Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-manager-st-francis-of-assisi-catholic-academy-trust) — Excluded senior/management title.
 

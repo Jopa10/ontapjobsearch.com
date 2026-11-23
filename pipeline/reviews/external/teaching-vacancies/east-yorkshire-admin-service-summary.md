@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-11-22
-review_fingerprint: 51913867233c5241ae793fef1a09995b994cba75dd1dec680cd7284f96707c3c
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 916ba00036a6cefb5e200e9dd558a1b232981404f9736c2c3484e730800d448b
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 4
+- Records: 3
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
@@ -53,32 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-holdern
 
 ---
 action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 4EE | £27,004.00 - £29,309.00 Annually (Actual) Term time plus 10 days (200 days per year) | Human Resources Administrator
-employer: The Marvell College
-closing_date: 2026-11-23T11:00:00+00:00
-reason: Clear admin/service title: administrator
+SELECTED | Yorkshire - East | Goole, Yorkshire and the Humber, DN14 6AN | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent). The minimum actual pro rata salary starts at £27,039.33 | Exams Officer (7940)
+employer: Goole Academy
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8e144776c603985e74d71e0a07cce76117cee28fd9cf8a3d7c2361d80a56c96b
+factual_fingerprint: 5b0869c66e8f93399cf5db81718ba8fcf3420394af2e519894858b7c97558f2d
 source: Teaching Vacancies
-source_job_id: human-resources-administrator-the-marvell-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-administrator-the-marvell-college
----
-
----
-action: 
-SELECTED | Yorkshire - East | Bridlington, Yorkshire and the Humber, YO16 4QU | £9,304.00 Annually (Actual) | Receptionist
-employer: Bridlington School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b8add3499f66c804b72970ca2d371685a85dba44a17f7dd97cecdd47e1abd80b
-source: Teaching Vacancies
-source_job_id: receptionist-bridlington-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-bridlington-school
+source_job_id: exams-officer-7940
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-7940
 ---
 
 ## POSS — choose SELECT or EXCLUDE

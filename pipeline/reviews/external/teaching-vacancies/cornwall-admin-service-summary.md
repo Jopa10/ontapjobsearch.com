@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-11-22
-review_fingerprint: 38bc47e00d02e292ae6e854402c4885c2b1150850d7bef4f21eea583f34b1f1a
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 59b27a64367959d692659d8ea2bb19bad4622ec06cf572f2d84c95a0622d24dd
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -40,12 +40,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 action: 
 SELECTED | Cornwall | St Austell, PL26 7RN | £15,433.44 Annually (Actual) National Minimum Wage for Apprentices | Apprentice Business Administrator
 employer: Cornwall Education Learning Trust
-closing_date: 2026-11-23T23:59:00+00:00
+closing_date: 2026-11-30T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2fe5551d317d133f4010aaf786009a9cc54f6627ef6d1314c6662d8315489799
+factual_fingerprint: 9a7cc05347d1e8ee2b3c93ef584c70ed49e0ac9f94d9efc2ceb90c1cee2e91e7
 source: Teaching Vacancies
 source_job_id: apprentice-business-administrator-cornwall-education-learning-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-administrator-cornwall-education-learning-trust

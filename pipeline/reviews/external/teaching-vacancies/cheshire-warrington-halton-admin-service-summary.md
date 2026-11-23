@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-11-22
-review_fingerprint: 74e7aeb6c1e15e5df5fd447a24e3d4372e36a36bbe82044ff65bae0dbd0dc913
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 339314ca7db2acf30e1bd834940e65360ce7bfbd30c07acca9b10919cfb0b516
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 3
 - Selected: 1
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -47,25 +47,10 @@ reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0f024b8579485a85da8a755c721b521356f08ad0ec8e375b77ec212e60bcc182
+factual_fingerprint: 0f3660972779ab430d2b44ba1b18d0d60745584856f7aee2325b6bd963b97cc6
 source: Teaching Vacancies
 source_job_id: clerical-assistant-fixed-term-maternity-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-fixed-term-maternity-cover
----
-
----
-action: 
-POSS | Cheshire - Warrington & Halton | Warrington, North West, WA4 6RD | £25,558.00 - £29,544.00 Annually (FTE) | Finance Assistant
-employer: Priestley College
-closing_date: 2026-11-23T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: acb3fc30585e8db6dbddc760dcd012e7a64ca3bfc41b1e9530e3feba84cf0ebf
-source: Teaching Vacancies
-source_job_id: finance-assistant-5a6ad070-e384-48fa-ab50-605d6091576b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-5a6ad070-e384-48fa-ab50-605d6091576b
 ---
 
 ## EXCLUDED BY REVIEW
@@ -75,7 +60,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-5a6
 ## HARD_PASS
 
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-great-schools-trust-warrington-not-recorded) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-philip-westbrook-cofe-primary-school-warrington-cheshire) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-22
-review_fingerprint: be1bd687db08b57ce4d4cb3079cff26f1cdcfa5e945c3ee45f803b713ca20809
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 1da8c7fadde38ed474276ebede87e959e3d5ca1f5e4f417d8eb538c36842ca8c
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 6
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -49,36 +49,6 @@ factual_fingerprint: 485dc337d62fde891c71b6e44b9681e9f0e85ee7f27d8dc912a1f8d2f4f
 source: Teaching Vacancies
 source_job_id: administrator-level-1-part-time-ftc
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-level-1-part-time-ftc
----
-
----
-action: 
-SELECTED | Somerset | Crewkerne, South West, TA18 7NT | Grade 14 Pt.4 –6 – £18,062-£18,639 | Attendance Officer
-employer: Wadham School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fd312abfd9f7dcb044f5c0afd5ffb73312c4fb5d169d478c3fb79380a61fe9c3
-source: Teaching Vacancies
-source_job_id: attendance-officer-986124b8-cd3d-4ad3-a350-f07672d96f8e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-986124b8-cd3d-4ad3-a350-f07672d96f8e
----
-
----
-action: 
-SELECTED | Somerset | Crewkerne, South West, TA18 7NT | £18,062-£18,639 | Attendance Officer
-employer: Wadham School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0d604bb710fb4f6bc1e749afece59977051197739bb633fa226f72dcbd3b5337
-source: Teaching Vacancies
-source_job_id: attendance-officer-f1249860-fec2-4640-bf2b-6bc845063a98
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-f1249860-fec2-4640-bf2b-6bc845063a98
 ---
 
 ---
@@ -121,7 +91,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator
 
 ## HARD_PASS
 
-- [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-avanti-park-school) — No usable numeric salary.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-writhlington-school) — Insufficient admin/service evidence.
 - [Positive Behaviour Support Practitioner and Administrator](https://teaching-vacancies.service.gov.uk/jobs/positive-behaviour-support-practitioner-and-administrator-chilton-trinity-school) — No usable numeric salary.
 - [SEND Administrator](https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bridgwater-college-academy) — No usable numeric salary.

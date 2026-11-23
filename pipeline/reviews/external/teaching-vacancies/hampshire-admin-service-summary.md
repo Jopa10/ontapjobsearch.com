@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-22
-review_fingerprint: c89200b8b0a91d4a8cdf313d66ee69a315b59ac12757236bd04f3a98686adcab
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 510b21628f04faf33d5011271d14750dba6e6aedd3633c569ad07853029bd000
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 9
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hampshire | Southampton, South East, SO30 4EJ | £26,017.00 Annually (FTE) Grade C – Step 1 £26,017 FTE, Actual Annual Salary £7,091.12. | Evening Receptionist/Front of House
-employer: Wildern School
-closing_date: 2026-11-23T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 847af01cf855f18c8ac30bfd57e730e4ae29ed498e5536bcba6beb1c756d52aa
-source: Teaching Vacancies
-source_job_id: evening-receptionist-front-of-house
-source_url: https://teaching-vacancies.service.gov.uk/jobs/evening-receptionist-front-of-house
----
 
 ---
 action: 
@@ -64,21 +49,6 @@ factual_fingerprint: 6ccdc07365e87581f93a8d7a3eb1037911fe93d9e68dcb4691d6710c5e0
 source: Teaching Vacancies
 source_job_id: pastoral-administrator-cams-hill-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-cams-hill-school
----
-
----
-action: 
-SELECTED | Hampshire | Romsey, South East, SO51 8ZB | £14.87 Hourly Pay: £14.87 per hour (£24,538.47 Actual) | Receptionist
-employer: The Romsey School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6fb5c2a54b1f9c9cffe69e89600d96cecc07470fc3d68c3ab957c831290909af
-source: Teaching Vacancies
-source_job_id: receptionist-0843015e-4edd-4eed-82fa-deb742659791
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0843015e-4edd-4eed-82fa-deb742659791
 ---
 
 ---

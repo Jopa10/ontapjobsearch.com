@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-11-22
-review_fingerprint: c56c46fc08ce7498d8e95f90459e6d853b514b7e92eb6a7f1de6ebc0e2511c12
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: caf7545c50389d38d1600b4bc96c9d346a65998cda80869bad40a1b3ab1423a8
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 8c10cf1038ab08c80aa6ddba60f8f632ce5287d3390edc59bbcdee734bc
 source: Teaching Vacancies
 source_job_id: academy-administrator-l3-dixons-broadgreen-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-broadgreen-academy
----
-
----
-action: 
-SELECTED | Merseyside - Liverpool | Liverpool, North West, L3 5XF | £26,016 to £26,847 pro-rata (actual salary £22,277 to £22,989 per annum) | Business Support Assistant
-employer: St Nicholas Catholic Academy
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: business support assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 114220b2febe223d99d592e3e87552db4cf87eed22195c79185e9dcccb3e1c91
-source: Teaching Vacancies
-source_job_id: business-support-assistant-st-nicholas-catholic-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-st-nicholas-catholic-academy
 ---
 
 ---
@@ -91,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-assi
 
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-the-laetare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bishop-martin-church-of-england-primary-school-woolton) — Excluded senior/management title.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-finch-woods-academy) — Excluded senior/management title.
 
 ## Safety boundary
 

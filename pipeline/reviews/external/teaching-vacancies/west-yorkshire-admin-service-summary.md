@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-22
-review_fingerprint: 81ca656542cb5562108888533290bade876155786471b77cada46f8e469f5e17
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: c2b305f93abac65eed8838082d300c9e7719d7c6f0064783aa8e3f24b122771c
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 36
-- Selected: 11
+- Records: 33
+- Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 25
@@ -34,21 +34,6 @@ factual_fingerprint: f81f4e6ec4f542568465a87eb62a9c685b9b334d6f25808c3f285edea08
 source: Teaching Vacancies
 source_job_id: admin-assistant-thornhill-community-academy-a-share-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-thornhill-community-academy-a-share-academy
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD7 3HU | £22,462.00 - £22,819.00 Annually (Actual) Scale 3, SCP 5-6 (FTE £26,427 - £26,847), 37 Hours Per Week, Term Time Only (Fixed Term Maternity Cover from January to June 2027) | Administration Assistant
-employer: Farnham Academy
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 5c67550d81dc1ae8a16f9fc567fdcd9ba58854d8320c241667d74047bb44e1a0
-source: Teaching Vacancies
-source_job_id: administration-assistant-farnham-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-farnham-academy
 ---
 
 ---
@@ -94,21 +79,6 @@ factual_fingerprint: afc081d18848231956fb3272c17f896ebeefada118a3d10ca9231d25bf3
 source: Teaching Vacancies
 source_job_id: pa-to-principal-7934
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-7934
----
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS6 2LG | £32,305.00 - £34,115.00 Annually (Actual) 37 hours per week, term time only plus 15 additional days | Personal Assistant to the Principal & Administrator
-employer: Leeds City Academy
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: administrator, personal assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: d9f8c17d7f21e689f16ee78a5927a700e59ae54bfd413a79025ef41e2f568518
-source: Teaching Vacancies
-source_job_id: personal-assistant-to-the-principal-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-administrator
 ---
 
 ---
@@ -171,21 +141,6 @@ source_job_id: send-administrator-leeds-east-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-leeds-east-academy
 ---
 
----
-action: 
-SELECTED | Yorkshire - West | Keighley, Yorkshire and the Humber, BD20 6EB | £30,198.00 - £31,890.00 Annually (Actual) Band SO1, SCP 23-25, Fixed Term until July 2027, Core working pattern Mon-Thu 8:00am-4:00pm, Fri 8:00am-3:30pm (need of flexibility) | Sports Coach & School Games Administrator
-employer: Carlton Keighley
-closing_date: 2026-11-23T10:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 0c4822f60b6c3f31688f7c7cffc7d6f7df2c08fdf18c91661696a12c030ab814
-source: Teaching Vacancies
-source_job_id: sports-coach-school-games-administrator-carlton-keighley
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-games-administrator-carlton-keighley
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -197,7 +152,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-g
 ## HARD_PASS
 
 - [019 - HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/019-hr-assistant) — Insufficient admin/service evidence.
-- [Academy Business Leader](https://teaching-vacancies.service.gov.uk/jobs/academy-business-leader-e9234181-3796-40b5-8607-aa4c0657cf7a) — Excluded senior/management title.
 - [Admin and Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-18575951-37f7-4cf2-88ec-92eda75445ad) — No usable numeric salary.
 - [Administration assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chapel-allerton-primary-school) — No usable numeric salary.
 - [Administration Officer - SEND & Pastoral](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-send-pastoral) — Insufficient admin/service evidence.
@@ -218,8 +172,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-g
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hillside-primary-school-huddersfield-west-yorkshire) — Excluded senior/management title.
 - [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team-temple-learning-academy) — Excluded senior/management title.
 - [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.
+- [Reprographics and Resources Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-resources-technician) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-westbrook-lane-primary-school) — Excluded senior/management title.
-- [Trust Data & Systems Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-systems-analyst) — Insufficient admin/service evidence.
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-leodis-academies-trust) — Excluded senior/management title.
 - [Trust Service Officer - Governance, Assurance and Compliance](https://teaching-vacancies.service.gov.uk/jobs/trust-service-officer-governance-assurance-and-compliance) — Insufficient admin/service evidence.
 
 ## Safety boundary

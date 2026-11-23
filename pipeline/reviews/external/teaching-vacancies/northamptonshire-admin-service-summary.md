@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-22
-review_fingerprint: 4ae112c0a998ace2fe5a23a37e60e27f080944d9c73c8077c7a5eec4d2eec7e1
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 5fff2e295d9c5059d5ffe8b53432100d243d65644d719f49208a531d846a7de1
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 7
-- POSS awaiting decision: 1
+- Records: 17
+- Selected: 6
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 9
 
 ## SELECTED
 
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-th
 
 ---
 action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN6 0AG | £26,016.00 - £26,427.00 Annually (FTE) | Receptionist/Administration Assistant
-employer: Overstone Primary School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6db89591c55564162eddc99b34b9299272af5f6ddb6cf78423bbf7ad077781bc
-source: Teaching Vacancies
-source_job_id: receptionist-administration-assistant-overstone-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-overstone-primary-school
----
-
----
-action: 
 SELECTED | Northamptonshire | Northampton, East Midlands, NN3 6HT | £26,016.00 Annually (FTE) Grade D point 4 | School Office Administrator - Cover Coordinator
 employer: St Thomas Becket Catholic School
 closing_date: 2026-11-30T12:00:00+00:00
@@ -127,6 +112,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Northamptonshire | Northampton, East Midlands, NN4 8BU | £26,824.00 - £29,064.00 Annually (FTE) Grade G (NJC 8 to 13) | Finance Assistant
+employer: Abbeyfield School
+closing_date: 2026-12-07T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9ebbd3d1baa81647ee79c30f7f8f11501012b1034f207761cadb00a9d4fb1b55
+source: Teaching Vacancies
+source_job_id: finance-assistant-abbeyfield-school-northampton-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-abbeyfield-school-northampton-northamptonshire
+---
 
 ---
 action: 
@@ -153,8 +153,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-ad
 - [Administrator - Admissions, Data & Attendance](https://teaching-vacancies.service.gov.uk/jobs/administrator-admissions-data-attendance) — No usable numeric salary.
 - [Admissions & Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-manager-moulton-school-and-science-college) — Excluded senior/management title.
 - [Attendance Support Worker](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-worker-northampton-school) — Insufficient admin/service evidence.
-- [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-0ddbb56c-5635-4a81-8fed-8aa32c472a35) — Insufficient admin/service evidence.
-- [Data Management Coordinator](https://teaching-vacancies.service.gov.uk/jobs/data-management-coordinator-kingsthorpe-college) — Insufficient admin/service evidence.
 - [Finance and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-administration-officer-gloucester-nursery-school) — Insufficient admin/service evidence.
 - [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-76534355-af89-45a3-936c-3fdc5fe94bd4) — Salary over £50k.

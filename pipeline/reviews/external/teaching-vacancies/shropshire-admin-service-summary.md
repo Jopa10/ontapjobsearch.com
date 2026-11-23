@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-11-22
-review_fingerprint: 931070f513150e7b259d3c82eec1b68ed22781295bfd04a8dd3fa9e7e0a26fa9
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: d3d55ea4dc88776b4f63db67c6058ad91915e1f641bfc9dec5663cfe87234205
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 2
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
@@ -53,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-ch
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Shropshire | Shrewsbury, West Midlands, SY1 4LL | £23,099 - £24,620 | Librarian and School Support Officer
+employer: Shrewsbury Academy
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 680ebe1b31d10ac6390c78d02d308cb6e41cbf914290f9c9559ae8d1ca707f4b
+source: Teaching Vacancies
+source_job_id: librarian-and-school-support-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/librarian-and-school-support-officer
+---
 
 ## EXCLUDED BY REVIEW
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-22
-review_fingerprint: 07453fd3620d9e3dd47c8e621fe6517e68987c41a6465df9e78ec64346f4c99d
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 2762455df8417d782b57160886cae13030b889c75c52c59c68c5c04bebc0bde5
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 14
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 8053979fbb45946a01e4a884e9d8664ccb0630a0b6fac48e19aa274877c
 source: Teaching Vacancies
 source_job_id: administration-assistant-7c7ff27b-428f-43f8-b838-19b0716cb7d9
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-7c7ff27b-428f-43f8-b838-19b0716cb7d9
+---
+
+---
+action: 
+SELECTED | North East | Sunderland, North East, SR5 3NF | £27,274.00 - £28,153.00 Annually (FTE) | Administration Assistant
+employer: Trinity Academy New Bridge
+closing_date: 2026-12-01T12:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 87cc95e81cf44577daff19619175c674aed4ab03d503845a444431ec023f28be
+source: Teaching Vacancies
+source_job_id: administration-assistant-d77a2a21-c180-4182-8eaa-99917b7f2038
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-d77a2a21-c180-4182-8eaa-99917b7f2038
 ---
 
 ---
@@ -64,51 +79,6 @@ factual_fingerprint: 2e8126900367c6f72d16045ea20a134f243a77e6c301569286416cb8f02
 source: Teaching Vacancies
 source_job_id: administrative-assistant-st-joseph-s-catholic-primary-school-hartlepool
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-joseph-s-catholic-primary-school-hartlepool
----
-
----
-action: 
-SELECTED | North East | Newcastle-upon-Tyne, North East, NE5 2LW | N4 scale point 7- 9 FTE: £27,274 - £28,153 £23,420 - £24,175 actual salary pro-rata (£14.14 - £14.59 per hour) | Administrative Assistants
-employer: Thomas Bewick School
-closing_date: 2026-11-23T12:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4edb314bc2adccd3a52a7beade54d67df1ef3fc1c8195741564296ea637e7cad
-source: Teaching Vacancies
-source_job_id: administrative-assistants-thomas-bewick-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistants-thomas-bewick-school
----
-
----
-action: 
-SELECTED | North East | Blyth, North East, NE24 2SY | £29,023.00 Annually (Actual) SCP6 | Administrator & Receptionist (Secondary)
-employer: Bede Academy
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9635d6c2aa9301500c1c217a99c9552890d4c29a110a2e0e3b48958a5d8e0f8a
-source: Teaching Vacancies
-source_job_id: administrator-receptionist-secondary
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-receptionist-secondary
----
-
----
-action: 
-SELECTED | North East | Darlington, North East, DL3 8NN | NJC Points 8 - 10 £23,939 - £24,716 | Office Administrator
-employer: Abbey Junior School
-closing_date: 2026-11-23T08:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 84a4f601ef11a3ea35a5c0f8c814787bfd1e78ac25dc325f5ff4331d4cafde16
-source: Teaching Vacancies
-source_job_id: office-administrator-abbey-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-abbey-junior-school
 ---
 
 ---
@@ -149,7 +119,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administratio
 
 ## HARD_PASS
 
-- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-jarrow-school) — Excluded senior/management title.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-hurworth-school-darlington-county-durham) — No usable numeric salary.
 - [Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-partner-the-education-village-academy-trust-darlington-not-recorded) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-kings-priory-school) — Insufficient admin/service evidence.

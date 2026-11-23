@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-11-22
-review_fingerprint: 24b29a63d6bfcc7dcbfc2aca6ee7a2c9e5e5f1822ff7aa9cfef6fdcc591ec0e2
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: edbb752d3ae4b86e1660986358bb1dca865b37673093cbb6c7c5a32eabd98fb3
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
-- POSS awaiting decision: 2
+- Records: 9
+- Selected: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 84d85e30b046209e02971e7760fd499c0a925760c200e115a5aa4058913
 source: Teaching Vacancies
 source_job_id: admin-assistant-milton-on-stour-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-milton-on-stour-church-of-england-primary-school
----
-
----
-action: 
-SELECTED | Kent | Dartford, South East, DA1 2HW | £16,274 actual pro rata salary (DGS3 £26,168fte) | Part-time Music School Administrator
-employer: Dartford Grammar School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 605301b234dcd452c3afa1498b721d0adb102b3f89384c7e537f5d4d1577bab7
-source: Teaching Vacancies
-source_job_id: part-time-music-school-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-music-school-administrator
 ---
 
 ---
@@ -92,10 +77,25 @@ reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 13fcba29f33c0769a07d4b2ae8ea1a77b5001eee71bbcc3eeece4f13547d4de6
+factual_fingerprint: 41b9b8ab41eca8f5a3a590f7ceab5563854d2f4f06652ca575aeb273924a9255
 source: Teaching Vacancies
 source_job_id: receptionist-stone-lodge-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stone-lodge-school
+---
+
+---
+action: 
+POSS | Kent | Sevenoaks, South East, TN15 7RD | £23,139.00 - £23,139.00 Annually (Actual) | Receptionist
+employer: Wrotham School
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: acc83f0a5d05b38b05196310851b3ef40ae03b9d224b8ca9d3f84f4428fa2155
+source: Teaching Vacancies
+source_job_id: receptionist-wrotham-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-wrotham-school
 ---
 
 ## EXCLUDED BY REVIEW
@@ -104,7 +104,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stone-lo
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-staplehurst-school) — Insufficient admin/service evidence.
 - [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy-rochester-kent) — Insufficient admin/service evidence.
 - [Head of Data & Insights](https://teaching-vacancies.service.gov.uk/jobs/head-of-data-insights-the-howard-academy-trust) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school-tonbridge-kent) — Excluded senior/management title.

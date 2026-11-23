@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-22
-review_fingerprint: c4c92b748ec81b105e514da7a0756798ea248ec538b09947a9cbfd14880d52b5
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: b067347cc2a97a60e618d6faa30325b4645acf8f88d16ddadff91e1e93f55347
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 2
+- Records: 12
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Surrey | Leatherhead, South East, KT23 3PP | £12,954.00 - £14,093.00 Annually (FTE) FTE £25,940 to £28,220pa | Administrative Assistant
+employer: Eastwick Infant School
+closing_date: 2026-12-03T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d47e01fe034aa4d4da7e83af4e88eae66eca3b790f2e06968feaaacd8de378ac
+source: Teaching Vacancies
+source_job_id: administrative-assistant-16c8625c-72c7-47d8-8165-4971e3683c7f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-16c8625c-72c7-47d8-8165-4971e3683c7f
+---
 
 ---
 action: 
@@ -51,22 +66,22 @@ source_job_id: administrative-assistant-and-receptionist-westvale-park-primary-a
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-receptionist-westvale-park-primary-academy
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Surrey | Horley, South East, RH6 7JF | £33,367.00 - £36,257.00 Annually (FTE) Pro rata £2,392.11 - £2,599.30 | Clerk to Governors
-employer: Horley Infant School
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Borderline school administration title: clerk to governors
+SELECTED | Surrey | Woking, South East, GU22 9EQ | £15,951.19 Annually (Actual) The FTE salary is £25,133 (SWAN Grade 3.3) | Office Admin Assistant
+employer: Kingfield Primary School
+closing_date: 2026-12-08T10:00:00+00:00
+reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 70417516497bfeb2e31ebb86df5f02707f03b108289186c3cd5ebc29e4400eac
+factual_fingerprint: 1653db47d279e1380f4e3ec63444c64cdcbb615a9cdd237da2c1c40d85c94dab
 source: Teaching Vacancies
-source_job_id: clerk-to-governors-73528dcf-b3d5-4459-ae85-9fc0cb25775c
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-73528dcf-b3d5-4459-ae85-9fc0cb25775c
+source_job_id: office-admin-assistant-kingfield-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-admin-assistant-kingfield-primary-school
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
@@ -83,6 +98,21 @@ source_job_id: sen-administrator-1b1c73e5-4e8e-49ee-8b2a-4e536b9524c9
 source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-1b1c73e5-4e8e-49ee-8b2a-4e536b9524c9
 ---
 
+---
+action: 
+POSS | Surrey | Sunbury-on-Thames, South East, TW16 6LF | £24,570.00 - £26,730.00 Annually (Actual) P5 (FTE £28,700 to £31,224pa) | SEND Adminstrator
+employer: Sunbury Manor School
+closing_date: 2027-01-10T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a23a80566bdc470ed3264a0ba678e01b287a7f329697e07039386c3f3abc6266
+source: Teaching Vacancies
+source_job_id: send-adminstrator-sunbury-manor-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator-sunbury-manor-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -93,7 +123,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-1b1
 - [Apprenticeships Review Officer](https://teaching-vacancies.service.gov.uk/jobs/apprenticeships-review-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-grange-community-infant-school) — Excluded senior/management title.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-south-farnham-educational-trust) — Excluded senior/management title.
-- [Sustainability Officer](https://teaching-vacancies.service.gov.uk/jobs/sustainability-officer) — Insufficient admin/service evidence.
 - [Trust Leader Data and Insights](https://teaching-vacancies.service.gov.uk/jobs/trust-leader-data-and-insights) — Excluded senior/management title.
 - [Weekend Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/weekend-lettings-assistant-45375d5d-6f2d-419c-818e-6b822630e49f) — Insufficient admin/service evidence.
 

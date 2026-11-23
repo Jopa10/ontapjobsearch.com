@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-22
-review_fingerprint: 154c827dc683b49d78e8793b1a03f81cbcc99c0168d2028a87d00aaf36b4a256
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 6e501e62f443c68de04efbe1d6d10fc81a35a0a453eb9538eba75a42ca5f4997
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 9
-- POSS awaiting decision: 3
+- Records: 19
+- Selected: 8
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 9
 
 ## SELECTED
 
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-SELECTED | Berkshire | Sandhurst, South East, GU47 0SD | £11,192.00 Annually (Actual) Monday – Friday (18.5 hours per week, daily hours to be agreed, e.g. morning focus to support peak school hours) | Supported Learning Admin Assistant
-employer: Sandhurst School
-closing_date: 2026-11-22T23:59:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cd6ee1ffc10e320239b5ac8db2290d60f33bc1619f0d4b1a68df82b4e3b0b330
-source: Teaching Vacancies
-source_job_id: supported-learning-admin-assistant-sandhurst-school-sandhurst-berkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/supported-learning-admin-assistant-sandhurst-school-sandhurst-berkshire
----
-
----
-action: 
 SELECTED | Berkshire | Reading, RG6 7HS | £19,339.00 Annually (FTE) Grade 4 SCP 7 - 30 hours per week TTO plus 2 weeks during the Summer Holidays - FTE Salary £27,274 | Trust Data Administrator
 employer: Maiden Erlegh Trust
 closing_date: 2026-12-03T23:59:00+00:00
@@ -188,39 +173,21 @@ source_job_id: data-exams-assistant-waingels-reading-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-assistant-waingels-reading-berkshire
 ---
 
----
-action: 
-POSS | Berkshire | Slough, SL3 8TX | FTE range £40,547.00 - £44,799.00 | Executive Assistant (Governance & Compliance Professional)
-employer: Pioneer Educational Trust
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3e44a9034c40ec79e7b398098982457f2d644300a32adfe6b2ad189ed68c6562
-source: Teaching Vacancies
-source_job_id: executive-assistant-governance-compliance-professional
-source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-governance-compliance-professional
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Curriculum Assistant](https://teaching-vacancies.service.gov.uk/jobs/curriculum-assistant-windsor-forest-colleges-group) — Insufficient admin/service evidence.
 - [Federation Business Officer](https://teaching-vacancies.service.gov.uk/jobs/federation-business-officer) — Insufficient admin/service evidence.
 - [Finance and Administration Officer - Educational Visits](https://teaching-vacancies.service.gov.uk/jobs/finance-and-administration-officer-educational-visits) — Insufficient admin/service evidence.
 - [Health Safety & Welfare Manager](https://teaching-vacancies.service.gov.uk/jobs/health-safety-welfare-manager) — Excluded senior/management title.
 - [Level 3 School Administrator Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/level-3-school-administrator-apprenticeship) — No usable numeric salary.
+- [Medical Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/medical-administrative-assistant-castleview-primary-school) — No usable numeric salary.
 - [Office Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/office-co-ordinator-civitas-academy) — Insufficient admin/service evidence.
 - [Project Manager - Systems Implementation (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/project-manager-systems-implementation-maternity-cover-maiden-erlegh-trust) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-chilton-foliat-church-of-england-primary-school) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
-- [Student Admissions and Onboarding Officer](https://teaching-vacancies.service.gov.uk/jobs/student-admissions-and-onboarding-officer) — Insufficient admin/service evidence.
-- [Student Admissions and Onboarding Officer - The Wren School](https://teaching-vacancies.service.gov.uk/jobs/student-admissions-and-onboarding-officer-the-wren-school) — Insufficient admin/service evidence.
-- [Technology Technician](https://teaching-vacancies.service.gov.uk/jobs/technology-technician-slough-and-eton-church-of-england-business-and-enterprise-college) — Out-of-scope occupation: technician.
 
 ## Safety boundary
 

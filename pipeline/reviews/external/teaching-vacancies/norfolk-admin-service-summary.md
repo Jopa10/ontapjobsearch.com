@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-22
+review_date: 2026-11-23
 review_fingerprint: 8bccdb7cd377e0d4ab74e05724138d670ea5645cf91f805ec7bd550952520ce0
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 14
 - Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 7
 
 ## SELECTED
 
@@ -135,14 +135,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymo
 ## HARD_PASS
 
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-bure-valley-school) — Insufficient admin/service evidence.
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-824224c2-5ae7-482b-a4c3-25f64d69671f) — Insufficient admin/service evidence.
-- [Estates Compliance and Contracts Supervisor (East & South)](https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-and-contracts-supervisor-east-south) — Insufficient admin/service evidence.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-parkside-school-norwich) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-burston-community-primary-school-diss-norfolk) — Excluded senior/management title.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-3b7d300e-e3f4-42fe-968e-6e538254b2cd) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-caister-junior-school) — Excluded senior/management title.
 - [Secretary](https://teaching-vacancies.service.gov.uk/jobs/secretary-ba66d09b-86c1-44c3-b32c-07b2f7c540d1) — No usable numeric salary.
-- [Trust Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-capital-projects-manager-notre-dame-high-school-norwich) — Excluded senior/management title.
-- [Trust Capital Projects Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-capital-projects-manager-st-john-the-baptist-catholic-multi-academy-trust) — Excluded senior/management title.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Excluded senior/management title.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-11-22
-review_fingerprint: f9f34ef74924efa99e8f873d936c6528386f6534f3e8f131ff06aa5eab418cee
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 12711c8904c2ded3cfb4721921b7c0ee86e425ec7def00b79367a0f133466321
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -70,12 +70,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 action: 
 SELECTED | Greater Manchester - South | Sale, North West, M33 3JR | £27,922.00 Annually (FTE) 22.5 hours – 3 days a week (8.00am – 4.00pm) Mon to Wed (30 minutes unpaid lunch). Term Time plus 5 INSET days . Actual Salary £14,456 per annum. | Administration Assistant
 employer: Sale High School
-closing_date: 2026-11-29T23:59:00+00:00
+closing_date: 2026-11-24T12:00:00+00:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ad963fbc9b18a4752df3cf816adea5379794e46fb7cb677c21a6bfd97309f84f
+factual_fingerprint: c802cdafeedfbf687ce35ec6a777685ad289808d683fc97f909fea340cfef765
 source: Teaching Vacancies
 source_job_id: administration-assistant-sale-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-sale-high-school

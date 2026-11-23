@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-22
-review_fingerprint: c71408d3713c28fdacb088654fcbab6e1d87b383226b327998fedc1aded009bd
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: d4998ab49d338847e167560793b6bba54195f5af2719a9678512549f0c2cad5f
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 20
 - Selected: 4
-- POSS awaiting decision: 5
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
 
@@ -100,6 +100,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-porte
 
 ---
 action: 
+POSS | Essex | Stanford-le-Hope, East of England, SS17 8JT | C13-C18 (FTE £28,923 - £33,137) Actual Pay £25,848.37 - £29,614.41 | Administrator
+employer: Mossbourne Fobbing Academy
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6b42f6a568c6be112188cd9b09d84dfd8ec25939e0183e262dbd3d9521c8a312
+source: Teaching Vacancies
+source_job_id: administrator-mossbourne-fobbing-academy-stanford-le-hope
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-mossbourne-fobbing-academy-stanford-le-hope
+---
+
+---
+action: 
 POSS | Essex | Brentwood, CM13 2HG | £18,272.00 - £19,646.00 Annually (Actual) Includes Fringe Allowance | Governance Professional
 employer: Discovery Educational Trust
 closing_date: 2026-11-30T12:00:00+00:00
@@ -165,11 +180,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 ## HARD_PASS
 
 - [Assistant Data Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-manager-the-basildon-upper-academy) — Excluded senior/management title.
-- [Attendance and Educational Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-educational-support-officer) — Insufficient admin/service evidence.
-- [Careers Assistant](https://teaching-vacancies.service.gov.uk/jobs/careers-assistant-st-martin-s-school-brentwood-brentwood-essex) — Insufficient admin/service evidence.
 - [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services-st-martin-s-school-brentwood) — Out-of-scope occupation: deputy head.
 - [Director of Human Resources and Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-human-resources-and-operations) — Excluded senior/management title.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-diocese-of-chelmsford-vine-schools-trust-chelmsford-not-recorded) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (L&D/Projects)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-l-d-projects) — Salary over £50k.
 - [Midday Assistant](https://teaching-vacancies.service.gov.uk/jobs/midday-assistant-the-fitzwimarc-school) — Insufficient admin/service evidence.
 - [Senior Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/senior-cover-supervisor-st-john-payne-catholic-school-chelmsford) — Excluded senior/management title.

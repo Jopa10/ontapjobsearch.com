@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-22
-review_fingerprint: 839190289d7aa57a638cf4d5940a356e8d095e6801a72db9fb4173e1761a775d
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 55c7fe4956099406b67c703d4ca57ee236933951180ad7b1ee2e73abc552af6e
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 8
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: administrator-assistant-with-responsibility-for-first-aid
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-assistant-with-responsibility-for-first-aid
 ---
 
+---
+action: 
+SELECTED | Staffordshire | Lichfield, West Midlands, WS13 7EW | 27,274 p.a.- £28,153 p.a. FTE Salary Grade 5 SCP 7-9, Actual Salary £24,772- £25,570 p.a. | Finance Assistant
+employer: The Friary School
+closing_date: 2026-12-07T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 63eddea64b3575552785dc6c7680b3da0f5e7303a5ff5c8f82775d23649f0e67
+source: Teaching Vacancies
+source_job_id: finance-assistant-the-friary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-friary-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -78,6 +93,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-assista
 
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-tynsel-parkes-cofe-primary-academy) — No usable numeric salary.
 - [Leadership Support Officer (Part-time)](https://teaching-vacancies.service.gov.uk/jobs/leadership-support-officer-part-time) — No usable numeric salary.
+- [Office Services Manager](https://teaching-vacancies.service.gov.uk/jobs/office-services-manager-c5097f99-f759-4016-a6d6-8328ff8d771a) — Excluded senior/management title.
+- [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college-stoke-on-trent-staffordshire) — Excluded senior/management title.
 
 ## Safety boundary
 

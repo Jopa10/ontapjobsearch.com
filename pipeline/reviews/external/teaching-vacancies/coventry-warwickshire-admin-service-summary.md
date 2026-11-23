@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-22
-review_fingerprint: 687e02a096b167c00afbf955600668531ee73ab6ee51bb27e2b2714b7617af16
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: b77983d5e59ddf71bf9bcfe8d25b4454bf025943ddf7976bbc12b21f23c85a21
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 3
-- POSS awaiting decision: 5
+- Records: 15
+- Selected: 4
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 1PP | £26,427.00 - £27,274.00 Annually (FTE) (Grade 4 may be considered depending on experience £27,709 - £30,515 FTE) | Administration Assistant
+employer: Alderman's Green Primary School
+closing_date: 2026-11-29T12:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2bdc248d14ee7f8a794fa8359433a2f4c23addf14706293c4907ac98dfaa1cdd
+source: Teaching Vacancies
+source_job_id: administration-assistant-alderman-s-green-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-alderman-s-green-primary-school
+---
 
 ---
 action: 
@@ -100,21 +115,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-assistant-s
 
 ---
 action: 
-POSS | West Midlands - Coventry & Warwickshire | Kenilworth, CV8 2AL | £28,598.00 - £31,022.00 Annually (FTE) | KMAT Data Officer
-employer: Kenilworth Multi Academy Trust
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 640c027ffe68529744f487dbac4b72c7855520e91565c51d69d175cd6f0b3b58
-source: Teaching Vacancies
-source_job_id: kmat-data-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/kmat-data-officer
----
-
----
-action: 
 POSS | West Midlands - Coventry & Warwickshire | Leamington Spa, West Midlands, CV31 2LJ | £22,278.00 - £22,630.00 Annually (Actual) Band D - SCP 4 -5 | Office Administrator
 employer: St Joseph's Catholic Primary Academy
 closing_date: 2026-11-26T16:00:00+00:00
@@ -149,14 +149,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-7
 
 ## HARD_PASS
 
-- [Cover Co-ordinator / Administrator](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-administrator-stoke-park-school) — No usable numeric salary.
 - [Examinations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-co-ordinator) — Insufficient admin/service evidence.
-- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-harris-church-of-england-academy) — Insufficient admin/service evidence.
+- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-harris-church-of-england-academy-rugby-warwickshire) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-aylesford-school-warwick) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-corpus-christi-catholic-school-coventry-west-midlands) — Excluded senior/management title.
 - [Office Manager and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-hr-assistant) — Excluded senior/management title.
+- [Office Manager and PA to Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-pa-to-leadership-team) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-rugby-free-primary-school) — Excluded senior/management title.
-- [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant-finham-park-school-coventry-west-midlands) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

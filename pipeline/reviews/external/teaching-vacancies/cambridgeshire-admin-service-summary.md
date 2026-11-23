@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-22
+review_date: 2026-11-23
 review_fingerprint: 2a1d1c52505468ed37f868eca8d1ebed020868f73fe7eaf6e6ad08baa6a7b390
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
 
@@ -134,14 +134,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
-- [Alternative Provision Coordinator](https://teaching-vacancies.service.gov.uk/jobs/alternative-provision-coordinator-ormiston-bushfield-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.
-- [Business Services Support Officer](https://teaching-vacancies.service.gov.uk/jobs/business-services-support-officer-the-active-learning-trust-limited) — Insufficient admin/service evidence.
 - [Corporate Administrator](https://teaching-vacancies.service.gov.uk/jobs/corporate-administrator) — No usable numeric salary.
 - [Governance & Assurance Lead](https://teaching-vacancies.service.gov.uk/jobs/governance-assurance-lead) — Excluded senior/management title.
 - [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-grace-schools) — Insufficient admin/service evidence.
 - [Internal Scrutiny Officer](https://teaching-vacancies.service.gov.uk/jobs/internal-scrutiny-officer) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bottisham-village-college) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambourne-village-college) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-longsands-academy) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-2caf4b0b-10ec-4bc7-9232-16c27b370a5f) — Excluded senior/management title.
 - [Personal Assistant to Headteacher and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-and-senior-leadership-team-st-john-fisher-catholic-high-school) — Excluded senior/management title.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-80df4620-91d1-4dc5-b093-4937c078bedb) — Salary over £50k.

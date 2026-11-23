@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-22
-review_fingerprint: 3bc0566d492b7b09db46defb1f3ecdb02b7e17bbb35302ba5bdb23b1f80dcd3c
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 00ce5b90040fd6397574a1cffb05341da63a8dd3458e765366b26476880d7508
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 10
+- Selected: 6
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS16 2JP | Grade 3 - £26,388- £27,188per annum. Approximately £22,267- £22,942 per annum pro rata (0.84383FTE) | Admin and Attendance Officer
+employer: Avanti Gardens School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 91e65dc447009a23de15d5a3684bca2bb63d2f6b52b0cbc1f304e4419d054b3d
+source: Teaching Vacancies
+source_job_id: admin-and-attendance-officer-avanti-gardens-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-and-attendance-officer-avanti-gardens-school
+---
 
 ---
 action: 
@@ -68,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
+SELECTED | Bristol & Bath | Yate, South West, BS37 4DX | £27,274.00 - £29,071.00 Annually (FTE) £13,067 - £13,928 Actual per annum | Sixth Form Administrator Role (Part-time)
+employer: Yate Academy
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1d6f75a05f61ca217eb6117f4d298c20caec76b90445f22e052c7f056c981d9f
+source: Teaching Vacancies
+source_job_id: sixth-form-administrator-role-part-time
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-role-part-time
+---
+
+---
+action: 
 SELECTED | Bristol & Bath | Bristol, South West, BS7 0XZ | £26,847.00 - £27,274.00 Annually (FTE) | Student Receptionist
 employer: Orchard School Bristol
 closing_date: 2026-12-07T23:59:00+00:00
@@ -83,20 +113,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Bristol & Bath | Bristol, South West, BS13 9AJ | £19,002.86 - £19,611.91 Annually (Actual) SCP 5 - 7 | Attendance Administrator
-employer: E-ACT Bristol Academy South
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6e54a76f27c3bdaf4801d8fa08106f516b800c99594d293c79f980ee558ab236
-source: Teaching Vacancies
-source_job_id: attendance-administrator-e-act-bristol-academy-south
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-e-act-bristol-academy-south
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -106,9 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 - [Behaviour Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/behaviour-support-administrator-sir-bernard-lovell-academy-bristol) — No usable numeric salary.
 - [Educational Visits and Enrichment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-and-enrichment-coordinator) — No usable numeric salary.
-- [Employer Engagement Advisor](https://teaching-vacancies.service.gov.uk/jobs/employer-engagement-advisor) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
-- [Personal Care Assistant (EYFS + SEND)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-eyfs-send-bridge-learning-campus) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-pauls-nursery-school-children-s-centre) — Excluded senior/management title.
 
 ## Safety boundary

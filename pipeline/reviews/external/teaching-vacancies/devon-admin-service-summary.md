@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-22
-review_fingerprint: 9be9bfa8b6ee3f5716aee1d26c86bed250b0d72315664a5c978bc41d651db397
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 8498e92f18fe54e1eb1151d208722f8ce06ca6a2ba61b0ff00e90c1ca6476661
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 2
+- Records: 22
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 19
+- Hard pass: 16
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 9845cfb10561a30dc94e591b0b29612a29e62e136d16f9ccaa52dbc8404
 source: Teaching Vacancies
 source_job_id: administrative-assistant-mary-dean-s-cofe-primary-school-and-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-mary-dean-s-cofe-primary-school-and-nursery
+---
+
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL6 5YB | £14,800.00 - £16,299.00 Annually (Actual) WeST Grade D SCP 8-14 | HR Administrator
+employer: Eggbuckland Community College
+closing_date: 2026-12-03T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 507f2d194a9691e0475a528984dabc205f76740dcee4d26e5c1f4f69b7d18147
+source: Teaching Vacancies
+source_job_id: hr-administrator-96f53fc2-408f-4d07-8284-e4facbef9a0d
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-96f53fc2-408f-4d07-8284-e4facbef9a0d
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -104,15 +119,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-office
 
 ## HARD_PASS
 
-- [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sidmouth-church-of-england-primary-school) — No usable numeric salary.
-- [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-team-multi-academy-trust) — No usable numeric salary.
+- [Assessor - Health](https://teaching-vacancies.service.gov.uk/jobs/assessor-health) — Insufficient admin/service evidence.
 - [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-holsworthy-community-college) — Insufficient admin/service evidence.
 - [Clerk to Governors](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-woodlands-school) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-a1a3a65a-9f2f-47b9-8227-68ba8ca76cf9) — No usable numeric salary.
 - [Exams Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-maternity-cover-atlantic-academy) — No usable numeric salary.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Governance and Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/governance-and-administrative-assistant) — No usable numeric salary.
-- [Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/governance-coordinator-westcountry-schools-trust) — Insufficient admin/service evidence.
 - [HR Recruitment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-coordinator-the-academies-for-character-and-excellence) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-boringdon-primary-school-plymouth-devon) — Excluded senior/management title.
 - [Permanent Pupil Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/permanent-pupil-support-administrator) — No usable numeric salary.
@@ -121,8 +134,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-office
 - [School Buildings and Grounds Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-buildings-and-grounds-caretaker) — Out-of-scope occupation: caretaker.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-bb6742ca-488b-4508-aac4-ff3a63b58893) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy-newton-abbot-devon) — Excluded senior/management title.
-- [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school-axminster-devon) — Excluded senior/management title.
-- [Skills Planning Analyst](https://teaching-vacancies.service.gov.uk/jobs/skills-planning-analyst) — Insufficient admin/service evidence.
+- [Technician - Automotive](https://teaching-vacancies.service.gov.uk/jobs/technician-automotive) — Out-of-scope occupation: technician.
 
 ## Safety boundary
 

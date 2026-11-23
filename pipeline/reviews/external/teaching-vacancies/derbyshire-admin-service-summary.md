@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-22
-review_fingerprint: df09279712aff9ebe484ec61fe292e8ba98def6e98c335a09aa44a2e7f2ae098
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 19dcc027aa4a853d690f01c3af71a50293f516e93fe25fd000239ce8b2d6dac9
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 9
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 8
 
@@ -38,20 +38,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-noe
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Derbyshire | Hope Valley, East Midlands, S33 6SD | £26,427.00 - £26,847.00 Annually (FTE) Actual Salary £13,823 - £14,043 | Receptionist
-employer: Hope Valley College
-closing_date: 2026-11-22T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e9d8090fb8aefae1cd6443865e18246a2cb57683d84eeb2fc407d525434cae17
-source: Teaching Vacancies
-source_job_id: receptionist-47c1efc2-2f4c-4f78-b74d-250c1f8dce9e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-47c1efc2-2f4c-4f78-b74d-250c1f8dce9e
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -64,8 +51,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-47c1efc2
 - [PA to SLT & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-cover-manager) — Excluded senior/management title.
 - [Pastoral Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-officer-93d815b7-0e82-49a1-9ded-1395abd2f79a) — No usable numeric salary.
 - [Peripatetic Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-administration-officer-alvaston-junior-academy) — Insufficient admin/service evidence.
-- [Plant Centre Lead](https://teaching-vacancies.service.gov.uk/jobs/plant-centre-lead) — Excluded senior/management title.
 - [Primary Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/primary-operations-manager-duckmanton-primary-school) — Excluded senior/management title.
+- [School Business Assistant- Attendance](https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-attendance-buxton-community-school-buxton-derbyshire) — Insufficient admin/service evidence.
 - [SEND Admin Assistant Derby](https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-derby) — No usable numeric salary.
 
 ## Safety boundary

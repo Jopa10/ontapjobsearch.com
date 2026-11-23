@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-11-22
-review_fingerprint: 462a8e7e774b4aa48fa49c1f910e89845730c1c75439a6fd6675e6dec0da095e
-routing_manifest_sha256: af157be0246ac1ffa23a11c1bf79831232b88f02f155abb2a490f3c669b7ea7a
+review_date: 2026-11-23
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 1
+- Records: 2
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 2
 
 ## SELECTED
 
----
-action: 
-SELECTED | West Midlands | Bilston, West Midlands, WV14 6LU | £26,016.00 - £26,847.00 Annually (FTE) Term Time Only | Administrative Assistant / Reception
-employer: Moseley Park
-closing_date: 2026-11-23T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: f0950816fbfeca71724702f4cfdafd85387e906d6893ebed2678c474274096e8
-source: Teaching Vacancies
-source_job_id: administrative-assistant-reception-moseley-park
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-reception-moseley-park
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -46,7 +33,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## HARD_PASS
 
-- None.
+- [Curriculum Administrator - CS12450](https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-cs12450) — No usable numeric salary.
+- [King's Trust Team Leader (Bromsgrove / Redditch)](https://teaching-vacancies.service.gov.uk/jobs/king-s-trust-team-leader-bromsgrove-redditch) — Excluded senior/management title.
 
 ## Safety boundary
 
