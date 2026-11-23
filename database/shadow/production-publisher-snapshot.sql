@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS ontap_shadow.publisher_snapshots (
   compressed_payload bytea NOT NULL
 );
 
-GRANT SELECT, INSERT, UPDATE
+GRANT SELECT, INSERT, UPDATE, DELETE
 ON TABLE ontap_shadow.publisher_snapshots
 TO ontap_prod_daily_writer;
 
