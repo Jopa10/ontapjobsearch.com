@@ -2,14 +2,18 @@ name: Private CPC daily matching test
 
 on:
   push:
-    branches: [feat/cpc-job-alerts-clean]
+    branches: [feat/cpc-alert-neon-signup]
     paths:
       - pipeline/scripts/send_cpc_job_alerts.py
+      - pipeline/scripts/read_neon_alert_preferences.mjs
       - pipeline/tests/test_send_cpc_job_alerts.py
       - .github/workflows/private-cpc-daily-test.yml
       - lib/job-alert-signup.ts
+      - lib/neon-email-alerts.ts
       - app/api/job-alerts/route.ts
+      - app/api/job-alerts/unsubscribe/route.ts
       - tests/job-alert-signup.test.ts
+      - tests/neon-email-alerts.test.ts
 
 concurrency:
   group: ontap-private-cpc-daily-test
@@ -20,7 +24,7 @@ permissions:
 
 jobs:
   verify:
-    if: github.ref == 'refs/heads/feat/cpc-job-alerts-clean'
+    if: github.ref == 'refs/heads/feat/cpc-alert-neon-signup'
     runs-on: ubuntu-latest
     environment: ontap-brevo-private-test
     steps:
@@ -39,8 +43,35 @@ jobs:
           cache: npm
       - name: Install locked dependencies without lifecycle scripts
         run: npm ci --ignore-scripts
-      - name: Test signup confirmations and existing Preview safeguards
-        run: npx tsx --test tests/job-alert-signup.test.ts tests/private-job-alert-test.test.ts tests/cpc-job-alerts.test.ts
+      - name: Test Neon signup, Brevo delivery and Preview safeguards
+        run: |
+          node --check pipeline/scripts/read_neon_alert_preferences.mjs
+          npx tsx --test tests/job-alert-signup.test.ts tests/neon-email-alerts.test.ts tests/private-job-alert-test.test.ts tests/cpc-job-alerts.test.ts
+      - name: Read the private recipient's saved preferences from Preview Neon
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+          NEON_ALERT_PREFERENCES_OUTPUT: ${{ runner.temp }}/neon-alert-preferences.json
+        run: |
+          set -euo pipefail
+          mkdir -p .vercel
+          python - <<'PY'
+          import json, os
+          with open(".vercel/project.json", "w", encoding="utf-8") as f:
+              json.dump({"projectId": os.environ["VERCEL_PROJECT_ID"],
+                         "orgId": os.environ["VERCEL_ORG_ID"]}, f)
+          PY
+          npm install --no-save --ignore-scripts --prefix "$RUNNER_TEMP/cli" vercel@65.14.0
+          "$RUNNER_TEMP/cli/node_modules/.bin/vercel" env run \
+            --environment=preview \
+            --git-branch=feat/cpc-alert-neon-signup \
+            --token="$VERCEL_TOKEN" \
+            --scope="$VERCEL_ORG_ID" \
+            -- node pipeline/scripts/read_neon_alert_preferences.mjs jpbt801@gmail.com
+          test -s "$NEON_ALERT_PREFERENCES_OUTPUT"
+          echo "Read only the approved recipient's active, consented preferences from the Preview Neon project."
+
       - name: Ensure required Brevo alert attributes exist (no emails sent)
         env:
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
@@ -52,8 +83,6 @@ jobs:
           attrs = _brevo_request("GET", "/contacts/attributes", key).get("attributes", [])
           expected = {
               "ALERT_CONFIRMATION_STATE": {"text"},
-              "ALERT_PREFERENCES": {"text"},
-              "ALERT_REGION": {"text"},
               "ALERT_LAST_SENT_DATE": {"text", "date"},
           }
           for name, allowed_types in expected.items():
@@ -108,7 +137,12 @@ jobs:
           date = dates[-1].stem.removeprefix("newly-published-jobs-")
           print("Matching report date:", date, flush=True)
           for recipient in ("jpbt801@gmail.com",):
-              subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py", "--private-daily-test", "--private-recipient", recipient, "--dry-run", "--date", date, "--app-dir", "published-inputs/app", "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
+              preferences_path = pathlib.Path(os.environ["RUNNER_TEMP"]) / "neon-alert-preferences.json"
+              subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py",
+                              "--private-daily-test", "--private-recipient", recipient,
+                              "--neon-preferences-file", str(preferences_path), "--dry-run",
+                              "--date", date, "--app-dir", "published-inputs/app",
+                              "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
           PY
 
       - name: Private daily delivery runner (starts 23 October)
@@ -122,6 +156,7 @@ jobs:
         run: |
           python - <<'PY'
           import datetime
+          import os
           import pathlib
           import subprocess
           import sys
@@ -133,8 +168,10 @@ jobs:
           if not report.is_file():
               sys.exit("Today's new-jobs report is not ready; no old report will be sent.")
           for recipient in ("jpbt801@gmail.com",):
+              preferences_path = pathlib.Path(os.environ["RUNNER_TEMP"]) / "neon-alert-preferences.json"
               subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py",
                               "--private-daily-test", "--private-recipient", recipient,
+                              "--neon-preferences-file", str(preferences_path),
                               "--date", date.isoformat(),
                               "--app-dir", "published-inputs/app",
                               "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
@@ -152,11 +189,16 @@ jobs:
         run: |
           python - <<'PY'
           import datetime
+          import os
+          import pathlib
           import subprocess
           import sys
           date = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+          recipient = "jpbt801@gmail.com"
+          preferences_path = pathlib.Path(os.environ["RUNNER_TEMP"]) / "neon-alert-preferences.json"
           subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py",
-                          "--private-daily-test", "--private-matching-sample", "--date", date,
+                          "--private-daily-test", "--private-matching-sample",
+                          "--neon-preferences-file", str(preferences_path), "--date", date,
                           "--app-dir", "published-inputs/app",
                           "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
           PY

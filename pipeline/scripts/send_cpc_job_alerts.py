@@ -577,7 +577,7 @@ def send_private_test(email: str, site_url: str, app_dir: Path, *, api_key: str,
 
 def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
                        sender_email: str, secret: str) -> None:
-    """Exercise the real daily report/matcher/digest for one active test contact."""
+    """Match Neon-saved preferences and use Brevo only for delivery/suppression."""
     if list_id != 3:
         raise DeliveryError("Private daily tests require list ID 3")
     recipient = getattr(args, "private_recipient", None) or PRIVATE_TEST_EMAIL
@@ -589,41 +589,80 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
         and os.environ.get("GITHUB_WORKFLOW") == "Send private CPC job alerts after publish"
         and bool(re.fullmatch(r"[0-9a-f]{40}", verified_sha or ""))
     )
-    if os.environ.get("GITHUB_REF") != "refs/heads/feat/cpc-job-alerts-clean" and not native_publish:
-        raise DeliveryError("Private daily tests require the feature branch or the verified private post-publish workflow")
+    preview_branch = os.environ.get("GITHUB_REF") in {
+        "refs/heads/feat/cpc-alert-neon-signup",
+        "refs/heads/feat/cpc-job-alerts-clean",
+    }
+    if not preview_branch and not native_publish:
+        raise DeliveryError("Private daily tests require the Preview feature branch or verified private post-publish workflow")
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", args.date or ""):
         raise DeliveryError("A report date in YYYY-MM-DD format is required")
     matched_sample = getattr(args, "private_matching_sample", False)
     if matched_sample:
         from datetime import datetime, timezone
-        if (os.environ.get("GITHUB_REF") != "refs/heads/feat/cpc-job-alerts-clean"
+        if (not preview_branch
                 or os.environ.get("GITHUB_WORKFLOW") != "Private CPC daily matching test"
                 or args.dry_run
                 or args.date != datetime.now(timezone.utc).date().isoformat()):
-            raise DeliveryError("Matched samples require today's report and the private feature-branch workflow")
+            raise DeliveryError("Matched samples require today's report and the private Preview workflow")
     report = args.reports_dir / f"newly-published-jobs-{args.date}.csv"
     if not report.is_file():
         raise DeliveryError("The requested daily new-jobs report is missing")
+
     try:
         contact = _brevo_request("GET", "/contacts/" + urllib.parse.quote(recipient, safe=""), api_key)
-    except BrevoNotFound:
-        if recipient == PRIVATE_TEST_EMAILS[1]:
-            print("Second private test address has not signed up yet; no email sent.")
-            return
-        raise
-    attrs = contact.get("attributes") or {}
+    except BrevoNotFound as error:
+        raise DeliveryError("The approved test address is not active in Brevo") from error
     if (str(contact.get("email") or "").casefold() != recipient
             or 3 not in (contact.get("listIds") or [])
             or 3 in (contact.get("listUnsubscribed") or [])
-            or contact.get("emailBlacklisted") is True
-            or not attrs.get("ALERT_CONSENT_AT") or not attrs.get("ALERT_CONSENT_VERSION")):
-        raise DeliveryError("The test address must have an active, consented signup in list 3")
+            or contact.get("emailBlacklisted") is True):
+        raise DeliveryError("Brevo suppression status blocks this private test address")
+
+    attrs = contact.get("attributes") if isinstance(contact.get("attributes"), dict) else {}
+    if preview_branch:
+        preferences_file = getattr(args, "neon_preferences_file", None)
+        if not preferences_file or not Path(preferences_file).is_file():
+            raise DeliveryError("The Preview Neon preference read is missing; no email sent")
+        try:
+            neon = json.loads(Path(preferences_file).read_text(encoding="utf-8"))
+        except (OSError, ValueError) as error:
+            raise DeliveryError("Preview Neon preferences are unreadable; no email sent") from error
+        preferences = neon.get("preferences") if isinstance(neon, dict) else None
+        if (str(neon.get("email") or "").casefold() != recipient
+                or neon.get("consentAction") != "granted"
+                or not isinstance(neon.get("userId"), str)
+                or not isinstance(neon.get("userEmailId"), str)
+                or not isinstance(neon.get("subscriberId"), str)
+                or not isinstance(preferences, list) or not preferences or len(preferences) > 10
+                or any(not isinstance(p, dict)
+                       or not isinstance(p.get("role"), str) or not p["role"].strip()
+                       or not isinstance(p.get("location"), str) or not p["location"].strip()
+                       or not isinstance(p.get("salary"), str)
+                       or ("region" in p and not isinstance(p.get("region"), str))
+                       for p in preferences)):
+            raise DeliveryError("Preview Neon has no active, consented preferences for the approved address")
+        match_attributes = {
+            "ALERT_PREFERENCES": json.dumps([
+                {key: p[key] for key in ("role", "location", "salary", "region") if key in p}
+                for p in preferences
+            ]),
+            "ALERT_ROLE": preferences[0]["role"],
+            "ALERT_LOCATION": preferences[0]["location"],
+            "ALERT_SALARY": preferences[0]["salary"],
+            "ALERT_REGION": preferences[0].get("region", ""),
+        }
+        print("Neon user identity and consent verified; saved preference count: " + str(len(preferences)))
+        print("Private saved preferences from Neon: " + json.dumps(preferences, ensure_ascii=True))
+    else:
+        # Keep the existing Production private sender unchanged until a separate
+        # Production migration and email rollout are explicitly approved.
+        if not attrs.get("ALERT_CONSENT_AT") or not attrs.get("ALERT_CONSENT_VERSION"):
+            raise DeliveryError("The Production private test contact lacks consent")
+        match_attributes = attrs
     print("Private recipient: " + recipient)
-    print("Private saved preferences: " + json.dumps(
-        {key: str(attrs.get(key) or "") for key in ("ALERT_ROLE", "ALERT_LOCATION", "ALERT_SALARY", "ALERT_PREFERENCES", "ALERT_LAST_SENT_DATE")},
-        ensure_ascii=True))
     jobs = new_cpc_jobs(report, args.app_dir, args.date)
-    matches = matching_jobs(attrs, jobs)
+    matches = matching_jobs(match_attributes, jobs)
     print(f"Private daily matching: {len(jobs)} new CPC jobs; {len(matches)} matches; maximum 20 in a digest.")
     for job in matches[:MAX_JOBS_PER_EMAIL]:
         print(f"Match: {job.get('title', '')} | {job.get('location', '')} | {job.get('job_id', '')}")
@@ -633,8 +672,6 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
     if matched_sample:
         if not matches:
             raise DeliveryError("No new matching vacancies; no private matched sample sent")
-        # A separately labelled owner-requested sample, not another daily digest.
-        # Never clear/update ALERT_LAST_SENT_DATE or alter the daily-send guard.
         import uuid
         sample_jobs = [
             {**job,
@@ -643,9 +680,8 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
         ]
         unsubscribe = PRIVATE_TEST_ORIGIN + "/job-alerts/unsubscribe?token=" + _unsubscribe_token(recipient, secret)
         body_html, body_text = _email_html(sample_jobs, unsubscribe)
-        notice = "PRIVATE MATCHING TEST: today's new jobs matched using your saved preferences. This sample does not change daily delivery state."
-        identity = json.dumps([args.date, recipient,
-                               {key: attrs.get(key) for key in ("ALERT_ROLE", "ALERT_LOCATION", "ALERT_SALARY")},
+        notice = "PRIVATE MATCHING TEST: today's new jobs matched using preferences saved in Preview Neon. This sample does not change daily delivery state."
+        identity = json.dumps([args.date, recipient, preferences,
                                [job["job_id"] for job in sample_jobs]], sort_keys=True)
         result = _brevo_request("POST", "/smtp/email", api_key, {
             "headers": {"idempotencyKey": str(uuid.uuid5(uuid.NAMESPACE_URL, "ontap-private-matched-sample:" + identity))},
@@ -658,12 +694,12 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
         print("Private matched sample accepted by Brevo; message ID: " + str(result.get("messageId") or "not supplied"))
         print("No daily-send state changed.")
         return
-    sent = send_digest(contact, jobs, report_date=args.date, api_key=api_key,
+    delivery_contact = {**contact, "attributes": {**(contact.get("attributes") or {}), **match_attributes}}
+    sent = send_digest(delivery_contact, jobs, report_date=args.date, api_key=api_key,
                        sender_email=sender_email, unsubscribe_secret=secret,
                        site_url=PRIVATE_TEST_ORIGIN, private_test=True)
     print("Private daily digest accepted by Brevo." if sent else
           "No email sent: no matching jobs or this report date was already sent.")
-
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Send daily CPC job-alert digests.")
@@ -677,6 +713,7 @@ def main() -> int:
     parser.add_argument("--private-daily-test", action="store_true", help="Real daily matching for the fixed private test contact only")
     parser.add_argument("--private-matching-sample", action="store_true", help="One labelled matched sample to the fixed private contact; daily state unchanged")
     parser.add_argument("--dry-run", action="store_true", help="Private daily test: match without sending or updating state")
+    parser.add_argument("--neon-preferences-file", type=Path, help="JSON result from the restricted Preview Neon reader")
     args = parser.parse_args()
     if args.private_recipient and not args.private_daily_test:
         parser.error("--private-recipient requires --private-daily-test")

@@ -1,5 +1,6 @@
 import { createHmac, timingSafeEqual } from "node:crypto";
 import { NextRequest, NextResponse } from "next/server";
+import { unsubscribeJobAlertInNeon } from "@/lib/neon-email-alerts";
 
 export const runtime = "nodejs";
 
@@ -60,6 +61,10 @@ export async function POST(request: NextRequest) {
     if (!response.ok) {
       console.error("Brevo CPC alert unsubscribe failed", response.status);
       return htmlResponse("We couldn’t update your email preferences just now. Please try again.", 502);
+    }
+    if (process.env.VERCEL_ENV === "preview" &&
+        process.env.VERCEL_GIT_COMMIT_REF === "feat/cpc-alert-neon-signup") {
+      await unsubscribeJobAlertInNeon(email, { env: process.env });
     }
     return htmlResponse("You’re unsubscribed from Ontap CPC job alerts.");
   } catch (error) {

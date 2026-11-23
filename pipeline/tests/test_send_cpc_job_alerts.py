@@ -164,19 +164,27 @@ class PrivateDailyTests(unittest.TestCase):
             "ALERT_CONSENT_AT": "2026-10-22", "ALERT_CONSENT_VERSION": "v1"}}
         self.job = {"job_id": "new-job", "title": "Accounts Assistant", "location": "Leeds"}
 
-    def run_private(self, dry_run, contact=None, list_id=3, branch="refs/heads/feat/cpc-job-alerts-clean", workflow="", verified_sha=None, matched_sample=False, recipient=None):
+    def run_private(self, dry_run, contact=None, list_id=3, branch="refs/heads/feat/cpc-alert-neon-signup", workflow="", verified_sha=None, matched_sample=False, recipient=None, neon_preferences=None, neon_consent_action="granted"):
         import argparse
         from unittest.mock import patch
         from scripts.send_cpc_job_alerts import private_daily_test
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "newly-published-jobs-2026-10-22.csv").write_text("job_id\\n")
-            args = argparse.Namespace(date="2026-10-22", reports_dir=root, app_dir=root, dry_run=dry_run, verified_production_sha=verified_sha, private_matching_sample=matched_sample, private_recipient=recipient)
-            with patch.dict("os.environ", {"GITHUB_REF": branch, "GITHUB_WORKFLOW": workflow}), \
-                 patch("scripts.send_cpc_job_alerts.new_cpc_jobs", return_value=[self.job]), \
-                 patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {}, {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}}, {}]) as request:
-                private_daily_test(args, api_key="fake", list_id=list_id, sender_email="jobs@example.com", secret="fake")
-                return request.call_args_list
+            neon_file = root / "neon-preferences.json"
+            neon_file.write_text(json.dumps({
+                "email": "jpbt801@gmail.com", "userId": "user-1", "userEmailId": "email-1",
+                "subscriberId": "subscriber-1", "consentAction": neon_consent_action,
+                "preferences": neon_preferences or [{"role": "Accounts Assistant", "location": "Leeds", "salary": ""}],
+            }), encoding="utf-8")
+            args = argparse.Namespace(date="2026-10-22", reports_dir=root, app_dir=root, dry_run=dry_run,
+                verified_production_sha=verified_sha, private_matching_sample=matched_sample,
+                private_recipient=recipient, neon_preferences_file=neon_file)
+            with patch.dict("os.environ", {"GITHUB_REF": branch, "GITHUB_WORKFLOW": workflow}):
+                with patch("scripts.send_cpc_job_alerts.new_cpc_jobs", return_value=[self.job]):
+                    with patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {}, {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}}, {}]) as request:
+                        private_daily_test(args, api_key="fake", list_id=list_id, sender_email="jobs@example.com", secret="fake")
+                        return request.call_args_list
 
     def test_dry_run_fetches_only_fixed_contact_without_sending_or_updating(self):
         calls = self.run_private(True)
@@ -200,7 +208,6 @@ class PrivateDailyTests(unittest.TestCase):
         for contact in [{**self.contact, "listIds": []},
                         {**self.contact, "listUnsubscribed": [3]},
                         {**self.contact, "email": "anything@gmail.com"},
-                        {**self.contact, "attributes": {}},
                         {**self.contact, "emailBlacklisted": True}]:
             with self.assertRaises(DeliveryError):
                 self.run_private(False, contact)
@@ -210,8 +217,8 @@ class PrivateDailyTests(unittest.TestCase):
         self.assertEqual(len(self.run_private(False, contact)), 1)
 
     def test_no_matching_jobs_means_no_email(self):
-        contact = {**self.contact, "attributes": {**self.contact["attributes"], "ALERT_LOCATION": "Bristol"}}
-        self.assertEqual(len(self.run_private(False, contact)), 1)
+        preferences = [{"role": "Accounts Assistant", "location": "Bristol", "salary": ""}]
+        self.assertEqual(len(self.run_private(False, neon_preferences=preferences)), 1)
 
     def test_native_private_workflow_requires_main_exact_name_and_verified_sha(self):
         calls = self.run_private(True, branch="refs/heads/main",
@@ -259,9 +266,31 @@ class PrivateDailyTests(unittest.TestCase):
         from scripts.send_cpc_job_alerts import DeliveryError
         with patch("datetime.datetime") as clock:
             clock.now.return_value = datetime(2026, 10, 22, tzinfo=timezone.utc)
-            contact = {**self.contact, "attributes": {**self.contact["attributes"], "ALERT_LOCATION": "Bristol"}}
+            preferences = [{"role": "Accounts Assistant", "location": "Bristol", "salary": ""}]
             with self.assertRaises(DeliveryError):
-                self.run_private(False, contact, workflow="Private CPC daily matching test", matched_sample=True)
+                self.run_private(False, workflow="Private CPC daily matching test", matched_sample=True,
+                                 neon_preferences=preferences)
+
+    def test_matching_uses_neon_preferences_even_if_brevo_has_different_legacy_preferences(self):
+        stale = {**self.contact, "attributes": {
+            "ALERT_PREFERENCES": json.dumps([{"role": "Receptionist", "location": "Bristol", "salary": ""}]),
+            "ALERT_LAST_SENT_DATE": "",
+        }}
+        calls = self.run_private(False, stale)
+        payload = calls[-1].args[3]
+        self.assertEqual(payload["to"], [{"email": "jpbt801@gmail.com"}])
+        self.assertIn("Accounts Assistant", payload["textContent"])
+        self.assertNotIn("Receptionist", payload["textContent"])
+
+    def test_missing_brevo_consent_fields_are_ok_when_neon_records_consent(self):
+        contact = {**self.contact, "attributes": {}}
+        calls = self.run_private(False, contact)
+        self.assertEqual(calls[-1].args[0], "POST")
+
+    def test_withdrawn_neon_consent_fails_closed_even_when_brevo_is_active(self):
+        from scripts.send_cpc_job_alerts import DeliveryError
+        with self.assertRaises(DeliveryError):
+            self.run_private(True, neon_consent_action="withdrawn")
 
     def test_wrong_branch_or_list_fails_before_brevo(self):
         from scripts.send_cpc_job_alerts import DeliveryError
@@ -471,7 +500,7 @@ class MultipleAlertTests(unittest.TestCase):
         ]
         result = matching_jobs(attrs, jobs + jobs)
         self.assertEqual([j["job_id"] for j in result], ["1", "2", "4"])
-        self.assertEqual(len(result), 2)
+        self.assertEqual(len(result), 3)
 
     def test_malformed_storage_fails_closed_and_legacy_still_matches(self):
         from scripts.send_cpc_job_alerts import matching_jobs, DeliveryError

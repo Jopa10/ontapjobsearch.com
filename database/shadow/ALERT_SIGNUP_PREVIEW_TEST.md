@@ -5,8 +5,7 @@ Status: code prepared on `feat/cpc-alert-neon-signup`; not merged or live. Do no
 ## Before the owner submits the form
 
 1. Confirm PR #336's Preview schema migrations `001_initial.sql` through `004_master_cleanup_versions.sql` are already applied to the isolated Neon test database.
-2. Run `database/shadow/005_user_identity_for_alerts.sql` once in that same Neon database. It adds stable user IDs, separate email-address IDs, direct user links on preferences and delivery history, and address-linked consent records. It preserves any existing subscriber IDs.
-3. Run `database/shadow/006_signup_device.sql` once in the same Neon database. It adds a coarse signup-device category (`mobile`, `laptop`/desktop browser, or `unknown`).
+2. The current Preview database already has `005_user_identity_for_alerts.sql` and `006_signup_device.sql` applied. Do not run them again there. For a different fresh Preview database, apply each migration once, in order.
 5. Confirm the Vercel Preview branch is `feat/cpc-alert-neon-signup` and has the Preview-only `ONTAP_SHADOW_DATABASE_URL`, Brevo, sender and unsubscribe settings. Do not use `DATABASE_URL` or production variables.
 6. Verify `jnabon1108@gmail.com` is still unsubscribed in Brevo before the owner chooses to submit the new form. The earlier unsubscribe test is already complete; do not repeat it.
 
@@ -14,7 +13,7 @@ Status: code prepared on `feat/cpc-alert-neon-signup`; not merged or live. Do no
 
 On the Preview site, open an eligible JobG8 vacancy, submit the new alert form using `jnabon1108@gmail.com`, and tick the explicit consent box. The email is allowed only for the Preview signup path; it is not added to the daily sender's recipient allowlist.
 
-The API saves/updates the Brevo contact, then stores the user, email address, preferences, clicked vacancy's public ID and exact consent wording/version/timestamp in Neon. It marks the Neon address active only after the provider confirms the subscription. The form reports success only after both steps complete.
+The API first saves the user, email address, preferences, clicked vacancy's public ID and exact consent wording/version/timestamp in Neon. It then asks Brevo to enable delivery and send the confirmation; Brevo does not receive the preference criteria or consent record. The Neon address becomes active only after Brevo confirms active list delivery. GitHub later reads active, consented preferences from Neon and applies the existing matcher. Brevo supplies suppression status and keeps the existing daily-send marker.
 
 ## Neon readback
 
@@ -36,7 +35,7 @@ ORDER BY c.occurred_at DESC
 LIMIT 10;
 ```
 
-Expected: one canonical user, one associated address, the submitted role/location criteria, the clicked job's public ID, active delivery state, and a grant record with the exact displayed consent wording, timestamp, and detected signup device. A repeat network submission with the same signup attempt must not create a second consent row or preference.
+Expected: one canonical user, one associated address, the submitted role/location criteria, the clicked job's public ID, active delivery state, and a grant record with the exact displayed consent wording, timestamp, and detected signup device. Repeating the same request must not create another preference or send a duplicate confirmation; the unique signup-attempt key prevents a duplicate consent row for that request.
 
 ## Isolation checks
 

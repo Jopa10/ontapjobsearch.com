@@ -181,3 +181,87 @@ export async function saveJobAlert(
     return { ok: true, confirmationSent: false, subscriptionActive: true, unchanged: same, alertCount };
   }
 }
+
+/**
+ * Add the explicitly consented address to Brevo for delivery, then send its
+ * confirmation. Preference criteria and consent are canonical in Preview Neon;
+ * this function never reads or writes those values in Brevo.
+ */
+export async function activateBrevoJobAlertDelivery(
+  signup: Signup & { signupAttemptId: string },
+  { env, alertCount, unchanged, fetcher = fetch, now = () => new Date() }:
+  { env: Env; alertCount: number; unchanged: boolean; fetcher?: typeof fetch; now?: () => Date },
+): Promise<{ ok: true; confirmationSent: boolean; subscriptionActive: boolean; unchanged: boolean; alertCount: number }> {
+  if (env.VERCEL_ENV !== "preview" || !privateTestEnabled(env) ||
+      !PRIVATE_SIGNUP_TEST_EMAILS.includes(signup.email.trim().toLowerCase())) {
+    throw new Error("Brevo alert delivery is restricted to the private Preview signup.");
+  }
+  const key = env.BREVO_API_KEY;
+  const secret = env.JOB_ALERTS_UNSUBSCRIBE_SECRET;
+  const sender = env.BREVO_SENDER_EMAIL;
+  const listId = Number(env.BREVO_JOB_ALERTS_LIST_ID);
+  const host = env.VERCEL_URL;
+  if (!key || !secret || !sender || listId !== 3 || !host || !/^[a-z0-9-]+\.vercel\.app$/i.test(host)) {
+    throw new Error("Private Preview email settings are incomplete.");
+  }
+  const email = signup.email.trim().toLowerCase();
+  const origin = "https://" + host;
+  const call = (path: string, init: RequestInit = {}) => fetcher(API + path, {
+    ...init, headers: { "api-key": key, "content-type": "application/json", accept: "application/json" },
+    signal: AbortSignal.timeout(8_000), cache: "no-store",
+  });
+  const read = await call("/contacts/" + encodeURIComponent(email));
+  if (!read.ok && read.status !== 404) throw new Error("Could not check Brevo delivery status.");
+  const previous: Contact = read.ok ? await read.json() : {};
+  if (previous.email && previous.email.toLowerCase() !== email) throw new Error("Contact identity mismatch.");
+  if (previous.emailBlacklisted) throw new Error("This address is blocked from email. Check its Brevo status.");
+
+  const attrs = previous.attributes || {};
+  const active = previous.listIds?.includes(listId) && !previous.listUnsubscribed?.includes(listId);
+  const state = String(attrs[STATE] || "");
+  if (unchanged && active && /^sent:[a-f0-9-]{36}$/.test(state)) {
+    return { ok: true, confirmationSent: false, subscriptionActive: true, unchanged: true, alertCount };
+  }
+  const retryPending = unchanged && active && /^pending-(?:saved|updated):[a-f0-9-]{36}$/.test(state);
+  const confirmationKey = retryPending ? state.split(":")[1] :
+    uuid(JSON.stringify(["ontap-signup-confirmation-v2", email, signup.signupAttemptId]));
+  const pendingState = retryPending ? state :
+    (active && !unchanged ? "pending-updated:" : "pending-saved:") + confirmationKey;
+  const saved = await call("/contacts", {
+    method: "POST",
+    body: JSON.stringify({ email, listIds: [listId], updateEnabled: true, attributes: { [STATE]: pendingState } }),
+  });
+  if (!saved.ok) throw new Error("Brevo could not activate delivery for this address.");
+  const verified = await call("/contacts/" + encodeURIComponent(email));
+  const contact: Contact = verified.ok ? await verified.json() : {};
+  if (contact.email?.toLowerCase() !== email || contact.emailBlacklisted ||
+      !contact.listIds?.includes(listId) || contact.listUnsubscribed?.includes(listId) ||
+      contact.attributes?.[STATE] !== pendingState) {
+    return { ok: true, confirmationSent: false, subscriptionActive: false, unchanged, alertCount };
+  }
+
+  const tokenPayload = Buffer.from(JSON.stringify({ email, version: 1 })).toString("base64url");
+  const signature = createHmac("sha256", secret).update(tokenPayload, "ascii").digest("base64url");
+  const unsubscribe = origin + "/job-alerts/unsubscribe?token=" + tokenPayload + "." + signature;
+  const content = confirmationContent(signup, unsubscribe, active && !unchanged);
+  try {
+    const sent = await call("/smtp/email", {
+      method: "POST", body: JSON.stringify({
+        sender: { name: "Ontap Jobs", email: sender }, to: [{ email }],
+        ...content, headers: { idempotencyKey: confirmationKey },
+      }),
+    });
+    let accepted = sent.ok;
+    if (!accepted) {
+      const error = await sent.json().catch(() => ({}));
+      accepted = error.code === "duplicate_parameter";
+    }
+    if (!accepted) return { ok: true, confirmationSent: false, subscriptionActive: true, unchanged, alertCount };
+    await call("/contacts/" + encodeURIComponent(email), {
+      method: "PUT", body: JSON.stringify({ attributes: { [STATE]: "sent:" + confirmationKey } }),
+    });
+    return { ok: true, confirmationSent: true, subscriptionActive: true, unchanged, alertCount };
+  } catch {
+    return { ok: true, confirmationSent: false, subscriptionActive: true, unchanged, alertCount };
+  }
+}

@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { createHmac } from "node:crypto";
 import test from "node:test";
-import { AlertLimitError, confirmationContent, savedAlerts, saveJobAlert } from "../lib/job-alert-signup";
+import { AlertLimitError, activateBrevoJobAlertDelivery, confirmationContent, savedAlerts, saveJobAlert } from "../lib/job-alert-signup";
 
 const env = {
   VERCEL_ENV: "preview", VERCEL_GIT_COMMIT_REF: "feat/cpc-alert-neon-signup",
@@ -194,3 +194,47 @@ test("a city alert can be upgraded in place to include its wider region", async 
   const mail = f.calls.find(c => c.url.endsWith("/smtp/email"))!.body;
   assert.match(mail.textContent, /Leeds \+ Yorkshire - West/);
 });
+
+
+test("Neon-first delivery activates Brevo without copying preferences or consent", async () => {
+  const f = fake(undefined);
+  const result = await activateBrevoJobAlertDelivery({ ...signup, signupAttemptId: "fd58c6ba-1a46-4eba-9b17-f907d026e22a" },
+    { env, alertCount: 1, unchanged: false, fetcher: f.fetcher });
+  assert.equal(result.subscriptionActive, true);
+  assert.equal(result.confirmationSent, true);
+  const contactWrite = f.calls.find(c => c.method === "POST" && c.url.endsWith("/contacts"))!;
+  assert.deepEqual(contactWrite.body.listIds, [3]);
+  assert.deepEqual(Object.keys(contactWrite.body.attributes), ["ALERT_CONFIRMATION_STATE"]);
+  assert.equal(contactWrite.body.attributes.ALERT_PREFERENCES, undefined);
+  assert.equal(contactWrite.body.attributes.ALERT_CONSENT_AT, undefined);
+  const sent = f.calls.find(c => c.url.endsWith("/smtp/email"))!.body;
+  assert.equal(sent.to[0].email, "jpbt801@gmail.com");
+  assert.match(sent.textContent, /Accounts Assistant/);
+});
+
+test("identical signup with a new attempt does not send a second confirmation", async () => {
+  const first = fake(undefined);
+  await activateBrevoJobAlertDelivery({ ...signup, signupAttemptId: "fd58c6ba-1a46-4eba-9b17-f907d026e22a" },
+    { env, alertCount: 1, unchanged: false, fetcher: first.fetcher });
+  const repeat = fake(first.contact);
+  const result = await activateBrevoJobAlertDelivery({ ...signup, signupAttemptId: "b4b5f9d3-9237-4a14-92fc-aab18c1d5a6e" },
+    { env, alertCount: 1, unchanged: true, fetcher: repeat.fetcher });
+  assert.equal(result.unchanged, true);
+  assert.equal(result.confirmationSent, false);
+  assert.deepEqual(repeat.calls.map(c => c.method), ["GET"]);
+});
+
+test("same Neon preference and signup attempt reuse confirmation idempotency", async () => {
+  const attempt = "fd58c6ba-1a46-4eba-9b17-f907d026e22a";
+  const first = fake(undefined);
+  await activateBrevoJobAlertDelivery({ ...signup, signupAttemptId: attempt },
+    { env, alertCount: 1, unchanged: false, fetcher: first.fetcher });
+  const retry = fake(first.contact);
+  const result = await activateBrevoJobAlertDelivery({ ...signup, signupAttemptId: attempt },
+    { env, alertCount: 1, unchanged: true, fetcher: retry.fetcher });
+  assert.equal(result.unchanged, true);
+  assert.equal(result.confirmationSent, false);
+  assert.deepEqual(retry.calls.map(c => c.method), ["GET"]);
+  assert.equal(retry.contact?.attributes.ALERT_PREFERENCES, undefined);
+});
+
