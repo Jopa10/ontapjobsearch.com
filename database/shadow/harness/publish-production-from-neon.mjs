@@ -193,7 +193,7 @@ try {
     databaseBytesBefore: before,
     databaseBytesAfter: afterWrite,
     productionChanged: committed,
-    liveSiteSwitched: false,
+    siteDeployOccurredInSnapshotStep: false,
   };
   await fs.writeFile(reportPath, JSON.stringify(report, null, 2) + '\n', 'utf8');
   console.log('ONTAP_PROD_PUBLISHER_SNAPSHOT ' + JSON.stringify(report));
