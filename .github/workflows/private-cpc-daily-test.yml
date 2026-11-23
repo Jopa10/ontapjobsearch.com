@@ -72,6 +72,7 @@ jobs:
             --token="$VERCEL_TOKEN" \
             --scope="$VERCEL_ORG_ID"
           chmod 600 "$env_file"
+          node --env-file="$env_file" -e 'console.log("Preview Neon project id:", process.env.ONTAP_SHADOW_NEON_PROJECT_ID ?? "(missing)"); console.log("Preview Neon host:", new URL(process.env.ONTAP_SHADOW_DATABASE_URL).hostname)'
           node --env-file="$env_file" pipeline/scripts/read_neon_alert_preferences.mjs jpbt801@gmail.com
           test -s "$NEON_ALERT_PREFERENCES_OUTPUT"
           echo "Read only the approved recipient's active, consented preferences from the Preview Neon project."
