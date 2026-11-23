@@ -124,6 +124,10 @@ try {
   await client.query('BEGIN');
   inTransaction = true;
   await client.query("SELECT pg_advisory_xact_lock(hashtext('ontap_shadow:publisher-snapshot'))");
+  const prunedSnapshots = await client.query(
+    'DELETE FROM ontap_shadow.publisher_snapshots WHERE feed_date <> $1::date',
+    [publication.feedDate]
+  );
   await client.query(
     'INSERT INTO ontap_shadow.publisher_snapshots ' +
     '(feed_date,production_run_id,row_count,uncompressed_sha256,compressed_payload) ' +
@@ -192,6 +196,8 @@ try {
     compressedSnapshotBytes: compressed.length,
     databaseBytesBefore: before,
     databaseBytesAfter: afterWrite,
+    previousSnapshotsRemoved: prunedSnapshots.rowCount,
+    retention: 'latest publisher snapshot only',
     productionChanged: committed,
     siteDeployOccurredInSnapshotStep: false,
   };
