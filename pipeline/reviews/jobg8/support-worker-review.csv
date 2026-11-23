@@ -1,17 +1,18 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
 2026-11-23,SELECTED,Yorkshire - West,Support Worker,Bradford,£12.71 - £14 per hour,,,23643_225770654
-2026-11-23,SELECTED,Yorkshire - West,Hiring Support Worker and Health care Assistant for Care Homes,Leeds,£12.71 - £13 per hour,,,23643_225676613
 2026-11-23,SELECTED,Yorkshire - West,Health Care Assistant,Huddersfield,£12.71 - £14 per hour,,,23643_225781886
 2026-11-23,SELECTED,Yorkshire - West,Complex Care Support Worker,Liversedge,£13.5 - £14 per hour,,,23643_223400221
 2026-11-23,SELECTED,Yorkshire - West,Learning Care Assistant,Castleford,£95 - £110 per daily,,,23643_225816651
 2026-11-23,SELECTED,Yorkshire - West,Support Worker (Maternity Cover),Huddersfield,£13.15 Per Hour,,,2390161
 2026-11-23,SELECTED,Yorkshire - West,Health Care Support Worker,Bradford,£13.15 Per Hour,,,2422961
+2026-11-23,SELECTED,Yorkshire - West,Health Care Assistant,Wakefield,£12.71 - £14 per hour,,,23643_225861961
 2026-11-23,POSS - YORKSHIRE - WEST,Yorkshire - West,Housing Support Officer,Bradford,£18 - £19 per hour,,,23643_225817936
 2026-11-23,SELECTED,Yorkshire - South,Neuro Rehabilitation Support Worker,Brinsworth,£13.45 per hour,,,23643_225798534
 2026-11-23,SELECTED,Yorkshire - South,Outreach Rehabilitation Support Worker,Rotherham,£13.45 per hour,,,2396048
 2026-11-23,SELECTED,Yorkshire - South,Neuro Rehabilitation Support Worker,Rotherham,£13.45 per hour,,,2396044
-2026-11-23,SELECTED,Yorkshire - South,Support Worker,Sheffield,£13.15 Per Hour,,,2388955
 2026-11-23,SELECTED,Yorkshire - South,Health Care Assistant,Sheffield,£13.25 per hour,,,2419273
+2026-11-23,SELECTED,Yorkshire - South,Home Care Assistant,Doncaster,£13.65 per hour,,,23643_225759185
+2026-11-23,SELECTED,Yorkshire - South,Home Care Assistant,Brinsworth,£13.65 per hour,,,23643_225759237
 2026-11-23,POSS - YORKSHIRE - SOUTH,Yorkshire - South,Care Assistant,Doncaster,£15.75 per hour,,,23643_225826966
 2026-11-23,SELECTED,"North East - Tyneside, Wearside & Northumberland",Health Care Assistant,Gateshead,£12.75 per hour,,,23643_225764079
 2026-11-23,SELECTED,"North East - Tyneside, Wearside & Northumberland",Support Worker,Tyne And Wear,£95 - £100 per daily,,,23643_225772927
@@ -19,7 +20,6 @@
 2026-11-23,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant,South Shields,£14.44 - £14.94 per hour (extra 35p per mile for driving roles),,,23643_225789046
 2026-11-23,SELECTED,"North East - Tyneside, Wearside & Northumberland",Children Support Worker,Sunderland,£13.5 per hour,,,23643_225791838
 2026-11-23,SELECTED,"North East - Tyneside, Wearside & Northumberland",Support Worker,Sunderland,£12.85 - £13.2 per hour,,,23643_225679272
-2026-11-23,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant - Bank - Care Home,Ashington,£14.8 per hour,,,23643_225796871
 2026-11-23,SELECTED,"North East - Tyneside, Wearside & Northumberland",Night Care Assistant,Washington,£14.5 per hour,,,23643_225801182
 2026-11-23,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant - Care Home,Washington,£14 per hour,,,23643_225801184
 2026-11-23,SELECTED,"North East - Tyneside, Wearside & Northumberland",Night Care Assistant,Ashington,£13.21 per hour,,,23643_225801614
@@ -36,7 +36,6 @@
 2026-11-23,SELECTED,North East - County Durham & Darlington/Hartlepool,Support Worker,Hartlepool,£13.45 per hour,,,2402014
 2026-11-23,POSS - NE - Tyneside/Wearside/N'land,"North East - Tyneside, Wearside & Northumberland",Children and Families Support Worker Newcastle/Gateshead,Newcastle Upon Tyne,£16 - £20 per hour (Mileage Paid if business insured),,,23643_225803517
 2026-11-23,POSS - NE - Tyneside/Wearside/N'land,"North East - Tyneside, Wearside & Northumberland",Support Worker - British Sign Language / BSL,Newcastle Upon Tyne,£30170 per year,,,2409940
-2026-11-23,POSS - NE - Tyneside/Wearside/N'land,"North East - Tyneside, Wearside & Northumberland",Personal Assistant (Financial Services),Alnwick,£40000 per year,,,108321798
 2026-11-23,POSS - NE - Tyneside/Wearside/N'land,"North East - Tyneside, Wearside & Northumberland",Recovery Worker,Newcastle Upon Tyne,£18 - £20 per hour,,,23643_222630684
 2026-11-23,POSS - NE - Tyneside/Wearside/N'land,"North East - Tyneside, Wearside & Northumberland",Learning Support Assistant,Cramlington,£110 - £130 per daily,,,23643_225830353
 2026-11-23,POSS - NE - Co Durham & Dar/Htlpl,North East - County Durham & Darlington/Hartlepool,Housing Support Worker,Peterlee,£13.6 - £17.55 per hour,,,23643_225611014
@@ -58,6 +57,7 @@
 2026-11-23,SELECTED,Sussex,Care Assistant - Care Home,Southwick,£13.21 per hour,,,23643_225793834
 2026-11-23,SELECTED,Sussex,Support Worker,Horsham,£12.71 - £12.8 per hour (Support Worker),,,23643_225800354
 2026-11-23,SELECTED,Sussex,Support Worker,Sussex,£12.71 - £12.8 per hour (Support Worker),,,23643_225800269
+2026-11-23,SELECTED,Sussex,Care Assistant - Bank - Care Home,Sussex,£16.25 per hour,,,23643_225800070
 2026-11-23,SELECTED,Sussex,Support Worker Young People,Brighton,£12.71 - £20 per hour,,,23643_224709931
 2026-11-23,SELECTED,Sussex,Childrens Support Worker,Worthing,£93 - £95 per daily,,,23643_225806451
 2026-11-23,SELECTED,Sussex,Female Support Worker,Eastbourne,£15 - £16.93 per hour,,,23643_225811985
@@ -77,6 +77,7 @@
 2026-11-23,SELECTED,Sussex,Complex Care Support Worker,Hastings,£16 - £16.5 per hour,,,23643_225828853
 2026-11-23,SELECTED,Sussex,Homecare Assistant - Night worker,Hastings,£13.5 - £16 per hour,,,23643_225828849
 2026-11-23,SELECTED,Sussex,Support Worker,Hastings,£13.5 - £16 per hour,,,23643_225828869
+2026-11-23,SELECTED,Sussex,Part Time Care Assistant,Sussex,£14.79 per hour,,,23643_225831820
 2026-11-23,SELECTED,Sussex,Healthcare Asst/ Support Worker Selsey,Sussex,£12.85 - £18.4 per hour (Holiday Pay),,,23643_225834909
 2026-11-23,SELECTED,Sussex,Support Worker,Sussex,£12.21 - £13.5 per hour,,,23643_225844147
 2026-11-23,SELECTED,Sussex,Support Worker,Burgess Hill,£14.7 - £15.23 per hour,,,23643_225848279
@@ -88,29 +89,23 @@
 2026-11-23,SELECTED,Sussex,Part Time Female Support Worker,Heathfield,£16.00 per hour,,,2395961
 2026-11-23,SELECTED,Sussex,Enabling Support Worker,Eastbourne,£12.75 Per Hour,,,2395868
 2026-11-23,SELECTED,Sussex,Healthcare Assistant,Worthing,£13.50 - £15.00 per hour,,,2385760
-2026-11-23,SELECTED,Sussex,Night Care Assistant - Bank,Sussex,£14.8 per hour,,,23643_225769816
 2026-11-23,SELECTED,Sussex,Homecare Support Worker (Domiciliary Care),Hastings,£14 - £18 per hour,,,23643_225046457
 2026-11-23,SELECTED,Sussex,Support Worker,Horsham,£13.4 - £14.9 per hour,,,23643_225860140
 2026-11-23,SELECTED,Sussex,Health Care Assistant,Lewes,£12.71 per hour,,,2414336
 2026-11-23,SELECTED,Sussex,Healthcare Assistant - Nights,Worthing,£13.35 per hour,,,2420481
 2026-11-23,SELECTED,Sussex,Care Assistant,Hailsham,£13.39 per hour,,,23643_225861139
-2026-11-23,SELECTED,Sussex,Night Care Assistant,Sussex,£14.5 per hour,,,23643_225820014
-2026-11-23,SELECTED,Sussex,Care Assistant - Bank - Care Home,Sussex,£16.25 per hour,,,23643_225801506
 2026-11-23,POSS - SUSSEX,Sussex,Recovery Worker,Eastbourne,£21 - £23 per hour,,,23643_225810561
-2026-11-23,POSS - SUSSEX,Sussex,Learning Support Assistant,Brighton,£19966 - £20606 per year,,,23643_225798181
-2026-11-23,POSS - SUSSEX,Sussex,Learning Support Assistant,Sussex,£85 - £100 per daily,,,23643_225804070
 2026-11-23,SELECTED,Cumbria - South,Relief Support Worker,Ulverston,£12.85 per hour (plus rolled up holiday pay),,,108310093
 2026-11-23,SELECTED,Cumbria - South,Home Care Assistant / Support Worker / Full Training Provided,Barrow-in-furness,£13.00 - £14.00 per Hour,,,2373582
 2026-11-23,SELECTED,Cumbria - South,Childrens Residential Support Worker,Appleby-in-westmorland,£,,,108339616
 2026-11-23,SELECTED,Cumbria - South,Childrens Residential Support Worker,Kirkby Stephen,£,,,108339621
 2026-11-23,SELECTED,Cumbria - South,Waking Night Extra Care Support Worker,Barrow-in-furness,£12.85 per hour,,,108336320
-2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Ulverston,£50 per hour,,,2403345
-2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Children's Support Worker,Kendal,£35090 per year,,,108332220
-2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Kendal,£50 per hour,,,2403349
-2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Kirkby Stephen,£50 per hour,,,2403350
-2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Grange-over-sands,£50 per hour,,,2403346
-2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Appleby-in-westmorland,£50 per hour,,,2403343
-2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Windermere,£50 per hour,,,2403342
+2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Ulverston,£50 per hour,,,2432608
+2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Appleby-in-westmorland,£50 per hour,,,2432604
+2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Kirkby Stephen,£50 per hour,,,2432605
+2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Grange-over-sands,£50 per hour,,,2432603
+2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Kendal,£50 per hour,,,2432601
+2026-11-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Care Assistant,Windermere,£50 per hour,,,2432599
 2026-11-23,SELECTED,Hampshire,Health Care Assistants (HCA),Hampshire,£12.71 - £13.5 per hour,,,23643_209680922
 2026-11-23,SELECTED,Hampshire,Healthcare Assistant,Lyndhurst,£12.82 per hour,,,23643_223548398
 2026-11-23,SELECTED,Hampshire,Casual Care Assistant,Hampshire,£13.75 per hour (plus enhancements for Sunday and Bank Holiday working),,,1401786179
@@ -131,6 +126,7 @@
 2026-11-23,SELECTED,Hampshire,Healthcare Assistant,Southampton,£12.85 - £18.4 per hour (Holiday Pay),,,23643_225815438
 2026-11-23,SELECTED,Hampshire,Healthcare Assistant,Ryde,£12.71 - £19.25 per hour (Negotiable),,,23643_225815813
 2026-11-23,SELECTED,Hampshire,Care Assistant - Care Home,Hampshire,£13.99 per hour,,,23643_225815477
+2026-11-23,SELECTED,Hampshire,Female Support Worker,Hampshire,£12.82 per hour,,,23643_225819638
 2026-11-23,SELECTED,Hampshire,Healthcare Assistant,Southampton,£14 per hour,,,23643_225820911
 2026-11-23,SELECTED,Hampshire,Part Time Care Assistant,Hedge End,£13.81 per hour,,,23643_225825929
 2026-11-23,SELECTED,Hampshire,Care Assistant,Andover,£13.06 per hour,,,23643_225827174
@@ -142,7 +138,6 @@
 2026-11-23,SELECTED,Hampshire,Care Assistant,Andover,£26018 - £27111 per year,,,1401786682
 2026-11-23,SELECTED,Hampshire,Extra Care Support Worker,New Milton,£12.8 - £15.75 per hour,,,108321029
 2026-11-23,SELECTED,Hampshire,Waking Night Support Worker,Tadley,£26083 per year,,,108357109
-2026-11-23,SELECTED,Hampshire,Support Worker,Tadley,£25740 per year,,,108357146
 2026-11-23,SELECTED,Hampshire,Care Assistant,Southampton,£13.65 per hour,,,23643_225861146
 2026-11-23,SELECTED,Hampshire,Night Care Assistant,Eastleigh,£13.65 per hour,,,23643_225861138
 2026-11-23,POSS - HAMPSHIRE,Hampshire,Intensive Support Worker,Hampshire,£23 per hour,,,23643_225813013
@@ -189,10 +184,11 @@
 2026-11-23,SELECTED,Dorset,Residential Childcare Support Worker,Poole,£12.7 - £14.5 per hour,,,108356418
 2026-11-23,SELECTED,Dorset,Support Worker - Maternity Cover,Bournemouth,£13.45 - £14.00 Per Hour,,,2423765
 2026-11-23,SELECTED,Dorset,Care Assistant,Verwood,£13.8 per hour,,,23643_225861148
+2026-11-23,SELECTED,Dorset,HEALTHCARE & SUPPORT WORKER,Bournemouth,£12.71 per hour (PAYE),,,23643_225860993
 2026-11-23,POSS - DORSET,Dorset,Healthcare Assistant,Bournemouth,£20 - £24 per hour,,,2386763
-2026-11-23,POSS - DORSET,Dorset,Support Worker,Bournemouth,£20 - £24 per hour,,,2388569
-2026-11-23,POSS - DORSET,Dorset,Support Worker,Weymouth,£20 - £24 per hour,,,2388573
+2026-11-23,POSS - DORSET,Dorset,Support Worker,Bournemouth,£20 - £24 per hour,,,2430088
 2026-11-23,POSS - DORSET,Dorset,Care Assistant,Swanage,"£34,220.00 per annum",,,2421183
+2026-11-23,POSS - DORSET,Dorset,Support Worker,Weymouth,£20 - £24 per hour,,,2430105
 2026-11-23,POSS - DORSET,Dorset,Recovery Worker,Bournemouth,£21 - £23 per hour,,,23643_225810515
 2026-11-23,POSS - DORSET,Dorset,Care Assistant - Bank - Care Home,Ferndown,£15.47 per hour,,,23643_225754044
 2026-11-23,POSS - DORSET,Dorset,Learning Support Assistant,Bournemouth,£14.24 per hour,,,23643_225803440
@@ -254,6 +250,7 @@
 2026-11-23,POSS - GREATER MANCHESTER - MANCHESTER & SALFORD,Greater Manchester - Manchester & Salford,Learning Support Assistant,Swinton,£14.25 - £16.65 per hour (PAYE or Umbrella),,,23643_225781910
 2026-11-23,SELECTED,Kent,Care Assistant,Sevenoaks,£14.06 per hour,,,23643_225767091
 2026-11-23,SELECTED,Kent,Healthcare Assistant,Kent,£12.71 per hour,,,23643_225779312
+2026-11-23,SELECTED,Kent,Hiring Support Worker and Health care Assistant for Care Homes,Kent,£12.71 - £13 per hour,,,23643_225676613
 2026-11-23,SELECTED,Kent,Care Assistant - Bank - Care Home,Kent,£15.35 per hour,,,23643_225769412
 2026-11-23,SELECTED,Kent,Healthcare Assistant,Deal,£12.71 - £17 per hour,,,23643_225790148
 2026-11-23,SELECTED,Kent,Support Worker,Herne Bay,£12.71 - £17 per hour,,,23643_225795244
@@ -267,28 +264,23 @@
 2026-11-23,SELECTED,Kent,Support Worker,Tonbridge,£12.85 - £18.4 per hour,,,23643_225814102
 2026-11-23,SELECTED,Kent,Health Care Assistant,Broadstairs,£12.85 - £19 per hour,,,23643_225815157
 2026-11-23,SELECTED,Kent,Children Support Worker,Kent,£13.15 - £19 per hour,,,23643_225815295
-2026-11-23,SELECTED,Kent,Outreach Recovery Worker,Sittingbourne,£26000 per year,,,23643_225814729
 2026-11-23,SELECTED,Kent,Children's Residential Support Worker,Herne Bay,£13.31 - £14.5 per daily,,,23643_225817096
 2026-11-23,SELECTED,Kent,"Family Support Worker/Maidstone, Kent/GBP15-18p/h",Kent,£15 - £18 per hour,,,23643_225816816
 2026-11-23,SELECTED,Kent,Healthcare Assistant,Sittingbourne,£13 per hour,,,23643_225827811
 2026-11-23,SELECTED,Kent,Care Assistant,Tunbridge Wells,£14.43 per hour,,,2391881
 2026-11-23,SELECTED,Kent,Care Assistant,Sevenoaks,£14.43 per hour,,,2391877
 2026-11-23,SELECTED,Kent,Healthcare Assistant,Sevenoaks,£14.00 - £17.00 per hour,,,2402297
-2026-11-23,SELECTED,Kent,Outreach Recovery Worker,Sittingbourne,£26000 per year,,,2415519
 2026-11-23,SELECTED,Kent,Female Bengali-Speaking Relief Extra Care Worker,Dover,£14.8 per hour (plus rolled up holiday pay),,,108359815
+2026-11-23,SELECTED,Kent,Outreach Recovery Worker,Sittingbourne,£26000 per year,,,2432800
+2026-11-23,SELECTED,Kent,Support Worker,Tonbridge,£25000 - £25845 per year,,,23643_225327602
+2026-11-23,SELECTED,Kent,Outreach Recovery Worker,Sittingbourne,£26000 per year,,,23643_225863242
 2026-11-23,POSS - KENT,Kent,Healthcare Assistant,Kent,£18.50 per hour,,,23643_225815423
 2026-11-23,POSS - KENT,Kent,Children's Support Worker,Kent,£18 - £20 per hour,,,23643_225844545
 2026-11-23,POSS - KENT,Kent,Learning Support Assistant,Ashford,£95 - £98 per daily,,,23643_225808616
-2026-11-23,SELECTED,London,Support Worker,Edgware,£12.71 - £14.8 per hour,,,23643_225118718
-2026-11-23,SELECTED,London,Support Worker Supported Living - Barnet,Barnet,£12.71 - £14.8 per hour,,,23643_222608492
-2026-11-23,SELECTED,London,Reablement Support Worker,City,£13.92 per hour,,,23643_225763626
-2026-11-23,SELECTED,London,Support Worker,London,£12.71 - £14.8 per hour,,,23643_225118749
-2026-11-23,SELECTED,London,Support Worker - Southgate,London,£12.71 - £12.85 per hour,,,23643_224596096
 2026-11-23,SELECTED,London,Residential Support Worker,City,£28000 - £33000 per year (£62.64 Sleep In's),,,23643_225764885
 2026-11-23,SELECTED,London,Mental Health Support Workers,London,£30784 per year (Benefits include 25 days Annual Leave etc),,,23643_225763837
 2026-11-23,SELECTED,London,Health Care Assistant - Manchester,City,£12.71 - £13.75 per hour,,,23643_225765525
 2026-11-23,SELECTED,London,Care Assistant,Croydon,£14.15 per hour (+ Mileage & Benefits),,,23643_225765876
-2026-11-23,SELECTED,London,Domicilary Care Assistant,London,£14 per hour,,,23643_225764431
 2026-11-23,SELECTED,London,Domiciliary Healthcare Assistant,City,£12.71 - £14.04 per hour (Travel Time & Milage Allowance),,,23643_221101393
 2026-11-23,SELECTED,London,Healthcare Assistant - Full Time,City,£12.71 - £14.04 per hour (Paid Travel Time & Mileage),,,23643_223446686
 2026-11-23,SELECTED,London,Bank Support Worker,London,"£15 per hour (Benefits include, staff discounts etc)",,,23643_225766813
@@ -337,7 +329,6 @@
 2026-11-23,SELECTED,London,Healthcare Assistant,City,£12.71 - £14 per hour,,,23643_225805201
 2026-11-23,SELECTED,London,Care Assistant - Domiciliary Care,London,£14.8 per hour (£100 starting Bonus),,,23643_225804964
 2026-11-23,SELECTED,London,Support Worker,City,£12.71 - £14 per hour,,,23643_225805280
-2026-11-23,SELECTED,London,Residential Support Worker - Children,London,£14 per hour,,,23643_222639575
 2026-11-23,SELECTED,London,Support Worker / Health Care Assistant,City,£12.85 - £14.2 per hour,,,23643_225808322
 2026-11-23,SELECTED,London,Support Worker,Hillingdon,£13 - £15 per hour,,,23643_225709255
 2026-11-23,SELECTED,London,Care Assistant - Hounslow,Hounslow,£14.8 per hour,,,23643_225810974
@@ -378,12 +369,14 @@
 2026-11-23,SELECTED,London,Care Assistant,London,£14.06 per hour,,,23643_225861125
 2026-11-23,SELECTED,London,Domiciliary Care Worker,London,£14 - £16 per hour,,,23643_225861162
 2026-11-23,SELECTED,London,Support Worker,London,"£29,713.46 per annum",,,2427293
-2026-11-23,SELECTED,London,Care Support Worker,Borehamwood,£17 - £20 per hour,,,23643_225762327
+2026-11-23,SELECTED,London,1:1 Pastoral Support Worker,Isleworth,£25500 per year ((depending on experience)),,,20091_329614
+2026-11-23,SELECTED,London,Support Worker Supported Living - Barnet,Barnet,£12.71 - £14.8 per hour,,,23643_222608492
+2026-11-23,SELECTED,London,Support Worker,Edgware,£12.71 - £14.8 per hour,,,23643_225118718
 2026-11-23,POSS - LONDON,London,Communication Support Worker,London,£30 - £40 per hour,,,23643_225784099
-2026-11-23,POSS - LONDON,London,Care and Support Worker,Edgware,£18 per hour,,,23643_225773100
 2026-11-23,POSS - LONDON,London,Housing support worker,City,£12.71 - £17.1 per hour,,,23643_225768476
 2026-11-23,POSS - LONDON,London,Housing Support Worker,City,£17 per hour (mileage),,,23643_225793478
 2026-11-23,POSS - LONDON,London,Housing Support Worker,City,£14.5 - £17.48 per hour,,,23643_224986520
+2026-11-23,POSS - LONDON,London,Care and Support Worker,Edgware,£18 per hour,,,23643_225773100
 2026-11-23,POSS - LONDON,London,Support Worker,Islington,£18 - £20 per hour,,,23643_225746326
 2026-11-23,POSS - LONDON,London,LD - Support Worker,Islington,£25.39 per hour,,,23643_225830323
 2026-11-23,POSS - LONDON,London,Communication Support Worker (BSL Level 6),Wandsworth,£140 - £180 per daily,,,23643_225796819
@@ -398,17 +391,16 @@
 2026-11-23,POSS - LONDON,London,Learning Support Assistant,City,£90 - £110 per daily,,,23643_225775181
 2026-11-23,POSS - LONDON,London,Behaviour Support Worker,City,£100 - £115 per daily,,,23643_225798661
 2026-11-23,POSS - LONDON,London,Learning Support Assistant,City,£16.11 - £17.11 per hour,,,23643_225827595
-2026-11-23,POSS - LONDON,London,Learning Support Assistant,Lambeth,£95 - £115 per daily,,,23643_225763706
 2026-11-23,POSS - LONDON,London,Learning Support Assistant,Croydon,£100 - £115 per daily,,,23643_225810943
 2026-11-23,POSS - LONDON,London,Learning Support Assistant,Brixton,£100 - £120 per daily,,,23643_225775014
+2026-11-23,POSS - LONDON,London,Behaviour Support Worker,Islington,£100 - £110 per daily,,,23643_225859792
+2026-11-23,POSS - LONDON,London,Learning Support Assistant,Islington,£105 - £140 per daily,,,23643_225859359
 2026-11-23,POSS - LONDON,London,Learning Support Assistant,Hammersmith And Fulham,£101 - £120 per daily,,,23643_225800459
 2026-11-23,POSS - LONDON,London,Learning Support Assistant,Hackney,£90 - £120 per daily (depending on experience),,,23643_225791199
 2026-11-23,POSS - LONDON,London,Behaviour Support Worker,City Of Westminster,£100 - £110 per daily,,,23643_225791285
 2026-11-23,POSS - LONDON,London,Learning Support Assistant,Uxbridge,£90 - £95 per daily,,,23643_225829443
 2026-11-23,POSS - LONDON,London,Learning Support Assistant,Newham,£92.56 - £115 per daily,,,23643_225812223
 2026-11-23,POSS - LONDON,London,Learning Support Assistant,Carshalton,£14 - £16 per hour,,,23643_225818222
-2026-11-23,SELECTED,Nottinghamshire,Support Worker - Nights,Mansfield,£13.5 per hour,,,23643_225763337
-2026-11-23,SELECTED,Nottinghamshire,Support Worker,Mansfield,£13.5 per hour,,,23643_225763255
 2026-11-23,SELECTED,Nottinghamshire,Support Worker /Health Care Assistant,Nottinghamshire,£14 - £15 per hour,,,23643_225764916
 2026-11-23,SELECTED,Nottinghamshire,Support Worker,Nottingham,£24871 - £25371 per year,,,23643_225770087
 2026-11-23,SELECTED,Nottinghamshire,Full Time Support Worker/ Healthcare Assistant,Nottinghamshire,£14 - £15 per hour,,,23643_225777519
@@ -427,6 +419,7 @@
 2026-11-23,SELECTED,Nottinghamshire,Children'S Residential Support Worker,Worksop,£26325 - £27300 per year,,,23643_225829059
 2026-11-23,SELECTED,Nottinghamshire,Day Support Worker,Retford,£13.15 per hour,,,2402422
 2026-11-23,SELECTED,Nottinghamshire,Support Worker,Nottingham,£13.15 per hour,,,2404794
+2026-11-23,SELECTED,Nottinghamshire,Support Worker - Nights,Mansfield,£13.5 per hour,,,23643_225763337
 2026-11-23,POSS - NOTTINGHAMSHIRE,Nottinghamshire,Self-Employed Personal Assistant,Nottingham,£18.91 per hour (Rate is for self-employed PAs.),,,108339781
 2026-11-23,POSS - NOTTINGHAMSHIRE,Nottinghamshire,Residential Support Worker,Mansfield,£30500 - £32500 per year,,,23643_225777013
 2026-11-23,POSS - NOTTINGHAMSHIRE,Nottinghamshire,Learning Support Assistant,Nottinghamshire,£115 per daily,,,23643_225803408
@@ -434,7 +427,7 @@
 2026-11-23,SELECTED,Oxfordshire,Support Worker,Henley-on-thames,£26455 - £28500 per year (Excellent pension scheme),,,23643_224191576
 2026-11-23,SELECTED,Oxfordshire,Healthcare Assistant,Oxford,£14.24 - £19.05 per hour,,,23643_225782942
 2026-11-23,SELECTED,Oxfordshire,Youth Support Worker - Oxford,Oxford,£90 - £100 per daily,,,23643_225780564
-2026-11-23,SELECTED,Oxfordshire,Healthcare Assistant,Ambrosden,£14.8 per hour,,,23643_225800336
+2026-11-23,SELECTED,Oxfordshire,Healthcare Assistant,Oxfordshire,£14.8 per hour,,,23643_225800336
 2026-11-23,SELECTED,Oxfordshire,Mental Health Support Worker- Oxford,Oxford,£93 - £110 per daily,,,23643_225812774
 2026-11-23,SELECTED,Oxfordshire,Healthcare Assistant,Oxfordshire,£12.85 - £18.4 per hour (Holiday Pay),,,23643_225815807
 2026-11-23,SELECTED,Oxfordshire,Support Worker,Oxfordshire,£12.85 - £18.4 per hour (Holiday Pay),,,23643_225815866
@@ -471,6 +464,6 @@
 2026-11-23,SELECTED,Wiltshire,Support Worker,Salisbury,£28479 per year,,,2424393
 2026-11-23,SELECTED,Wiltshire,Support Worker,Trowbridge,£13.5 per hour,,,23643_225836779
 2026-11-23,SELECTED,Wiltshire,Support Worker,Trowbridge,£13.25- £14.50 per hour,,,2426167
-2026-11-23,POSS - WILTSHIRE,Wiltshire,Support Worker,Swindon,£20 - £24 per hour,,,2388570
+2026-11-23,POSS - WILTSHIRE,Wiltshire,Support Worker,Swindon,£20 - £24 per hour,,,2430092
 2026-11-23,POSS - WILTSHIRE,Wiltshire,Housing Support Worker,Salisbury,£26200 per year,,,23643_225821606
 2026-11-23,POSS - WILTSHIRE,Wiltshire,Learning support assistant,Salisbury,£92 - £100 per daily,,,23643_225775965
