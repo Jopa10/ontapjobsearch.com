@@ -1,0 +1,182 @@
+name: Publish Ontap from Neon (Production)
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm_production_publish:
+        description: 'Type PUBLISH_FROM_NEON to build from the verified Production Neon snapshot.'
+        required: true
+        type: choice
+        options:
+          - NO
+          - PUBLISH_FROM_NEON
+        default: NO
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ontap-production-neon-publish
+  cancel-in-progress: false
+
+env:
+  VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
+
+jobs:
+  publish-production-from-neon:
+    name: Rebuild and publish from Production Neon
+    runs-on: ubuntu-latest
+    environment: neon-prod-daily-shadow
+
+    steps:
+      - name: Check out the already-published main state
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Require explicit Neon publish selection
+        env:
+          CONFIRM: ${{ inputs.confirm_production_publish }}
+        run: |
+          set -euo pipefail
+          if [ "$CONFIRM" != "PUBLISH_FROM_NEON" ]; then
+            echo "::error::Choose PUBLISH_FROM_NEON to run this Production publish."
+            exit 1
+          fi
+
+      - name: Capture expected production commit
+        id: expected
+        run: |
+          set -euo pipefail
+          git fetch origin main --quiet
+          expected_sha="$(git rev-parse origin/main)"
+          git checkout --detach "$expected_sha"
+          test "$(git rev-parse HEAD)" = "$expected_sha"
+          echo "sha=$expected_sha" >> "$GITHUB_OUTPUT"
+          echo "Expected source commit: $expected_sha" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Neon harness dependencies
+        run: npm ci --prefix database/shadow/harness --ignore-scripts --no-audit --no-fund
+
+      - name: Prepare a reference from the already-published GitHub inventories
+        run: |
+          set -euo pipefail
+          python database/shadow/prepare-production-publisher-source.py \
+            --output "$RUNNER_TEMP/ontap-production-publisher-source.json"
+
+      - name: Store the full publisher snapshot in Production Neon and read it back
+        env:
+          ONTAP_NEON_PROD_DAILY_WRITE_URL: ${{ secrets.ONTAP_NEON_PROD_DAILY_WRITE_URL }}
+          ONTAP_PUBLISHER_SOURCE_PATH: ${{ runner.temp }}/ontap-production-publisher-source.json
+          ONTAP_NEON_PUBLISHER_OUTPUTS_PATH: shadow-db-outputs.json
+          ONTAP_PROD_PUBLISHER_REPORT_PATH: ${{ runner.temp }}/ontap-production-neon-readback.json
+        run: node database/shadow/harness/publish-production-from-neon.mjs
+
+      - name: Install publisher build dependency
+        run: python -m pip install --disable-pip-version-check openpyxl==3.1.5
+
+      - name: Rebuild regional and city pages from Neon readback
+        env:
+          READBACK_REPORT: ${{ runner.temp }}/ontap-production-neon-readback.json
+        run: |
+          set -euo pipefail
+          python database/shadow/harness/prepare-full-preview.py
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          report = json.loads(Path("public/shadow-verification/city-report.json").read_text())
+          assert report.get("exactPublishedInventoryMembershipAndOrder") is True, "Neon rebuild differs from the published inventory"
+          assert report.get("inventoryDifferences") == [], "Neon rebuild has inventory differences"
+          assert report.get("productionInventoryFilesCompared", 0) >= 300, "Neon rebuild checked too few production inventory files"
+          receipt_path = Path(os.environ["READBACK_REPORT"])
+          receipt = json.loads(receipt_path.read_text())
+          receipt["fullSiteParity"] = {
+              "status": "passed",
+              "productionInventoryFilesCompared": report["productionInventoryFilesCompared"],
+              "inventoryDifferences": report["inventoryDifferences"],
+              "exactPublishedInventoryMembershipAndOrder": True,
+          }
+          receipt["vercelProductionDeployVerified"] = False
+          receipt_path.write_text(json.dumps(receipt, indent=2) + "\n")
+          print("Verified exact published job membership and order across", report["productionInventoryFilesCompared"], "inventory files")
+          PY
+          rm -f public/shadow-verification/city-report.json
+          rm -f shadow-db-outputs.json shadow-preview-metadata.json
+
+      - name: Deploy the Neon-backed build to Production
+        env:
+          EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          set -euo pipefail
+          : "${VERCEL_TOKEN:?Repository secret VERCEL_TOKEN is missing}"
+          rm -rf .vercel
+          output_file="$(mktemp)"
+          if ! npx --yes vercel@latest deploy \
+            --prod \
+            --yes \
+            --project="$VERCEL_PROJECT_ID" \
+            --env "VERCEL_DEPLOYMENT_SHA=$EXPECTED_SHA" \
+            2>&1 | tee "$output_file"; then
+            if grep -q 'api-deployments-free-per-day' "$output_file"; then
+              echo "::error::Vercel deployment quota is exhausted."
+            fi
+            exit 1
+          fi
+
+      - name: Verify Production serves the expected source commit
+        id: verified
+        env:
+          EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
+          READBACK_REPORT: ${{ runner.temp }}/ontap-production-neon-readback.json
+        run: |
+          set -euo pipefail
+          production_url="https://www.ontapjobsearch.com/api/deployment-version"
+          for attempt in $(seq 1 36); do
+            body="$(curl --silent --show-error --fail \
+              --header 'Cache-Control: no-cache' \
+              "${production_url}?verify=${GITHUB_RUN_ID}-${attempt}" || true)"
+            deployed_sha="$(printf '%s' "$body" | python -c '
+          import json, sys
+          data = sys.stdin.read()
+          print((json.loads(data).get("version") or "").strip() if data else "")
+          ' 2>/dev/null || true)"
+            if [ "$deployed_sha" = "$EXPECTED_SHA" ]; then
+              python - <<'PY'
+          import json, os
+          from pathlib import Path
+          path = Path(os.environ["READBACK_REPORT"])
+          receipt = json.loads(path.read_text())
+          receipt["vercelProductionDeployVerified"] = True
+          receipt["verifiedProductionSha"] = os.environ["EXPECTED_SHA"]
+          path.write_text(json.dumps(receipt, indent=2) + "\n")
+          PY
+              echo "Production serves expected source commit $deployed_sha." >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            echo "Attempt $attempt/36: production ${deployed_sha:-unavailable}; waiting for $EXPECTED_SHA"
+            sleep 10
+          done
+          echo "::error::Production did not reach expected source commit $EXPECTED_SHA."
+          exit 1
+
+      - name: Upload Production Neon publish receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-neon-publish-${{ github.run_id }}
+          path: ${{ runner.temp }}/ontap-production-neon-readback.json
+          if-no-files-found: ignore
+          retention-days: 30
