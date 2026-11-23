@@ -7,13 +7,17 @@ Status: code prepared on `feat/cpc-alert-neon-signup`; not merged or live. Do no
 1. Confirm PR #336's Preview schema migrations `001_initial.sql` through `004_master_cleanup_versions.sql` are already applied to the isolated Neon test database.
 2. The current Preview database already has `005_user_identity_for_alerts.sql` and `006_signup_device.sql` applied. Do not run them again there. For a different fresh Preview database, apply each migration once, in order.
 5. Confirm the Vercel Preview branch is `feat/cpc-alert-neon-signup` and has the Preview-only `ONTAP_SHADOW_DATABASE_URL`, Brevo, sender and unsubscribe settings. Do not use `DATABASE_URL` or production variables.
-6. Verify `jnabon1108@gmail.com` is still unsubscribed in Brevo before the owner chooses to submit the new form. The earlier unsubscribe test is already complete; do not repeat it.
+6. Verify `jpbt801@gmail.com` is still unsubscribed in Brevo before the owner chooses to submit the new form. The earlier unsubscribe test is already complete; do not repeat it.
 
 ## Signup test
 
-On the Preview site, open an eligible JobG8 vacancy, submit the new alert form using `jnabon1108@gmail.com`, and tick the explicit consent box. The email is allowed only for the Preview signup path; it is not added to the daily sender's recipient allowlist.
+On the Preview site, open an eligible JobG8 vacancy, submit the new alert form using `jpbt801@gmail.com`, and tick the explicit consent box. The email is allowed only for the Preview signup path; it is not added to the daily sender's recipient allowlist.
 
 The API first saves the user, email address, preferences, clicked vacancy's public ID and exact consent wording/version/timestamp in Neon. It then asks Brevo to enable delivery and send the confirmation; Brevo does not receive the preference criteria or consent record. The Neon address becomes active only after Brevo confirms active list delivery. GitHub later reads active, consented preferences from Neon and applies the existing matcher. Brevo supplies suppression status and keeps the existing daily-send marker.
+
+## GitHub Preview read
+
+GitHub Actions needs the Preview-only Neon connection URL as the `ONTAP_SHADOW_DATABASE_URL` secret in the `ontap-brevo-private-test` GitHub environment. Do not add a Production URL. The Preview Vercel integration supplies this connection to deployed app functions, but its managed secret is not exported to GitHub Actions.
 
 ## Neon readback
 
@@ -30,7 +34,7 @@ JOIN ontap_shadow.user_emails ue ON ue.user_id = u.id
 JOIN ontap_shadow.subscribers s ON s.user_id = u.id AND s.user_email_id = ue.id
 JOIN ontap_shadow.subscriber_preferences p ON p.user_id = u.id AND p.subscriber_id = s.id
 JOIN ontap_shadow.consent_history c ON c.subscriber_id = s.id AND c.user_email_id = ue.id
-WHERE ue.email_key = lower(trim('jnabon1108@gmail.com'))
+WHERE ue.email_key = lower(trim('jpbt801@gmail.com'))
 ORDER BY c.occurred_at DESC
 LIMIT 10;
 ```

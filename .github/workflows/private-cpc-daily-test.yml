@@ -50,30 +50,16 @@ jobs:
           npx tsx --test tests/job-alert-signup.test.ts tests/neon-email-alerts.test.ts tests/private-job-alert-test.test.ts tests/cpc-job-alerts.test.ts
       - name: Read the private recipient's saved preferences from Preview Neon
         env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_PROJECT_ID: prj_sLI0SohbF03NrRFj6yZyuN8mOOZB
-          VERCEL_ORG_ID: team_xjm8VOa1951ZXxawa7UFF2gd
+          ONTAP_SHADOW_DATABASE_URL: ${{ secrets.ONTAP_SHADOW_DATABASE_URL }}
+          ONTAP_SHADOW_NEON_PROJECT_ID: noisy-fire-97386602
           NEON_ALERT_PREFERENCES_OUTPUT: ${{ runner.temp }}/neon-alert-preferences.json
         run: |
           set -euo pipefail
-          mkdir -p .vercel
-          python - <<'PY'
-          import json, os
-          with open(".vercel/project.json", "w", encoding="utf-8") as f:
-              json.dump({"projectId": os.environ["VERCEL_PROJECT_ID"],
-                         "orgId": os.environ["VERCEL_ORG_ID"]}, f)
-          PY
-          npm install --no-save --ignore-scripts --prefix "$RUNNER_TEMP/cli" vercel@65.14.0
-          env_file="$RUNNER_TEMP/ontap-preview.env"
-          trap 'rm -f "$env_file"; rm -rf .vercel' EXIT
-          "$RUNNER_TEMP/cli/node_modules/.bin/vercel" env pull "$env_file" \
-            --environment=preview \
-            --git-branch=feat/cpc-alert-neon-signup \
-            --token="$VERCEL_TOKEN" \
-            --scope="$VERCEL_ORG_ID"
-          chmod 600 "$env_file"
-          node --env-file="$env_file" -e 'console.log("Preview Neon project id:", process.env.ONTAP_SHADOW_NEON_PROJECT_ID ?? "(missing)"); console.log("Preview Neon host:", new URL(process.env.ONTAP_SHADOW_DATABASE_URL).hostname)'
-          node --env-file="$env_file" pipeline/scripts/read_neon_alert_preferences.mjs jpbt801@gmail.com
+          if [[ -z "$ONTAP_SHADOW_DATABASE_URL" ]]; then
+            echo "::error::Add the Preview Neon connection URL as ONTAP_SHADOW_DATABASE_URL in the ontap-brevo-private-test GitHub environment. No signup read or email send occurred."
+            exit 1
+          fi
+          node pipeline/scripts/read_neon_alert_preferences.mjs jpbt801@gmail.com
           test -s "$NEON_ALERT_PREFERENCES_OUTPUT"
           echo "Read only the approved recipient's active, consented preferences from the Preview Neon project."
 
