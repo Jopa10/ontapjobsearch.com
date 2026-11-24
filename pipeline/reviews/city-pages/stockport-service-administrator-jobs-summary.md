@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 25
+- automatic include: 19
+- automatic review: 22
 - automatic exclude: 0
-- effective include: 18
-- effective review: 25
+- effective include: 19
+- effective review: 22
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -148,6 +148,18 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Office Administrator
+company: Outcomes First Group - Company - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-20091_330300
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operations Administrator
 company: Hays Business Support - Agency - Permanent
 location: Stockport
@@ -212,7 +224,7 @@ title: Payroll Executive
 company: Robert Walters - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-2399879
+job_id: jobg8-2438592
 reason: Exact approved Stockport workplace.
 ---
 
@@ -240,19 +252,7 @@ job_id: jobg8-23643_225850411
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (25)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts and Payroll Assistant
-company: Portfolio Payroll - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-2358582
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
+## REVIEW (22)
 
 ---
 action: 
@@ -306,18 +306,6 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Adecco - Agency - Temporary
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225807382
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Support Officer
 company: NHS Greater Manchester Integrated Care
 location: Ashton-Under-Lyne, OL6 6BH
@@ -358,7 +346,7 @@ title: Credit Controller
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2379648
+job_id: jobg8-2431867
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -450,35 +438,23 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant - Cost Control
-company: Halecroft Recruitment - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225783190
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant - Cost Control
-company: Halecroft Recruitment - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-2374118
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant / Stock Controller
 company: AWD online - Agency - Permanent
 location: Hyde
 source: JobG8
 job_id: jobg8-2374307
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Insolvency Administrator
+company: Ambition Europe Limited - Agency - Permanent
+location: Sale
+source: JobG8
+job_id: jobg8-2431004
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -498,23 +474,11 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Adecco - Agency - Temporary
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225815933
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-Time Bookkeeper
 company: Hiring People - Agency - Permanent
 location: Urmston
 source: JobG8
-job_id: jobg8-2399511
+job_id: jobg8-2438254
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -539,6 +503,18 @@ company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-2405001
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Pennine Care NHS FT
+location: Ashton-Under-Lyne, OL6 7SR
+source: NHS Jobs
+job_id: nhs-5746924
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

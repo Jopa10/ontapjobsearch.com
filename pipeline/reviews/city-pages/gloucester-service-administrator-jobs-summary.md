@@ -270,18 +270,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Clerk
-company: Reed - Agency - Permanent
-location: Cheltenham
-source: JobG8
-job_id: jobg8-2358617
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Activities Coordinator - Care Home
 company: Barchester Healthcare - Company - Permanent
 location: Gloucestershire
@@ -323,6 +311,18 @@ company: Office Angels - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225815377
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - SC Cleared
+company: Matchtech - Agency - Contract
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225326656
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -622,7 +622,7 @@ title: Finance Assistant
 company: Pertemps Gloucester - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2395165
+job_id: jobg8-2433669
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -634,7 +634,7 @@ title: Financial Services Administrator
 company: mbf. - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2376165
+job_id: jobg8-2430816
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -719,6 +719,18 @@ company: Crowe UK - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-2409809
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing & Social Media Executive
+company: Enmase Group - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225862860
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -850,7 +862,7 @@ title: Payroll Administrator
 company: Robert Half - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2395107
+job_id: jobg8-2430527
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -899,18 +911,6 @@ company: RE Recruitment - Agency - Permanent
 location: Cheltenham
 source: JobG8
 job_id: jobg8-23643_225838357
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Reed - Agency - Permanent
-location: Cheltenham
-source: JobG8
-job_id: jobg8-2358619
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
+- automatic include: 22
 - automatic review: 14
 - automatic exclude: 0
-- effective include: 25
+- effective include: 22
 - effective review: 14
 - effective exclude: 0
 
-## INCLUDE (25)
+## INCLUDE (22)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Austin Matley HR & Recruitment Ltd - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2192494
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bookkeeper (Practice)
-company: Butler Rose - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2421657
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -136,42 +124,6 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Haig Legal Group Limited - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-108359589
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Haig Legal Group Limited - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-108359601
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-108229588
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customs Administrator
 company: EL Recruitment Solutions Ltd - Agency - Permanent
 location: Lincolnshire
@@ -237,6 +189,18 @@ company: Magnus Search - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225655530
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Order Processing Coordinator
+company: Red Recruitment 247 - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225862397
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -403,18 +367,6 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: BTG Recruitment - Agency - Permanent
-location: Grantham
-source: JobG8
-job_id: jobg8-2384895
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Grantham
 source: JobG8
@@ -491,6 +443,18 @@ company: Benjamin Edwards - Agency - Permanent
 location: Skegness
 source: JobG8
 job_id: jobg8-23643_225765216
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Legal Secretary
+company: Oculus Legal Group - Agency - Permanent
+location: Spalding
+source: JobG8
+job_id: jobg8-2437397
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

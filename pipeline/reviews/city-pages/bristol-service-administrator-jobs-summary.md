@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 71
+- Effective included jobs: 70
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 71
-- automatic review: 13
+- automatic include: 70
+- automatic review: 14
 - automatic exclude: 9
-- effective include: 71
-- effective review: 13
+- effective include: 70
+- effective review: 14
 - effective exclude: 9
 
-## INCLUDE (71)
+## INCLUDE (70)
 
 ---
 action: 
@@ -236,7 +236,7 @@ title: Credit Controller
 company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2395109
+job_id: jobg8-2430674
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -304,18 +304,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Document Controller
-company: PSR Solutions - Agency - Contract
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225763843
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: European Road Freight Coordinator_58873
 company: Red Recruit Global Limited - Agency - Permanent
 location: Bristol
@@ -344,7 +332,7 @@ title: Finance & Support Administrator
 company: Rise Technical Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225853721
+job_id: jobg8-23643_225865550
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -436,6 +424,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Interim Administrator
+company: Hays Accounts and Finance - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225862505
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Interim Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Bristol
@@ -489,18 +489,6 @@ company: Sytner Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2403357
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Assistant
-company: eNL Legal Recruitment - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2186589
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -644,7 +632,7 @@ title: Purchase Ledger Administrator
 company: Pertemps Bristol Commercial - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2397695
+job_id: jobg8-2434367
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -876,7 +864,7 @@ job_id: jobg8-2379185
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -910,7 +898,7 @@ title: Legal Personal Assistant
 company: Owen Reed - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2370237
+job_id: jobg8-2433822
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -954,11 +942,23 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Operations Coordinator
+company: Project Start Recruitment Solutions - Agency - Permanent
+location: Yate
+source: JobG8
+job_id: jobg8-23643_225850129
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Performance Marketing Manager
 company: Moxie and Mettle Limited - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2384342
+job_id: jobg8-2431097
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -1006,7 +1006,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2422863
+job_id: jobg8-2429538
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -1030,7 +1030,7 @@ title: Transactional Finance Officer
 company: Michael Page Finance - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-2399817
+job_id: jobg8-2438488
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -1040,11 +1040,11 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: HCRG Care Group
-location: Bath, BA2 5RP
-source: NHS Jobs
-job_id: nhs-5711219
+title: Apprentice Administrator
+company: VolkerWessels Uk - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-108361956
 reason: Separate employment market.
 ---
 
@@ -1068,7 +1068,7 @@ title: Digital Marketing & Performance Manager
 company: Truespeed - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2399280
+job_id: jobg8-2437715
 reason: Separate employment market.
 ---
 

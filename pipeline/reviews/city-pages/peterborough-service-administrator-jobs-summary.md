@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
+- automatic include: 25
 - automatic review: 12
-- automatic exclude: 44
-- effective include: 24
+- automatic exclude: 42
+- effective include: 25
 - effective review: 12
-- effective exclude: 44
+- effective exclude: 42
 
-## INCLUDE (24)
+## INCLUDE (25)
 
 ---
 action: 
@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2399230
+job_id: jobg8-2437761
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -188,7 +188,19 @@ title: Finance & Accounts Coordinator
 company: Huntress - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2395125
+job_id: jobg8-2431099
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: The One Group - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2437668
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -458,7 +470,7 @@ job_id: jobg8-23643_225768922
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (44)
+## EXCLUDE (42)
 
 ---
 action: 
@@ -528,7 +540,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2399277
+job_id: jobg8-2437712
 reason: Separate employment market.
 ---
 
@@ -572,23 +584,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Brand & Marketing Executive
-company: UBT - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2373832
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Construction Paralegal
 company: eNL Legal Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2352833
+job_id: jobg8-2430516
 reason: Separate employment market.
 ---
 
@@ -632,47 +632,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: Countrywide HQ - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2407570
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Family Legal PA
 company: G2 Legal Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2407008
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Administrator
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2424734
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Administrator
-company: Pure Resourcing Solutions Limited - Agency - Temporary
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225819865
 reason: Separate employment market.
 ---
 
@@ -804,7 +768,7 @@ title: Marketing Campaigns Executive
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2399271
+job_id: jobg8-2437792
 reason: Separate employment market.
 ---
 
@@ -828,7 +792,7 @@ title: Marketing Executive
 company: Ascend Consulting - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2399985
+job_id: jobg8-2438764
 reason: Separate employment market.
 ---
 
@@ -853,6 +817,30 @@ company: Kingsgate Recruitment Ltd - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2363220
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time - Interim Finance Assistant
+company: Michael Page - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225863544
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time - Interim Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2433480
 reason: Separate employment market.
 ---
 
@@ -900,7 +888,7 @@ title: Product Marketing Executive
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2399568
+job_id: jobg8-2438264
 reason: Separate employment market.
 ---
 

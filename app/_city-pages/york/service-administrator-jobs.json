@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "23643_225863018",
+    "title": "Administrator",
+    "company": "Morson Vital - Agency - Contract",
+    "location": "York",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-11-24",
+    "description": "Vital Human Resources are currently recruiting for an Administrator based in York, offering an excellent opportunity to work within the rail industry, supporting one of the UK's largest rail infrastructure organisations.\n\nWe are looking for an organised and proactive individual with strong administration skills to provide support to the Section Manager and wider team.\n\nMain Responsibilities:\n- Providing administrative support to the Section Manager and wider team.\n- Managing staff rosters and timesheets.\n- Maintaining accurate records, databases and filing systems.\n- Opening and closing work orders.\n- Supporting the Assessment in the Line (AIL) process.\n- Maintaining confidential and safety-critical documentation.\n- Coordinating general office administration.\n- Supporting other Section Administrators when required.\n\nEssential Skills & Experience:\n- Previous clerical or administrative experience.\n- Good knowledge of IT systems.\n- Strong organisational and time-management skills.\n- Excellent written and verbal communication.\n- Ability to work independently and use initiative.\n\nPrevious experience within the railway industry would be advantageous but is not essential.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?blsnOwY7lFs1XL8%2fZEMSYUiZKJfDV%2bVWh",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Morson Vital",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225776023",
     "title": "Administrator (Construction)",
     "company": "Ernest Gordon Recruitment Limited - Agency - Permanent",
@@ -291,9 +316,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4504-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

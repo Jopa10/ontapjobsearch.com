@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 41
+- automatic include: 5
+- automatic review: 42
 - automatic exclude: 0
-- effective include: 6
-- effective review: 41
+- effective include: 5
+- effective review: 42
 - effective exclude: 0
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Finance Assistant
-company: Hollymount School
-location: Worcester
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-finance-assistant-hollymount-school
-reason: Exact approved Worcester workplace.
----
+## INCLUDE (5)
 
 ---
 action: 
@@ -96,7 +84,7 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (42)
 
 ---
 action: 
@@ -150,6 +138,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Administration Assistant
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Bromsgrove, B61 0BB
+source: NHS Jobs
+job_id: nhs-5741225
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative Assistant
 company: Opus People Solutions Ltd - Agency - Permanent
 location: Redditch
@@ -167,6 +167,42 @@ company: Herefordshire and Worcestershire Health and Care NHS Trust
 location: Droitwich, WR98RD
 source: NHS Jobs
 job_id: nhs-5729748
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Bromsgrove, B61 0BB
+source: NHS Jobs
+job_id: nhs-5744670
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Kidderminster, DY11 7QL
+source: NHS Jobs
+job_id: nhs-5745349
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Kidderminster, DY10 1PG
+source: NHS Jobs
+job_id: nhs-5746028
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -198,18 +234,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: BMW Accounts Assistant
-company: Sytner Group - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-2378609
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Support Administrator
 company: Pertemps Black Country Perms - Agency - Permanent
 location: Worcestershire
@@ -227,18 +251,6 @@ company: VolkerWessels UK Ltd - Company - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225847837
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contact Centre Manager
-company: Brellis Recruitment - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225779372
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -342,35 +354,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Fleet Coordinator
-company: Elite People - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-2406573
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: General Administrator
 company: Workforce Staffing Ltd - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225827696
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Imports Coordinator
-company: Adecco - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225765523
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -479,6 +467,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-2373413
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225820459
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

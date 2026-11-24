@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 55
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 3
-- effective review: 55
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225779537
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (56)
 
 ---
 action: 
@@ -119,6 +119,18 @@ company: Michael Page - Agency - Temporary
 location: Northallerton
 source: JobG8
 job_id: jobg8-23643_225848550
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Morson Vital - Agency - Contract
+location: York
+source: JobG8
+job_id: jobg8-23643_225863018
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -311,6 +323,18 @@ company: No1 Legal and Professional - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2373723
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller - Contract Administrator
+company: Layka Connect - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2431985
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -535,18 +559,6 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
-company: Posterngate Surgery
-location: Selby, YO8 4QH
-source: NHS Jobs
-job_id: nhs-5716437
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
 company: Unity Health
 location: York, YO10 5LA, York, YO10 4DU
 source: NHS Jobs
@@ -563,18 +575,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2413112
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part time Reception
-company: Hays Business Support - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-23643_225765937
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -670,7 +670,7 @@ title: Private Client Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Malton
 source: JobG8
-job_id: jobg8-2370186
+job_id: jobg8-2432139
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -683,6 +683,18 @@ company: Sharp Consultancy - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2359409
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Yorkshire Health Network
+location: Harrogate, HG1 4DP
+source: NHS Jobs
+job_id: nhs-5745151
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -706,7 +718,7 @@ title: Temporary Customer Services Executive / Accounts Assistant
 company: Office Angels - Agency - Permanent
 location: Richmond
 source: JobG8
-job_id: jobg8-2399792
+job_id: jobg8-2438504
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

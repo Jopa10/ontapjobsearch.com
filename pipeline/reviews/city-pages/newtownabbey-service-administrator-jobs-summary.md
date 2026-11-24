@@ -43,18 +43,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Parker Jones Group Ltd - Company - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-23643_225763981
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Rise Technical Recruitment - Agency - Permanent
 location: Antrim
 source: JobG8
@@ -78,11 +66,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Fieldfisher - Agency - Permanent
-location: Belfast
+title: Customer Service Administrator
+company: OBR Executive Search - Agency - Permanent
+location: Lisburn
 source: JobG8
-job_id: jobg8-2378903
+job_id: jobg8-23643_225865938
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -198,6 +186,18 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: PR & Communications - Senior Manager
+company: Fieldfisher - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2437405
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: The Recruitment Solution (London) Ltd - Agency - Permanent
 location: Newtownards
@@ -238,7 +238,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2422860
+job_id: jobg8-2429535
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

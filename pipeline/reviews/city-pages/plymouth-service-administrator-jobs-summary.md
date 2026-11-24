@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 69
+- automatic include: 8
+- automatic review: 63
 - automatic exclude: 0
-- effective include: 6
-- effective review: 69
+- effective include: 8
+- effective review: 63
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (8)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Administrator
+company: Randstad Delivery - Agency - Contract
+location: Plymouth
+source: JobG8
+job_id: jobg8-23643_225865840
+reason: Exact approved Plymouth workplace.
+---
 
 ---
 action: 
@@ -56,7 +68,7 @@ title: Legal Secretary
 company: Pertemps Gloucester - Agency - Permanent
 location: Plymouth
 source: JobG8
-job_id: jobg8-2398560
+job_id: jobg8-2436254
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -69,6 +81,18 @@ company: Oakside Surgery
 location: Plymouth, PL5 3PY, PLYMOUTH, PL5 4DU
 source: NHS Jobs
 job_id: nhs-5719324
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
+company: Randstad Delivery - Agency - Contract
+location: Plymouth
+source: JobG8
+job_id: jobg8-23643_225865789
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -96,7 +120,7 @@ job_id: jobg8-23643_225767515
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (69)
+## REVIEW (63)
 
 ---
 action: 
@@ -118,7 +142,7 @@ title: Accounts Assistant
 company: Butler Rose - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-2394028
+job_id: jobg8-2437220
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -203,18 +227,6 @@ company: NHS Professionals - Company - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225766994
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Office Angels - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-23643_225764800
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -318,18 +330,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Customer Care Administrator
-company: Fawkes & Reece London - Agency - Contract
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225765566
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Administrator
 company: Lockhart Recruitment - Agency - Permanent
 location: Devon
@@ -370,7 +370,7 @@ title: Customer Service Receptionist
 company: Amour Recruitment - Agency - Permanent
 location: Exeter
 source: JobG8
-job_id: jobg8-2376174
+job_id: jobg8-2431486
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -443,18 +443,6 @@ company: Pertemps Plymouth - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225774600
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Pontoon - Agency - Contract
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225764216
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -558,35 +546,23 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Legal Assistant
-company: eNL Legal Recruitment - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2184248
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant (Law Graduate Opportunity)
-company: Lockhart Recruitment - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225766926
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Logistics Administrator
 company: DX Group - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225848422
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mental Health Act Administrator and Medical Secretary
+company: Elysium Healthcare
+location: Cullompton, EX15 1EA
+source: NHS Jobs
+job_id: nhs-5744439
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -659,18 +635,6 @@ company: Ashley Rees Associates - Agency - Permanent
 location: Torquay
 source: JobG8
 job_id: jobg8-2373883
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Morgan McKinley (South West) - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225762251
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -875,18 +839,6 @@ company: Pembrook Resourcing - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2381195
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Perfect Placement Uk Ltd - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2367613
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

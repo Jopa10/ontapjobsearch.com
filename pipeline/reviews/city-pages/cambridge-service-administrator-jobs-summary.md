@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 40
+- Effective included jobs: 38
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 40
+- automatic include: 38
 - automatic review: 12
-- automatic exclude: 28
-- effective include: 40
+- automatic exclude: 29
+- effective include: 38
 - effective review: 12
-- effective exclude: 28
+- effective exclude: 29
 
-## INCLUDE (40)
+## INCLUDE (38)
 
 ---
 action: 
@@ -80,7 +80,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2399277
+job_id: jobg8-2437712
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -124,23 +124,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Brand & Marketing Executive
-company: UBT - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2373832
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Construction Paralegal
 company: eNL Legal Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2352833
+job_id: jobg8-2430516
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -172,47 +160,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Countrywide HQ - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2407570
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Family Legal PA
 company: G2 Legal Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2407008
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Administrator
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-2424734
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Administrator
-company: Pure Resourcing Solutions Limited - Agency - Temporary
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225819865
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -332,7 +284,7 @@ title: Marketing Campaigns Executive
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2399271
+job_id: jobg8-2437792
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -356,7 +308,7 @@ title: Marketing Executive
 company: Ascend Consulting - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2399985
+job_id: jobg8-2438764
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -381,6 +333,30 @@ company: Kingsgate Recruitment Ltd - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2363220
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time - Interim Finance Assistant
+company: Michael Page - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225863544
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time - Interim Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2433480
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -428,7 +404,7 @@ title: Product Marketing Executive
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2399568
+job_id: jobg8-2438264
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -650,7 +626,7 @@ job_id: jobg8-23643_225768922
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -672,7 +648,7 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2399230
+job_id: jobg8-2437761
 reason: Separate employment market.
 ---
 
@@ -840,7 +816,19 @@ title: Finance & Accounts Coordinator
 company: Huntress - Agency - Permanent
 location: Peterborough
 source: JobG8
-job_id: jobg8-2395125
+job_id: jobg8-2431099
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: The One Group - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2437668
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 20
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 19
+- effective include: 20
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (20)
 
 ---
 action: 
@@ -52,11 +52,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Behavioural Support Coordinator
-company: Gofal Cymru Care Ltd - Agency - Permanent
+title: Apprentice Customer Service Advisor
+company: EE - Company - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-23643_225807314
+job_id: jobg8-20279_64673-6235aa603e3e92e53d1200c49faf4748
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -77,10 +77,10 @@ action:
 decision: include
 automatic_decision: include
 title: Credit Controller
-company: 7 Steel UK - Agency - Permanent
+company: Môrwell Talent Solutions - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-108158391
+job_id: jobg8-2432610
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -185,10 +185,10 @@ action:
 decision: include
 automatic_decision: include
 title: Part-Time Finance Administrator
-company: Môrwell Talent Solutions - Agency - Permanent
+company: Môrwell Talent Solutions Ltd - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-2418026
+job_id: jobg8-23643_225844570
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -196,11 +196,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part-Time Finance Administrator
-company: Môrwell Talent Solutions Ltd - Agency - Permanent
+title: Payroll Officer - Part Time
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-23643_225844570
+job_id: jobg8-2429938
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -249,6 +249,18 @@ company: Auto Skills UK - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225782187
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Training Course Coordination Administrator
+company: Astutis - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225858676
 reason: Approved conservative Cardiff launch catchment.
 ---
 

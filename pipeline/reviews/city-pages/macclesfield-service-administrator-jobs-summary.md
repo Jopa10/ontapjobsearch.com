@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 23
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 15
-- effective review: 23
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -204,7 +204,7 @@ job_id: jobg8-2379182
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (20)
 
 ---
 action: 
@@ -358,19 +358,7 @@ title: Audit & Accounts Assistant
 company: Reed - Agency - Permanent
 location: Nantwich
 source: JobG8
-job_id: jobg8-2398570
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit controller
-company: Robert Walters - Agency - Permanent
-location: Wilmslow
-source: JobG8
-job_id: jobg8-2373349
+job_id: jobg8-2436264
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -419,30 +407,6 @@ company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225850437
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Outbound Sales Adviser
-company: Work Lyf Group Ltd - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225564622
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Assistant
-company: PARALLEL RECRUITMENT LTD - Agency - Permanent
-location: Wilmslow
-source: JobG8
-job_id: jobg8-2395414
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

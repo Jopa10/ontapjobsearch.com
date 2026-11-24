@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "23643_225865673",
+    "title": "Contract Administrator",
+    "company": "Build Recruitment - Agency - Temporary",
+    "location": "Basingstoke",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "17.93",
+    "salary_max": "17.93",
+    "salary_text": "£17.93 per hour",
+    "posted_date": "2026-11-24",
+    "description": "Contract Administrator\n\nLocation: Basingstoke\nWorking Hours: Monday Friday, 8:00am 5:00pm\n\nOur client is looking to recruit an experienced Contract Administrator to join their busy Contract Administration team, supporting the delivery of facilities management and maintenance services.\n\nThis is a varied administrative and coordination role, providing essential support to operational teams, engineers and contract managers. The successful candidate will play a key role in managing reactive maintenance requests, coordinating work orders and ensuring jobs are allocated, monitored and completed within agreed service level agreements (SLAs).\n\nKey Responsibilities\n- Act as a key point of contact for internal and external customers, handling service calls and enquiries.\n- Monitor incoming emails and provide telephone support.\n- Raise, process and allocate reactive maintenance work orders.\n- Schedule jobs to engineers and subcontractors.\n- Liaise with engineers to coordinate workloads and communicate emergency jobs.\n- Chase subcontractors and engineers for attendance dates and job updates.\n- Monitor outstanding work orders to ensure completion within agreed SLAs.\n- Review and update work orders, ensuring accurate information is recorded.\n- Coordinate site access and arrange site escorts where required.\n- Chase outstanding job paperwork and ensure all documentation is completed correctly.\n- Monitor and update work order statuses, escalating delays and outstanding issues.\n- Provide general administrative and contract support to Contract Managers.\n- Assist with performance reporting and ensuring service delivery standards are maintained.\n\nAbout You\n\nThe ideal candidate will have:\n- Previous experience within a helpdesk, service desk, facilities management or maintenance administration environment.\n- Experience raising and coordinating work orders.\n- Strong organisational and administrative skills.\n- Excellent telephone manner and communication skills.\n- Good working knowledge of Microsoft Office, particularly Excel and Outlook.\n- Strong attention to detail and accurate data entry skills.\n- The ability to manage competing priorities and work in a busy environment.\n- Confidence communicating with engineers, subcontractors, customers and internal stakeholders.\n- Experience using CAFM or CMMS systems would be advantageous.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?7Qtr4nk8kAxgVKM1EuOWyVXFgunGbKnGw",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Build Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225772565",
     "title": "Corporate Receptionist",
     "company": "Invictus Group - Agency - Temporary",
@@ -123,5 +148,24 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5746870",
+    "source": "NHS Jobs",
+    "title": "Admin Assistant - Bank - Care Home",
+    "company": "Barchester Healthcare",
+    "advertiser_name": "Barchester Healthcare",
+    "location": "Basingstoke, RG21 5NW",
+    "region": "Hampshire",
+    "salary": "£14.80",
+    "employment_type": "Bank",
+    "posted_date": "2026-11-24T07:17:39.454763788",
+    "closing_date": "2027-01-23",
+    "description": "ABOUT THE ROLE This is a casual, part-time role offering flexible working. As a Bank Admin Assistant at a Barchester care home, you'll carry out a range of responsibilities to help us deliver the quality care and support our residents deserve. In this varied role, we'll need you to answer the phone, handle our files and support our managers. You'll also meet and greet visitors, engage with residents and show prospective clients and their families around so they can see what makes us so different. Across everything you do as an Admin Assistant here, you'll go out of your way to help us create a vibrant, happy environment. ABOUT YOU If you have the ability to multi-task, good computer skills and a confident telephone manner you could be well-suited to the Admin Assistant role with us. It's also really important that you're a people person you'll take a genuine interest in our residents and their families. If that sounds like you, we'll give you the opportunity to develop your skills with courses that have been designed to build your confidence across all your responsibilities. REWARDS PACKAGE As well as competitive pay, you can look forward to a role that offers true flexibility and plenty of free learning and development opportunities. As a Bank Admin Assistant at Barchester care home, you'll help deliver quality care and support to residents. Responsibilities include answering phones, handling files, and supporting managers. You'll engage with residents and show prospective clients around. Being a people person and having good computer skills are important. We offer flexible working, competitive pay, free learning opportunities, and skill development courses. The role provides cover for absences, so hours vary. ABOUT THE ROLE This is a casual, part-time role offering flexible working. As a Bank Admin Assistant at a Barchester care home, you'll carry out a range of responsibilities to help us deliver the quality care and support our residents deserve. In this varied role, we'll need you to answer the phone, handle our files and support our managers. You'll also meet and greet visitors, engage with residents and show prospective clients and their families around so they can see what makes us so different. Across everything you do as an Admin Assistant here, you'll go out of your way to help us create a vibrant, happy environment. ABOUT YOU If you have the ability to multi-task, good computer skills and a confident telephone manner you could be well-suited to the Admin Assistant role with us. It's also really important that you're a people person you'll take a genuine interest in our residents and their families. If that sounds like you, we'll give you the opportunity to develop your skills with courses that have been designed to build your confidence across all your responsibilities. REWARDS PACKAGE As well as competitive pay, you can look forward to a role that offers true flexibility and plenty of free learning and development opportunities. As one of the UK's leading healthcare providers, we take the growth of everyone who works for us seriously. As this is a Bank position to provide cover as and when we need it, such as for annual leave or sick leave, the hours and days you work will vary. If you'd like to use your administration and people skills in an organisation that provides the quality care you'd expect for your loved ones, this is a rewarding place to be.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-00199",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-00199",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "posted_date_basis": "source"
   }
 ]

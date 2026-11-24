@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 16
+- automatic include: 11
+- automatic review: 14
 - automatic exclude: 9
-- effective include: 9
-- effective review: 16
+- effective include: 11
+- effective review: 14
 - effective exclude: 9
 
-## INCLUDE (9)
+## INCLUDE (11)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Care Assistant
+company: Care UK - Company - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-108180188
+reason: Approved Southampton catchment.
+---
 
 ---
 action: 
@@ -132,7 +144,19 @@ job_id: jobg8-2389628
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (16)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Support Worker - Help People Live More Independently
+company: Nurseplus UK Ltd - Agency - Temporary
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225864158
+reason: Approved Southampton catchment.
+---
+
+## REVIEW (14)
 
 ---
 action: 
@@ -210,18 +234,6 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Health Care Assistants (HCA)
-company: Varang Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_209680922
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Healthcare Assistant
 company: Evolve Staffing Ltd - Agency - Permanent
 location: Ryde
@@ -287,18 +299,6 @@ company: First For Support - Agency - Temporary
 location: Tadley
 source: JobG8
 job_id: jobg8-23643_225781662
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-108357146
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 

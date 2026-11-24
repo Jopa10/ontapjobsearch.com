@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 41
-- automatic review: 14
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 41
-- effective review: 14
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (41)
@@ -80,7 +80,7 @@ title: Accounts Assistant
 company: Spotlightjobs - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2399138
+job_id: jobg8-2437570
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -105,6 +105,18 @@ company: Beam Recruit - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-2384688
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Assistant
+company: Resourcery Group - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2438737
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -148,23 +160,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Support Assistant
-company: St Nicholas Catholic Academy
-location: Liverpool
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-assistant-st-nicholas-catholic-academy
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Corporate Paralegal
 company: LJ Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2395094
+job_id: jobg8-2430089
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -224,7 +224,7 @@ title: Finance Assistant - Capital
 company: Riverside Group - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2399888
+job_id: jobg8-2438717
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -340,6 +340,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist Full Time
+company: Stoneycroft Medical Centre
+location: Liverpool, L13 6QD
+source: NHS Jobs
+job_id: nhs-5745150
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: MOJ Portal Legal Assistant
 company: Bond Turner - Agency - Permanent
 location: Liverpool
@@ -369,18 +381,6 @@ company: Michael Page - Agency - Temporary
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225769951
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll & Pensions Administrator
-company: Search Consultancy Ltd - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225805684
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -461,10 +461,10 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Velocity Recruitment - Agency - Contract
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225671024
+company: The Blundellsands Surgery
+location: Liverpool, L23 6TZ
+source: NHS Jobs
+job_id: nhs-5746358
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -472,11 +472,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Administrator
-company: Derby Lane Medical Centre
-location: Liverpool, L13 3DN
-source: NHS Jobs
-job_id: nhs-5726472
+title: Receptionist
+company: Velocity Recruitment - Agency - Contract
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225671024
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -516,19 +516,7 @@ job_id: jobg8-2358347
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (14)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Clerk
-company: Resourcery Group - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2389034
-reason: Broad county location; review before Liverpool inclusion.
----
+## REVIEW (11)
 
 ---
 action: 
@@ -538,7 +526,7 @@ title: Accounts Receivable Clerk
 company: Michael Page Finance - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2377476
+job_id: jobg8-2431705
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -562,7 +550,7 @@ title: Corporate Paralegal
 company: Michael Page Legal - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2399400
+job_id: jobg8-2438036
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -654,35 +642,11 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Senior Communications Manager
-company: Robert Walters - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2375383
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trade Mark Paralegal
-company: The Law Support Group - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2409373
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2422871
+job_id: jobg8-2429546
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

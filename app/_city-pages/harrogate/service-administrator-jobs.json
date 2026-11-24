@@ -299,6 +299,25 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5745151",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Yorkshire Health Network",
+    "advertiser_name": "Yorkshire Health Network",
+    "location": "Harrogate, HG1 4DP",
+    "region": "Yorkshire - North",
+    "salary": "£13.41",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-23T11:56:57.316656964",
+    "closing_date": "2026-12-06",
+    "description": "Yorkshire Health Network are looking for a polite and helpful receptionist to work 37.5 hours a week as the first point of contact for the Clinical Services Team. The working hours are Monday - Friday, between the hours of 08:00 and 20:30 and a Saturday, 08:00 - 17:30. The post holder will responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team by ensuring all functions are carried out in accordance with agreed procedures, protocols and time-scales. Meet and greet patients and visitors arriving at the site and direct them accordingly. Responsible for visitors signing in and out of the building as required. Set up clinical and reception spaces and ensure that the waiting area is prepared prior to clinic commencing and is maintained to a high standard during the clinic. Book, cancel and amend appointments on the clinical system, send and actioning tasks, printing ICE forms, PDS updates, check patients in and out and send SMS reminders. Answer incoming phone calls, transferring calls or dealing with the callers' request appropriately signposting patients to the correct service. Support clinical staff with the patient clinics including cancelling patients, rearranging appointments if necessary. Maintain confidentiality of patients. When required, to be responsible for the opening and closing of the building at the beginning and the end of the day, ensuring safety and security measures are followed. Chaperone duties as and when required Responsible for accepting clinical deliveries and ensure that they are put away in a timely manner and in fridges in order to maintain cold chain and safety. Check fridge temperature logs and daily oxygen and defib checks. Take payments for clinical service prior to appointment or at end of treatment. Arranging pathology samples to be collected by relevant organisations and ensuring they are correctly labelled.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0112-77",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0112-77",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5740133",
     "source": "NHS Jobs",
     "title": "Ward Clerk",
@@ -315,9 +334,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9421-26-00010",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

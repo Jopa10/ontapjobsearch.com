@@ -148,11 +148,11 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Project Support Officer
-company: Belmont Recruitment - Agency - Contract
+title: Sales Administrator
+company: Oliver Rae - Agency - Permanent
 location: Walsall
 source: JobG8
-job_id: jobg8-23643_225766602
+job_id: jobg8-23643_225863811
 reason: Exact approved Walsall workplace.
 ---
 
@@ -454,7 +454,7 @@ title: Credit Control - Hyrbid
 company: Gleeson Recruitment Group - Agency - Permanent
 location: West Midlands
 source: JobG8
-job_id: jobg8-2398239
+job_id: jobg8-23643_225854505
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -466,7 +466,7 @@ title: Credit Controller
 company: AD Finance - Agency - Permanent
 location: Dudley
 source: JobG8
-job_id: jobg8-2397712
+job_id: jobg8-2434383
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -478,7 +478,7 @@ title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Wolverhampton
 source: JobG8
-job_id: jobg8-2398429
+job_id: jobg8-2435945
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -503,6 +503,18 @@ company: Mayfair Compliance Group Ltd - Agency - Permanent
 location: Oldbury
 source: JobG8
 job_id: jobg8-23643_225847535
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Domestic Abuse Practitioner Coordinator
+company: Supporting Futures Consulting Ltd - Agency - Permanent
+location: Dudley
+source: JobG8
+job_id: jobg8-23643_225862819
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -732,18 +744,6 @@ location: West Bromwich
 source: JobG8
 job_id: jobg8-23643_225772519
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Pertemps Black Country Perms - Agency - Permanent
-location: West Bromwich
-source: JobG8
-job_id: jobg8-23643_225765372
-reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 
 ---

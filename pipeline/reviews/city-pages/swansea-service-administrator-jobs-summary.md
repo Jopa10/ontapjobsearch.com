@@ -4,7 +4,7 @@
 - Live route: `/swansea/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 4
+- automatic include: 9
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 8
-- effective review: 4
+- effective include: 9
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Work Wales - Agency - Permanent
 location: Swansea
 source: JobG8
 job_id: jobg8-23643_225793636
+reason: Exact approved Swansea workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Apprentice Customer Service Advisor
+company: EE - Company - Permanent
+location: Swansea
+source: JobG8
+job_id: jobg8-20279_64673-cd97ec64f2b5505779f171a332da06df
 reason: Exact approved Swansea workplace.
 ---
 
@@ -80,7 +92,7 @@ title: Mortgage Administrator
 company: KFS Recruitment - Agency - Permanent
 location: Swansea
 source: JobG8
-job_id: jobg8-2379690
+job_id: jobg8-2434303
 reason: Exact approved Swansea workplace.
 ---
 
@@ -100,11 +112,11 @@ reason: Exact approved Swansea workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
+title: Reception - Swansea
+company: Office Angels - Agency - Temporary
 location: Swansea
 source: JobG8
-job_id: jobg8-23643_225782219
+job_id: jobg8-23643_225863486
 reason: Exact approved Swansea workplace.
 ---
 
@@ -113,14 +125,14 @@ action:
 decision: include
 automatic_decision: include
 title: Service Advisor
-company: Perfect Placement Uk Ltd - Agency - Permanent
+company: Auto Skills UK - Agency - Permanent
 location: Swansea
 source: JobG8
-job_id: jobg8-2367598
+job_id: jobg8-23643_225782219
 reason: Exact approved Swansea workplace.
 ---
 
-## REVIEW (4)
+## REVIEW (5)
 
 ---
 action: 
@@ -131,6 +143,18 @@ company: Prospero Teaching Cardiff - Agency - Temporary
 location: Bridgend
 source: JobG8
 job_id: jobg8-23643_225856958
+reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Apprentice Customer Service Advisor
+company: EE - Company - Permanent
+location: Neath
+source: JobG8
+job_id: jobg8-20279_64673-039533abdb94a2f309fe78c372f4ee59
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

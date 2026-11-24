@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 44
+- automatic review: 41
 - automatic exclude: 0
 - effective include: 11
-- effective review: 44
+- effective review: 41
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: jobg8-23643_225794761
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (44)
+## REVIEW (41)
 
 ---
 action: 
@@ -238,7 +238,7 @@ title: Accounts Assistant (Accounts Payable)
 company: Office Angels - Agency - Permanent
 location: Wellington
 source: JobG8
-job_id: jobg8-2397819
+job_id: jobg8-2434723
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -450,18 +450,6 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Estimator / Administrator
-company: Trinity Professional - Agency - Permanent
-location: Bridgnorth
-source: JobG8
-job_id: jobg8-23643_225765471
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Office Angels - Agency - Permanent
 location: Wellington
@@ -510,18 +498,6 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Logistics Co-Ordinator
-company: KAG Recruitment Consultancy - Agency - Permanent
-location: Oswestry
-source: JobG8
-job_id: jobg8-23643_225765256
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical and Clinical Administrator
 company: Midlands Partnership NHS Foundation Trust
 location: Dawley, Telford, SY1 4RQ
@@ -563,18 +539,6 @@ company: Proactive Personnel Ltd - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225798314
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Hollinswood and Priorslee Surgery
-location: Telford, TF3 2BH, TELFORD, TF3 2EW, TELFORD, TF2 9SW
-source: NHS Jobs
-job_id: nhs-5728629
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

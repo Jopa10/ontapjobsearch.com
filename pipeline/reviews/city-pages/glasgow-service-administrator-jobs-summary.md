@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 41
+- Effective included jobs: 43
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 41
-- automatic review: 8
+- automatic include: 43
+- automatic review: 7
 - automatic exclude: 0
-- effective include: 41
-- effective review: 8
+- effective include: 43
+- effective review: 7
 - effective exclude: 0
 
-## INCLUDE (41)
+## INCLUDE (43)
 
 ---
 action: 
@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2397827
+job_id: jobg8-2434731
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -81,6 +81,18 @@ company: Realise Recruitment - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_223109682
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Assistant
+company: Office Angels - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225863817
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -141,6 +153,18 @@ company: EE - Company - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-20279_64324-d24d3d6916a209e15b1680693740da2f
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Office Angels - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2435295
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -236,7 +260,7 @@ title: Finance Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2377526
+job_id: jobg8-2433408
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -516,7 +540,7 @@ job_id: jobg8-23643_225860464
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -527,18 +551,6 @@ company: No1 Legal and Professional - Agency - Permanent
 location: Lanarkshire
 source: JobG8
 job_id: jobg8-2373578
-reason: No approved Glasgow catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Internal Communications Officer
-company: Morgan Hunt Recruitment - Agency - Permanent
-location: Lanarkshire
-source: JobG8
-job_id: jobg8-2407351
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 
@@ -610,7 +622,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2422867
+job_id: jobg8-2429542
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

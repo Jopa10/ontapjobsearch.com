@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 35
+- automatic review: 34
 - automatic exclude: 0
 - effective include: 16
-- effective review: 35
+- effective review: 34
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225825955
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (34)
 
 ---
 action: 
@@ -276,18 +276,6 @@ location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225802381
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: HCRG Care Group
-location: Chippenham, SN15 2AJ
-source: NHS Jobs
-job_id: nhs-5711218
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -360,18 +348,6 @@ location: Trowbridge
 source: JobG8
 job_id: jobg8-23643_225817962
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Administrator
-company: Salisbury Trust for the Homeless Ltd - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-108325682
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -587,6 +563,18 @@ company: Thrive Group - Agency - Permanent
 location: Corsham
 source: JobG8
 job_id: jobg8-23643_225845158
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Tru Talent - Agency - Permanent
+location: Westbury
+source: JobG8
+job_id: jobg8-23643_225862130
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

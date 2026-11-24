@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 62
+- automatic review: 60
 - automatic exclude: 0
 - effective include: 6
-- effective review: 62
+- effective review: 60
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225818968
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (62)
+## REVIEW (60)
 
 ---
 action: 
@@ -166,7 +166,7 @@ title: Accounts Assistant - Poole - up to &;28,000 + good bens
 company: Bond Williams - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-2399874
+job_id: jobg8-2438576
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -226,7 +226,7 @@ title: Administrator
 company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2400280
+job_id: jobg8-2439100
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -311,18 +311,6 @@ company: Bond Williams - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2364211
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator
-company: KAG Recruitment Consultancy - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225771986
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -443,18 +431,6 @@ company: Compass UK & Ireland - Company - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-108203720
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108267388
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -630,18 +606,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Morgan McKinley (South West) - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225762250
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Clerk
 company: McGinnis Loy Associates Ltd - Agency - Permanent
 location: Poole
@@ -682,7 +646,7 @@ title: Purchase Ledger Clerk
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2399456
+job_id: jobg8-2437974
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -707,18 +671,6 @@ company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2402601
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Dorset HealthCare University NHS Foundation Trust
-location: Poole, BH15 2NT
-source: NHS Jobs
-job_id: nhs-5716637
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -786,11 +738,35 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Service Advisor (Automotive)
+company: Rise Technical Recruitment - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225859639
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Supply Chain Administrator
 company: Team Jobs - Commercial - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225815784
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Supply Chain Coordinator
+company: Matchtech - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225866002
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

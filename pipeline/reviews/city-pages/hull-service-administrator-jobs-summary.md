@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 13
+- automatic review: 12
 - automatic exclude: 0
 - effective include: 7
-- effective review: 13
+- effective review: 12
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225818060
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (12)
 
 ---
 action: 
@@ -118,7 +118,7 @@ title: AAT Accounts Assistant - Practice
 company: Si Recruitment - Agency - Permanent
 location: Goole
 source: JobG8
-job_id: jobg8-2398432
+job_id: jobg8-2435818
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -174,11 +174,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: HICA - Agency - Temporary
-location: Hessle
+title: Financial Services Administrator
+company: NJR Recruitment - Agency - Permanent
+location: Beverley
 source: JobG8
-job_id: jobg8-108359481
+job_id: jobg8-2432551
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -191,18 +191,6 @@ company: Rullion Limited - Agency - Temporary
 location: Goole
 source: JobG8
 job_id: jobg8-108339348
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Si Recruitment - Agency - Permanent
-location: Goole
-source: JobG8
-job_id: jobg8-2358022
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

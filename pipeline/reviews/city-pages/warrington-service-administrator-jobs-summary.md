@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
-- automatic review: 8
-- automatic exclude: 5
-- effective include: 29
-- effective review: 8
-- effective exclude: 5
+- automatic include: 30
+- automatic review: 9
+- automatic exclude: 6
+- effective include: 30
+- effective review: 9
+- effective exclude: 6
 
-## INCLUDE (29)
+## INCLUDE (30)
 
 ---
 action: 
@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2370161
+job_id: jobg8-2430812
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -100,18 +100,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Payable Assistant
-company: Reed - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2358605
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Corporate Insolvency Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Warrington
@@ -141,6 +129,30 @@ company: Adecco - Agency - Temporary
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225816768
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Robert Walters - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2436772
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Tribal Tech Limited - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2440014
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -372,7 +384,7 @@ job_id: jobg8-23643_225793459
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
 
 ---
 action: 
@@ -454,7 +466,7 @@ title: Sales Ledger Clerk
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Cheshire
 source: JobG8
-job_id: jobg8-2398894
+job_id: jobg8-2437045
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -470,7 +482,19 @@ job_id: jobg8-2408460
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator - First Aid Trained
+company: Tradewind Recruitment - Agency - Temporary
+location: Widnes
+source: JobG8
+job_id: jobg8-23643_225859173
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+## EXCLUDE (6)
 
 ---
 action: 
@@ -481,6 +505,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-2410498
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Fleet Coordinator
+company: Bis Henderson - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-23643_225863088
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 13
-- automatic exclude: 33
-- effective include: 12
-- effective review: 13
-- effective exclude: 33
+- automatic include: 13
+- automatic review: 14
+- automatic exclude: 32
+- effective include: 13
+- effective review: 14
+- effective exclude: 32
 
-## INCLUDE (12)
+## INCLUDE (13)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Morson Vital - Agency - Contract
+location: York
+source: JobG8
+job_id: jobg8-23643_225863018
+reason: Approved York catchment.
+---
 
 ---
 action: 
@@ -168,7 +180,7 @@ job_id: jobg8-2359409
 reason: Approved York catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -215,6 +227,18 @@ company: EE - Company - Permanent
 location: Bedale
 source: JobG8
 job_id: jobg8-20279_63331-002a3d68d1ccfcef2ea5de713d71ff34
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller - Contract Administrator
+company: Layka Connect - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2431985
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -298,7 +322,7 @@ title: Private Client Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Malton
 source: JobG8
-job_id: jobg8-2370186
+job_id: jobg8-2432139
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -322,11 +346,11 @@ title: Temporary Customer Services Executive / Accounts Assistant
 company: Office Angels - Agency - Permanent
 location: Richmond
 source: JobG8
-job_id: jobg8-2399792
+job_id: jobg8-2438504
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -584,18 +608,6 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist
-company: Posterngate Surgery
-location: Selby, YO8 4QH
-source: NHS Jobs
-job_id: nhs-5716437
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Part Time Administrator
 company: KD Recruitment - Agency - Permanent
 location: Scarborough
@@ -613,18 +625,6 @@ company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225782883
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part time Reception
-company: Hays Business Support - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-23643_225765937
 reason: Separate employment market.
 ---
 
@@ -698,6 +698,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-108329671
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Yorkshire Health Network
+location: Harrogate, HG1 4DP
+source: NHS Jobs
+job_id: nhs-5745151
+reason: Separate employment market.
 ---
 
 ---
