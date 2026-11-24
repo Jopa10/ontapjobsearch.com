@@ -243,7 +243,7 @@ export async function activateBrevoJobAlertDelivery(
   const tokenPayload = Buffer.from(JSON.stringify({ email, version: 1 })).toString("base64url");
   const signature = createHmac("sha256", secret).update(tokenPayload, "ascii").digest("base64url");
   const unsubscribe = origin + "/job-alerts/unsubscribe?token=" + tokenPayload + "." + signature;
-  const content = confirmationContent(signup, unsubscribe, active && !unchanged);
+  const content = confirmationContent(signup, unsubscribe, active === true && !unchanged);
   try {
     const sent = await call("/smtp/email", {
       method: "POST", body: JSON.stringify({

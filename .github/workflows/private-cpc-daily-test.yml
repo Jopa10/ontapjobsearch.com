@@ -6,6 +6,7 @@ on:
     paths:
       - pipeline/scripts/send_cpc_job_alerts.py
       - pipeline/scripts/read_neon_alert_preferences.mjs
+      - pipeline/scripts/record_neon_alert_sample.mjs
       - pipeline/tests/test_send_cpc_job_alerts.py
       - .github/workflows/private-cpc-daily-test.yml
       - lib/job-alert-signup.ts
@@ -47,6 +48,7 @@ jobs:
       - name: Test Neon signup, Brevo delivery and Preview safeguards
         run: |
           node --check pipeline/scripts/read_neon_alert_preferences.mjs
+          node --check pipeline/scripts/record_neon_alert_sample.mjs
           npx tsx --test tests/job-alert-signup.test.ts tests/neon-email-alerts.test.ts tests/private-job-alert-test.test.ts tests/cpc-job-alerts.test.ts
       - name: Read the private recipient's saved preferences from Preview Neon
         env:
@@ -172,6 +174,9 @@ jobs:
       - name: Send one explicitly requested private matched sample
         if: github.event.head_commit.message == 'Send one private matched-alert test'
         env:
+          ONTAP_SHADOW_DATABASE_URL: ${{ secrets.ONTAP_SHADOW_DATABASE_URL }}
+          ONTAP_SHADOW_NEON_PROJECT_ID: noisy-fire-97386602
+          NEON_ALERT_PREFERENCES_OUTPUT: ${{ runner.temp }}/neon-alert-preferences.json
           CPC_JOB_ALERTS_ENABLED: 'true'
           BREVO_JOB_ALERTS_LIST_ID: '3'
           BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com

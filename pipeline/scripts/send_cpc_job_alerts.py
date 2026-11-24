@@ -683,15 +683,43 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
         notice = "PRIVATE MATCHING TEST: today's new jobs matched using preferences saved in Preview Neon. This sample does not change daily delivery state."
         identity = json.dumps([args.date, recipient, preferences,
                                [job["job_id"] for job in sample_jobs]], sort_keys=True)
-        result = _brevo_request("POST", "/smtp/email", api_key, {
-            "headers": {"idempotencyKey": str(uuid.uuid5(uuid.NAMESPACE_URL, "ontap-private-matched-sample:" + identity))},
-            "sender": {"name": "Ontap Jobs", "email": sender_email},
-            "to": [{"email": recipient}],
-            "subject": f"[Private matching test] {len(sample_jobs)} jobs matching your alert",
-            "htmlContent": "<p>" + notice + "</p>" + body_html,
-            "textContent": notice + "\n\n" + body_text,
-        })
-        print("Private matched sample accepted by Brevo; message ID: " + str(result.get("messageId") or "not supplied"))
+        import subprocess
+
+        key = str(uuid.uuid5(uuid.NAMESPACE_URL, "ontap-private-matched-sample:" + identity))
+
+        def record(action, **payload):
+            subprocess.run(
+                ["node", str(Path(__file__).with_name("record_neon_alert_sample.mjs"))],
+                input=json.dumps({"action": action, "key": key, **payload}),
+                text=True, check=True,
+            )
+
+        recommendations = []
+        for job in sample_jobs:
+            preference = next(
+                p for p in preferences
+                if matches_alert({"ALERT_ROLE": p["role"], "ALERT_LOCATION": p["location"],
+                                  "ALERT_SALARY": p["salary"], "ALERT_REGION": p.get("region", "")}, job)
+            )
+            recommendations.append({"publicId": str(job["job_id"]), "preferenceId": preference["preferenceId"]})
+        record("reserve", matches=recommendations)
+        try:
+            result = _brevo_request("POST", "/smtp/email", api_key, {
+                "headers": {"idempotencyKey": key},
+                "sender": {"name": "Ontap Jobs", "email": sender_email},
+                "to": [{"email": recipient}],
+                "subject": f"[Private matching test] {len(sample_jobs)} jobs matching your alert",
+                "htmlContent": "<p>" + notice + "</p>" + body_html,
+                "textContent": notice + "\n\n" + body_text,
+            })
+            message_id = result.get("messageId")
+            if not isinstance(message_id, str) or not message_id.strip():
+                raise DeliveryError("Brevo returned no message ID for the private sample")
+        except Exception:
+            record("uncertain")
+            raise
+        record("sent", messageId=message_id)
+        print("Private matched sample accepted by Brevo and recorded in Preview Neon: " + message_id)
         print("No daily-send state changed.")
         return
     delivery_contact = {**contact, "attributes": {**(contact.get("attributes") or {}), **match_attributes}}

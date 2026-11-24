@@ -175,14 +175,14 @@ class PrivateDailyTests(unittest.TestCase):
             neon_file.write_text(json.dumps({
                 "email": "jpbt801@gmail.com", "userId": "user-1", "userEmailId": "email-1",
                 "subscriberId": "subscriber-1", "consentAction": neon_consent_action,
-                "preferences": neon_preferences or [{"role": "Accounts Assistant", "location": "Leeds", "salary": ""}],
+                "preferences": neon_preferences or [{"role": "Accounts Assistant", "location": "Leeds", "salary": "", "preferenceId": "pref-1"}],
             }), encoding="utf-8")
             args = argparse.Namespace(date="2026-10-22", reports_dir=root, app_dir=root, dry_run=dry_run,
                 verified_production_sha=verified_sha, private_matching_sample=matched_sample,
                 private_recipient=recipient, neon_preferences_file=neon_file)
             with patch.dict("os.environ", {"GITHUB_REF": branch, "GITHUB_WORKFLOW": workflow}):
                 with patch("scripts.send_cpc_job_alerts.new_cpc_jobs", return_value=[self.job]):
-                    with patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {}, {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}}, {}]) as request:
+                    with patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {"messageId": "test-message"} if matched_sample else {}, {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}}, {}]) as request:
                         private_daily_test(args, api_key="fake", list_id=list_id, sender_email="jobs@example.com", secret="fake")
                         return request.call_args_list
 
@@ -238,7 +238,7 @@ class PrivateDailyTests(unittest.TestCase):
         from datetime import datetime, timezone
         from unittest.mock import patch
         # The sample has its own date validation; freeze only the UTC clock.
-        with patch("datetime.datetime") as clock:
+        with patch("datetime.datetime") as clock, patch("subprocess.run") as recorder:
             clock.now.return_value = datetime(2026, 10, 22, tzinfo=timezone.utc)
             contact = {**self.contact, "attributes": {**self.contact["attributes"],
                        "ALERT_LAST_SENT_DATE": "2026-10-22"}}
@@ -250,7 +250,12 @@ class PrivateDailyTests(unittest.TestCase):
         self.assertIn("[Private matching test]", payload["subject"])
         self.assertIn("https://www.ontapjobsearch.com/jobs/new-job", payload["textContent"])
         self.assertIn("ALERT_LAST_SENT_DATE", str(contact["attributes"]))
-        self.assertIn("idempotencyKey", payload["headers"])
+        key = payload["headers"]["idempotencyKey"]
+        self.assertEqual([json.loads(call.kwargs["input"]) for call in recorder.call_args_list], [
+            {"action": "reserve", "key": key,
+             "matches": [{"publicId": "new-job", "preferenceId": "pref-1"}]},
+            {"action": "sent", "key": key, "messageId": "test-message"},
+        ])
 
     def test_matched_sample_rejects_wrong_workflow_dry_run_or_old_report(self):
         from scripts.send_cpc_job_alerts import DeliveryError
