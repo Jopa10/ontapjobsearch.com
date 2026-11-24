@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-23
-review_fingerprint: 5fff2e295d9c5059d5ffe8b53432100d243d65644d719f49208a531d846a7de1
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 861ecd20dfc99efb960d5c279825ce272430e70985f035ae2b04070a689f6007
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 18
 - Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN4 8BU | £26,846.00 - £27,274.00 Annually (FTE) Grade F, Point 6 to 7: £26,846 to £27,274 FTE | Attendance Administrator
-employer: Abbeyfield School
-closing_date: 2026-11-29T23:59:00+00:00
+SELECTED | Northamptonshire | Daventry, East Midlands, NN11 0QE | £26,847.00 - £27,709.00 Annually (FTE) Actual Salary £24,165 to £24,941 Pro Rata | Administrator - Pastoral
+employer: Daventry Hill School
+closing_date: 2026-12-10T09:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0088c24a1ab055b80c076ca9aa0119935180dd64d00d232fa19af7dbfc071cac
+factual_fingerprint: 635a5c940913fb8b0e670583af39c28e34b04ace3eea2dc08d6963a7f1d23f57
 source: Teaching Vacancies
-source_job_id: attendance-administrator-abbeyfield-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-abbeyfield-school
+source_job_id: administrator-pastoral
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-pastoral
 ---
 
 ---
@@ -153,10 +153,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-ad
 - [Administrator - Admissions, Data & Attendance](https://teaching-vacancies.service.gov.uk/jobs/administrator-admissions-data-attendance) — No usable numeric salary.
 - [Admissions & Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-manager-moulton-school-and-science-college) — Excluded senior/management title.
 - [Attendance Support Worker](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-worker-northampton-school) — Insufficient admin/service evidence.
+- [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-fc338d4c-5ff4-4177-bfa6-fee890e9c710) — Insufficient admin/service evidence.
 - [Finance and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-administration-officer-gloucester-nursery-school) — Insufficient admin/service evidence.
 - [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.
+- [Headteacher's PA, Operations & Communications Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-operations-communications-manager) — Out-of-scope occupation: teacher, headteacher.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-76534355-af89-45a3-936c-3fdc5fe94bd4) — Salary over £50k.
-- [Marketing and events lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-events-lead) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-billing-brook-special-school) — Excluded senior/management title.
 
 ## Safety boundary

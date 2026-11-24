@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-23
-review_fingerprint: 22e89101cd29c8ff2d95a519fcb0125c3388eb067ea29d08e176671eba4d15d4
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 00be8e2d467b2ae00139a5fd1ca88c5cf0926e2adfdc7baa471a085b6c2d3c5e
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
+- Records: 14
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
+SELECTED | Bedfordshire | Dunstable, East of England, LU5 6NX | Grade: 2B. NJC Levels 3 – 5 Salary £25,614 - £26,427 (pro-rated) £20,724-£21,382 actual salary for 35 hours per week – term time only plus 5 training days | Receptionist/School Office Administrator – Term Time Only
+employer: Harlington Upper School
+closing_date: 2026-12-08T08:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 10fd5f684a6303de8720d610d48d8c3adef78d6dc197c3e289221c799c6481b3
+source: Teaching Vacancies
+source_job_id: receptionist-school-office-administrator-term-time-only-harlington-upper-school-dunstable-bedfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-office-administrator-term-time-only-harlington-upper-school-dunstable-bedfordshire
+---
+
+---
+action: 
 SELECTED | Bedfordshire | Luton, LU4 0PF | £26,847.00 - £27,709.00 Annually (Actual) | Trust Finance Assistant
 employer: St Thomas Catholic Academies Trust
 closing_date: 2026-11-29T23:59:00+00:00
@@ -97,7 +112,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assista
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-houstone-school-dunstable) — Excluded senior/management title.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bedford-inclusive-learning-and-training-trust-bedford-not-recorded) — Excluded senior/management title.
 - [Finance manager - Job Share](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-job-share) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-212db2cc-f077-4618-b1ff-eb892f942ee3) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-parklea-primary-school) — Excluded senior/management title.
+- [Science Technician](https://teaching-vacancies.service.gov.uk/jobs/science-technician-7f3a1012-40b4-49d6-8a1b-c9113f13a18a) — Out-of-scope occupation: technician.
 - [Trust Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-governance-manager-bedfordshire-schools-trust-limited) — Excluded senior/management title.
 
 ## Safety boundary

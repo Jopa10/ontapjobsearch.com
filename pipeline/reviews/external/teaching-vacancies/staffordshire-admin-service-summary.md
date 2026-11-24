@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-23
-review_fingerprint: 55c7fe4956099406b67c703d4ca57ee236933951180ad7b1ee2e73abc552af6e
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 7654a64c15872b7a064271d8044176c561a866b02349a268684bae5f3a251f00
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -75,7 +75,7 @@ reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 63eddea64b3575552785dc6c7680b3da0f5e7303a5ff5c8f82775d23649f0e67
+factual_fingerprint: a1da3e1cb40cb742c2e22098f70bce748f7dab9b8508c7bf59a02ab85165befc
 source: Teaching Vacancies
 source_job_id: finance-assistant-the-friary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-friary-school

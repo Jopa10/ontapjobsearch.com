@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-11-23
+review_date: 2026-11-24
 review_fingerprint: 339314ca7db2acf30e1bd834940e65360ce7bfbd30c07acca9b10919cfb0b516
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -60,6 +60,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-fi
 ## HARD_PASS
 
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-great-schools-trust-warrington-not-recorded) — Excluded senior/management title.
+- [Work Placement Officer Full Time, Term Time only plus 2 weeks (S299)](https://teaching-vacancies.service.gov.uk/jobs/work-placement-officer-full-time-term-time-only-plus-2-weeks-s299) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

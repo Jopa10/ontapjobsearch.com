@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-23
-review_fingerprint: cf803c4d3b8775320b4332fe11dd9b571d02e05f73da4dfb03aa235df2512757
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: e8072ba934fdca48fb0a7b068384cc0e90b535fb5a1fb7f8f9770561ff5efbb1
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 55
-- Selected: 11
-- POSS awaiting decision: 7
+- Records: 54
+- Selected: 13
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 37
+- Hard pass: 35
 
 ## SELECTED
 
@@ -68,6 +68,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | London | Romford, London, RM6 4TR | £31,284.00 - £32,653.00 Annually (FTE) OUTL4 (SCP 7–10) Actual Salary: £8,891.62 | Administrative Assistant (part time)
+employer: Newbridge School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: da723b4722d2782a3f8ce43ab3aae60633fd24f0e415d4da406462340cc0b28b
+source: Teaching Vacancies
+source_job_id: administrative-assistant-part-time-newbridge-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-part-time-newbridge-school
+---
+
+---
+action: 
+SELECTED | London | London, London, W12 0SP | £33,036.00 - £34,488.00 Annually (FTE) Salary will be Prorated | Administrative Assistant to the SENCO
+employer: Cambridge School
+closing_date: 2026-11-27T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e6f99a8bed024e845a292712cdd0f1a9cdf28b0fff6edd6c19f9771e0001d10a
+source: Teaching Vacancies
+source_job_id: administrative-assistant-to-the-senco
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-to-the-senco
+---
+
+---
+action: 
 SELECTED | London | Wallington, London, SM6 7PH | £34,104.00 - £37,794.00 Annually (FTE) Actual salary (£26,301.98 - £29,271.03 per annum pro-rated). Salary will be determined subject to experience and qualifications. Term time plus 4 weeks. | Admissions Officer
 employer: Wallington County Grammar School
 closing_date: 2026-11-29T23:59:00+00:00
@@ -113,21 +143,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-pa
 
 ---
 action: 
-SELECTED | London | London, London, SE24 9JH | £36,543.00 - £43,014.00 Annually (FTE) Hay 7, 14 - 25 | Attendance Officer
-employer: The Charter School North Dulwich
-closing_date: 2026-11-23T23:59:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4be2bf5fd0c41e894d1f532ccd0b34f175e6a90a6bd13b66827f76f29479d1f4
-source: Teaching Vacancies
-source_job_id: attendance-officer-the-charter-school-north-dulwich
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-charter-school-north-dulwich
----
-
----
-action: 
 SELECTED | London | London, London, N9 8DR | £29,077.83 - £31,410.96 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,708.76 - £28,851.80 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
 employer: Woodpecker Hall Primary Academy
 closing_date: 2026-12-01T23:59:00+00:00
@@ -139,6 +154,21 @@ factual_fingerprint: ad21c857526bc6cc2d2b08364cbd38e1e8546b4511a2d0630112158801c
 source: Teaching Vacancies
 source_job_id: business-support-assistant-b0e92129-9a1b-4671-8806-6ea3c3ec8ece
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-b0e92129-9a1b-4671-8806-6ea3c3ec8ece
+---
+
+---
+action: 
+SELECTED | London | Bromley, London, BR2 8HE | £26652 to £27061 FTE | Exams Online Administrator/Invigilator
+employer: London South East Colleges
+closing_date: 2027-05-01T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e26ca131eccfbf8394808c5355681fee2e5412574628c97723ba0f06c0390388
+source: Teaching Vacancies
+source_job_id: exams-online-administrator-invigilator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-online-administrator-invigilator
 ---
 
 ---
@@ -187,21 +217,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | London | London, London, W2 1QZ | £30,239.00 Annually (FTE) | Business Support Officer
-employer: Marylebone Academy
-closing_date: 2026-11-23T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b720dbece8bb2c7ef36d2a21704f73622035d70db4539a0b8a4bad6226a93923
-source: Teaching Vacancies
-source_job_id: business-support-officer-marylebone-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-marylebone-academy
----
 
 ---
 action: 
@@ -283,8 +298,8 @@ action:
 POSS | London | London, SE14 5SF | £34,029.00 - £40,153.00 Annually (FTE) | Trust Finance Officer
 employer: Haberdashers' Aske's Federation Trust
 closing_date: 2026-12-16T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Office/finance salary over £40k
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 65e8dcebcfc2feffe86175e0e9b2496fecee59ca6e278b3b770432513396f224
@@ -303,18 +318,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-fd9da38b-d20a-4880-8cf1-32bc2f752164) — Insufficient admin/service evidence.
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-paddock-school-london) — No usable numeric salary.
 - [Attendance & Inclusion Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-inclusion-officer-hurstmere-school) — Insufficient admin/service evidence.
-- [Attendance/Admission/Home School Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-admission-home-school-liaison-officer) — Insufficient admin/service evidence.
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-haberdashers-hatcham-college) — Insufficient admin/service evidence.
 - [Casual Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-administrative-assistant) — No usable numeric salary.
 - [Communications & Digital Media Intern](https://teaching-vacancies.service.gov.uk/jobs/communications-digital-media-intern) — No usable numeric salary.
 - [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-wallington-county-grammar-school) — Excluded senior/management title.
-- [Data Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/data-governance-officer) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-winchmore-school) — Excluded senior/management title.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal-haberdashers-borough-academy-london) — Out-of-scope occupation: principal.
 - [Finance and Admissions Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-admissions-assistant) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-8fc0a6b4-5e0b-4d7f-b5d4-016bc3b41dab) — Excluded senior/management title.
+- [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-3b557eb1-7a10-4812-808f-391bae9d2eb8) — Out-of-scope occupation: teacher, headteacher.
 - [Headteacher's PA and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-and-office-manager-carshalton-high-school-for-girls) — Out-of-scope occupation: teacher, headteacher.
 - [HR and Recruitment co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-co-ordinator) — Insufficient admin/service evidence.
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-barking-abbey-school-a-specialist-sports-and-humanities-college) — Insufficient admin/service evidence.
@@ -334,7 +348,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school-london) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-sherwood-school) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-connaught-special-school-london) — Excluded senior/management title.
-- [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-22a666a4-eb84-43b5-bf0b-31d45ba81bc5) — Insufficient admin/service evidence.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-the-grove) — Excluded senior/management title.
 
 ## Safety boundary

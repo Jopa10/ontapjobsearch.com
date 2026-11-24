@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-23
-review_fingerprint: 8bccdb7cd377e0d4ab74e05724138d670ea5645cf91f805ec7bd550952520ce0
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 48f2c374f3fa73958ecb0cddcb0390dd88779e0b4fde545e331e58ff0d22ce21
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 4
+- Records: 13
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
@@ -64,21 +64,6 @@ factual_fingerprint: 467542be1e42be8590b832506051e79dfe6f6728b9a3cb07e6922473ab1
 source: Teaching Vacancies
 source_job_id: receptionist-the-open-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-open-academy
----
-
----
-action: 
-SELECTED | Norfolk | Norwich, East of England, NR14 6JX | £18,788.02 - £19,547.60 Annually (Actual) ALT Grade E Point 12-15 £27,060-£28,154 Annually, FTE | SEND Specialist Administrator
-employer: Loddon Junior School
-closing_date: 2026-11-23T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ee08de88883322c4a7a867cadfd3b661f062739768fdd29f7ba430ec41a5376a
-source: Teaching Vacancies
-source_job_id: send-specialist-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-specialist-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-23
-review_fingerprint: a27d2b8bfc4469d14890f09f1377e191a5648fb0ba2fa64b42fac6a9cef702ea
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: bf3ce89f0a19be16a718aa210610ec479bc40423934a40e5c05a73d752225edd
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
+- Records: 27
 - Selected: 4
-- POSS awaiting decision: 4
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 18
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN9 1BY | £25,269.00 Annually (FTE) £21,150 Actual salary - 190 days (37 hours per week). | Administrative Assistant - SEND
+employer: South Axholme Academy
+closing_date: 2026-12-01T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c14a24eb621fe3faecad82ff67f2c7162cd4643091ceb46a287b123706f83de3
+source: Teaching Vacancies
+source_job_id: administrative-assistant-send-south-axholme-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-send-south-axholme-academy
+---
 
 ---
 action: 
@@ -34,21 +49,6 @@ factual_fingerprint: 9bddfdeaf7a42bc31b8ac2912733026d68e3d463141a355ef9fd6e25da3
 source: Teaching Vacancies
 source_job_id: finance-administrator-sheffield-park-academy-sheffield-south-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-sheffield-park-academy-sheffield-south-yorkshire
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, S9 4LR | £31,015.00 - £33,673.00 Annually (Actual) | HR Administrator
-employer: Chorus Education Trust
-closing_date: 2026-11-29T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c5c626cd51632a3f761bef38095cd5db60ab68b8229dd63f54e49344c8a118ce
-source: Teaching Vacancies
-source_job_id: hr-administrator-chorus-education-trust-sheffield-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-chorus-education-trust-sheffield-not-recorded
 ---
 
 ---
@@ -115,6 +115,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 
 ---
 action: 
+POSS | Yorkshire - South | Sheffield, S9 4LR | £31,015.00 - £33,673.00 Annually (Actual) | HR Administrator
+employer: Chorus Education Trust
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c5c626cd51632a3f761bef38095cd5db60ab68b8229dd63f54e49344c8a118ce
+source: Teaching Vacancies
+source_job_id: hr-administrator-chorus-education-trust-sheffield-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-chorus-education-trust-sheffield-not-recorded
+---
+
+---
+action: 
 POSS | Yorkshire - South | Sheffield, Yorkshire and the Humber, S4 8GB | £37,384.00 Annually (FTE) | Operations Officer
 employer: Fir Vale Academy
 closing_date: 2026-11-30T09:00:00+00:00
@@ -152,13 +167,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-s
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-beck-primary-school) — No usable numeric salary.
 - [Assistant Financial Accountant](https://teaching-vacancies.service.gov.uk/jobs/assistant-financial-accountant-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Data, Exams & Academic Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-exams-academic-operations-assistant) — Insufficient admin/service evidence.
-- [Director of Health & Safety](https://teaching-vacancies.service.gov.uk/jobs/director-of-health-safety) — Excluded senior/management title.
 - [Exams & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-cover-manager-fir-vale-academy) — Excluded senior/management title.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-place-partnership-a-multi-academy-trust) — Insufficient admin/service evidence.
 - [Head of Business Development (VRN000003)](https://teaching-vacancies.service.gov.uk/jobs/head-of-business-development-vrn000003) — Excluded senior/management title.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-cascade-multi-academy-trust) — Salary over £50k.
 - [Information Advice and Guidance Officer - Employability](https://teaching-vacancies.service.gov.uk/jobs/information-advice-and-guidance-officer-employability) — No usable numeric salary.
 - [KS5 Attendance and Inclusion Lead](https://teaching-vacancies.service.gov.uk/jobs/ks5-attendance-and-inclusion-lead) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-helen-s-catholic-primary-school) — Excluded senior/management title.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-1e4ec526-7e90-471c-ac7b-53d95ee8bda4) — Insufficient admin/service evidence.
 - [Personal Care Assistant (PCA)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-pca-newman-school) — Insufficient admin/service evidence.
 - [Pupil Premium Extra Curricular Visits Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extra-curricular-visits-co-ordinator) — No usable numeric salary.

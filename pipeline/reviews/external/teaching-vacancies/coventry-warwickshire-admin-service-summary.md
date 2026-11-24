@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-23
-review_fingerprint: b77983d5e59ddf71bf9bcfe8d25b4454bf025943ddf7976bbc12b21f23c85a21
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 8683833b482d89c76d6152e1434f0bb2f7476aebee0efdc118ec8e1502639357
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 4
+- Records: 16
+- Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 7
@@ -34,6 +34,21 @@ factual_fingerprint: 2bdc248d14ee7f8a794fa8359433a2f4c23addf14706293c4907ac98dfa
 source: Teaching Vacancies
 source_job_id: administration-assistant-alderman-s-green-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-alderman-s-green-primary-school
+---
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Nuneaton, West Midlands, CV11 6AA | £21,993.64 - £21,993.64 Annually (Actual) Pro rata Salary: £21,993.64 (FTE £25,570 | Administration Assistant
+employer: Etone College
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 40d0ac84b5e4e17eece9ff33f3e475897645df68594368aedc22cc0f698a2c46
+source: Teaching Vacancies
+source_job_id: administration-assistant-etone-college-nuneaton-warwickshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-etone-college-nuneaton-warwickshire
 ---
 
 ---

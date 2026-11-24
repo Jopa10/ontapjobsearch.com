@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-11-23
-review_fingerprint: d3d55ea4dc88776b4f63db67c6058ad91915e1f641bfc9dec5663cfe87234205
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: faa7bd00babd0a25f2266de106d59291c203874945ac654156e2512b0b01b238
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -62,7 +62,7 @@ reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 680ebe1b31d10ac6390c78d02d308cb6e41cbf914290f9c9559ae8d1ca707f4b
+factual_fingerprint: b931bd5c265d1892e78afb4b543cc28a372a9b80586fd5642fe85474686d0b38
 source: Teaching Vacancies
 source_job_id: librarian-and-school-support-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/librarian-and-school-support-officer

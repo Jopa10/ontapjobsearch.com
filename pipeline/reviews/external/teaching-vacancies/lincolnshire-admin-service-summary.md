@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-23
-review_fingerprint: bbebf463701137a1a5132238f4a43903371065fedab449e7286e56e35dcd09ee
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 0db26d48f5d7d4cc7c9581b4043a8648816eb07dd29f576c539e3c8889dcf891
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 17
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £26,016.00 - £26,016.00 Annually (FTE) NJC 4: £26,016 - pro rata £13,896.42 per annum | Academy Administrator
+employer: Thomas Middlecott Academy
+closing_date: 2026-12-13T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 878eac4cb8f5f12b6a341b03a6cbda286fc55a2579b7b8d5e46544c4af0585f2
+source: Teaching Vacancies
+source_job_id: academy-administrator-70aa2090-4f96-4f2d-a3a8-04143fd883ee
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-70aa2090-4f96-4f2d-a3a8-04143fd883ee
+---
 
 ---
 action: 
@@ -38,32 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 7SX | £21,196.00 - £21,869.00 Annually (Actual) Band 2, SCP 3 - 5 | Administrative Assistant
-employer: St Peter and St Paul, Catholic Voluntary Academy
-closing_date: 2026-11-23T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 139322b53b3666ab6da11b111290100c1d6322853badd11b20ead3db87373529
-source: Teaching Vacancies
-source_job_id: administrative-assistant-st-peter-and-st-paul-catholic-voluntary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-peter-and-st-paul-catholic-voluntary-academy
----
-
----
-action: 
 SELECTED | Lincolnshire | Lincoln, East Midlands, LN3 4JP | PPS4 £26,016 per annum, pro rata to £19,621 | Administrative Assistant
 employer: The Priory Pembroke Academy
-closing_date: 2026-11-23T23:59:00+00:00
+closing_date: 2026-11-29T23:59:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 064824734fa02f0c1702a31d6f4dd594edb3f198d71c4ba0db0cec66003cf29a
+factual_fingerprint: cae4330596f257dbea9679adca5f312cf3010bd585a7ed2d06efc71fa90cf08e
 source: Teaching Vacancies
-source_job_id: administrative-assistant-the-priory-pembroke-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-priory-pembroke-academy
+source_job_id: administrative-assistant-the-priory-pembroke-academy-lincoln-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-priory-pembroke-academy-lincoln-lincolnshire
 ---
 
 ---
@@ -135,9 +135,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 ## HARD_PASS
 
 - [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-franklin-sixth-form-college) — Excluded senior/management title.
+- [Finance Business Partner Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-assistant-lincoln-college) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-e6664367-3eb0-42c0-9724-283bf6ac70a0) — Excluded senior/management title.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership-boston-not-recorded) — Insufficient admin/service evidence.
 - [Pastoral Administrator](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
+- [School Bursar](https://teaching-vacancies.service.gov.uk/jobs/school-bursar-cliffedale-primary-school-grantham-lincolnshire) — No usable numeric salary.
 - [School Business Manager & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-chief-financial-officer-kesteven-and-grantham-girls-school) — Excluded senior/management title.
 - [School Business Manager (CFO)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cfo) — Excluded senior/management title.
 - [SEND Admin](https://teaching-vacancies.service.gov.uk/jobs/send-admin-sir-robert-pattinson-academy) — No usable numeric salary.

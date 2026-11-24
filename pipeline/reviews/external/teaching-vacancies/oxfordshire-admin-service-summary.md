@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-23
-review_fingerprint: af9aaf0a722e2f85516a2a476c596705c69540aff54b06533434faf4688bc905
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: f544008f357daef5a16741b497610df9eb3ccb7a0d5495bf8ef59dbca089c0d6
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -34,6 +34,21 @@ factual_fingerprint: d019bfa0410fa110daefdb2d8780bd7acd20f1aa5ee0e04b4792015b6c5
 source: Teaching Vacancies
 source_job_id: administration-assistant-carterton-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-carterton-community-college
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Didcot, South East, OX11 7AJ | £16,470.00 - £19,997.00 Annually (Actual) Grade 5 | Administrator and Receptionist
+employer: Didcot Girls' School
+closing_date: 2026-12-08T08:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e6fdb0f2575bfc7487f20dcf4754724b4c24af8aece7e82666e8c38f3270f825
+source: Teaching Vacancies
+source_job_id: administrator-and-receptionist-didcot-girls-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-receptionist-didcot-girls-school
 ---
 
 ---

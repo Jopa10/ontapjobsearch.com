@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-23
-review_fingerprint: b067347cc2a97a60e618d6faa30325b4645acf8f88d16ddadff91e1e93f55347
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 570ce6649c6fd0e17088e82ab978d7ada1e87fb5a5d11a753f566966ca8fc322
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Surrey | Horley, South East, RH6 8SU | Apprenticeship rates - £13,317.00 (£8ph for the first year, then dependent on age) | Apprentice Administrative Assistant and Receptionist
-employer: Westvale Park Primary Academy
-closing_date: 2026-11-24T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
+SELECTED | Surrey | Guildford, South East, GU2 8AA | £20,099.00 - £21,521.00 Annually (Actual) (FTE £25,879 - £27,710) | Administrative Assistant
+employer: Wey Valley College
+closing_date: 2026-12-08T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f71e1aa8c5e3c4df5e7cb1d21904920ea52677596a982cd51d26164c50b7c63b
+factual_fingerprint: 8b4db4cd7ed004376f4fed611cbcc1ad4724659d91ae32ea8be09f001c577a15
 source: Teaching Vacancies
-source_job_id: administrative-assistant-and-receptionist-westvale-park-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-receptionist-westvale-park-primary-academy
+source_job_id: administrative-assistant-wey-valley-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-wey-valley-college
 ---
 
 ---
@@ -75,7 +75,7 @@ reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1653db47d279e1380f4e3ec63444c64cdcbb615a9cdd237da2c1c40d85c94dab
+factual_fingerprint: 15ba29385f4f728c45db4f2cf3c18d948dad6461d93d0abeb63bf290cd6c6c59
 source: Teaching Vacancies
 source_job_id: office-admin-assistant-kingfield-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-admin-assistant-kingfield-primary-school
@@ -123,6 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator-sun
 - [Apprenticeships Review Officer](https://teaching-vacancies.service.gov.uk/jobs/apprenticeships-review-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-grange-community-infant-school) — Excluded senior/management title.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-south-farnham-educational-trust) — Excluded senior/management title.
+- [Sustainability Officer](https://teaching-vacancies.service.gov.uk/jobs/sustainability-officer-greensand-multi-academy-trust) — Insufficient admin/service evidence.
 - [Trust Leader Data and Insights](https://teaching-vacancies.service.gov.uk/jobs/trust-leader-data-and-insights) — Excluded senior/management title.
 - [Weekend Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/weekend-lettings-assistant-45375d5d-6f2d-419c-818e-6b822630e49f) — Insufficient admin/service evidence.
 

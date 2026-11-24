@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-23
-review_fingerprint: 1a34951439dcd38cabf15ddba8dc0049d181a06b82d3856d4332e82e79ee42d3
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: d74c6935b2d0b515efa36d3d82c11333f934932f55aa6b0d0b12d5701396c47f
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 19
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 9
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-
 
 ---
 action: 
+SELECTED | Suffolk | Bury St Edmunds, East of England, IP32 7BH | £26,017 per annum - £26,847 per annum (Dependent on qualifications and experience) | Admin assistant
+employer: Priory School
+closing_date: 2026-11-30T08:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4f9b31ec4abc4ce7a01be9d7d9c59f0811f9f99af560d1721cca196546776348
+source: Teaching Vacancies
+source_job_id: admin-assistant-priory-school-bury-st-edmunds-suffolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-priory-school-bury-st-edmunds-suffolk
+---
+
+---
+action: 
 SELECTED | Suffolk | Beccles, East of England, NR34 9PG | £10,537.00 - £10,874.00 Annually (Actual) Grade 3, points 4-6, £26,016-£26,847 FTE | Business Support Officer - Sixth Form
 employer: Sir John Leman High School
 closing_date: 2026-11-27T12:00:00+00:00
@@ -49,6 +64,21 @@ factual_fingerprint: 9ad88c437c62dfef935ee0894747be4261be1c06a93685389d22e3b660c
 source: Teaching Vacancies
 source_job_id: business-support-officer-sixth-form
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-sixth-form
+---
+
+---
+action: 
+SELECTED | Suffolk | Ipswich, East of England, IP8 3SU | £26,017 - £26,847 per annum (Dependent on qualifications and experience) | Curriculum Administrator
+employer: One Sixth Form College
+closing_date: 2026-12-04T08:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c1e2c5e60079eeacdf1d8f9e6f0d566c807672b47ee338e4d3ef270143c9d546
+source: Teaching Vacancies
+source_job_id: curriculum-administrator-one-sixth-form-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-one-sixth-form-college
 ---
 
 ---
@@ -83,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-
 
 ---
 action: 
+SELECTED | Suffolk | Bury St. Edmunds, IP33 3RL | £27,639 - £30,078 per annum (Dependent on qualifications and experience) | Executive Personal Assistant
+employer: Eastern Education Group Trust
+closing_date: 2026-11-30T08:00:00+00:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 809eca44502d6d1b5619a4a02df4f11f0b360a0ba7ea202f25681dfd3a0ac573
+source: Teaching Vacancies
+source_job_id: executive-personal-assistant-eastern-education-group-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-personal-assistant-eastern-education-group-trust
+---
+
+---
+action: 
 SELECTED | Suffolk | Ipswich, East of England, IP2 0NR | £26,016.00 - £26,847.00 Annually (FTE) Grade 3, Point 4 to Point 6 | School Administrator Maternity cover
 employer: The Oaks Primary School
 closing_date: 2026-12-31T23:59:00+00:00
@@ -107,10 +152,10 @@ reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 213cef6042fa76b0986863a035065129384e56746d686cfacc2e5f9fc8287fdf
+factual_fingerprint: 1a57fcb85c5e0124a92e5a137cf194cf4d556ad5db4be8467f842ae52231816d
 source: Teaching Vacancies
-source_job_id: administrator-ad4a3911-4e57-4520-8f05-85eb38aff13e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ad4a3911-4e57-4520-8f05-85eb38aff13e
+source_job_id: administrator-84264767-b92b-40ee-9ba7-79e7a88a4302
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-84264767-b92b-40ee-9ba7-79e7a88a4302
 ---
 
 ---
@@ -135,7 +180,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccl
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-stradbroke-high-school-eye-suffolk) — Insufficient admin/service evidence.
+- [Curriculum and Capacity Planning Lead](https://teaching-vacancies.service.gov.uk/jobs/curriculum-and-capacity-planning-lead) — Excluded senior/management title.
+- [Group Senior Lead - SEND Admission and Tribunal](https://teaching-vacancies.service.gov.uk/jobs/group-senior-lead-send-admission-and-tribunal) — Excluded senior/management title.
+- [Head of Estates](https://teaching-vacancies.service.gov.uk/jobs/head-of-estates-east-anglian-schools-trust-ltd) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-northgate-high-school-ipswich-suffolk) — Excluded senior/management title.
+- [Payroll and Pensions Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-co-ordinator) — Insufficient admin/service evidence.
 - [SEND Officer](https://teaching-vacancies.service.gov.uk/jobs/send-officer-east-coast-college) — Insufficient admin/service evidence.
 - [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare) — Insufficient admin/service evidence.
 - [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare-east-coast-college) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-11-23
-review_fingerprint: 12711c8904c2ded3cfb4721921b7c0ee86e425ec7def00b79367a0f133466321
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 72d4a8ca5b8e438e9c5141e9c93f94857c0220711fd78e12f6ad303d5b1af507
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
@@ -68,28 +68,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Greater Manchester - South | Sale, North West, M33 3JR | £27,922.00 Annually (FTE) 22.5 hours – 3 days a week (8.00am – 4.00pm) Mon to Wed (30 minutes unpaid lunch). Term Time plus 5 INSET days . Actual Salary £14,456 per annum. | Administration Assistant
-employer: Sale High School
-closing_date: 2026-11-24T12:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c802cdafeedfbf687ce35ec6a777685ad289808d683fc97f909fea340cfef765
-source: Teaching Vacancies
-source_job_id: administration-assistant-sale-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-sale-high-school
----
-
-## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Greater Manchester - South | Stockport, North West, SK5 6BL | £27,274.00 - £29,071.00 Annually (FTE) Pro rata salary banding £23,380 - £24,921 | Administrator
+SELECTED | Greater Manchester - South | Stockport, North West, SK5 6BL | £27,274.00 - £29,071.00 Annually (FTE) Pro rata salary banding £23,380 - £24,921 | Administrator
 employer: St Elisabeth's Church of England Primary
 closing_date: 2026-11-26T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: b0250cfee9ebd06a545b7f92e1e8f619601fb8fb9663a3e2462502ac8b46a2e6
@@ -97,6 +80,10 @@ source: Teaching Vacancies
 source_job_id: administrator-st-elisabeth-s-church-of-england-primary
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-elisabeth-s-church-of-england-primary
 ---
+
+## POSS — choose SELECT or EXCLUDE
+
+- None.
 
 ## EXCLUDED BY REVIEW
 

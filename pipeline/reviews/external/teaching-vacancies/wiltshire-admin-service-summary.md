@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-23
+review_date: 2026-11-24
 review_fingerprint: bb6c13ca933585d69899c2f4700793b2f7de460fb91b116c3609f424bd4f4cf2
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -123,7 +123,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative
 
 - [Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-osmund-s-catholic-primary-school-salisbury) — No usable numeric salary.
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-bulford-st-leonard-s-c-of-e-va-primary-school-salisbury-wiltshire) — Insufficient admin/service evidence.
-- [Day Care Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/day-care-admin-officer) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-61dd4b2c-8abb-45aa-8592-00a4fb2c91e7) — Insufficient admin/service evidence.
 - [Primary Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/primary-operations-manager-excalibur-academies-trust) — Excluded senior/management title.
 

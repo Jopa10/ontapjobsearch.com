@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-23
-review_fingerprint: 2762455df8417d782b57160886cae13030b889c75c52c59c68c5c04bebc0bde5
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: d52bf3267a3868bcd4c906808da9d1b00717227d1e3fb2b312072e270f03be85
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
+- Records: 13
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -79,21 +79,6 @@ factual_fingerprint: 2e8126900367c6f72d16045ea20a134f243a77e6c301569286416cb8f02
 source: Teaching Vacancies
 source_job_id: administrative-assistant-st-joseph-s-catholic-primary-school-hartlepool
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-joseph-s-catholic-primary-school-hartlepool
----
-
----
-action: 
-SELECTED | North East | Sunderland, North East, SR2 7HJ | £22,635.70 - £22,990.95 Annually (Actual) | Receptionist/Administration Assistant
-employer: St Aidan's Catholic Academy
-closing_date: 2026-11-24T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7ab320bc120aed4e70bebe598ad77eb3c7546fdcc45e350c78f1a53a097df103
-source: Teaching Vacancies
-source_job_id: receptionist-administration-assistant-st-aidan-s-catholic-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-st-aidan-s-catholic-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

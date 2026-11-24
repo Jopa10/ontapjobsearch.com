@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-23
-review_fingerprint: 4884322ca018ee9341b95c33b02635329eff55960bd12b86ba3c7bf9f2672555
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 457c32e6b6e702dfd62016b3b5e0ddb72293cb6d9adf8813e5c0c437c361c143
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 11
-- POSS awaiting decision: 4
+- Records: 27
+- Selected: 10
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B9 5RX | £25,614.00 - £27,709.00 Annually (FTE) Pro rata - £23,621 - £25,553 - TTO + 2 weeks | Administrative Assistant
-employer: Saltley Academy
-closing_date: 2026-11-30T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cdcc1e743a6fd1009c30fcd851e631e139682942f4acdc69fc57a74acb33ab9d
-source: Teaching Vacancies
-source_job_id: administrative-assistant-saltley-academy-birmingham-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-saltley-academy-birmingham-west-midlands
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B45 0EU | £28,899.00 - £30,345.00 Annually (Actual) SCP 13-16 FTE £30,023-£31,525 (Actual Salary: £28,899-£30,345) | Attendance & Admissions Officer
 employer: King Edward VI Balaam Wood Academy
 closing_date: 2026-12-04T09:00:00+00:00
@@ -94,6 +79,21 @@ factual_fingerprint: ea62224b58352dddb3cca22a1a19ad6e422dcc001f09ed519866621e6f4
 source: Teaching Vacancies
 source_job_id: attendance-admissions-officer-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-officer-king-edward-vi-balaam-wood-academy-birmingham-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B26 3HU | £13,280.00 - £14,366.00 Annually (Actual) | Attendance and Admin Assistant
+employer: St Thomas More Catholic Primary School
+closing_date: 2026-12-14T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 15537b8a863939cd43d9c793725c6727ffa1ebb24dfb0c6fa2f76eaf40c07f31
+source: Teaching Vacancies
+source_job_id: attendance-and-admin-assistant-st-thomas-more-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-assistant-st-thomas-more-catholic-primary-school
 ---
 
 ---
@@ -143,21 +143,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-i
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, B15 2AF | £25,721.00 - £27,709.00 Annually (FTE) | Finance Assistant
-employer: Think Differently Education Trust
-closing_date: 2026-12-06T20:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2d83bed9b59df00e9a57590ea63b69e0c2db4ff7353f50041709d42de8d578f3
-source: Teaching Vacancies
-source_job_id: finance-assistant-think-differently-education-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-think-differently-education-trust
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 7SD | £25,614.00 - £26,016.00 Annually (Actual) Grade 2 SCP 3-4 (£25614 - £26016 FTE) | 52.14 Weeks Per year | Receptionist
 employer: Q3 Academy Great Barr
 closing_date: 2026-11-26T09:00:00+00:00
@@ -165,10 +150,10 @@ reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0f50e2dd0301f311807ee92d79d00e288fcfc1621415e5fe214e3c91f3daaf61
+factual_fingerprint: 3b94581bbf697201bc6126dbcbbcdc286abcb6081625e838b6a37ca3f0f2c783
 source: Teaching Vacancies
-source_job_id: receptionist-4ad69169-9809-4683-85c8-88b46b3db2a6
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-4ad69169-9809-4683-85c8-88b46b3db2a6
+source_job_id: receptionist-9b77716e-4f98-4198-bc23-2649c1d63d29
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-9b77716e-4f98-4198-bc23-2649c1d63d29
 ---
 
 ---
@@ -197,10 +182,40 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a74232eb33fc56b5cef0d0a4bbd2b59c52bc37305dca6f4f80f0b3b92a35c234
+factual_fingerprint: a5a844cc9d598e9e1215af993d3623246ca08d4a7233e2b58fb284de6015b3ba
 source: Teaching Vacancies
-source_job_id: data-officer-12c20029-e860-4403-8544-d48cf90d0ffa
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-12c20029-e860-4403-8544-d48cf90d0ffa
+source_job_id: data-officer-59a8b6d5-e428-4bef-958c-c2743a4e8c59
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-59a8b6d5-e428-4bef-958c-c2743a4e8c59
+---
+
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B44 8NU | Grade 6, SCP 20 - 24 - £28,153 - £31,015 FTE | Finance Administrator (Part-time)
+employer: Fortis Academy
+closing_date: 2026-12-04T09:00:59+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9c073d82755862af3a333023753300468e8dd65e9af16b7d5e6200a2c3b4f0b6
+source: Teaching Vacancies
+source_job_id: finance-administrator-part-time
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-part-time
+---
+
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, B15 2AF | £25,721.00 - £27,709.00 Annually (FTE) | Finance Assistant
+employer: Think Differently Education Trust
+closing_date: 2026-12-06T20:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2d83bed9b59df00e9a57590ea63b69e0c2db4ff7353f50041709d42de8d578f3
+source: Teaching Vacancies
+source_job_id: finance-assistant-think-differently-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-think-differently-education-trust
 ---
 
 ---
@@ -257,6 +272,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/regional-hub-governan
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-brays-school) — Insufficient admin/service evidence.
 - [Assistant Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/assistant-trust-clerk-summit-learning-trust) — Insufficient admin/service evidence.
 - [Attendance Welfare Officer - Term Time Plus 2 Weeks / 37 Hours per week](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-term-time-plus-2-weeks-37-hours-per-week-tudor-grange-academy-kingshurst) — Insufficient admin/service evidence.
+- [Communication and Engagement Officer (Fixed term Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/communication-and-engagement-officer-fixed-term-maternity-cover) — Insufficient admin/service evidence.
 - [Exam Access Arrangement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exam-access-arrangement-coordinator) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-leigh-trust-birmingham-not-recorded) — Excluded senior/management title.
 - [Head of House PA](https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-dame-elizabeth-cadbury-school-birmingham-west-midlands) — Excluded senior/management title.

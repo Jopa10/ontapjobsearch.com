@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-11-23
-review_fingerprint: 403fb192663315c63a9dafe0f391664573f8ee331e265cd03f6f2573c89b834e
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: fcca51db6123df42c1a02a136f7cc5ce9e0a8a281c9aa11cfedf8d20bf431b42
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -57,12 +57,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 action: 
 POSS | Leicestershire | Loughborough, East Midlands, LE12 9DB | £22,118.00 - £22,470.00 Annually (Actual) | Administration Assistant
 employer: Iveshead School
-closing_date: 2026-12-06T23:59:00+00:00
+closing_date: 2026-11-27T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0f7b25d965d3dfe1b703678113a684080872d2ffd17f13a86803658f690b68e8
+factual_fingerprint: 4e33aca697da051cc7b02b2a45220b02d80c12e0be16275c03a807a2db54e637
 source: Teaching Vacancies
 source_job_id: administration-assistant-iveshead-school-loughborough-leicestershire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-iveshead-school-loughborough-leicestershire

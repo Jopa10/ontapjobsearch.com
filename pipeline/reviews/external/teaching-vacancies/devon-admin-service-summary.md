@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-23
-review_fingerprint: 8498e92f18fe54e1eb1151d208722f8ce06ca6a2ba61b0ff00e90c1ca6476661
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: f65b73ee157f4f84af1cd824295b4ee714facd5d1bc19444b91fbeb9baceeae3
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
+- Records: 24
 - Selected: 3
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 17
 
 ## SELECTED
 
@@ -113,16 +113,33 @@ source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-an
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school-torquay-devon
 ---
 
+---
+action: 
+POSS | Devon | Plymouth, South West, PL7 1JB | £16,621.58 Annually (Actual) Grade B | Receptionist
+employer: Longcause Community Special School
+closing_date: 2026-12-08T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ddcf6f66fe7a88c9d1238ee09128aaa91c3bb20b67b23cf1a94abf42a660b491
+source: Teaching Vacancies
+source_job_id: receptionist-longcause-community-special-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-longcause-community-special-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [[261124A] Marketing & Events Coordinator](https://teaching-vacancies.service.gov.uk/jobs/261124a-marketing-events-coordinator) — Insufficient admin/service evidence.
 - [Assessor - Health](https://teaching-vacancies.service.gov.uk/jobs/assessor-health) — Insufficient admin/service evidence.
 - [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-holsworthy-community-college) — Insufficient admin/service evidence.
 - [Clerk to Governors](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-woodlands-school) — No usable numeric salary.
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-a1a3a65a-9f2f-47b9-8227-68ba8ca76cf9) — No usable numeric salary.
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-67779956-2535-4646-92e2-ef6bf563a877) — No usable numeric salary.
+- [Events & Lettings Officer (weekends)](https://teaching-vacancies.service.gov.uk/jobs/events-lettings-officer-weekends) — No usable numeric salary.
 - [Exams Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-maternity-cover-atlantic-academy) — No usable numeric salary.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Governance and Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/governance-and-administrative-assistant) — No usable numeric salary.
@@ -131,9 +148,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-office
 - [Permanent Pupil Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/permanent-pupil-support-administrator) — No usable numeric salary.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon) — No usable numeric salary.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-f0cae92f-fab5-4d71-9217-1ffc67fdf32d) — No usable numeric salary.
+- [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-stockland-church-of-england-primary-academy-honiton-devon) — No usable numeric salary.
 - [School Buildings and Grounds Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-buildings-and-grounds-caretaker) — Out-of-scope occupation: caretaker.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-bb6742ca-488b-4508-aac4-ff3a63b58893) — Excluded senior/management title.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-glendinning-academy-newton-abbot-devon) — Excluded senior/management title.
 - [Technician - Automotive](https://teaching-vacancies.service.gov.uk/jobs/technician-automotive) — Out-of-scope occupation: technician.
 
 ## Safety boundary

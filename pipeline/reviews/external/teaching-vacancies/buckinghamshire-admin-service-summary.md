@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-23
-review_fingerprint: 05d1248e7d85a75944540a886e5413b916972227b8b9deb7dec0ebc65176c055
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 5aafd5fa3dde58ae91bd00026fc23187fdce6a5d9c23fdd37254b8439fccdb10
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 14
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 8895a1a2391693fd9f36162502660b98a5a4e18cd80bb263f45f5342838
 source: Teaching Vacancies
 source_job_id: librarian-and-careers-administrator-the-kingsbrook-school-aylesbury-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/librarian-and-careers-administrator-the-kingsbrook-school-aylesbury-buckinghamshire
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK5 6EX | £33,673.00 Annually (FTE) Actual Salary – £11,216.75 | PA to Headteacher (2 days per week)
+employer: Denbigh School
+closing_date: 2026-12-04T09:00:00+00:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 76e5b7fb33c71dc815b27be109d7fe0b29959fcbd191a43776854c776bfdc16e
+source: Teaching Vacancies
+source_job_id: pa-to-headteacher-2-days-per-week
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-2-days-per-week
 ---
 
 ---
@@ -85,6 +100,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-technic
 
 ---
 action: 
+POSS | Buckinghamshire | Milton Keynes, MK6 5LA | £30,864.00 - £30,864.00 Annually (FTE) Up to £30,864 FTE (up to £16,745.19 actual) | Governance Professional (Clerk to the Academy Council)
+employer: Creative Education Trust
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6dbe98202bbe3a39547bbb4f8cd727852c068395174967bab43982ebc68f6880
+source: Teaching Vacancies
+source_job_id: governance-professional-clerk-to-the-academy-council
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-to-the-academy-council
+---
+
+---
+action: 
 POSS | Buckinghamshire | High Wycombe, South East, HP15 6AH | £26,522.00 - £28,742.00 Annually (FTE) | Receptionist / Administrator
 employer: Widmer End Community Combined School
 closing_date: 2026-11-30T23:59:00+00:00
@@ -107,6 +137,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-wycombe-high-school) — Excluded senior/management title.
 - [Examination Manager](https://teaching-vacancies.service.gov.uk/jobs/examination-manager-holmer-green-senior-school) — Excluded senior/management title.
 - [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-kents-hill-park-all-through-school) — Insufficient admin/service evidence.
+- [Finance Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-administration-assistant-the-woodlands-school) — Insufficient admin/service evidence.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-5-dimensions-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-broughton-fields-primary-school) — Excluded senior/management title.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-stephenson-mk-trust) — Excluded senior/management title.

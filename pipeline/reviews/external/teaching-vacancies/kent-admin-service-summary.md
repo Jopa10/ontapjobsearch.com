@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-11-23
-review_fingerprint: edbb752d3ae4b86e1660986358bb1dca865b37673093cbb6c7c5a32eabd98fb3
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 810d9791f627ddf74b7250a591f3a9702d011af174ba7ee8c1cb1dc6fc60efe8
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
-- POSS awaiting decision: 3
+- Records: 11
+- Selected: 3
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 4
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-milto
 
 ---
 action: 
+SELECTED | Kent | Rochester, South East, ME1 2FA | NJC Pay Scale C1 point 6 to 19 - £26,847 to £33,119 | Reprographics and Admin Assistant
+employer: St John Fisher Catholic Comprehensive School
+closing_date: 2026-12-04T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4bfc31a2c97ba108ab3879dc799814827aacdc72978a5e0091a98f7c4d3d35f0
+source: Teaching Vacancies
+source_job_id: reprographics-and-admin-assistant-st-john-fisher-catholic-comprehensive-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-admin-assistant-st-john-fisher-catholic-comprehensive-school
+---
+
+---
+action: 
 SELECTED | Kent | Ashford, South East, TN24 8UD | £26,956pa | Safeguarding Administrator
 employer: Highworth Grammar School
 closing_date: 2026-12-03T08:00:00+00:00
@@ -52,6 +67,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administ
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Kent | Rochester, South East, ME1 2FA | NJC Pay Scale B1 Point 20 to 30 £33,673 to £42,123 | Executive Assistant
+employer: St John Fisher Catholic Comprehensive School
+closing_date: 2026-12-04T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c3fa95c281b18264c08ee7cd1d0e168bbaa7e0174c25c8c5c3b7904e27e3d97f
+source: Teaching Vacancies
+source_job_id: executive-assistant-st-john-fisher-catholic-comprehensive-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-st-john-fisher-catholic-comprehensive-school
+---
 
 ---
 action: 

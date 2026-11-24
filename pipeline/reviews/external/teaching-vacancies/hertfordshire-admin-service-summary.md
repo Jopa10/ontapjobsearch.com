@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-23
-review_fingerprint: 3da20f8700b67d6a3346cdcea8e33d9f810bdc8719b75031cb1c268f73a97f04
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 2663cd54e87956029d62542812655906920ec83b1a77f6a8cb1b3dd515b213de
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -34,21 +34,6 @@ factual_fingerprint: 068b073fdfef65fbcbc5b1bc321789424854159f1dea44de3bb848c2708
 source: Teaching Vacancies
 source_job_id: administration-assistant-cover-receptionist
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-cover-receptionist
----
-
----
-action: 
-SELECTED | Hertfordshire | Stevenage, East of England, SG1 3RB | £32,578.00 - £34,811.00 pro rata, starting point depending on experience | Exams Officer - HT
-employer: Barclay Academy
-closing_date: 2026-11-24T12:00:00+00:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2f77281a39112c61a9f938b904bac1cb6f56960b3569f3e7a29027420f2ffd84
-source: Teaching Vacancies
-source_job_id: exams-officer-ht
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-ht
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-11-23
+review_date: 2026-11-24
 review_fingerprint: 916ba00036a6cefb5e200e9dd558a1b232981404f9736c2c3484e730800d448b
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -76,7 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-7940
 
 ## HARD_PASS
 
-- None.
+- [Chief Financial and Operating Officer (CFOO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-and-operating-officer-cfoo) — Excluded senior/management title.
 
 ## Safety boundary
 

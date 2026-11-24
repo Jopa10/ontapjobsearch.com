@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-23
-review_fingerprint: 6e501e62f443c68de04efbe1d6d10fc81a35a0a453eb9538eba75a42ca5f4997
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: bf0437c461fd1231810b5c44cbb04eb84b069cae052e49cd9c202a14d6f8207e
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 8
+- Records: 22
+- Selected: 10
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Berkshire | Newbury, South East, RG14 1LN | FTE Salary £26,427 - £28,153 | Administrative Assistant - Required from January 2027
+employer: The Winchcombe School
+closing_date: 2026-12-04T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 27420dd2463ce7102664d0c94ad85c27dab6dec4786fd3bd04ad99680cbcf76e
+source: Teaching Vacancies
+source_job_id: administrative-assistant-required-from-january-2027
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-required-from-january-2027
+---
 
 ---
 action: 
@@ -94,6 +109,21 @@ factual_fingerprint: 6b25434ada9e00bf658ed793332e9cb8bf8f870ba1b75f4821345b56dd3
 source: Teaching Vacancies
 source_job_id: school-administrator-grazeley-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-grazeley-church-of-england-primary-school
+---
+
+---
+action: 
+SELECTED | Berkshire | Windsor, South East, SL4 5EH | Full or part time would be considered, term time only Salary for full time (37 hours per week), term time only is £24,235 which can be pro-rated for part time, depending on hours. Start: ASAP | School Administrator
+employer: The Windsor Boys' School
+closing_date: 2026-12-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4a432938348f050427d2eaed830f0a5edaa20712fcda6a1380aba460a17f1f95
+source: Teaching Vacancies
+source_job_id: school-administrator-the-windsor-boys-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-the-windsor-boys-school
 ---
 
 ---
@@ -185,6 +215,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-assistant-
 - [Level 3 School Administrator Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/level-3-school-administrator-apprenticeship) — No usable numeric salary.
 - [Medical Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/medical-administrative-assistant-castleview-primary-school) — No usable numeric salary.
 - [Office Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/office-co-ordinator-civitas-academy) — Insufficient admin/service evidence.
+- [Office Manager & Attendance or Admissions Lead](https://teaching-vacancies.service.gov.uk/jobs/office-manager-attendance-or-admissions-lead) — Excluded senior/management title.
 - [Project Manager - Systems Implementation (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/project-manager-systems-implementation-maternity-cover-maiden-erlegh-trust) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-chilton-foliat-church-of-england-primary-school) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.

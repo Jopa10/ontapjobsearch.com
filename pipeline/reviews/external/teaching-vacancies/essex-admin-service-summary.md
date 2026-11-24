@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-23
-review_fingerprint: d4998ab49d338847e167560793b6bba54195f5af2719a9678512549f0c2cad5f
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: d9b7fbe150854a2f84686e6112e6581920c1b74daf61b015d4d1d37171b6a066
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 20
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: c5bbb20e6d0b08f7d8fcf41d213ae4fc5076d970515b9a2b338d36f8639
 source: Teaching Vacancies
 source_job_id: post-16-administrator-belfairs-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-administrator-belfairs-academy
+---
+
+---
+action: 
+SELECTED | Essex | Witham, East of England, CM8 2SD | £21933.24 - £22989.06 per annum | Receptionist
+employer: Lift New Rickstones
+closing_date: 2026-12-08T12:10:29+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 47dfd35565b0237b2029bcf5759f7b5558a52f77750be636ea772c07745d5376
+source: Teaching Vacancies
+source_job_id: receptionist-lift-new-rickstones
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-new-rickstones
 ---
 
 ---
@@ -133,8 +148,8 @@ action:
 POSS | Essex | Brentwood, CM13 2HG | £33,872.00 - £37,334.00 Annually (Actual) Includes Fringe Allowance | Payroll Officer
 employer: Discovery Educational Trust
 closing_date: 2026-11-26T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Part-time finance requires actual earnings/hours and qualification checks
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 03a066623e0ad964cadbab9401f25d0786507229250c760ab9fca0f55bd841b5
@@ -179,7 +194,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 
 ## HARD_PASS
 
-- [Assistant Data Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-manager-the-basildon-upper-academy) — Excluded senior/management title.
 - [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services-st-martin-s-school-brentwood) — Out-of-scope occupation: deputy head.
 - [Director of Human Resources and Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-human-resources-and-operations) — Excluded senior/management title.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.

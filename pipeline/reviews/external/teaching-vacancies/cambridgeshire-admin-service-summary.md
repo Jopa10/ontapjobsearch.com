@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-23
-review_fingerprint: 2a1d1c52505468ed37f868eca8d1ebed020868f73fe7eaf6e6ad08baa6a7b390
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 3d41ef67611a5f5460cbee4200f87a5d5d3cbe6a98d3aeaa0d55c0ed02d68767
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 4
-- POSS awaiting decision: 3
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cambridgeshire | Huntingdon, East of England, PE26 2NJ | Point 3 (£25,614 FTE) | Office Administrator
+employer: Bury CofE Primary School
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7967fd57d291ff2817006dc3ac03592e852fb7bd9aae7be46ae55c6e40669f53
+source: Teaching Vacancies
+source_job_id: office-administrator-cbd6c43f-57ab-4772-adb4-47b38750d543
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cbd6c43f-57ab-4772-adb4-47b38750d543
+---
 
 ---
 action: 
@@ -113,27 +128,13 @@ source_job_id: legal-support-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/legal-support-officer
 ---
 
----
-action: 
-POSS | Cambridgeshire | Huntingdon, East of England, PE26 2NJ | Point 3 (£25,614 FTE) | Office Administrator
-employer: Bury CofE Primary School
-closing_date: 2026-11-29T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7967fd57d291ff2817006dc3ac03592e852fb7bd9aae7be46ae55c6e40669f53
-source: Teaching Vacancies
-source_job_id: office-administrator-cbd6c43f-57ab-4772-adb4-47b38750d543
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cbd6c43f-57ab-4772-adb4-47b38750d543
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Assistant Finance Associate](https://teaching-vacancies.service.gov.uk/jobs/assistant-finance-associate-grace-schools) — Insufficient admin/service evidence.
 - [Corporate Administrator](https://teaching-vacancies.service.gov.uk/jobs/corporate-administrator) — No usable numeric salary.
 - [Governance & Assurance Lead](https://teaching-vacancies.service.gov.uk/jobs/governance-assurance-lead) — Excluded senior/management title.
 - [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-grace-schools) — Insufficient admin/service evidence.
@@ -141,7 +142,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bottisham-village-college) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambourne-village-college) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-longsands-academy) — Excluded senior/management title.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-2caf4b0b-10ec-4bc7-9232-16c27b370a5f) — Excluded senior/management title.
 - [Personal Assistant to Headteacher and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-and-senior-leadership-team-st-john-fisher-catholic-high-school) — Excluded senior/management title.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-80df4620-91d1-4dc5-b093-4937c078bedb) — Salary over £50k.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-23
-review_fingerprint: 1da8c7fadde38ed474276ebede87e959e3d5ca1f5e4f417d8eb538c36842ca8c
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 3536290737aae570b5a589ea1aa5cad278fa9f19dc27eada75208289e5fb16b8
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 4
-- POSS awaiting decision: 0
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
 
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Somerset | Weston-Super-Mare, South West, BS23 4XH | £13,024 - £14,195 | Administrator Level 1 (Part time, FTC)
-employer: Uphill Village Academy
-closing_date: 2026-11-23T23:59:59+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 485dc337d62fde891c71b6e44b9681e9f0e85ee7f27d8dc912a1f8d2f4f594a5
-source: Teaching Vacancies
-source_job_id: administrator-level-1-part-time-ftc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-level-1-part-time-ftc
----
-
----
-action: 
 SELECTED | Somerset | Weston-Super-Mare, South West, BS23 3TZ | £14,504.36 (actual salary) | Office Administrator
 employer: Windwhistle Primary School
 closing_date: 2026-12-01T23:59:59+00:00
@@ -66,13 +51,15 @@ source_job_id: office-administrator-windwhistle-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-windwhistle-primary-school
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
 action: 
-SELECTED | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
+POSS | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
 employer: Writhlington School
 closing_date: 2026-12-07T23:59:59+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: ecb51f1b4b6ee94f56e9e697ed78988786eb5050aab0a1033c4e9107ccddf5c3
@@ -81,9 +68,20 @@ source_job_id: payroll-administrator-writhlington-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-writhlington-school
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
-- None.
+---
+action: 
+POSS | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
+employer: Writhlington School
+closing_date: 2026-12-06T23:59:59+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5aa026883b2c00f0ef1fc869163ff0d48cf13e720db7a41f50ae756a008bba0b
+source: Teaching Vacancies
+source_job_id: payroll-administrator-writhlington-school-radstock-somerset
+source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-writhlington-school-radstock-somerset
+---
 
 ## EXCLUDED BY REVIEW
 

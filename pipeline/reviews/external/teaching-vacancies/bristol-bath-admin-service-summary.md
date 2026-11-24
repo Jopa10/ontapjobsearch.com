@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-23
-review_fingerprint: 00ce5b90040fd6397574a1cffb05341da63a8dd3458e765366b26476880d7508
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 6fbd2360284023cb2444e3dc7a4566100b5dec9213719d2d3b4d337cfbd1dbc7
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 6
+- Records: 7
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 2
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 91e65dc447009a23de15d5a3684bca2bb63d2f6b52b0cbc1f304e4419d0
 source: Teaching Vacancies
 source_job_id: admin-and-attendance-officer-avanti-gardens-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-and-attendance-officer-avanti-gardens-school
----
-
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS15 4JT | £6,822 - £7,435 | Admin Assistant for SEND
-employer: King's Oak Academy
-closing_date: 2026-11-23T23:59:59+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1600e5e652543a2f543d15c8381bdf8170f2bfe63491e2c289c90b066bea5beb
-source: Teaching Vacancies
-source_job_id: admin-assistant-for-send
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-for-send
 ---
 
 ---
@@ -122,8 +107,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-
 ## HARD_PASS
 
 - [Behaviour Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/behaviour-support-administrator-sir-bernard-lovell-academy-bristol) — No usable numeric salary.
-- [Educational Visits and Enrichment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-and-enrichment-coordinator) — No usable numeric salary.
-- [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-pauls-nursery-school-children-s-centre) — Excluded senior/management title.
 
 ## Safety boundary

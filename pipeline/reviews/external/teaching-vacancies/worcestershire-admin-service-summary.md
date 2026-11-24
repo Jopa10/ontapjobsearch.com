@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-11-23
-review_fingerprint: e8513f5210bdccf2b895de5a190f804bd893c2aa7863859f40bce813ed6c95c2
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+review_date: 2026-11-24
+review_fingerprint: 647044376055ad00fd5b0a2cd516cb2d3004fd829a2aeebb02f0ef1cb419e9cc
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -34,6 +34,21 @@ factual_fingerprint: 031caafcf6fafaf5759c99e004000635c0a889b92e78cb7e0b2060c7c2a
 source: Teaching Vacancies
 source_job_id: people-administrator-king-charles-i-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-king-charles-i-school
+---
+
+---
+action: 
+SELECTED | Worcestershire | Worcester, West Midlands, WR4 9FQ | £27,274.00 - £29,070.00 Annually (FTE) Support Pay Scale Grade 4 (Points 7-11 ) Actual Salary £24,479 - £26,091 | Receptionist
+employer: The Aspire Academy
+closing_date: 2026-12-08T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 35f10709439f728512f83d01c671602245ee0b17fda6009585a5edf36a4afc86
+source: Teaching Vacancies
+source_job_id: receptionist-the-aspire-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-aspire-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

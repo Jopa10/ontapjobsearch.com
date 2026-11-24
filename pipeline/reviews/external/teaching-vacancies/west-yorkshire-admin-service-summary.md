@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-23
+review_date: 2026-11-24
 review_fingerprint: c2b305f93abac65eed8838082d300c9e7719d7c6f0064783aa8e3f24b122771c
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 33
+- Records: 35
 - Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 25
+- Hard pass: 27
 
 ## SELECTED
 
@@ -152,6 +152,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-le
 ## HARD_PASS
 
 - [019 - HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/019-hr-assistant) — Insufficient admin/service evidence.
+- [Academy Compliance and Premises Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-compliance-and-premises-manager) — Out-of-scope occupation: premises manager.
 - [Admin and Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-18575951-37f7-4cf2-88ec-92eda75445ad) — No usable numeric salary.
 - [Administration assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chapel-allerton-primary-school) — No usable numeric salary.
 - [Administration Officer - SEND & Pastoral](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-send-pastoral) — Insufficient admin/service evidence.
@@ -169,12 +170,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-le
 - [HR Administration Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-team-leader) — Excluded senior/management title.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-crawshaw-academy) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hillside-primary-school-huddersfield-west-yorkshire) — Excluded senior/management title.
+- [Inclusion Lead (Primary Phase)](https://teaching-vacancies.service.gov.uk/jobs/inclusion-lead-primary-phase) — Excluded senior/management title.
 - [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team-temple-learning-academy) — Excluded senior/management title.
 - [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.
 - [Reprographics and Resources Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-resources-technician) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-westbrook-lane-primary-school) — Excluded senior/management title.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-leodis-academies-trust) — Excluded senior/management title.
+- [Senior Operations Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-operations-administrator) — Excluded senior/management title.
 - [Trust Service Officer - Governance, Assurance and Compliance](https://teaching-vacancies.service.gov.uk/jobs/trust-service-officer-governance-assurance-and-compliance) — Insufficient admin/service evidence.
 
 ## Safety boundary

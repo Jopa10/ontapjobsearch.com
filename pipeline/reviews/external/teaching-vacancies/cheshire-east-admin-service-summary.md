@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-11-23
+review_date: 2026-11-24
 review_fingerprint: beff4098690e1b15dd6f98a6bf3930305beb69115fa55b7c1cc229fe1fdf113e
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -77,7 +77,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Head of Governance and Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-and-compliance-the-learning-partnership-academies-trust) — Excluded senior/management title.
-- [Senior Exams Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-exams-administrator) — Excluded senior/management title.
 - [Trust Branding, Communications and Events Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-branding-communications-and-events-manager) — Excluded senior/management title.
 
 ## Safety boundary

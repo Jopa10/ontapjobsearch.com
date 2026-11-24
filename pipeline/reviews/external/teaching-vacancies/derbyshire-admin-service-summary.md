@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-23
+review_date: 2026-11-24
 review_fingerprint: 19dcc027aa4a853d690f01c3af71a50293f516e93fe25fd000239ce8b2d6dac9
-routing_manifest_sha256: 8c6011a84ed386516191b7961726be77d71e6518bc20f18319b9957913e42908
+routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
