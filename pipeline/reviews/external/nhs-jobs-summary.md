@@ -2,15 +2,63 @@
 
 review_date: 2026-11-24
 
-- Open Administrative & Clerical rows reviewed: 2022
+- Open Administrative & Clerical rows reviewed: 2025
 - Auto/remembered selected: 351
 - Selected HC Tier A: 179
 - Selected HC Tier B: 172
-- POSS awaiting decision: 1583
+- POSS awaiting decision: 1586
 - Excluded: 0
 - HARD_PASS: 88
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Staffordshire | Stafford, ST16 3SR | £49387.00 to £56515.00 | Individual Placement Support (IPS) Employment Team Manager
+source_job_id: 5747408
+title: Individual Placement Support (IPS) Employment Team Manager
+employer: Midlands Partnership NHS Foundation Trust
+region: Staffordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-00034
+factual_fingerprint: 94d4a39a03120736cf6ed97dcca2016a64b97c86f4ec8567005fab6fde1fd6c7
+---
+
+---
+action:
+POSS | NHS Jobs | North East | Newcastle, NE4 7YL | £24882.00 | NHS Talking Therapies Administrator - Newcastle
+source_job_id: 5741412
+title: NHS Talking Therapies Administrator - Newcastle
+employer: Vita Health Group
+region: North East
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0009-26-00003
+factual_fingerprint: 66075d40badfe303d3b999d9fbc9fe2fe87f442a9f8c2f34f2ec3389610c5ac5
+---
+
+---
+action:
+POSS | NHS Jobs | — | 317 01 Freeman Hospital, NE7 7DN | £39959.00 to £56515.00 | Apprentice Performance and Planning Intelligence Specialist
+source_job_id: 5747379
+title: Apprentice Performance and Planning Intelligence Specialist
+employer: The Newcastle upon Tyne Hospitals NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-00012
+factual_fingerprint: ed6ab12c8325bb801291d6b985883f043a0f0eca5c80029bf75f3baf61fb5377
+---
+
+---
+action:
+POSS | NHS Jobs | — | Bebington, CH63 4JY | £49387.00 to £56515.00 | Principal Information Analyst - Commissioning
+source_job_id: 5747415
+title: Principal Information Analyst - Commissioning
+employer: The Clatterbridge Cancer Centre NHSFT
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9158-26-00002
+factual_fingerprint: 10952485dda05a5e969285f89e29ff99e091ea872251969da5206078ca377e63
+---
 
 ---
 action:
@@ -5841,7 +5889,7 @@ employer: The Queen Elizabeth Hospital King's Lynn NHSFT
 region: Norfolk
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-00002
-factual_fingerprint: 33055a24043b8cefc1a1c8c26dfaf04acca29f9c0a0d97ae5fe64cb652af1645
+factual_fingerprint: 6bf087ce7bca5c2ab21c09d1efb34d7ca3af25b7967db11270cdbf072a903f4e
 ---
 
 ---
@@ -7090,18 +7138,6 @@ region: Cumbria - North
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-00009
 factual_fingerprint: 48160675628c26ba6191dc23d47d881ee29b2ceebffff61ab5b65d5c6b351d9c
----
-
----
-action:
-POSS | NHS Jobs | Essex | Basildon, SS16 5NL | £28392.00 | Patient Flow Co-ordinator - Emergency Department
-source_job_id: 5735250
-title: Patient Flow Co-ordinator - Emergency Department
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-00005
-factual_fingerprint: 1d7a5925f7bbaacafd606de5587e4f08a4a85182105266b3db604e1f8dd162e3
 ---
 
 ---
