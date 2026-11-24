@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-23
-review_fingerprint: b8b0e9b7bd9c14708162010dbdb58fd4b235f33c273b151a7fa3ea0016a65cfb
+review_date: 2026-11-24
+review_fingerprint: 3e6bc835bf843877aae744c4aeda300fb09a387b111a28f1f7be6819494c3467
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-23T18:39:47+00:00
+Run generated: 2026-11-24T18:07:33+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1150
+JobG8 comparison rows: 1091
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -21,17 +21,17 @@ Approved NEJobs comparison rows: 0
 - Detail pages fetched successfully: 4
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 11
-- Tees Valley explicitly excluded: 1
+- Tees Valley explicitly excluded: 3
 - Outside or unmapped geography excluded: 0
 - Generic/derived geography rows requiring review: 2
-- Retained target candidates: 14
+- Retained target candidates: 12
 
 ## Outcomes
 - HC: 0
-- POSS: 9
+- POSS: 7
 - HARD_PASS: 5
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 9
+- Final POSS awaiting decision: 7
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -80,19 +80,6 @@ tracking_key: vonne-173736
 vacancy_fingerprint: 7f6b1cc06aa7b624ef8729732e782384d57ac6bb9660b64803b1291ce9c96c91
 source_job_id: 173736
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173736
----
----
-action:
-POSS | North East - County Durham & Darlington/Hartlepool | Durham | £28,000 Per Annum | Support Worker
-employer: Emmaus North East
-closing_date: 31 December 2026
-geography: CONFIRMED — location: exact area
-reason: possible cross-source duplicate requires review
-source: VONNE
-tracking_key: vonne-173685
-vacancy_fingerprint: 4dbabf7aeb40063930d204bde3bf4242013702296b5f91843b8728a09983368a
-source_job_id: 173685
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173685
 ---
 ---
 action:
@@ -146,19 +133,6 @@ vacancy_fingerprint: fd3d605595b9359680e360ca098216b05d4d00136b171a311893c9d9ea3
 source_job_id: 173707
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173707
 ---
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £33,323 Per Annum | Good Work Grants Lead Officer
-employer: Society Matters CIC
-closing_date: 14 December 2026
-geography: CONFIRMED — location: exact area
-reason: transferable title with specialist or borderline wording: lead
-source: VONNE
-tracking_key: vonne-173702
-vacancy_fingerprint: c8ff0702d0cadb59987d047e95cd6083b7009cc8ade06b11fc4012a595b4a9ab
-source_job_id: 173702
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173702
----
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -166,9 +140,9 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173702
 ## HARD_PASS
 
 - [Business Crime Navigator](https://www.vonne.org.uk/vonne-jobs-details?cid=173723) — insufficient service-admin evidence.
-- [CLA Triage Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173690) — out-of-scope VONNE occupation.
-- [School Based Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173700) — insufficient service-admin evidence.
+- [Service Manager - Durham and Darlington Women’s Diversion Service](https://www.vonne.org.uk/vonne-jobs-details?cid=173787) — out-of-scope VONNE occupation.
 - [South Tyneside Child and Young Person Mental Health Service Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173730) — insufficient service-admin evidence.
+- [Support and Development Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173784) — insufficient service-admin evidence.
 - [Team Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173717) — out-of-scope VONNE occupation.
 
 ## Safety boundary
