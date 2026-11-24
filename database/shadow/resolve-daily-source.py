@@ -39,12 +39,17 @@ def resolve():
  deploy=runs[0]
  artifacts=api('/actions/runs/'+str(deploy['id'])+'/artifacts')['artifacts']
  match=[a for a in artifacts if a['name']=='verified-production-sha' and not a['expired']]
- assert len(match)==1,'Missing verified live production commit receipt'
- z=zipfile.ZipFile(io.BytesIO(artifact_bytes(match[0])))
- names=[n for n in z.namelist() if n.endswith('verified-production-sha.txt')]
- assert len(names)==1
- app_sha=z.read(names[0]).decode().strip()
- assert re.fullmatch('[a-f0-9]{40}',app_sha)
+ assert match,'Missing verified live production commit receipt'
+ verified_shas=set()
+ for receipt in match:
+  with zipfile.ZipFile(io.BytesIO(artifact_bytes(receipt))) as z:
+   names=[n for n in z.namelist() if n.endswith('verified-production-sha.txt')]
+   assert len(names)==1,'Invalid verified live production commit receipt'
+   sha=z.read(names[0]).decode().strip()
+   assert re.fullmatch('[a-f0-9]{40}',sha),'Invalid verified live production SHA'
+   verified_shas.add(sha)
+ assert len(verified_shas)==1,'Conflicting verified live production commit receipts'
+ app_sha=verified_shas.pop()
  state=json.loads(content('pipeline/reports-daily/jobg8-daily-cycle-state.json',app_sha))
  day=max(state['completed_cycles'])
  today=datetime.now(ZoneInfo('Europe/London')).date().isoformat()

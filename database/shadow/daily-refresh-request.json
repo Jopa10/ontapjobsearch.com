@@ -1,5 +1,5 @@
 {
   "mode": "today",
-  "attempt": 35,
-  "purpose": "Refresh isolated Neon Preview from the completed publication for the 24 November private alert test."
+  "attempt": 36,
+  "purpose": "Retry Preview refresh with matching verification receipts accepted."
 }
