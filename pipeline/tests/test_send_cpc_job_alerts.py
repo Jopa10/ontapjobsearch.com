@@ -239,6 +239,7 @@ class PrivateDailyTests(unittest.TestCase):
         from unittest.mock import patch
         # The sample has its own date validation; freeze only the UTC clock.
         with patch("datetime.datetime") as clock, patch("subprocess.run") as recorder:
+            recorder.return_value.stdout = ""
             clock.now.return_value = datetime(2026, 10, 22, tzinfo=timezone.utc)
             contact = {**self.contact, "attributes": {**self.contact["attributes"],
                        "ALERT_LAST_SENT_DATE": "2026-10-22"}}

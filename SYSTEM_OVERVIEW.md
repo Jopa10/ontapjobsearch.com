@@ -10,7 +10,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
-- 24 November 2026 — **Private Preview alert sample records its send and recommendations in Neon.** The sender requires the matching job records in Preview before contacting Brevo. The saved send status distinguishes acceptance from an unconfirmed result.
+- 24 November 2026 — **Private Preview alert sample records its send and recommendations in Neon.** The sender requires the matching job records in Preview before contacting Brevo. The saved send status distinguishes acceptance from an unconfirmed result. Repeating a confirmed send finishes successfully with “Already sent — skipped.”
 
 - 18 November 2026 — **Private email signup integration prepared for Preview:** the signup screen asks for clear email consent, then the Preview backend records the user, email address, preferences and consent in the isolated Neon test database after Brevo accepts the signup. The change is not merged or live; the database migration and owner-submitted signup test are still required. `jnabon1108@gmail.com` remains excluded from daily test emails, and public delivery stays off.
 

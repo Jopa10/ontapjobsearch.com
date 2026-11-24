@@ -688,11 +688,11 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
         key = str(uuid.uuid5(uuid.NAMESPACE_URL, "ontap-private-matched-sample:" + identity))
 
         def record(action, **payload):
-            subprocess.run(
+            return subprocess.run(
                 ["node", str(Path(__file__).with_name("record_neon_alert_sample.mjs"))],
                 input=json.dumps({"action": action, "key": key, **payload}),
-                text=True, check=True,
-            )
+                text=True, check=True, stdout=subprocess.PIPE,
+            ).stdout
 
         recommendations = []
         for job in sample_jobs:
@@ -702,7 +702,9 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
                                   "ALERT_SALARY": p["salary"], "ALERT_REGION": p.get("region", "")}, job)
             )
             recommendations.append({"publicId": str(job["job_id"]), "preferenceId": preference["preferenceId"]})
-        record("reserve", matches=recommendations)
+        if record("reserve", matches=recommendations).strip() == "already-sent":
+            print("Already sent — skipped")
+            return
         try:
             result = _brevo_request("POST", "/smtp/email", api_key, {
                 "headers": {"idempotencyKey": key},

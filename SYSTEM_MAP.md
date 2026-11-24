@@ -12,7 +12,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
-- 24 November 2026 — **Private Preview alert sample records its send and recommendations in Neon.** The sender requires the matching job records in Preview before contacting Brevo. The saved send status distinguishes acceptance from an unconfirmed result.
+- 24 November 2026 — **Private Preview alert sample records its send and recommendations in Neon.** The sender requires the matching job records in Preview before contacting Brevo. The saved send status distinguishes acceptance from an unconfirmed result. Repeating a confirmed send finishes successfully with “Already sent — skipped.”
 
 - 18 November 2026 — **Private CPC alert signup wired for isolated Preview testing:** the signup form now requires an unchecked-by-default, versioned email consent; the Preview API records the canonical user, address, alert preference and consent in `ontap_shadow` after Brevo accepts the address. This code is on `feat/cpc-alert-neon-signup`; it is not merged or live. `jnabon1108@gmail.com` is allowed only through the signup path and remains excluded from daily private sends. The additive user-identity migration must be applied to the Preview database before the owner submits the signup. Production storage and public delivery remain off.
 

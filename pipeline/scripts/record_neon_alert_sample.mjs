@@ -40,8 +40,16 @@ try {
       ON CONFLICT (idempotency_key) DO NOTHING RETURNING id
     `, [randomUUID(), payload.key, saved.subscriberId, saved.userId, saved.userEmailId, saved.email]);
     const id = reserved.rows[0]?.id;
-    if (!id) throw new Error("This sample already has a send record or the signup is no longer active.");
-    for (const match of payload.matches) {
+    if (!id) {
+      const existing = await client.query(`
+        SELECT status FROM ontap_shadow.emails_sent
+        WHERE idempotency_key = $1 AND subscriber_id = $2 AND user_id = $3 AND user_email_id = $4
+      `, [payload.key, saved.subscriberId, saved.userId, saved.userEmailId]);
+      if (existing.rows[0]?.status !== "sent") {
+        throw new Error("This sample has an unresolved send or the signup is no longer active.");
+      }
+    }
+    for (const match of id ? payload.matches : []) {
       const result = await client.query(`
         INSERT INTO ontap_shadow.job_recommendations
           (id, email_id, subscriber_id, user_id, user_email_id, preference_id,
@@ -57,6 +65,7 @@ try {
       if (result.rowCount !== 1) throw new Error("A matched job or its saved preference is missing in Preview Neon.");
     }
     await client.query("COMMIT");
+    if (!id) console.log("already-sent");
   } else if (payload.action === "sent" || payload.action === "uncertain") {
     const result = await client.query(`
       UPDATE ontap_shadow.emails_sent
