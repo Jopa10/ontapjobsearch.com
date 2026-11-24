@@ -15,7 +15,8 @@ if (process.env.ONTAP_SHADOW_NEON_PROJECT_ID !== "noisy-fire-97386602") {
 const connectionString = process.env.ONTAP_SHADOW_DATABASE_URL;
 if (!connectionString) throw new Error("Preview Neon connection is not configured for this GitHub environment.");
 const connection = new URL(connectionString);
-if (!connection.hostname.endsWith(".neon.tech") ||
+if (!/^ep-cold-poetry-za762gxw(?:-pooler)?\.c-2\.eu-west-2\.aws\.neon\.tech$/.test(connection.hostname) ||
+    connection.pathname !== "/neondb" ||
     !["require", "verify-full"].includes(connection.searchParams.get("sslmode") || "")) {
   throw new Error("The private sender requires TLS to the approved Neon host.");
 }
