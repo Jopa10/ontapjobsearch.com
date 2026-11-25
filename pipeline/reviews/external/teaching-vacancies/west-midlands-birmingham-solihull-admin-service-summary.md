@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-24
-review_fingerprint: 457c32e6b6e702dfd62016b3b5e0ddb72293cb6d9adf8813e5c0c437c361c143
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 41d1548c3d2cb12dfe6d1ac07233ac42347be48d82d21017d99e0073f41f11db
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
+- Records: 29
 - Selected: 10
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 13
 
 ## SELECTED
 
@@ -85,12 +85,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions
 action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B26 3HU | £13,280.00 - £14,366.00 Annually (Actual) | Attendance and Admin Assistant
 employer: St Thomas More Catholic Primary School
-closing_date: 2026-12-14T09:00:00+00:00
+closing_date: 2026-12-09T09:00:00+00:00
 reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 15537b8a863939cd43d9c793725c6727ffa1ebb24dfb0c6fa2f76eaf40c07f31
+factual_fingerprint: 44912b4bc339400f7f9578c0a450c3cad9cab3c99fd8b4f609874f0b8b5d27f9
 source: Teaching Vacancies
 source_job_id: attendance-and-admin-assistant-st-thomas-more-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-assistant-st-thomas-more-catholic-primary-school
@@ -182,10 +182,10 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a5a844cc9d598e9e1215af993d3623246ca08d4a7233e2b58fb284de6015b3ba
+factual_fingerprint: eb8951e8df0df6721a25e9de29d90287c4066b3973edd7677cd66f8ebfbaf3f0
 source: Teaching Vacancies
-source_job_id: data-officer-59a8b6d5-e428-4bef-958c-c2743a4e8c59
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-59a8b6d5-e428-4bef-958c-c2743a4e8c59
+source_job_id: data-officer-54d518c9-d914-4b26-9f84-a8efb2efeb9f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-54d518c9-d914-4b26-9f84-a8efb2efeb9f
 ---
 
 ---
@@ -276,10 +276,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/regional-hub-governan
 - [Exam Access Arrangement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exam-access-arrangement-coordinator) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-leigh-trust-birmingham-not-recorded) — Excluded senior/management title.
 - [Head of House PA](https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-dame-elizabeth-cadbury-school-birmingham-west-midlands) — Excluded senior/management title.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-pa-community-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-clement-s-church-of-england-academy-birmingham-west-midlands) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-boys-school-birmingham) — Excluded senior/management title.
 - [School Office Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-senior-administrator) — Excluded senior/management title.
 - [Senior Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-assistant-birches-green-primary-school) — Excluded senior/management title.
+- [Trust Lead for Central Operations](https://teaching-vacancies.service.gov.uk/jobs/trust-lead-for-central-operations) — Excluded senior/management title.
 
 ## Safety boundary
 

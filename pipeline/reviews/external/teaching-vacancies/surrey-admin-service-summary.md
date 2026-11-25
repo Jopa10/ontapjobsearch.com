@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-24
-review_fingerprint: 570ce6649c6fd0e17088e82ab978d7ada1e87fb5a5d11a753f566966ca8fc322
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 9bfada831d535998d381327431b410557de3773aa40b4a328010564d5e9fac95
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -75,7 +75,7 @@ reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 15ba29385f4f728c45db4f2cf3c18d948dad6461d93d0abeb63bf290cd6c6c59
+factual_fingerprint: cf3a74e430a61aa6bddd0c8b1879f82a32a03d0e48fa5fb02a429baaaf9f1154
 source: Teaching Vacancies
 source_job_id: office-admin-assistant-kingfield-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-admin-assistant-kingfield-primary-school

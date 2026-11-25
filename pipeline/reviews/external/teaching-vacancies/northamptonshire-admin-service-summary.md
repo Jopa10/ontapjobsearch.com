@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-24
-review_fingerprint: 861ecd20dfc99efb960d5c279825ce272430e70985f035ae2b04070a689f6007
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: d7bad6e90e69d49ab1d061e8d7fc75ea479b059e5675336fd98a26910a241809
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -111,6 +111,21 @@ source_job_id: school-office-administrator-cover-coordinator-st-thomas-becket-ca
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-cover-coordinator-st-thomas-becket-catholic-school-northampton-northamptonshire
 ---
 
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7SW | £27,709.00 Annually (FTE) | SEND Administrator
+employer: Moulton Primary School
+closing_date: 2026-12-02T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f4c4c0a188abd935eba60486882e10b2c6f101bda616454b65aeae51ecc3862d
+source: Teaching Vacancies
+source_job_id: send-administrator-moulton-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-moulton-primary-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -149,10 +164,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-ad
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1dc6e624-98dc-4337-8b41-8fb9e586f829) — Insufficient admin/service evidence.
 - [Administrator - Admissions, Data & Attendance](https://teaching-vacancies.service.gov.uk/jobs/administrator-admissions-data-attendance) — No usable numeric salary.
 - [Admissions & Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-manager-moulton-school-and-science-college) — Excluded senior/management title.
-- [Attendance Support Worker](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-worker-northampton-school) — Insufficient admin/service evidence.
+- [Casual Mini Bus Driver](https://teaching-vacancies.service.gov.uk/jobs/casual-mini-bus-driver-kingswood-secondary-academy) — No usable numeric salary.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-fc338d4c-5ff4-4177-bfa6-fee890e9c710) — Insufficient admin/service evidence.
 - [Finance and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-administration-officer-gloucester-nursery-school) — Insufficient admin/service evidence.
 - [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.

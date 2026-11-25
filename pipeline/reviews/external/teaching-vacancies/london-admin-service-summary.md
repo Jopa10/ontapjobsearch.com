@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-24
-review_fingerprint: e8072ba934fdca48fb0a7b068384cc0e90b535fb5a1fb7f8f9770561ff5efbb1
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: cb1d88cfc3bdf7aca787bba5ac17b1885047aaa4c13592e97f7d4cc13cd5edd0
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 54
-- Selected: 13
-- POSS awaiting decision: 6
+- Records: 62
+- Selected: 12
+- POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 35
+- Hard pass: 43
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: b1c4bcd512df01d20137e1c387dd863a9b27c53c52cfe14c3514460cafc
 source: Teaching Vacancies
 source_job_id: admin-finance-officer-bigland-green-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer-bigland-green-primary-school
----
-
----
-action: 
-SELECTED | London | West Wickham, London, BR4 0LJ | £13,210.63 Annually (Actual) Bromley Localised Pay Grade BR5 Point 13 | Administrative Assistant
-employer: Oak Lodge Primary School
-closing_date: 2026-12-06T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 238b595bda9674f46898d6b1eb5dc37855fef9045afaf38df0ecb8a19dedbe38
-source: Teaching Vacancies
-source_job_id: administrative-assistant-oak-lodge-primary-school-west-wickham-kent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-oak-lodge-primary-school-west-wickham-kent
 ---
 
 ---
@@ -220,6 +205,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
+POSS | London | West Wickham, London, BR4 0LJ | £13,210.63 Annually (Actual) Bromley Localised Pay Grade BR5 Point 13 | Administrative Assistant
+employer: Oak Lodge Primary School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 748eb25585b28e7d5732d5e690376e74736c4efc652c15baaafd5c5802d8ea36
+source: Teaching Vacancies
+source_job_id: administrative-assistant-oak-lodge-primary-school-west-wickham-kent
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-oak-lodge-primary-school-west-wickham-kent
+---
+
+---
+action: 
 POSS | London | London, London, SE10 0BG | £30,408.00 - £30,843.00 Annually (FTE) Greenwich Scale 3 (5-6) £26,506.04 - £27,250.18 Actual Salary | Office Administrator
 employer: Millennium Primary School
 closing_date: 2026-12-04T23:59:00+00:00
@@ -314,16 +314,18 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 
 ## HARD_PASS
 
-- [Academy Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/academy-administration-assistant-075b1c19-1c1d-4bac-b270-4510c6226bb0) — Insufficient admin/service evidence.
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-fd9da38b-d20a-4880-8cf1-32bc2f752164) — Insufficient admin/service evidence.
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-paddock-school-london) — No usable numeric salary.
+- [Admissions and Cover Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-cover-co-ordinator) — Insufficient admin/service evidence.
 - [Attendance & Inclusion Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-inclusion-officer-hurstmere-school) — Insufficient admin/service evidence.
+- [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-waltham-forest-college) — Insufficient admin/service evidence.
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-haberdashers-hatcham-college) — Insufficient admin/service evidence.
 - [Casual Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-administrative-assistant) — No usable numeric salary.
 - [Communications & Digital Media Intern](https://teaching-vacancies.service.gov.uk/jobs/communications-digital-media-intern) — No usable numeric salary.
 - [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-wallington-county-grammar-school) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-winchmore-school) — Excluded senior/management title.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal-haberdashers-borough-academy-london) — Out-of-scope occupation: principal.
+- [Employee Relations Specialist (x2)](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist-x2) — Salary over £50k.
 - [Finance and Admissions Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-admissions-assistant) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
@@ -336,6 +338,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Salary over £50k.
 - [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover-oak-wood-school) — Excluded senior/management title.
 - [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college-london) — Insufficient admin/service evidence.
+- [Lead Attendance Officer/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/lead-attendance-officer-receptionist) — Excluded senior/management title.
+- [Multisite HR Manager](https://teaching-vacancies.service.gov.uk/jobs/multisite-hr-manager) — Excluded senior/management title.
 - [Music Department Administrator](https://teaching-vacancies.service.gov.uk/jobs/music-department-administrator) — No usable numeric salary.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-0e28a447-7d05-4d98-a982-7c5d569e40f0) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-ark-evelyn-grace-academy) — Excluded senior/management title.
@@ -349,6 +353,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-sherwood-school) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-connaught-special-school-london) — Excluded senior/management title.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-the-grove) — Excluded senior/management title.
+- [Senior People Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-people-operations-manager) — Excluded senior/management title.
+- [Sixth Form Learning Mentor - Academic & Pastoral](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-learning-mentor-academic-pastoral-wren-academy-finchley) — Insufficient admin/service evidence.
+- [Student Engagement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/student-engagement-coordinator-croydon-college) — No usable numeric salary.
+- [Trust Wide Admissions Officer and Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-wide-admissions-officer-and-executive-assistant) — No usable numeric salary.
 
 ## Safety boundary
 

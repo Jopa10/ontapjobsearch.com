@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-24
-review_fingerprint: f65b73ee157f4f84af1cd824295b4ee714facd5d1bc19444b91fbeb9baceeae3
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: ea5c6abfee2f873e4f30767bec977fd2c784bcce649f9ae2fa70f66b11d44676
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 24
 - Selected: 3
-- POSS awaiting decision: 4
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 16
 
 ## SELECTED
 
@@ -128,6 +128,21 @@ source_job_id: receptionist-longcause-community-special-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-longcause-community-special-school
 ---
 
+---
+action: 
+POSS | Devon | Totnes, South West, TQ9 7BE | £12,062 - £12,254 prorated per annum. | School Administrator
+employer: Blackawton Primary School
+closing_date: 2026-11-27T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2804c9929b32de1df6d6f4ef7303328414cad569d3f71982485840af443fb8c6
+source: Teaching Vacancies
+source_job_id: school-administrator-blackawton-primary-school-totnes-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -135,6 +150,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-longcaus
 ## HARD_PASS
 
 - [[261124A] Marketing & Events Coordinator](https://teaching-vacancies.service.gov.uk/jobs/261124a-marketing-events-coordinator) — Insufficient admin/service evidence.
+- [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-southmead-school) — No usable numeric salary.
 - [Assessor - Health](https://teaching-vacancies.service.gov.uk/jobs/assessor-health) — Insufficient admin/service evidence.
 - [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-holsworthy-community-college) — Insufficient admin/service evidence.
 - [Clerk to Governors](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-woodlands-school) — No usable numeric salary.
@@ -144,9 +160,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-longcaus
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Governance and Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/governance-and-administrative-assistant) — No usable numeric salary.
 - [HR Recruitment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-coordinator-the-academies-for-character-and-excellence) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-boringdon-primary-school-plymouth-devon) — Excluded senior/management title.
 - [Permanent Pupil Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/permanent-pupil-support-administrator) — No usable numeric salary.
-- [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon) — No usable numeric salary.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-f0cae92f-fab5-4d71-9217-1ffc67fdf32d) — No usable numeric salary.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-stockland-church-of-england-primary-academy-honiton-devon) — No usable numeric salary.
 - [School Buildings and Grounds Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-buildings-and-grounds-caretaker) — Out-of-scope occupation: caretaker.

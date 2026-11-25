@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-24
-review_fingerprint: bb6c13ca933585d69899c2f4700793b2f7de460fb91b116c3609f424bd4f4cf2
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 95e8c2cda582f5957ef71296aa034f95e91fc2f040d86597d6cde92f9d8834c0
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-admini
 
 ---
 action: 
-SELECTED | Wiltshire | Swindon, South East, SN6 8FX | £27,709.00 - £30,023.00 Annually (FTE) Support Staff NJC Grade 6, SCP 8 - 13. Actual salary range - £11,572.11 - £12,538.50 | Office Administrator
-employer: Shrivenham Church of England School
-closing_date: 2026-11-24T23:59:00+00:00
-reason: Clear admin/service title: administrator, office administrator
+SELECTED | Wiltshire | Swindon, South West, SN2 1JR | £12,931.00 Annually (Actual) | Part-Time Receptionist (Mat Cover 12 months FTC)
+employer: Swindon Academy
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a12e62bbdd75e1f03774445ad7322dc49c23ce2e7e13abd1383fec239cfd2594
+factual_fingerprint: 3da10d2dd9faf4812eb9fc6ae397a1db1bbf1f59b2723ae25683826ed3baf0f5
 source: Teaching Vacancies
-source_job_id: office-administrator-0cb1df0c-ffca-4e9e-89e2-435084e74288
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-0cb1df0c-ffca-4e9e-89e2-435084e74288
+source_job_id: part-time-receptionist-mat-cover-12-months-ftc-swindon-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-mat-cover-12-months-ftc-swindon-academy
 ---
 
 ---

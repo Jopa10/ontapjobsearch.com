@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-24
-review_fingerprint: 00be8e2d467b2ae00139a5fd1ca88c5cf0926e2adfdc7baa471a085b6c2d3c5e
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 3ecfc50f27abcabc918f28a8271e250525870f30df77b0773eeddee7873f73f1
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
-- POSS awaiting decision: 0
+- Records: 13
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-trips-admin-a
 
 ---
 action: 
-SELECTED | Bedfordshire | Bedford, East of England, MK41 9DQ | £26,016.00 - £26,427.00 Annually (FTE) | Office Administrator
-employer: St John Rigby Catholic Primary School
-closing_date: 2026-11-26T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a9dd5ebc6be99a3534fbc68b2b51b747f2ffd070f57ca38818389b4f32f91380
-source: Teaching Vacancies
-source_job_id: office-administrator-st-john-rigby-catholic-primary-school-bedford-bedfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-john-rigby-catholic-primary-school-bedford-bedfordshire
----
-
----
-action: 
 SELECTED | Bedfordshire | Dunstable, East of England, LU5 6NX | Grade: 2B. NJC Levels 3 – 5 Salary £25,614 - £26,427 (pro-rated) £20,724-£21,382 actual salary for 35 hours per week – term time only plus 5 training days | Receptionist/School Office Administrator – Term Time Only
 employer: Harlington Upper School
 closing_date: 2026-12-08T08:00:00+00:00
@@ -81,13 +66,15 @@ source_job_id: receptionist-school-office-administrator-term-time-only-harlingto
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-office-administrator-term-time-only-harlington-upper-school-dunstable-bedfordshire
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
 action: 
-SELECTED | Bedfordshire | Luton, LU4 0PF | £26,847.00 - £27,709.00 Annually (Actual) | Trust Finance Assistant
+POSS | Bedfordshire | Luton, LU4 0PF | £26,847.00 - £27,709.00 Annually (Actual) | Trust Finance Assistant
 employer: St Thomas Catholic Academies Trust
 closing_date: 2026-11-29T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 825bb9b56310210d71e8b1f09dfb13a26741a260151106146ce6808b3cace93a
@@ -95,10 +82,6 @@ source: Teaching Vacancies
 source_job_id: trust-finance-assistant-st-thomas-catholic-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-st-thomas-catholic-academies-trust
 ---
-
-## POSS — choose SELECT or EXCLUDE
-
-- None.
 
 ## EXCLUDED BY REVIEW
 

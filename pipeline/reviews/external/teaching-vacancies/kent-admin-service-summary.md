@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-11-24
-review_fingerprint: 810d9791f627ddf74b7250a591f3a9702d011af174ba7ee8c1cb1dc6fc60efe8
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: a32bdc58684907cbcfcbf824ebaf0dc8ee0c0fb9e35268056f9e2245fd8a9fe4
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
+- Records: 10
+- Selected: 2
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Kent | Gillingham, South West, SP8 5QD | £26,427.00 - £26,846.00 Annually (FTE) Dorset Grade 5, pay point 5-6, £26,427-£26,846 per annum (DOE) FTE | Admin Assistant
-employer: Milton-on-Stour Church of England Primary School
-closing_date: 2026-11-25T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 84d85e30b046209e02971e7760fd499c0a925760c200e115a5aa4058913ca794
-source: Teaching Vacancies
-source_job_id: admin-assistant-milton-on-stour-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-milton-on-stour-church-of-england-primary-school
----
 
 ---
 action: 

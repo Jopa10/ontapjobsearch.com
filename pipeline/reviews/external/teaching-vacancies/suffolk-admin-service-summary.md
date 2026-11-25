@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-24
-review_fingerprint: d74c6935b2d0b515efa36d3d82c11333f934932f55aa6b0d0b12d5701396c47f
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 9f3109d7c28dffcdfea485b00ee714d17ce71ca2b2f2cd4d7b5b9d314071406c
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 8
+- Records: 17
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Suffolk | Ipswich, East of England, IP1 5JN | £22,376.00 - £23,091.00 Annually (Actual) NJC Salary Scale: 4 - 6 | Academy Receptionist
-employer: Westbourne Academy
-closing_date: 2026-11-25T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 07c053231dd8d80913024afd79a7c8402b191bbc81f87bd031c005097896b26c
-source: Teaching Vacancies
-source_job_id: academy-receptionist-westbourne-academy-ipswich-suffolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-westbourne-academy-ipswich-suffolk
----
 
 ---
 action: 
@@ -179,7 +164,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccl
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-stradbroke-high-school-eye-suffolk) — Insufficient admin/service evidence.
 - [Curriculum and Capacity Planning Lead](https://teaching-vacancies.service.gov.uk/jobs/curriculum-and-capacity-planning-lead) — Excluded senior/management title.
 - [Group Senior Lead - SEND Admission and Tribunal](https://teaching-vacancies.service.gov.uk/jobs/group-senior-lead-send-admission-and-tribunal) — Excluded senior/management title.
 - [Head of Estates](https://teaching-vacancies.service.gov.uk/jobs/head-of-estates-east-anglian-schools-trust-ltd) — Excluded senior/management title.

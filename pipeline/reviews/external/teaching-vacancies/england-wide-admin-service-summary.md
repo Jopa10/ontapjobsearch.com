@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **603**
-- REVIEW NOW (LIVE regions): **583**
-- EDITABLE NOW (no remembered action): **583**
+- All routed roles: **619**
+- REVIEW NOW (LIVE regions): **599**
+- EDITABLE NOW (no remembered action): **599**
 - REMEMBERED / RESOLVED: **0**
 - DEFERRED - REGION NOT LIVE: **20**
-- SELECTED: **185**
-- POSS: **71**
-- HARD PASS / EXCLUDED: **327**
+- SELECTED: **180**
+- POSS: **84**
+- HARD PASS / EXCLUDED: **335**
 
 ## BEDFORDSHIRE — SELECTED
 
@@ -47,17 +47,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-trips-admin-a
 
 ---
 action:
-SELECTED | Bedfordshire | Bedford, East of England, MK41 9DQ | £26,016.00 - £26,427.00 Annually (FTE) | Office Administrator
-employer: St John Rigby Catholic Primary School
-closing_date: 2026-11-26T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-factual_fingerprint: a9dd5ebc6be99a3534fbc68b2b51b747f2ffd070f57ca38818389b4f32f91380
-source_job_id: office-administrator-st-john-rigby-catholic-primary-school-bedford-bedfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-john-rigby-catholic-primary-school-bedford-bedfordshire
----
-
----
-action:
 SELECTED | Bedfordshire | Dunstable, East of England, LU5 6NX | Grade: 2B. NJC Levels 3 – 5 Salary £25,614 - £26,427 (pro-rated) £20,724-£21,382 actual salary for 35 hours per week – term time only plus 5 training days | Receptionist/School Office Administrator – Term Time Only
 employer: Harlington Upper School
 closing_date: 2026-12-08T08:00:00+00:00
@@ -67,20 +56,18 @@ source_job_id: receptionist-school-office-administrator-term-time-only-harlingto
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-office-administrator-term-time-only-harlington-upper-school-dunstable-bedfordshire
 ---
 
+## BEDFORDSHIRE — POSSIBLES
+
 ---
 action:
-SELECTED | Bedfordshire | Luton, LU4 0PF | £26,847.00 - £27,709.00 Annually (Actual) | Trust Finance Assistant
+POSS | Bedfordshire | Luton, LU4 0PF | £26,847.00 - £27,709.00 Annually (Actual) | Trust Finance Assistant
 employer: St Thomas Catholic Academies Trust
 closing_date: 2026-11-29T23:59:00+00:00
-reason: Owner-approved reception/finance role within salary limit
+reason: Possible JobG8 duplicate requires review
 factual_fingerprint: 825bb9b56310210d71e8b1f09dfb13a26741a260151106146ce6808b3cace93a
 source_job_id: trust-finance-assistant-st-thomas-catholic-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-st-thomas-catholic-academies-trust
 ---
-
-## BEDFORDSHIRE — POSSIBLES
-
-_No jobs in this group._
 
 ## BERKSHIRE — SELECTED
 
@@ -104,17 +91,6 @@ reason: Clear admin/service title: administrative assistant
 factual_fingerprint: e4a42e4ba8a73b61d669a68ce082c3a18a514b27aa68c4e7467cebc31e0a7e35
 source_job_id: behaviour-administrative-assistant-highdown-school-and-sixth-form-centre
 source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-administrative-assistant-highdown-school-and-sixth-form-centre
----
-
----
-action:
-SELECTED | Berkshire | Reading, South East, RG1 7HL | £25,614.00 - £26,847.00 Annually (FTE) NJC England & Wales, SCP 3-6, REAch2 Ts&Cs | Office Administrator
-employer: Civitas Academy
-closing_date: 2026-11-30T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-factual_fingerprint: 2c272fcc2793f06ef9560792dcf305702f78eaccee4428a23fae7c05ac963a6e
-source_job_id: office-administrator-civitas-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-civitas-academy
 ---
 
 ---
@@ -154,9 +130,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 action:
 SELECTED | Berkshire | Windsor, South East, SL4 5EH | Full or part time would be considered, term time only Salary for full time (37 hours per week), term time only is £24,235 which can be pro-rated for part time, depending on hours. Start: ASAP | School Administrator
 employer: The Windsor Boys' School
-closing_date: 2026-12-01T23:59:00+00:00
+closing_date: 2026-11-30T23:59:00+00:00
 reason: Clear admin/service title: administrator
-factual_fingerprint: 4a432938348f050427d2eaed830f0a5edaa20712fcda6a1380aba460a17f1f95
+factual_fingerprint: c16814a9fe45b8fc48338b5e5b2ae365ae15c27decae8bc9b3bc33c88f3ffca0
 source_job_id: school-administrator-the-windsor-boys-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-the-windsor-boys-school
 ---
@@ -216,6 +192,28 @@ reason: Administrative duties evidenced in description
 factual_fingerprint: 1f95582be6692f3ed08418e12989e2bb8dc44de0cedf2164df57bd99f0011fc8
 source_job_id: data-exams-assistant-waingels-reading-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-assistant-waingels-reading-berkshire
+---
+
+---
+action:
+POSS | Berkshire | Reading, South East, RG1 7HL | £25,614.00 - £26,847.00 Annually (FTE) NJC England & Wales, SCP 3-6, REAch2 Ts&Cs | Office Administrator
+employer: Civitas Academy
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 2c272fcc2793f06ef9560792dcf305702f78eaccee4428a23fae7c05ac963a6e
+source_job_id: office-administrator-civitas-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-civitas-academy
+---
+
+---
+action:
+POSS | Berkshire | Newbury, South East, RG14 6ES | £8,476.00 Annually (Actual) Grade 3 / SCP 5-6 Term Time Only plus 3 INSET days. Working 14 hours 2 days a week 8.30 am - 4pm | Receptionist
+employer: John Rankin Junior School
+closing_date: 2026-12-09T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: e5c8d881f373368eedf2f0b74e7b0b0214db18aafbf65076d3614a34c208efa4
+source_job_id: receptionist-john-rankin-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-john-rankin-junior-school
 ---
 
 ## BRISTOL & BATH — SELECTED
@@ -364,6 +362,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action:
+SELECTED | Cambridgeshire | Peterborough, East of England, PE2 6GF | £15,488.98 Annually (Actual) | Administrative Assistant
+employer: Orton Wistow Primary School
+closing_date: 2026-12-10T08:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+factual_fingerprint: 1605e52d1850b2582d691ffc1e62d433b079eaa2117186f122e6b097968c894f
+source_job_id: administrative-assistant-orton-wistow-primary-school-peterborough-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-orton-wistow-primary-school-peterborough-cambridgeshire
+---
+
+---
+action:
 SELECTED | Cambridgeshire | Huntingdon, East of England, PE26 2NJ | Point 3 (£25,614 FTE) | Office Administrator
 employer: Bury CofE Primary School
 closing_date: 2026-11-29T23:59:00+00:00
@@ -393,17 +402,6 @@ reason: Clear admin/service title: personal assistant
 factual_fingerprint: 745465f014dff020a122c7cd0005dec0a01cc7beb7f4d695f6b967750be17057
 source_job_id: personal-assistant-to-the-deputy-headteachers
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-deputy-headteachers
----
-
----
-action:
-SELECTED | Cambridgeshire | Cambridge, East of England, CB24 1DJ | £8,918.00 - £8,918.00 Annually (Actual) Meridian Trust Support Staff Table: Grade 4, Point 3 | Receptionist (part-time) - Northstowe Secondary College
-employer: Northstowe Learning Community
-closing_date: 2026-11-25T08:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-factual_fingerprint: b73637f2b10cb6a5890664983f97d7d2aeec632365650c4c6201bf69eb874332
-source_job_id: receptionist-part-time-northstowe-secondary-college-northstowe-learning-community
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-northstowe-secondary-college-northstowe-learning-community
 ---
 
 ---
@@ -482,16 +480,7 @@ _No jobs in this group._
 
 ## CHESHIRE - WARRINGTON & HALTON — SELECTED
 
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Widnes, North West, WA8 7QQ | £26,889 - £28,299 - Dependent upon skills and experience | Finance Assistant (S301)
-employer: Riverside College Halton
-closing_date: 2026-11-25T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-factual_fingerprint: 8b6f5cdb75b144ee581cb8fc002a116832024872ff31e0e764b62c933244be0d
-source_job_id: finance-assistant-s301
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-s301
----
+_No jobs in this group._
 
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
@@ -577,7 +566,27 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-noe
 
 ## DERBYSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS | Derbyshire | Bakewell, East Midlands, DE45 1JA | £26,016.00 - £26,427.00 Annually (FTE) Actual Salary £19,656 to £19,967 per annum | Inclusion Assistant
+employer: Lady Manners School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Administrative duties evidenced in description
+factual_fingerprint: 4d9d2b861363bf4ce09a7442c8d5059cd4746c48527db81152ee88c467b58c1d
+source_job_id: inclusion-assistant-lady-manners-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-assistant-lady-manners-school
+---
+
+---
+action:
+POSS | Derbyshire | Swadlincote, East Midlands, DE11 0QA | £22,129.73 - £22,477.05 Annually (Actual) Full time equivalent salary (£25614 - £26016) | Receptionist
+employer: The Pingle Academy
+closing_date: 2026-12-04T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: da73fddb252e98b23fc64ebe608989f88d48114e98a854bbc791da3753b2b0aa
+source_job_id: receptionist-the-pingle-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-pingle-academy
+---
 
 ## DEVON — SELECTED
 
@@ -660,18 +669,20 @@ source_job_id: receptionist-longcause-community-special-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-longcause-community-special-school
 ---
 
-## DORSET — SELECTED
-
 ---
 action:
-SELECTED | Dorset | Bournemouth, South West, BH8 9PW | £31,071 | HR Administrator & Recruitment Coordinator
-employer: The Bishop of Winchester Academy
-closing_date: 2026-12-04T23:59:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 6c208e7206e5e8a4c267118f3c8a0e50eb436f97c1d5afe9fb6f5788b1bd3dcd
-source_job_id: hr-administrator-recruitment-coordinator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-recruitment-coordinator
+POSS | Devon | Totnes, South West, TQ9 7BE | £12,062 - £12,254 prorated per annum. | School Administrator
+employer: Blackawton Primary School
+closing_date: 2026-11-27T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 2804c9929b32de1df6d6f4ef7303328414cad569d3f71982485840af443fb8c6
+source_job_id: school-administrator-blackawton-primary-school-totnes-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon
 ---
+
+## DORSET — SELECTED
+
+_No jobs in this group._
 
 ## DORSET — POSSIBLES
 
@@ -688,17 +699,6 @@ reason: Clear admin/service title: administrator
 factual_fingerprint: 1844089b523d8c095dc707cb3716046283f1c76848fa9eba9f84036e6bc974cf
 source_job_id: general-administrator-bridge-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-bridge-academy-trust
----
-
----
-action:
-SELECTED | Essex | Leigh-on-Sea, East of England, SS9 3TG | £27,274.00 Annually (FTE) Pro rata: £11,455 | Post 16 Administrator
-employer: Belfairs Academy
-closing_date: 2026-11-24T23:00:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: c5bbb20e6d0b08f7d8fcf41d213ae4fc5076d970515b9a2b338d36f8639c0c4a
-source_job_id: post-16-administrator-belfairs-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-administrator-belfairs-academy
 ---
 
 ---
@@ -774,7 +774,7 @@ action:
 POSS | Essex | Brentwood, CM13 2HG | £33,872.00 - £37,334.00 Annually (Actual) Includes Fringe Allowance | Payroll Officer
 employer: Discovery Educational Trust
 closing_date: 2026-11-26T12:00:00+00:00
-reason: Part-time finance requires actual earnings/hours and qualification checks
+reason: Possible JobG8 duplicate requires review
 factual_fingerprint: 03a066623e0ad964cadbab9401f25d0786507229250c760ab9fca0f55bd841b5
 source_job_id: payroll-officer-discovery-educational-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-discovery-educational-trust
@@ -1066,17 +1066,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action:
-SELECTED | Hertfordshire | St Albans, East of England, AL4 0TT | £23,672.00 - £24,792.00 Annually (Actual) H4 - Scale Point 6-9 (Dependent on experience) | Inclusion Administrator
-employer: Nicholas Breakspear Catholic School
-closing_date: 2026-11-29T23:59:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 1ac2445fc5d090840c0861148acec515e82605b021247186e8e1d56fdd386838
-source_job_id: inclusion-administrator-nicholas-breakspear-catholic-school-st-albans-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-nicholas-breakspear-catholic-school-st-albans-hertfordshire
----
-
----
-action:
 SELECTED | Hertfordshire | Bishop's Stortford, East of England, CM23 5BD | £31,268.00 - £33,872.00 Annually (FTE) Actual pro rata salary approximately from £28,004 per annum | Personal Assistant to the Principal & HR Support
 employer: Birchwood High School
 closing_date: 2026-11-30T10:00:00+00:00
@@ -1097,17 +1086,6 @@ source_job_id: receptionist-administrator-simon-balle-all-through-school-hertfor
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school-hertford-hertfordshire
 ---
 
----
-action:
-SELECTED | Hertfordshire | Watford, East of England, WD25 0SS | Salary Grade H5 £29,688 (£25,693 pro-rata) | Special Educational Needs Administrative Assistant
-employer: Saint Michael's Catholic High School
-closing_date: 2026-11-25T12:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-factual_fingerprint: 990ecaef16115fb1315bde39ce29dbf511e546304bf331eddc83cb5a3aa9444e
-source_job_id: special-educational-needs-administrative-assistant-saint-michael-s-catholic-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/special-educational-needs-administrative-assistant-saint-michael-s-catholic-high-school
----
-
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
@@ -1122,17 +1100,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-cb6272e2-b
 ---
 
 ## KENT — SELECTED
-
----
-action:
-SELECTED | Kent | Gillingham, South West, SP8 5QD | £26,427.00 - £26,846.00 Annually (FTE) Dorset Grade 5, pay point 5-6, £26,427-£26,846 per annum (DOE) FTE | Admin Assistant
-employer: Milton-on-Stour Church of England Primary School
-closing_date: 2026-11-25T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
-factual_fingerprint: 84d85e30b046209e02971e7760fd499c0a925760c200e115a5aa4058913ca794
-source_job_id: admin-assistant-milton-on-stour-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-milton-on-stour-church-of-england-primary-school
----
 
 ---
 action:
@@ -1228,6 +1195,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 _No jobs in this group._
 
 ## LANCASHIRE - EAST — SELECTED
+
+---
+action:
+SELECTED | Lancashire - East | Colne, North West, BB8 9AR | £23,669.00 - £25,227.00 Annually (Actual) | Administration Assistant- Attendance and General Office
+employer: Colne Lord Street School
+closing_date: 2027-01-03T10:00:00+00:00
+reason: Clear admin/service title: administration assistant
+factual_fingerprint: ab27c9f86db0621f4716fae3585685f966c990e2adcd7770b4487955f88782c3
+source_job_id: administration-assistant-attendance-and-general-office
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-attendance-and-general-office
+---
 
 ---
 action:
@@ -1441,17 +1419,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer
 
 ---
 action:
-SELECTED | London | West Wickham, London, BR4 0LJ | £13,210.63 Annually (Actual) Bromley Localised Pay Grade BR5 Point 13 | Administrative Assistant
-employer: Oak Lodge Primary School
-closing_date: 2026-12-06T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-factual_fingerprint: 238b595bda9674f46898d6b1eb5dc37855fef9045afaf38df0ecb8a19dedbe38
-source_job_id: administrative-assistant-oak-lodge-primary-school-west-wickham-kent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-oak-lodge-primary-school-west-wickham-kent
----
-
----
-action:
 SELECTED | London | Romford, London, RM6 4TR | £31,284.00 - £32,653.00 Annually (FTE) OUTL4 (SCP 7–10) Actual Salary: £8,891.62 | Administrative Assistant (part time)
 employer: Newbridge School
 closing_date: 2026-11-30T09:00:00+00:00
@@ -1561,6 +1528,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ---
 
 ## LONDON — POSSIBLES
+
+---
+action:
+POSS | London | West Wickham, London, BR4 0LJ | £13,210.63 Annually (Actual) Bromley Localised Pay Grade BR5 Point 13 | Administrative Assistant
+employer: Oak Lodge Primary School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 748eb25585b28e7d5732d5e690376e74736c4efc652c15baaafd5c5802d8ea36
+source_job_id: administrative-assistant-oak-lodge-primary-school-west-wickham-kent
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-oak-lodge-primary-school-west-wickham-kent
+---
 
 ---
 action:
@@ -1797,6 +1775,17 @@ source_job_id: administrative-assistant-st-joseph-s-catholic-primary-school-hart
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-joseph-s-catholic-primary-school-hartlepool
 ---
 
+---
+action:
+SELECTED | North East | Newcastle-upon-Tyne, North East, NE16 5AR | Grade G (£33,673 - £35,570) | Examinations Officer
+employer: Whickham School
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Clear admin/service title: examinations officer
+factual_fingerprint: 03cb6226702a966344cc6c0399329f1078fdb7f00681f377a0cac7555e51b0d2
+source_job_id: examinations-officer-whickham-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-whickham-school
+---
+
 ## NORTH EAST — POSSIBLES
 
 ---
@@ -1808,6 +1797,17 @@ reason: Administrative duties evidenced in description
 factual_fingerprint: 9bd2073ff6ca63f1a74ac09add9b35bde97b9bf023c221489ec32bd5d39edc4b
 source_job_id: finance-administration-assistant-bishop-auckland-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administration-assistant-bishop-auckland-college
+---
+
+---
+action:
+POSS | North East | Stanley, North East, DH9 0TW | £24,583.00 - £26,628.00 Annually (Actual) | SEND Administrative Officer
+employer: North Durham Academy
+closing_date: 2026-12-07T12:00:00+00:00
+reason: Administrative duties evidenced in description
+factual_fingerprint: 22c78c5d8cd19e2253b81d22aacf185610e71da2d9c64e31fec24110bdc888a9
+source_job_id: send-administrative-officer-north-durham-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-officer-north-durham-academy
 ---
 
 ## NORTHAMPTONSHIRE — SELECTED
@@ -1878,6 +1878,17 @@ source_job_id: school-office-administrator-cover-coordinator-st-thomas-becket-ca
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-cover-coordinator-st-thomas-becket-catholic-school-northampton-northamptonshire
 ---
 
+---
+action:
+SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7SW | £27,709.00 Annually (FTE) | SEND Administrator
+employer: Moulton Primary School
+closing_date: 2026-12-02T23:59:00+00:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: f4c4c0a188abd935eba60486882e10b2c6f101bda616454b65aeae51ecc3862d
+source_job_id: send-administrator-moulton-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-moulton-primary-school
+---
+
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 ---
@@ -1903,6 +1914,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-ad
 ---
 
 ## NOTTINGHAMSHIRE — SELECTED
+
+---
+action:
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG17 7HZ | £22,726.00 - £23,454.00 Annually (Actual) Support Pay Scale - Grade 3 (Points 5-7), FTE Salary £26,428 - £27,274 per annum | Administration Assistant
+employer: Bracken Hill School
+closing_date: 2026-11-30T10:00:00+00:00
+reason: Clear admin/service title: administration assistant
+factual_fingerprint: e698ff845ead9b31d239bb975d6f70e4e78951e404151662d455d6e6aa814500
+source_job_id: administration-assistant-bracken-hill-school-nottingham-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bracken-hill-school-nottingham-nottinghamshire
+---
 
 ---
 action:
@@ -1941,21 +1963,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ---
 action:
-POSS | Nottinghamshire | Nottingham, East Midlands, NG17 7HZ | £22,726.00 - £23,454.00 Annually (Actual) Support Pay Scale - Grade 3 (Points 5-7), FTE Salary £26,428 - £27,274 per annum | Administration Assistant
-employer: Bracken Hill School
-closing_date: 2026-11-30T10:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-factual_fingerprint: e698ff845ead9b31d239bb975d6f70e4e78951e404151662d455d6e6aa814500
-source_job_id: administration-assistant-bracken-hill-school-nottingham-nottinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bracken-hill-school-nottingham-nottinghamshire
----
-
----
-action:
 POSS | Nottinghamshire | Retford, East Midlands, DN22 7NJ | £18,299.77 - £18,299.77 Annually (Actual) | Adminstration Assistant
 employer: Retford Oaks Academy
 closing_date: 2026-11-25T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
+reason: Administrative duties evidenced in description
 factual_fingerprint: 7eab00cad6bfe34fcb7139872f451f8a3039a07763a00b039936ce5c1b5e8318
 source_job_id: adminstration-assistant-retford-oaks-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/adminstration-assistant-retford-oaks-academy
@@ -2081,14 +2092,12 @@ source_job_id: office-administrator-windwhistle-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-windwhistle-primary-school
 ---
 
-## SOMERSET — POSSIBLES
-
 ---
 action:
-POSS | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
+SELECTED | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
 employer: Writhlington School
 closing_date: 2026-12-07T23:59:59+00:00
-reason: Possible JobG8 duplicate requires review
+reason: Clear admin/service title: administrator
 factual_fingerprint: ecb51f1b4b6ee94f56e9e697ed78988786eb5050aab0a1033c4e9107ccddf5c3
 source_job_id: payroll-administrator-writhlington-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-writhlington-school
@@ -2096,13 +2105,37 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator
 
 ---
 action:
-POSS | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
+SELECTED | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
 employer: Writhlington School
 closing_date: 2026-12-06T23:59:59+00:00
-reason: Possible JobG8 duplicate requires review
+reason: Clear admin/service title: administrator
 factual_fingerprint: 5aa026883b2c00f0ef1fc869163ff0d48cf13e720db7a41f50ae756a008bba0b
 source_job_id: payroll-administrator-writhlington-school-radstock-somerset
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-writhlington-school-radstock-somerset
+---
+
+## SOMERSET — POSSIBLES
+
+---
+action:
+POSS | Somerset | Bridgwater, South West, TA6 7HW | £11,478.00 - £11,658.00 Annually (Actual) Actual salary based on Grade 15 full-time equivalent £24,795-£25,185pa) | Receptionist
+employer: Haygrove School
+closing_date: 2026-12-10T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 88606014feaa3157796c75a5663f64df85425c9802afb26d2fd74ff7b77edba8
+source_job_id: receptionist-haygrove-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-haygrove-school
+---
+
+---
+action:
+POSS | Somerset | Bridgwater, South West, TA6 7HW | £4,585.00 - £4,732.00 Annually (Actual) Actual Salary based on Grade 14 full-time equivalent £26,016-£26,847pa | Resources Assistant
+employer: Haygrove School
+closing_date: 2026-12-10T09:00:00+00:00
+reason: Administrative duties evidenced in description
+factual_fingerprint: 5cff44910b8886002ecdc0396fee5e6d573e38c4d98307fd3cb6e56bd1c6b993
+source_job_id: resources-assistant-haygrove-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-haygrove-school
 ---
 
 ## STAFFORDSHIRE — SELECTED
@@ -2116,17 +2149,6 @@ reason: Clear admin/service title: administration assistant
 factual_fingerprint: 1183a1c0adbb1b9d33d40f1e4ce4705ab8d21e3bad51eb906f3af728446382f3
 source_job_id: administration-assistant-anna-seward-primary
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-anna-seward-primary
----
-
----
-action:
-SELECTED | Staffordshire | Stoke-on-Trent, West Midlands, ST10 1LH | £22,948.00 Annually (Actual) | Administration Assistant -Data & Reports Co-Ordinator
-employer: Painsley Catholic College
-closing_date: 2026-11-25T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-factual_fingerprint: 848b1ebdc6186b34e0934ad1da77f00cbb14407a2f303deea68e9a51177a1958
-source_job_id: administration-assistant-data-reports-co-ordinator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-data-reports-co-ordinator
 ---
 
 ---
@@ -2156,17 +2178,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the
 _No jobs in this group._
 
 ## SUFFOLK — SELECTED
-
----
-action:
-SELECTED | Suffolk | Ipswich, East of England, IP1 5JN | £22,376.00 - £23,091.00 Annually (Actual) NJC Salary Scale: 4 - 6 | Academy Receptionist
-employer: Westbourne Academy
-closing_date: 2026-11-25T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-factual_fingerprint: 07c053231dd8d80913024afd79a7c8402b191bbc81f87bd031c005097896b26c
-source_job_id: academy-receptionist-westbourne-academy-ipswich-suffolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-westbourne-academy-ipswich-suffolk
----
 
 ---
 action:
@@ -2310,7 +2321,7 @@ SELECTED | Surrey | Woking, South East, GU22 9EQ | £15,951.19 Annually (Actual)
 employer: Kingfield Primary School
 closing_date: 2026-12-08T10:00:00+00:00
 reason: Clear admin/service title: admin assistant
-factual_fingerprint: 15ba29385f4f728c45db4f2cf3c18d948dad6461d93d0abeb63bf290cd6c6c59
+factual_fingerprint: cf3a74e430a61aa6bddd0c8b1879f82a32a03d0e48fa5fb02a429baaaf9f1154
 source_job_id: office-admin-assistant-kingfield-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-admin-assistant-kingfield-primary-school
 ---
@@ -2397,9 +2408,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions
 action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B26 3HU | £13,280.00 - £14,366.00 Annually (Actual) | Attendance and Admin Assistant
 employer: St Thomas More Catholic Primary School
-closing_date: 2026-12-14T09:00:00+00:00
+closing_date: 2026-12-09T09:00:00+00:00
 reason: Clear admin/service title: admin assistant
-factual_fingerprint: 15537b8a863939cd43d9c793725c6727ffa1ebb24dfb0c6fa2f76eaf40c07f31
+factual_fingerprint: 44912b4bc339400f7f9578c0a450c3cad9cab3c99fd8b4f609874f0b8b5d27f9
 source_job_id: attendance-and-admin-assistant-st-thomas-more-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-assistant-st-thomas-more-catholic-primary-school
 ---
@@ -2467,9 +2478,9 @@ POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B38 9D
 employer: Ark Kings Academy
 closing_date: 2026-12-08T00:00:00+00:00
 reason: Borderline school administration title: data officer
-factual_fingerprint: a5a844cc9d598e9e1215af993d3623246ca08d4a7233e2b58fb284de6015b3ba
-source_job_id: data-officer-59a8b6d5-e428-4bef-958c-c2743a4e8c59
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-59a8b6d5-e428-4bef-958c-c2743a4e8c59
+factual_fingerprint: eb8951e8df0df6721a25e9de29d90287c4066b3973edd7677cd66f8ebfbaf3f0
+source_job_id: data-officer-54d518c9-d914-4b26-9f84-a8efb2efeb9f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-54d518c9-d914-4b26-9f84-a8efb2efeb9f
 ---
 
 ---
@@ -2575,6 +2586,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action:
+SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV3 9DU | £26,427.00 - £26,847.00 Annually (FTE) | Receptionist with Administration
+employer: St Edmund's Catholic Academy
+closing_date: 2026-12-02T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+factual_fingerprint: 605549d9b3ee0b7b5f14e20faf29e90fb4d7c40ddd1acce1cdc61277e1ec7a5e
+source_job_id: receptionist-with-administration
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-with-administration
+---
+
+---
+action:
 SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B68 8NE | £22,812.00 Annually (Actual) Grade 3 SCP 5 | School Administrative Assistant
 employer: Oldbury Academy
 closing_date: 2026-11-27T09:00:00+00:00
@@ -2585,6 +2607,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative
 ---
 
 ## WEST MIDLANDS - BLACK COUNTRY — POSSIBLES
+
+---
+action:
+POSS | West Midlands - Black Country | Walsall, West Midlands, WS6 7JQ | £24,553.90 - £25,759.90 Annually (Actual) | Administration Assistant
+employer: Cheslyn Hay Academy
+closing_date: 2026-12-01T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: e627d322c6db5989964b25e9a1c999600bf8ca36db89ec0184f4c7ca307973c6
+source_job_id: administration-assistant-cheslyn-hay-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-cheslyn-hay-academy
+---
 
 ---
 action:
@@ -2737,13 +2770,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-admini
 
 ---
 action:
-SELECTED | Wiltshire | Swindon, South East, SN6 8FX | £27,709.00 - £30,023.00 Annually (FTE) Support Staff NJC Grade 6, SCP 8 - 13. Actual salary range - £11,572.11 - £12,538.50 | Office Administrator
-employer: Shrivenham Church of England School
-closing_date: 2026-11-24T23:59:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-factual_fingerprint: a12e62bbdd75e1f03774445ad7322dc49c23ce2e7e13abd1383fec239cfd2594
-source_job_id: office-administrator-0cb1df0c-ffca-4e9e-89e2-435084e74288
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-0cb1df0c-ffca-4e9e-89e2-435084e74288
+SELECTED | Wiltshire | Swindon, South West, SN2 1JR | £12,931.00 Annually (Actual) | Part-Time Receptionist (Mat Cover 12 months FTC)
+employer: Swindon Academy
+closing_date: 2026-12-04T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+factual_fingerprint: 3da10d2dd9faf4812eb9fc6ae397a1db1bbf1f59b2723ae25683826ed3baf0f5
+source_job_id: part-time-receptionist-mat-cover-12-months-ftc-swindon-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-mat-cover-12-months-ftc-swindon-academy
 ---
 
 ---
@@ -2896,7 +2929,40 @@ source_job_id: finance-assistant-pathfinder-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pathfinder-multi-academy-trust
 ---
 
+---
+action:
+POSS | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 2JW | £37,563.00 - £40,444.00 Annually (FTE) Grade H Points 25 to 28 (£37,563 to £40,444 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £13,768.54 | Finance Manager (7993)
+employer: Scarborough University Technical College
+closing_date: 2026-12-08T23:59:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+factual_fingerprint: 7fe1426bd4a98fd58a68887149de74b81c9e09b9195f9df7dab93daaa391e28f
+source_job_id: finance-manager-7993
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-7993
+---
+
 ## YORKSHIRE - SOUTH — SELECTED
+
+---
+action:
+SELECTED | Yorkshire - South | Barnsley, Yorkshire and the Humber, S73 0XH | £26,427.00 - £26,847.00 Annually (FTE) | Admin Assistant at Brampton Cortonwood Infant School
+employer: Brampton Cortonwood Infant School
+closing_date: 2026-12-03T23:59:00+00:00
+reason: Clear admin/service title: admin assistant
+factual_fingerprint: bb711e34a71c985a42f5b558e21d3627c93a70319697529222c2b781a874a846
+source_job_id: admin-assistant-at-brampton-cortonwood-infant-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-at-brampton-cortonwood-infant-school
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S6 6HE | £26,427 | Administration Assistant
+employer: Bradfield Dungworth Primary School
+closing_date: 2026-12-14T12:00:00+00:00
+reason: Clear admin/service title: administration assistant
+factual_fingerprint: 4b597f05ed0faa05a883db11a5be7e7acb624d72a1cf86d5c9db48d41b21696c
+source_job_id: administration-assistant-bradfield-dungworth-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bradfield-dungworth-primary-school
+---
 
 ---
 action:
@@ -3014,28 +3080,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-thorn
 
 ---
 action:
-SELECTED | Yorkshire - West | LEEDS, Yorkshire and the Humber, LS16 6NF | £26,016.00 - £26,846.00 Annually (FTE) 32 hours per week. Salary NJC Grade B1, Scale Points 4-6. Actual Salary £19,051-19,658 per annum | Administrative Assistant
-employer: Holy Name Catholic Voluntary Academy
-closing_date: 2026-12-10T12:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-factual_fingerprint: 3d2b8285a5bc910dd1150e69f903227b4a72aea3974fb105f48741e7c63aca16
-source_job_id: administrative-assistant-holy-name-catholic-voluntary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-holy-name-catholic-voluntary-academy
----
-
----
-action:
-SELECTED | Yorkshire - West | Wakefield, WF1 2PF | £28,153 - £29,071 | Administrative Assistant
-employer: Outwood Grange Academies Trust
-closing_date: 2026-11-30T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-factual_fingerprint: 31fcb51682213b83a0c2f293f751315f6aeed11907435038195f642921c037d7
-source_job_id: administrative-assistant-outwood-grange-academies-trust-wakefield-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-outwood-grange-academies-trust-wakefield-not-recorded
----
-
----
-action:
 SELECTED | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0BZ | £33,673.00 - £36,581.00 Annually (FTE) Grade G Points 20 - 24 (£33,673 - £36,581 Full Time Equivalent). The minimum actual pro rata salary per annum for this job starts at £30,104.34. | PA to Principal (7934)
 employer: De Lacy Academy
 closing_date: 2026-12-03T23:59:00+00:00
@@ -3091,7 +3135,49 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-le
 
 ## YORKSHIRE - WEST — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS10 4AX | £22,951.00 - £23,683.00 Annually (Actual) B1, SCP 4-6 (£26,010 - £26,846 per annum FTE) | Administrative Assistant
+employer: Cockburn Laurence Calvert Academy
+closing_date: 2026-12-09T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: c9d82fcfdf39f4d7a72a3f6fa232a2778f5fcd6ffed12c4e6cb20d5488e4c761
+source_job_id: administrative-assistant-cockburn-laurence-calvert-academy-leeds
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cockburn-laurence-calvert-academy-leeds
+---
+
+---
+action:
+POSS | Yorkshire - West | LEEDS, Yorkshire and the Humber, LS16 6NF | £26,016.00 - £26,846.00 Annually (FTE) 32 hours per week. Salary NJC Grade B1, Scale Points 4-6. Actual Salary £19,051-19,658 per annum | Administrative Assistant
+employer: Holy Name Catholic Voluntary Academy
+closing_date: 2026-12-10T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 3d2b8285a5bc910dd1150e69f903227b4a72aea3974fb105f48741e7c63aca16
+source_job_id: administrative-assistant-holy-name-catholic-voluntary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-holy-name-catholic-voluntary-academy
+---
+
+---
+action:
+POSS | Yorkshire - West | Wakefield, WF1 2PF | £28,153 - £29,071 | Administrative Assistant
+employer: Outwood Grange Academies Trust
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 31fcb51682213b83a0c2f293f751315f6aeed11907435038195f642921c037d7
+source_job_id: administrative-assistant-outwood-grange-academies-trust-wakefield-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-outwood-grange-academies-trust-wakefield-not-recorded
+---
+
+---
+action:
+POSS | Yorkshire - West | Bradford, Yorkshire and the Humber, BD9 6AL | £22,147.00 - £22,854.00 Annually (Actual) | Receptionist
+employer: Beckfoot Upper Heaton
+closing_date: 2026-12-09T07:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 31a4106b627b9475b00d2c8afc7d68dbf7d4a8874514706a032a702fb4beb94f
+source_job_id: receptionist-beckfoot-upper-heaton
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-beckfoot-upper-heaton
+---
 
 ## DEFERRED REGIONS — NOT FOR MANUAL REVIEW
 

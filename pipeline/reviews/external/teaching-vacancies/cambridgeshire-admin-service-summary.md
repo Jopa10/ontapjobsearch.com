@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-24
-review_fingerprint: 3d41ef67611a5f5460cbee4200f87a5d5d3cbe6a98d3aeaa0d55c0ed02d68767
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: cf1381dd637d8a5848d03454ea247610db8524637944a62f144bbe1e3316edc2
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -20,6 +20,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cambridgeshire | Peterborough, East of England, PE2 6GF | £15,488.98 Annually (Actual) | Administrative Assistant
+employer: Orton Wistow Primary School
+closing_date: 2026-12-10T08:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1605e52d1850b2582d691ffc1e62d433b079eaa2117186f122e6b097968c894f
+source: Teaching Vacancies
+source_job_id: administrative-assistant-orton-wistow-primary-school-peterborough-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-orton-wistow-primary-school-peterborough-cambridgeshire
+---
 
 ---
 action: 
@@ -64,21 +79,6 @@ factual_fingerprint: 745465f014dff020a122c7cd0005dec0a01cc7beb7f4d695f6b967750be
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-deputy-headteachers
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-deputy-headteachers
----
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB24 1DJ | £8,918.00 - £8,918.00 Annually (Actual) Meridian Trust Support Staff Table: Grade 4, Point 3 | Receptionist (part-time) - Northstowe Secondary College
-employer: Northstowe Learning Community
-closing_date: 2026-11-25T08:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b73637f2b10cb6a5890664983f97d7d2aeec632365650c4c6201bf69eb874332
-source: Teaching Vacancies
-source_job_id: receptionist-part-time-northstowe-secondary-college-northstowe-learning-community
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-northstowe-secondary-college-northstowe-learning-community
 ---
 
 ---
@@ -140,9 +140,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/legal-support-officer
 - [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-grace-schools) — Insufficient admin/service evidence.
 - [Internal Scrutiny Officer](https://teaching-vacancies.service.gov.uk/jobs/internal-scrutiny-officer) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bottisham-village-college) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-cambourne-village-college) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-longsands-academy) — Excluded senior/management title.
-- [Personal Assistant to Headteacher and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-and-senior-leadership-team-st-john-fisher-catholic-high-school) — Excluded senior/management title.
+- [PA to Head of School & Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-administration-manager-hampton-college) — Excluded senior/management title.
+- [Senior Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-data-assistant) — Excluded senior/management title.
 - [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-80df4620-91d1-4dc5-b093-4937c078bedb) — Salary over £50k.
 
 ## Safety boundary

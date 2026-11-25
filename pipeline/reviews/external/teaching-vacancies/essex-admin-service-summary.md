@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-24
-review_fingerprint: d9b7fbe150854a2f84686e6112e6581920c1b74daf61b015d4d1d37171b6a066
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 09c3fd610e68c13b9b429c93aab9172318759e7d3a0092fe3d2731bbfb80d4d1
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 5
+- Records: 18
+- Selected: 4
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 1844089b523d8c095dc707cb3716046283f1c76848fa9eba9f84036e6bc
 source: Teaching Vacancies
 source_job_id: general-administrator-bridge-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-bridge-academy-trust
----
-
----
-action: 
-SELECTED | Essex | Leigh-on-Sea, East of England, SS9 3TG | £27,274.00 Annually (FTE) Pro rata: £11,455 | Post 16 Administrator
-employer: Belfairs Academy
-closing_date: 2026-11-24T23:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c5bbb20e6d0b08f7d8fcf41d213ae4fc5076d970515b9a2b338d36f8639c0c4a
-source: Teaching Vacancies
-source_job_id: post-16-administrator-belfairs-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-administrator-belfairs-academy
 ---
 
 ---
@@ -148,8 +133,8 @@ action:
 POSS | Essex | Brentwood, CM13 2HG | £33,872.00 - £37,334.00 Annually (Actual) Includes Fringe Allowance | Payroll Officer
 employer: Discovery Educational Trust
 closing_date: 2026-11-26T12:00:00+00:00
-reason: Part-time finance requires actual earnings/hours and qualification checks
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 03a066623e0ad964cadbab9401f25d0786507229250c760ab9fca0f55bd841b5
@@ -202,7 +187,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 - [Midday Assistant](https://teaching-vacancies.service.gov.uk/jobs/midday-assistant-the-fitzwimarc-school) — Insufficient admin/service evidence.
 - [Senior Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/senior-cover-supervisor-st-john-payne-catholic-school-chelmsford) — Excluded senior/management title.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-plume-school) — Excluded senior/management title.
-- [Senior PA to Leadership Team and Inclusion Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-pa-to-leadership-team-and-inclusion-coordinator) — Excluded senior/management title.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-24
-review_fingerprint: bf3ce89f0a19be16a718aa210610ec479bc40423934a40e5c05a73d752225edd
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 18e84c7a8a1fd94974e8023de8af46954f50dd2c335e74f0dc2cb703f93f2a67
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
-- Selected: 4
+- Records: 29
+- Selected: 6
 - POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 18
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - South | Barnsley, Yorkshire and the Humber, S73 0XH | £26,427.00 - £26,847.00 Annually (FTE) | Admin Assistant at Brampton Cortonwood Infant School
+employer: Brampton Cortonwood Infant School
+closing_date: 2026-12-03T23:59:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bb711e34a71c985a42f5b558e21d3627c93a70319697529222c2b781a874a846
+source: Teaching Vacancies
+source_job_id: admin-assistant-at-brampton-cortonwood-infant-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-at-brampton-cortonwood-infant-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S6 6HE | £26,427 | Administration Assistant
+employer: Bradfield Dungworth Primary School
+closing_date: 2026-12-14T12:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4b597f05ed0faa05a883db11a5be7e7acb624d72a1cf86d5c9db48d41b21696c
+source: Teaching Vacancies
+source_job_id: administration-assistant-bradfield-dungworth-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bradfield-dungworth-primary-school
+---
 
 ---
 action: 
@@ -174,7 +204,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-s
 - [Information Advice and Guidance Officer - Employability](https://teaching-vacancies.service.gov.uk/jobs/information-advice-and-guidance-officer-employability) — No usable numeric salary.
 - [KS5 Attendance and Inclusion Lead](https://teaching-vacancies.service.gov.uk/jobs/ks5-attendance-and-inclusion-lead) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-helen-s-catholic-primary-school) — Excluded senior/management title.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-1e4ec526-7e90-471c-ac7b-53d95ee8bda4) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-00b0c539-077f-4b9e-9221-61a2e6da29c8) — Insufficient admin/service evidence.
 - [Personal Care Assistant (PCA)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-pca-newman-school) — Insufficient admin/service evidence.
 - [Pupil Premium Extra Curricular Visits Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extra-curricular-visits-co-ordinator) — No usable numeric salary.
 - [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner-nexus-multi-academy-trust) — Salary over £50k.

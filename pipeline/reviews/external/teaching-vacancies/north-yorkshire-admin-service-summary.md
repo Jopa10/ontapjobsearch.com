@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-24
-review_fingerprint: 8a4c66f80d2892aeca7e9accf05c32d8f6c97c92cd01ec496bba13d56b623329
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 3721e1fe8a0d7162f804f6d52b59c43aae6e9a1b543778ad71561d98128708dc
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 7
 - Selected: 2
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -68,12 +68,28 @@ source_job_id: finance-assistant-pathfinder-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pathfinder-multi-academy-trust
 ---
 
+---
+action: 
+POSS | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 2JW | £37,563.00 - £40,444.00 Annually (FTE) Grade H Points 25 to 28 (£37,563 to £40,444 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £13,768.54 | Finance Manager (7993)
+employer: Scarborough University Technical College
+closing_date: 2026-12-08T23:59:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7fe1426bd4a98fd58a68887149de74b81c9e09b9195f9df7dab93daaa391e28f
+source: Teaching Vacancies
+source_job_id: finance-manager-7993
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-7993
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-all-saints-church-of-england-school) — Insufficient admin/service evidence.
 - [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-outwood-academy-easingwold) — No usable numeric salary.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-4cb2fc12-063c-4983-8b85-55032fc1e76b) — Insufficient admin/service evidence.
 

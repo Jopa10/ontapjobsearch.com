@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-24
-review_fingerprint: d52bf3267a3868bcd4c906808da9d1b00717227d1e3fb2b312072e270f03be85
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: efb575e88db76a8bdc8ff708c64eaa27f4b10a9e540bdb44a1b1f16967011963
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 15
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
 
@@ -81,6 +81,21 @@ source_job_id: administrative-assistant-st-joseph-s-catholic-primary-school-hart
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-joseph-s-catholic-primary-school-hartlepool
 ---
 
+---
+action: 
+SELECTED | North East | Newcastle-upon-Tyne, North East, NE16 5AR | Grade G (£33,673 - £35,570) | Examinations Officer
+employer: Whickham School
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 03cb6226702a966344cc6c0399329f1078fdb7f00681f377a0cac7555e51b0d2
+source: Teaching Vacancies
+source_job_id: examinations-officer-whickham-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-whickham-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -96,6 +111,21 @@ factual_fingerprint: 9bd2073ff6ca63f1a74ac09add9b35bde97b9bf023c221489ec32bd5d39
 source: Teaching Vacancies
 source_job_id: finance-administration-assistant-bishop-auckland-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administration-assistant-bishop-auckland-college
+---
+
+---
+action: 
+POSS | North East | Stanley, North East, DH9 0TW | £24,583.00 - £26,628.00 Annually (Actual) | SEND Administrative Officer
+employer: North Durham Academy
+closing_date: 2026-12-07T12:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 22c78c5d8cd19e2253b81d22aacf185610e71da2d9c64e31fec24110bdc888a9
+source: Teaching Vacancies
+source_job_id: send-administrative-officer-north-durham-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-officer-north-durham-academy
 ---
 
 ## EXCLUDED BY REVIEW

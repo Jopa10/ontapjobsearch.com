@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-24
-review_fingerprint: 2663cd54e87956029d62542812655906920ec83b1a77f6a8cb1b3dd515b213de
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 48faf1abeb8a04ce60ab4c7aed7a905aad0d6aabe3b5d5bb305f6d0e732c6614
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -34,21 +34,6 @@ factual_fingerprint: 068b073fdfef65fbcbc5b1bc321789424854159f1dea44de3bb848c2708
 source: Teaching Vacancies
 source_job_id: administration-assistant-cover-receptionist
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-cover-receptionist
----
-
----
-action: 
-SELECTED | Hertfordshire | St Albans, East of England, AL4 0TT | £23,672.00 - £24,792.00 Annually (Actual) H4 - Scale Point 6-9 (Dependent on experience) | Inclusion Administrator
-employer: Nicholas Breakspear Catholic School
-closing_date: 2026-11-29T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1ac2445fc5d090840c0861148acec515e82605b021247186e8e1d56fdd386838
-source: Teaching Vacancies
-source_job_id: inclusion-administrator-nicholas-breakspear-catholic-school-st-albans-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-nicholas-breakspear-catholic-school-st-albans-hertfordshire
 ---
 
 ---
@@ -81,21 +66,6 @@ source_job_id: receptionist-administrator-simon-balle-all-through-school-hertfor
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school-hertford-hertfordshire
 ---
 
----
-action: 
-SELECTED | Hertfordshire | Watford, East of England, WD25 0SS | Salary Grade H5 £29,688 (£25,693 pro-rata) | Special Educational Needs Administrative Assistant
-employer: Saint Michael's Catholic High School
-closing_date: 2026-11-25T12:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 990ecaef16115fb1315bde39ce29dbf511e546304bf331eddc83cb5a3aa9444e
-source: Teaching Vacancies
-source_job_id: special-educational-needs-administrative-assistant-saint-michael-s-catholic-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/special-educational-needs-administrative-assistant-saint-michael-s-catholic-high-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -122,7 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-cb6272e2-b
 - [Administrative and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-and-data-assistant) — Insufficient admin/service evidence.
 - [Behaviour Improvement Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/behaviour-improvement-officer-maternity-cover-ridgeway-academy) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-st-george-s-school) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lodge-farm-primary-school) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-albans-girls-school) — Excluded senior/management title.
 - [Trips and Activities Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trips-and-activities-coordinator) — Insufficient admin/service evidence.
 - [Trust Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-manager-st-francis-of-assisi-catholic-academy-trust) — Excluded senior/management title.
 

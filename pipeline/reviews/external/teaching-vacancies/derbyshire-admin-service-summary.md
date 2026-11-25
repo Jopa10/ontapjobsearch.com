@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-24
-review_fingerprint: 19dcc027aa4a853d690f01c3af71a50293f516e93fe25fd000239ce8b2d6dac9
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 0ebe6410e128e4146be556ab02377d2d6cd2d1215ef234b162b5b7b5d839fc68
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 11
 - Selected: 1
-- POSS awaiting decision: 0
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
 
@@ -38,7 +38,35 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-noe
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Derbyshire | Bakewell, East Midlands, DE45 1JA | £26,016.00 - £26,427.00 Annually (FTE) Actual Salary £19,656 to £19,967 per annum | Inclusion Assistant
+employer: Lady Manners School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4d9d2b861363bf4ce09a7442c8d5059cd4746c48527db81152ee88c467b58c1d
+source: Teaching Vacancies
+source_job_id: inclusion-assistant-lady-manners-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-assistant-lady-manners-school
+---
+
+---
+action: 
+POSS | Derbyshire | Swadlincote, East Midlands, DE11 0QA | £22,129.73 - £22,477.05 Annually (Actual) Full time equivalent salary (£25614 - £26016) | Receptionist
+employer: The Pingle Academy
+closing_date: 2026-12-04T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: da73fddb252e98b23fc64ebe608989f88d48114e98a854bbc791da3753b2b0aa
+source: Teaching Vacancies
+source_job_id: receptionist-the-pingle-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-pingle-academy
+---
 
 ## EXCLUDED BY REVIEW
 

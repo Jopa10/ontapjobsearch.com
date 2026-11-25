@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-24
-review_fingerprint: 6bac435b3be937db450cc72872ea44d29927b0f874e240f00f4a7c143cf3ac11
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 5164e54ea98dc9785a122a3567c0d3d119570500c7bfc2ce0e8e7db54a199d36
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 16
+- Selected: 6
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
+SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV3 9DU | £26,427.00 - £26,847.00 Annually (FTE) | Receptionist with Administration
+employer: St Edmund's Catholic Academy
+closing_date: 2026-12-02T12:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 605549d9b3ee0b7b5f14e20faf29e90fb4d7c40ddd1acce1cdc61277e1ec7a5e
+source: Teaching Vacancies
+source_job_id: receptionist-with-administration
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-with-administration
+---
+
+---
+action: 
 SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B68 8NE | £22,812.00 Annually (Actual) Grade 3 SCP 5 | School Administrative Assistant
 employer: Oldbury Academy
 closing_date: 2026-11-27T09:00:00+00:00
@@ -97,6 +112,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | West Midlands - Black Country | Walsall, West Midlands, WS6 7JQ | £24,553.90 - £25,759.90 Annually (Actual) | Administration Assistant
+employer: Cheslyn Hay Academy
+closing_date: 2026-12-01T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e627d322c6db5989964b25e9a1c999600bf8ca36db89ec0184f4c7ca307973c6
+source: Teaching Vacancies
+source_job_id: administration-assistant-cheslyn-hay-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-cheslyn-hay-academy
+---
 
 ---
 action: 
@@ -134,7 +164,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-support-officer-ki
 
 ## HARD_PASS
 
-- [Aministration Assistant](https://teaching-vacancies.service.gov.uk/jobs/aministration-assistant) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-st-francis-of-assisi-catholic-college) — Excluded senior/management title.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-hales-valley-trust) — Excluded senior/management title.
 - [HR Advisor - Senior](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-senior) — Excluded senior/management title.

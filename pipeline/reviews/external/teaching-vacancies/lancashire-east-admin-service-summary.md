@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-24
-review_fingerprint: 2e870d3d63cdf214ac989e9033be9901f8d9980d4ada711a308f9e6c090916ff
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 9701596095c2e7bff2bb5e31ed841b2cba89128752fd97fd81dd8304a4b93ba4
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 4
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Lancashire - East | Colne, North West, BB8 9AR | £23,669.00 - £25,227.00 Annually (Actual) | Administration Assistant- Attendance and General Office
+employer: Colne Lord Street School
+closing_date: 2027-01-03T10:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ab27c9f86db0621f4716fae3585685f966c990e2adcd7770b4487955f88782c3
+source: Teaching Vacancies
+source_job_id: administration-assistant-attendance-and-general-office
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-attendance-and-general-office
+---
 
 ---
 action: 
@@ -104,6 +119,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-wilfr
 
 ## HARD_PASS
 
+- [Casual Internal Quality Assurer - Health & Social Care](https://teaching-vacancies.service.gov.uk/jobs/casual-internal-quality-assurer-health-social-care) — No usable numeric salary.
 - [Examinations and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-and-administration-officer-e5f66a6e-ef50-497e-9ee8-9ef39fa4acd0) — Insufficient admin/service evidence.
 - [Funding & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/funding-compliance-manager) — Excluded senior/management title.
 - [General School Administrator](https://teaching-vacancies.service.gov.uk/jobs/general-school-administrator-pendle-education-trust) — No usable numeric salary.

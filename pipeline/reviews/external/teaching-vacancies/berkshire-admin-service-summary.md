@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-24
-review_fingerprint: bf0437c461fd1231810b5c44cbb04eb84b069cae052e49cd9c202a14d6f8207e
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: 67f5970fc139405089a823a4570485551d808188dd7d867b264492959cd0a221
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 10
-- POSS awaiting decision: 2
+- Records: 23
+- Selected: 9
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 10
 
@@ -49,21 +49,6 @@ factual_fingerprint: e4a42e4ba8a73b61d669a68ce082c3a18a514b27aa68c4e7467cebc31e0
 source: Teaching Vacancies
 source_job_id: behaviour-administrative-assistant-highdown-school-and-sixth-form-centre
 source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-administrative-assistant-highdown-school-and-sixth-form-centre
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG1 7HL | £25,614.00 - £26,847.00 Annually (FTE) NJC England & Wales, SCP 3-6, REAch2 Ts&Cs | Office Administrator
-employer: Civitas Academy
-closing_date: 2026-11-30T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2c272fcc2793f06ef9560792dcf305702f78eaccee4428a23fae7c05ac963a6e
-source: Teaching Vacancies
-source_job_id: office-administrator-civitas-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-civitas-academy
 ---
 
 ---
@@ -115,12 +100,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 action: 
 SELECTED | Berkshire | Windsor, South East, SL4 5EH | Full or part time would be considered, term time only Salary for full time (37 hours per week), term time only is £24,235 which can be pro-rated for part time, depending on hours. Start: ASAP | School Administrator
 employer: The Windsor Boys' School
-closing_date: 2026-12-01T23:59:00+00:00
+closing_date: 2026-11-30T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4a432938348f050427d2eaed830f0a5edaa20712fcda6a1380aba460a17f1f95
+factual_fingerprint: c16814a9fe45b8fc48338b5e5b2ae365ae15c27decae8bc9b3bc33c88f3ffca0
 source: Teaching Vacancies
 source_job_id: school-administrator-the-windsor-boys-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-the-windsor-boys-school
@@ -201,6 +186,36 @@ factual_fingerprint: 1f95582be6692f3ed08418e12989e2bb8dc44de0cedf2164df57bd99f00
 source: Teaching Vacancies
 source_job_id: data-exams-assistant-waingels-reading-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-assistant-waingels-reading-berkshire
+---
+
+---
+action: 
+POSS | Berkshire | Reading, South East, RG1 7HL | £25,614.00 - £26,847.00 Annually (FTE) NJC England & Wales, SCP 3-6, REAch2 Ts&Cs | Office Administrator
+employer: Civitas Academy
+closing_date: 2026-11-30T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2c272fcc2793f06ef9560792dcf305702f78eaccee4428a23fae7c05ac963a6e
+source: Teaching Vacancies
+source_job_id: office-administrator-civitas-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-civitas-academy
+---
+
+---
+action: 
+POSS | Berkshire | Newbury, South East, RG14 6ES | £8,476.00 Annually (Actual) Grade 3 / SCP 5-6 Term Time Only plus 3 INSET days. Working 14 hours 2 days a week 8.30 am - 4pm | Receptionist
+employer: John Rankin Junior School
+closing_date: 2026-12-09T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e5c8d881f373368eedf2f0b74e7b0b0214db18aafbf65076d3614a34c208efa4
+source: Teaching Vacancies
+source_job_id: receptionist-john-rankin-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-john-rankin-junior-school
 ---
 
 ## EXCLUDED BY REVIEW

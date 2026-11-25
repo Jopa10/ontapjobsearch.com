@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-24
-review_fingerprint: 3536290737aae570b5a589ea1aa5cad278fa9f19dc27eada75208289e5fb16b8
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: d52f7a0177570d101667e93d407f062f6a2682f95396135bee7f1c786bef19d7
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
@@ -51,15 +51,13 @@ source_job_id: office-administrator-windwhistle-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-windwhistle-primary-school
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
+SELECTED | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
 employer: Writhlington School
 closing_date: 2026-12-07T23:59:59+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: ecb51f1b4b6ee94f56e9e697ed78988786eb5050aab0a1033c4e9107ccddf5c3
@@ -70,17 +68,49 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator
 
 ---
 action: 
-POSS | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
+SELECTED | Somerset | Radstock, South West, BA3 3NQ | £29,071 - £32,046 per annum | Payroll Administrator
 employer: Writhlington School
 closing_date: 2026-12-06T23:59:59+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 5aa026883b2c00f0ef1fc869163ff0d48cf13e720db7a41f50ae756a008bba0b
 source: Teaching Vacancies
 source_job_id: payroll-administrator-writhlington-school-radstock-somerset
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-writhlington-school-radstock-somerset
+---
+
+## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Somerset | Bridgwater, South West, TA6 7HW | £11,478.00 - £11,658.00 Annually (Actual) Actual salary based on Grade 15 full-time equivalent £24,795-£25,185pa) | Receptionist
+employer: Haygrove School
+closing_date: 2026-12-10T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 88606014feaa3157796c75a5663f64df85425c9802afb26d2fd74ff7b77edba8
+source: Teaching Vacancies
+source_job_id: receptionist-haygrove-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-haygrove-school
+---
+
+---
+action: 
+POSS | Somerset | Bridgwater, South West, TA6 7HW | £4,585.00 - £4,732.00 Annually (Actual) Actual Salary based on Grade 14 full-time equivalent £26,016-£26,847pa | Resources Assistant
+employer: Haygrove School
+closing_date: 2026-12-10T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5cff44910b8886002ecdc0396fee5e6d573e38c4d98307fd3cb6e56bd1c6b993
+source: Teaching Vacancies
+source_job_id: resources-assistant-haygrove-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-haygrove-school
 ---
 
 ## EXCLUDED BY REVIEW

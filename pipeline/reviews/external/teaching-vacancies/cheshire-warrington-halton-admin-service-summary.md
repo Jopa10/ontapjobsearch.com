@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-11-24
-review_fingerprint: 339314ca7db2acf30e1bd834940e65360ce7bfbd30c07acca9b10919cfb0b516
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+review_date: 2026-11-25
+review_fingerprint: cbfc64ff683bb51281692cad835595fb29cd9000e9f5f70d07d0f5aa2c753648
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 3
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
 
----
-action: 
-SELECTED | Cheshire - Warrington & Halton | Widnes, North West, WA8 7QQ | £26,889 - £28,299 - Dependent upon skills and experience | Finance Assistant (S301)
-employer: Riverside College Halton
-closing_date: 2026-11-25T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8b6f5cdb75b144ee581cb8fc002a116832024872ff31e0e764b62c933244be0d
-source: Teaching Vacancies
-source_job_id: finance-assistant-s301
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-s301
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

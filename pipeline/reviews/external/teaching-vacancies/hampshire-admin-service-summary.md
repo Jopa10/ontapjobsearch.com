@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-24
+review_date: 2026-11-25
 review_fingerprint: 510b21628f04faf33d5011271d14750dba6e6aedd3633c569ad07853029bd000
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -90,8 +90,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-office
 ## HARD_PASS
 
 - [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school-portsmouth-hampshire) — No usable numeric salary.
+- [Assistant Examination Officer](https://teaching-vacancies.service.gov.uk/jobs/assistant-examination-officer-brighton-hill-community-school) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-haylands-primary-school) — Excluded senior/management title.
-- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-inspire-learning-partnership) — Salary over £50k.
 - [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-hisp-multi-academy-trust-ltd) — Insufficient admin/service evidence.
 - [Support Officer - Cover & Examinations](https://teaching-vacancies.service.gov.uk/jobs/support-officer-cover-examinations) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-24
+review_date: 2026-11-25
 review_fingerprint: d7a459abc2608117b3747bec70382994de0ed662149ee3f77bbfaa904a4d7b40
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -62,9 +62,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-
 ## HARD_PASS
 
 - [Chief Finance and Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-operations-officer-the-pinnacle-learning-trust) — Excluded senior/management title.
-- [Governance Clerk - Casual](https://teaching-vacancies.service.gov.uk/jobs/governance-clerk-casual) — Insufficient admin/service evidence.
 - [MIS and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/mis-and-data-manager-north-chadderton-school) — Excluded senior/management title.
 - [Peripatetic Admin Officer Derby](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-admin-officer-derby) — No usable numeric salary.
+- [School Administration and Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/school-administration-and-governance-officer) — No usable numeric salary.
 
 ## Safety boundary
 

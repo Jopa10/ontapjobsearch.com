@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-24
+review_date: 2026-11-25
 review_fingerprint: 0db26d48f5d7d4cc7c9581b4043a8648816eb07dd29f576c539e3c8889dcf891
-routing_manifest_sha256: c7f67441b459f59936a6ec7f4bec77d07257a603a663e19f48c07ac683ea1a0f
+routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -138,7 +138,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Finance Business Partner Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-assistant-lincoln-college) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-e6664367-3eb0-42c0-9724-283bf6ac70a0) — Excluded senior/management title.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership-boston-not-recorded) — Insufficient admin/service evidence.
-- [Pastoral Administrator](https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-de-aston-school-market-rasen-lincolnshire) — No usable numeric salary.
+- [Level 3 Apprentice Business Administrator](https://teaching-vacancies.service.gov.uk/jobs/level-3-apprentice-business-administrator) — No usable numeric salary.
 - [School Bursar](https://teaching-vacancies.service.gov.uk/jobs/school-bursar-cliffedale-primary-school-grantham-lincolnshire) — No usable numeric salary.
 - [School Business Manager & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-chief-financial-officer-kesteven-and-grantham-girls-school) — Excluded senior/management title.
 - [School Business Manager (CFO)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cfo) — Excluded senior/management title.
