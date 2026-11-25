@@ -10,6 +10,7 @@ import {
   daysAgo,
   pacificDate,
   selectIndexingCandidates,
+  type AttemptSummary,
   type IndexingCandidate,
   type IndexingLane,
   type IndexingSource,
@@ -29,6 +30,7 @@ const RUN_REPORT_PATH = process.env.GOOGLE_INDEXING_RUN_REPORT?.trim();
 const DAILY_QUOTA = numberSetting('GOOGLE_INDEXING_DAILY_QUOTA', 200);
 const NEW_NON_JOBG8_RESERVE = numberSetting('GOOGLE_INDEXING_NEW_NON_JOBG8_RESERVE', 20);
 const DELETION_RESERVE = numberSetting('GOOGLE_INDEXING_DELETION_RESERVE', 20);
+const PART_TIME_JOBG8_DAILY_LIMIT = numberSetting('GOOGLE_INDEXING_PART_TIME_JOBG8_DAILY_LIMIT', 25);
 const SKIPPED_WINDOW_DAYS = numberSetting('GOOGLE_INDEXING_SKIPPED_WINDOW_DAYS', 7);
 
 type SubmittedRecord = {
@@ -50,6 +52,7 @@ type AttemptRecord = {
   lane: IndexingLane;
   attemptedAt: string;
   status: 'started' | 'success' | 'failure';
+  partTimeJobG8Priority?: boolean;
   httpStatus?: number;
 };
 type SkippedRecord = {
@@ -77,6 +80,8 @@ type CurrentJob = {
   postedDate: string;
   qualityScore: number;
   hasValidThrough: boolean;
+  partTimeJobG8Priority: boolean;
+  popularPartTimeMarket: boolean;
 };
 type RunStatus = 'noop' | 'dry-run' | 'success' | 'partial' | 'failure';
 type RunReport = {
@@ -99,6 +104,11 @@ type RunReport = {
   allowanceRemaining: number;
   skippedNewToday: number;
   recentSkippedAvailable: number;
+  partTimeJobG8DailyLimit: number;
+  partTimeJobG8Candidates: number;
+  partTimeJobG8AttemptsBeforeRun: number;
+  selectedPartTimeJobG8: number;
+  selectedPopularPartTimeJobG8: number;
   quotaInvariantViolation: boolean;
   message: string;
 };
@@ -174,8 +184,29 @@ function qualityScore(job: PublishedJob): number {
   return score;
 }
 
+function isPartTimeJob(job: PublishedJob): boolean {
+  const workPattern = job.work_pattern.trim();
+  if (/\bfull[\s-]*time\b/i.test(workPattern)) return false;
+  if (/\bpart[\s-]*time\b/i.test(workPattern)) return true;
+  return /\bpart[\s-]*time\b/i.test(job.employment_type + ' ' + job.title);
+}
+
+function isPopularPartTimeMarket(job: PublishedJob): boolean {
+  const place = job.location + ' ' + job.region;
+  return [
+    /\blondon\b/i,
+    /\b(birmingham|solihull)\b/i,
+    /\b(manchester|salford)\b/i,
+    /\bliverpool\b/i,
+    /\b(bradford|leeds|west yorkshire|yorkshire[\s-]+west)\b/i,
+    /\b(sheffield|south yorkshire|yorkshire[\s-]+south)\b/i,
+    /\b(northampton|northamptonshire)\b/i,
+  ].some((pattern) => pattern.test(place));
+}
+
 function currentJobs(): Map<string, CurrentJob> {
   const current = new Map<string, CurrentJob>();
+  const seenDates = firstSeenDates();
   for (const job of getPublishedJobs()) {
     const url = jobUrl(job.job_id);
     const schema = buildJobPostingSchema(job, url);
@@ -185,9 +216,11 @@ function currentJobs(): Map<string, CurrentJob> {
       url,
       fingerprint: fingerprint(job),
       source: sourceGroup(job.source),
-      postedDate: job.posted_date,
+      postedDate: job.posted_date || seenDates.get(url) || '',
       qualityScore: qualityScore(job),
       hasValidThrough: typeof schema.validThrough === 'string',
+      partTimeJobG8Priority: sourceGroup(job.source) === 'jobg8' && isPartTimeJob(job),
+      popularPartTimeMarket: isPopularPartTimeMarket(job),
     });
   }
   return current;
@@ -340,6 +373,8 @@ function buildCandidates(
         postedDate: item.postedDate,
         qualityScore: item.qualityScore,
         deletionRisk: 0,
+        partTimeJobG8Priority: item.partTimeJobG8Priority,
+        popularPartTimeMarket: item.popularPartTimeMarket,
       });
     } else if (observed && observed.fingerprint !== item.fingerprint) {
       candidates.push({
@@ -351,6 +386,8 @@ function buildCandidates(
         postedDate: item.postedDate,
         qualityScore: item.qualityScore,
         deletionRisk: 0,
+        partTimeJobG8Priority: !state.submitted[url] && item.partTimeJobG8Priority,
+        popularPartTimeMarket: item.popularPartTimeMarket,
       });
     }
     state.observed[url] = {
@@ -365,10 +402,13 @@ function buildCandidates(
   const oldestAllowed = daysAgo(date, SKIPPED_WINDOW_DAYS - 1);
   for (const [url, skipped] of Object.entries(state.skipped)) {
     const item = current.get(url);
+    const queuedPartTimeJobG8 = Boolean(
+      item?.partTimeJobG8Priority && skipped.originalLane === 'new_jobg8'
+    );
     if (
       !item ||
       item.fingerprint !== skipped.fingerprint ||
-      skipped.firstSkippedDate < oldestAllowed ||
+      (!queuedPartTimeJobG8 && skipped.firstSkippedDate < oldestAllowed) ||
       state.submitted[url]
     ) {
       delete state.skipped[url];
@@ -384,6 +424,11 @@ function buildCandidates(
       postedDate: skipped.postedDate,
       qualityScore: skipped.qualityScore,
       deletionRisk: 0,
+      partTimeJobG8Priority: queuedPartTimeJobG8,
+      popularPartTimeMarket: item.popularPartTimeMarket,
+      partTimeQueueDate: queuedPartTimeJobG8 && skipped.firstSkippedDate < date
+        ? skipped.firstSkippedDate
+        : undefined,
     });
   }
   return { candidates, legacyDeletionsNeutralised };
@@ -423,6 +468,9 @@ function reportAndLog(report: RunReport) {
   console.log(`Live by source: ${JSON.stringify(report.liveBySource)}`);
   console.log(`Candidates by source: ${JSON.stringify(report.candidateSources)}`);
   console.log(`Selected by source: ${JSON.stringify(report.selectedSources)}`);
+  console.log('Part-time JobG8 candidates: ' + report.partTimeJobG8Candidates);
+  console.log('Part-time JobG8 selected this run: ' + report.selectedPartTimeJobG8 + '/' + report.partTimeJobG8DailyLimit);
+  console.log('Popular-market part-time selected: ' + report.selectedPopularPartTimeJobG8);
   console.log(report.message);
 }
 
@@ -431,6 +479,8 @@ async function main() {
   const date = pacificDate(new Date());
   if (NEW_NON_JOBG8_RESERVE > DAILY_QUOTA)
     throw new Error('Non-JobG8 Google Indexing cap exceeds the daily quota');
+  if (PART_TIME_JOBG8_DAILY_LIMIT > DAILY_QUOTA)
+    throw new Error('Part-time JobG8 Indexing cap exceeds the daily quota');
   if (DAILY_QUOTA < 1) throw new Error('GOOGLE_INDEXING_DAILY_QUOTA must be at least 1');
   const current = currentJobs();
   const prepared = prepareState(readRawState(), current, date);
@@ -442,10 +492,20 @@ async function main() {
     prepared.migrationFresh,
     prepared.migratedFromV1
   );
-  const planned = selectIndexingCandidates(built.candidates, state.day.attempts, {
+  const policyAttempts: AttemptSummary[] = state.day.attempts.map((attempt) => ({
+    ...attempt,
+    partTimeJobG8Priority: attempt.partTimeJobG8Priority ?? Boolean(
+      attempt.source === 'jobg8' &&
+      attempt.type === 'URL_UPDATED' &&
+      (attempt.lane === 'new_jobg8' || attempt.lane === 'recent_skipped') &&
+      current.get(attempt.url)?.partTimeJobG8Priority
+    ),
+  }));
+  const planned = selectIndexingCandidates(built.candidates, policyAttempts, {
     dailyQuota: DAILY_QUOTA,
     newNonJobg8Reserve: NEW_NON_JOBG8_RESERVE,
     deletionReserve: DELETION_RESERVE,
+    partTimeJobG8DailyLimit: PART_TIME_JOBG8_DAILY_LIMIT,
   });
   // Manual smoke tests use the same eligibility, priority and daily ledger,
   // but send at most five updates rather than spending the deletion allowance.
@@ -459,8 +519,14 @@ async function main() {
   const newCandidates = built.candidates.filter(
     (candidate) => candidate.lane === 'new_jobg8' || candidate.lane === 'new_non_jobg8'
   );
+  const queueCandidates = built.candidates.filter(
+    (candidate) =>
+      candidate.lane === 'new_jobg8' ||
+      candidate.lane === 'new_non_jobg8' ||
+      (candidate.partTimeJobG8Priority === true && !state.submitted[candidate.url])
+  );
   const selectedKeys = new Set(selected.map((item) => attemptKey(item.type, item.url)));
-  for (const candidate of newCandidates) {
+  for (const candidate of queueCandidates) {
     if (!candidate.fingerprint || state.submitted[candidate.url]) continue;
     state.skipped[candidate.url] = {
       fingerprint: candidate.fingerprint,
@@ -468,7 +534,7 @@ async function main() {
       firstSkippedDate: state.skipped[candidate.url]?.firstSkippedDate || date,
       postedDate: candidate.postedDate,
       qualityScore: candidate.qualityScore,
-      originalLane: candidate.lane as 'new_jobg8' | 'new_non_jobg8',
+      originalLane: candidate.source === 'jobg8' ? 'new_jobg8' : 'new_non_jobg8',
     };
   }
   const base = {
@@ -489,6 +555,13 @@ async function main() {
     ).length,
     recentSkippedAvailable: built.candidates.filter((item) => item.lane === 'recent_skipped')
       .length,
+    partTimeJobG8DailyLimit: PART_TIME_JOBG8_DAILY_LIMIT,
+    partTimeJobG8Candidates: built.candidates.filter((item) => item.partTimeJobG8Priority === true).length,
+    partTimeJobG8AttemptsBeforeRun: policyAttempts.filter((item) => item.partTimeJobG8Priority === true).length,
+    selectedPartTimeJobG8: selected.filter((item) => item.partTimeJobG8Priority === true).length,
+    selectedPopularPartTimeJobG8: selected.filter(
+      (item) => item.partTimeJobG8Priority === true && item.popularPartTimeMarket === true
+    ).length,
     quotaInvariantViolation,
   };
   if (dryRun) {
@@ -529,6 +602,7 @@ async function main() {
       type: candidate.type,
       source: candidate.source,
       lane: candidate.lane,
+      partTimeJobG8Priority: candidate.partTimeJobG8Priority === true,
       attemptedAt: new Date().toISOString(),
       status: 'started',
     };
