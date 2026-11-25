@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 21 November 2026
-**Status:** Production/site baseline reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production publishing remains file-based; no cutover has occurred. External service settings and current live deployment require separate verification.
+**Last updated:** 25 November 2026
+**Status:** Production/site baseline reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production publishing remains file-based; no cutover has occurred. External service settings and current live deployment require separate verification. The proposed part-time Indexing API priority is staged on a branch and is not active on main until merged.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 25 November 2026 — **Part-time JobG8 indexing priority prepared for review:** proposed runs submit up to 25 new, unsubmitted JobG8 part-time URLs per Pacific quota day, prioritising the high-click city/region markets and newest listings. Overflow stays queued while the job remains published. This uses the existing 200-attempt daily ledger; the live workflow is unchanged until the branch is merged.
 
 - 21 November 2026 — Saturday Neon Preview refresh and parity checks passed. Refresh `44908662586` used source publication `44880614175`; 5,630 selected adverts across 256 scopes passed ID, payload, hash, position, decision and scope checks. Master refresh recorded 588 inserted, 93 updated and 4,949 unchanged; cleanup was dry-run only and purged nothing. Full-site parity `44923851824` matched selected IDs, Apply links and order across 314 published inventory files. Route checks `44924984048` passed SSR, canonicals, sitemap, structured data and Preview noindex. Production publishing remains file-based.
 
@@ -264,7 +266,7 @@ Scraper reviews, feed uploads and generated report commits can continue updating
 
 Manual dispatch of `Deploy Ontap production after publish` remains available for a deliberate production deployment or recovery. The old Vercel Deploy Hook has been revoked and `VERCEL_DEPLOY_HOOK_URL` removed. Vercel is on **Pro** after the 21 August upgrade; the plan is unchanged by this deployment-trigger change.
 
-The Google Indexing API retains its 200-notification safety limit and GitHub Issue alerting. The selection policy is JobG8-first: after the 20-notification deletion allowance, eligible JobG8 URLs use available capacity before non-JobG8 URLs. Non-paying sources have a hard ceiling of 20 submissions per Pacific day (10% of quota), and unused JobG8 capacity is not released to them. Each run reports live inventory, candidate and selected counts by source so feed-to-publication-to-indexing gaps are visible.
+The Google Indexing API retains its 200-notification safety limit and GitHub Issue alerting. The selection policy is JobG8-first: after the 20-notification deletion allowance, eligible JobG8 URLs use available capacity before non-JobG8 URLs. Non-paying sources have a hard ceiling of 20 submissions per Pacific day (10% of quota), and unused JobG8 capacity is not released to them. Each run reports live inventory, candidate and selected counts by source so feed-to-publication-to-indexing gaps are visible. The proposed 25-per-day part-time JobG8 priority is staged on a branch; main and live submissions remain unchanged until merge.
 
 ## Agreed next architecture — planned, not live
 
