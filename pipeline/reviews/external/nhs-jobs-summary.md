@@ -2,15 +2,75 @@
 
 review_date: 2026-11-25
 
-- Open Administrative & Clerical rows reviewed: 2037
-- Auto/remembered selected: 342
+- Open Administrative & Clerical rows reviewed: 2043
+- Auto/remembered selected: 343
 - Selected HC Tier A: 169
-- Selected HC Tier B: 173
-- POSS awaiting decision: 1603
+- Selected HC Tier B: 174
+- POSS awaiting decision: 1608
 - Excluded: 0
 - HARD_PASS: 92
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Sussex | East Grinstead, RH19 3DZ | Negotiable | Senior Cancer Pathway Navigator
+source_job_id: 5744629
+title: Senior Cancer Pathway Navigator
+employer: Queen Victoria Hospital NHS Foundation Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9276-26-00001
+factual_fingerprint: 924bcb3a3b3ac058f59fea0fdfc7e2b38eeccc28da1354e128b0992d4646adec
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | East Grinstead, RH19 3DZ | £28392.00 to £31157.00 | Maxillofacial Scheduler
+source_job_id: 5744637
+title: Maxillofacial Scheduler
+employer: Queen Victoria Hospital NHS Foundation Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9276-26-00003
+factual_fingerprint: 0070b8872caabc4c25d3aaeafaabf80d770a44beda488b60405a8e4f327b9722
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | East Grinstead, RH19 1DZ | £25760.00 to £27476.00 | Sleep Appointments Co-ordinator
+source_job_id: 5744678
+title: Sleep Appointments Co-ordinator
+employer: Queen Victoria Hospital NHS Foundation Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9276-26-00004
+factual_fingerprint: 47de0957512ad83a75c234d008ee5a79fb47f1aa729c24d842e1c7727cc7faa3
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | East Grinstead, RH19 3DZ | £49387.00 to £56515.00 | Service Manager - CDC
+source_job_id: 5744722
+title: Service Manager - CDC
+employer: Queen Victoria Hospital NHS Foundation Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9276-26-00006
+factual_fingerprint: 97e5cbb6bad19aa6bb8a5cf8e0be352ea881aee2df6f79ddb59602b84cac7bbe
+---
+
+---
+action:
+POSS | NHS Jobs | Cornwall | Truro, TR1 3LJ | £66582.00 to £77368.00 | Head of EPR/Clinical Systems Group
+source_job_id: 5750076
+title: Head of EPR/Clinical Systems Group
+employer: Royal Cornwall Hospitals Trust
+region: Cornwall
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9156-26-00004
+factual_fingerprint: 4871fdfb641dac2ca27ef13433bcc7cec900d48357d595c2590664db146fc30f
+---
 
 ---
 action:
@@ -7689,7 +7749,7 @@ employer: London North West University Healthcare NHS Trust
 region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9337-26-00006
-factual_fingerprint: cf3bc6e8945919758ccb23091da270c677c83d1131e3066f9f48a2681c1d1ca2
+factual_fingerprint: 4b48812a6cb476f348a05f0671b68a7c59929c011700c7be1ed6821b1e5c52e7
 ---
 
 ---

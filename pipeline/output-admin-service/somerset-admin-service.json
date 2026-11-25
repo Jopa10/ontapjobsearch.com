@@ -1043,11 +1043,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-00026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-00026",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5724436",
@@ -1065,11 +1061,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2380",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2380",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5725416",
@@ -1087,11 +1079,25 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1677-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1677-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5747480",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "Somer Valley Medical Group",
+    "advertiser_name": "Somer Valley Medical Group",
+    "location": "Radstock, BA3 2UH",
+    "region": "Somerset",
+    "salary": "£13.06",
+    "employment_type": "Permanent",
+    "posted_date": "2026-11-25T09:35:39.678400544",
+    "closing_date": "2027-01-20",
+    "description": "We are on the hunt for adynamic and friendly individual to be the first point of contact for our patients and medical professionals. If you're an organised multitasker with a passion for helping people, this is the perfect role for you! We have two posts available which will require flexibility within working hours as well as location across our three surgeries at St Chads, Somerton House and Chilcompton. Come and join our team to make a real difference in your community! Key Responsibilities: Be the welcoming face of our practice, greeting and checking in patients. Coordinate with doctors and staff to keep appointments running smoothly. Maintain patient records and manage appointments with precision and care. Support with vital admin tasks. Ready to make an impact? Join us and be part of a team that makes a difference every day The duties and responsibilities to be undertaken by members of the reception team may include any or all of the items listed below. Duties may be varied from time to time under the direction of the lead receptionist or member of the management team dependent on current and evolving practice workload and staffing levels: Processing face to face and telephone enquiries and requests for appointments, visits, and telephone consultation, ensuring callers are directed to the appropriate healthcare professional or management or other department as appropriate. Initiating contact with and responding to requests from patients, other team members and outside agencies. Exercise care and proper use of telephones and computer systems in normal daily working, maintaining and updating patient information in the practice appointment system. Processing personal and medical information from the patient in accordance with practice protocols, maintaining confidentiality and recording information appropriately within the clinical systems, such as triage requests, messages, updates on health status, medical information on appointments etc. Opening up/locking up of the practice premises and maintaining security in accordance with practice protocols. Checks patients and visitors in when they arrive at the surgery for appointments Assist patients in the use of the self-check in screen and encourages the increased use of this method of checking in, as appropriate Pass on urgent information to doctors, nurses and other surgery staff members and also back to patients in an appropriate way Providing adhoc clerical assistance to other members of the practice team from time to time including using IT software such as Microsoft Word or finding or filing physical documents or patient files.. Handling and storing patient samples brought in at the reception desk in an appropriate way maintaining infection control standards and making sure the samples are suitably labelled with the patients details before the patient leaves. Keeping own work space, the reception area, waiting room, noticeboards and leaflet dispensers tidy and free from obstruction and clutter. Attend and participate in any team or whole practice meetings when required. These may be on days you do not normally work, however you will be at times expected to attend and overtime will be paid. Notice for such meetings will be given in advance. Other duties as requested from time to time.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1060-26-00000",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1060-26-00000",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5741292",
@@ -1109,11 +1115,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-00017",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-00017",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5688635",
@@ -1131,10 +1133,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1537-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1537-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]
