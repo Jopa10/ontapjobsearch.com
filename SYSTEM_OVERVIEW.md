@@ -7,7 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
-- 25 November 2026 — **Part-time JobG8 indexing priority prepared for review:** proposed runs submit up to 25 new, unsubmitted JobG8 part-time URLs per Pacific quota day, prioritising the high-click city/region markets and newest listings. Overflow stays queued while the job remains published. This uses the existing 200-attempt daily ledger; the live workflow is unchanged until the branch is merged.
+- 25 November 2026 — **Part-time JobG8 indexing priority prepared for review:** proposed runs submit up to 25 new, unsubmitted JobG8 part-time URLs per Pacific quota day. Previously queued batches run before new arrivals; within each batch, high-click city/region markets and newest listings are prioritised. Overflow stays queued while the job remains published. This uses the existing 200-attempt daily ledger; the live workflow is unchanged until the branch is merged.
 
 - 21 November 2026 — Saturday Neon Preview refresh and parity checks passed. Refresh `44908662586` used source publication `44880614175`; 5,630 selected adverts across 256 scopes passed ID, payload, hash, position, decision and scope checks. Master refresh recorded 588 inserted, 93 updated and 4,949 unchanged; cleanup was dry-run only and purged nothing. Full-site parity `44923851824` matched selected IDs, Apply links and order across 314 published inventory files. Route checks `44924984048` passed SSR, canonicals, sitemap, structured data and Preview noindex. Production publishing remains file-based.
 
