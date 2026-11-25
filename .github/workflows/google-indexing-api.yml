@@ -97,10 +97,12 @@ jobs:
           GOOGLE_INDEXING_DAILY_QUOTA: '200'
           GOOGLE_INDEXING_NEW_NON_JOBG8_RESERVE: '20'
           GOOGLE_INDEXING_DELETION_RESERVE: '20'
+          GOOGLE_INDEXING_PART_TIME_JOBG8_DAILY_LIMIT: '25'
           GOOGLE_INDEXING_SKIPPED_WINDOW_DAYS: '7'
-          # Never release unused JobG8 capacity to non-paying sources. JobG8
-          # uses all available capacity after the deletion allowance; other
-          # sources are capped at 20 submissions (10% of the daily quota).
+          # New JobG8 part-time URLs have a 25/day priority slice. Popular
+          # city markets are selected first, then newest posted/first-seen date;
+          # overflow remains queued while the URL stays published.
+          # Non-JobG8 new URLs remain capped at 20 submissions/day.
           GOOGLE_INDEXING_RUN_REPORT: ${{ runner.temp }}/google-indexing-run.json
         run: |
           set -euo pipefail
@@ -186,6 +188,9 @@ jobs:
               [{data: 'Successful submissions', header: true}, String(report?.submitted ?? 'unknown')],
               [{data: 'Allowance remaining', header: true}, String(report?.allowanceRemaining ?? 'unknown')],
               [{data: 'Selected lanes', header: true}, report?.selected ? JSON.stringify(report.selected) : 'unknown'],
+              [{data: 'New part-time JobG8 candidates', header: true}, String(report?.partTimeJobG8Candidates ?? 'unknown')],
+              [{data: 'Part-time JobG8 selected this run / daily cap', header: true}, report ? String(report.selectedPartTimeJobG8) + '/' + String(report.partTimeJobG8DailyLimit) : 'unknown'],
+              [{data: 'Popular-market part-time selected', header: true}, String(report?.selectedPopularPartTimeJobG8 ?? 'unknown')],
               [{data: 'Live by source', header: true}, report?.liveBySource ? JSON.stringify(report.liveBySource) : 'unknown'],
               [{data: 'Candidates by source', header: true}, report?.candidateSources ? JSON.stringify(report.candidateSources) : 'unknown'],
               [{data: 'Selected by source', header: true}, report?.selectedSources ? JSON.stringify(report.selectedSources) : 'unknown'],
