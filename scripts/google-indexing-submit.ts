@@ -386,6 +386,8 @@ function buildCandidates(
         postedDate: item.postedDate,
         qualityScore: item.qualityScore,
         deletionRisk: 0,
+        partTimeJobG8Priority: !state.submitted[url] && item.partTimeJobG8Priority,
+        popularPartTimeMarket: item.popularPartTimeMarket,
       });
     }
     state.observed[url] = {
@@ -517,8 +519,14 @@ async function main() {
   const newCandidates = built.candidates.filter(
     (candidate) => candidate.lane === 'new_jobg8' || candidate.lane === 'new_non_jobg8'
   );
+  const queueCandidates = built.candidates.filter(
+    (candidate) =>
+      candidate.lane === 'new_jobg8' ||
+      candidate.lane === 'new_non_jobg8' ||
+      (candidate.partTimeJobG8Priority === true && !state.submitted[candidate.url])
+  );
   const selectedKeys = new Set(selected.map((item) => attemptKey(item.type, item.url)));
-  for (const candidate of newCandidates) {
+  for (const candidate of queueCandidates) {
     if (!candidate.fingerprint || state.submitted[candidate.url]) continue;
     state.skipped[candidate.url] = {
       fingerprint: candidate.fingerprint,
@@ -526,7 +534,7 @@ async function main() {
       firstSkippedDate: state.skipped[candidate.url]?.firstSkippedDate || date,
       postedDate: candidate.postedDate,
       qualityScore: candidate.qualityScore,
-      originalLane: candidate.lane as 'new_jobg8' | 'new_non_jobg8',
+      originalLane: candidate.source === 'jobg8' ? 'new_jobg8' : 'new_non_jobg8',
     };
   }
   const base = {
