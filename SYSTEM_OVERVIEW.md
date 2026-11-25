@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 24 November 2026
+**Last updated:** 25 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 25 November 2026 — The private daily sender in Preview records its matched jobs and send status in Neon. A reservation for the recipient and report date prevents repeat daily sends. The workflow uses Brevo for suppression and delivery.
 
 - 24 November 2026 — **Private Preview alert sample records its send and recommendations in Neon.** The sender requires the matching job records in Preview before contacting Brevo. The saved send status distinguishes acceptance from an unconfirmed result. Repeating a confirmed send finishes successfully with “Already sent — skipped.”
 

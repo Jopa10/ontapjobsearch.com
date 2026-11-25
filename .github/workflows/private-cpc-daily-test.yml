@@ -141,6 +141,9 @@ jobs:
       - name: Private daily delivery runner (starts 23 October)
         if: github.event.head_commit.message == 'Enable private daily test runner'
         env:
+          ONTAP_SHADOW_DATABASE_URL: ${{ secrets.ONTAP_SHADOW_DATABASE_URL }}
+          ONTAP_SHADOW_NEON_PROJECT_ID: noisy-fire-97386602
+          NEON_ALERT_PREFERENCES_OUTPUT: ${{ runner.temp }}/neon-alert-preferences.json
           CPC_JOB_ALERTS_ENABLED: 'true'
           BREVO_JOB_ALERTS_LIST_ID: '3'
           BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com

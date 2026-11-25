@@ -669,9 +669,12 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
     if args.dry_run:
         print("Dry run: no email sent and no contact state changed.")
         return
-    if matched_sample:
+    if matched_sample or os.environ.get("GITHUB_REF") == "refs/heads/feat/cpc-alert-neon-signup":
         if not matches:
-            raise DeliveryError("No new matching vacancies; no private matched sample sent")
+            if matched_sample:
+                raise DeliveryError("No new matching vacancies; no private matched sample sent")
+            print("No email sent: no matching jobs.")
+            return
         import uuid
         sample_jobs = [
             {**job,
@@ -681,11 +684,19 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
         unsubscribe = PRIVATE_TEST_ORIGIN + "/job-alerts/unsubscribe?token=" + _unsubscribe_token(recipient, secret)
         body_html, body_text = _email_html(sample_jobs, unsubscribe)
         notice = "PRIVATE MATCHING TEST: today's new jobs matched using preferences saved in Preview Neon. This sample does not change daily delivery state."
-        identity = json.dumps([args.date, recipient, preferences,
-                               [job["job_id"] for job in sample_jobs]], sort_keys=True)
+        if matched_sample:
+            identity = json.dumps([args.date, recipient, preferences,
+                                   [job["job_id"] for job in sample_jobs]], sort_keys=True)
+            key_name = "ontap-private-matched-sample:" + identity
+            subject = f"[Private matching test] {len(sample_jobs)} jobs matching your alert"
+            body_html, body_text = "<p>" + notice + "</p>" + body_html, notice + "\n\n" + body_text
+        else:
+            key_name = f"ontap-preview-private-daily:{recipient}:{args.date}"
+            noun = "job" if len(sample_jobs) == 1 else "jobs"
+            subject = f"[Private daily test] {len(sample_jobs)} new CPC {noun} matching your alert"
         import subprocess
 
-        key = str(uuid.uuid5(uuid.NAMESPACE_URL, "ontap-private-matched-sample:" + identity))
+        key = str(uuid.uuid5(uuid.NAMESPACE_URL, key_name))
 
         def record(action, **payload):
             return subprocess.run(
@@ -710,19 +721,18 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
                 "headers": {"idempotencyKey": key},
                 "sender": {"name": "Ontap Jobs", "email": sender_email},
                 "to": [{"email": recipient}],
-                "subject": f"[Private matching test] {len(sample_jobs)} jobs matching your alert",
-                "htmlContent": "<p>" + notice + "</p>" + body_html,
-                "textContent": notice + "\n\n" + body_text,
+                "subject": subject,
+                "htmlContent": body_html,
+                "textContent": body_text,
             })
             message_id = result.get("messageId")
             if not isinstance(message_id, str) or not message_id.strip():
-                raise DeliveryError("Brevo returned no message ID for the private sample")
+                raise DeliveryError("Brevo returned no message ID for the private Preview alert")
         except Exception:
             record("uncertain")
             raise
         record("sent", messageId=message_id)
-        print("Private matched sample accepted by Brevo and recorded in Preview Neon: " + message_id)
-        print("No daily-send state changed.")
+        print("Private Preview alert accepted by Brevo and recorded in Neon: " + message_id)
         return
     delivery_contact = {**contact, "attributes": {**(contact.get("attributes") or {}), **match_attributes}}
     sent = send_digest(delivery_contact, jobs, report_date=args.date, api_key=api_key,

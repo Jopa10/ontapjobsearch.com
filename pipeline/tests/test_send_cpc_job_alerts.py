@@ -164,7 +164,7 @@ class PrivateDailyTests(unittest.TestCase):
             "ALERT_CONSENT_AT": "2026-10-22", "ALERT_CONSENT_VERSION": "v1"}}
         self.job = {"job_id": "new-job", "title": "Accounts Assistant", "location": "Leeds"}
 
-    def run_private(self, dry_run, contact=None, list_id=3, branch="refs/heads/feat/cpc-alert-neon-signup", workflow="", verified_sha=None, matched_sample=False, recipient=None, neon_preferences=None, neon_consent_action="granted"):
+    def run_private(self, dry_run, contact=None, list_id=3, branch="refs/heads/feat/cpc-alert-neon-signup", workflow="", verified_sha=None, matched_sample=False, recipient=None, neon_preferences=None, neon_consent_action="granted", reservation=""):
         import argparse
         from unittest.mock import patch
         from scripts.send_cpc_job_alerts import private_daily_test
@@ -182,8 +182,10 @@ class PrivateDailyTests(unittest.TestCase):
                 private_recipient=recipient, neon_preferences_file=neon_file)
             with patch.dict("os.environ", {"GITHUB_REF": branch, "GITHUB_WORKFLOW": workflow}):
                 with patch("scripts.send_cpc_job_alerts.new_cpc_jobs", return_value=[self.job]):
-                    with patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {"messageId": "test-message"} if matched_sample else {}, {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}}, {}]) as request:
-                        private_daily_test(args, api_key="fake", list_id=list_id, sender_email="jobs@example.com", secret="fake")
+                    with patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {"messageId": "test-message"}, {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}}, {}]) as request:
+                        with patch("subprocess.run", return_value=argparse.Namespace(stdout=reservation)) as recorder:
+                            private_daily_test(args, api_key="fake", list_id=list_id, sender_email="jobs@example.com", secret="fake")
+                        self.records = [json.loads(call.kwargs["input"]) for call in recorder.call_args_list]
                         return request.call_args_list
 
     def test_dry_run_fetches_only_fixed_contact_without_sending_or_updating(self):
@@ -191,17 +193,22 @@ class PrivateDailyTests(unittest.TestCase):
         self.assertEqual(len(calls), 1)
         self.assertEqual(calls[0].args[:2], ("GET", "/contacts/jpbt801%40gmail.com"))
 
-    def test_real_daily_match_sends_only_fixed_recipient_with_preview_links_and_records_date(self):
+    def test_real_daily_match_sends_only_fixed_recipient_and_records_in_neon(self):
         calls = self.run_private(False)
-        self.assertEqual([call.args[0] for call in calls], ["GET", "PUT", "GET", "POST"])
-        payload = calls[3].args[3]
+        self.assertEqual([call.args[0] for call in calls], ["GET", "POST"])
+        payload = calls[1].args[3]
         self.assertEqual(payload["to"], [{"email": "jpbt801@gmail.com"}])
         self.assertIn("[Private daily test]", payload["subject"])
         self.assertIn("https://www.ontapjobsearch.com/jobs/new-job", payload["textContent"])
         self.assertIn("https://ontapjobsearchcom-git-feat-cpc-job-alerts-clean-ontap1.vercel.app/job-alerts/unsubscribe?", payload["textContent"])
         import uuid
         self.assertEqual(str(uuid.UUID(payload["headers"]["idempotencyKey"])), payload["headers"]["idempotencyKey"])
-        self.assertEqual(calls[1].args[3], {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}})
+        key = payload["headers"]["idempotencyKey"]
+        self.assertEqual(self.records, [
+            {"action": "reserve", "key": key,
+             "matches": [{"publicId": "new-job", "preferenceId": "pref-1"}]},
+            {"action": "sent", "key": key, "messageId": "test-message"},
+        ])
 
     def test_unsubscribed_or_unconsented_contact_is_rejected(self):
         from scripts.send_cpc_job_alerts import DeliveryError
@@ -213,8 +220,8 @@ class PrivateDailyTests(unittest.TestCase):
                 self.run_private(False, contact)
 
     def test_same_date_is_not_sent_again(self):
-        contact = {**self.contact, "attributes": {**self.contact["attributes"], "ALERT_LAST_SENT_DATE": "2026-10-22"}}
-        self.assertEqual(len(self.run_private(False, contact)), 1)
+        self.assertEqual(len(self.run_private(False, reservation="already-sent\n")), 1)
+        self.assertEqual([r["action"] for r in self.records], ["reserve"])
 
     def test_no_matching_jobs_means_no_email(self):
         preferences = [{"role": "Accounts Assistant", "location": "Bristol", "salary": ""}]
@@ -238,8 +245,7 @@ class PrivateDailyTests(unittest.TestCase):
         from datetime import datetime, timezone
         from unittest.mock import patch
         # The sample has its own date validation; freeze only the UTC clock.
-        with patch("datetime.datetime") as clock, patch("subprocess.run") as recorder:
-            recorder.return_value.stdout = ""
+        with patch("datetime.datetime") as clock:
             clock.now.return_value = datetime(2026, 10, 22, tzinfo=timezone.utc)
             contact = {**self.contact, "attributes": {**self.contact["attributes"],
                        "ALERT_LAST_SENT_DATE": "2026-10-22"}}
@@ -252,7 +258,7 @@ class PrivateDailyTests(unittest.TestCase):
         self.assertIn("https://www.ontapjobsearch.com/jobs/new-job", payload["textContent"])
         self.assertIn("ALERT_LAST_SENT_DATE", str(contact["attributes"]))
         key = payload["headers"]["idempotencyKey"]
-        self.assertEqual([json.loads(call.kwargs["input"]) for call in recorder.call_args_list], [
+        self.assertEqual(self.records, [
             {"action": "reserve", "key": key,
              "matches": [{"publicId": "new-job", "preferenceId": "pref-1"}]},
             {"action": "sent", "key": key, "messageId": "test-message"},
