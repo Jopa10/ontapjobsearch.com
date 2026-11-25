@@ -16,6 +16,9 @@ export type IndexingCandidate = {
   postedDate: string;
   qualityScore: number;
   deletionRisk: number;
+  partTimeJobG8Priority?: boolean;
+  popularPartTimeMarket?: boolean;
+  partTimeQueueDate?: string;
 };
 
 export type AttemptSummary = {
@@ -23,6 +26,7 @@ export type AttemptSummary = {
   type: NotificationType;
   lane: IndexingLane;
   source?: IndexingSource;
+  partTimeJobG8Priority?: boolean;
 };
 
 export function createDeletionCandidate(
@@ -59,6 +63,7 @@ export type SelectionConfig = {
   dailyQuota: number;
   newNonJobg8Reserve: number;
   deletionReserve: number;
+  partTimeJobG8DailyLimit: number;
 };
 
 export function pacificDate(now: Date): string {
@@ -131,11 +136,49 @@ export function selectIndexingCandidates(
   // Deletions retain a fixed allowance and are processed before updates.
   takeLane('deletion', Math.max(0, config.deletionReserve - previousDeletions));
 
+  // Give the part-time JobG8 daily slice first claim after deletions. Within
+  // the pending queue, process earlier skipped batches first; within a batch,
+  // popular markets come first, then the newest posted jobs.
+  const isPartTimeJobG8 = (candidate: IndexingCandidate) =>
+    candidate.source === 'jobg8' &&
+    candidate.type === 'URL_UPDATED' &&
+    candidate.partTimeJobG8Priority === true;
+  const partTimeAttemptCount = previousAttempts.filter(
+    (attempt) => attempt.source === 'jobg8' &&
+      attempt.type === 'URL_UPDATED' &&
+      attempt.partTimeJobG8Priority === true
+  ).length;
+  const partTimeCandidates = available
+    .filter(isPartTimeJobG8)
+    .sort((left, right) => {
+      const leftQueueDate = left.partTimeQueueDate ?? '';
+      const rightQueueDate = right.partTimeQueueDate ?? '';
+      if (leftQueueDate && rightQueueDate && leftQueueDate !== rightQueueDate)
+        return leftQueueDate.localeCompare(rightQueueDate);
+      if (leftQueueDate !== rightQueueDate) return leftQueueDate ? -1 : 1;
+      const market = Number(right.popularPartTimeMarket === true) - Number(left.popularPartTimeMarket === true);
+      if (market) return market;
+      return compareCandidates(left, right);
+    });
+  const partTimeRemaining = Math.max(0, config.partTimeJobG8DailyLimit - partTimeAttemptCount);
+  const partTimeCandidateKeys = new Set(
+    partTimeCandidates.map((candidate) => attemptKey(candidate.type, candidate.url))
+  );
+  let selectedPartTime = 0;
+  for (const candidate of partTimeCandidates) {
+    if (selectedPartTime >= partTimeRemaining || remainingDaily() <= 0) break;
+    selected.push(candidate);
+    selectedKeys.add(attemptKey(candidate.type, candidate.url));
+    selectedPartTime += 1;
+  }
+
   // JobG8 is the commercial priority. Every available JobG8 candidate can use
   // the remaining quota; its old 160-slot reserve is a minimum, not a ceiling.
   const isJobG8 = (candidate: IndexingCandidate) => candidate.source === 'jobg8';
   for (const candidate of available) {
-    if (!isJobG8(candidate) || candidate.lane === 'deletion' || selectedKeys.has(attemptKey(candidate.type, candidate.url))) continue;
+    if (!isJobG8(candidate) || candidate.lane === 'deletion' ||
+        partTimeCandidateKeys.has(attemptKey(candidate.type, candidate.url)) ||
+        selectedKeys.has(attemptKey(candidate.type, candidate.url))) continue;
     if (remainingDaily() <= 0) break;
     selected.push(candidate);
     selectedKeys.add(attemptKey(candidate.type, candidate.url));
