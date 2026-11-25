@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 14
+- automatic include: 9
+- automatic review: 12
 - automatic exclude: 9
-- effective include: 11
-- effective review: 14
+- effective include: 9
+- effective review: 12
 - effective exclude: 9
 
-## INCLUDE (11)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Assistant
-company: Care UK - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-108180188
-reason: Approved Southampton catchment.
----
+## INCLUDE (9)
 
 ---
 action: 
@@ -101,18 +89,6 @@ action:
 decision: include
 automatic_decision: include
 title: Support Worker
-company: First For Support - Agency - Temporary
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225813909
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Support Worker
 company: Homecare First - Agency - Permanent
 location: Southampton
 source: JobG8
@@ -156,7 +132,7 @@ job_id: jobg8-23643_225864158
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (12)
 
 ---
 action: 
@@ -210,18 +186,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Casual Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1401786179
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Extra Care Support Worker
 company: SCA Care - Agency - Temporary
 location: New Milton
@@ -263,18 +227,6 @@ company: MCS Healthcare - Agency - Contract
 location: Fordingbridge
 source: JobG8
 job_id: jobg8-23643_225636734
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Night Support Worker Children's Residential Home
-company: S.N.G Recruitment Solutions Limited - Agency - Permanent
-location: Hedge End
-source: JobG8
-job_id: jobg8-108264620
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -420,7 +372,7 @@ title: Secure Children's Home Support Worker
 company: Hampshire County Council - Company - Permanent
 location: Eastleigh
 source: JobG8
-job_id: jobg8-1401786178
+job_id: jobg8-1401786734
 reason: Separate employment market.
 ---
 
@@ -428,10 +380,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Specialist Care Support Worker
-company: SCA Care - Agency - Permanent
-location: Winchester
+title: Support Worker
+company: Kingdom People - Agency - Temporary
+location: Portsmouth
 source: JobG8
-job_id: jobg8-108298282
+job_id: jobg8-23643_225868667
 reason: Separate employment market.
 ---

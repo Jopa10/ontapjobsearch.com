@@ -76,6 +76,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator
+company: Pertemps Scotland - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225864425
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator - Charity
 company: Search Consultancy Ltd - Agency - Contract
 location: Edinburgh
@@ -140,7 +152,7 @@ title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2404323
+job_id: jobg8-2444302
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -164,7 +176,7 @@ title: Credit Controller
 company: ICONIC RESOURCING LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2409308
+job_id: jobg8-2451355
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -225,18 +237,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225810889
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2359957
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -388,11 +388,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist & Administrator
+title: Sales Administrator
 company: Office Angels - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-23643_225822027
+job_id: jobg8-23643_225865082
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

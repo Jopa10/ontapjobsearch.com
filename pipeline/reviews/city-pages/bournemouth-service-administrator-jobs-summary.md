@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 60
+- automatic review: 59
 - automatic exclude: 0
 - effective include: 6
-- effective review: 60
+- effective review: 59
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225818968
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (60)
+## REVIEW (59)
 
 ---
 action: 
@@ -151,10 +151,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: Silcom Recruitment Limited - Agency - Permanent
-location: Christchurch
+company: Reed - Agency - Permanent
+location: Poole
 source: JobG8
-job_id: jobg8-2419668
+job_id: jobg8-2441730
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -162,11 +162,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant - Poole - up to &;28,000 + good bens
-company: Bond Williams - Agency - Permanent
-location: Poole
+title: Accounts Assistant
+company: Silcom Recruitment Limited - Agency - Permanent
+location: Christchurch
 source: JobG8
-job_id: jobg8-2438576
+job_id: jobg8-2419668
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -191,18 +191,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-2374397
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Care UK - Company - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108242620
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -402,18 +390,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Team Jobs - Commercial - Agency - Temporary
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225763450
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Office Angels - Agency - Temporary
 location: Dorset
@@ -431,6 +407,18 @@ company: Compass UK & Ireland - Company - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-108203720
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Account Manager
+company: Rubicon Recruitment - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2442204
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -522,18 +510,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: HubSpot Funnel & Conversion Marketing Manager - Travel Franchise
-company: Recruitment Revolution - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108158396
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Internal Sales Executive
 company: Effective Recruitment Solutions Ltd - Agency - Permanent
 location: Poole
@@ -550,7 +526,7 @@ title: Legal Accounts Assistant
 company: Reed - Agency - Permanent
 location: Ferndown
 source: JobG8
-job_id: jobg8-2402087
+job_id: jobg8-2441870
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -631,6 +607,18 @@ action:
 decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
+company: Chalk Hill Group - Agency - Permanent
+location: Christchurch
+source: JobG8
+job_id: jobg8-2442211
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
 company: Hays Accounts and Finance - Agency - Permanent
 location: Dorset
 source: JobG8
@@ -670,7 +658,7 @@ title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2402601
+job_id: jobg8-2442254
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

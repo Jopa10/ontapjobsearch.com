@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 56
+- automatic review: 58
 - automatic exclude: 0
 - effective include: 3
-- effective review: 56
+- effective review: 58
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,19 @@ job_id: jobg8-23643_225779537
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (58)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Sharp Consultancy - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2445673
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -210,6 +222,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Clinical Team Secretary/Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Harrogate, HG1 3QE
+source: NHS Jobs
+job_id: nhs-5748548
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Commercial Property & Corporate Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Harrogate
@@ -262,7 +286,7 @@ title: Credit Controller
 company: Sharp Consultancy - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2402977
+job_id: jobg8-2442849
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -287,30 +311,6 @@ company: Willow Recruit - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2308097
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Bedale
-source: JobG8
-job_id: jobg8-20279_63331-002a3d68d1ccfcef2ea5de713d71ff34
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-20279_63331-5b8c65a16e74a9f9ccfca20e1c562ac6
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -403,18 +403,6 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: IPS Group - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2413706
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
 company: Michael Page - Agency - Permanent
 location: York
 source: JobG8
@@ -430,7 +418,19 @@ title: finance assistant
 company: Michael Page Finance - Agency - Permanent
 location: Richmond
 source: JobG8
-job_id: jobg8-2403117
+job_id: jobg8-2442859
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2443893
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -466,7 +466,7 @@ title: Finance Assistant
 company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2403068
+job_id: jobg8-2442303
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -654,11 +654,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Officer
-company: SI RECRUITMENT LIMITED - Agency - Permanent
-location: Yorkshire
+title: Private Client Legal Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Malton
 source: JobG8
-job_id: jobg8-108329671
+job_id: jobg8-2432139
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -666,11 +666,23 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Private Client Legal Assistant
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Malton
+title: Purchase Ledger
+company: Si Recruitment - Agency - Permanent
+location: Ripon
 source: JobG8
-job_id: jobg8-2432139
+job_id: jobg8-2451696
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Administrator
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2452159
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -731,6 +743,18 @@ company: Harrogate and District NHS Foundation Trust
 location: Harrogate, HG2 7SX
 source: NHS Jobs
 job_id: nhs-5740133
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: South Tees Hospitals NHS Foundation Trust
+location: Northallerton, DL6 1JG
+source: NHS Jobs
+job_id: nhs-5749014
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 9
 - automatic review: 41
 - automatic exclude: 0
-- effective include: 11
+- effective include: 9
 - effective review: 41
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (9)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Thomas Lee Recruitment Limited - Agency - Permanent
 location: Shrewsbury
 source: JobG8
 job_id: jobg8-2415708
-reason: Exact approved Shrewsbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Officer
-company: Opus People Solutions Ltd - Agency - Temporary
-location: Shrewsbury
-source: JobG8
-job_id: jobg8-23643_225771593
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -124,18 +112,6 @@ reason: Exact approved Shrewsbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Team Administrator
-company: Midlands Partnership NHS Foundation Trust
-location: Shrewsbury, SY1 4RQ
-source: NHS Jobs
-job_id: nhs-5719661
-reason: Exact approved Shrewsbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Technical Sales & Service Co-ordinator
 company: Lord Search & Selection - Agency - Permanent
 location: Shrewsbury
@@ -166,7 +142,7 @@ title: Accounts Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2406088
+job_id: jobg8-2447282
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -202,7 +178,7 @@ title: Accounts Assistant
 company: Seymour John - Agency - Permanent
 location: Oswestry
 source: JobG8
-job_id: jobg8-2401960
+job_id: jobg8-2441686
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -295,18 +271,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225770493
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Prince Personnel Limited - Agency - Temporary
 location: Telford
 source: JobG8
@@ -330,18 +294,6 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Business Administrator
-company: Proactive Personnel Ltd - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225770486
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Childcare Legal Assistant
 company: G2 Legal Limited - Agency - Permanent
 location: Shropshire
@@ -354,11 +306,35 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Communications and Engagement Assistant
+company: Muller UK & Ireland - Company - Permanent
+location: Market Drayton
+source: JobG8
+job_id: jobg8-2450122
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Control
 company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-2423980
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Clarke & Wright - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-2449491
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -407,6 +383,18 @@ company: KPA Recruitment Ltd - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225772483
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing & Growth Executive
+company: Marshall Harmony - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225865685
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -466,7 +454,7 @@ title: Finance Assistant
 company: Office Angels - Agency - Permanent
 location: Wellington
 source: JobG8
-job_id: jobg8-2406462
+job_id: jobg8-2447777
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -486,11 +474,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Temporary
-location: Shropshire
+title: Logistics Co-Ordinator
+company: KAG Recruitment Consultancy - Agency - Permanent
+location: Oswestry
 source: JobG8
-job_id: jobg8-23643_225814754
+job_id: jobg8-23643_225870083
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -534,6 +522,18 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Practice Marketing Assistant
+company: Wesleyan - Agency - Permanent
+location: Oswestry
+source: JobG8
+job_id: jobg8-2452448
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchasing Administrator
 company: Proactive Personnel Ltd - Agency - Permanent
 location: Shropshire
@@ -562,7 +562,7 @@ title: Sales Ledger Clerk
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-2406756
+job_id: jobg8-2448219
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -606,35 +606,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Team Administrator
-company: Midlands Partnership NHS Foundation Trust
-location: Telford, TF3 4NP
-source: NHS Jobs
-job_id: nhs-5718651
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Accounts Payable Clerk
 company: Seymour John - Agency - Permanent
 location: Telford
 source: JobG8
-job_id: jobg8-2407541
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Onboarding Coordinator
-company: Ashley Kate HR & Finance - Agency - Temporary
-location: Telford
-source: JobG8
-job_id: jobg8-23643_225768284
+job_id: jobg8-2449300
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

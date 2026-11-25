@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 6
+- automatic include: 7
+- automatic review: 3
 - automatic exclude: 0
-- effective include: 12
-- effective review: 6
+- effective include: 7
+- effective review: 3
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (7)
 
 ---
 action: 
@@ -33,54 +33,6 @@ company: Invictus Group - Agency - Temporary
 location: Belfast
 source: JobG8
 job_id: jobg8-23643_225820940
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-20279_64731
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-20279_64731-0e084e3021d753237ec1419a8b5b04eb
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-20279_64731-2c119d0ba036d6f7367ecfffee6618af
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-20279_64731-cf1f0735ef24eccac835e07e273f4178
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -100,23 +52,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: rated traders ltd - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2395522
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Financial Services Administrator
 company: Brook Street - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2410209
+job_id: jobg8-2452604
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -164,11 +104,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2429535
+job_id: jobg8-2440972
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (3)
 
 ---
 action: 
@@ -191,42 +131,6 @@ company: OBR Executive Search - Agency - Permanent
 location: Lisburn
 source: JobG8
 job_id: jobg8-23643_225865938
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newtownabbey
-source: JobG8
-job_id: jobg8-20279_64731-99c44a5496aea2a2093ed0c187c2f159
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-20279_64731-b4b6b9ae4fb4eb12bc54ffcc44c879ab
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Antrim
-source: JobG8
-job_id: jobg8-20279_64731-d4f0c9d138ec49292a2de744e4ac35b0
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

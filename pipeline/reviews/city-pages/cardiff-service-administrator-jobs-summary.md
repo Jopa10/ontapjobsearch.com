@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
+- automatic include: 23
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 20
+- effective include: 23
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (23)
 
 ---
 action: 
@@ -52,11 +52,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Apprentice Customer Service Advisor
-company: EE - Company - Permanent
+title: Bank Imaging Administrator
+company: Spire Healthcare - Company - Contract
 location: Cardiff
 source: JobG8
-job_id: jobg8-20279_64673-6235aa603e3e92e53d1200c49faf4748
+job_id: jobg8-23643_225870095
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -69,6 +69,30 @@ company: PPM Recruitment - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225805187
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commission Payments Administrator
+company: Finlink Ltd - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2444233
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: 7 Steel UK - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-108158391
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -89,10 +113,22 @@ action:
 decision: include
 automatic_decision: include
 title: Credit Controller
+company: Reed - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2444069
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
 company: Robert Half - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-2407771
+job_id: jobg8-2449604
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -137,6 +173,18 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
+company: Yolk Recruitment - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225864828
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
 company: Yolk Recruitment Ltd - Agency - Permanent
 location: Cardiff
 source: JobG8
@@ -152,7 +200,7 @@ title: Graduate Accounts Assistant
 company: Robert Half - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-2408358
+job_id: jobg8-2450313
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -165,18 +213,6 @@ company: Work Wales - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225449673
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Assistant
-company: Pertemps Cardiff - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-2385074
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -201,18 +237,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-2429938
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Cardiff and Vale University Health Board
-location: Cardiff, CF14 4XW
-source: NHS Jobs
-job_id: nhs-5738041
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -249,6 +273,18 @@ company: Auto Skills UK - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225782187
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Strategic Sourcing Coordinator
+company: Acorn by Synergie - Agency - Temporary
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225864759
 reason: Approved conservative Cardiff launch catchment.
 ---
 

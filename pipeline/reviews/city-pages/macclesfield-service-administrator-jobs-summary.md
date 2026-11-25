@@ -214,7 +214,7 @@ title: Accounts Assistant
 company: Acorn by Synergie - Agency - Permanent
 location: Crewe
 source: JobG8
-job_id: jobg8-2407373
+job_id: jobg8-2449109
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -274,7 +274,7 @@ title: Accounts Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Wilmslow
 source: JobG8
-job_id: jobg8-2410497
+job_id: jobg8-2453026
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -286,7 +286,7 @@ title: Accounts Assistant
 company: Platinum Recruitment Group - Agency - Permanent
 location: Wilmslow
 source: JobG8
-job_id: jobg8-2407088
+job_id: jobg8-2448744
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -323,6 +323,18 @@ company: System Recruitment - Agency - Permanent
 location: Middlewich
 source: JobG8
 job_id: jobg8-23643_225801237
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: VRS-UK - Agency - Contract
+location: Cheshire
+source: JobG8
+job_id: jobg8-23643_225867140
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -371,18 +383,6 @@ company: Solus Accident Repair Centres - Company - Permanent
 location: Middlewich
 source: JobG8
 job_id: jobg8-23643_225861113
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Forrest Recruitment - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-23643_225768872
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

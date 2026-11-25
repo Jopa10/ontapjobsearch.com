@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 43
+- Effective included jobs: 42
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 43
-- automatic review: 7
+- automatic include: 42
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 43
-- effective review: 7
+- effective include: 42
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (43)
+## INCLUDE (42)
 
 ---
 action: 
@@ -44,19 +44,7 @@ title: Accounts Payable Administrator
 company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2409502
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Assistant - Ongoing Temp - Hybrid
-company: Reed - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2415406
+job_id: jobg8-2451728
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -140,7 +128,7 @@ title: Client Administrator
 company: ICONIC RESOURCING LTD - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2403863
+job_id: jobg8-2443721
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -153,6 +141,18 @@ company: EE - Company - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-20279_64324-d24d3d6916a209e15b1680693740da2f
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Office Angels - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225864271
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -189,18 +189,6 @@ company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-2420413
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Administrator
-company: Search Consultancy Ltd - Agency - Contract
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225771111
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -256,11 +244,35 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Coordinator
+company: Adecco - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225870984
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-2433408
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Morgan Hunt Recruitment - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2441468
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -320,19 +332,7 @@ title: Legal Secretary
 company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2409424
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing and Communications Officer (18 months FTC)
-company: Michael Page - Agency - Contract
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225768903
+job_id: jobg8-2451843
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -368,7 +368,7 @@ title: Paralegal
 company: Adecco - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2408687
+job_id: jobg8-2450680
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -416,7 +416,7 @@ title: Payroll Assistant
 company: ICONIC RESOURCING LTD - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2409011
+job_id: jobg8-2451418
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -508,23 +508,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Technical Project Coordinator, LED & Video Events
-company: Neo Recruitment Ltd - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225768628
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temp Credit Controller /Billing Assistant
 company: Michael Page Business Support - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2403351
+job_id: jobg8-2443171
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -540,19 +528,7 @@ job_id: jobg8-23643_225860464
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (7)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Marketing Assistant
-company: No1 Legal and Professional - Agency - Permanent
-location: Lanarkshire
-source: JobG8
-job_id: jobg8-2373578
-reason: No approved Glasgow catchment rule matched; local review required.
----
+## REVIEW (5)
 
 ---
 action: 
@@ -563,18 +539,6 @@ company: Lime - Agency - Permanent
 location: Dunbartonshire
 source: JobG8
 job_id: jobg8-23643_225774513
-reason: No approved Glasgow catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing and Communications Officer (18 months FTC)
-company: Michael Page Business Support - Agency - Permanent
-location: Lanarkshire
-source: JobG8
-job_id: jobg8-2392265
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 
@@ -622,7 +586,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2429542
+job_id: jobg8-2440980
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

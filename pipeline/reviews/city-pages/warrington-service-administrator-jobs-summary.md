@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
+- automatic include: 29
 - automatic review: 9
-- automatic exclude: 6
-- effective include: 30
+- automatic exclude: 7
+- effective include: 29
 - effective review: 9
-- effective exclude: 6
+- effective exclude: 7
 
-## INCLUDE (30)
+## INCLUDE (29)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2430812
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Bis Henderson - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2428477
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -80,7 +68,7 @@ title: Accounts Assistant - Part-time
 company: RG Consultancy Ltd - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2403632
+job_id: jobg8-2443478
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -92,7 +80,7 @@ title: Accounts Assistant - Temp to Perm
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2409283
+job_id: jobg8-2451331
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -200,7 +188,7 @@ title: Finance Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2407511
+job_id: jobg8-2449273
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -224,7 +212,7 @@ title: Marketing and Business Development Executive
 company: Hoot Recruit LTD - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2405577
+job_id: jobg8-2446448
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -272,7 +260,7 @@ title: Payroll Officer
 company: Accountable Recruitment - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2403559
+job_id: jobg8-2443406
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -390,6 +378,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: RG Consultancy Ltd - Agency - Permanent
+location: Widnes
+source: JobG8
+job_id: jobg8-2448694
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Breakdown & Recovery Co-ordinator
 company: Hough Green - Agency - Permanent
 location: Widnes
@@ -418,7 +418,7 @@ title: Marketing Assistant
 company: NMS Recruit Limited - Agency - Permanent
 location: Cheshire
 source: JobG8
-job_id: jobg8-2404861
+job_id: jobg8-2444902
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -431,18 +431,6 @@ company: Zachary Daniels - Agency - Permanent
 location: Cheshire
 source: JobG8
 job_id: jobg8-2368960
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Adele Carr Recruitment Limited - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-2367808
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -478,7 +466,7 @@ title: Sales Ledger Clerk
 company: NC Associates - Agency - Permanent
 location: Cheshire
 source: JobG8
-job_id: jobg8-2408460
+job_id: jobg8-2450716
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -494,7 +482,7 @@ job_id: jobg8-23643_225859173
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -504,7 +492,7 @@ title: Accounts Receivable & Finance Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Runcorn
 source: JobG8
-job_id: jobg8-2410498
+job_id: jobg8-2453027
 reason: Separate employment market.
 ---
 
@@ -541,6 +529,18 @@ company: Butler Rose - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-2427450
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Reed - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-2451098
 reason: Separate employment market.
 ---
 

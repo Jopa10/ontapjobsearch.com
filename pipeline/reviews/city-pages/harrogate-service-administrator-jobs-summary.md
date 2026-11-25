@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 14
 - automatic review: 14
-- automatic exclude: 31
+- automatic exclude: 33
 - effective include: 14
 - effective review: 14
-- effective exclude: 31
+- effective exclude: 33
 
 ## INCLUDE (14)
 
@@ -76,6 +76,18 @@ reason: Exact approved Harrogate workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Clinical Team Secretary/Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Harrogate, HG1 3QE
+source: NHS Jobs
+job_id: nhs-5748548
+reason: Exact approved Harrogate workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Commercial Property & Corporate Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Harrogate
@@ -93,18 +105,6 @@ company: Willow Recruit - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2308097
-reason: Exact approved Harrogate workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: IPS Group - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2413706
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -234,18 +234,6 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Bedale
-source: JobG8
-job_id: jobg8-20279_63331-002a3d68d1ccfcef2ea5de713d71ff34
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Document Controller - Contract Administrator
 company: Layka Connect - Agency - Permanent
 location: Richmond
@@ -262,7 +250,7 @@ title: finance assistant
 company: Michael Page Finance - Agency - Permanent
 location: Richmond
 source: JobG8
-job_id: jobg8-2403117
+job_id: jobg8-2442859
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -342,6 +330,18 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger
+company: Si Recruitment - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-2451696
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Coordinator
 company: Travail Employment Group - Agency - Permanent
 location: Knaresborough
@@ -362,7 +362,19 @@ job_id: jobg8-2438504
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (33)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Sharp Consultancy - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2445673
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
 
 ---
 action: 
@@ -468,7 +480,7 @@ title: Credit Controller
 company: Sharp Consultancy - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2402977
+job_id: jobg8-2442849
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -481,18 +493,6 @@ company: Inicio Funding Solutions Ltd_2026-10-19-08:21:16.112 - Agency - Permane
 location: Yorkshire
 source: JobG8
 job_id: jobg8-108326695
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-20279_63331-5b8c65a16e74a9f9ccfca20e1c562ac6
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -585,10 +585,22 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2443893
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
 company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2403068
+job_id: jobg8-2442303
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -704,11 +716,11 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll Officer
-company: SI RECRUITMENT LIMITED - Agency - Permanent
-location: Yorkshire
+title: Purchase Ledger Administrator
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: York
 source: JobG8
-job_id: jobg8-108329671
+job_id: jobg8-2452159
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -733,5 +745,17 @@ company: Dale Power Solutions - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225779537
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Clerk
+company: South Tees Hospitals NHS Foundation Trust
+location: Northallerton, DL6 1JG
+source: NHS Jobs
+job_id: nhs-5749014
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---

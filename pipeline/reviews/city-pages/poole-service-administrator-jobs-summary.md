@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 16
 - automatic review: 49
 - automatic exclude: 0
-- effective include: 17
+- effective include: 16
 - effective review: 49
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (16)
 
 ---
 action: 
@@ -40,11 +40,11 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Assistant - Poole - up to &;28,000 + good bens
-company: Bond Williams - Agency - Permanent
+title: Accounts Assistant
+company: Reed - Agency - Permanent
 location: Poole
 source: JobG8
-job_id: jobg8-2438576
+job_id: jobg8-2441730
 reason: Exact approved Poole workplace.
 ---
 
@@ -81,18 +81,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-2374789
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Team Jobs - Commercial - Agency - Temporary
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225763450
 reason: Exact approved Poole workplace.
 ---
 
@@ -287,18 +275,6 @@ company: Bond Williams - Agency - Permanent
 location: Wareham
 source: JobG8
 job_id: jobg8-2364433
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Care UK - Company - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108242620
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -558,6 +534,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Digital Account Manager
+company: Rubicon Recruitment - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2442204
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
@@ -642,23 +630,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HubSpot Funnel & Conversion Marketing Manager - Travel Franchise
-company: Recruitment Revolution - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108158396
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Accounts Assistant
 company: Reed - Agency - Permanent
 location: Ferndown
 source: JobG8
-job_id: jobg8-2402087
+job_id: jobg8-2441870
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -683,6 +659,18 @@ company: Christchurch Medical Practice
 location: Christchurch, BH23 3AF
 source: NHS Jobs
 job_id: nhs-5700886
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Chalk Hill Group - Agency - Permanent
+location: Christchurch
+source: JobG8
+job_id: jobg8-2442211
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -718,7 +706,7 @@ title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2402601
+job_id: jobg8-2442254
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

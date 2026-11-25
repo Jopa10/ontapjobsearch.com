@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 61
+- automatic review: 65
 - automatic exclude: 0
 - effective include: 13
-- effective review: 61
+- effective review: 65
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,19 @@ job_id: jobg8-23643_225397260
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (61)
+## REVIEW (65)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Assistant
+company: SF Partners - Agency - Permanent
+location: West Bromwich
+source: JobG8
+job_id: jobg8-2448705
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -223,11 +235,23 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: Marks Sattin - Agency - Permanent
-location: Wolverhampton
+company: Pertemps Black Country Perms - Agency - Contract
+location: Brierley Hill
 source: JobG8
-job_id: jobg8-2368845
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+job_id: jobg8-23643_225866621
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Pertemps Black Country Perms - Agency - Permanent
+location: Dudley
+source: JobG8
+job_id: jobg8-2442183
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 
 ---
@@ -298,7 +322,7 @@ title: Accounts Payable Assistant
 company: SF Partners - Agency - Permanent
 location: Wolverhampton
 source: JobG8
-job_id: jobg8-2406453
+job_id: jobg8-2447722
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -415,6 +439,18 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
+company: ENB Recruitment and Training Limited - Agency - Permanent
+location: Dudley
+source: JobG8
+job_id: jobg8-2452213
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
 company: Fortis Recruitment Solutions Ltd - Agency - Permanent
 location: Wolverhampton
 source: JobG8
@@ -443,6 +479,18 @@ company: Conrad Consulting Ltd - Agency - Permanent
 location: Kingswinford
 source: JobG8
 job_id: jobg8-23643_225818034
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Complex Care Co-ordinator
+company: RJS Resourcing Ltd - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-108371236
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -538,7 +586,7 @@ title: Finance Administrator
 company: Office Angels - Agency - Permanent
 location: Wolverhampton
 source: JobG8
-job_id: jobg8-2409699
+job_id: jobg8-2452148
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -860,18 +908,6 @@ decision: review
 automatic_decision: review
 title: Team Administrator
 company: Black Country Healthcare NHS Foundation Trust
-location: Dudley, DY1 1RN
-source: NHS Jobs
-job_id: nhs-5725105
-reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Black Country Healthcare NHS Foundation Trust
 location: Oldbury, B69 1EJ
 source: NHS Jobs
 job_id: nhs-5725126
@@ -900,6 +936,18 @@ location: Oldbury, B69 2DG
 source: NHS Jobs
 job_id: nhs-5730022
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Customer Service & Project Coordinator
+company: SF Partners - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-23643_225867777
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

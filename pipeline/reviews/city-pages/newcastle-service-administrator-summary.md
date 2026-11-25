@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 58
+- Effective included jobs: 48
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 58
-- automatic review: 86
-- automatic exclude: 44
-- effective include: 58
-- effective review: 86
-- effective exclude: 44
+- automatic include: 48
+- automatic review: 83
+- automatic exclude: 38
+- effective include: 48
+- effective review: 83
+- effective exclude: 38
 
-## INCLUDE (58)
+## INCLUDE (48)
 
 ---
 action: 
@@ -340,6 +340,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Clerical Assistant
+company: Gateshead Health NHS Foundation Trust
+location: Gateshead, NE9 6SX
+source: NHS Jobs
+job_id: nhs-5748186
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Client Administrator
 company: IDEX Consulting Ltd - Agency - Permanent
 location: Newcastle
@@ -484,138 +496,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-20279_64250
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-20279_64250-41cdf25d056349db306149492f169b31
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-20279_64250-59c59f9b3c520d22bb5c2866f13441cf
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-20279_64250-6244596d725e8bfdfd2d12eee2f9a237
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-20279_64250-714afb01ebf3664bdb0febe6b0f96c3d
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-20279_64250-8a947d76c6803dd88116d68f668dce22
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-20279_64250-9590fcbeb2a607842ad3c14eab014f49
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-20279_64250-97dd20c4ebf6ff9280a87b3c8decd99f
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-20279_64250-b3dfc7fb9161b3eb7c4abe3945172d88
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-20279_64250-b6a5abb8cb239edda734f83e02af7151
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Newcastle upon Tyne
-source: JobG8
-job_id: jobg8-20279_64250-ef7f539b8e9ba33cad21e044c32527c2
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Representative
 company: Adecco - Agency - Permanent
 location: Newcastle Upon Tyne
@@ -720,7 +600,7 @@ job_id: jobg8-23643_225826542
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (86)
+## REVIEW (83)
 
 ---
 action: 
@@ -946,7 +826,19 @@ title: Business Development Executive
 company: Ronald James - Agency - Permanent
 location: Stockton-on-tees
 source: JobG8
-job_id: jobg8-2403266
+job_id: jobg8-2443097
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Development Executives
+company: CKB Recruitment Ltd - Agency - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-23643_225864391
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -966,23 +858,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Sedgefield, TS21 3EE
-source: NHS Jobs
-job_id: nhs-5717493
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Communications and Engagement Coordinator
 company: Jackson Hogg - Agency - Permanent
 location: Northumberland
 source: JobG8
-job_id: jobg8-2407101
+job_id: jobg8-2448756
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -1042,20 +922,8 @@ title: CRM Executive
 company: Nigel Wright Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2403067
+job_id: jobg8-2442774
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Yarm
-source: JobG8
-job_id: jobg8-20279_63331-c2cf1ff73c8fcae86d0128a9936773c0
-reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -1134,30 +1002,6 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Digital PR Consultant
-company: BMC Recruitment Group Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225771603
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: ED Receptionist
-company: Northumbria Healthcare NHS Foundation Trust
-location: Cramlington, NE23 6NZ
-source: NHS Jobs
-job_id: nhs-5717692
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Executive Assistant / Office Administrator 18.5 hrs
 company: LaunchPad Associates Ltd - Agency - Permanent
 location: Tyne And Wear
@@ -1186,7 +1030,7 @@ title: Finance Administrator (Contractor payroll)
 company: Tenth Revolution Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2407321
+job_id: jobg8-2449062
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1398,18 +1242,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive (Content & PR)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225763677
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Administrator
 company: SRG - Agency - Contract
 location: Sedgefield
@@ -1462,7 +1294,7 @@ title: Payroll Administrator
 company: Reed - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2409996
+job_id: jobg8-2452347
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1498,7 +1330,7 @@ title: PPC Manager
 company: Jackson Hogg - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2408088
+job_id: jobg8-2449962
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1554,23 +1386,23 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/ Front of House
-company: Search Consultancy Ltd - Agency - Contract
-location: Tyne And Wear
+title: Purchase Ledger Clerk
+company: Coleman James - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225790430
-reason: Broad location; review before city inclusion.
+job_id: jobg8-23643_225864663
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Recruiter
-company: Capital R2R Limited - Agency - Permanent
+title: Receptionist/ Front of House
+company: Search Consultancy Ltd - Agency - Contract
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-23643_222841829
+job_id: jobg8-23643_225790430
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1590,11 +1422,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Remortgage Paralegal
+company: Adkins & Cheurfi Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225867617
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Residential Conveyancing Paralegal
 company: eNL Legal Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2410320
+job_id: jobg8-2452745
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1674,18 +1518,6 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Administrator
-company: Search Consultancy Ltd - Agency - Temporary
-location: Shildon
-source: JobG8
-job_id: jobg8-23643_225768618
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Bishop Auckland, DL14 6AE
@@ -1710,11 +1542,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Temporary Marketing Assistant - Newcastle City Centre
+company: Office Angels - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2450793
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2429550
+job_id: jobg8-2440987
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1754,7 +1598,7 @@ job_id: jobg8-2379186
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (44)
+## EXCLUDE (38)
 
 ---
 action: 
@@ -1797,10 +1641,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Elysium Healthcare
-location: Darlington, DL1 5TH
-source: NHS Jobs
-job_id: nhs-5746520
+company: Interaction Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225864117
 reason: Separate employment market.
 ---
 
@@ -1813,18 +1657,6 @@ company: South Tyneside and Sunderland NHS Foundation Trust
 location: JARROW, NE32 5NN
 source: NHS Jobs
 job_id: nhs-5721195
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Administrator
-company: North East & North Cumbria ICB
-location: Sunderland, SR5 3XB
-source: NHS Jobs
-job_id: nhs-5717699
 reason: Separate employment market.
 ---
 
@@ -1868,11 +1700,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH9 0AB
-source: NHS Jobs
-job_id: nhs-5717516
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-20279_64242-87702a1e673975e9bbf89c3879ce0d96
 reason: Separate employment market.
 ---
 
@@ -1880,11 +1712,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Contact Centre Agent
-company: EE - Company - Permanent
-location: Sunderland
+title: Conveyancing Assistant
+company: Adkins & Cheurfi Recruitment - Agency - Permanent
+location: County Durham
 source: JobG8
-job_id: jobg8-20279_64242-87702a1e673975e9bbf89c3879ce0d96
+job_id: jobg8-23643_225867693
 reason: Separate employment market.
 ---
 
@@ -1909,78 +1741,6 @@ company: MTrec Recruitment - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2371553
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-20279_63331
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-20279_63331-0af9c2e8d2d82340abbf62ff40a2f5dd
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-20279_63331-19835ab1d656d69a1f79609d1c83277c
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-20279_63331-3a1858bed5535f486b1681e7511a6d87
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-20279_63331-7991282252becae2afbbfa69ff6f6496
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-20279_63331-f9b090443205fe9b0adaf2aa5700e2c0
 reason: Separate employment market.
 ---
 
@@ -2024,6 +1784,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Digital Marketing Officer
+company: SRG - Agency - Contract
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225867486
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Digital Marketing Officer
+company: SRG - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2443901
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Financial Services Administrator
 company: Reed - Agency - Permanent
 location: Durham
@@ -2041,18 +1825,6 @@ company: Integro People Limited - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225826691
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: GP Receptionist/Administrator
-company: Hylton Medical Group
-location: Sunderland, SR4 7XF
-source: NHS Jobs
-job_id: nhs-5723467
 reason: Separate employment market.
 ---
 
@@ -2113,6 +1885,18 @@ company: qed legal - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2423047
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Manager
+company: Ascent Resourcing Limited - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2440695
 reason: Separate employment market.
 ---
 
@@ -2184,7 +1968,7 @@ title: Purchase Ledger
 company: Si Recruitment - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2402858
+job_id: jobg8-2442522
 reason: Separate employment market.
 ---
 
@@ -2233,18 +2017,6 @@ company: Belmont Recruitment - Agency - Contract
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_221902170
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Darlington, DL3 6HX
-source: NHS Jobs
-job_id: nhs-5717470
 reason: Separate employment market.
 ---
 

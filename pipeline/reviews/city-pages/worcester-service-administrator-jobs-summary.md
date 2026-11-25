@@ -68,7 +68,7 @@ title: Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Worcester
 source: JobG8
-job_id: jobg8-2408459
+job_id: jobg8-2450715
 reason: Exact approved Worcester workplace.
 ---
 
@@ -94,7 +94,7 @@ title: Accounts Assistant
 company: TMR Group Ltd - Agency - Permanent
 location: Droitwich
 source: JobG8
-job_id: jobg8-2408631
+job_id: jobg8-2450622
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -130,7 +130,7 @@ title: Accounts Receivable Co-ordinator
 company: Four Squared - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2404872
+job_id: jobg8-2444911
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -210,11 +210,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Annual Review Administrator (IFA)
-company: NJR Recruitment - Agency - Permanent
-location: Bromsgrove
-source: JobG8
-job_id: jobg8-2408338
+title: Administrator
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Redditch, B98 7UH
+source: NHS Jobs
+job_id: nhs-5749217
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -222,11 +222,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: BMW Accounts Assistant
-company: Sytner - Company - Permanent
-location: Worcestershire
+title: Annual Review Administrator (IFA)
+company: NJR Recruitment - Agency - Permanent
+location: Bromsgrove
 source: JobG8
-job_id: jobg8-23643_225787202
+job_id: jobg8-2450293
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -462,18 +462,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-2373413
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Officer
 company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Worcestershire
@@ -490,7 +478,19 @@ title: Payroll Officer
 company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-2408345
+job_id: jobg8-2450300
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Planner- WR11
+company: RG Setsquare - Agency - Contract
+location: Evesham
+source: JobG8
+job_id: jobg8-23643_225864609
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -502,7 +502,7 @@ title: Purchase Ledger Clerk
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Kidderminster
 source: JobG8
-job_id: jobg8-2409793
+job_id: jobg8-2452099
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

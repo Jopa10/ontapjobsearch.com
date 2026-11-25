@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 14
+- automatic include: 18
+- automatic review: 13
 - automatic exclude: 0
-- effective include: 22
-- effective review: 14
+- effective include: 18
+- effective review: 13
 - effective exclude: 0
 
-## INCLUDE (22)
+## INCLUDE (18)
 
 ---
 action: 
@@ -32,19 +32,7 @@ title: Accounts Assistant
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2402175
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable
-company: Austin Matley HR & Recruitment Ltd - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2192494
+job_id: jobg8-2448450
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -64,11 +52,11 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: Reed - Agency - Permanent
+title: Conveyancing Assistant
+company: SJC Partners - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2407597
+job_id: jobg8-2450449
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -76,11 +64,11 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
+title: Credit Controller
+company: Reed - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-20279_64721-75eb2d6d3a9cf2a646b85dba47edfb43
+job_id: jobg8-2449355
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -124,35 +112,11 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Customs Administrator
-company: EL Recruitment Solutions Ltd - Agency - Permanent
+title: Internal Sales Support Representative
+company: Blue Moon Recruitment - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-23643_225104910
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Junior Finance Assistant (Manufacturing)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225762716
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Key Accounts Coordinator - Freight & Logistics
-company: Winsearch - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225766787
+job_id: jobg8-23643_223551547
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -201,18 +165,6 @@ company: Red Recruitment 247 - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225862397
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Administrator
-company: Integrity Plus Ltd - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225766192
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -288,7 +240,7 @@ job_id: jobg8-23643_225808865
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -431,18 +383,6 @@ company: TeacherActive - Agency - Temporary
 location: Scunthorpe
 source: JobG8
 job_id: jobg8-23643_225807524
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Supply Chain & Procurement Planner
-company: Benjamin Edwards - Agency - Permanent
-location: Skegness
-source: JobG8
-job_id: jobg8-23643_225765216
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

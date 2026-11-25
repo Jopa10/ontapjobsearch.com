@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 34
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 16
-- effective review: 34
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225782845
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (36)
 
 ---
 action: 
@@ -318,6 +318,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Administrator
+company: Advancing People - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225866732
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Control/Accounts Receivable
 company: Michael Page Finance - Agency - Permanent
 location: Bedfordshire
@@ -335,6 +347,18 @@ company: Go Interiors Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225775230
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Michael Page - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225868075
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -378,11 +402,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Officer
-company: Venn Group - Agency - Permanent
-location: Bedfordshire
+title: Finance Assistant
+company: Karter Thomas Ltd - Agency - Permanent
+location: Luton
 source: JobG8
-job_id: jobg8-2437647
+job_id: jobg8-23643_225870517
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -490,7 +514,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2404610
+job_id: jobg8-2444604
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -582,18 +606,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Repairs Administrator
-company: Nuco Solutions Ltd - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225771144
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Repairs Planner
 company: Howells Solutions Limited - Agency - Permanent
 location: Luton
@@ -611,6 +623,18 @@ company: Think Specialist Recruitment - Agency - Contract
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225800590
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Telesales Executive
+company: SUEZ UK - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-23643_225863307
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

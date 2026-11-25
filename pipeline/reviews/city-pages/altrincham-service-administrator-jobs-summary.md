@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 36
+- automatic review: 33
 - automatic exclude: 0
 - effective include: 5
-- effective review: 36
+- effective review: 33
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: JANE GORSE RECRUITMENT LIMITED - Agency - Permanent
 location: Altrincham
 source: JobG8
-job_id: jobg8-2389298
+job_id: jobg8-2443612
 reason: Exact approved Altrincham workplace.
 ---
 
@@ -84,7 +84,7 @@ job_id: jobg8-2381823
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (33)
 
 ---
 action: 
@@ -130,7 +130,7 @@ title: Accounts Assistant
 company: RG Consultancy Ltd - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-2408465
+job_id: jobg8-2450720
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -179,18 +179,6 @@ company: NHS Greater Manchester Integrated Care
 location: Ashton-Under-Lyne, OL6 6BH
 source: NHS Jobs
 job_id: nhs-5741156
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Premier Recruitment Solutions Ltd - Agency - Permanent
-location: Denton
-source: JobG8
-job_id: jobg8-23643_225821201
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -366,18 +354,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Outcomes First Group - Company - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-20091_330300
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Operations Administrator
 company: Hays Business Support - Agency - Permanent
 location: Stockport
@@ -395,18 +371,6 @@ company: Kinaxia Logistics Limited - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225859441
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part time Payroll Specialist
-company: Michael Page Finance - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2373551
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -490,7 +454,7 @@ title: Purchase Ledger/Accounts Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2405001
+job_id: jobg8-2445710
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

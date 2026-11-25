@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 96
+- automatic review: 102
 - automatic exclude: 0
 - effective include: 0
-- effective review: 96
+- effective review: 102
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (96)
+## REVIEW (102)
 
 ---
 action: 
@@ -187,6 +187,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: JR Personnel - Agency - Temporary
+location: Loughborough
+source: JobG8
+job_id: jobg8-23643_225867171
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: The Supply Register - Agency - Temporary
 location: Narborough
 source: JobG8
@@ -203,6 +215,18 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Loughborough
 source: JobG8
 job_id: jobg8-23643_225821863
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Engineering
+company: Office Angels - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225866028
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -370,7 +394,7 @@ title: Digital Marketer
 company: Go Websites - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2410889
+job_id: jobg8-2453328
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -394,7 +418,19 @@ title: Finance and Systems Coordinator
 company: Trinity House Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2407366
+job_id: jobg8-2449102
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Pontoon - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225867275
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -462,11 +498,23 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Financial Services Administrator
+company: North Oak Recruitment Ltd - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2447092
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Governance Coordinator
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Loughborough
 source: JobG8
-job_id: jobg8-2407247
+job_id: jobg8-2449153
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -558,6 +606,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Internal Sales Executive
+company: Stafforce Recruitment - Agency - Permanent
+location: Shepshed
+source: JobG8
+job_id: jobg8-23643_225870582
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Junior Business Administrator
 company: CRC Recruitment Ltd - Agency - Permanent
 location: Leicestershire
@@ -606,11 +666,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Manager
-company: Michael Page - Agency - Permanent
+title: Marketing Coordinator (HubSpot)
+company: GBR Recruitment Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225772463
+job_id: jobg8-2448325
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -618,11 +678,23 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Secretary
-company: EJ Connect - Agency - Permanent
+title: Marketing Coordinator (HubSpot)
+company: GBR Recruitment Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225770895
+job_id: jobg8-2448329
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
+company: Michael Page - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225772463
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -695,6 +767,18 @@ company: RECfinancial - Agency - Contract
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225852669
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: This is Alexander Faraday Limited - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225859093
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -847,6 +931,18 @@ action:
 decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-2452802
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
 company: Robert Half - Agency - Permanent
 location: Leicestershire
 source: JobG8
@@ -930,6 +1026,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Quality and Governance Administrator
+company: Spire Healthcare - Company - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225868585
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist/Administrator
 company: Aylestone Health Centre
 location: Leicester, LE2 8SF
@@ -995,30 +1103,6 @@ company: Adecco - Agency - Temporary
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225847312
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator (Welding / Engineering)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225861343
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator - Engineering
-company: Office Angels - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225771317
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -1138,7 +1222,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2429545
+job_id: jobg8-2440984
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -1163,18 +1247,6 @@ company: Gleeson Recruitment Group - Agency - Temporary
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225811080
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: University Hospitals of Leicester NHS Trust
-location: Leicester, LE15WW
-source: NHS Jobs
-job_id: nhs-5736375
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

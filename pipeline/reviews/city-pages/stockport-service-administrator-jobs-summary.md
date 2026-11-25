@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 22
+- automatic include: 17
+- automatic review: 21
 - automatic exclude: 0
-- effective include: 19
-- effective review: 22
+- effective include: 17
+- effective review: 21
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (17)
 
 ---
 action: 
@@ -44,7 +44,7 @@ title: Accounts Assistant
 company: RG Consultancy Ltd - Agency - Permanent
 location: Stockport
 source: JobG8
-job_id: jobg8-2408465
+job_id: jobg8-2450720
 reason: Exact approved Stockport workplace.
 ---
 
@@ -148,18 +148,6 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: Outcomes First Group - Company - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-20091_330300
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Operations Administrator
 company: Hays Business Support - Agency - Permanent
 location: Stockport
@@ -177,18 +165,6 @@ company: Kinaxia Logistics Limited - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225859441
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part time Payroll Specialist
-company: Michael Page Finance - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2373551
 reason: Exact approved Stockport workplace.
 ---
 
@@ -252,7 +228,7 @@ job_id: jobg8-23643_225850411
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (21)
 
 ---
 action: 
@@ -286,7 +262,7 @@ title: Accounts Assistant
 company: JANE GORSE RECRUITMENT LIMITED - Agency - Permanent
 location: Altrincham
 source: JobG8
-job_id: jobg8-2389298
+job_id: jobg8-2443612
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -311,18 +287,6 @@ company: NHS Greater Manchester Integrated Care
 location: Ashton-Under-Lyne, OL6 6BH
 source: NHS Jobs
 job_id: nhs-5741156
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Premier Recruitment Solutions Ltd - Agency - Permanent
-location: Denton
-source: JobG8
-job_id: jobg8-23643_225821201
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -502,7 +466,7 @@ title: Purchase Ledger/Accounts Assistant
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
-job_id: jobg8-2405001
+job_id: jobg8-2445710
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

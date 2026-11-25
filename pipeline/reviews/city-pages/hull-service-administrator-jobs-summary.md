@@ -4,8 +4,8 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 12
+- automatic include: 3
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 7
-- effective review: 12
+- effective include: 3
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,42 +33,6 @@ company: Prestige Recruitment Specialists - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225798510
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Humber Teaching NHS Foundation Trust
-location: Hull, HU3 2RT
-source: NHS Jobs
-job_id: nhs-5719125
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU3 2JZ
-source: NHS Jobs
-job_id: nhs-5719234
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU3 2JZ
-source: NHS Jobs
-job_id: nhs-5719236
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -88,18 +52,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Facilities Coordinator - 12 Month FTC - Hull
-company: qed legal - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-2371486
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Treasury Administrator
 company: GlobalData UK Ltd - Company - Permanent
 location: Hull
@@ -108,7 +60,7 @@ job_id: jobg8-23643_225818060
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (14)
 
 ---
 action: 
@@ -130,7 +82,7 @@ title: Accounts Payable Controller
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2406775
+job_id: jobg8-2448494
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -142,7 +94,19 @@ title: Accounts Receivable Controller
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2409367
+job_id: jobg8-2451479
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Navigator / Receptionist
+company: The Ridings Medical Group
+location: HESSLE, HU13 9LZ, Brough, HU15 2JG, Brough, HU15 1AY, York, YO43 4BJ, Selby, YO8 6LY
+source: NHS Jobs
+job_id: nhs-5743136
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -179,6 +143,18 @@ company: NJR Recruitment - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-2432551
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Health Centre Receptionist
+company: City Health Care Partnership CIC
+location: Goole, DN14 6RU
+source: NHS Jobs
+job_id: nhs-5744067
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

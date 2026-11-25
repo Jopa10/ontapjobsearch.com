@@ -40,11 +40,11 @@ reason: Exact approved Swansea workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Apprentice Customer Service Advisor
-company: EE - Company - Permanent
+title: BMW Service Advisor
+company: Sytner - Company - Permanent
 location: Swansea
 source: JobG8
-job_id: jobg8-20279_64673-cd97ec64f2b5505779f171a332da06df
+job_id: jobg8-23643_225865165
 reason: Exact approved Swansea workplace.
 ---
 
@@ -150,18 +150,6 @@ reason: No approved Swansea employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Apprentice Customer Service Advisor
-company: EE - Company - Permanent
-location: Neath
-source: JobG8
-job_id: jobg8-20279_64673-039533abdb94a2f309fe78c372f4ee59
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper
 company: Robert Half - Agency - Permanent
 location: Bridgend
@@ -179,6 +167,18 @@ company: Prospero Teaching Cardiff - Agency - Temporary
 location: Bridgend
 source: JobG8
 job_id: jobg8-23643_225857064
+reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: TeacherActive - Agency - Temporary
+location: Neath
+source: JobG8
+job_id: jobg8-23643_225865739
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 
