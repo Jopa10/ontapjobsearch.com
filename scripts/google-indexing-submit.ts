@@ -206,6 +206,7 @@ function isPopularPartTimeMarket(job: PublishedJob): boolean {
 
 function currentJobs(): Map<string, CurrentJob> {
   const current = new Map<string, CurrentJob>();
+  const seenDates = firstSeenDates();
   for (const job of getPublishedJobs()) {
     const url = jobUrl(job.job_id);
     const schema = buildJobPostingSchema(job, url);
@@ -215,7 +216,7 @@ function currentJobs(): Map<string, CurrentJob> {
       url,
       fingerprint: fingerprint(job),
       source: sourceGroup(job.source),
-      postedDate: job.posted_date,
+      postedDate: job.posted_date || seenDates.get(url) || '',
       qualityScore: qualityScore(job),
       hasValidThrough: typeof schema.validThrough === 'string',
       partTimeJobG8Priority: sourceGroup(job.source) === 'jobg8' && isPartTimeJob(job),
