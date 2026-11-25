@@ -1,13 +1,15 @@
 # Ontap System Map
 
-**Last updated:** 21 November 2026
-**Status:** Production architecture reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production vacancy publishing remains file-based. External service settings and current live deployment require separate verification.
+**Last updated:** 25 November 2026
+**Status:** Production architecture reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production vacancy publishing remains file-based. External service settings and current live deployment require separate verification. Google Indexing part-time priority is staged on a branch and is not active on main until merged.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 25 November 2026 — **Part-time JobG8 indexing priority prepared:** the branch adds a maximum of 25 new, unsubmitted JobG8 part-time URL updates per Pacific quota day within the existing shared 200-attempt ledger. It selects roles in the high-click markets first (London; Birmingham/Solihull; Manchester/Salford; Liverpool; Bradford/Leeds/West Yorkshire; Sheffield/South Yorkshire; Northampton/Northamptonshire), then uses newest posted date, falling back to Ontap first-seen date. Eligible overflow remains queued while the job stays published and is considered ahead of newly arriving part-time roles on later runs. The existing non-JobG8 ceiling and deletion handling remain unchanged. This is staged for review; main and live submissions remain unchanged until merge.
 
 - 21 November 2026 — **Neon Preview refresh and website parity passed:** automatic refresh run `44908662586` found source publication run `44880614175` and verified advert IDs, payloads, hashes, feed-row positions, decisions and scopes. Full-site parity run `44923851824` matched selected IDs, Apply links, membership and order across 314 inventory files; route checks `44924984048` passed server-rendered page, canonical, sitemap, structured-data and Preview noindex checks. Production publishing remains file-based; no cutover occurred.
 
@@ -246,7 +248,7 @@ This changes the trigger from every `main` push to a successful verified-page pu
 
 ### Google Indexing API
 
-`google-indexing-api.yml` submits eligible job URLs, caps each run at 200 notifications, persists submission state in `pipeline/manifests/google-indexing-state.json`, and uses GitHub Issues for backlog/safety/failure alerts.
+`google-indexing-api.yml` submits eligible job URLs, caps each run at 200 notifications, persists submission state in `pipeline/manifests/google-indexing-state.json`, and uses GitHub Issues for backlog/safety/failure alerts. The proposed 25-per-day part-time JobG8 priority and market ordering are staged on `feat/google-indexing-part-time-priority`; they are not active on main until merge.
 
 ## Validation state
 
