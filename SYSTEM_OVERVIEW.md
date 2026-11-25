@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 21 November 2026
+**Last updated:** 25 November 2026
 **Status:** Production/site baseline reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production publishing remains file-based; no cutover has occurred. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 25 November 2026 — Corrected the JobG8 Area mappings for Borehamwood (Hertfordshire) and Londonderry (Northern Ireland - West). These entries had put Finance / Accounts vacancies into London inventory and London alerts. The corrected mappings take effect when the next normal daily inventory is generated.
 
 - 21 November 2026 — Saturday Neon Preview refresh and parity checks passed. Refresh `44908662586` used source publication `44880614175`; 5,630 selected adverts across 256 scopes passed ID, payload, hash, position, decision and scope checks. Master refresh recorded 588 inserted, 93 updated and 4,949 unchanged; cleanup was dry-run only and purged nothing. Full-site parity `44923851824` matched selected IDs, Apply links and order across 314 published inventory files. Route checks `44924984048` passed SSR, canonicals, sitemap, structured data and Preview noindex. Production publishing remains file-based.
 

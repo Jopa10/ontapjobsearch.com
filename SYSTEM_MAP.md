@@ -1,6 +1,6 @@
 # Ontap System Map
 
-**Last updated:** 21 November 2026
+**Last updated:** 25 November 2026
 **Status:** Production architecture reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production vacancy publishing remains file-based. External service settings and current live deployment require separate verification.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -8,6 +8,8 @@
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 25 November 2026 — Corrected the JobG8 Area mappings for Borehamwood (Hertfordshire) and Londonderry (Northern Ireland - West). These entries had put Finance / Accounts vacancies into London inventory and London alerts. The corrected mappings take effect when the next normal daily inventory is generated.
 
 - 21 November 2026 — **Neon Preview refresh and website parity passed:** automatic refresh run `44908662586` found source publication run `44880614175` and verified advert IDs, payloads, hashes, feed-row positions, decisions and scopes. Full-site parity run `44923851824` matched selected IDs, Apply links, membership and order across 314 inventory files; route checks `44924984048` passed server-rendered page, canonical, sitemap, structured-data and Preview noindex checks. Production publishing remains file-based; no cutover occurred.
 
