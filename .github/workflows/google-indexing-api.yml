@@ -99,9 +99,9 @@ jobs:
           GOOGLE_INDEXING_DELETION_RESERVE: '20'
           GOOGLE_INDEXING_PART_TIME_JOBG8_DAILY_LIMIT: '25'
           GOOGLE_INDEXING_SKIPPED_WINDOW_DAYS: '7'
-          # New JobG8 part-time URLs have a 25/day priority slice. Popular
-          # city markets are selected first, then newest posted/first-seen date;
-          # overflow remains queued while the URL stays published.
+          # New JobG8 part-time URLs have a 25/day priority slice. Older
+          # pending batches run first; within each batch, popular markets then
+          # newest posted/first-seen dates are selected. Overflow stays queued.
           # Non-JobG8 new URLs remain capped at 20 submissions/day.
           GOOGLE_INDEXING_RUN_REPORT: ${{ runner.temp }}/google-indexing-run.json
         run: |
