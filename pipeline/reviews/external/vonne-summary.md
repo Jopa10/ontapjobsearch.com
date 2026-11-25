@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-24
-review_fingerprint: 3e6bc835bf843877aae744c4aeda300fb09a387b111a28f1f7be6819494c3467
+review_date: 2026-11-25
+review_fingerprint: b857c0ccb8c10ce6d50f90bc2e37616daca04d1262a3457348663b8b3df3a8f4
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,17 +10,17 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-24T18:07:33+00:00
+Run generated: 2026-11-25T17:31:32+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1091
+JobG8 comparison rows: 1124
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 4
-- Detail pages fetched successfully: 4
+- Detail-page candidates: 3
+- Detail pages fetched successfully: 3
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 11
+- Obvious hard passes not detail-fetched: 12
 - Tees Valley explicitly excluded: 3
 - Outside or unmapped geography excluded: 0
 - Generic/derived geography rows requiring review: 2
@@ -83,19 +83,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173736
 ---
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £33,323 to 34,899 Per Annum | Business Engagement Officer
-employer: Society Matters CIC
-closing_date: Monday, December 14, 2026 - 09:00
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £34,899 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173703
-vacancy_fingerprint: 3894a2f601419f83870376d3f0984f1991c6d76b04b071e616cd53876169b969
-source_job_id: 173703
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173703
----
----
-action:
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,878 to 34,240 | Criminal Justice Recovery Coordinator
 employer: Waythrough
 closing_date: Friday, November 27, 2026 - 00:00
@@ -132,6 +119,19 @@ tracking_key: vonne-173707
 vacancy_fingerprint: fd3d605595b9359680e360ca098216b05d4d00136b171a311893c9d9ea36b9f5
 source_job_id: 173707
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173707
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £24,000 Per Annum | Strategic Network Lead
+employer: Northumberland Youth Work Network (NYWN)
+closing_date: 08 January 2027
+geography: CONFIRMED — location: approved location fallback
+reason: transferable title with specialist or borderline wording: lead
+source: VONNE
+tracking_key: vonne-173793
+vacancy_fingerprint: 84f590da44e53115376d842e9f242c9e380b58a9b0cbc25612b621dae0e2b447
+source_job_id: 173793
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173793
 ---
 ## EXCLUDED BY REVIEW
 
