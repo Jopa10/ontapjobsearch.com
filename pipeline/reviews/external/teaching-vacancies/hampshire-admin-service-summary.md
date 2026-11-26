@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-25
-review_fingerprint: 510b21628f04faf33d5011271d14750dba6e6aedd3633c569ad07853029bd000
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: c3c556e5644849bbacd3a48663ff489158accba281e2e2558db7e31af95c29d7
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hampshire | Southampton, South East, SO15 7QU | £26,824 – £28,902 (£29,741-£32,045) | Finance Assistant (term time only)
-employer: Upper Shirley High School
-closing_date: 2026-11-26T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3b0dbafaca1fc73d2a7033bc0e12a7613fcf4a8dc17e5c698f33aac76a335357
-source: Teaching Vacancies
-source_job_id: finance-assistant-term-time-only-upper-shirley-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-term-time-only-upper-shirley-high-school
----
 
 ---
 action: 
@@ -91,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-office
 
 - [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school-portsmouth-hampshire) — No usable numeric salary.
 - [Assistant Examination Officer](https://teaching-vacancies.service.gov.uk/jobs/assistant-examination-officer-brighton-hill-community-school) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-haylands-primary-school) — Excluded senior/management title.
 - [People Partner](https://teaching-vacancies.service.gov.uk/jobs/people-partner-hisp-multi-academy-trust-ltd) — Insufficient admin/service evidence.
 - [Support Officer - Cover & Examinations](https://teaching-vacancies.service.gov.uk/jobs/support-officer-cover-examinations) — Insufficient admin/service evidence.
 

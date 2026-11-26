@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-25
-review_fingerprint: b65ef63ecea74e683842454387ce3a3662ec901b386d31c8ce60cde6328c9c6a
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: eebe6d700f9a3b8cd6d54132e47429957030f9fa39ec584b0716f3b69c910af1
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 36
-- Selected: 6
-- POSS awaiting decision: 4
+- Selected: 5
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 26
+- Hard pass: 25
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF1 4SF | £24,161 to £25,284 | School Attendance Officer
-employer: Outwood Academy City Fields
-closing_date: 2026-11-26T12:00:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: d76497f6798b010df780b298de69c5a71abe75d4d07ed813b119cf9e7896d897
-source: Teaching Vacancies
-source_job_id: school-attendance-officer-a2c32571-8c87-456e-945f-48de729c3dcf
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-attendance-officer-a2c32571-8c87-456e-945f-48de729c3dcf
----
-
----
-action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS14 6HA | £25,061.00 - £25,646.00 Annually (Actual) Grade B3, SCP 7 - 11 | SEND Administrator
 employer: Leeds East Academy
 closing_date: 2026-12-04T09:00:00+00:00
@@ -112,6 +97,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-le
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS15 7SY | £20,405.00 - £21,057.00 Annually (Actual) Band B1. SCP 4 - 6. FTE £25,185 - £25,989 per annum | Administration Assistant
+employer: Templenewsam Halton Primary School
+closing_date: 2026-12-09T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 179eb71e073bce534efce89f6e7abfa82db1b1c86466891d3fb90078dc42f0f9
+source: Teaching Vacancies
+source_job_id: administration-assistant-76763868-6c86-4f5f-8d02-ab436b3a39f6
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-76763868-6c86-4f5f-8d02-ab436b3a39f6
+---
 
 ---
 action: 
@@ -160,6 +160,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+POSS | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7QS | £22,192.00 - £24,402.00 Annually (Actual) SCP 4-10 | Administrator
+employer: Bradford Academy
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 7534140af1a3596ac916b4e3dd443351fd47613170ab937fdfe7307f42115742
+source: Teaching Vacancies
+source_job_id: administrator-bradford-academy-bradford
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-bradford-academy-bradford
+---
+
+---
+action: 
 POSS | Yorkshire - West | Bradford, Yorkshire and the Humber, BD9 6AL | £22,147.00 - £22,854.00 Annually (Actual) | Receptionist
 employer: Beckfoot Upper Heaton
 closing_date: 2026-12-09T07:00:00+00:00
@@ -179,7 +194,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-beckfoot
 
 ## HARD_PASS
 
-- [019 - HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/019-hr-assistant) — Insufficient admin/service evidence.
 - [Academy Compliance and Premises Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-compliance-and-premises-manager) — Out-of-scope occupation: premises manager.
 - [Admin and Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-18575951-37f7-4cf2-88ec-92eda75445ad) — No usable numeric salary.
 - [Administration Officer - SEND & Pastoral](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-send-pastoral) — Insufficient admin/service evidence.
@@ -198,10 +212,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-beckfoot
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-crawshaw-academy) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.
 - [Inclusion Lead (Primary Phase)](https://teaching-vacancies.service.gov.uk/jobs/inclusion-lead-primary-phase) — Excluded senior/management title.
+- [PA to Principal & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-office-manager-outwood-academy-freeston) — Excluded senior/management title.
 - [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team-temple-learning-academy) — Excluded senior/management title.
 - [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.
 - [Reprographics and Resources Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-resources-technician) — Out-of-scope occupation: technician.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-westbrook-lane-primary-school) — Excluded senior/management title.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-leodis-academies-trust) — Excluded senior/management title.
 - [Senior Operations Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-operations-administrator) — Excluded senior/management title.
 - [Trust Service Officer - Governance, Assurance and Compliance](https://teaching-vacancies.service.gov.uk/jobs/trust-service-officer-governance-assurance-and-compliance) — Insufficient admin/service evidence.

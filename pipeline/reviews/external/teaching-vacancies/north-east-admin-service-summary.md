@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-25
+review_date: 2026-11-26
 review_fingerprint: efb575e88db76a8bdc8ff708c64eaa27f4b10a9e540bdb44a1b1f16967011963
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 16
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -134,6 +134,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-o
 
 ## HARD_PASS
 
+- [Dual School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/dual-school-business-manager-bishop-wilkinson-catholic-education-trust) — Excluded senior/management title.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-hurworth-school-darlington-county-durham) — No usable numeric salary.
 - [Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-partner-the-education-village-academy-trust-darlington-not-recorded) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-kings-priory-school) — Insufficient admin/service evidence.

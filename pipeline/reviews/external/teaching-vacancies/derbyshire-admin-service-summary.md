@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-25
-review_fingerprint: 0ebe6410e128e4146be556ab02377d2d6cd2d1215ef234b162b5b7b5d839fc68
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: ce8e73665d54179d742d758ca19ff999a97e547e26aae3aa07bf08f550988fcf
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 1
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Derbyshire | Belper, East Midlands, DE56 0DA | £20,193.00 - £20,557.00 Annually (Actual) DCC Grade 6: Pay Point Range 6-7: £20,193 - £20,557, Actual Salary including Holiday and bank holiday entitlement (Actual salary shown includes holiday and bank holiday entitlement. Candidates with more than five years' continuous service may be entitled to additional holiday pay in line with NJC terms and conditions, which is not included in the quoted figure). | Attendance Officer
+employer: Belper School and Sixth Form Centre
+closing_date: 2026-12-14T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0fb7446ffb323aca2d45c8c3dcde8e77f6bb6934245065bb34c77f492519a02a
+source: Teaching Vacancies
+source_job_id: attendance-officer-belper-school-and-sixth-form-centre
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-belper-school-and-sixth-form-centre
+---
 
 ---
 action: 
@@ -78,7 +93,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-ping
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-ashwood-spencer-academy) — Excluded senior/management title.
 - [PA to SLT & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-cover-manager) — Excluded senior/management title.
 - [Pastoral Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-officer-93d815b7-0e82-49a1-9ded-1395abd2f79a) — No usable numeric salary.
-- [Peripatetic Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-administration-officer-alvaston-junior-academy) — Insufficient admin/service evidence.
 - [Primary Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/primary-operations-manager-duckmanton-primary-school) — Excluded senior/management title.
 - [School Business Assistant- Attendance](https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-attendance-buxton-community-school-buxton-derbyshire) — Insufficient admin/service evidence.
 - [SEND Admin Assistant Derby](https://teaching-vacancies.service.gov.uk/jobs/send-admin-assistant-derby) — No usable numeric salary.

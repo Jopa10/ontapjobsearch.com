@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-11-25
+review_date: 2026-11-26
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 3
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -35,6 +35,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - [Curriculum Administrator - CS12450](https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-cs12450) — No usable numeric salary.
 - [King's Trust Team Leader (Bromsgrove / Redditch)](https://teaching-vacancies.service.gov.uk/jobs/king-s-trust-team-leader-bromsgrove-redditch) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-mary-s-catholic-primary-school-newcastle-under-lyme-staffordshire) — Excluded senior/management title.
 
 ## Safety boundary
 

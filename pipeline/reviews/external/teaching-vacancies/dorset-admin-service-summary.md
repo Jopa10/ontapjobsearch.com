@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-11-25
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 292e99df5aa8ac71ff017015400daaa92f837bed63859d1d155fa679ae94eeb2
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 6
 - Selected: 0
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -25,7 +25,20 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Dorset | Bournemouth, South West, BH8 9PY | £23,479 to £24,621 (actual salary for 37 hours/week) (FTE £26,847 to £28,153) £13,326 to £13,974 (actual salary for 21 hours/week) (FTE £26,847 to £28,153) | Finance Assistant
+employer: Bournemouth School
+closing_date: 2026-12-14T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a91e755ccb2413ad4de4e56932e3bcb567cc2e9a4ee9c5d99459cd85fd3d7db8
+source: Teaching Vacancies
+source_job_id: finance-assistant-bournemouth-school-bournemouth-dorset
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-bournemouth-school-bournemouth-dorset
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -33,7 +46,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-the-bishop-of-winchester-academy-bournemouth-dorset) — Insufficient admin/service evidence.
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-the-bishop-of-winchester-academy) — No usable numeric salary.
 - [Financial Accounting Manager](https://teaching-vacancies.service.gov.uk/jobs/financial-accounting-manager) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-longspee-academy-poole-dorset) — Excluded senior/management title.

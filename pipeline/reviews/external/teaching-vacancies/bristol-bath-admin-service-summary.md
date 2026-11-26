@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-25
-review_fingerprint: 6fbd2360284023cb2444e3dc7a4566100b5dec9213719d2d3b4d337cfbd1dbc7
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 0a4cadd60b8af15aba552a81b1e87ad1c428dd9e75ec1483b39bb7dc37d13eaa
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 5
-- POSS awaiting decision: 0
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS7 8HP | £26,847.00 - £27,269.00 Annually (FTE) | School Administrator (School Office Level 2)
-employer: St Bonaventure's Catholic Primary School
-closing_date: 2026-11-26T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ddd9dda95163cf1ab26c3d3c3db3fdb20f0bbb1fcd972b863c260100835daee6
-source: Teaching Vacancies
-source_job_id: school-administrator-school-office-level-2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-school-office-level-2
----
-
----
-action: 
 SELECTED | Bristol & Bath | Yate, South West, BS37 4DX | £27,274.00 - £29,071.00 Annually (FTE) £13,067 - £13,928 Actual per annum | Sixth Form Administrator Role (Part-time)
 employer: Yate Academy
 closing_date: 2026-12-06T23:59:00+00:00
@@ -98,7 +83,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Bristol & Bath | Bristol, South West, BS9 3UF | £22,708.00 - £24,237.00 Annually (Actual) BG8 SCP12 to 16, salary shown based on 32hpw | Finance Assistant
+employer: Elmlea Junior School
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d7d52462fe7447286963e17143af0a50abcdc5720a350797122ea107edbb150a
+source: Teaching Vacancies
+source_job_id: finance-assistant-elmlea-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-elmlea-junior-school
+---
 
 ## EXCLUDED BY REVIEW
 

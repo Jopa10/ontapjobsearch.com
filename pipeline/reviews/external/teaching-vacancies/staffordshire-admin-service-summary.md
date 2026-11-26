@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-25
+review_date: 2026-11-26
 review_fingerprint: 93ce5bd25b2f9418249a120df3cbd0f0d80c05399f3d51ebcf2e4e5610b225da
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -77,6 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the
 ## HARD_PASS
 
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-tynsel-parkes-cofe-primary-academy) — No usable numeric salary.
+- [EHCP Case Coordinator](https://teaching-vacancies.service.gov.uk/jobs/ehcp-case-coordinator) — Insufficient admin/service evidence.
 - [Leadership Support Officer (Part-time)](https://teaching-vacancies.service.gov.uk/jobs/leadership-support-officer-part-time) — No usable numeric salary.
 - [Office Services Manager](https://teaching-vacancies.service.gov.uk/jobs/office-services-manager-c5097f99-f759-4016-a6d6-8328ff8d771a) — Excluded senior/management title.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college-stoke-on-trent-staffordshire) — Excluded senior/management title.

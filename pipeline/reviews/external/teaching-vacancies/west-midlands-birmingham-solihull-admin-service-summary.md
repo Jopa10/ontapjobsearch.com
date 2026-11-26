@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-25
-review_fingerprint: 41d1548c3d2cb12dfe6d1ac07233ac42347be48d82d21017d99e0073f41f11db
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 9374c18a8cf68f44042965f5327174dc1f1fcff6a7ef6a7ffae02100441b7cf3
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 29
-- Selected: 10
-- POSS awaiting decision: 6
+- Records: 24
+- Selected: 8
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 12
 
 ## SELECTED
 
@@ -128,36 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B37 6NU | £27,275.00 - £29,071.00 Annually (FTE) Term time + 2 weeks - Salary will be prorated based on weeks and hours worked | Cover Administrator (including reprographics) - TTO + 2 Weeks
-employer: Tudor Grange Academy Kingshurst
-closing_date: 2026-11-25T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 58edc5a2638c697e7e1d4c45ecd9270ca92c0f72f4bb2227646de2b794d60c29
-source: Teaching Vacancies
-source_job_id: cover-administrator-including-reprographics-tto-2-weeks-0690dce7-5cdf-441b-80c1-5de2256fd164
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-including-reprographics-tto-2-weeks-0690dce7-5cdf-441b-80c1-5de2256fd164
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 7SD | £25,614.00 - £26,016.00 Annually (Actual) Grade 2 SCP 3-4 (£25614 - £26016 FTE) | 52.14 Weeks Per year | Receptionist
-employer: Q3 Academy Great Barr
-closing_date: 2026-11-26T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3b94581bbf697201bc6126dbcbbcdc286abcb6081625e838b6a37ca3f0f2c783
-source: Teaching Vacancies
-source_job_id: receptionist-9b77716e-4f98-4198-bc23-2649c1d63d29
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-9b77716e-4f98-4198-bc23-2649c1d63d29
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B75 5BL | £25,614 - £27,709 FTE, actual salary £22,426 - £24,260 per annum | Receptionist / Admin Assistant
 employer: Mere Green Primary School
 closing_date: 2026-11-30T09:00:00+00:00
@@ -182,25 +152,10 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: eb8951e8df0df6721a25e9de29d90287c4066b3973edd7677cd66f8ebfbaf3f0
+factual_fingerprint: b29638b11d5e181158843416be2e72272f8d84f98f22b34be55d7842b9364da1
 source: Teaching Vacancies
-source_job_id: data-officer-54d518c9-d914-4b26-9f84-a8efb2efeb9f
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-54d518c9-d914-4b26-9f84-a8efb2efeb9f
----
-
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B44 8NU | Grade 6, SCP 20 - 24 - £28,153 - £31,015 FTE | Finance Administrator (Part-time)
-employer: Fortis Academy
-closing_date: 2026-12-04T09:00:59+00:00
-reason: Part-time finance requires actual earnings/hours and qualification checks
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9c073d82755862af3a333023753300468e8dd65e9af16b7d5e6200a2c3b4f0b6
-source: Teaching Vacancies
-source_job_id: finance-administrator-part-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-part-time
+source_job_id: data-officer-c36469b1-125f-4f32-bdcb-fea0831028da
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-c36469b1-125f-4f32-bdcb-fea0831028da
 ---
 
 ---
@@ -235,21 +190,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B28 9JJ | £24,796.00 - £26,824.00 Monthly Pay Range is Grade 2: Point 3 - 8 (Pro Rata) | Receptionist / administrative assistant – fixed term maternity cover
-employer: St Ambrose Barlow Catholic Primary School
-closing_date: 2026-11-25T23:59:00+00:00
-reason: Salary period needs verification
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7b17d23420cc69a2f9616910468e9f95a45ebd289ee5b7f681b4db15a279b9f7
-source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-fixed-term-maternity-cover-st-ambrose-barlow-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-fixed-term-maternity-cover-st-ambrose-barlow-catholic-primary-school
----
-
----
-action: 
 POSS | West Midlands - Birmingham & Solihull | Solihull, B91 3PD | £29,542.00 - £31,526.00 Annually (FTE) Actual salary £4571 to £4959 p/a 250 hours per year over 38 weeks (6.75 hours per week) | Regional Hub Governance Professional
 employer: Tudor Grange Academies Trust
 closing_date: 2026-12-04T12:00:00+00:00
@@ -270,14 +210,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/regional-hub-governan
 ## HARD_PASS
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-brays-school) — Insufficient admin/service evidence.
-- [Assistant Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/assistant-trust-clerk-summit-learning-trust) — Insufficient admin/service evidence.
-- [Attendance Welfare Officer - Term Time Plus 2 Weeks / 37 Hours per week](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-term-time-plus-2-weeks-37-hours-per-week-tudor-grange-academy-kingshurst) — Insufficient admin/service evidence.
 - [Communication and Engagement Officer (Fixed term Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/communication-and-engagement-officer-fixed-term-maternity-cover) — Insufficient admin/service evidence.
 - [Exam Access Arrangement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exam-access-arrangement-coordinator) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-leigh-trust-birmingham-not-recorded) — Excluded senior/management title.
 - [Head of House PA](https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-dame-elizabeth-cadbury-school-birmingham-west-midlands) — Excluded senior/management title.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-pa-community-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-clement-s-church-of-england-academy-birmingham-west-midlands) — Excluded senior/management title.
+- [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-e15d4a7c-6c63-4d75-990a-2e0fe01305d0) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-boys-school-birmingham) — Excluded senior/management title.
 - [School Office Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-senior-administrator) — Excluded senior/management title.
 - [Senior Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-assistant-birches-green-primary-school) — Excluded senior/management title.

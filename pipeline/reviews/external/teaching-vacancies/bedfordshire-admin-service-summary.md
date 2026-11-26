@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-11-25
-review_fingerprint: 3ecfc50f27abcabc918f28a8271e250525870f30df77b0773eeddee7873f73f1
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 49d4e3c994f5d2604a0ac609fc397aaca802cc9af42efc74e2b44116a342b833
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 3
+- Records: 10
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 4371ca59ddd5a6e4f266800a590bc12d6d8edb2db3e285900ec64527982
 source: Teaching Vacancies
 source_job_id: admin-assistant-priory-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-priory-academy
----
-
----
-action: 
-SELECTED | Bedfordshire | Bedford, East of England, MK44 1JL | £22,696.73 Annually (Actual) | Finance & Trips Admin Assistant
-employer: Sharnbrook Academy
-closing_date: 2026-11-26T09:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: baada672967662672cb95ce93d98ecb09b5e8d8de079971ea6d9117368a3e772
-source: Teaching Vacancies
-source_job_id: finance-trips-admin-assistant-0e7c7043-6f5e-428b-82dd-4f08e507403e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-trips-admin-assistant-0e7c7043-6f5e-428b-82dd-4f08e507403e
 ---
 
 ---
@@ -89,8 +74,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assista
 
 ## HARD_PASS
 
-- [Admin Manager and PA to SLT](https://teaching-vacancies.service.gov.uk/jobs/admin-manager-and-pa-to-slt) — Excluded senior/management title.
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-pirton-hill-primary-school-luton-bedfordshire) — Insufficient admin/service evidence.
 - [Attendance Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-0aafd306-24bd-4142-babf-029988a737dd) — No usable numeric salary.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-houstone-school-dunstable) — Excluded senior/management title.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-bedford-inclusive-learning-and-training-trust-bedford-not-recorded) — Excluded senior/management title.

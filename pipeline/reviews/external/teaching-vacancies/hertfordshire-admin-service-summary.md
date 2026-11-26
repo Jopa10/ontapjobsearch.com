@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-25
-review_fingerprint: 48faf1abeb8a04ce60ab4c7aed7a905aad0d6aabe3b5d5bb305f6d0e732c6614
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 6f73de7ec75a65a3cd18036f75b7dc1da5ccd2c7de5877cdcf7d09d644658217
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -49,21 +49,6 @@ factual_fingerprint: 06f889fe6bd022b53ecfb22218323c02bf8b969d5c47b4ee9d9ab1ec48c
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-principal-hr-support
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-hr-support
----
-
----
-action: 
-SELECTED | Hertfordshire | Hertford, East of England, SG13 8AJ | £22,605.00 - £24,080.00 Annually (Actual) H3-H4 | Receptionist/Administrator
-employer: Simon Balle All-Through School
-closing_date: 2026-11-26T09:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: df1c06f5b2346d8471fed72c2ededb449cbe088efc0964506ef35c7d83903347
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-simon-balle-all-through-school-hertford-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-simon-balle-all-through-school-hertford-hertfordshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

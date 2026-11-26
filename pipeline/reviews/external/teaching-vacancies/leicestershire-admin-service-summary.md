@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-11-25
-review_fingerprint: fcca51db6123df42c1a02a136f7cc5ce9e0a8a281c9aa11cfedf8d20bf431b42
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: f11de2ca1e848c9bad70c56c1fe3c7194554ed5635b213ced65cd460d400a67f
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 2
@@ -23,17 +23,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE1 7RJ | The salary banding for this post will be 7 - 10 which ranges from £25,951 to £27,733 per annum. The pro rata starting salary for this post will be £24,264. | Administration Assistant (Curriculum & Progression)
-employer: WQE and Regent College Group
-closing_date: 2026-11-26T15:00:00+00:00
+SELECTED | Leicestershire | Loughborough, East Midlands, LE12 9DB | £4,423.00 - £4,494.00 Annually (Actual) | Administration Assistant (part-time)
+employer: Iveshead School
+closing_date: 2026-12-10T23:59:00+00:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9821a21a572acbe64e49ad1c9dc2da469758a5ad6897412ca2c5982f4fda0470
+factual_fingerprint: 1e6b2a137f9a488f94761f8ff2845811ee04b853ed671baf6e7e8846eedacbb2
 source: Teaching Vacancies
-source_job_id: administration-assistant-curriculum-progression
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-curriculum-progression
+source_job_id: administration-assistant-part-time-iveshead-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-part-time-iveshead-school
+---
+
+---
+action: 
+SELECTED | Leicestershire | Loughborough, East Midlands, LE12 9DB | £18,847.00 - £19,771.00 Annually (Actual) | Inclusion Administrator (SEND)
+employer: Iveshead School
+closing_date: 2026-12-10T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8e7c04bb38aea35821a4d928b4c9d90b0a39cf94645f3594c6786c6eebeb517a
+source: Teaching Vacancies
+source_job_id: inclusion-administrator-send
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-send
 ---
 
 ---
@@ -57,12 +72,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 action: 
 POSS | Leicestershire | Loughborough, East Midlands, LE12 9DB | £22,118.00 - £22,470.00 Annually (Actual) | Administration Assistant
 employer: Iveshead School
-closing_date: 2026-11-27T23:59:00+00:00
+closing_date: 2026-11-29T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4e33aca697da051cc7b02b2a45220b02d80c12e0be16275c03a807a2db54e637
+factual_fingerprint: cd3da9516d4a6c9f3edfb756d5109f70d4a702067e78debc091c78fb5125d0b3
 source: Teaching Vacancies
 source_job_id: administration-assistant-iveshead-school-loughborough-leicestershire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-iveshead-school-loughborough-leicestershire

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-11-25
+review_date: 2026-11-26
 review_fingerprint: d7a459abc2608117b3747bec70382994de0ed662149ee3f77bbfaa904a4d7b40
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -61,9 +61,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-
 
 ## HARD_PASS
 
+- [Administration Assistant Oldham](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-oldham) — No usable numeric salary.
+- [Administration Assistant Oldham](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-oldham-richmond-academy) — No usable numeric salary.
 - [Chief Finance and Operations Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-and-operations-officer-the-pinnacle-learning-trust) — Excluded senior/management title.
 - [MIS and Data Manager](https://teaching-vacancies.service.gov.uk/jobs/mis-and-data-manager-north-chadderton-school) — Excluded senior/management title.
-- [Peripatetic Admin Officer Derby](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-admin-officer-derby) — No usable numeric salary.
 - [School Administration and Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/school-administration-and-governance-officer) — No usable numeric salary.
 
 ## Safety boundary

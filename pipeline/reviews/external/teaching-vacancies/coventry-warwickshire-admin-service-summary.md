@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-25
-review_fingerprint: 8683833b482d89c76d6152e1434f0bb2f7476aebee0efdc118ec8e1502639357
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: bc237222071f137b4ba28f17ae7bc56fa47ca72d60fb52d27a22710d989582fe
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 5
-- POSS awaiting decision: 4
+- Selected: 6
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Atherstone, West Midlands, CV9 2BS | £9,963.42 - £10,785.33 Annually (Actual) Term time only plus inset days. Scale point 5 - 9 | Admin Assistant
+employer: Woodside CofE Primary School
+closing_date: 2027-01-04T23:59:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 74dc4ab189589d9c82fe21061e16818908080a9c4cdd89346f93d4c033d2f882
+source: Teaching Vacancies
+source_job_id: admin-assistant-woodside-cofe-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-woodside-cofe-primary-school
+---
 
 ---
 action: 
@@ -126,21 +141,6 @@ factual_fingerprint: dff7f45317f629e4f2fa04b84ecc4419a6f22b3fd5ac4f9a801f2901a6b
 source: Teaching Vacancies
 source_job_id: inclusion-assistant-shipston-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-assistant-shipston-high-school
----
-
----
-action: 
-POSS | West Midlands - Coventry & Warwickshire | Leamington Spa, West Midlands, CV31 2LJ | £22,278.00 - £22,630.00 Annually (Actual) Band D - SCP 4 -5 | Office Administrator
-employer: St Joseph's Catholic Primary Academy
-closing_date: 2026-11-26T16:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 806bf91e1119d597835e1c3c84ea580b03879c11de60e34f64da81a9518ec8e8
-source: Teaching Vacancies
-source_job_id: office-administrator-st-joseph-s-catholic-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-joseph-s-catholic-primary-academy
 ---
 
 ---

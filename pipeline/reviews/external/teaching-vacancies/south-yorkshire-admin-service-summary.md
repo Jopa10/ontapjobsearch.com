@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-25
-review_fingerprint: 18e84c7a8a1fd94974e8023de8af46954f50dd2c335e74f0dc2cb703f93f2a67
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 046ba50d5edf26b63561e10237a3eb586c63adc98a966e8a85b52de8544d6e07
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 29
-- Selected: 6
-- POSS awaiting decision: 5
+- Selected: 8
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 18
 
@@ -34,6 +34,21 @@ factual_fingerprint: bb711e34a71c985a42f5b558e21d3627c93a70319697529222c2b781a87
 source: Teaching Vacancies
 source_job_id: admin-assistant-at-brampton-cortonwood-infant-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-at-brampton-cortonwood-infant-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN4 8ND | £26,017.00 - £26,847.00 Annually (FTE) Pro Rata Salary - £22,550 to £23,269 | Administration Assistant
+employer: Astrea Academy Woodfields
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c3c00f93b1ab751b14ef08c95e848b7979430ff702f8ec136af9e805d69e82ce
+source: Teaching Vacancies
+source_job_id: administration-assistant-astrea-academy-woodfields
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-astrea-academy-woodfields
 ---
 
 ---
@@ -98,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
+SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN8 5BY | £12,970.00 - £16,058.00 Annually (Actual) Scale 4 | Receptionist
+employer: Trinity Academy
+closing_date: 2026-12-09T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 65fc8a31058a513e433e4cc717feb2b2be3084c3cd1fbd30f504c8f9a7694cd1
+source: Teaching Vacancies
+source_job_id: receptionist-trinity-academy-doncaster-south-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-trinity-academy-doncaster-south-yorkshire
+---
+
+---
+action: 
 SELECTED | Yorkshire - South | Rotherham, S65 2JW | £22,971.00 - £23,336.00 Annually (Actual) Temporary with a view to permanent following successful probation period | Receptionist & Admin Assistant
 employer: Willow Tree Academy
 closing_date: 2026-12-01T12:00:00+00:00
@@ -112,36 +142,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Yorkshire - South | Barnsley, Yorkshire and the Humber, S70 1TS | £21,026.87 - £21,430.76 Annually (Actual) Term time plus 5 days. (39 weeks) (FTE £25,614-26,016) | Administrator
-employer: Oakwell Rise Primary Academy
-closing_date: 2026-11-25T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d17af65e1212aa5cc66616e919f47c7c4bedf189ae3f2d26e4b8a5ec2328e162
-source: Teaching Vacancies
-source_job_id: administrator-oakwell-rise-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-oakwell-rise-primary-academy
----
-
----
-action: 
-POSS | Yorkshire - South | DONCASTER, Yorkshire and the Humber, DN7 6JH | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 - £26,847 Full Time Equivalent). The minimum actual pro rata salary per annum for this job starts at £13,021.44. | Finance Administrator (7904)
-employer: Ash Hill Academy
-closing_date: 2026-11-25T23:59:00+00:00
-reason: Part-time finance requires actual earnings/hours and qualification checks
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ec6a8c21cfcf6a1f3c27905e175c8e72e42dd8f50293c9eca8cc90332b33469d
-source: Teaching Vacancies
-source_job_id: finance-administrator-7904
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-7904
----
 
 ---
 action: 

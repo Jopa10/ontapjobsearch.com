@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-25
-review_fingerprint: e4d8c5ab46e97c51f9beb32cd6526d383f039f8a582f4829b8b338394c44a6c2
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 34ed1ae1190c57251441d552d6c43153cd73e253070a5c363d2a85e7fc4a3ec7
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 16
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
 
@@ -83,20 +83,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Nottinghamshire | Retford, East Midlands, DN22 7NJ | £18,299.77 - £18,299.77 Annually (Actual) | Adminstration Assistant
-employer: Retford Oaks Academy
-closing_date: 2026-11-25T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7eab00cad6bfe34fcb7139872f451f8a3039a07763a00b039936ce5c1b5e8318
-source: Teaching Vacancies
-source_job_id: adminstration-assistant-retford-oaks-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/adminstration-assistant-retford-oaks-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -108,6 +95,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/adminstration-assista
 - [Attendance & Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-archway-learning-trust) — Insufficient admin/service evidence.
 - [Attendance Officer/Administrator](https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-administrator-jubilee-l-e-a-d-academy) — No usable numeric salary.
 - [Business Team Leader](https://teaching-vacancies.service.gov.uk/jobs/business-team-leader) — Excluded senior/management title.
+- [Commercial Manager](https://teaching-vacancies.service.gov.uk/jobs/commercial-manager-community-inclusive-trust) — Excluded senior/management title.
 - [Data, Timetable and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-timetable-and-cover-manager) — Excluded senior/management title.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-east-midlands-education-trust) — Excluded senior/management title.
 - [Healthcare Assistant / Administrator](https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-b6dad597-ef3e-406f-a693-7ada1eddda55) — No usable numeric salary.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-25
-review_fingerprint: 5aafd5fa3dde58ae91bd00026fc23187fdce6a5d9c23fdd37254b8439fccdb10
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: fbeda956463e0242080a026a6b72f3cb978cfd5730ade33b23fc43185e35e1f5
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 5
+- Records: 16
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
@@ -23,17 +23,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK6 5LP | Up to £25,844 per annum (Subject to experience) | Administrator - Prison Education - HMP Bullingdon
-employer: Milton Keynes College
-closing_date: 2026-11-25T23:59:00+00:00
+SELECTED | Buckinghamshire | Aylesbury, South East, HP18 9RY | £25,823.00 - £26,522.00 Annually (FTE) Actual Salary £16,526.72 - £16974.08 Per Annum plus LGPS | Administrative Assistant
+employer: Brill Church of England School
+closing_date: 2026-12-10T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b558d6b4f384b8dfda41ac58fd9840817286d253cac2f1ae2fe815eb1dec1e78
+source: Teaching Vacancies
+source_job_id: administrative-assistant-brill-church-of-england-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-brill-church-of-england-school
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Aylesbury, HP21 8PE | £27,805.00 - £29,826.00 Annually (Actual) Bucks Pay Range 3 £27,805 - £29,826 (Annual Actual) (Full time equivalent: £29,114 - £31,230) | Governance & Compliance Administrator
+employer: Insignis Academy Trust
+closing_date: 2026-12-09T12:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a346b032f4e9aae3a8878f93986caacae68683a7be963a011edb231013d7bdfe
+factual_fingerprint: e3708168264b8c2ab532ec7b6259688d02eb773f97cb73aa4cf3c8bd47fc8c12
 source: Teaching Vacancies
-source_job_id: administrator-prison-education-hmp-bullingdon-milton-keynes-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-education-hmp-bullingdon-milton-keynes-college
+source_job_id: governance-compliance-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-administrator
 ---
 
 ---

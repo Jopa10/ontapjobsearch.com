@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-25
-review_fingerprint: d7bad6e90e69d49ab1d061e8d7fc75ea479b059e5675336fd98a26910a241809
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 7ceab007a9dd1fdf979a63a80fc7f07ab4bcdd79b16802780eaf54c7d3c2b7db
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 7
+- Records: 17
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
-
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN2 8DF | £26016 FTE | Admin Assistant
-employer: Whitehills Primary School
-closing_date: 2026-11-26T12:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 62ef2ed82ee56d952997235fdc91f5d12f0c4248572439c63c54810f4edfe31e
-source: Teaching Vacancies
-source_job_id: admin-assistant-c747c61f-0b1c-4935-a76c-8007c77aaf0b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-c747c61f-0b1c-4935-a76c-8007c77aaf0b
----
 
 ---
 action: 

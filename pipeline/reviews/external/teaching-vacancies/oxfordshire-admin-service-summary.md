@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-25
-review_fingerprint: f544008f357daef5a16741b497610df9eb3ccb7a0d5495bf8ef59dbca089c0d6
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 317f559417eaa2759d66c04f8cf6471edffd907c56382b4a503ed21bd04de313
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 4
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Oxfordshire | Carterton, South East, OX18 1BU | £22,068.00 - £23,533.00 Annually (Actual) Based on £27,274 - £29,071 FTE | Administration Assistant
-employer: Carterton Community College
-closing_date: 2026-12-08T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d019bfa0410fa110daefdb2d8780bd7acd20f1aa5ee0e04b4792015b6c533f8f
-source: Teaching Vacancies
-source_job_id: administration-assistant-carterton-community-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-carterton-community-college
----
 
 ---
 action: 
@@ -53,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-rec
 
 ---
 action: 
-SELECTED | Oxfordshire | Thame, South East, OX9 2AQ | £8,122.00 Annually (Actual) FTE salary £26,429 - £27,275, | Faculty Administrator - Languages
-employer: Lord Williams's School
-closing_date: 2026-11-26T10:00:00+00:00
+SELECTED | Oxfordshire | Abingdon, South East, OX14 1RF | £27,709.00 - £30,023.00 Annually (Actual) NJC Support Grade 6. SCP-8-13 Actual salary £23,787.11 to £25,773.59 FTE 0.86 | Attendance Administrator
+employer: Larkmead School
+closing_date: 2026-12-11T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 135fed40106a7c533682be8bfae8e46f219df9d587b50b0ff404060a7e26676c
+factual_fingerprint: 05d4e3d61b9f419dbfc971d4dd61b3b17383e932618732e0ecc2a606e0811cf0
 source: Teaching Vacancies
-source_job_id: faculty-administrator-languages-lord-williams-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/faculty-administrator-languages-lord-williams-s-school
+source_job_id: attendance-administrator-larkmead-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-larkmead-school
 ---
 
 ---

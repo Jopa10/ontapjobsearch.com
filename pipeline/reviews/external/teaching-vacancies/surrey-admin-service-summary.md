@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-25
+review_date: 2026-11-26
 review_fingerprint: 9bfada831d535998d381327431b410557de3773aa40b4a328010564d5e9fac95
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 12
 - Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -119,13 +119,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator-sun
 
 ## HARD_PASS
 
-- [Annual Review Lead](https://teaching-vacancies.service.gov.uk/jobs/annual-review-lead) — Excluded senior/management title.
+- [Annual Review Lead](https://teaching-vacancies.service.gov.uk/jobs/annual-review-lead-limpsfield-grange-school) — Excluded senior/management title.
 - [Apprenticeships Review Officer](https://teaching-vacancies.service.gov.uk/jobs/apprenticeships-review-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-grange-community-infant-school) — Excluded senior/management title.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-south-farnham-educational-trust) — Excluded senior/management title.
-- [Sustainability Officer](https://teaching-vacancies.service.gov.uk/jobs/sustainability-officer-greensand-multi-academy-trust) — Insufficient admin/service evidence.
 - [Trust Leader Data and Insights](https://teaching-vacancies.service.gov.uk/jobs/trust-leader-data-and-insights) — Excluded senior/management title.
-- [Weekend Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/weekend-lettings-assistant-45375d5d-6f2d-419c-818e-6b822630e49f) — Insufficient admin/service evidence.
+- [Weekend Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/weekend-lettings-assistant-2c2d72e1-c063-494c-9325-f49422f35a9b) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

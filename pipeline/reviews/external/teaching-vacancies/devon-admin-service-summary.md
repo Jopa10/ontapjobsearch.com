@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-25
-review_fingerprint: ea5c6abfee2f873e4f30767bec977fd2c784bcce649f9ae2fa70f66b11d44676
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 545e15b3fe7d5848287ab0f5dcd3a21942ca8432880c59c1733b593d7edbc64b
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 24
-- Selected: 3
-- POSS awaiting decision: 5
+- Selected: 2
+- POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 15
 
 ## SELECTED
 
@@ -51,21 +51,6 @@ source_job_id: administrative-assistant-mary-dean-s-cofe-primary-school-and-nurs
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-mary-dean-s-cofe-primary-school-and-nursery
 ---
 
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL6 5YB | £14,800.00 - £16,299.00 Annually (Actual) WeST Grade D SCP 8-14 | HR Administrator
-employer: Eggbuckland Community College
-closing_date: 2026-12-03T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 507f2d194a9691e0475a528984dabc205f76740dcee4d26e5c1f4f69b7d18147
-source: Teaching Vacancies
-source_job_id: hr-administrator-96f53fc2-408f-4d07-8284-e4facbef9a0d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-96f53fc2-408f-4d07-8284-e4facbef9a0d
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -96,6 +81,36 @@ factual_fingerprint: b2e59bd11b9cf3de86fb99eec34162a282fe1f5125a70fcfd426f4a5c0b
 source: Teaching Vacancies
 source_job_id: estates-administrator-dartmoor-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-administrator-dartmoor-multi-academy-trust
+---
+
+---
+action: 
+POSS | Devon | Okehampton, EX20 1PU | £31,525.00 - £34,811.00 Annually (FTE) NJC Grade E. Range 16 to 22 | Finance Assistant
+employer: Dartmoor Multi Academy Trust
+closing_date: 2026-12-13T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 560e8f0f35cde818093b1cf28ca4ca6d469e30cca46a889b28627b23a85524e0
+source: Teaching Vacancies
+source_job_id: finance-assistant-dartmoor-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-dartmoor-multi-academy-trust
+---
+
+---
+action: 
+POSS | Devon | Plymouth, South West, PL6 5YB | £14,800.00 - £16,299.00 Annually (Actual) WeST Grade D SCP 8-14 | HR Administrator
+employer: Eggbuckland Community College
+closing_date: 2026-12-03T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 507f2d194a9691e0475a528984dabc205f76740dcee4d26e5c1f4f69b7d18147
+source: Teaching Vacancies
+source_job_id: hr-administrator-96f53fc2-408f-4d07-8284-e4facbef9a0d
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-96f53fc2-408f-4d07-8284-e4facbef9a0d
 ---
 
 ---
@@ -156,7 +171,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Clerk to Governors](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-woodlands-school) — No usable numeric salary.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-67779956-2535-4646-92e2-ef6bf563a877) — No usable numeric salary.
 - [Events & Lettings Officer (weekends)](https://teaching-vacancies.service.gov.uk/jobs/events-lettings-officer-weekends) — No usable numeric salary.
-- [Exams Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-maternity-cover-atlantic-academy) — No usable numeric salary.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Governance and Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/governance-and-administrative-assistant) — No usable numeric salary.
 - [HR Recruitment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-coordinator-the-academies-for-character-and-excellence) — Insufficient admin/service evidence.

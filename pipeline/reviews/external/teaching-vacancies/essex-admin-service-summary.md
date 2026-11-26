@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-25
-review_fingerprint: 09c3fd610e68c13b9b429c93aab9172318759e7d3a0092fe3d2731bbfb80d4d1
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: d27f69e3c8902337fa71414fe8b9f27e718de7d256752869ad75c003793ae45f
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 20
 - Selected: 4
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
 
@@ -130,17 +130,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ---
 action: 
-POSS | Essex | Brentwood, CM13 2HG | £33,872.00 - £37,334.00 Annually (Actual) Includes Fringe Allowance | Payroll Officer
-employer: Discovery Educational Trust
-closing_date: 2026-11-26T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+POSS | Essex | Westcliff-on-Sea, East of England, SS0 7JS | 38-42 | Part-Time Finance Manager - 4 days per week, 52 weeks a year
+employer: St Bernard's High School
+closing_date: 2026-11-30T09:00:00+00:00
+reason: Part-time finance requires actual earnings/hours and qualification checks
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 03a066623e0ad964cadbab9401f25d0786507229250c760ab9fca0f55bd841b5
+factual_fingerprint: 5e744d7bc408b28584b81a16dd5c8a0aa9089aea8302569a9577c88c0540fd3e
 source: Teaching Vacancies
-source_job_id: payroll-officer-discovery-educational-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-discovery-educational-trust
+source_job_id: part-time-finance-manager-4-days-per-week-52-weeks-a-year
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-finance-manager-4-days-per-week-52-weeks-a-year
 ---
 
 ---
@@ -179,6 +179,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 
 ## HARD_PASS
 
+- [Attendance Assistant - 1 Year Fixed](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-1-year-fixed) — Insufficient admin/service evidence.
 - [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services-st-martin-s-school-brentwood) — Out-of-scope occupation: deputy head.
 - [Director of Human Resources and Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-human-resources-and-operations) — Excluded senior/management title.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.
@@ -187,6 +188,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 - [Midday Assistant](https://teaching-vacancies.service.gov.uk/jobs/midday-assistant-the-fitzwimarc-school) — Insufficient admin/service evidence.
 - [Senior Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/senior-cover-supervisor-st-john-payne-catholic-school-chelmsford) — Excluded senior/management title.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-plume-school) — Excluded senior/management title.
+- [Senior PA to Leadership Team and Inclusion Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-pa-to-leadership-team-and-inclusion-coordinator-anglo-european-school) — Excluded senior/management title.
 
 ## Safety boundary
 

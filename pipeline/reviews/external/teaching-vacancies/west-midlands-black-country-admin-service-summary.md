@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-25
-review_fingerprint: 5164e54ea98dc9785a122a3567c0d3d119570500c7bfc2ce0e8e7db54a199d36
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: e5d076e38a676e01ee90a4dbb6ef949387705385412eb97622298f94d2f46409
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 6
-- POSS awaiting decision: 3
+- Records: 14
+- Selected: 4
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,36 +34,6 @@ factual_fingerprint: b7270c86dd789652fe588dffe81c4c171ad344cd3391f8ec526751c719c
 source: Teaching Vacancies
 source_job_id: administration-assistant-30ea18f5-6687-43df-b73a-b5583b1ab71b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-30ea18f5-6687-43df-b73a-b5583b1ab71b
----
-
----
-action: 
-SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B68 9PA | £27,274.00 - £30,515.00 Annually (FTE) NJC Point 7–14 | HR Administrator
-employer: Bristnall Hall Academy
-closing_date: 2026-11-26T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 934716c8ca5024151b622115b038db0e70aa67c27204200441bce5ca9a0cb94d
-source: Teaching Vacancies
-source_job_id: hr-administrator-bristnall-hall-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-bristnall-hall-academy
----
-
----
-action: 
-SELECTED | West Midlands - Black Country | Walsall, West Midlands, WS2 7BH | £27,274.00 - £30,515.00 Annually (FTE) NJC Point 7–14 | HR Administrator
-employer: North Walsall Primary Academy
-closing_date: 2026-11-26T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 807c262736eb0ec66a61ee2f4bea068e49b368bd39b0e45d5f702dbe4d9597e7
-source: Teaching Vacancies
-source_job_id: hr-administrator-north-walsall-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-north-walsall-primary-academy
 ---
 
 ---
@@ -130,21 +100,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-POSS | West Midlands - Black Country | Walsall, West Midlands, WS1 3RH | £27,274.00 - £30,515.00 Annually (FTE) NJC Point 7–14 | HR Administrator
-employer: Caldmore Primary Academy
-closing_date: 2026-11-26T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 18fd16186bb83c241c32f742c8026b603340fa393d00c9d40b467882bebd4f2b
-source: Teaching Vacancies
-source_job_id: hr-administrator-caldmore-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-caldmore-primary-academy
----
-
----
-action: 
 POSS | West Midlands - Black Country | Stourbridge, West Midlands, DY7 6AA | Grade 7 SCP 18 - 23 (£32,578 - £35,570 FTE) | HR Support Officer
 employer: Kinver High School and Sixth Form
 closing_date: 2026-11-30T09:00:00+00:00
@@ -168,6 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-support-officer-ki
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-hales-valley-trust) — Excluded senior/management title.
 - [HR Advisor - Senior](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-senior) — Excluded senior/management title.
 - [Office Manager/PA](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa) — Excluded senior/management title.
+- [Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/resources-manager-queen-mary-s-grammar-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school-dudley-west-midlands) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-priory-primary-school) — Excluded senior/management title.
 - [Trust Facilities and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-facilities-and-operations-manager) — Excluded senior/management title.

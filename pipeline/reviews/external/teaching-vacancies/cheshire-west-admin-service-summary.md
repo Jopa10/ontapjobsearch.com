@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-11-25
+review_date: 2026-11-26
 review_fingerprint: 4484ebb8d1302fbd32fe0861d3b0cf9177b3838e72339016abfda1119f529d20
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE

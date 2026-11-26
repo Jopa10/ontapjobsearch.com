@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-25
-review_fingerprint: d52f7a0177570d101667e93d407f062f6a2682f95396135bee7f1c786bef19d7
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: ba3d573f3e1a0f4800fab4570d902d82e1e59895df136ecf489d41f068a715f8
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 9
-- Selected: 4
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Somerset | Frome, South West, BA11 3AP | £8,664.00 - £8,800.00 Annually (Actual) | Administrative Assistant
-employer: St Louis Catholic Primary School, Frome
-closing_date: 2026-11-26T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a70e2cb366ba10a5626367e2a49abc42fd17b6a4b1eab26e8fafa43467d310a7
-source: Teaching Vacancies
-source_job_id: administrative-assistant-st-louis-catholic-primary-school-frome
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-louis-catholic-primary-school-frome
----
 
 ---
 action: 
@@ -119,6 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-h
 
 ## HARD_PASS
 
+- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-yeo-moor-primary-school) — No usable numeric salary.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-writhlington-school) — Insufficient admin/service evidence.
 - [Positive Behaviour Support Practitioner and Administrator](https://teaching-vacancies.service.gov.uk/jobs/positive-behaviour-support-practitioner-and-administrator-chilton-trinity-school) — No usable numeric salary.
 - [SEND Administrator](https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bridgwater-college-academy) — No usable numeric salary.

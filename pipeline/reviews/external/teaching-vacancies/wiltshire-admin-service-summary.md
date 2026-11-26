@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-11-25
-review_fingerprint: 95e8c2cda582f5957ef71296aa034f95e91fc2f040d86597d6cde92f9d8834c0
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 14a5ad7a63febee6f32170623066e2d22d350c30c8c8692b8dd5ca08e10dae4e
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 6
+- Records: 11
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -34,6 +34,21 @@ factual_fingerprint: 72f2cac22e24bdc5d8edb0faa4674e030805cbaafe28ce4c5a7049ea41a
 source: Teaching Vacancies
 source_job_id: admin-assistant-st-michael-s-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-michael-s-church-of-england-primary-school
+---
+
+---
+action: 
+SELECTED | Wiltshire | Chippenham, South West, SN14 6RJ | £18,268.00 - £19,249.00 Annually (Actual) | Examinations Administrator
+employer: Hardenhuish School
+closing_date: 2026-12-07T08:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f53c02f50ec76ca3fe8d7626503d0628c8c515fa91e55aa6b39be4be8c67a9d3
+source: Teaching Vacancies
+source_job_id: examinations-administrator-hardenhuish-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-administrator-hardenhuish-school
 ---
 
 ---

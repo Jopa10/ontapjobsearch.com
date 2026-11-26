@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Cumbria - South
 
-review_date: 2026-11-25
-review_fingerprint: ea9e3ca0bedd41f534220941b97ada9204a23cb635961275ee71c8c182899afa
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 1ca2a1be4057b32d106d27351700e704a78f777f5750756c3598b2d22ae27c42
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Cumbria - South
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -28,7 +28,7 @@ employer: Kirkby Stephen Grammar School
 closing_date: 2026-11-28T23:59:00+00:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: c2b42660bab5f73ebe90dc5ed24decdc6a45e2de55c439a739fbb680943b0b0a
 source: Teaching Vacancies

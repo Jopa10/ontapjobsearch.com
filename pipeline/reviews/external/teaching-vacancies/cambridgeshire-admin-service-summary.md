@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-25
-review_fingerprint: cf1381dd637d8a5848d03454ea247610db8524637944a62f144bbe1e3316edc2
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 398333bb34608cd9b08d61bfb6c67763cbcf97fba5c63f0ff2676a3882826613
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 16
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 1605e52d1850b2582d691ffc1e62d433b079eaa2117186f122e6b097968
 source: Teaching Vacancies
 source_job_id: administrative-assistant-orton-wistow-primary-school-peterborough-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-orton-wistow-primary-school-peterborough-cambridgeshire
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Peterborough, PE3 6SB | £35,000.00 - £40,000.00 Annually (Actual) | Admissions Officer
+employer: United Learning Trust
+closing_date: 2026-12-08T23:59:00+00:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2fb3a1f7fae592b1e3d5c3ee43895e3e8d41243f3c37f01febb11343c1b801ac
+source: Teaching Vacancies
+source_job_id: admissions-officer-united-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-united-learning-trust
 ---
 
 ---
@@ -64,21 +79,6 @@ factual_fingerprint: dd7fcb042384d93fc3c14bd38d2ccd8e8d6c24dbc4c8319fa765c93d4a9
 source: Teaching Vacancies
 source_job_id: pa-to-the-principal-bottisham-village-college-cambridge-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-bottisham-village-college-cambridge-cambridgeshire
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £36,581.00 Annually (Actual) | Personal Assistant to the Deputy Headteachers
-employer: Arthur Mellows Village College
-closing_date: 2026-11-26T12:00:00+00:00
-reason: Clear admin/service title: personal assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 745465f014dff020a122c7cd0005dec0a01cc7beb7f4d695f6b967750be17057
-source: Teaching Vacancies
-source_job_id: personal-assistant-to-the-deputy-headteachers
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-deputy-headteachers
 ---
 
 ---
@@ -136,7 +136,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/legal-support-officer
 
 - [Assistant Finance Associate](https://teaching-vacancies.service.gov.uk/jobs/assistant-finance-associate-grace-schools) — Insufficient admin/service evidence.
 - [Corporate Administrator](https://teaching-vacancies.service.gov.uk/jobs/corporate-administrator) — No usable numeric salary.
-- [Governance & Assurance Lead](https://teaching-vacancies.service.gov.uk/jobs/governance-assurance-lead) — Excluded senior/management title.
 - [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-grace-schools) — Insufficient admin/service evidence.
 - [Internal Scrutiny Officer](https://teaching-vacancies.service.gov.uk/jobs/internal-scrutiny-officer) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bottisham-village-college) — Excluded senior/management title.

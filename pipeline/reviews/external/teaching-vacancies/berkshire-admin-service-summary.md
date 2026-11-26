@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-25
-review_fingerprint: 67f5970fc139405089a823a4570485551d808188dd7d867b264492959cd0a221
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: 612c5a052eec3fe50dd552332f5361b2bcf3cfd8ffd3aa116af3f9080e3d1070
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 9
+- Records: 22
+- Selected: 8
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 10
@@ -34,21 +34,6 @@ factual_fingerprint: 27420dd2463ce7102664d0c94ad85c27dab6dec4786fd3bd04ad99680cb
 source: Teaching Vacancies
 source_job_id: administrative-assistant-required-from-january-2027
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-required-from-january-2027
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG4 8LR | GLF Associate 3.1-3.9 salary: £19,502 - £20,891 | Behaviour Administrative Assistant
-employer: Highdown School and Sixth Form Centre
-closing_date: 2026-11-26T23:59:59+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e4a42e4ba8a73b61d669a68ce082c3a18a514b27aa68c4e7467cebc31e0a7e35
-source: Teaching Vacancies
-source_job_id: behaviour-administrative-assistant-highdown-school-and-sixth-form-centre
-source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-administrative-assistant-highdown-school-and-sixth-form-centre
 ---
 
 ---
@@ -224,7 +209,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-john-ran
 
 ## HARD_PASS
 
-- [Federation Business Officer](https://teaching-vacancies.service.gov.uk/jobs/federation-business-officer) — Insufficient admin/service evidence.
 - [Finance and Administration Officer - Educational Visits](https://teaching-vacancies.service.gov.uk/jobs/finance-and-administration-officer-educational-visits) — Insufficient admin/service evidence.
 - [Health Safety & Welfare Manager](https://teaching-vacancies.service.gov.uk/jobs/health-safety-welfare-manager) — Excluded senior/management title.
 - [Level 3 School Administrator Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/level-3-school-administrator-apprenticeship) — No usable numeric salary.
@@ -233,6 +217,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-john-ran
 - [Office Manager & Attendance or Admissions Lead](https://teaching-vacancies.service.gov.uk/jobs/office-manager-attendance-or-admissions-lead) — Excluded senior/management title.
 - [Project Manager - Systems Implementation (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/project-manager-systems-implementation-maternity-cover-maiden-erlegh-trust) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-chilton-foliat-church-of-england-primary-school) — Excluded senior/management title.
+- [School Business Manager required for January 2027](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-required-for-january-2027) — Excluded senior/management title.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Salary over £50k.
 
 ## Safety boundary

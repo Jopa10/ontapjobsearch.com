@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-25
-review_fingerprint: cb1d88cfc3bdf7aca787bba5ac17b1885047aaa4c13592e97f7d4cc13cd5edd0
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: fbd141147b383f80ebb1c3f8b94db2cff44a2bf72e612862813329d19c5c5d2a
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 62
+- Records: 69
 - Selected: 12
-- POSS awaiting decision: 7
+- POSS awaiting decision: 8
 - Excluded: 0
-- Hard pass: 43
+- Hard pass: 49
 
 ## SELECTED
 
@@ -220,6 +220,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+POSS | London | Romford, RM1 2RR | £25,782.00 Annually (Actual) | Finance Officer
+employer: Life Education Trust
+closing_date: 2026-12-09T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 13ff787b594045a82bd7516c27bc3f1a8bd3a16dc0091a07f095a231eade5c90
+source: Teaching Vacancies
+source_job_id: finance-officer-life-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-life-education-trust
+---
+
+---
+action: 
 POSS | London | London, London, SE10 0BG | £30,408.00 - £30,843.00 Annually (FTE) Greenwich Scale 3 (5-6) £26,506.04 - £27,250.18 Actual Salary | Office Administrator
 employer: Millennium Primary School
 closing_date: 2026-12-04T23:59:00+00:00
@@ -320,14 +335,19 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Attendance & Inclusion Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-inclusion-officer-hurstmere-school) — Insufficient admin/service evidence.
 - [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-waltham-forest-college) — Insufficient admin/service evidence.
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-haberdashers-hatcham-college) — Insufficient admin/service evidence.
+- [Careers & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-work-experience-co-ordinator-davenant-foundation-school-loughton-essex) — No usable numeric salary.
+- [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-d3832393-b8f3-4a1d-8cbe-91ddb29187bd) — No usable numeric salary.
 - [Casual Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-administrative-assistant) — No usable numeric salary.
+- [Chief Financial Officer and Business Manager](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-and-business-manager-davenant-foundation-school) — Excluded senior/management title.
 - [Communications & Digital Media Intern](https://teaching-vacancies.service.gov.uk/jobs/communications-digital-media-intern) — No usable numeric salary.
+- [Communications and Events Assistant](https://teaching-vacancies.service.gov.uk/jobs/communications-and-events-assistant) — Insufficient admin/service evidence.
 - [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-wallington-county-grammar-school) — Excluded senior/management title.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-winchmore-school) — Excluded senior/management title.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal-haberdashers-borough-academy-london) — Out-of-scope occupation: principal.
 - [Employee Relations Specialist (x2)](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist-x2) — Salary over £50k.
 - [Finance and Admissions Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-admissions-assistant) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
+- [Fixed Term Employability Coach](https://teaching-vacancies.service.gov.uk/jobs/fixed-term-employability-coach) — Out-of-scope occupation: coach.
 - [Head of Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-communications) — Excluded senior/management title.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-8fc0a6b4-5e0b-4d7f-b5d4-016bc3b41dab) — Excluded senior/management title.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-3b557eb1-7a10-4812-808f-391bae9d2eb8) — Out-of-scope occupation: teacher, headteacher.
@@ -335,16 +355,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [HR and Recruitment co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-co-ordinator) — Insufficient admin/service evidence.
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-barking-abbey-school-a-specialist-sports-and-humanities-college) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-paddock-school) — No usable numeric salary.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Salary over £50k.
 - [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover-oak-wood-school) — Excluded senior/management title.
 - [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college-london) — Insufficient admin/service evidence.
 - [Lead Attendance Officer/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/lead-attendance-officer-receptionist) — Excluded senior/management title.
 - [Multisite HR Manager](https://teaching-vacancies.service.gov.uk/jobs/multisite-hr-manager) — Excluded senior/management title.
+- [Multisite HR Manager](https://teaching-vacancies.service.gov.uk/jobs/multisite-hr-manager-coombe-wood-school) — Excluded senior/management title.
 - [Music Department Administrator](https://teaching-vacancies.service.gov.uk/jobs/music-department-administrator) — No usable numeric salary.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-0e28a447-7d05-4d98-a982-7c5d569e40f0) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-ark-evelyn-grace-academy) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-haberdashers-hatcham-college) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-deer-park-school) — Excluded senior/management title.
+- [Operations Manager- Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-maternity-cover) — Excluded senior/management title.
 - [PA to Group Executive Director of HR](https://teaching-vacancies.service.gov.uk/jobs/pa-to-group-executive-director-of-hr) — Excluded senior/management title.
 - [PA to Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-office-manager-the-quest-academy) — Excluded senior/management title.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy-orpington-kent) — Excluded senior/management title.

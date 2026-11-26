@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-25
-review_fingerprint: 0db26d48f5d7d4cc7c9581b4043a8648816eb07dd29f576c539e3c8889dcf891
-routing_manifest_sha256: 26e372fccab99cf9be190496f1c4ced0b4c43c6eb0e366b17ac6cbf8e1b47ade
+review_date: 2026-11-26
+review_fingerprint: afe6930ffdd6466d5b99b233f73ac92074e860fbc37abb1c257c9d76b2af81c6
+routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 6
-- POSS awaiting decision: 1
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 10
 
@@ -34,21 +34,6 @@ factual_fingerprint: 878eac4cb8f5f12b6a341b03a6cbda286fc55a2579b7b8d5e46544c4af0
 source: Teaching Vacancies
 source_job_id: academy-administrator-70aa2090-4f96-4f2d-a3a8-04143fd883ee
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-70aa2090-4f96-4f2d-a3a8-04143fd883ee
----
-
----
-action: 
-SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 1TX | £22,377.00 - £22,731.00 Annually (Actual) OAT Grade 2, Scale Point 4 - 5 | Administration Assistant
-employer: Ormiston South Parade Academy
-closing_date: 2026-11-29T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: caf6acbd481f59a78028ba6b4e14dd32c3cd9cd3bf751a7c17b45bcda0662d8e
-source: Teaching Vacancies
-source_job_id: administration-assistant-ormiston-south-parade-academy-grimsby
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-ormiston-south-parade-academy-grimsby
 ---
 
 ---
@@ -115,17 +100,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-welcome-
 
 ---
 action: 
+POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN31 1TX | £22,377.00 - £22,731.00 Annually (Actual) OAT Grade 2, Scale Point 4 - 5 | Administration Assistant
+employer: Ormiston South Parade Academy
+closing_date: 2026-11-29T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: caf6acbd481f59a78028ba6b4e14dd32c3cd9cd3bf751a7c17b45bcda0662d8e
+source: Teaching Vacancies
+source_job_id: administration-assistant-ormiston-south-parade-academy-grimsby
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-ormiston-south-parade-academy-grimsby
+---
+
+---
+action: 
 POSS | Lincolnshire | Spalding, PE12 7PU | £33,673.00 - £36,571.00 Annually (FTE) | Governance Professional & Trust Administration
 employer: University Of Lincoln Academy Trust
-closing_date: 2026-12-07T09:00:00+00:00
+closing_date: 2026-12-01T09:00:00+00:00
 reason: Borderline school administration title: governance professional
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ffd8e8b732f8da69d0ff863975ad98c7dd9de395097e06147cea503270964268
+factual_fingerprint: 32fc38382ad46617342d3daf7b277d9737659a0ac8b844d546ada1e7555cde71
 source: Teaching Vacancies
-source_job_id: governance-professional-trust-administration-30854185-0942-4718-8d96-39eba204d5e2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-trust-administration-30854185-0942-4718-8d96-39eba204d5e2
+source_job_id: governance-professional-trust-administration-a9e7c8cc-5f08-47c7-aa1b-4f5e50c5d343
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-trust-administration-a9e7c8cc-5f08-47c7-aa1b-4f5e50c5d343
 ---
 
 ## EXCLUDED BY REVIEW
