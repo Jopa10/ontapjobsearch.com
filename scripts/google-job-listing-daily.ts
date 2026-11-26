@@ -1,3 +1,4 @@
+import { appendFileSync } from 'node:fs';
 import { Pool } from 'pg';
 
 const PROPERTY = process.env.GOOGLE_SEARCH_CONSOLE_PROPERTY || 'sc-domain:ontapjobsearch.com';
@@ -213,7 +214,7 @@ async function reportDates(pool: Pool, manualDate: string | undefined): Promise<
 
 function appendSummary(text: string) {
   const path = process.env.GITHUB_STEP_SUMMARY;
-  if (path) require('node:fs').appendFileSync(path, `${text}\n`);
+  if (path) appendFileSync(path, `${text}\n`);
 }
 
 async function main() {
