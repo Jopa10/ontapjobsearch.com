@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 49
+- automatic include: 17
+- automatic review: 45
 - automatic exclude: 0
-- effective include: 16
-- effective review: 49
+- effective include: 17
+- effective review: 45
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (17)
 
 ---
 action: 
@@ -93,6 +93,18 @@ company: Effective Recruitment Solutions Ltd - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225785254
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Assistant
+company: Team Jobs - Commercial - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225868830
 reason: Exact approved Poole workplace.
 ---
 
@@ -216,7 +228,7 @@ job_id: jobg8-23643_225817065
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (49)
+## REVIEW (45)
 
 ---
 action: 
@@ -323,18 +335,6 @@ company: WR HVAC - Agency - Contract
 location: Wimborne
 source: JobG8
 job_id: jobg8-23643_225812150
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: CMA Recruitment Group - Agency - Contract
-location: Ferndown
-source: JobG8
-job_id: jobg8-23643_225775336
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -454,7 +454,7 @@ title: Credit Controller
 company: T2M Resourcing Ltd - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2421191
+job_id: jobg8-2463069
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -491,18 +491,6 @@ company: Tru Talent - Agency - Permanent
 location: Bournemouth
 source: JobG8
 job_id: jobg8-23643_225813746
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Office Angels - Agency - Temporary
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225767383
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -574,7 +562,7 @@ title: Finance Assistant - Poole - up to &;16.00 per hour
 company: Bond Williams - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2421678
+job_id: jobg8-2463720
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -731,30 +719,6 @@ company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225830816
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support
-company: Office Angels - Agency - Temporary
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225767372
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Scheduler
-company: Build Recruitment - Agency - Permanent
-location: Shaftesbury
-source: JobG8
-job_id: jobg8-23643_225774315
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

@@ -40,11 +40,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Assistant (PFI)
-company: Riverside Group - Agency - Permanent
+title: Office Coordinator
+company: Adecco - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-2423523
+job_id: jobg8-23643_225875657
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -176,7 +176,7 @@ decision: review
 automatic_decision: review
 title: Project Administrator
 company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Hessle
+location: Brough
 source: JobG8
 job_id: jobg8-23643_225797818
 reason: No approved Hull catchment rule matched; local review required.

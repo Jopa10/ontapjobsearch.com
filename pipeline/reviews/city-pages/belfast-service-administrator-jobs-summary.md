@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 3
+- automatic include: 8
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 7
-- effective review: 3
+- effective include: 8
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -76,11 +76,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Advisor
-company: The Recruitment Solution - Agency - Permanent
+title: Senior Manager - CRM & Relationship Intelligence
+company: A&O Shearman - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-23643_225775436
+job_id: jobg8-21582_123860401
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -100,15 +100,39 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Test Administrator (TIMSS) - Northern Ireland - Fully Remote
+company: Pearson Plc - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2457832
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2440972
+job_id: jobg8-2455001
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (6)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2458572
+reason: No approved Belfast catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -138,11 +162,35 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: The Recruitment Solution (London) Ltd - Agency - Permanent
-location: Newtownards
+title: Senior Manager - CRM & Relationship Intelligence
+company: A&O Shearman - Agency - Permanent
+location: County Antrim
 source: JobG8
-job_id: jobg8-2381748
+job_id: jobg8-21582_123860399
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Manager - CRM & Relationship Intelligence
+company: A&O Shearman - Agency - Permanent
+location: County Down
+source: JobG8
+job_id: jobg8-21582_123860545
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Test Administrator (TIMSS) - Northern Ireland - Fully Remote
+company: Pearson Plc - Agency - Permanent
+location: Newry
+source: JobG8
+job_id: jobg8-2457835
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 42
+- Effective included jobs: 45
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 42
-- automatic review: 5
+- automatic include: 45
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 42
-- effective review: 5
+- effective include: 45
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (42)
+## INCLUDE (45)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-2434731
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Clerk
+company: Contek Recruitment Solutions Ltd - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_224760876
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -292,11 +304,35 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Financial Services Administrator
+company: Michael Page - Agency - Contract
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225872348
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administration Assistant - Immediate Start
+company: Search Consultancy Ltd - Agency - Contract
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225872488
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Internal Sales Executive
 company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2419763
+job_id: jobg8-2461305
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -528,19 +564,7 @@ job_id: jobg8-23643_225860464
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing & Brand Executive
-company: Lime - Agency - Permanent
-location: Dunbartonshire
-source: JobG8
-job_id: jobg8-23643_225774513
-reason: No approved Glasgow catchment rule matched; local review required.
----
+## REVIEW (4)
 
 ---
 action: 
@@ -586,7 +610,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2440980
+job_id: jobg8-2455009
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

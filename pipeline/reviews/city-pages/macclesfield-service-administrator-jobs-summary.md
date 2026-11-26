@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 20
+- automatic include: 14
+- automatic review: 21
 - automatic exclude: 0
-- effective include: 15
-- effective review: 20
+- effective include: 14
+- effective review: 21
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (14)
 
 ---
 action: 
@@ -160,18 +160,6 @@ reason: Exact approved Macclesfield workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Operational Administrator
-company: Barlow Wood Ltd - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-23643_225799183
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Administrator
 company: McLennan Knight Recruitment Limited - Agency - Permanent
 location: Macclesfield
@@ -204,7 +192,7 @@ job_id: jobg8-2379182
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (21)
 
 ---
 action: 
@@ -262,7 +250,7 @@ title: Accounts Assistant
 company: KPI Recruiting - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2413405
+job_id: jobg8-2456626
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -298,7 +286,7 @@ title: Accounts Assistant - Supplier Rebates
 company: Axon Moore Group Ltd - Agency - Permanent
 location: Knutsford
 source: JobG8
-job_id: jobg8-2414115
+job_id: jobg8-2457762
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -346,7 +334,7 @@ title: Accounts Payable Officer
 company: Michael Page Finance - Agency - Permanent
 location: Cheshire
 source: JobG8
-job_id: jobg8-2419740
+job_id: jobg8-2461288
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -383,6 +371,18 @@ company: Solus Accident Repair Centres - Company - Permanent
 location: Middlewich
 source: JobG8
 job_id: jobg8-23643_225861113
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Forrest Recruitment - Agency - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-23643_225871932
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

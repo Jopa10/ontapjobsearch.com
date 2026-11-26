@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 42
+- Effective included jobs: 44
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 42
+- automatic include: 44
 - automatic review: 13
 - automatic exclude: 29
-- effective include: 42
+- effective include: 44
 - effective review: 13
 - effective exclude: 29
 
-## INCLUDE (42)
+## INCLUDE (44)
 
 ---
 action: 
@@ -80,6 +80,18 @@ title: Administrator
 company: Montrose Health Group Ltd
 location: Sheffield, S118FT
 source: NHS Jobs
+job_id: nhs-5746840
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Montrose Health Group Ltd
+location: Sheffield, S118FT
+source: NHS Jobs
 job_id: nhs-5749625
 reason: Approved Sheffield catchment.
 ---
@@ -105,6 +117,30 @@ company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2359207
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Billing Administrator
+company: Gibson Hollyhomes - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225872599
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Billing Administrator
+company: Gibson Hollyhomes - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2457673
 reason: Approved Sheffield catchment.
 ---
 
@@ -148,6 +184,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Clerical Officer/Receptionist
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5750406
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Client Relationship Administrator
 company: St. James's Place Wealth Management - Agency - Permanent
 location: Sheffield
@@ -172,11 +220,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Conveyancing Paralegal
-company: Talk Staff Group Limited - Agency - Permanent
+title: Credit Controller
+company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225866647
+job_id: jobg8-2459294
 reason: Approved Sheffield catchment.
 ---
 
@@ -256,11 +304,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: GP Receptionist
-company: Elm Lane & Chapeltown Surgery
-location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
-source: NHS Jobs
-job_id: nhs-5725571
+title: Insolvency Case Administrator
+company: GGT Insolvency Recruitment - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2377837
 reason: Approved Sheffield catchment.
 ---
 
@@ -268,11 +316,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Insolvency Case Administrator
-company: GGT Insolvency Recruitment - Agency - Permanent
+title: Legal secretary
+company: CRA Consulting - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2377837
+job_id: jobg8-2456176
 reason: Approved Sheffield catchment.
 ---
 
@@ -380,7 +428,7 @@ title: Payroll Administrator - Local Authority
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2413288
+job_id: jobg8-2456417
 reason: Approved Sheffield catchment.
 ---
 
@@ -460,23 +508,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Senior Paralegal - Conveyancing
-company: Talk Staff Group Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225866650
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SEO Executive
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2420999
+job_id: jobg8-2462809
 reason: Approved Sheffield catchment.
 ---
 
@@ -513,18 +549,6 @@ company: CCA Recruitment Group - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225789027
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225796381
 reason: Approved Sheffield catchment.
 ---
 
@@ -682,7 +706,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2440991
+job_id: jobg8-2455034
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -708,7 +732,7 @@ title: Accounts Receivable Officer
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2420020
+job_id: jobg8-2461627
 reason: Separate employment market.
 ---
 
@@ -720,7 +744,7 @@ title: Assistant Credit Controller
 company: Elevation Recruitment Group - Agency - Permanent
 location: Barnsley
 source: JobG8
-job_id: jobg8-2412884
+job_id: jobg8-2455660
 reason: Separate employment market.
 ---
 
@@ -888,7 +912,7 @@ title: Payroll Administrator
 company: Chase and Holland Recruitment Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2412948
+job_id: jobg8-2455770
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 59
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 6
-- effective review: 59
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225818968
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (56)
 
 ---
 action: 
@@ -247,18 +247,6 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: CMA Recruitment Group - Agency - Contract
-location: Ferndown
-source: JobG8
-job_id: jobg8-23643_225775336
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
 company: CMA Recruitment Group - Agency - Permanent
 location: Ferndown
 source: JobG8
@@ -382,19 +370,7 @@ title: Credit Controller
 company: T2M Resourcing Ltd - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2421191
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Office Angels - Agency - Temporary
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225767383
+job_id: jobg8-2463069
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -454,7 +430,7 @@ title: Finance Assistant - Poole - up to &;16.00 per hour
 company: Bond Williams - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2421678
+job_id: jobg8-2463720
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -527,6 +503,18 @@ company: Reed - Agency - Permanent
 location: Ferndown
 source: JobG8
 job_id: jobg8-2441870
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Assistant
+company: Team Jobs - Commercial - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225868830
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -683,30 +671,6 @@ company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225830816
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support
-company: Office Angels - Agency - Temporary
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225767372
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Scheduler
-company: Build Recruitment - Agency - Permanent
-location: Shaftesbury
-source: JobG8
-job_id: jobg8-23643_225774315
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 13
+- automatic include: 25
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 18
-- effective review: 13
+- effective include: 25
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (25)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2448450
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Adecco - Agency - Temporary
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225868827
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -57,6 +69,18 @@ company: SJC Partners - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2450449
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Chase and Holland Recruitment Ltd - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2458583
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -105,6 +129,18 @@ company: Haig Legal Group Limited - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-108359576
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Haig Legal Group Limited - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-108359601
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -172,12 +208,60 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Administrator
+company: Blusource - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2455964
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: Blusource Professional Services Ltd - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225871599
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Specialist
 company: Marble Mayne Recruitment - Agency - Permanent
 location: Lincoln
 source: JobG8
 job_id: jobg8-2233430
 reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Placement Support Administrator
+company: Barker Ross - Agency - Temporary
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225869131
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225874291
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---
@@ -240,7 +324,7 @@ job_id: jobg8-23643_225808865
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (13)
+## REVIEW (12)
 
 ---
 action: 
@@ -318,30 +402,6 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: Grantham
-source: JobG8
-job_id: jobg8-2358793
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist / Care Navigator
-company: Tasburgh Lodge Surgery
-location: Woodhall Spa, LN10 6TX
-source: NHS Jobs
-job_id: nhs-5717449
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist
 company: Sleaford Medical Group
 location: Sleaford, NG34 7HD
@@ -371,6 +431,18 @@ company: Future Prospects Group Ltd - Agency - Permanent
 location: Grantham
 source: JobG8
 job_id: jobg8-23643_225821990
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist - Care Home
+company: Barchester Healthcare
+location: Grantham, NG31 9DN
+source: NHS Jobs
+job_id: nhs-5752013
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

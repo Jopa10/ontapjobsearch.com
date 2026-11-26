@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 25
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 23
+- effective include: 25
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (25)
 
 ---
 action: 
@@ -244,6 +244,18 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Practice Bookkeeper
+company: Bowen Eldridge Recruitment - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-108165955
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Administrator
 company: Focus Resourcing - Agency - Permanent
 location: Cardiff
@@ -292,6 +304,18 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Test Administrator (TIMSS) - Wales - Fully Remote
+company: Pearson Plc - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2457828
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Training Course Coordination Administrator
 company: Astutis - Agency - Permanent
 location: Cardiff
@@ -310,7 +334,7 @@ title: Accounts Assistant
 company: Môrwell Talent Solutions - Agency - Permanent
 location: South Glamorgan
 source: JobG8
-job_id: jobg8-2414408
+job_id: jobg8-2458213
 reason: No approved Cardiff catchment rule matched; local review required.
 ---
 

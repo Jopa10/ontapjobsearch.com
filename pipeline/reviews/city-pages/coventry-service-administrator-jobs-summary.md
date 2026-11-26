@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 3
-- automatic exclude: 113
-- effective include: 23
-- effective review: 3
-- effective exclude: 113
+- automatic include: 24
+- automatic review: 5
+- automatic exclude: 112
+- effective include: 24
+- effective review: 5
+- effective exclude: 112
 
-## INCLUDE (23)
+## INCLUDE (24)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Conveyancing Paralegal/Fee Earner - Leasehold Purchases
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225869239
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Credit Controller
 company: James Andrew Recruitment Solutions (JAR Solutions) - Agency - Permanent
 location: Coventry
@@ -184,11 +196,11 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Image Verification Administrator
-company: Guidant Global - Agency - Temporary
+title: Finance Officer
+company: Penderels Trust - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-23643_225805750
+job_id: jobg8-2460755
 reason: Approved Coventry catchment.
 ---
 
@@ -196,11 +208,11 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Officer
-company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
+title: Image Verification Administrator
+company: Guidant Global - Agency - Temporary
 location: Coventry
 source: JobG8
-job_id: jobg8-2311344
+job_id: jobg8-23643_225805750
 reason: Approved Coventry catchment.
 ---
 
@@ -224,7 +236,7 @@ title: Purchase Ledger Clerk
 company: SF Partners - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-2414401
+job_id: jobg8-2458206
 reason: Approved Coventry catchment.
 ---
 
@@ -300,7 +312,7 @@ job_id: jobg8-23643_225825389
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (5)
 
 ---
 action: 
@@ -338,7 +350,31 @@ job_id: jobg8-2438610
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (113)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Accounts Administrator
+company: SF Partners - Agency - Permanent
+location: Bidford-On-Avon
+source: JobG8
+job_id: jobg8-23643_225872949
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Accounts Administrator
+company: SF Partners - Agency - Permanent
+location: Bidford-On-Avon
+source: JobG8
+job_id: jobg8-2458326
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+## EXCLUDE (112)
 
 ---
 action: 
@@ -548,6 +584,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administration Assistant
+company: The Revel Surgery
+location: Rugby, CV23 0LU
+source: NHS Jobs
+job_id: nhs-5750442
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Administration Officer
 company: Forward Trust - Agency - Permanent
 location: Rugby
@@ -573,10 +621,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Stanair Industrial Door Services - Agency - Permanent
+company: Personnel Solutions (Midlands) Ltd - Agency - Temporary
 location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225799253
+job_id: jobg8-23643_225869327
 reason: Separate employment market.
 ---
 
@@ -668,11 +716,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: BMW Trainee Service Advisor
+company: Sytner Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2461919
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Bookkeeper
 company: Four Squared - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2414318
+job_id: jobg8-2458083
 reason: Separate employment market.
 ---
 
@@ -729,18 +789,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Commercial Property Paralegal
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225768258
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Commercial Property Paralegal
 company: The Eventus Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
@@ -756,7 +804,7 @@ title: Content Writer
 company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2414914
+job_id: jobg8-2458727
 reason: Separate employment market.
 ---
 
@@ -793,18 +841,6 @@ company: Reed - Agency - Permanent
 location: Leamington Spa
 source: JobG8
 job_id: jobg8-2436426
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Control
-company: TAILORED SEARCH RECRUITMENT LIMITED - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2395596
 reason: Separate employment market.
 ---
 
@@ -884,35 +920,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor - FULL TIME
-company: Adecco - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225773412
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor - Full Time
 company: Adecco - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225806237
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Coordinator
-company: Osprey Engineering Solutions - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225767391
 reason: Separate employment market.
 ---
 
@@ -936,7 +948,7 @@ title: Employment Law Paralegal
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Leamington Spa
 source: JobG8
-job_id: jobg8-2413818
+job_id: jobg8-2457376
 reason: Separate employment market.
 ---
 
@@ -1304,6 +1316,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part-Time Accounts Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2460725
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Payroll Administrator
 company: 3 Point Recruitment - Agency - Permanent
 location: Warwickshire
@@ -1320,7 +1344,7 @@ title: Payroll Administrator
 company: Four Squared - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2414319
+job_id: jobg8-2458084
 reason: Separate employment market.
 ---
 
@@ -1484,18 +1508,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Coordinator
-company: Brellis Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225772724
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales Ledger
 company: Four Squared - Agency - Permanent
 location: Warwick
@@ -1640,6 +1652,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Service Advisor - Mercedes-Benz Stratford Upon-Avon
+company: Group 1 Automotive - Company - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2461409
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Technical Coordinator
 company: Matchtech - Agency - Contract
 location: Warwickshire
@@ -1680,7 +1704,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2440977
+job_id: jobg8-2455007
 reason: Separate employment market.
 ---
 

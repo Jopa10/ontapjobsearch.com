@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 14
-- automatic exclude: 31
-- effective include: 16
-- effective review: 14
-- effective exclude: 31
+- automatic include: 15
+- automatic review: 17
+- automatic exclude: 33
+- effective include: 15
+- effective review: 17
+- effective exclude: 33
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -172,23 +172,11 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Unity Health
-location: York, YO10 5LA, York, YO10 4DU
-source: NHS Jobs
-job_id: nhs-5706440
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part Time Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-2413112
+job_id: jobg8-2456110
 reason: Approved York catchment.
 ---
 
@@ -216,7 +204,7 @@ job_id: jobg8-2359409
 reason: Approved York catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (17)
 
 ---
 action: 
@@ -310,7 +298,7 @@ title: Legal Assistant
 company: Reed - Agency - Permanent
 location: Malton
 source: JobG8
-job_id: jobg8-2414402
+job_id: jobg8-2458207
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -354,11 +342,47 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Property Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2461882
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger
 company: Si Recruitment - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2451696
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales and Logistics Administrator
+company: PowerLink Energy Tech (UK) - Agency - Permanent
+location: Sherburn In Elmet
+source: JobG8
+job_id: jobg8-23643_224910548
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: Ripon Farm Services - Agency - Permanent
+location: Tadcaster
+source: JobG8
+job_id: jobg8-2462356
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -386,19 +410,7 @@ job_id: jobg8-2438504
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Si Recruitment - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-2420682
-reason: Separate employment market.
----
+## EXCLUDE (33)
 
 ---
 action: 
@@ -409,6 +421,18 @@ company: Si Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2427821
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Si Recruitment - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-2462442
 reason: Separate employment market.
 ---
 
@@ -548,18 +572,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Digital Marketing Assistant
-company: No1 Legal and Professional - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2373723
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Ecommerce Website Specialist
 company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Yorkshire
@@ -614,18 +626,6 @@ location: Northallerton
 source: JobG8
 job_id: jobg8-2420842
 reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Executive
-company: KD Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225772011
-reason: Broad regional label; not York-city evidence.
 ---
 
 ---
@@ -708,7 +708,43 @@ title: Payroll Officer
 company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2413118
+job_id: jobg8-2456119
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Assistant
+company: Nigel Wright Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2463832
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: hireful. - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2457486
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: Ripon Farm Services - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2462872
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -722,6 +758,18 @@ location: Harrogate, HG1 4DP
 source: NHS Jobs
 job_id: nhs-5745151
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Ledger Assistant
+company: Si Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2456469
+reason: Broad regional label; not York-city evidence.
 ---
 
 ---

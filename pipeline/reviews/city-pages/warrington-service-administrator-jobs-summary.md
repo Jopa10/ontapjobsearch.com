@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
+- automatic include: 28
 - automatic review: 9
-- automatic exclude: 7
-- effective include: 29
+- automatic exclude: 6
+- effective include: 28
 - effective review: 9
-- effective exclude: 7
+- effective exclude: 6
 
-## INCLUDE (29)
+## INCLUDE (28)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Reed - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2360175
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: RG Consultancy Ltd - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2371552
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -176,7 +164,7 @@ title: eCommerce Co-Ordinator
 company: The Solution Auto - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-2415022
+job_id: jobg8-2458942
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -482,7 +470,7 @@ job_id: jobg8-23643_225859173
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -541,18 +529,6 @@ company: Reed - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-2451098
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase and Logistcis Coordinator
-company: KPI Recruiting - Agency - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-23643_225768987
 reason: Separate employment market.
 ---
 

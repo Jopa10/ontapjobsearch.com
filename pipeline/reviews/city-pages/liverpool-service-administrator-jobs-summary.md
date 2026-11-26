@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 43
+- Effective included jobs: 46
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 43
-- automatic review: 11
+- automatic include: 46
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 43
-- effective review: 11
+- effective include: 46
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (43)
+## INCLUDE (46)
 
 ---
 action: 
@@ -65,6 +65,30 @@ action:
 decision: include
 automatic_decision: include
 title: Accounts Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2455803
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2459201
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
 company: Resourcery Group - Agency - Permanent
 location: Liverpool
 source: JobG8
@@ -92,7 +116,7 @@ title: Accounts Assistant - Reporting
 company: Accountable Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2420733
+job_id: jobg8-2462490
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -273,6 +297,18 @@ company: KPI Recruiting - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225859306
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: International eCommerce & Marketing Executive
+company: The Language Business - Language Recruitment Specialists - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2459116
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -496,18 +532,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Velocity Recruitment - Agency - Contract
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225671024
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Recovery Coordinator (Young Persons)- Liverpool
 company: LGBT Foundation - Agency - Permanent
 location: Liverpool
@@ -540,7 +564,19 @@ job_id: jobg8-2358347
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (11)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Receptionist
+company: CCA Recruitment Group - Agency - Contract
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225872107
+reason: Approved conservative Liverpool launch catchment.
+---
+
+## REVIEW (10)
 
 ---
 action: 
@@ -642,18 +678,6 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: paralegal
-company: Kingsgate Recruitment Ltd - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2363217
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Performance Marketing Lead
 company: Zachary Daniels - Agency - Permanent
 location: Merseyside
@@ -670,7 +694,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2440985
+job_id: jobg8-2455015
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

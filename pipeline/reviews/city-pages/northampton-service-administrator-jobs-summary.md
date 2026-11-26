@@ -16,13 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 71
+- automatic review: 73
 - automatic exclude: 0
 - effective include: 16
-- effective review: 71
+- effective review: 73
 - effective exclude: 0
 
 ## INCLUDE (16)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Debbie Burbage Recruitment - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-2456924
+reason: Exact approved Northampton workplace.
+---
 
 ---
 action: 
@@ -172,18 +184,6 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Shipping Coordinator
-company: Impact Recruitment Services - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225767603
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary Purchase Ledger Clerk
 company: Morgan McKinley (Milton Keynes) - Agency - Temporary
 location: Northampton
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225841092
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (71)
+## REVIEW (73)
 
 ---
 action: 
@@ -258,11 +258,35 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Receivable Assistant
+company: ACS Recruitment Solutions Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2462644
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Admin and Accounts Assistant
 company: Robert Half - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-2415539
+job_id: jobg8-2459541
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Northamptonshire Healthcare Foundation Trust
+location: Corby, NN17 2UW
+source: NHS Jobs
+job_id: nhs-5747403
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -311,6 +335,30 @@ company: Interaction Recruitment - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-23643_225791884
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Operations Coordinator
+company: ACS Staffing Solutions - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225869986
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support / Admin Officer
+company: Colbern Limited - Agency - Contract
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225816640
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -371,30 +419,6 @@ company: eNL Legal Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2431687
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Kingscroft Professional Resources - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225773126
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Kingscroft Professional Resources - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2367891
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -467,18 +491,6 @@ company: Interaction Recruitment - Agency - Permanent
 location: Corby
 source: JobG8
 job_id: jobg8-23643_225863201
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: E-Commerce Warehouse Team Leader
-company: Insight Employment - Agency - Temporary
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225768737
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -594,18 +606,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Housing Finance Officer
-company: Opus People Solutions Ltd - Agency - Temporary
-location: Kettering
-source: JobG8
-job_id: jobg8-23643_225775157
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Inbound Call Handler (Late Shift)
 company: SolviT Recruitment Ltd - Agency - Temporary
 location: Daventry
@@ -666,18 +666,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive
-company: Silverstone Museum - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2395600
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Administrator
 company: Avens Limited - Agency - Temporary
 location: Kettering
@@ -695,6 +683,18 @@ company: Howdens Joinery - Company - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225846971
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Onsite Recruitment Coordinator
+company: AM2PM Group - Agency - Permanent
+location: Corby
+source: JobG8
+job_id: jobg8-23643_225871500
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -743,6 +743,18 @@ company: Blusource Professional Services Ltd - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225804029
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-Time Bookkeeper
+company: Butler Rose - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2462896
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -839,6 +851,30 @@ company: Michael Page - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225847360
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: Commercial - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-108378839
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: Impact Recruitment Services - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225870528
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -1043,18 +1079,6 @@ company: Northamptonshire Healthcare Foundation Trust
 location: Wellingborough, NN8 1LP
 source: NHS Jobs
 job_id: nhs-5746111
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator progressing to Finance Advisor
-company: Summit Recruiters - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225865855
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

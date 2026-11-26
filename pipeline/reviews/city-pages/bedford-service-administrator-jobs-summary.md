@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 36
+- automatic review: 42
 - automatic exclude: 0
 - effective include: 16
-- effective review: 36
+- effective review: 42
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -32,7 +32,7 @@ title: Accounts Payable Clerk - 6 Month FTC
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Bedford
 source: JobG8
-job_id: jobg8-2422428
+job_id: jobg8-2464587
 reason: Exact approved Bedford workplace.
 ---
 
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225782845
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (42)
 
 ---
 action: 
@@ -226,7 +226,7 @@ title: Accounts Administrator
 company: Hello Recruitment Associates Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2414713
+job_id: jobg8-2458507
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -263,6 +263,18 @@ company: Movianto - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-2429408
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Leighton Forest - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225872600
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -318,6 +330,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Bookkeeper - Accountancy Practice
+company: Abacus Consulting - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2460424
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support Administrator
 company: Advancing People - Agency - Permanent
 location: Bedfordshire
@@ -330,11 +354,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Credit Control/Accounts Receivable
-company: Michael Page Finance - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-2414932
+title: Care Administrator
+company: Elysium Healthcare
+location: Luton, LU13NB
+source: NHS Jobs
+job_id: nhs-5752548
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -342,11 +366,23 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Go Interiors Ltd - Agency - Permanent
+title: Client Bookkeeper - Luton
+company: Pro-Finance - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-23643_225775230
+job_id: jobg8-2457463
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Control/Accounts Receivable
+company: Michael Page Finance - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2458745
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -414,6 +450,30 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Response Personnel Ltd - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-23643_225869210
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Think Accountancy and Finance - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-2461182
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Secretary
 company: Additional Resources - Agency - Permanent
 location: Bedfordshire
@@ -462,18 +522,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Legal Secretary
-company: Oculus Legal Group - Agency - Permanent
-location: Luton
-source: JobG8
-job_id: jobg8-2392381
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Maintenance Planning Administrator
 company: Michael Page - Agency - Permanent
 location: Bedfordshire
@@ -491,6 +539,18 @@ company: Connect2Luton - Agency - Temporary
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225799190
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part - Time Administrative Assistant
+company: Connect2Luton - Agency - Temporary
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225869657
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -611,6 +671,18 @@ company: Howells Solutions Limited - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-23643_225798201
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Watton Recruitment Ltd - Agency - Permanent
+location: Shefford
+source: JobG8
+job_id: jobg8-23643_225813635
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

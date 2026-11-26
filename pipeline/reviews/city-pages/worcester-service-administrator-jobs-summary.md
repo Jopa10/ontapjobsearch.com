@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 42
+- automatic include: 8
+- automatic review: 37
 - automatic exclude: 0
-- effective include: 5
-- effective review: 42
+- effective include: 8
+- effective review: 37
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Herefordshire and Worcestershire Health and Care NHS Trust
 location: Worcester, WR4 9PA
 source: NHS Jobs
 job_id: nhs-5735198
+reason: Exact approved Worcester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Plum Personnel - Agency - Permanent
+location: Worcester
+source: JobG8
+job_id: jobg8-23643_225776365
 reason: Exact approved Worcester workplace.
 ---
 
@@ -53,10 +65,10 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
+company: Counted Recruitment - Agency - Permanent
 location: Worcester
 source: JobG8
-job_id: jobg8-2378935
+job_id: jobg8-2458756
 reason: Exact approved Worcester workplace.
 ---
 
@@ -76,6 +88,18 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Transaction Recruitment - Agency - Permanent
+location: Worcester
+source: JobG8
+job_id: jobg8-23643_225873236
+reason: Exact approved Worcester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Administrator
 company: CY Executive Resourcing - Agency - Contract
 location: Worcester
@@ -84,7 +108,19 @@ job_id: jobg8-23643_225815367
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (42)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Quality Administrator
+company: Adecco - Agency - Contract
+location: Worcester
+source: JobG8
+job_id: jobg8-23643_225873435
+reason: Exact approved Worcester workplace.
+---
+
+## REVIEW (37)
 
 ---
 action: 
@@ -227,18 +263,6 @@ company: NJR Recruitment - Agency - Permanent
 location: Bromsgrove
 source: JobG8
 job_id: jobg8-2450293
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Pertemps Black Country Perms - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225767657
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -450,30 +474,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Assistant
-company: Michael Page - Agency - Temporary
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225767778
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Hawk 3 Talent Solutions - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225820459
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Officer
 company: Hawk 3 Talent Solutions - Agency - Permanent
 location: Worcestershire
@@ -503,18 +503,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Kidderminster
 source: JobG8
 job_id: jobg8-2452099
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Transaction Recruitment - Agency - Temporary
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225773731
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -575,18 +563,6 @@ company: Rise Technical Recruitment Limited - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-2373966
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sustainability Coordinator
-company: SRG - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225774635
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

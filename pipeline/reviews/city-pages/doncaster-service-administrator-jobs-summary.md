@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 20
 - automatic review: 13
-- automatic exclude: 51
+- automatic exclude: 53
 - effective include: 20
 - effective review: 13
-- effective exclude: 51
+- effective exclude: 53
 
 ## INCLUDE (20)
 
@@ -32,7 +32,7 @@ title: Accounts Receivable Officer
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2420020
+job_id: jobg8-2461627
 reason: Approved Doncaster catchment.
 ---
 
@@ -176,7 +176,7 @@ title: Payroll Administrator
 company: Chase and Holland Recruitment Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2412948
+job_id: jobg8-2455770
 reason: Approved Doncaster catchment.
 ---
 
@@ -418,11 +418,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2440991
+job_id: jobg8-2455034
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (51)
+## EXCLUDE (53)
 
 ---
 action: 
@@ -492,6 +492,18 @@ title: Administrator
 company: Montrose Health Group Ltd
 location: Sheffield, S118FT
 source: NHS Jobs
+job_id: nhs-5746840
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Montrose Health Group Ltd
+location: Sheffield, S118FT
+source: NHS Jobs
 job_id: nhs-5749625
 reason: Separate employment market.
 ---
@@ -516,7 +528,7 @@ title: Assistant Credit Controller
 company: Elevation Recruitment Group - Agency - Permanent
 location: Barnsley
 source: JobG8
-job_id: jobg8-2412884
+job_id: jobg8-2455660
 reason: Separate employment market.
 ---
 
@@ -529,6 +541,30 @@ company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2359207
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Billing Administrator
+company: Gibson Hollyhomes - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225872599
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Billing Administrator
+company: Gibson Hollyhomes - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2457673
 reason: Separate employment market.
 ---
 
@@ -572,6 +608,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clerical Officer/Receptionist
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5750406
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Client Relationship Administrator
 company: St. James's Place Wealth Management - Agency - Permanent
 location: Sheffield
@@ -608,11 +656,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Conveyancing Paralegal
-company: Talk Staff Group Limited - Agency - Permanent
+title: Credit Controller
+company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225866647
+job_id: jobg8-2459294
 reason: Separate employment market.
 ---
 
@@ -693,18 +741,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: GP Receptionist
-company: Elm Lane & Chapeltown Surgery
-location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
-source: NHS Jobs
-job_id: nhs-5725571
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: GP Receptionist
 company: Wickersley Medical Practice
 location: Rotherham, S66 2JQ
 source: NHS Jobs
@@ -721,6 +757,18 @@ company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2377837
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal secretary
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2456176
 reason: Separate employment market.
 ---
 
@@ -828,7 +876,7 @@ title: Payroll Administrator - Local Authority
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2413288
+job_id: jobg8-2456417
 reason: Separate employment market.
 ---
 
@@ -932,23 +980,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Senior Paralegal - Conveyancing
-company: Talk Staff Group Limited - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225866650
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: SEO Executive
 company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2420999
+job_id: jobg8-2462809
 reason: Separate employment market.
 ---
 
@@ -1021,17 +1057,5 @@ company: Anonymous - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225846974
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Transactional Finance Officer
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225796381
 reason: Separate employment market.
 ---

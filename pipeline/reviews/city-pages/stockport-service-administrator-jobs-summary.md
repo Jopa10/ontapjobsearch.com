@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 21
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 17
-- effective review: 21
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (17)
@@ -148,18 +148,6 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Operations Administrator
-company: Hays Business Support - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225773301
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Pallet Network & Customer Service Coordinator
 company: Kinaxia Logistics Limited - Agency - Permanent
 location: Stockport
@@ -220,6 +208,18 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Reception / Purchasing Administrator
+company: Building Careers UK - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225873215
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service & Installations Coordinator
 company: Barlow Wood Ltd - Agency - Permanent
 location: Stockport
@@ -228,7 +228,7 @@ job_id: jobg8-23643_225850411
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (20)
 
 ---
 action: 
@@ -311,18 +311,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-2431867
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: NC Associates - Agency - Permanent
-location: Trafford
-source: JobG8
-job_id: jobg8-2381755
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

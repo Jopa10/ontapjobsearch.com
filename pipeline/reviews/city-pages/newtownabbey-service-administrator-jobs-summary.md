@@ -16,15 +16,27 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 10
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 0
-- effective review: 10
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (10)
+## REVIEW (14)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2458572
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -102,11 +114,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: The Recruitment Solution (London) Ltd - Agency - Permanent
-location: Newtownards
+title: Senior Manager - CRM & Relationship Intelligence
+company: A&O Shearman - Agency - Permanent
+location: County Antrim
 source: JobG8
-job_id: jobg8-2381748
+job_id: jobg8-21582_123860399
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -114,11 +126,23 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: The Recruitment Solution - Agency - Permanent
+title: Senior Manager - CRM & Relationship Intelligence
+company: A&O Shearman - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-23643_225775436
+job_id: jobg8-21582_123860401
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Manager - CRM & Relationship Intelligence
+company: A&O Shearman - Agency - Permanent
+location: County Down
+source: JobG8
+job_id: jobg8-21582_123860545
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -138,11 +162,35 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Test Administrator (TIMSS) - Northern Ireland - Fully Remote
+company: Pearson Plc - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2457832
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Test Administrator (TIMSS) - Northern Ireland - Fully Remote
+company: Pearson Plc - Agency - Permanent
+location: Newry
+source: JobG8
+job_id: jobg8-2457835
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2440972
+job_id: jobg8-2455001
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

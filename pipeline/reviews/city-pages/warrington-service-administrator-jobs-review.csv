@@ -1,7 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2430812,Accounts Assistant,Adele Carr Recruitment Limited - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2360175,Accounts Assistant,Reed - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
-include,jobg8-2371552,Accounts Assistant,RG Consultancy Ltd - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2443478,Accounts Assistant - Part-time,RG Consultancy Ltd - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2451331,Accounts Assistant - Temp to Perm,Adele Carr Recruitment Limited - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2360157,Corporate Insolvency Administrator,Imperium Financial Recruitment - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
@@ -11,7 +10,7 @@ include,jobg8-2436772,Credit Controller,Robert Walters - Agency - Permanent,Warr
 include,jobg8-2440014,Credit Controller,Tribal Tech Limited - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-23643_225810372,Customer Care Coordinator,Fawkes & Reece London - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-23643_225831531,Customer Care Coordinator,Michael Page - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
-include,jobg8-2415022,eCommerce Co-Ordinator,The Solution Auto - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
+include,jobg8-2458942,eCommerce Co-Ordinator,The Solution Auto - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2449273,Finance Assistant,Adele Carr Recruitment Limited - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-23643_225845688,Finance Assistant,RK Accountancy - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2446448,Marketing and Business Development Executive,Hoot Recruit LTD - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
@@ -42,5 +41,4 @@ exclude,jobg8-23643_225863088,Fleet Coordinator,Bis Henderson - Agency - Permane
 exclude,jobg8-2386001,Marketing Account Manager,Meriden Media - Agency - Permanent,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs
 exclude,jobg8-2427450,Payroll Administrator,Butler Rose - Agency - Permanent,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs
 exclude,jobg8-2451098,Payroll Administrator,Reed - Agency - Permanent,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs
-exclude,jobg8-23643_225768987,Purchase and Logistcis Coordinator,KPI Recruiting - Agency - Permanent,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs
 exclude,jobg8-23643_225789895,Quality Administrator,Kinetic PLC - Agency - Temporary,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs

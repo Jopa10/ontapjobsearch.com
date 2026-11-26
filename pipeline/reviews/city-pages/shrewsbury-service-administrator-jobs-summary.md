@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 41
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 9
-- effective review: 41
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -44,7 +44,7 @@ title: B2B Marketing & Lead Generation Specialist
 company: Thomas Lee Recruitment Limited - Agency - Permanent
 location: Shrewsbury
 source: JobG8
-job_id: jobg8-2415708
+job_id: jobg8-2459692
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225794761
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (36)
 
 ---
 action: 
@@ -155,18 +155,6 @@ company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-2396185
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225775219
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -227,18 +215,6 @@ company: Office Angels - Agency - Permanent
 location: Wellington
 source: JobG8
 job_id: jobg8-23643_225853473
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant (Sales Ledger)
-company: Office Angels - Agency - Permanent
-location: Wellington
-source: JobG8
-job_id: jobg8-2384374
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -355,18 +331,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Proactive Personnel Ltd - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225767371
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
 company: Tate - Agency - Temporary
 location: Telford
 source: JobG8
@@ -395,18 +359,6 @@ company: Marshall Harmony - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225865685
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Marketing Assistant
-company: No1 Legal and Professional - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2373721
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -611,18 +563,6 @@ company: Seymour John - Agency - Permanent
 location: Telford
 source: JobG8
 job_id: jobg8-2449300
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary to Permanent Administrator
-company: Office Angels - Agency - Permanent
-location: Wellington
-source: JobG8
-job_id: jobg8-23643_225774898
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

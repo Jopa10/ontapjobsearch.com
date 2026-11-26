@@ -66,25 +66,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0921",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5733532",
-    "source": "NHS Jobs",
-    "title": "Administration Assistant",
-    "company": "Kent and Medway Mental Health NHS Trust",
-    "advertiser_name": "Kent and Medway Mental Health NHS Trust",
-    "location": "Ashford, TN25 4BY",
-    "region": "Kent",
-    "salary": "£25272.00",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-11-17T15:03:29.271248059",
-    "closing_date": "2026-12-01",
-    "description": "Are you a highly organised and compassionate individual with strong administrative skills? We are looking for a dedicated Administration Assistant to join our team. You'll be the first point of contact for patients and families. This role requires strong communication and customer service skills, empathy, and a commitment to confidentiality. You'll support our clinical team by managing administrative tasks, ensuring efficient and compassionate care for our service users. About You: You possess strong communication skills and can handle difficult and challenging conversations. You are a collaborative team player, able to work effectively with colleagues to ensure an efficient workflow. You are committed to respecting the privacy and confidentiality of all service users and their families, and you adhere to professional ethics and conduct. You are proactive, flexible, and can manage a diverse workload. If you are a detail-oriented individual passionate about supporting both the clinical team and patient care, we encourage you to apply. Administrative Support: Manage a variety of tasks including incoming and outgoing calls, typing clinic letters, scanning and uploading documents, handling incoming/outgoing post and deliveries, and managing a room booking system and working in a busy reception area. Communication: Serve as the main point of contact, answering and making telephone calls, and dealing with queries from patients, families, and external services with professionalism and empathy. Patient and Team Coordination: Print and distribute letters, send imaging requests, and manage generic email inboxes. You will also participate in multidisciplinary team meetings and team meetings. Record Keeping: Maintain accurate and up-to-date electronic and written clinical records, ensuring strict adherence to Information Governance and confidentiality standards. Professional Development and Mentorship: Participate in supervision and appraisal to reflect on your own practice. Please see the attached job description for full details of the main duties and responsibilities of the role.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0922",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0922",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

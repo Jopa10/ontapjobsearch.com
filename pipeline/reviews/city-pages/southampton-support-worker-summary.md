@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 12
-- automatic exclude: 9
-- effective include: 9
-- effective review: 12
-- effective exclude: 9
+- automatic include: 10
+- automatic review: 16
+- automatic exclude: 13
+- effective include: 10
+- effective review: 16
+- effective exclude: 13
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Vetro Recruitment - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225670771
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Health Care Assistant - Complex Care - Children
+company: Nurseplus UK Ltd - Agency - Temporary
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225873365
 reason: Approved Southampton catchment.
 ---
 
@@ -132,7 +144,7 @@ job_id: jobg8-23643_225864158
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (16)
 
 ---
 action: 
@@ -186,6 +198,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Domiciliary Homecare Worker
+company: Nurseplus UK Ltd - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225874474
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Extra Care Support Worker
 company: SCA Care - Agency - Temporary
 location: New Milton
@@ -222,11 +246,47 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Healthcare Assistant
+company: MCS Healthcare - Agency - Temporary
+location: Colden Common
+source: JobG8
+job_id: jobg8-23643_225856524
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Homecare Assistant
+company: Nurseplus UK Ltd - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225874405
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Mental Healthcare Assistant
 company: MCS Healthcare - Agency - Contract
 location: Fordingbridge
 source: JobG8
 job_id: jobg8-23643_225636734
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Night Support Worker Children's Residential Home
+company: S.N.G Recruitment Solutions Limited - Agency - Permanent
+location: Hedge End
+source: JobG8
+job_id: jobg8-108264620
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -278,7 +338,7 @@ job_id: jobg8-108357109
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -332,6 +392,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Day Opportunities Support Worker (Adults)
+company: Hampshire County Council - Company - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-1401786749
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Female Healthcare Assistant & Support Worker
 company: Bluelight Healthcare - Agency - Permanent
 location: Farnborough
@@ -356,6 +428,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Homecare Assistant
+company: Nurseplus UK Ltd - Agency - Temporary
+location: Fareham
+source: JobG8
+job_id: jobg8-23643_225874318
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Night Care Assistant
 company: Hamberley Care Management Limited - Company - Permanent
 location: Eastleigh
@@ -368,11 +452,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Residential Childcare Support Worker
+company: Apple Orchard - Agency - Permanent
+location: Aldershot
+source: JobG8
+job_id: jobg8-108370630
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Secure Children's Home Support Worker
 company: Hampshire County Council - Company - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-1401786734
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Specialist Care Support Worker
+company: SCA Care - Agency - Permanent
+location: Winchester
+source: JobG8
+job_id: jobg8-108298282
 reason: Separate employment market.
 ---
 

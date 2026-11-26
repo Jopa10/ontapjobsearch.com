@@ -78,47 +78,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant / AP
-company: SF Partners - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-2358898
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant / AP
-company: SF Partners - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225775352
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Payable Assistant
 company: Distinct Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2378915
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: Fisher German - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225769706
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -275,30 +239,6 @@ company: Spire Healthcare - Company - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225829098
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: BMW Service Advisor
-company: Sytner - Company - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225773524
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: BMW Service Advisor
-company: Sytner Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2378282
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -466,7 +406,7 @@ title: Finance Assistant
 company: SF Partners - Agency - Permanent
 location: Loughborough
 source: JobG8
-job_id: jobg8-2420036
+job_id: jobg8-2461641
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -658,7 +598,43 @@ title: Marketing Assistant
 company: GCS Associates - Agency - Permanent
 location: Leicester
 source: JobG8
-job_id: jobg8-2414024
+job_id: jobg8-2457576
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Coordinator
+company: GBR Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225868821
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Coordinator
+company: GBR Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225868847
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Coordinator
+company: GBR Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225868866
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -791,6 +767,18 @@ company: This is Alexander Faraday Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2437904
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: Office Angels - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-2457334
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -1110,6 +1098,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: Stafforce Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225870529
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Coordinator
 company: JML Group - Agency - Permanent
 location: Leicestershire
@@ -1222,7 +1222,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2440984
+job_id: jobg8-2455014
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

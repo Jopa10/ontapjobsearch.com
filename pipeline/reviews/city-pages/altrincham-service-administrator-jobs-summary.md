@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 33
+- automatic review: 32
 - automatic exclude: 0
 - effective include: 5
-- effective review: 33
+- effective review: 32
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-2381823
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (32)
 
 ---
 action: 
@@ -222,18 +222,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: NC Associates - Agency - Permanent
-location: Trafford
-source: JobG8
-job_id: jobg8-2381755
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Search Consultancy Ltd - Agency - Contract
 location: Hyde
@@ -354,18 +342,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Operations Administrator
-company: Hays Business Support - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225773301
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Pallet Network & Customer Service Coordinator
 company: Kinaxia Logistics Limited - Agency - Permanent
 location: Stockport
@@ -455,6 +431,18 @@ company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-2445710
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception / Purchasing Administrator
+company: Building Careers UK - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225873215
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
