@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 25 November 2026
-**Status:** Production/site baseline reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production publishing remains file-based; no cutover has occurred. External service settings and current live deployment require separate verification. The proposed part-time Indexing API priority is staged on a branch and is not active on main until merged.
+**Last updated:** 26 November 2026
+**Status:** Production/site baseline reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production publishing remains file-based; no cutover has occurred. External service settings and current live deployment require separate verification. The 25/day JobG8 part-time Indexing API priority is active on main. Daily Job Listing URL performance is collected automatically for the weekly Google report.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 26 November 2026 — **Daily Google Job Listing performance capture added:** a read-only Search Console API workflow records finalized daily Job Listing clicks and impressions by URL in private Production Neon. It runs at 18:15 UTC, collects Pacific report dates three days behind, replaces a date if rerun, and keeps 500 days for weekly reporting.
 
 - 25 November 2026 — **Part-time JobG8 indexing priority prepared for review:** proposed runs submit up to 25 new, unsubmitted JobG8 part-time URLs per Pacific quota day. Previously queued batches run before new arrivals; within each batch, high-click city/region markets and newest listings are prioritised. Overflow stays queued while the job remains published. This uses the existing 200-attempt daily ledger; the live workflow is unchanged until the branch is merged.
 
@@ -246,7 +248,8 @@ Core controls are:
 - final verified-page publishing including city-page derivation/maintenance and configured Customer Sales slices;
 - Vercel automatic Git builds disabled; the daily orchestrator dispatches one Vercel CLI production deployment after verified-page publishing, then waits for live-SHA verification;
 - manual dispatch of the same Vercel deployment workflow for deliberate recovery;
-- Google indexing and operational monitoring.
+- Google Indexing API notifications and operational monitoring;
+- automated daily Google Job Listing URL clicks/impressions capture for the weekly report.
 
 The JobG8 discovery coverage audit now uses the exact current Europe/London feed date rather than a fixed monthly archive. If that day’s raw feed is unavailable, or the selected feed date differs from the audit date, it stops without publishing a report. This keeps the published JobG8 total, JobG8-supplied category breakdown and genuine published-but-absent exceptions on one same-day basis.
 

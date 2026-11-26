@@ -1,13 +1,15 @@
 # Ontap System Map
 
-**Last updated:** 25 November 2026
-**Status:** Production architecture reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production vacancy publishing remains file-based. External service settings and current live deployment require separate verification. Google Indexing part-time priority is staged on a branch and is not active on main until merged.
+**Last updated:** 26 November 2026
+**Status:** Production architecture reconciled on 31 October 2026; activation register updated through 16 November 2026; Neon Preview verification updated through 21 November 2026. Production vacancy publishing remains file-based. External service settings and current live deployment require separate verification. Google Indexing API's 25/day JobG8 part-time priority is active on main. The daily Google Job Listing performance capture runs at 18:15 UTC and stores settled URL-level clicks and impressions in Production Neon.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 26 November 2026 — **Daily Google Job Listing performance capture added:** `.github/workflows/google-job-listing-daily.yml` runs at 18:15 UTC with read-only Search Console access, queries finalized Pacific dates three days behind, filters the `JOB_LISTING` appearance, and groups by page URL. It stores daily appearance totals and URL-level clicks/impressions in the private Production `ontap_shadow` schema, replaces same-date reruns idempotently, and retains 500 days. It does not submit Indexing API notifications or publish the site.
 
 - 25 November 2026 — **Part-time JobG8 indexing priority prepared:** the branch adds a maximum of 25 new, unsubmitted JobG8 part-time URL updates per Pacific quota day within the existing shared 200-attempt ledger. Pending batches run before newly arriving part-time candidates; within a batch, it selects high-click markets first (London; Birmingham/Solihull; Manchester/Salford; Liverpool; Bradford/Leeds/West Yorkshire; Sheffield/South Yorkshire; Northampton/Northamptonshire), then newest posted date, falling back to Ontap first-seen date. Eligible overflow remains queued while the job stays published. The existing non-JobG8 ceiling and deletion handling remain unchanged. This is staged for review; main and live submissions remain unchanged until merge.
 
@@ -222,7 +224,8 @@ Core scheduled workflows include:
 - `ontap-daily-review.yml` — 08:45 Europe/London;
 - `ontap-daily-status.yml` — the single owner-facing daily health check. It runs after `Ontap daily review`, after `Deploy Ontap production after publish`, and at 09:15/12:15 Europe/London as fallback snapshots. The morning result proves whether every source and the master file are ready to edit; the post-publish result proves whether the cycle was manual or automatic and whether every source publisher, verified-page build, live-source report and production deployment completed;
 - `build-daily-region-overview.yml` — normal publisher dispatch validates the successful production run and receipt; an hourly `17 * * * *` recovery check and report-control push trigger resolve the live `/api/deployment-version` SHA directly. Both paths require a valid commit on main, check out that exact live snapshot, preserve current saved history and recheck the live SHA before committing. A matching production-source marker skips recovery rebuilds. Saves Markdown/Excel and 10-feed-date history without deploying website files;
-- `google-indexing-api.yml` — 19:30 UTC daily.
+- `google-indexing-api.yml` — 19:30 UTC daily;
+- `google-job-listing-daily.yml` — 18:15 UTC daily, capturing finalized `JOB_LISTING` URL performance three Pacific dates behind to private Production Neon.
 
 The manually run JobG8 discovery coverage audit is date-locked to the current Europe/London day. It derives the month dynamically, requires that exact daily raw feed to exist, and passes the expected date into the final selection-audit export. A missing or mismatched feed fails the workflow before any report commit. Consequently, the sitewide published JobG8 total, the JobG8-category published counts, and any “published ID absent from current feed” exception are all interpreted against the same dated feed; the category counts must reconcile to the published JobG8 total.
 
@@ -248,7 +251,7 @@ This changes the trigger from every `main` push to a successful verified-page pu
 
 ### Google Indexing API
 
-`google-indexing-api.yml` submits eligible job URLs, caps each run at 200 notifications, persists submission state in `pipeline/manifests/google-indexing-state.json`, and uses GitHub Issues for backlog/safety/failure alerts. The proposed 25-per-day part-time JobG8 priority and market ordering are staged on `feat/google-indexing-part-time-priority`; they are not active on main until merge.
+`google-indexing-api.yml` submits eligible job URLs, caps each run at 200 notifications, persists submission state in `pipeline/manifests/google-indexing-state.json`, and uses GitHub Issues for backlog/safety/failure alerts. The active 25-per-day JobG8 part-time priority and market ordering run within the shared 200-attempt Pacific-day quota.
 
 ## Validation state
 
