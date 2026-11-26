@@ -5,11 +5,11 @@ import { Pool } from "pg";
 const env = process.env;
 if (env.GITHUB_REF !== "refs/heads/feat/cpc-alert-neon-signup" ||
     env.GITHUB_WORKFLOW !== "Private CPC daily matching test" ||
-    env.ONTAP_SHADOW_NEON_PROJECT_ID !== "noisy-fire-97386602") {
+    env.ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID !== "withered-bread-65990253") {
   throw new Error("Alert sample writes require the private Preview workflow.");
 }
-const url = new URL(env.ONTAP_SHADOW_DATABASE_URL);
-if (!/^ep-cold-poetry-za762gxw(?:-pooler)?\.c-2\.eu-west-2\.aws\.neon\.tech$/.test(url.hostname) ||
+const url = new URL(env.ONTAP_EMAIL_PREVIEW_DATABASE_URL);
+if (!/^ep-summer-sky-bj8rt5vi(?:-pooler)?\.c-3\.eu-west-2\.aws\.neon\.tech$/.test(url.hostname) ||
     url.pathname !== "/neondb" || !["require", "verify-full"].includes(url.searchParams.get("sslmode"))) {
   throw new Error("Alert sample writes require the verified Preview database and TLS.");
 }

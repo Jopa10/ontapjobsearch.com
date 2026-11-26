@@ -51,19 +51,22 @@ jobs:
           node --check pipeline/scripts/record_neon_alert_sample.mjs
           npx tsx --test tests/job-alert-signup.test.ts tests/neon-email-alerts.test.ts tests/private-job-alert-test.test.ts tests/cpc-job-alerts.test.ts
       - name: Read the private recipient's saved preferences from Preview Neon
+        id: preview_neon_read
         env:
-          ONTAP_SHADOW_DATABASE_URL: ${{ secrets.ONTAP_SHADOW_DATABASE_URL }}
-          ONTAP_SHADOW_NEON_PROJECT_ID: noisy-fire-97386602
+          ONTAP_EMAIL_PREVIEW_DATABASE_URL: ${{ secrets.ONTAP_EMAIL_PREVIEW_DATABASE_URL }}
+          ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID: withered-bread-65990253
           NEON_ALERT_PREFERENCES_OUTPUT: ${{ runner.temp }}/neon-alert-preferences.json
         run: |
           set -euo pipefail
-          if [[ -z "$ONTAP_SHADOW_DATABASE_URL" ]]; then
-            echo "::error::Add the Preview Neon connection URL as ONTAP_SHADOW_DATABASE_URL in the ontap-brevo-private-test GitHub environment. No signup read or email send occurred."
-            exit 1
+          if [[ -z "$ONTAP_EMAIL_PREVIEW_DATABASE_URL" ]]; then
+            echo "Preview Neon read skipped: add ONTAP_EMAIL_PREVIEW_DATABASE_URL to the ontap-brevo-private-test GitHub environment."
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
           node pipeline/scripts/read_neon_alert_preferences.mjs jpbt801@gmail.com
           test -s "$NEON_ALERT_PREFERENCES_OUTPUT"
-          echo "Read only the approved recipient's active, consented preferences from the Preview Neon project."
+          echo "available=true" >> "$GITHUB_OUTPUT"
+          echo "Read only the approved recipient's active, consented preferences from the separate Preview Neon project."
 
       - name: Ensure required Brevo alert attributes exist (no emails sent)
         env:
@@ -107,6 +110,7 @@ jobs:
           path: published-inputs
           persist-credentials: false
       - name: Match only the private test contact without sending
+        if: steps.preview_neon_read.outputs.available == 'true'
         env:
           CPC_JOB_ALERTS_ENABLED: 'true'
           BREVO_JOB_ALERTS_LIST_ID: '3'
@@ -141,8 +145,8 @@ jobs:
       - name: Send one private daily Preview alert
         if: github.event.head_commit.message == 'Enable private daily test runner'
         env:
-          ONTAP_SHADOW_DATABASE_URL: ${{ secrets.ONTAP_SHADOW_DATABASE_URL }}
-          ONTAP_SHADOW_NEON_PROJECT_ID: noisy-fire-97386602
+          ONTAP_EMAIL_PREVIEW_DATABASE_URL: ${{ secrets.ONTAP_EMAIL_PREVIEW_DATABASE_URL }}
+          ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID: withered-bread-65990253
           NEON_ALERT_PREFERENCES_OUTPUT: ${{ runner.temp }}/neon-alert-preferences.json
           CPC_JOB_ALERTS_ENABLED: 'true'
           BREVO_JOB_ALERTS_LIST_ID: '3'
@@ -176,8 +180,8 @@ jobs:
       - name: Send one explicitly requested private matched sample
         if: github.event.head_commit.message == 'Send one private matched-alert test'
         env:
-          ONTAP_SHADOW_DATABASE_URL: ${{ secrets.ONTAP_SHADOW_DATABASE_URL }}
-          ONTAP_SHADOW_NEON_PROJECT_ID: noisy-fire-97386602
+          ONTAP_EMAIL_PREVIEW_DATABASE_URL: ${{ secrets.ONTAP_EMAIL_PREVIEW_DATABASE_URL }}
+          ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID: withered-bread-65990253
           NEON_ALERT_PREFERENCES_OUTPUT: ${{ runner.temp }}/neon-alert-preferences.json
           CPC_JOB_ALERTS_ENABLED: 'true'
           BREVO_JOB_ALERTS_LIST_ID: '3'

@@ -1,13 +1,14 @@
 # Private alert signup Preview test
 
-Status: code prepared on `feat/cpc-alert-neon-signup`; not merged or live. Do not enable public delivery for this test.
+Status: private test only on `feat/cpc-alert-neon-signup`; not merged or live. Public delivery remains off.
 
 ## Before the owner submits the form
 
-1. Confirm PR #336's Preview schema migrations `001_initial.sql` through `004_master_cleanup_versions.sql` are already applied to the isolated Neon test database.
-2. The current Preview database already has `005_user_identity_for_alerts.sql` and `006_signup_device.sql` applied. Do not run them again there. For a different fresh Preview database, apply each migration once, in order.
-5. Confirm the Vercel Preview branch is `feat/cpc-alert-neon-signup` and has the Preview-only `ONTAP_SHADOW_DATABASE_URL`, Brevo, sender and unsubscribe settings. Do not use `DATABASE_URL` or production variables.
-6. Verify `jpbt801@gmail.com` is still unsubscribed in Brevo before the owner chooses to submit the new form. The earlier unsubscribe test is already complete; do not repeat it.
+1. Use the separate Free Neon project `ontap-email-preview` in London; its project ID is `withered-bread-65990253`.
+2. The Preview project has the base schema plus `004_master_cleanup_versions.sql`, `005_user_identity_for_alerts.sql` and `006_signup_device.sql` applied. Do not run them again.
+3. Set `ONTAP_EMAIL_PREVIEW_DATABASE_URL` and `ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID` only for the `feat/cpc-alert-neon-signup` Vercel Preview deployment.
+4. Add the same project's restricted writer URL as `ONTAP_EMAIL_PREVIEW_DATABASE_URL` in the `ontap-brevo-private-test` GitHub environment. Do not replace the shared `ONTAP_SHADOW_DATABASE_URL` secret.
+5. Verify `jpbt801@gmail.com` is still unsubscribed in Brevo before the owner chooses to submit the new form. The earlier unsubscribe test is already complete; do not repeat it.
 
 ## Signup test
 
@@ -17,7 +18,7 @@ The API first saves the user, email address, preferences, clicked vacancy's publ
 
 ## GitHub Preview read
 
-GitHub Actions needs the Preview-only Neon connection URL as the `ONTAP_SHADOW_DATABASE_URL` secret in the `ontap-brevo-private-test` GitHub environment. Do not add a Production URL. The Preview Vercel integration supplies this connection to deployed app functions, but its managed secret is not exported to GitHub Actions.
+GitHub Actions needs the Preview-only Neon connection URL as the `ONTAP_EMAIL_PREVIEW_DATABASE_URL` secret in the `ontap-brevo-private-test` GitHub environment. Do not add a Production URL. The Vercel supplies the separate Preview connection to the deployed signup route, but its managed secret is not exported to GitHub Actions.
 
 ## Neon readback
 

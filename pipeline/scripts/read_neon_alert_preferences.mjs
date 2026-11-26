@@ -9,13 +9,13 @@ if (process.env.GITHUB_REF !== expectedBranch ||
 }
 const email = String(process.argv[2] || "").trim().toLowerCase();
 if (email !== EMAIL) throw new Error("Neon alert reads allow only the approved private test recipient.");
-if (process.env.ONTAP_SHADOW_NEON_PROJECT_ID !== "noisy-fire-97386602") {
+if (process.env.ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID !== "withered-bread-65990253") {
   throw new Error("The private sender is limited to the approved Preview Neon project.");
 }
-const connectionString = process.env.ONTAP_SHADOW_DATABASE_URL;
+const connectionString = process.env.ONTAP_EMAIL_PREVIEW_DATABASE_URL;
 if (!connectionString) throw new Error("Preview Neon connection is not configured for this GitHub environment.");
 const connection = new URL(connectionString);
-if (!/^ep-cold-poetry-za762gxw(?:-pooler)?\.c-2\.eu-west-2\.aws\.neon\.tech$/.test(connection.hostname) ||
+if (!/^ep-summer-sky-bj8rt5vi(?:-pooler)?\.c-3\.eu-west-2\.aws\.neon\.tech$/.test(connection.hostname) ||
     connection.pathname !== "/neondb" ||
     !["require", "verify-full"].includes(connection.searchParams.get("sslmode") || "")) {
   throw new Error("The private sender requires TLS to the approved Neon host.");

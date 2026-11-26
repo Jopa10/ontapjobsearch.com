@@ -28,10 +28,10 @@ function requirePreviewDatabase(env: Env): string {
   if (env.VERCEL_ENV !== "preview" || env.VERCEL_GIT_COMMIT_REF !== ALERT_SIGNUP_TEST_BRANCH) {
     throw new Error("Email-alert Neon writes are limited to the dedicated Preview test branch.");
   }
-  if (env.ONTAP_SHADOW_NEON_PROJECT_ID !== "noisy-fire-97386602") {
+  if (env.ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID !== "withered-bread-65990253") {
     throw new Error("Email-alert writes are limited to the approved Preview Neon project.");
   }
-  const url = env.ONTAP_SHADOW_DATABASE_URL;
+  const url = env.ONTAP_EMAIL_PREVIEW_DATABASE_URL;
   if (!url) throw new Error("Preview Neon connection is not configured.");
   const parsed = new URL(url);
   if (!parsed.hostname.endsWith(".neon.tech") ||

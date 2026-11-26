@@ -4,7 +4,7 @@ import { AlertPreferenceLimitError, getJobAlertPreferencesFromNeon, saveJobAlert
 import { JOB_ALERT_CONSENT_TEXT, JOB_ALERT_CONSENT_VERSION } from "../lib/job-alert-consent";
 
 const env = { VERCEL_ENV: "preview", VERCEL_GIT_COMMIT_REF: "feat/cpc-alert-neon-signup",
-  ONTAP_SHADOW_DATABASE_URL: "postgres://test:test@ep-preview.neon.tech/ontap?sslmode=require", ONTAP_SHADOW_NEON_PROJECT_ID: "noisy-fire-97386602" };
+  ONTAP_EMAIL_PREVIEW_DATABASE_URL: "postgres://test:test@ep-preview.neon.tech/ontap?sslmode=require", ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID: "withered-bread-65990253" };
 const signup = { email: " JNABON1108@gmail.com ", role: "Accounts Assistant", location: "Leeds",
   salary: "£27,000", region: "West Yorkshire", jobId: "12345", source: "JobG8",
   signupAttemptId: "1b7d1d7e-47fb-4a72-9c88-9a06df9d4c2b", signupDevice: "mobile" as const,
