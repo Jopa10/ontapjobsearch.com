@@ -1,0 +1,54 @@
+name: Google Job Listing daily performance capture
+
+on:
+  schedule:
+    - cron: '15 18 * * *'
+  workflow_dispatch:
+    inputs:
+      report_date:
+        description: 'Optional Pacific report date to refresh (YYYY-MM-DD)'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: google-job-listing-daily-performance
+  cancel-in-progress: false
+
+jobs:
+  capture:
+    name: Capture settled Job Listing URLs and clicks
+    runs-on: ubuntu-latest
+    environment: neon-prod-daily-shadow
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Authenticate for read-only Search Console access
+        id: google-auth
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GOOGLE_INDEXING_SERVICE_ACCOUNT_JSON }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/webmasters.readonly
+
+      - name: Capture daily Job Listing page performance
+        env:
+          GOOGLE_SEARCH_CONSOLE_ACCESS_TOKEN: ${{ steps.google-auth.outputs.access_token }}
+          GOOGLE_SEARCH_CONSOLE_PROPERTY: sc-domain:ontapjobsearch.com
+          GOOGLE_JOB_LISTING_REPORT_DATE: ${{ github.event.inputs.report_date }}
+          ONTAP_NEON_PROD_DAILY_WRITE_URL: ${{ secrets.ONTAP_NEON_PROD_DAILY_WRITE_URL }}
+        run: npx tsx scripts/google-job-listing-daily.ts
