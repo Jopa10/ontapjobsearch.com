@@ -1,6 +1,7 @@
 name: Private CPC daily matching test
 
 on:
+  workflow_dispatch:
   push:
     branches: [feat/cpc-alert-neon-signup]
     paths:
