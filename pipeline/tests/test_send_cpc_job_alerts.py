@@ -204,14 +204,19 @@ class PrivateDailyTests(unittest.TestCase):
         self.assertEqual(payload["to"], [{"email": "jpbt801@gmail.com"}])
         self.assertIn("[Private daily test]", payload["subject"])
         self.assertIn("https://www.ontapjobsearch.com/jobs/new-job", payload["textContent"])
-        self.assertIn("https://ontapjobsearchcom-git-feat-cpc-job-alerts-clean-ontap1.vercel.app/job-alerts/unsubscribe?", payload["textContent"])
+        self.assertIn("https://ontapjobsearchcom-git-feat-cpc-alert-neon-signup-ontap1.vercel.app/job-alerts/unsubscribe?", payload["textContent"])
         import uuid
         self.assertEqual(str(uuid.UUID(payload["headers"]["idempotencyKey"])), payload["headers"]["idempotencyKey"])
         key = payload["headers"]["idempotencyKey"]
         self.assertEqual(self.records, [
             {"action": "reserve", "key": key,
-             "matches": [{"publicId": "new-job", "preferenceId": "pref-1"}]},
-            {"action": "sent", "key": key, "messageId": "test-message"},
+             "matches": [{"publicId": "new-job", "preferenceId": "pref-1",
+                          "reason": "private_alert_match"}],
+             "jobs": [{"publicId": "new-job", "title": "Accounts Assistant",
+                       "employer": "", "location": "Leeds", "region": "",
+                       "salaryText": "", "reportDate": "2026-10-22"}]},
+            {"action": "sent", "key": key, "reportDate": "2026-10-22",
+             "messageId": "test-message"},
         ])
 
     def test_unsubscribed_or_unconsented_contact_is_rejected(self):
@@ -264,8 +269,13 @@ class PrivateDailyTests(unittest.TestCase):
         key = payload["headers"]["idempotencyKey"]
         self.assertEqual(self.records, [
             {"action": "reserve", "key": key,
-             "matches": [{"publicId": "new-job", "preferenceId": "pref-1"}]},
-            {"action": "sent", "key": key, "messageId": "test-message"},
+             "matches": [{"publicId": "new-job", "preferenceId": "pref-1",
+                          "reason": "private_alert_match"}],
+             "jobs": [{"publicId": "new-job", "title": "Accounts Assistant",
+                       "employer": "", "location": "Leeds", "region": "",
+                       "salaryText": "", "reportDate": "2026-10-22"}]},
+            {"action": "sent", "key": key, "reportDate": "2026-10-22",
+             "messageId": "test-message"},
         ])
 
     def test_matched_sample_rejects_wrong_workflow_dry_run_or_old_report(self):
