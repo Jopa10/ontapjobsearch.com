@@ -3973,5 +3973,286 @@
     "exclude_rules": [],
     "fallback_decision": "review",
     "fallback_reason": "No approved Lincoln employment-market rule matched the stated location; local geographic review is required."
+  },
+  {
+    "city_key": "eastbourne-service-administrator-jobs",
+    "display_name": "Eastbourne",
+    "category_label": "admin and office jobs",
+    "parent_page": "app/sussex/service-administrator-jobs.json",
+    "review_csv": "pipeline/reviews/city-pages/eastbourne-service-administrator-jobs-review.csv",
+    "summary_md": "pipeline/reviews/city-pages/eastbourne-service-administrator-jobs-summary.md",
+    "output_json": "app/_city-pages/eastbourne/service-administrator-jobs.json",
+    "route": "/eastbourne/service-administrator-jobs",
+    "minimum_live_jobs": 6,
+    "launch_minimum_live_jobs": 6,
+    "lifecycle_state": "active",
+    "retention_policy": "permanent",
+    "mode": "publish",
+    "exact_localities": [
+      "Eastbourne"
+    ],
+    "include_office_family_supplements": true,
+    "include_rules": [
+      {
+        "pattern": "eastbourne",
+        "reason": "The stated workplace matches the approved Eastbourne employment-market pattern `eastbourne`."
+      }
+    ],
+    "review_rules": [
+      {
+        "pattern": "sussex",
+        "reason": "The stated location is broader or less specific than the approved Eastbourne employment market and needs review."
+      },
+      {
+        "pattern": "regionwide",
+        "reason": "The stated location is broader or less specific than the approved Eastbourne employment market and needs review."
+      },
+      {
+        "pattern": "home-based",
+        "reason": "The stated location is broader or less specific than the approved Eastbourne employment market and needs review."
+      },
+      {
+        "pattern": "home based",
+        "reason": "The stated location is broader or less specific than the approved Eastbourne employment market and needs review."
+      },
+      {
+        "pattern": "hybrid",
+        "reason": "The stated location is broader or less specific than the approved Eastbourne employment market and needs review."
+      },
+      {
+        "pattern": "remote",
+        "reason": "The stated location is broader or less specific than the approved Eastbourne employment market and needs review."
+      },
+      {
+        "pattern": "various locations",
+        "reason": "The stated location is broader or less specific than the approved Eastbourne employment market and needs review."
+      }
+    ],
+    "exclude_rules": [
+      {
+        "pattern": "brighton",
+        "reason": "The stated workplace belongs outside the approved Eastbourne employment market."
+      },
+      {
+        "pattern": "hove",
+        "reason": "The stated workplace belongs outside the approved Eastbourne employment market."
+      },
+      {
+        "pattern": "portslade",
+        "reason": "The stated workplace belongs outside the approved Eastbourne employment market."
+      },
+      {
+        "pattern": "crawley",
+        "reason": "The stated workplace belongs outside the approved Eastbourne employment market."
+      },
+      {
+        "pattern": "horsham",
+        "reason": "The stated workplace belongs outside the approved Eastbourne employment market."
+      },
+      {
+        "pattern": "hastings",
+        "reason": "The stated workplace belongs outside the approved Eastbourne employment market."
+      },
+      {
+        "pattern": "st leonards",
+        "reason": "The stated workplace belongs outside the approved Eastbourne employment market."
+      },
+      {
+        "pattern": "worthing",
+        "reason": "The stated workplace belongs outside the approved Eastbourne employment market."
+      },
+      {
+        "pattern": "chichester",
+        "reason": "The stated workplace belongs outside the approved Eastbourne employment market."
+      },
+      {
+        "pattern": "bognor regis",
+        "reason": "The stated workplace belongs outside the approved Eastbourne employment market."
+      },
+      {
+        "pattern": "littlehampton",
+        "reason": "The stated workplace belongs outside the approved Eastbourne employment market."
+      }
+    ],
+    "fallback_decision": "review",
+    "fallback_reason": "No approved Eastbourne employment-market rule matched the stated location; local geographic review is required."
+  },
+  {
+    "city_key": "fareham-service-administrator-jobs",
+    "display_name": "Fareham",
+    "category_label": "admin and office jobs",
+    "parent_page": "app/hampshire/service-administrator-jobs.json",
+    "review_csv": "pipeline/reviews/city-pages/fareham-service-administrator-jobs-review.csv",
+    "summary_md": "pipeline/reviews/city-pages/fareham-service-administrator-jobs-summary.md",
+    "output_json": "app/_city-pages/fareham/service-administrator-jobs.json",
+    "route": "/fareham/service-administrator-jobs",
+    "minimum_live_jobs": 6,
+    "launch_minimum_live_jobs": 6,
+    "lifecycle_state": "active",
+    "retention_policy": "permanent",
+    "mode": "publish",
+    "exact_localities": [
+      "Fareham"
+    ],
+    "include_office_family_supplements": true,
+    "include_rules": [
+      {
+        "pattern": "fareham",
+        "reason": "The stated workplace matches the approved Fareham employment-market pattern `fareham`."
+      }
+    ],
+    "review_rules": [
+      {
+        "pattern": "hampshire",
+        "reason": "The stated location is broader or less specific than the approved Fareham employment market and needs review."
+      },
+      {
+        "pattern": "regionwide",
+        "reason": "The stated location is broader or less specific than the approved Fareham employment market and needs review."
+      },
+      {
+        "pattern": "home-based",
+        "reason": "The stated location is broader or less specific than the approved Fareham employment market and needs review."
+      },
+      {
+        "pattern": "home based",
+        "reason": "The stated location is broader or less specific than the approved Fareham employment market and needs review."
+      },
+      {
+        "pattern": "hybrid",
+        "reason": "The stated location is broader or less specific than the approved Fareham employment market and needs review."
+      },
+      {
+        "pattern": "remote",
+        "reason": "The stated location is broader or less specific than the approved Fareham employment market and needs review."
+      },
+      {
+        "pattern": "various locations",
+        "reason": "The stated location is broader or less specific than the approved Fareham employment market and needs review."
+      }
+    ],
+    "exclude_rules": [
+      {
+        "pattern": "southampton",
+        "reason": "The stated workplace belongs outside the approved Fareham employment market."
+      },
+      {
+        "pattern": "portsmouth",
+        "reason": "The stated workplace belongs outside the approved Fareham employment market."
+      },
+      {
+        "pattern": "basingstoke",
+        "reason": "The stated workplace belongs outside the approved Fareham employment market."
+      },
+      {
+        "pattern": "winchester",
+        "reason": "The stated workplace belongs outside the approved Fareham employment market."
+      },
+      {
+        "pattern": "eastleigh",
+        "reason": "The stated workplace belongs outside the approved Fareham employment market."
+      },
+      {
+        "pattern": "farnborough",
+        "reason": "The stated workplace belongs outside the approved Fareham employment market."
+      },
+      {
+        "pattern": "aldershot",
+        "reason": "The stated workplace belongs outside the approved Fareham employment market."
+      },
+      {
+        "pattern": "andover",
+        "reason": "The stated workplace belongs outside the approved Fareham employment market."
+      }
+    ],
+    "fallback_decision": "review",
+    "fallback_reason": "No approved Fareham employment-market rule matched the stated location; local geographic review is required."
+  },
+  {
+    "city_key": "halifax-service-administrator-jobs",
+    "display_name": "Halifax",
+    "category_label": "admin and office jobs",
+    "parent_page": "app/west-yorkshire/service-administrator-jobs.json",
+    "review_csv": "pipeline/reviews/city-pages/halifax-service-administrator-jobs-review.csv",
+    "summary_md": "pipeline/reviews/city-pages/halifax-service-administrator-jobs-summary.md",
+    "output_json": "app/_city-pages/halifax/service-administrator-jobs.json",
+    "route": "/halifax/service-administrator-jobs",
+    "minimum_live_jobs": 6,
+    "launch_minimum_live_jobs": 6,
+    "lifecycle_state": "active",
+    "retention_policy": "permanent",
+    "mode": "publish",
+    "exact_localities": [
+      "Halifax"
+    ],
+    "include_office_family_supplements": true,
+    "include_rules": [
+      {
+        "pattern": "halifax",
+        "reason": "The stated workplace matches the approved Halifax employment-market pattern `halifax`."
+      }
+    ],
+    "review_rules": [
+      {
+        "pattern": "west yorkshire",
+        "reason": "The stated location is broader or less specific than the approved Halifax employment market and needs review."
+      },
+      {
+        "pattern": "regionwide",
+        "reason": "The stated location is broader or less specific than the approved Halifax employment market and needs review."
+      },
+      {
+        "pattern": "home-based",
+        "reason": "The stated location is broader or less specific than the approved Halifax employment market and needs review."
+      },
+      {
+        "pattern": "home based",
+        "reason": "The stated location is broader or less specific than the approved Halifax employment market and needs review."
+      },
+      {
+        "pattern": "hybrid",
+        "reason": "The stated location is broader or less specific than the approved Halifax employment market and needs review."
+      },
+      {
+        "pattern": "remote",
+        "reason": "The stated location is broader or less specific than the approved Halifax employment market and needs review."
+      },
+      {
+        "pattern": "various locations",
+        "reason": "The stated location is broader or less specific than the approved Halifax employment market and needs review."
+      }
+    ],
+    "exclude_rules": [
+      {
+        "pattern": "leeds",
+        "reason": "The stated workplace belongs outside the approved Halifax employment market."
+      },
+      {
+        "pattern": "pudsey",
+        "reason": "The stated workplace belongs outside the approved Halifax employment market."
+      },
+      {
+        "pattern": "bradford",
+        "reason": "The stated workplace belongs outside the approved Halifax employment market."
+      },
+      {
+        "pattern": "huddersfield",
+        "reason": "The stated workplace belongs outside the approved Halifax employment market."
+      },
+      {
+        "pattern": "wakefield",
+        "reason": "The stated workplace belongs outside the approved Halifax employment market."
+      },
+      {
+        "pattern": "dewsbury",
+        "reason": "The stated workplace belongs outside the approved Halifax employment market."
+      },
+      {
+        "pattern": "castleford",
+        "reason": "The stated workplace belongs outside the approved Halifax employment market."
+      }
+    ],
+    "fallback_decision": "review",
+    "fallback_reason": "No approved Halifax employment-market rule matched the stated location; local geographic review is required."
   }
 ]
