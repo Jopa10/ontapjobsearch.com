@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-25
-review_fingerprint: b857c0ccb8c10ce6d50f90bc2e37616daca04d1262a3457348663b8b3df3a8f4
+review_date: 2026-11-26
+review_fingerprint: 99fff2009e95c14b1db55f0a9fcb6df61ec3666b9c68cfd05baf2ab9be59258c
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-25T17:31:32+00:00
+Run generated: 2026-11-26T17:13:28+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1124
+JobG8 comparison rows: 1139
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -28,10 +28,10 @@ Approved NEJobs comparison rows: 0
 
 ## Outcomes
 - HC: 0
-- POSS: 7
-- HARD_PASS: 5
+- POSS: 6
+- HARD_PASS: 6
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 7
+- Final POSS awaiting decision: 6
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -83,42 +83,29 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173736
 ---
 ---
 action:
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,878 to 34,240 | Criminal Justice Recovery Coordinator
+POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £28,000 to 30,000 Per Annum | Service Support Coordinator – Durham and Darlington Women’s Diversion Service
+employer: One Small Thing
+closing_date: Wednesday, December 16, 2026 - 12:00
+geography: CONFIRMED — location: approved location fallback
+reason: provisional transferable-office review
+source: VONNE
+tracking_key: vonne-173798
+vacancy_fingerprint: 6ff203e830963988c1f705ee7ee1b5cfbb187fa7416f465a9351c7f1236599f2
+source_job_id: 173798
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173798
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Northumberland | £25,878 to 34,240 Per Annum | Criminal Justice Recovery Coordinator
 employer: Waythrough
-closing_date: Friday, November 27, 2026 - 00:00
+closing_date: Thursday, December 10, 2026 - 00:00
 geography: CONFIRMED — location: approved location fallback
 reason: annualised upper salary £34,240 exceeds North East review point £30,000
 source: VONNE
-tracking_key: vonne-173722
-vacancy_fingerprint: 5519388993dcafa8850e292a0dccad2b5c655a22d5fd714aeebc2f8521d015fe
-source_job_id: 173722
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173722
----
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside | £51,525 Pro Rata | Director of Culture, Enrichment and Creativity
-employer: Groundwork South and North Tyneside
-closing_date: 01 December 2026
-geography: CONFIRMED — location: geography phrase: south tyneside
-reason: annualised upper salary £51,525 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173704
-vacancy_fingerprint: d8b3a0b86a8bc3a4cbd9a985e981f47de2c81bf28894812c7d2b755b157cccc5
-source_job_id: 173704
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173704
----
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £23,778 Pro Rata | Finance and Admin Assistant
-employer: Tyne and Wear Building Preservation Trust Limited
-closing_date: Thursday, December 10, 2026 - 17:00
-geography: CONFIRMED — location: approved location fallback
-reason: transferable title with specialist or borderline wording: finance
-source: VONNE
-tracking_key: vonne-173707
-vacancy_fingerprint: fd3d605595b9359680e360ca098216b05d4d00136b171a311893c9d9ea36b9f5
-source_job_id: 173707
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173707
+tracking_key: vonne-173799
+vacancy_fingerprint: b28bf79e9ddb7f063026dea14181d075857a155467b3a1481a3b2fb8cceb2610
+source_job_id: 173799
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173799
 ---
 ---
 action:
@@ -143,7 +130,8 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173793
 - [Service Manager - Durham and Darlington Women’s Diversion Service](https://www.vonne.org.uk/vonne-jobs-details?cid=173787) — out-of-scope VONNE occupation.
 - [South Tyneside Child and Young Person Mental Health Service Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173730) — insufficient service-admin evidence.
 - [Support and Development Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173784) — insufficient service-admin evidence.
-- [Team Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173717) — out-of-scope VONNE occupation.
+- [Trainee Debt Adviser](https://www.vonne.org.uk/vonne-jobs-details?cid=173801) — insufficient service-admin evidence.
+- [Women’s Support and Engagement Practitioner](https://www.vonne.org.uk/vonne-jobs-details?cid=173797) — out-of-scope VONNE occupation.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
