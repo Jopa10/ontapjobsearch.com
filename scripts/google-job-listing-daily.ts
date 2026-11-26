@@ -110,6 +110,7 @@ async function fetchDailyMetrics(reportDate: string): Promise<{
       startDate: reportDate,
       endDate: reportDate,
       dimensions: ['page'],
+      aggregationType: 'byPage',
       rowLimit: ROW_LIMIT,
       startRow,
     });
