@@ -3,12 +3,14 @@ Total output lines: 393
 
 # Ontap System Overview
 
-**Last updated:** 25 November 2026
+**Last updated:** 26 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 26 November 2026 — **Private email Preview now supports a one-hour job-pick window:** after today's jobs are ready, selected current JobG8 jobs are added to the alert alongside automatic matches. If none are selected, the automatic matches still go out. Selection and send details are saved in the separate Preview Neon database. The test stays limited to `jpbt801@gmail.com` on the feature branch; it is not public or live.
 
 - 25 November 2026 — The private daily sender in Preview records its matched jobs and send status in Neon. A reservation for the recipient and report date prevents repeat daily sends. The workflow uses Brevo for suppression and delivery.
 

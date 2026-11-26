@@ -9,9 +9,13 @@ from pathlib import Path
 
 from scripts.send_cpc_job_alerts import (
     _unsubscribe_token,
+    DeliveryError,
+    all_published_cpc_jobs,
     is_cpc_job,
     matches_alert,
+    merge_private_jobs,
     new_cpc_jobs,
+    parse_manual_job_references,
 )
 
 
@@ -170,7 +174,7 @@ class PrivateDailyTests(unittest.TestCase):
         from scripts.send_cpc_job_alerts import private_daily_test
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            (root / "newly-published-jobs-2026-10-22.csv").write_text("job_id\\n")
+            (root / "newly-published-jobs-2026-10-22.csv").write_text("job_id\n")
             neon_file = root / "neon-preferences.json"
             neon_file.write_text(json.dumps({
                 "email": "jpbt801@gmail.com", "userId": "user-1", "userEmailId": "email-1",
@@ -551,3 +555,48 @@ class MultipleAlertTests(unittest.TestCase):
                              sender_email="jobs@ontapjobsearch.com", unsubscribe_secret="fake",
                              site_url=PRIVATE_TEST_ORIGIN, private_test=True))
             api.assert_not_called()
+
+
+class PrivateManualSelectionTests(unittest.TestCase):
+    def test_manual_ids_and_ontap_urls_are_parsed_and_deduplicated(self):
+        self.assertEqual(
+            parse_manual_job_references(
+                "2461817, https://www.ontapjobsearch.com/jobs/2461817, "
+                "https://ontapjobsearchcom-git-feat-cpc-alert-neon-signup-ontap1.vercel.app/jobs/2463524"
+            ),
+            ["2461817", "2463524"],
+        )
+
+    def test_manual_references_reject_non_ontap_urls_and_http(self):
+        for value in ("https://evil.example/jobs/123", "http://www.ontapjobsearch.com/jobs/123",
+                      "https://www.ontapjobsearch.com/jobs/123?next=https://evil.example"):
+            with self.subTest(value=value), self.assertRaises(DeliveryError):
+                parse_manual_job_references(value)
+
+    def test_manual_selection_is_limited_to_twenty_jobs(self):
+        with self.assertRaises(DeliveryError):
+            parse_manual_job_references(",".join(str(index) for index in range(21)))
+
+    def test_manual_inventory_includes_only_current_jobg8_cpc_jobs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            app = Path(tmp) / "app"
+            app.mkdir()
+            (app / "jobs.json").write_text(json.dumps([
+                {"job_id": "good", "source": "JobG8",
+                 "apply_url": "https://www.jobg8.com/Traffic.aspx?x", "title": "Accounts Assistant"},
+                {"job_id": "other", "source": "WhatJobs", "apply_url": "https://example.com/apply",
+                 "title": "Accounts Assistant"},
+            ]), encoding="utf-8")
+            jobs = all_published_cpc_jobs(app)
+            self.assertEqual(list(jobs), ["good"])
+            self.assertEqual(jobs["good"]["title"], "Accounts Assistant")
+
+    def test_automatic_only_keeps_automatic_matches_and_manual_jobs_take_priority(self):
+        automatic = [{"job_id": str(index)} for index in range(25)]
+        self.assertEqual(merge_private_jobs(automatic, []), automatic[:20])
+        manual = [{"job_id": "manual"}]
+        merged = merge_private_jobs(automatic, manual)
+        self.assertEqual(merged[0]["job_id"], "manual")
+        self.assertEqual(len(merged), 20)
+        self.assertNotIn("manual", [job["job_id"] for job in merged[1:]])
+        self.assertEqual([job["job_id"] for job in merged[1:]], [str(index) for index in range(19)])

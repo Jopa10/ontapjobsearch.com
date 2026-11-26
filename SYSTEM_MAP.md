@@ -3,7 +3,7 @@ Total output lines: 420
 
 # Ontap System Map
 
-**Last updated:** 25 November 2026
+**Last updated:** 26 November 2026
 **Status:** Canonical repository state, reconciled on 31 October 2026 against current workflows, selector, registers and saved feed history. External service settings and current live deployment require separate verification.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -11,6 +11,8 @@ Total output lines: 420
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 26 November 2026 — **One-hour manual job choice added to the isolated email Preview:** the private test run opens a one-hour window after today's published report is ready. Up to 20 current published JobG8 CPC jobs can be selected; the sender then emails those selections plus automatic preference matches, with the automatic matches still sent when no manual choices are made. The selections, recommendations and send state are written to the separate Preview Neon project. Delivery remains fixed to `jpbt801@gmail.com` and is available only from `feat/cpc-alert-neon-signup`; no public signup, production sender or production database is changed. This is a Preview implementation pending workflow verification.
 
 - 25 November 2026 — The private daily sender in Preview records its matched jobs and send status in Neon. A reservation for the recipient and report date prevents repeat daily sends. The workflow uses Brevo for suppression and delivery.
 

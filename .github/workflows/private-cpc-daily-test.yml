@@ -2,12 +2,29 @@ name: Private CPC daily matching test
 
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: Check, stage jobs during the live hour, or start the one-hour private send.
+        required: true
+        type: choice
+        default: check_only
+        options:
+          - check_only
+          - start_one_hour_window
+          - add_manual_jobs
+      manual_job_ids:
+        description: Paste up to 20 Ontap job IDs or direct job URLs, separated by commas or new lines.
+        required: false
+        type: string
   push:
     branches: [feat/cpc-alert-neon-signup]
     paths:
       - pipeline/scripts/send_cpc_job_alerts.py
       - pipeline/scripts/read_neon_alert_preferences.mjs
       - pipeline/scripts/record_neon_alert_sample.mjs
+      - pipeline/scripts/stage_private_manual_jobs.py
+      - pipeline/private_email_manual_job_ids.json
+      - database/shadow/007_private_email_selection_window.sql
       - pipeline/tests/test_send_cpc_job_alerts.py
       - .github/workflows/private-cpc-daily-test.yml
       - lib/job-alert-signup.ts
@@ -19,7 +36,7 @@ on:
       - tests/private-job-alert-test.test.ts
 
 concurrency:
-  group: ontap-private-cpc-daily-test
+  group: ontap-private-cpc-daily-test-${{ (github.event.inputs.mode == 'add_manual_jobs' || (github.event_name == 'push' && github.event.head_commit.message == 'Stage private Preview manual job choices')) && 'stage' || 'delivery' }}
   cancel-in-progress: false
 
 permissions:
@@ -50,6 +67,7 @@ jobs:
         run: |
           node --check pipeline/scripts/read_neon_alert_preferences.mjs
           node --check pipeline/scripts/record_neon_alert_sample.mjs
+          python -m py_compile pipeline/scripts/stage_private_manual_jobs.py
           npx tsx --test tests/job-alert-signup.test.ts tests/neon-email-alerts.test.ts tests/private-job-alert-test.test.ts tests/cpc-job-alerts.test.ts
       - name: Read the private recipient's saved preferences from Preview Neon
         id: preview_neon_read
@@ -110,8 +128,63 @@ jobs:
           ref: main
           path: published-inputs
           persist-credentials: false
-      - name: Match only the private test contact without sending
-        if: steps.preview_neon_read.outputs.available == 'true'
+      - name: Verify today's published report is ready
+        id: current_report
+        if: (github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'start_one_hour_window' || github.event.inputs.mode == 'add_manual_jobs')) || (github.event_name == 'push' && (github.event.head_commit.message == 'Start private one-hour Preview alert' || github.event.head_commit.message == 'Stage private Preview manual job choices'))
+        run: |
+          set -euo pipefail
+          date="$(date -u +%F)"
+          report="published-inputs/pipeline/reports-daily/newly-published-jobs-$date.csv"
+          test -s "$report" || { echo "Today's report is not ready; no window opened and no email sent."; exit 1; }
+          echo "date=$date" >> "$GITHUB_OUTPUT"
+          echo "Using today's published CPC report: $date"
+
+      - name: Add chosen jobs to the open one-hour Preview window
+        if: steps.preview_neon_read.outputs.available == 'true' && ((github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'add_manual_jobs') || (github.event_name == 'push' && github.event.head_commit.message == 'Stage private Preview manual job choices'))
+        env:
+          ONTAP_EMAIL_PREVIEW_DATABASE_URL: ${{ secrets.ONTAP_EMAIL_PREVIEW_DATABASE_URL }}
+          ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID: withered-bread-65990253
+          NEON_ALERT_PREFERENCES_OUTPUT: ${{ runner.temp }}/neon-alert-preferences.json
+          ONTAP_PRIVATE_MANUAL_JOB_IDS: ${{ github.event.inputs.manual_job_ids }}
+          ONTAP_PRIVATE_REPORT_DATE: ${{ steps.current_report.outputs.date }}
+          ONTAP_PUBLISHED_APP_DIR: published-inputs/app
+        run: python pipeline/scripts/stage_private_manual_jobs.py
+
+      - name: Open the one-hour Preview selection window
+        if: steps.preview_neon_read.outputs.available == 'true' && ((github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'start_one_hour_window') || (github.event_name == 'push' && github.event.head_commit.message == 'Start private one-hour Preview alert'))
+        env:
+          ONTAP_EMAIL_PREVIEW_DATABASE_URL: ${{ secrets.ONTAP_EMAIL_PREVIEW_DATABASE_URL }}
+          ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID: withered-bread-65990253
+          NEON_ALERT_PREFERENCES_OUTPUT: ${{ runner.temp }}/neon-alert-preferences.json
+          ONTAP_PRIVATE_REPORT_DATE: ${{ steps.current_report.outputs.date }}
+        run: |
+          python - <<'PY'
+          import json, os, pathlib, subprocess
+          payload = {"action": "openWindow", "reportDate": os.environ["ONTAP_PRIVATE_REPORT_DATE"]}
+          subprocess.run(["node", "pipeline/scripts/record_neon_alert_sample.mjs"],
+                         input=json.dumps(payload), text=True, check=True)
+          PY
+
+      - name: Wait one hour, close the window and read selected jobs
+        if: steps.preview_neon_read.outputs.available == 'true' && ((github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'start_one_hour_window') || (github.event_name == 'push' && github.event.head_commit.message == 'Start private one-hour Preview alert'))
+        env:
+          ONTAP_EMAIL_PREVIEW_DATABASE_URL: ${{ secrets.ONTAP_EMAIL_PREVIEW_DATABASE_URL }}
+          ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID: withered-bread-65990253
+          NEON_ALERT_PREFERENCES_OUTPUT: ${{ runner.temp }}/neon-alert-preferences.json
+          NEON_ALERT_MANUAL_SELECTION_OUTPUT: ${{ runner.temp }}/manual-job-ids.json
+          ONTAP_PRIVATE_REPORT_DATE: ${{ steps.current_report.outputs.date }}
+        run: |
+          sleep 3600
+          python - <<'PY'
+          import json, os, subprocess
+          payload = {"action": "closeWindow", "reportDate": os.environ["ONTAP_PRIVATE_REPORT_DATE"]}
+          subprocess.run(["node", "pipeline/scripts/record_neon_alert_sample.mjs"],
+                         input=json.dumps(payload), text=True, check=True)
+          PY
+          test -s "$NEON_ALERT_MANUAL_SELECTION_OUTPUT"
+
+      - name: Match automatically without sending
+        if: steps.preview_neon_read.outputs.available == 'true' && (github.event_name != 'workflow_dispatch' || github.event.inputs.mode == 'check_only')
         env:
           CPC_JOB_ALERTS_ENABLED: 'true'
           BREVO_JOB_ALERTS_LIST_ID: '3'
@@ -120,28 +193,40 @@ jobs:
           JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
         run: |
           python - <<'PY'
-          import datetime
-          import os
-          import pathlib
-          import subprocess
-          import sys
-          required = ("BREVO_API_KEY", "JOB_ALERTS_UNSUBSCRIBE_SECRET")
-          if any(not os.environ.get(key) for key in required):
-              print("Private matching not run: add the existing Brevo API key and unsubscribe secret to the ontap-brevo-private-test GitHub environment. No email sent.")
-              sys.exit(1)
-          dates = sorted(pathlib.Path("published-inputs/pipeline/reports-daily").glob("newly-published-jobs-????-??-??.csv"))
-          if not dates:
-              sys.exit("No daily new-jobs report in the feature checkout; no email sent.")
-          date = dates[-1].stem.removeprefix("newly-published-jobs-")
-          print("Matching report date:", date, flush=True)
-          for recipient in ("jpbt801@gmail.com",):
-              preferences_path = pathlib.Path(os.environ["RUNNER_TEMP"]) / "neon-alert-preferences.json"
-              subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py",
-                              "--private-daily-test", "--private-recipient", recipient,
-                              "--neon-preferences-file", str(preferences_path), "--dry-run",
-                              "--date", date, "--app-dir", "published-inputs/app",
-                              "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
+          import datetime, os, pathlib, subprocess, sys
+          date = datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+          report = pathlib.Path(f"published-inputs/pipeline/reports-daily/newly-published-jobs-{date}.csv")
+          if not report.is_file():
+              sys.exit("Today's new-jobs report is not ready; no email sent.")
+          prefs = pathlib.Path(os.environ["RUNNER_TEMP"]) / "neon-alert-preferences.json"
+          subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py",
+                          "--private-daily-test", "--private-recipient", "jpbt801@gmail.com",
+                          "--neon-preferences-file", str(prefs), "--dry-run", "--date", date,
+                          "--app-dir", "published-inputs/app",
+                          "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
           PY
+
+      - name: Send after the one-hour Preview window
+        if: steps.preview_neon_read.outputs.available == 'true' && ((github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'start_one_hour_window') || (github.event_name == 'push' && github.event.head_commit.message == 'Start private one-hour Preview alert'))
+        env:
+          ONTAP_EMAIL_PREVIEW_DATABASE_URL: ${{ secrets.ONTAP_EMAIL_PREVIEW_DATABASE_URL }}
+          ONTAP_EMAIL_PREVIEW_NEON_PROJECT_ID: withered-bread-65990253
+          NEON_ALERT_PREFERENCES_OUTPUT: ${{ runner.temp }}/neon-alert-preferences.json
+          NEON_ALERT_MANUAL_SELECTION_OUTPUT: ${{ runner.temp }}/manual-job-ids.json
+          CPC_JOB_ALERTS_ENABLED: 'true'
+          BREVO_JOB_ALERTS_LIST_ID: '3'
+          BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
+          CURRENT_REPORT_DATE: ${{ steps.current_report.outputs.date }}
+        run: |
+          python pipeline/scripts/send_cpc_job_alerts.py \
+            --private-daily-test --private-recipient jpbt801@gmail.com \
+            --neon-preferences-file "$NEON_ALERT_PREFERENCES_OUTPUT" \
+            --manual-job-ids-file "$NEON_ALERT_MANUAL_SELECTION_OUTPUT" \
+            --date "$CURRENT_REPORT_DATE" \
+            --app-dir published-inputs/app \
+            --reports-dir published-inputs/pipeline/reports-daily
 
       - name: Send one private daily Preview alert
         if: github.event.head_commit.message == 'Enable private daily test runner'

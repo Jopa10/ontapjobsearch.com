@@ -28,7 +28,7 @@ PAGE_SIZE = 500
 MAX_JOBS_PER_EMAIL = 20
 PRIVATE_TEST_EMAIL = "jpbt801@gmail.com"
 PRIVATE_TEST_EMAILS = (PRIVATE_TEST_EMAIL,)
-PRIVATE_TEST_ORIGIN = "https://ontapjobsearchcom-git-feat-cpc-job-alerts-clean-ontap1.vercel.app"
+PRIVATE_TEST_ORIGIN = "https://ontapjobsearchcom-git-feat-cpc-alert-neon-signup-ontap1.vercel.app"
 
 
 class DeliveryError(RuntimeError):
@@ -299,6 +299,82 @@ def matching_jobs(attributes: dict[str, Any], jobs: list[dict[str, Any]]) -> lis
     return list(matches.values())
 
 
+def all_published_cpc_jobs(app_dir: Path) -> dict[str, dict[str, Any]]:
+    """Index only currently published JobG8 CPC jobs from the current app inventory."""
+    jobs: dict[str, dict[str, Any]] = {}
+    for path in app_dir.rglob("*.json"):
+        if "_city-pages" in path.parts and "configured-slices" not in path.parts:
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        for row in data if isinstance(data, list) else [data]:
+            if not isinstance(row, dict):
+                continue
+            job_id = str(row.get("job_id") or "").strip()
+            if job_id and job_id not in jobs and is_cpc_job(
+                str(row.get("source") or ""), str(row.get("apply_url") or "")
+            ):
+                jobs[job_id] = {**row, "job_id": job_id,
+                                "ontap_url": "https://www.ontapjobsearch.com/jobs/" + urllib.parse.quote(job_id, safe="")}
+    return jobs
+
+
+def parse_manual_job_references(value: str) -> list[str]:
+    """Accept current Ontap job IDs or direct Ontap job URLs, fail closed."""
+    ids: list[str] = []
+    allowed_hosts = {"ontapjobsearch.com", "www.ontapjobsearch.com",
+                     "ontapjobsearchcom-git-feat-cpc-alert-neon-signup-ontap1.vercel.app"}
+    for token in (value or "").replace(",", "\n").split():
+        token = token.strip()
+        if not token:
+            continue
+        if token.startswith(("https://", "http://")):
+            parts = urlsplit(token)
+            match = re.fullmatch(r"/jobs/([A-Za-z0-9_-]{1,100})", parts.path)
+            if (parts.scheme != "https" or (parts.hostname or "").casefold() not in allowed_hosts
+                    or parts.username or parts.password or parts.port or parts.query or parts.fragment or not match):
+                raise DeliveryError("Manual additions must be Ontap job IDs or direct Ontap /jobs/ URLs")
+            token = urllib.parse.unquote(match.group(1))
+        if not re.fullmatch(r"[A-Za-z0-9_-]{1,100}", token):
+            raise DeliveryError("Manual additions contain an invalid job ID")
+        if token not in ids:
+            ids.append(token)
+    if len(ids) > MAX_JOBS_PER_EMAIL:
+        raise DeliveryError(f"Choose no more than {MAX_JOBS_PER_EMAIL} manual jobs")
+    return ids
+
+
+def merge_private_jobs(automatic: list[dict[str, Any]], manual: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Keep manual additions first, then fill unused places with automatic matches."""
+    merged: dict[str, dict[str, Any]] = {}
+    for job in manual + automatic:
+        job_id = str(job.get("job_id") or "")
+        if job_id and job_id not in merged and len(merged) < MAX_JOBS_PER_EMAIL:
+            merged[job_id] = job
+    return list(merged.values())
+
+
+def manual_jobs_from_file(path: Path | None, app_dir: Path) -> list[dict[str, Any]]:
+    if path is None:
+        return []
+    try:
+        ids = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        raise DeliveryError("Manual Preview job selections are unreadable; no email sent") from error
+    if not isinstance(ids, list) or any(not isinstance(job_id, str) for job_id in ids):
+        raise DeliveryError("Manual Preview job selections must be a list of job IDs")
+    if len(ids) > MAX_JOBS_PER_EMAIL:
+        raise DeliveryError("Manual Preview job selections exceed the email limit")
+    inventory = all_published_cpc_jobs(app_dir)
+    if any(job_id not in inventory for job_id in ids):
+        raise DeliveryError("A manually selected CPC job is no longer published; no email sent")
+    return [{**inventory[job_id], "_alert_manual_addition": True,
+             "_alert_salary_label": _salary_decision("", inventory[job_id])[1]}
+            for job_id in dict.fromkeys(ids)]
+
+
 def new_cpc_jobs(report_path: Path, app_dir: Path, report_date: str) -> list[dict[str, Any]]:
     new_ids: set[str] = set()
     with report_path.open("r", encoding="utf-8", newline="") as handle:
@@ -409,6 +485,8 @@ def _email_html(jobs: list[dict[str, Any]], unsubscribe_url: str) -> tuple[str, 
         salary = html.escape(str(job.get("_alert_salary_label") or _salary_decision("", job)[1]))
         url = html.escape(str(job.get("ontap_url") or ""), quote=True)
         detail = " · ".join(item for item in (employer, location, salary) if item)
+        if job.get("_alert_manual_addition"):
+            detail = "Selected for this alert · " + detail
         rows_html.append(
             f'<li style="margin:0 0 18px"><a href="{url}" style="color:#1d4ed8;font-weight:700">{title}</a>'
             f'<div style="color:#475569;font-size:14px;margin-top:4px">{detail}</div></li>'
@@ -418,7 +496,7 @@ def _email_html(jobs: list[dict[str, Any]], unsubscribe_url: str) -> tuple[str, 
     html_body = (
         '<div style="max-width:620px;margin:0 auto;font:16px/1.5 Arial,sans-serif;color:#171717">'
         "<h1 style='font-size:22px'>New CPC jobs matching your alert</h1>"
-        "<p>Here are new jobs published on Ontap that match your saved preferences.</p>"
+        "<p>Here are new jobs published on Ontap that match your saved preferences, together with any jobs selected for this alert.</p>"
         f"<ul style='padding-left:20px'>{''.join(rows_html)}</ul>"
         f'<p style="font-size:12px;color:#64748b">You receive this because you asked for CPC job alerts on Ontap. '
         f'<a href="{html.escape(unsubscribe_url, quote=True)}">Unsubscribe</a></p></div>'
@@ -663,23 +741,29 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
     print("Private recipient: " + recipient)
     jobs = new_cpc_jobs(report, args.app_dir, args.date)
     matches = matching_jobs(match_attributes, jobs)
-    print(f"Private daily matching: {len(jobs)} new CPC jobs; {len(matches)} matches; maximum 20 in a digest.")
-    for job in matches[:MAX_JOBS_PER_EMAIL]:
-        print(f"Match: {job.get('title', '')} | {job.get('location', '')} | {job.get('job_id', '')}")
+    manual_jobs = manual_jobs_from_file(getattr(args, "manual_job_ids_file", None), args.app_dir)
+    manual_ids = {str(job.get("job_id") or "") for job in manual_jobs}
+    automatic_jobs = [job for job in matches if str(job.get("job_id") or "") not in manual_ids]
+    delivery_jobs = merge_private_jobs(automatic_jobs, manual_jobs)
+    print(f"Private daily matching: {len(jobs)} new CPC jobs; {len(matches)} automatic matches; "
+          f"{len(manual_jobs)} manually selected; {len(delivery_jobs)} total in digest.")
+    for job in delivery_jobs:
+        label = "Manual selection" if job.get("_alert_manual_addition") else "Automatic match"
+        print(f"{label}: {job.get('title', '')} | {job.get('location', '')} | {job.get('job_id', '')}")
     if args.dry_run:
         print("Dry run: no email sent and no contact state changed.")
         return
     if matched_sample or os.environ.get("GITHUB_REF") == "refs/heads/feat/cpc-alert-neon-signup":
-        if not matches:
+        if not delivery_jobs:
             if matched_sample:
                 raise DeliveryError("No new matching vacancies; no private matched sample sent")
-            print("No email sent: no matching jobs.")
+            print("No email sent: no automatic matches or manual additions.")
             return
         import uuid
         sample_jobs = [
             {**job,
              "ontap_url": "https://www.ontapjobsearch.com/jobs/" + urllib.parse.quote(str(job["job_id"]), safe="")}
-            for job in matches[:MAX_JOBS_PER_EMAIL]
+            for job in delivery_jobs
         ]
         unsubscribe = PRIVATE_TEST_ORIGIN + "/job-alerts/unsubscribe?token=" + _unsubscribe_token(recipient, secret)
         body_html, body_text = _email_html(sample_jobs, unsubscribe)
@@ -707,13 +791,23 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
 
         recommendations = []
         for job in sample_jobs:
+            if job.get("_alert_manual_addition"):
+                recommendations.append({"publicId": str(job["job_id"]), "reason": "private_manual_addition"})
+                continue
             preference = next(
                 p for p in preferences
                 if matches_alert({"ALERT_ROLE": p["role"], "ALERT_LOCATION": p["location"],
                                   "ALERT_SALARY": p["salary"], "ALERT_REGION": p.get("region", "")}, job)
             )
-            recommendations.append({"publicId": str(job["job_id"]), "preferenceId": preference["preferenceId"]})
-        if record("reserve", matches=recommendations).strip() == "already-sent":
+            recommendations.append({"publicId": str(job["job_id"]), "preferenceId": preference["preferenceId"],
+                                    "reason": "private_alert_match"})
+        job_payload = [{
+            "publicId": str(job["job_id"]), "title": str(job.get("title") or ""),
+            "employer": str(job.get("company") or job.get("advertiser_name") or ""),
+            "location": str(job.get("location") or ""), "region": str(job.get("region") or ""),
+            "salaryText": str(job.get("salary_text") or ""), "reportDate": args.date,
+        } for job in sample_jobs]
+        if record("reserve", matches=recommendations, jobs=job_payload).strip() == "already-sent":
             print("Already sent — skipped")
             return
         try:
@@ -731,7 +825,7 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
         except Exception:
             record("uncertain")
             raise
-        record("sent", messageId=message_id)
+        record("sent", reportDate=args.date, messageId=message_id)
         print("Private Preview alert accepted by Brevo and recorded in Neon: " + message_id)
         return
     delivery_contact = {**contact, "attributes": {**(contact.get("attributes") or {}), **match_attributes}}
@@ -754,6 +848,7 @@ def main() -> int:
     parser.add_argument("--private-matching-sample", action="store_true", help="One labelled matched sample to the fixed private contact; daily state unchanged")
     parser.add_argument("--dry-run", action="store_true", help="Private daily test: match without sending or updating state")
     parser.add_argument("--neon-preferences-file", type=Path, help="JSON result from the restricted Preview Neon reader")
+    parser.add_argument("--manual-job-ids-file", type=Path, help="JSON list of manually selected current CPC job IDs from the Preview window")
     args = parser.parse_args()
     if args.private_recipient and not args.private_daily_test:
         parser.error("--private-recipient requires --private-daily-test")
