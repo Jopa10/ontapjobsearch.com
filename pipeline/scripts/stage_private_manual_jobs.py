@@ -39,9 +39,12 @@ def main() -> int:
             values = json.loads(selections_path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError) as error:
             raise DeliveryError("The Preview manual-jobs file is unreadable.") from error
-        if not isinstance(values, list) or any(not isinstance(value, str) for value in values):
+        if not isinstance(values, dict) or values.get("reportDate") != report_date:
+            raise DeliveryError("The Preview manual-jobs file must be prepared for today's report date.")
+        job_values = values.get("jobIds")
+        if not isinstance(job_values, list) or any(not isinstance(value, str) for value in job_values):
             raise DeliveryError("The Preview manual-jobs file must contain a list of job IDs or URLs.")
-        references = " ".join(values)
+        references = " ".join(job_values)
     ids = parse_manual_job_references(references)
     if not ids:
         print("No manual jobs supplied; automatic matches will remain unchanged.")
