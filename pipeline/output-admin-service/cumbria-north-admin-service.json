@@ -100,6 +100,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2458101",
+    "title": "Payroll Administrator",
+    "company": "Reed - Agency - Permanent",
+    "location": "Penrith",
+    "region": "Cumbria - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Competitive",
+    "posted_date": "",
+    "description": "Payroll Administrator\n- Location: Penrith\n- Job Type: Part-Time, Permanent (24 Hours per Week)\n- Salary: Competitive DOE\n\nWe are delighted to be recruiting on behalf of a fantastic client for a Payroll Administrator position based in Penrith. Joining a well-established and highly reputable business, this role is ideal for experienced administrators seeking a new challenge in a supportive and friendly environment. Previous payroll experience would be beneficial; however, we also welcome applications from highly organised administrators with strong attention to detail, excellent communication skills, and experience working within compliance-driven environments. This is a fantastic opportunity to join a respected organisation and build a rewarding career within payroll administration.\n\nDay-to-day of the role:\n- Support payroll administration processes to ensure smooth and efficient operations.\n- Maintain accurate and up-to-date records and employee information.\n- Ensure compliance with relevant policies and procedures.\n- Manage workload effectively to meet deadlines.\n- Handle confidential information with discretion and integrity.\n\nRequired Skills & Qualifications:\n- Previous administration experience is essential.\n- Excellent organisational and time management skills.\n- Strong attention to detail and a commitment to accuracy.\n- Experience working within compliance-driven or process-led environments.\n- Ability to keep up to date with legislation, policies, and procedures.\n- Strong communication skills and the ability to manage multiple priorities.\n\nInterested? Apply today",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?iEjrsl8n5i7EmNvHvGAE5Ih0KzGvzk%2bro",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Reed",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5742321",
     "source": "NHS Jobs",
     "title": "Administration Assistant",
@@ -115,6 +140,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-00010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9263-26-00010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
