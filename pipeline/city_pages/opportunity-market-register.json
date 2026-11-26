@@ -71,5 +71,14 @@
   {"region_key":"hertfordshire","market_key":"watford","display_name":"Watford","include_patterns":["watford"]},
   {"region_key":"wiltshire","market_key":"swindon","display_name":"Swindon","include_patterns":["swindon"]}
 ,
-  {"region_key":"lincolnshire","market_key":"lincoln","display_name":"Lincoln","include_patterns":["lincoln"]}
+  {"region_key":"lincolnshire","market_key":"lincoln","display_name":"Lincoln","include_patterns":["lincoln"]},
+  {"region_key":"north-scotland","market_key":"aberdeen","display_name":"Aberdeen","include_patterns":["aberdeen"]},
+  {"region_key":"leicestershire","market_key":"loughborough","display_name":"Loughborough","include_patterns":["loughborough"]},
+  {"region_key":"birmingham-solihull","market_key":"shirley","display_name":"Shirley","include_patterns":["shirley"]},
+  {"region_key":"nottinghamshire","market_key":"mansfield","display_name":"Mansfield","include_patterns":["mansfield"]},
+  {"region_key":"staffordshire","market_key":"tamworth","display_name":"Tamworth","include_patterns":["tamworth"]},
+  {"region_key":"black-country","market_key":"oldbury","display_name":"Oldbury","include_patterns":["oldbury"]},
+  {"region_key":"west-yorkshire","market_key":"castleford","display_name":"Castleford","include_patterns":["castleford"]},
+  {"region_key":"suffolk","market_key":"bury-st-edmunds","display_name":"Bury St Edmunds","include_patterns":["bury st edmunds"]},
+  {"region_key":"greater-manchester-north","market_key":"rochdale","display_name":"Rochdale","include_patterns":["rochdale"]}
 ]
