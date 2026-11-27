@@ -53,7 +53,7 @@ try {
     }
     if (id) {
       for (const job of payload.jobs || []) {
-        if (!job.publicId || !job.title || !/^\\d{4}-\\d{2}-\\d{2}$/.test(job.reportDate || "")) {
+        if (!job.publicId || !job.title || !/^\d{4}-\d{2}-\d{2}$/.test(job.reportDate || "")) {
           throw new Error("Preview recommendation job details are incomplete.");
         }
         await client.query(`
