@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-11-26
-review_fingerprint: 99fff2009e95c14b1db55f0a9fcb6df61ec3666b9c68cfd05baf2ab9be59258c
+review_date: 2026-11-27
+review_fingerprint: 68ad846becb72fa0f5dc107b5056fbb05f38ffc09adcca46a3478ce1431503fe
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,17 +10,17 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-11-26T17:13:28+00:00
+Run generated: 2026-11-27T16:55:20+00:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 1139
+JobG8 comparison rows: 808
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 3
-- Detail pages fetched successfully: 3
+- Detail-page candidates: 2
+- Detail pages fetched successfully: 2
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 12
+- Obvious hard passes not detail-fetched: 13
 - Tees Valley explicitly excluded: 3
 - Outside or unmapped geography excluded: 0
 - Generic/derived geography rows requiring review: 2
@@ -28,10 +28,10 @@ Approved NEJobs comparison rows: 0
 
 ## Outcomes
 - HC: 0
-- POSS: 6
-- HARD_PASS: 6
+- POSS: 5
+- HARD_PASS: 7
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 6
+- Final POSS awaiting decision: 5
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -54,19 +54,6 @@ tracking_key: vonne-173769
 vacancy_fingerprint: 1f72c572a5045f884a0b2f097607feadc19219fccfe4fc27d5fc8b92d274b3d0
 source_job_id: 173769
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173769
----
----
-action:
-POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,000 to 28,403 Per Annum | Hospital Discharge Partnership Coordinator
-employer: Citizens Advice Darlington Redcar & Cleveland
-closing_date: Monday, November 30, 2026 - 17:00
-geography: CONFIRMED — location: approved location fallback
-reason: provisional transferable-office review
-source: VONNE
-tracking_key: vonne-173726
-vacancy_fingerprint: 39d71f5e1d6c45ac60285e0fab04d3f72d8df2bb061d0e4b346745830a9e31d8
-source_job_id: 173726
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173726
 ---
 ---
 action:
@@ -126,7 +113,8 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173793
 
 ## HARD_PASS
 
-- [Business Crime Navigator](https://www.vonne.org.uk/vonne-jobs-details?cid=173723) — insufficient service-admin evidence.
+- [Dementia Support Worker (20hours)](https://www.vonne.org.uk/vonne-jobs-details?cid=172791) — out-of-scope VONNE occupation.
+- [Mentor Advocacy](https://www.vonne.org.uk/vonne-jobs-details?cid=173802) — insufficient service-admin evidence.
 - [Service Manager - Durham and Darlington Women’s Diversion Service](https://www.vonne.org.uk/vonne-jobs-details?cid=173787) — out-of-scope VONNE occupation.
 - [South Tyneside Child and Young Person Mental Health Service Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173730) — insufficient service-admin evidence.
 - [Support and Development Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173784) — insufficient service-admin evidence.
