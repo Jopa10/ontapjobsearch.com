@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 14
+- automatic review: 12
 - automatic exclude: 0
 - effective include: 0
-- effective review: 14
+- effective review: 12
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (14)
+## REVIEW (12)
 
 ---
 action: 
@@ -162,35 +162,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Test Administrator (TIMSS) - Northern Ireland - Fully Remote
-company: Pearson Plc - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2457832
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Test Administrator (TIMSS) - Northern Ireland - Fully Remote
-company: Pearson Plc - Agency - Permanent
-location: Newry
-source: JobG8
-job_id: jobg8-2457835
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2455001
+job_id: jobg8-2465199
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

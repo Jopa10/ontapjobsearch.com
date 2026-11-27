@@ -162,11 +162,11 @@ reason: No approved Swansea employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Robert Half - Agency - Permanent
+title: Sales Administrator
+company: Flotek - Agency - Permanent
 location: Bridgend
 source: JobG8
-job_id: jobg8-2426746
+job_id: jobg8-108373578
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

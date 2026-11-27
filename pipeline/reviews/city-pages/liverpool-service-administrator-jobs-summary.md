@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 46
+- Effective included jobs: 44
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 46
-- automatic review: 10
+- automatic include: 44
+- automatic review: 9
 - automatic exclude: 0
-- effective include: 46
-- effective review: 10
+- effective include: 44
+- effective review: 9
 - effective exclude: 0
 
-## INCLUDE (46)
+## INCLUDE (44)
 
 ---
 action: 
@@ -208,18 +208,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: BC Financial Search Ltd - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2395664
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Administrator
 company: Adecco - Agency - Temporary
 location: Liverpool
@@ -285,6 +273,30 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225820233
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Adecco - Agency - Contract
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225877517
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Hays Business Support - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225873957
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -484,35 +496,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Officer
-company: Michael Page Finance - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2373856
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Personal Financial Coach
 company: Search Consultancy Ltd - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225866589
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: PPC Executive
-company: Adele Carr Recruitment Limited - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2368119
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -556,18 +544,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Ledger
-company: Reed - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2358347
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary Receptionist
 company: CCA Recruitment Group - Agency - Contract
 location: Liverpool
@@ -576,7 +552,7 @@ job_id: jobg8-23643_225872107
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -658,7 +634,7 @@ title: Corporate Paralegal (Liverpool)
 company: Larbey Evans - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2427794
+job_id: jobg8-2471341
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -678,23 +654,11 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Performance Marketing Lead
-company: Zachary Daniels - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2368271
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2455015
+job_id: jobg8-2465210
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

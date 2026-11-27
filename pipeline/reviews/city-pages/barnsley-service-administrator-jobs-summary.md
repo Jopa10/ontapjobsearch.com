@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 13
-- automatic exclude: 68
+- automatic review: 14
+- automatic exclude: 67
 - effective include: 5
-- effective review: 13
-- effective exclude: 68
+- effective review: 14
+- effective exclude: 67
 
 ## INCLUDE (5)
 
@@ -64,11 +64,11 @@ reason: Approved Barnsley catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Technical Administrator
-company: Kingdom People - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225799720
+title: GP Receptionist
+company: Walderslade Surgery
+location: Barnsley, S74 9AF
+source: NHS Jobs
+job_id: nhs-5741790
 reason: Approved Barnsley catchment.
 ---
 
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225846974
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: Refood - Agency - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225819676
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Assistant
+company: Back TO Work - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225876595
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -238,11 +250,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2455034
+job_id: jobg8-2465216
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (68)
+## EXCLUDE (67)
 
 ---
 action: 
@@ -349,18 +361,6 @@ company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2359207
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Billing Administrator
-company: Gibson Hollyhomes - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225872599
 reason: Separate employment market.
 ---
 
@@ -512,6 +512,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Conveyancing Paralegal
+company: Talk Staff Group Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225866647
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Controller
 company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
@@ -572,6 +584,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Digital Marketing Assistant
+company: Back TO Work - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225876596
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Document Controller
 company: Build Recruitment - Agency - Contract
 location: Sheffield
@@ -584,23 +608,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Education Delivery Coordinator, Alternative Provision South Yorkshire (new Yorkshire office opening early 2027)
-company: AP Education - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225830921
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Education, Communications & Outreach Officer
 company: Veolia - Agency - Contract
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225849624
+job_id: jobg8-23643_225877144
 reason: Separate employment market.
 ---
 
@@ -704,18 +716,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist Administrator
-company: Foxhill Medical Centre
-location: Sheffield, S6 1GA
-source: NHS Jobs
-job_id: nhs-5730059
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Paralegal
 company: Reed - Agency - Permanent
 location: Doncaster
@@ -757,6 +757,18 @@ company: Portfolio Payroll - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2359784
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Patient Services Administrator
+company: Pioneer Healthcare Limited
+location: SHEFFIELD, S11 9PS
+source: NHS Jobs
+job_id: nhs-5752574
 reason: Separate employment market.
 ---
 
@@ -860,18 +872,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll Administrator - Local Authority
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2456417
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Payroll Assistant
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
@@ -896,23 +896,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Personal Assistant
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S13 7LY
-source: NHS Jobs
-job_id: nhs-5734719
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Clerk
-company: Elevation Recruitment Group - Agency - Permanent
+title: Purchase Ledger Clerk (hybrid)
+company: Michael Page Finance - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2363386
+job_id: jobg8-2467154
 reason: Separate employment market.
 ---
 
@@ -956,18 +944,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist & Care Navigator
-company: Bentley Surgery
-location: Doncaster, DN5 0AT, DONCASTER, DN5 8DA
-source: NHS Jobs
-job_id: nhs-5726734
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales Ledger Administrator
 company: Sewell Wallis Ltd - Agency - Temporary
 location: Sheffield
@@ -997,6 +973,18 @@ company: Talk Staff - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2442215
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Paralegal - Conveyancing
+company: Talk Staff Group Limited - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225866650
 reason: Separate employment market.
 ---
 
@@ -1057,5 +1045,17 @@ company: CCA Recruitment Group - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225789027
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Transactional Finance Officer
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225796381
 reason: Separate employment market.
 ---

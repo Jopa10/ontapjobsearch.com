@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 8
 - automatic review: 16
-- automatic exclude: 13
-- effective include: 10
+- automatic exclude: 8
+- effective include: 8
 - effective review: 16
-- effective exclude: 13
+- effective exclude: 8
 
-## INCLUDE (10)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225861146
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Child and Family Support Worker (Adopt South)
-company: Hampshire County Council - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-1401786637
 reason: Approved Southampton catchment.
 ---
 
@@ -101,18 +89,6 @@ action:
 decision: include
 automatic_decision: include
 title: Support Worker
-company: Homecare First - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225779445
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Support Worker
 company: Nurseplus UK Ltd - Agency - Temporary
 location: Southampton
 source: JobG8
@@ -145,18 +121,6 @@ reason: Approved Southampton catchment.
 ---
 
 ## REVIEW (16)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Alton
-source: JobG8
-job_id: jobg8-1401786463
-reason: Broad location; review before city inclusion.
----
 
 ---
 action: 
@@ -216,6 +180,18 @@ location: New Milton
 source: JobG8
 job_id: jobg8-108321029
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Female Support Worker
+company: Choice Support - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225819638
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -338,7 +314,7 @@ job_id: jobg8-108357109
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -349,18 +325,6 @@ company: Avon Search & Selection - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225779755
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Assistant
-company: Avon Search & Selection Ltd - Agency - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-2385368
 reason: Separate employment market.
 ---
 
@@ -380,47 +344,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-1401786682
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Day Opportunities Support Worker (Adults)
-company: Hampshire County Council - Company - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-1401786749
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Female Healthcare Assistant & Support Worker
 company: Bluelight Healthcare - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-23643_225790173
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Health Care Assistant
-company: Resilience Personnel Ltd - Agency - Permanent
-location: Basingstoke
-source: JobG8
-job_id: jobg8-23643_225779158
 reason: Separate employment market.
 ---
 
@@ -457,18 +385,6 @@ company: Apple Orchard - Agency - Permanent
 location: Aldershot
 source: JobG8
 job_id: jobg8-108370630
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Secure Children's Home Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-1401786734
 reason: Separate employment market.
 ---
 

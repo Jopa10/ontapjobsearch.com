@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 63
+- automatic include: 12
+- automatic review: 62
 - automatic exclude: 0
-- effective include: 14
-- effective review: 63
+- effective include: 12
+- effective review: 62
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (12)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Outpatient Receptionist
-company: Walsall Healthcare NHS Trust
-location: Walsall, WS2 9PS
-source: NHS Jobs
-job_id: nhs-5724521
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part Time Finance Assistant
 company: RM Recruit - Agency - Contract
 location: Walsall
@@ -180,19 +168,7 @@ job_id: jobg8-23643_225863811
 reason: Exact approved Walsall workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Administrator
-company: Alma Personnel - Agency - Permanent
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225778060
-reason: Exact approved Walsall workplace.
----
-
-## REVIEW (63)
+## REVIEW (62)
 
 ---
 action: 
@@ -366,6 +342,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Admin Assistant - Care Home
+company: Barchester Healthcare
+location: Dudley, DY1 3EA
+source: NHS Jobs
+job_id: nhs-5754080
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative Assistant
 company: Connect2Dudley - Agency - Temporary
 location: Dudley
@@ -395,6 +383,18 @@ company: Black Country Healthcare NHS Foundation Trust
 location: West Bromwich, B70 8NL
 source: NHS Jobs
 job_id: nhs-5727362
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Pertemps Black Country Perms - Agency - Temporary
+location: Kingswinford
+source: JobG8
+job_id: jobg8-23643_225876173
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 
@@ -750,18 +750,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Bank - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Dudley
-source: JobG8
-job_id: jobg8-23643_225873457
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Regional Business Administrator
 company: Edge Careers - Agency - Permanent
 location: Halesowen
@@ -803,18 +791,6 @@ company: Adecco - Agency - Permanent
 location: Oldbury
 source: JobG8
 job_id: jobg8-23643_225822179
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Groomfield Recruitment Ltd - Agency - Permanent
-location: West Bromwich
-source: JobG8
-job_id: jobg8-23643_225774591
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -888,18 +864,6 @@ location: Oldbury
 source: JobG8
 job_id: jobg8-23643_225846416
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Black Country Healthcare NHS Foundation Trust
-location: West Bromwich, B70 8NL
-source: NHS Jobs
-job_id: nhs-5724905
-reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 
 ---

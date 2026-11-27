@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
-- automatic review: 9
-- automatic exclude: 6
-- effective include: 28
-- effective review: 9
-- effective exclude: 6
+- automatic include: 29
+- automatic review: 11
+- automatic exclude: 8
+- effective include: 29
+- effective review: 11
+- effective exclude: 8
 
-## INCLUDE (28)
+## INCLUDE (29)
 
 ---
 action: 
@@ -280,6 +280,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Purchasing Administrator
+company: Faith Recruitment - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225877412
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist Administrator
 company: Salter Grange Limited - Agency - Contract
 location: Warrington
@@ -360,7 +372,7 @@ job_id: jobg8-23643_225793459
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (11)
 
 ---
 action: 
@@ -426,6 +438,18 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Clerk (Temp)
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-2469579
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator / Order Processor
 company: Hays Business Support - Agency - Permanent
 location: Widnes
@@ -470,7 +494,19 @@ job_id: jobg8-23643_225859173
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Desk Administrator
+company: PPM Recruitment - Agency - Permanent
+location: Lymm
+source: JobG8
+job_id: jobg8-23643_225876843
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+## EXCLUDE (8)
 
 ---
 action: 
@@ -516,7 +552,7 @@ title: Payroll Administrator
 company: Butler Rose - Agency - Permanent
 location: Runcorn
 source: JobG8
-job_id: jobg8-2427450
+job_id: jobg8-2470858
 reason: Separate employment market.
 ---
 
@@ -541,5 +577,29 @@ company: Kinetic PLC - Agency - Temporary
 location: Runcorn
 source: JobG8
 job_id: jobg8-23643_225789895
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Warehouse Administrator (AM Shift)
+company: CDI - Russell Taylor - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-23643_225878811
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Warehouse Administrator (Night Shift)
+company: CDI - Russell Taylor - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-23643_225878824
 reason: Separate employment market.
 ---

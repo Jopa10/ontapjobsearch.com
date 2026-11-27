@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 47
-- automatic exclude: 173
+- automatic review: 48
+- automatic exclude: 175
 - effective include: 7
-- effective review: 47
-- effective exclude: 173
+- effective review: 48
+- effective exclude: 175
 
 ## INCLUDE (7)
 
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225772737
 reason: Exact approved Halifax workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (48)
 
 ---
 action: 
@@ -150,6 +150,18 @@ reason: No approved Halifax employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Billing Administrator
+company: Axon Moore - Agency - Temporary
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225877114
+reason: No approved Halifax employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bookkeeper
 company: Reed - Agency - Permanent
 location: Batley
@@ -167,18 +179,6 @@ company: Arc Recruitment - Agency - Temporary
 location: Brighouse
 source: JobG8
 job_id: jobg8-23643_225860285
-reason: No approved Halifax employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Campaign delivery analyst
-company: Pontoon - Agency - Contract
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225776211
 reason: No approved Halifax employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -214,7 +214,7 @@ title: Conveyancing Assistant
 company: IPS Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2428516
+job_id: jobg8-2472202
 reason: No approved Halifax employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -275,6 +275,18 @@ company: Axon Moore Group Ltd - Agency - Permanent
 location: Batley
 source: JobG8
 job_id: jobg8-2421050
+reason: No approved Halifax employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: RG Consultancy Ltd - Agency - Permanent
+location: Normanton
+source: JobG8
+job_id: jobg8-2469568
 reason: No approved Halifax employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -502,7 +514,7 @@ title: Marketing Specialist - Public Relations - Myton
 company: WM Morrisons - Company - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-2426433
+job_id: jobg8-2469882
 reason: No approved Halifax employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -630,6 +642,18 @@ reason: No approved Halifax employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Senior Marketing Executive
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2472119
+reason: No approved Halifax employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Admin
 company: Kemp Recruitment Ltd - Agency - Permanent
 location: Silsden
@@ -662,19 +686,7 @@ job_id: jobg8-2445737
 reason: No approved Halifax employment-market rule matched the stated location; local geographic review is required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Transactional Assistant (Accounts Payable focus)
-company: Michael Page Finance - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2373890
-reason: No approved Halifax employment-market rule matched the stated location; local geographic review is required.
----
-
-## EXCLUDE (173)
+## EXCLUDE (175)
 
 ---
 action: 
@@ -850,9 +862,9 @@ decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
 company: Sharp Consultancy - Agency - Permanent
-location: Leeds
+location: Bradford
 source: JobG8
-job_id: jobg8-2424593
+job_id: jobg8-2442855
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 
@@ -862,9 +874,21 @@ decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
 company: Sharp Consultancy - Agency - Permanent
-location: Bradford
+location: Leeds
 source: JobG8
-job_id: jobg8-2442855
+job_id: jobg8-2468226
+reason: The stated workplace belongs outside the approved Halifax employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant - Part-Time
+company: H-Seventeen - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225876582
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 
@@ -901,6 +925,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2443299
+reason: The stated workplace belongs outside the approved Halifax employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Activity Coordinator
+company: Cygnet - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-2468617
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 
@@ -1004,30 +1040,6 @@ reason: The stated workplace belongs outside the approved Halifax employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Appointment Setter
-company: Marmon Lift Recruitment - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225775751
-reason: The stated workplace belongs outside the approved Halifax employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Audi Service Advisor
-company: Sytner - Company - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225777102
-reason: The stated workplace belongs outside the approved Halifax employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Bank Medical Records Administrator
 company: Spire Healthcare - Company - Temporary
 location: Leeds
@@ -1080,19 +1092,7 @@ title: Bookkeeper
 company: IPS Group - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2427800
-reason: The stated workplace belongs outside the approved Halifax employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Brand Manager
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225673075
+job_id: jobg8-2471347
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 
@@ -1320,7 +1320,7 @@ title: Credit Controller
 company: Agility - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2425233
+job_id: jobg8-2469179
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 
@@ -1453,6 +1453,18 @@ company: Thinking Search - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2391888
+reason: The stated workplace belongs outside the approved Halifax employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller - 12-Month Fixed Term Contract
+company: Avencia Consulting - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2469790
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 
@@ -1664,6 +1676,18 @@ reason: The stated workplace belongs outside the approved Halifax employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance & Payroll Assistant
+company: Sharp Consultancy - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2467027
+reason: The stated workplace belongs outside the approved Halifax employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Administrator
 company: Saddleworth Parish Council - Agency - Permanent
 location: Huddersfield
@@ -1788,7 +1812,7 @@ title: Graduate Administrator
 company: Marks Sattin - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2425236
+job_id: jobg8-2469182
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 
@@ -1873,18 +1897,6 @@ company: Michael Page - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225826726
-reason: The stated workplace belongs outside the approved Halifax employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Inbound Sales & Service Advisor - Fully Remote
-company: Talent Tent - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-108179691
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 
@@ -2000,18 +2012,6 @@ reason: The stated workplace belongs outside the approved Halifax employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Junior Finance Assistant
-company: IPS Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2433132
-reason: The stated workplace belongs outside the approved Halifax employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Junior Marketing Executive
 company: Reed - Agency - Permanent
 location: Bradford
@@ -2100,7 +2100,7 @@ title: Marketing Executive
 company: Equals One - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-2426220
+job_id: jobg8-2469657
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 
@@ -2384,6 +2384,18 @@ reason: The stated workplace belongs outside the approved Halifax employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Project Administrator
+company: Lucy Walker Recruitment - Agency - Temporary
+location: Wakefield
+source: JobG8
+job_id: jobg8-23643_225876634
+reason: The stated workplace belongs outside the approved Halifax employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Purchase Ledger Clerk
 company: Elevation Recruitment Group - Agency - Permanent
 location: Dewsbury
@@ -2425,6 +2437,18 @@ company: Ambition Europe Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2458607
+reason: The stated workplace belongs outside the approved Halifax employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Diamond Medical Group
+location: Leeds, LS7 3DR, Leeds, LS7 1JL, Leeds, LS17 8AE, Leeds, LS8 4AA
+source: NHS Jobs
+job_id: nhs-5753014
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 
@@ -2497,6 +2521,18 @@ company: CRA Consulting - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2431023
+reason: The stated workplace belongs outside the approved Halifax employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Administrator / Personal Assistant
+company: Social Personnel - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225878885
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 
@@ -2616,7 +2652,7 @@ title: Senior Marketing Executive
 company: Collett & Sons Ltd - Agency - Permanent
 location: Bradford
 source: JobG8
-job_id: jobg8-2423086
+job_id: jobg8-2465932
 reason: The stated workplace belongs outside the approved Halifax employment market.
 ---
 

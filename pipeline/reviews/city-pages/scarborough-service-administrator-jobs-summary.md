@@ -4,8 +4,8 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 4
 - automatic review: 62
 - automatic exclude: 0
-- effective include: 3
+- effective include: 4
 - effective review: 62
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: KD Recruitment - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225782883
+reason: Exact approved Scarborough workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Recruitment Coordinator
+company: Gi Group - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225879510
 reason: Exact approved Scarborough workplace.
 ---
 
@@ -80,9 +92,9 @@ decision: review
 automatic_decision: review
 title: Accounts Assistant
 company: Si Recruitment - Agency - Permanent
-location: Harrogate
+location: Northallerton
 source: JobG8
-job_id: jobg8-2427821
+job_id: jobg8-2462442
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -92,9 +104,9 @@ decision: review
 automatic_decision: review
 title: Accounts Assistant
 company: Si Recruitment - Agency - Permanent
-location: Northallerton
+location: Harrogate
 source: JobG8
-job_id: jobg8-2462442
+job_id: jobg8-2471365
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -107,18 +119,6 @@ company: Willow Recruit - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2421972
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Controller
-company: Nigel Wright Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2359123
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -167,18 +167,6 @@ company: Winsearch - Agency - Temporary
 location: Sherburn In Elmet
 source: JobG8
 job_id: jobg8-23643_225810362
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (Construction)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225776023
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -378,18 +366,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator
-company: Si Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2428158
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Michael Page - Agency - Permanent
 location: York
@@ -474,23 +450,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Legal Assistant - Employment
+title: Legal Assistant / Secretary
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: York
+location: Bedale
 source: JobG8
-job_id: jobg8-2382804
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant - Litigation
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2382816
+job_id: jobg8-2471731
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -515,6 +479,30 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-2420842
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing & Communications Assistant
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-2471391
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Campaign Executive
+company: Equals One - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2471453
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -562,7 +550,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2423615
+job_id: jobg8-2466749
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -743,6 +731,30 @@ company: Si Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2456469
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Administrator
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-23643_225876621
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: hireful - Company - Permanent
+location: Tadcaster
+source: JobG8
+job_id: jobg8-23643_225875220
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

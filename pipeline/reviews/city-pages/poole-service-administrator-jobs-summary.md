@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 45
+- automatic include: 16
+- automatic review: 44
 - automatic exclude: 0
-- effective include: 17
-- effective review: 45
+- effective include: 16
+- effective review: 44
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (16)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
-title: CAMHS Team Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Poole, BH17 8WG
-source: NHS Jobs
-job_id: nhs-5724228
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Poole
@@ -88,11 +76,35 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
+title: ESR Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Poole, BH17 0RB
+source: NHS Jobs
+job_id: nhs-5753064
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Internal Sales Executive
 company: Effective Recruitment Solutions Ltd - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225785254
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Maintenance Administrator
+company: Vent Group - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225877156
 reason: Exact approved Poole workplace.
 ---
 
@@ -148,18 +160,6 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Administrator
-company: Ashley Rees Associates - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-2373881
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Clerk
 company: McGinnis Loy Associates Ltd - Agency - Permanent
 location: Poole
@@ -208,18 +208,6 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Team Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Poole, BH17 0RB
-source: NHS Jobs
-job_id: nhs-5723987
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary Finance Assistant
 company: Team Jobs - Commercial - Agency - Temporary
 location: Poole
@@ -228,7 +216,7 @@ job_id: jobg8-23643_225817065
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (44)
 
 ---
 action: 
@@ -355,30 +343,6 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Michael Page - Agency - Temporary
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225779057
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Michael Page Finance - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2373970
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
 company: Reed - Agency - Permanent
 location: Bournemouth
 source: JobG8
@@ -402,11 +366,23 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Business Administrator
+company: KAG Recruitment Consultancy - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225880227
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support for Children in Care
 company: Dorset HealthCare University NHS Foundation Trust
 location: Dorchester, DT2 9TB
 source: NHS Jobs
-job_id: nhs-5729649
+job_id: nhs-5753931
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -510,11 +486,23 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
-location: Dorset
+title: Customer Service Consultant
+company: Adecco - Agency - Contract
+location: Bournemouth
 source: JobG8
-job_id: jobg8-108203720
+job_id: jobg8-23643_225800203
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Executive
+company: Team Jobs - Commercial - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225824892
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -586,7 +574,7 @@ title: Finance Business Partner
 company: Canford School - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2423939
+job_id: jobg8-2467243
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -743,18 +731,6 @@ company: Matchtech - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225866002
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Dorset HealthCare University NHS Foundation Trust
-location: Weymouth, DT4 0QE
-source: NHS Jobs
-job_id: nhs-5708490
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 37
+- automatic include: 7
+- automatic review: 34
 - automatic exclude: 0
-- effective include: 8
-- effective review: 37
+- effective include: 7
+- effective review: 34
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Herefordshire and Worcestershire Health and Care NHS Trust
 location: Worcester, WR4 9PA
 source: NHS Jobs
 job_id: nhs-5735198
-reason: Exact approved Worcester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Plum Personnel - Agency - Permanent
-location: Worcester
-source: JobG8
-job_id: jobg8-23643_225776365
 reason: Exact approved Worcester workplace.
 ---
 
@@ -120,7 +108,7 @@ job_id: jobg8-23643_225873435
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (34)
 
 ---
 action: 
@@ -282,18 +270,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Contact Centre Supervisor
-company: Brellis Recruitment - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225779323
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Contracts Coordinator
 company: Arden Personnel - Agency - Permanent
 location: Redditch
@@ -426,18 +402,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Night Transport Office Administrator
-company: Workforce Staffing Ltd - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225799806
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Operations Administrator
 company: Adecco - Agency - Permanent
 location: Worcestershire
@@ -546,23 +510,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Service Administrator
-company: Rise Technical Recruitment - Agency - Permanent
-location: Worcestershire
+title: Scheduler
+company: Build Recruitment - Agency - Permanent
+location: Evesham
 source: JobG8
-job_id: jobg8-23643_225778967
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Administrator
-company: Rise Technical Recruitment Limited - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-2373966
+job_id: jobg8-23643_225876169
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

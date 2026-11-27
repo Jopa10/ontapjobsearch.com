@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 15
 - automatic review: 20
 - automatic exclude: 0
-- effective include: 17
+- effective include: 15
 - effective review: 20
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (15)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Pennine Care NHS FT
 location: Stockport, SK1 3QD
 source: NHS Jobs
 job_id: nhs-5737590
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Pennine Care NHS FT
-location: Stockport, SK2 5EQ
-source: NHS Jobs
-job_id: nhs-5723899
 reason: Exact approved Stockport workplace.
 ---
 
@@ -208,18 +196,6 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Reception / Purchasing Administrator
-company: Building Careers UK - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225873215
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service & Installations Coordinator
 company: Barlow Wood Ltd - Agency - Permanent
 location: Stockport
@@ -282,11 +258,11 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Officer
-company: NHS Greater Manchester Integrated Care
-location: Ashton-Under-Lyne, OL6 6BH
+title: Administrator
+company: Pennine Care NHS FT
+location: Stalybridge, SK15 2AU
 source: NHS Jobs
-job_id: nhs-5741156
+job_id: nhs-5753685
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -294,11 +270,11 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Clinical Administrator
-company: Willow Wood Hospice
-location: Ashton under Lyne, OL6 6SL
+title: Business Support Officer
+company: NHS Greater Manchester Integrated Care
+location: Ashton-Under-Lyne, OL6 6BH
 source: NHS Jobs
-job_id: nhs-5725408
+job_id: nhs-5741156
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -366,18 +342,6 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator
-company: Platinum Recruitment Group - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-2363459
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Pickles Recruitment - Agency - Permanent
 location: Denton
@@ -414,11 +378,11 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Legal Accounts Assistant
-company: NC Associates - Agency - Permanent
-location: Altrincham
+title: Marketing Executive
+company: Greys Specialist Recruitment - Agency - Permanent
+location: Manchester
 source: JobG8
-job_id: jobg8-2381823
+job_id: jobg8-23643_225878776
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -443,6 +407,18 @@ company: Hiringpeople.co.uk - Agency - Permanent
 location: Urmston
 source: JobG8
 job_id: jobg8-23643_225855896
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll and Finance Administrator (12 Month FTC)
+company: 360 Resourcing Solutions - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-2468620
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

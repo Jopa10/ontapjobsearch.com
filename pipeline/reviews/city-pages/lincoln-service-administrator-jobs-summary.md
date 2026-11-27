@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
+- automatic include: 24
 - automatic review: 12
 - automatic exclude: 0
-- effective include: 25
+- effective include: 24
 - effective review: 12
 - effective exclude: 0
 
-## INCLUDE (25)
+## INCLUDE (24)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2448450
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225875693
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -125,22 +137,10 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
-company: Haig Legal Group Limited - Agency - Permanent
+company: Scania (Great Britain) Limited - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-108359576
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Haig Legal Group Limited - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-108359601
+job_id: jobg8-2466258
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -177,18 +177,6 @@ company: G2 Legal Limited - Agency - Permanent
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-2368578
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Operational Administrator
-company: Magnus Search - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225655530
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 

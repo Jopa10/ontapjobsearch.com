@@ -4,7 +4,7 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 17
-- automatic exclude: 34
-- effective include: 14
-- effective review: 17
-- effective exclude: 34
+- automatic include: 15
+- automatic review: 21
+- automatic exclude: 30
+- effective include: 15
+- effective review: 21
+- effective exclude: 30
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -32,7 +32,7 @@ title: Accounts Assistant
 company: Si Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2427821
+job_id: jobg8-2471365
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -124,11 +124,23 @@ reason: Exact approved Harrogate workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing Campaign Executive
+company: Equals One - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2471453
+reason: Exact approved Harrogate workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2423615
+job_id: jobg8-2466749
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -192,7 +204,7 @@ job_id: nhs-5740133
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (21)
 
 ---
 action: 
@@ -294,6 +306,30 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Legal Assistant / Secretary
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Bedale
+source: JobG8
+job_id: jobg8-2471731
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing & Communications Assistant
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-2471391
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
@@ -366,6 +402,30 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support Administrator
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-23643_225876621
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: hireful - Company - Permanent
+location: Tadcaster
+source: JobG8
+job_id: jobg8-23643_225875220
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Administrator
 company: Ripon Farm Services - Agency - Permanent
 location: Tadcaster
@@ -398,7 +458,7 @@ job_id: jobg8-2438504
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -428,18 +488,6 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Receivable Controller
-company: Nigel Wright Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2359123
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Admin Purchasing Assistant
 company: Michael Page - Agency - Temporary
 location: Northallerton
@@ -457,18 +505,6 @@ company: Morson Vital - Agency - Contract
 location: York
 source: JobG8
 job_id: jobg8-23643_225863018
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator (Construction)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225776023
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -584,18 +620,6 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Administrator
-company: Si Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2428158
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Assistant
 company: Michael Page - Agency - Permanent
 location: York
@@ -625,30 +649,6 @@ company: Persimmon Homes - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2442303
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Legal Assistant - Employment
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2382804
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Legal Assistant - Litigation
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2382816
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -769,6 +769,18 @@ company: Ripon Farm Services - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2462872
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Coordinator
+company: Gi Group - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225879510
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

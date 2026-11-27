@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 111
+- automatic include: 7
+- automatic review: 110
 - automatic exclude: 0
-- effective include: 6
-- effective review: 111
+- effective include: 7
+- effective review: 110
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Adecco - Agency - Permanent
 location: Aylesbury
 source: JobG8
 job_id: jobg8-2436946
+reason: Exact approved Aylesbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - Temporary to Permanent
+company: Reed - Agency - Permanent
+location: Aylesbury
+source: JobG8
+job_id: jobg8-2471278
 reason: Exact approved Aylesbury workplace.
 ---
 
@@ -96,7 +108,7 @@ job_id: nhs-5738551
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (111)
+## REVIEW (110)
 
 ---
 action: 
@@ -275,6 +287,54 @@ company: VIA MATCH LIMITED - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-2459052
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Real Estate Legal Secretary
+company: Law Staff Limited - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2467962
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Real Estate Legal Secretary
+company: Law Staff Ltd - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225877353
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Membership Renewal Advisor
+company: Berry Recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2466184
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Membership Renewal Advisor
+company: Berry Recruitment - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225876132
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -522,6 +582,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Customer Support Advisor
+company: Aspire Personnel Ltd - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_224284334
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Digital Marketing Specialist
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
@@ -642,18 +714,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Fleet Sales Support Executive
-company: Aspire Personnel Ltd - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2460934
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Tate - Agency - Permanent
 location: Milton Keynes
@@ -690,11 +750,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Junior Content Marketing Executive
-company: Cameo Consultancy - Agency - Permanent
-location: Buckingham
+title: LEGAL ADMINISTRATOR - CONVEYANCING
+company: Maze Recruitment Services Limited - Agency - Permanent
+location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225779171
+job_id: jobg8-2471599
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -706,7 +766,7 @@ title: LEGAL ADMINISTRATOR - PRIVATE CLIENT
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2427679
+job_id: jobg8-2471170
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -718,7 +778,7 @@ title: Legal Marketing Manager
 company: 2i Recruit Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2441370
+job_id: jobg8-2466145
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -730,19 +790,7 @@ title: LEGAL SECRETARY - COMMERCIAL PROPERTY
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2428202
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing and Content Coordinator
-company: MFK Recruitment - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225776201
+job_id: jobg8-2468994
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -790,7 +838,7 @@ title: Marketing Executive
 company: Headliners Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2424999
+job_id: jobg8-2468865
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -802,7 +850,7 @@ title: Marketing Manager
 company: Candidate Source Ltd - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-2427660
+job_id: jobg8-2471150
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -922,7 +970,7 @@ title: PARALEGAL - EMPLOYMENT
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-2426217
+job_id: jobg8-2469654
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -958,7 +1006,7 @@ title: PARALEGAL - PRIVATE CLIENT
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-2426684
+job_id: jobg8-2470009
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -1038,35 +1086,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Credit Control Administrator
-company: Vanta Staffing Limited - Agency - Permanent
-location: High Wycombe
-source: JobG8
-job_id: jobg8-23643_225778781
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-Time Office Administrator
 company: Risby Air Conditioning Co Ltd - Agency - Permanent
 location: Bourne End
 source: JobG8
 job_id: jobg8-23643_225856641
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2368112
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -1146,30 +1170,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Procurement Administrator
-company: Michael Page - Agency - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225868928
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Support Officer
-company: Experis - Agency - Contract
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225777251
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchasing Assistant / Stores Person
 company: Proactive Global - Agency - Permanent
 location: Buckinghamshire
@@ -1218,6 +1218,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support Executive
+company: Aspire Personnel Ltd - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225878372
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Digital Product Executive
 company: The Perfume Shop - Agency - Permanent
 location: Buckinghamshire
@@ -1234,7 +1246,7 @@ title: Service Administrator
 company: ACS Executive Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2425111
+job_id: jobg8-2468969
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -1247,18 +1259,6 @@ company: Berry Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225874511
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Administrator
-company: Interaction Recruitment - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225777494
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

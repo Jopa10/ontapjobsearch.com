@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 32
+- automatic include: 4
+- automatic review: 31
 - automatic exclude: 0
-- effective include: 5
-- effective review: 32
+- effective include: 4
+- effective review: 31
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,19 +72,7 @@ job_id: jobg8-23643_225795761
 reason: Exact approved Altrincham workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Accounts Assistant
-company: NC Associates - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-2381823
-reason: Exact approved Altrincham workplace.
----
-
-## REVIEW (32)
+## REVIEW (31)
 
 ---
 action: 
@@ -164,9 +152,9 @@ decision: review
 automatic_decision: review
 title: Administrator
 company: Pennine Care NHS FT
-location: Stockport, SK2 5EQ
+location: Stalybridge, SK15 2AU
 source: NHS Jobs
-job_id: nhs-5723899
+job_id: nhs-5753685
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -191,18 +179,6 @@ company: Stockport NHS Foundation Trust
 location: Stockport, SK2 7JE
 source: NHS Jobs
 job_id: nhs-5728388
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Administrator
-company: Willow Wood Hospice
-location: Ashton under Lyne, OL6 6SL
-source: NHS Jobs
-job_id: nhs-5725408
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -251,18 +227,6 @@ company: Gtd Healthcare
 location: Denton, M34 2GP
 source: NHS Jobs
 job_id: nhs-5729674
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Platinum Recruitment Group - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-2363459
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -342,6 +306,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Executive
+company: Greys Specialist Recruitment - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225878776
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Pallet Network & Customer Service Coordinator
 company: Kinaxia Logistics Limited - Agency - Permanent
 location: Stockport
@@ -402,6 +378,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Payroll and Finance Administrator (12 Month FTC)
+company: 360 Resourcing Solutions - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-2468620
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Executive
 company: Robert Walters - Agency - Permanent
 location: Stockport
@@ -431,18 +419,6 @@ company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-2445710
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reception / Purchasing Administrator
-company: Building Careers UK - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225873215
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

@@ -64,11 +64,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Development Consultant (Digital Media)
-company: Choice Consultants - Agency - Permanent
+title: Administrator - Required Immediately Larkhall
+company: Search Consultancy Ltd - Agency - Contract
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225772154
+job_id: jobg8-23643_225876768
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -81,6 +81,18 @@ company: Realise Recruitment - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_223109682
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Development Executive (Digital Media)
+company: Choice Consultants - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225876395
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -201,18 +213,6 @@ company: Three Bridges Recruitment LTD - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-2420413
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Administrator - December start date
-company: Search Consultancy Ltd - Agency - Contract
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225772517
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -380,7 +380,7 @@ title: MEICA Project Administrator
 company: Simpson Recruitment Services - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-2423113
+job_id: jobg8-2465958
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -610,7 +610,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lanarkshire
 source: JobG8
-job_id: jobg8-2455009
+job_id: jobg8-2465206
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

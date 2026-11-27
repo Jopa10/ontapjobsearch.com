@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 56
+- automatic include: 8
+- automatic review: 52
 - automatic exclude: 0
-- effective include: 6
-- effective review: 56
+- effective include: 8
+- effective review: 52
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (8)
 
 ---
 action: 
@@ -88,6 +88,30 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Consultant
+company: Adecco - Agency - Contract
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225800203
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Executive
+company: Team Jobs - Commercial - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225824892
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operations Assistant
 company: Team Jobs - Commercial - Agency - Temporary
 location: Bournemouth
@@ -96,7 +120,7 @@ job_id: jobg8-23643_225818968
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (52)
 
 ---
 action: 
@@ -258,30 +282,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Michael Page - Agency - Temporary
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225779057
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Michael Page Finance - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2373970
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper - Bournemouth - up to &;40,000
 company: Bond Williams - Agency - Permanent
 location: Dorset
@@ -294,11 +294,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Business Support for Children in Care
-company: Dorset HealthCare University NHS Foundation Trust
-location: Dorchester, DT2 9TB
-source: NHS Jobs
-job_id: nhs-5729649
+title: Business Administrator
+company: KAG Recruitment Consultancy - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225880227
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -306,11 +306,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: CAMHS Team Administrator
+title: Business Support for Children in Care
 company: Dorset HealthCare University NHS Foundation Trust
-location: Poole, BH17 8WG
+location: Dorchester, DT2 9TB
 source: NHS Jobs
-job_id: nhs-5724228
+job_id: nhs-5753931
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -378,11 +378,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Assistant
-company: Compass UK & Ireland - Company - Permanent
+title: Digital Account Manager
+company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-108203720
+job_id: jobg8-2442204
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -390,11 +390,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Digital Account Manager
-company: Rubicon Recruitment - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2442204
+title: ESR Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Poole, BH17 0RB
+source: NHS Jobs
+job_id: nhs-5753064
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -454,7 +454,7 @@ title: Finance Business Partner
 company: Canford School - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2423939
+job_id: jobg8-2467243
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -510,6 +510,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Maintenance Administrator
+company: Vent Group - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225877156
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Assistant
 company: Team Jobs - Commercial - Agency - Permanent
 location: Poole
@@ -551,18 +563,6 @@ company: Ashley Rees Associates - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225776924
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Ashley Rees Associates - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-2373881
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -726,35 +726,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Team Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Poole, BH17 0RB
-source: NHS Jobs
-job_id: nhs-5723987
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Finance Assistant
 company: Team Jobs - Commercial - Agency - Temporary
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225817065
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Dorset HealthCare University NHS Foundation Trust
-location: Weymouth, DT4 0QE
-source: NHS Jobs
-job_id: nhs-5708490
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

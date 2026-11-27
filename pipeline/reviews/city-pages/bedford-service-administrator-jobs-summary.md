@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 42
+- automatic review: 48
 - automatic exclude: 0
 - effective include: 16
-- effective review: 42
+- effective review: 48
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -100,11 +100,11 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Document Controller
-company: Frontline Construction Recruitment - Agency - Permanent
+title: Customer Service Coordinator
+company: Osborne Appointments - Agency - Permanent
 location: Bedford
 source: JobG8
-job_id: jobg8-23643_225859458
+job_id: jobg8-23643_225879567
 reason: Exact approved Bedford workplace.
 ---
 
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225782845
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (48)
 
 ---
 action: 
@@ -334,6 +334,18 @@ title: Bookkeeper - Accountancy Practice
 company: Abacus Consulting - Agency - Permanent
 location: Bedfordshire
 source: JobG8
+job_id: jobg8-23643_225873735
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper - Accountancy Practice
+company: Abacus Consulting - Agency - Permanent
+location: Bedfordshire
+source: JobG8
 job_id: jobg8-2460424
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
@@ -383,6 +395,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-2458745
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service & Parts Administrator
+company: Allstaff - Agency - Contract
+location: Biggleswade
+source: JobG8
+job_id: jobg8-23643_225875217
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -474,6 +498,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Officer
+company: Venn Group - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2469045
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Secretary
 company: Additional Resources - Agency - Permanent
 location: Bedfordshire
@@ -502,7 +538,7 @@ title: Legal Secretary
 company: Hello Recruitment Associates Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
-job_id: jobg8-2425114
+job_id: jobg8-2468973
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -594,6 +630,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Practice Bookkeeper - Dunstable
+company: Pro-Finance - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2466160
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Private Client Paralegal
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Bedfordshire
@@ -611,6 +659,18 @@ company: Rise 10 Talent Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225855073
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Interaction Recruitment - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225873744
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -719,6 +779,18 @@ company: St Thomas Catholic Academies Trust
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-trust-finance-assistant-st-thomas-catholic-academies-trust
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Warehouse Operations Administrator
+company: Menzies Distribution Solutions - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-29049_job.3MeZSU5dLyG67KLBoSM3lvUR7md
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

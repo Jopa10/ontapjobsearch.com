@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 17
+- automatic include: 12
+- automatic review: 21
 - automatic exclude: 33
-- effective include: 15
-- effective review: 17
+- effective include: 12
+- effective review: 21
 - effective exclude: 33
 
-## INCLUDE (15)
+## INCLUDE (12)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Morson Vital - Agency - Contract
 location: York
 source: JobG8
 job_id: jobg8-23643_225863018
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator (Construction)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225776023
 reason: Approved York catchment.
 ---
 
@@ -148,30 +136,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Assistant - Employment
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2382804
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Assistant - Litigation
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2382816
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part Time Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: York
@@ -204,7 +168,7 @@ job_id: jobg8-2359409
 reason: Approved York catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (21)
 
 ---
 action: 
@@ -306,6 +270,30 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Legal Assistant / Secretary
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Bedale
+source: JobG8
+job_id: jobg8-2471731
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing & Communications Assistant
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-2471391
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
@@ -378,6 +366,30 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support Administrator
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-23643_225876621
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: hireful - Company - Permanent
+location: Tadcaster
+source: JobG8
+job_id: jobg8-23643_225875220
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Administrator
 company: Ripon Farm Services - Agency - Permanent
 location: Tadcaster
@@ -418,9 +430,9 @@ decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
 company: Si Recruitment - Agency - Permanent
-location: Harrogate
+location: Northallerton
 source: JobG8
-job_id: jobg8-2427821
+job_id: jobg8-2462442
 reason: Separate employment market.
 ---
 
@@ -430,9 +442,9 @@ decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
 company: Si Recruitment - Agency - Permanent
-location: Northallerton
+location: Harrogate
 source: JobG8
-job_id: jobg8-2462442
+job_id: jobg8-2471365
 reason: Separate employment market.
 ---
 
@@ -446,18 +458,6 @@ location: Harrogate
 source: JobG8
 job_id: jobg8-2421972
 reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Receivable Controller
-company: Nigel Wright Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2359123
-reason: Broad regional label; not York-city evidence.
 ---
 
 ---
@@ -596,18 +596,6 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Administrator
-company: Si Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2428158
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Legal Secretary & Office Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
@@ -625,6 +613,18 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-2420842
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Campaign Executive
+company: Equals One - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2471453
 reason: Separate employment market.
 ---
 
@@ -660,7 +660,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-2423615
+job_id: jobg8-2466749
 reason: Separate employment market.
 ---
 
@@ -757,6 +757,18 @@ company: Yorkshire Health Network
 location: Harrogate, HG1 4DP
 source: NHS Jobs
 job_id: nhs-5745151
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Coordinator
+company: Gi Group - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225879510
 reason: Separate employment market.
 ---
 

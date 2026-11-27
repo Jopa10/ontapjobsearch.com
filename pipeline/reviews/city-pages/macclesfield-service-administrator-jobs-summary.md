@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 21
+- automatic include: 9
+- automatic review: 23
 - automatic exclude: 0
-- effective include: 14
-- effective review: 21
+- effective include: 9
+- effective review: 23
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (9)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Butler Rose - Agency - Permanent
 location: Macclesfield
 source: JobG8
 job_id: jobg8-2393194
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Get Recruited (UK) Ltd - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-2363504
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -89,18 +77,6 @@ action:
 decision: include
 automatic_decision: include
 title: Credit Controller
-company: Get Recruited (UK) Ltd - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-2363505
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
 company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Macclesfield
 source: JobG8
@@ -113,34 +89,10 @@ action:
 decision: include
 automatic_decision: include
 title: Credit Controller (Temporary)
-company: Get Recruited (UK) Ltd - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-2363501
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller (Temporary)
 company: Get-Recruited (UK) Ltd - Agency - Temporary
 location: Macclesfield
 source: JobG8
 job_id: jobg8-23643_225779612
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Get Recruited (UK) Ltd - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-2363506
 reason: Exact approved Macclesfield workplace.
 ---
 
@@ -172,18 +124,6 @@ reason: Exact approved Macclesfield workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Project Document Controller
-company: Belcan - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-23643_225783477
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Advisor - Audi Macclesfield
 company: Group 1 Automotive - Company - Permanent
 location: Macclesfield
@@ -192,7 +132,7 @@ job_id: jobg8-2379182
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (23)
 
 ---
 action: 
@@ -226,7 +166,7 @@ title: Accounts Assistant
 company: Adecco - Agency - Permanent
 location: Middlewich
 source: JobG8
-job_id: jobg8-2425208
+job_id: jobg8-2469157
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -366,6 +306,18 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: Time Recruitment - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-2470598
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: Solus Accident Repair Centres - Company - Permanent
 location: Middlewich
@@ -383,6 +335,18 @@ company: Forrest Recruitment - Agency - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-23643_225871932
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant - Sales Ledger
+company: Axon Moore Group Ltd - Agency - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-2471456
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

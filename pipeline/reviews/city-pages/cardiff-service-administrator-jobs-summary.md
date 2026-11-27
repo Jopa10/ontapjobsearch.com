@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 2
+- automatic include: 22
+- automatic review: 3
 - automatic exclude: 0
-- effective include: 25
-- effective review: 2
+- effective include: 22
+- effective review: 3
 - effective exclude: 0
 
-## INCLUDE (25)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: Adecco - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-23643_225779508
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: Adecco - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-2381882
-reason: Approved conservative Cardiff launch catchment.
----
+## INCLUDE (22)
 
 ---
 action: 
@@ -188,7 +164,7 @@ title: Finance Assistant
 company: Yolk Recruitment Ltd - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-2428490
+job_id: jobg8-2472179
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -304,18 +280,6 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Test Administrator (TIMSS) - Wales - Fully Remote
-company: Pearson Plc - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-2457828
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Training Course Coordination Administrator
 company: Astutis - Agency - Permanent
 location: Cardiff
@@ -324,7 +288,7 @@ job_id: jobg8-23643_225858676
 reason: Approved conservative Cardiff launch catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (3)
 
 ---
 action: 
@@ -347,6 +311,18 @@ company: Michael Page - Agency - Permanent
 location: South Glamorgan
 source: JobG8
 job_id: jobg8-23643_225794501
+reason: No approved Cardiff catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Billing Clerk
+company: Robert Half - Agency - Permanent
+location: South Glamorgan
+source: JobG8
+job_id: jobg8-2470144
 reason: No approved Cardiff catchment rule matched; local review required.
 ---
 
