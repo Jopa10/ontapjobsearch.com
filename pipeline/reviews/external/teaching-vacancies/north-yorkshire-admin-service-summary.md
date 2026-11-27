@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-11-26
-review_fingerprint: 3721e1fe8a0d7162f804f6d52b59c43aae6e9a1b543778ad71561d98128708dc
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: d580ea02d80ba45e30036a0b5df9c8a44ee200def8043cbd49e6997482073987
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
+- Records: 6
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
@@ -34,21 +34,6 @@ factual_fingerprint: 67c4feee9aa0b51d98138c244b3ae499c096e8dc3619274fa79462af2ce
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-59e3d5e7-ef73-4d9a-828b-dc3548b32d35
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-59e3d5e7-ef73-4d9a-828b-dc3548b32d35
----
-
----
-action: 
-SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO24 4PS | £25,614.00 - £26,427.00 Annually (FTE) | SEN Administrator
-employer: Hob Moor Community Primary Academy
-closing_date: 2026-11-27T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9b9df6a8bfedafb7ffbe50e130ed1cc5d327643eda2f1a019ec2b2e6169c251b
-source: Teaching Vacancies
-source_job_id: sen-administrator-hob-moor-community-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-hob-moor-community-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

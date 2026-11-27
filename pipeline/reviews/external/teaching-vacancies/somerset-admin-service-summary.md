@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-11-26
-review_fingerprint: ba3d573f3e1a0f4800fab4570d902d82e1e59895df136ecf489d41f068a715f8
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 894a83fbdb2f91c50ee79c1b7f1b5cd1c2ac91e2a830dc6c821699f0667a0f6b
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 9
-- Selected: 3
-- POSS awaiting decision: 2
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
@@ -66,15 +66,13 @@ source_job_id: payroll-administrator-writhlington-school-radstock-somerset
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-administrator-writhlington-school-radstock-somerset
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Somerset | Bridgwater, South West, TA6 7HW | £11,478.00 - £11,658.00 Annually (Actual) Actual salary based on Grade 15 full-time equivalent £24,795-£25,185pa) | Receptionist
+SELECTED | Somerset | Bridgwater, South West, TA6 7HW | £11,478.00 - £11,658.00 Annually (Actual) Actual salary based on Grade 15 full-time equivalent £24,795-£25,185pa) | Receptionist
 employer: Haygrove School
 closing_date: 2026-12-10T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 88606014feaa3157796c75a5663f64df85425c9802afb26d2fd74ff7b77edba8
@@ -82,6 +80,8 @@ source: Teaching Vacancies
 source_job_id: receptionist-haygrove-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-haygrove-school
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 

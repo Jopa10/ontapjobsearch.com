@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-11-26
-review_fingerprint: 046ba50d5edf26b63561e10237a3eb586c63adc98a966e8a85b52de8544d6e07
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 0bd940240e84a6ad3f10e6abb87be00486505584b749b4f49830346293dfef3b
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 29
-- Selected: 8
+- Records: 30
+- Selected: 9
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 18
@@ -79,6 +79,21 @@ factual_fingerprint: c14a24eb621fe3faecad82ff67f2c7162cd4643091ceb46a287b123706f
 source: Teaching Vacancies
 source_job_id: administrative-assistant-send-south-axholme-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-send-south-axholme-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S25 2QD | £13,097.00 - £13,959.00 Annually (Actual) Band E Point 7 - 11 | Finance & Admin Assistant
+employer: St Joseph's Catholic Primary School
+closing_date: 2026-12-14T23:59:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8b0aa232fe425256eeeff98dd3150244656f4d0cfbffccdf4089e00f02783c41
+source: Teaching Vacancies
+source_job_id: finance-admin-assistant-st-joseph-s-catholic-primary-school-sheffield-south-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-st-joseph-s-catholic-primary-school-sheffield-south-yorkshire
 ---
 
 ---
@@ -205,7 +220,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-s
 - [KS5 Attendance and Inclusion Lead](https://teaching-vacancies.service.gov.uk/jobs/ks5-attendance-and-inclusion-lead) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-helen-s-catholic-primary-school) — Excluded senior/management title.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-00b0c539-077f-4b9e-9221-61a2e6da29c8) — Insufficient admin/service evidence.
-- [Personal Care Assistant (PCA)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-pca-newman-school) — Insufficient admin/service evidence.
+- [Personal Care Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-support-assistant) — Insufficient admin/service evidence.
 - [Pupil Premium Extra Curricular Visits Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/pupil-premium-extra-curricular-visits-co-ordinator) — No usable numeric salary.
 - [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner-nexus-multi-academy-trust) — Salary over £50k.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust-sheffield-not-recorded) — Excluded senior/management title.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-11-26
+review_date: 2026-11-27
 review_fingerprint: 34ed1ae1190c57251441d552d6c43153cd73e253070a5c363d2a85e7fc4a3ec7
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 15
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 11
 
 ## SELECTED
 
@@ -99,7 +99,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 - [Data, Timetable and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/data-timetable-and-cover-manager) — Excluded senior/management title.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-east-midlands-education-trust) — Excluded senior/management title.
 - [Healthcare Assistant / Administrator](https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-b6dad597-ef3e-406f-a693-7ada1eddda55) — No usable numeric salary.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c4d506e4-2227-47db-b7f1-9c4c2546f3eb) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-hawthorne-primary-and-nursery-school) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hucknall-national-church-of-england-primary-school) — Excluded senior/management title.
 - [Senior Administrator (Governance)](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-governance) — Excluded senior/management title.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-11-26
-review_fingerprint: 317f559417eaa2759d66c04f8cf6471edffd907c56382b4a503ed21bd04de313
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 05487e38a17cac2ed7a5a0b26ea92b98aba3b1b77e284ef3bed9b61f5ab2ee76
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -49,21 +49,6 @@ factual_fingerprint: 05d4e3d61b9f419dbfc971d4dd61b3b17383e932618732e0ecc2a606e08
 source: Teaching Vacancies
 source_job_id: attendance-administrator-larkmead-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-larkmead-school
----
-
----
-action: 
-SELECTED | Oxfordshire | Thame, South East, OX9 2AQ | £22,261.00 Annually (Actual) Actual salary based on 37 hours per week, term-time only. The full-time equivalent salary is £26,429 - £27,275. | School Office Receptionist & Administrative Assistant
-employer: Lord Williams's School
-closing_date: 2026-11-27T10:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cf4209fc3aedffcefdcc02966b009534bf7a7ac95096ab0c298dc9e5e8c1230e
-source: Teaching Vacancies
-source_job_id: school-office-receptionist-administrative-assistant-lord-williams-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-receptionist-administrative-assistant-lord-williams-s-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

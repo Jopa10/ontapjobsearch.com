@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-11-26
-review_fingerprint: a32bdc58684907cbcfcbf824ebaf0dc8ee0c0fb9e35268056f9e2245fd8a9fe4
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: fcc99b03b91804fb941b019ab1dc27f467720035d4a6ff999a36a85f6437568d
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 10
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Kent | Dartford, South East, DA2 6FY | £22,621.00 Annually (Actual) | Receptionist
+employer: Stone Lodge School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 41b9b8ab41eca8f5a3a590f7ceab5563854d2f4f06652ca575aeb273924a9255
+source: Teaching Vacancies
+source_job_id: receptionist-stone-lodge-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stone-lodge-school
+---
 
 ---
 action: 
@@ -70,6 +85,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-s
 
 ---
 action: 
+POSS | Kent | Chatham, ME5 0LB | £21,567.00 - £24,099.00 Annually (FTE) NJC Scale D2 £21,567 - £24,099 [£25,185 - £28,142 FTE) + SEN £1,539 | Finance Assistant
+employer: Fortis Trust
+closing_date: 2026-12-11T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8eb351b6b56cf070b56dbc3cb0bda00301b40ed655a02d0acc210659d22a7acd
+source: Teaching Vacancies
+source_job_id: finance-assistant-796d190d-962a-43e3-9277-62295b9be5ee
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-796d190d-962a-43e3-9277-62295b9be5ee
+---
+
+---
+action: 
 POSS | Kent | Dartford, South East, DA2 6JX | £23,485.45 | Receptionist
 employer: Fleetdown Primary Academy
 closing_date: 2026-12-03T09:00:00+00:00
@@ -81,21 +111,6 @@ factual_fingerprint: f13641218ac268efecdc37e2221bb0938d3a424a09a10506db9edffbb91
 source: Teaching Vacancies
 source_job_id: receptionist-fleetdown-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-fleetdown-primary-academy
----
-
----
-action: 
-POSS | Kent | Dartford, South East, DA2 6FY | £22,621.00 Annually (Actual) | Receptionist
-employer: Stone Lodge School
-closing_date: 2026-12-06T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 41b9b8ab41eca8f5a3a590f7ceab5563854d2f4f06652ca575aeb273924a9255
-source: Teaching Vacancies
-source_job_id: receptionist-stone-lodge-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stone-lodge-school
 ---
 
 ---
@@ -120,7 +135,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-wrotham-
 ## HARD_PASS
 
 - [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy-rochester-kent) — Insufficient admin/service evidence.
-- [Head of Data & Insights](https://teaching-vacancies.service.gov.uk/jobs/head-of-data-insights-the-howard-academy-trust) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school-tonbridge-kent) — Excluded senior/management title.
 - [Payroll & HR Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-hr-officer-the-howard-academy-trust) — Insufficient admin/service evidence.
 

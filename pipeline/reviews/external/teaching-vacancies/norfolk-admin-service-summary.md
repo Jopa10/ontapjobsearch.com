@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-11-26
-review_fingerprint: 48f2c374f3fa73958ecb0cddcb0390dd88779e0b4fde545e331e58ff0d22ce21
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 32c8a2d1ae01802ac072785e0fcf30b49183b969127fc92a1c52923d6d077510
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 3
-- POSS awaiting decision: 3
+- Records: 6
+- Selected: 1
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 4
 
 ## SELECTED
 
@@ -36,67 +36,7 @@ source_job_id: exams-officer-iceni-secondary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-iceni-secondary-academy
 ---
 
----
-action: 
-SELECTED | Norfolk | King's Lynn, East of England, PE30 4AY | Scale E, Point 8 – 11, £14.36 to £15.06 per hour approx. £23,727 to £24,893 per annum. (FTE £27,709 to £29,071 – please note the salary for this role will be pro rata) | Primary SEND Administrator
-employer: Gaywood Primary School
-closing_date: 2026-11-27T00:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7e25bdabf7732b58ebb78f94f7ee023a0e150b26538b32c18e4e4c4662ecf2c0
-source: Teaching Vacancies
-source_job_id: primary-send-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-send-administrator
----
-
----
-action: 
-SELECTED | Norfolk | Norwich, East of England, NR7 9DL | £7,154 - £7,267 actual pa | Receptionist
-employer: The Open Academy
-closing_date: 2026-11-27T00:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 467542be1e42be8590b832506051e79dfe6f6728b9a3cb07e6922473ab1dab3a
-source: Teaching Vacancies
-source_job_id: receptionist-the-open-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-open-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Norfolk | Great Yarmouth, East of England, NR30 4AE | Scale D5 - 6 (£26,428 - £26,847 pro rata) Actual Salary £19,878 - £20,193 per annum | Administrator with timetabling responsibilities
-employer: Bure Park Specialist Academy
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6b87ff9d670ab711b6a2ce0f2b0a38ac9f83cbb90fabadcef365e4cc86c04a9c
-source: Teaching Vacancies
-source_job_id: administrator-with-timetabling-responsibilities
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-timetabling-responsibilities
----
-
----
-action: 
-POSS | Norfolk | Great Yarmouth, East of England, NR30 4AE | Scale E7 - 11 (£27,274 - £29,071 pro rata) Actual Salary £22,092 - £23,548 per annum | EHCP Administrator
-employer: Bure Park Specialist Academy
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3d14f79cdd637cf7a72633e00bd701698edcdddda658dbe5e3efb803dfdd937b
-source: Teaching Vacancies
-source_job_id: ehcp-administrator-bure-park-specialist-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-bure-park-specialist-academy
----
 
 ---
 action: 
@@ -122,9 +62,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymo
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-bure-valley-school) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-parkside-school-norwich) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-burston-community-primary-school-diss-norfolk) — Excluded senior/management title.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-3b7d300e-e3f4-42fe-968e-6e538254b2cd) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-caister-junior-school) — Excluded senior/management title.
-- [Secretary](https://teaching-vacancies.service.gov.uk/jobs/secretary-ba66d09b-86c1-44c3-b32c-07b2f7c540d1) — No usable numeric salary.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Excluded senior/management title.
 
 ## Safety boundary

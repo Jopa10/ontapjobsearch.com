@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-26
-review_fingerprint: 9374c18a8cf68f44042965f5327174dc1f1fcff6a7ef6a7ffae02100441b7cf3
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: cf365772ad15c10fe2e16a031f70f49b5f26ffd1a09616597e80e3ff33acaa90
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 8
-- POSS awaiting decision: 4
+- Records: 29
+- Selected: 10
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 14
 
 ## SELECTED
 
@@ -64,6 +64,36 @@ factual_fingerprint: a51265b6a15691c46cdf02e097e547019590ac83b4aa46aa60895e9b501
 source: Teaching Vacancies
 source_job_id: administration-assistant-mere-green-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-mere-green-primary-school
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B75 7DY | £25,614 - £27,709 FTE, actual salary £22,426 - £24,260 per annum | Administration Assistant
+employer: The Royal Sutton School
+closing_date: 2026-12-11T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e1f042e191dcb153f1beb19a265571f198a49a82df0b8194b6d5c2b2562486ea
+source: Teaching Vacancies
+source_job_id: administration-assistant-the-royal-sutton-school-sutton-coldfield-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-royal-sutton-school-sutton-coldfield-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 4RZ | £25,614 - £27,709 FTE, actual salary £22,426 - £24,260 per annum | Administration Assistant - Attendance
+employer: The Arthur Terry School
+closing_date: 2026-12-11T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b34d12cad76ba4032392c3b26852b211a1a78bf61200c8509ce174f8b00a9335
+source: Teaching Vacancies
+source_job_id: administration-assistant-attendance-the-arthur-terry-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-attendance-the-arthur-terry-school
 ---
 
 ---
@@ -152,10 +182,10 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b29638b11d5e181158843416be2e72272f8d84f98f22b34be55d7842b9364da1
+factual_fingerprint: 8bf058554e3ce68bf6bfae0de5d4abd263d63d602c85481b31c6afeca5639b01
 source: Teaching Vacancies
-source_job_id: data-officer-c36469b1-125f-4f32-bdcb-fea0831028da
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-c36469b1-125f-4f32-bdcb-fea0831028da
+source_job_id: data-officer-57a53ba5-d71e-45fc-acf6-ac877c1eb7ed
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-57a53ba5-d71e-45fc-acf6-ac877c1eb7ed
 ---
 
 ---
@@ -203,6 +233,21 @@ source_job_id: regional-hub-governance-professional-tudor-grange-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/regional-hub-governance-professional-tudor-grange-academies-trust
 ---
 
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 6LN | £26,427.00 - £26,847.00 Annually (FTE) | School Administrator
+employer: Holy Name Catholic Primary School
+closing_date: 2026-12-14T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d47db4d40429fecf28a6f48768c460d6786391a96c45ed2ebccd63bfbc204fea
+source: Teaching Vacancies
+source_job_id: school-administrator-holy-name-catholic-primary-school-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-holy-name-catholic-primary-school-birmingham-west-midlands
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -210,7 +255,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/regional-hub-governan
 ## HARD_PASS
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-brays-school) — Insufficient admin/service evidence.
+- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-e-act-shenley-academy) — Excluded senior/management title.
+- [Attendance Welfare Officer - Term Time Plus 2 Weeks / 37 Hours per week](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-term-time-plus-2-weeks-37-hours-per-week-tudor-grange-academy-kingshurst-birmingham) — Insufficient admin/service evidence.
 - [Communication and Engagement Officer (Fixed term Maternity cover)](https://teaching-vacancies.service.gov.uk/jobs/communication-and-engagement-officer-fixed-term-maternity-cover) — Insufficient admin/service evidence.
+- [Data Manager – Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/data-manager-maternity-cover-king-edward-vi-camp-hill-school-for-girls) — Excluded senior/management title.
 - [Exam Access Arrangement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/exam-access-arrangement-coordinator) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-leigh-trust-birmingham-not-recorded) — Excluded senior/management title.
 - [Head of House PA](https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-dame-elizabeth-cadbury-school-birmingham-west-midlands) — Excluded senior/management title.
@@ -219,7 +267,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/regional-hub-governan
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-e15d4a7c-6c63-4d75-990a-2e0fe01305d0) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-boys-school-birmingham) — Excluded senior/management title.
 - [School Office Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-senior-administrator) — Excluded senior/management title.
-- [Senior Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-assistant-birches-green-primary-school) — Excluded senior/management title.
 - [Trust Lead for Central Operations](https://teaching-vacancies.service.gov.uk/jobs/trust-lead-for-central-operations) — Excluded senior/management title.
 
 ## Safety boundary

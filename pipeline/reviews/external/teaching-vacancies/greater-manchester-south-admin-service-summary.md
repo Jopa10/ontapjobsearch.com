@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-11-26
-review_fingerprint: 6034b45c66bd6f737c6b7d9ea213be567365dd51135d3d2884f4925922242fcd
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 7739cc28144add48d929b3f46cf6878db2de461d92cc1d522f5e7389d10154dc
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 6
+- Records: 8
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Greater Manchester - South | Stockport, North West, SK5 6BL | £27,274.00 - £29,071.00 Annually (FTE) Pro rata salary banding £23,380 - £24,921 | Administrator
-employer: St Elisabeth's Church of England Primary
-closing_date: 2026-11-26T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b0250cfee9ebd06a545b7f92e1e8f619601fb8fb9663a3e2462502ac8b46a2e6
-source: Teaching Vacancies
-source_job_id: administrator-st-elisabeth-s-church-of-england-primary
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-elisabeth-s-church-of-england-primary
----
-
----
-action: 
 SELECTED | Greater Manchester - South | Hyde, North West, SK14 4SP | Support Staff Pay Scale Grade E Points 11-17 - Salary: Actual salary for this post will start at £25,226 TTO per annum, currently (£29,071 FTE per annum) | Student Services Administrator
 employer: Hyde High School
 closing_date: 2026-12-08T12:00:00+00:00
@@ -100,12 +85,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 action: 
 SELECTED | Greater Manchester - South | Altrincham, WA15 8QW | £25,410.00 - £27,564.00 Annually (Actual) | Trust Finance Officer - Term Time plus 1 week
 employer: Achieve And Learn Trust
-closing_date: 2026-12-10T12:00:00+00:00
+closing_date: 2026-12-11T12:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ec3957d0304642793075ea6e3488987fd1c5943e8ab62738b07030fb5a8bd2c3
+factual_fingerprint: cd38082e53f4f778e54e48dd5f4acdd35fcaaf13500697d9c97ab3be40dfa185
 source: Teaching Vacancies
 source_job_id: trust-finance-officer-term-time-plus-1-week
 source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-term-time-plus-1-week

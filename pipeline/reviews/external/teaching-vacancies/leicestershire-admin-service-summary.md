@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-11-26
-review_fingerprint: f11de2ca1e848c9bad70c56c1fe3c7194554ed5635b213ced65cd460d400a67f
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 08cead4f36ff70a9a2a83e17fea2b4ef3f87cfe0b82e7c91224c860f77c54483
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 3
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
@@ -81,21 +81,6 @@ factual_fingerprint: cd3da9516d4a6c9f3edfb756d5109f70d4a702067e78debc091c78fb512
 source: Teaching Vacancies
 source_job_id: administration-assistant-iveshead-school-loughborough-leicestershire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-iveshead-school-loughborough-leicestershire
----
-
----
-action: 
-POSS | Leicestershire | Leicester, East Midlands, LE3 1PF | £15,019.00 - £15,255.00 Annually (Actual) GAT 3, 25 hours per week, 39 weeks per year. | Administration Assistant
-employer: Queensmead Primary Academy
-closing_date: 2026-11-29T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 403b786e8196a1e54ca1ec0101a8aa8a240153958f40125984615a7373500def
-source: Teaching Vacancies
-source_job_id: administration-assistant-queensmead-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-queensmead-primary-academy
 ---
 
 ## EXCLUDED BY REVIEW

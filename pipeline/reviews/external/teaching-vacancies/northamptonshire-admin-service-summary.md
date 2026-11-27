@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-26
-review_fingerprint: 7ceab007a9dd1fdf979a63a80fc7f07ab4bcdd79b16802780eaf54c7d3c2b7db
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 3dc4f67b11bc6b4498c54b398c2ab4c69d719942425b48f17cfe2f694ca04453
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 6
+- Records: 18
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -83,6 +83,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-th
 
 ---
 action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN4 8BU | £26,824.00 - £29,064.00 Annually (FTE) Grade G (NJC 8 to 13) | Finance Assistant
+employer: Abbeyfield School
+closing_date: 2026-12-07T23:59:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9ebbd3d1baa81647ee79c30f7f8f11501012b1034f207761cadb00a9d4fb1b55
+source: Teaching Vacancies
+source_job_id: finance-assistant-abbeyfield-school-northampton-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-abbeyfield-school-northampton-northamptonshire
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN4 0HZ | £26,847.00 - £27,275.00 Annually (FTE) NJC Scale F6-7 (gross pay £23,081-£23,449) | Safeguarding Administrator
+employer: Wootton Park School
+closing_date: 2027-01-04T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 47489181704cf72a08b4b81b9a99c956366efb750baf76ebe5479aef4b65c962
+source: Teaching Vacancies
+source_job_id: safeguarding-administrator-wootton-park-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-wootton-park-school
+---
+
+---
+action: 
 SELECTED | Northamptonshire | Northampton, East Midlands, NN3 6HT | £26,016.00 Annually (FTE) Grade D point 4 | School Office Administrator - Cover Coordinator
 employer: St Thomas Becket Catholic School
 closing_date: 2026-11-30T12:00:00+00:00
@@ -115,21 +145,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-mo
 
 ---
 action: 
-POSS | Northamptonshire | Northampton, East Midlands, NN4 8BU | £26,824.00 - £29,064.00 Annually (FTE) Grade G (NJC 8 to 13) | Finance Assistant
-employer: Abbeyfield School
-closing_date: 2026-12-07T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9ebbd3d1baa81647ee79c30f7f8f11501012b1034f207761cadb00a9d4fb1b55
-source: Teaching Vacancies
-source_job_id: finance-assistant-abbeyfield-school-northampton-northamptonshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-abbeyfield-school-northampton-northamptonshire
----
-
----
-action: 
 POSS | Northamptonshire | Kettering, NN15 6HE | Orbis Payscale 12-16 (£27,476 - £29,273 FTE). Actual pro-rata salary: £25,688 – 27,368. | HR and Recruitment Administrator
 employer: Orbis Education Trust
 closing_date: 2026-12-07T09:00:00+00:00
@@ -141,6 +156,21 @@ factual_fingerprint: 8fc8c609c05df5a263ff3b8c7a7583310416f173b726735b9059f48360a
 source: Teaching Vacancies
 source_job_id: hr-and-recruitment-administrator-orbis-education-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-administrator-orbis-education-trust
+---
+
+---
+action: 
+POSS | Northamptonshire | Wellingborough, East Midlands, NN8 2DQ | £27,273.00 - £29,070.00 Annually (Actual) Grade 04, NJC07 to NJC11 - £27,273 - £29,070 per annum | Recruitment Administrator
+employer: Wrenn School
+closing_date: 2026-12-06T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e100fef95bdde12a393a72e1dc92b9f984707bed0f6e86620467b1033529a282
+source: Teaching Vacancies
+source_job_id: recruitment-administrator-wrenn-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administrator-wrenn-school
 ---
 
 ## EXCLUDED BY REVIEW
@@ -157,7 +187,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-ad
 - [Head of Marketing, Engagement & Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-engagement-communications) — Excluded senior/management title.
 - [Headteacher's PA, Operations & Communications Manager](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-operations-communications-manager) — Out-of-scope occupation: teacher, headteacher.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-76534355-af89-45a3-936c-3fdc5fe94bd4) — Salary over £50k.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-billing-brook-special-school) — Excluded senior/management title.
 
 ## Safety boundary
 

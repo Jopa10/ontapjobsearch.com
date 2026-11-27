@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-11-26
-review_fingerprint: fbeda956463e0242080a026a6b72f3cb978cfd5730ade33b23fc43185e35e1f5
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: fb8643e05594dbb119b33bfb992f3a5827533d0f247aafd363d92e971b55c7ce
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 6
+- Records: 17
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
@@ -23,14 +23,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Buckinghamshire | Aylesbury, South East, HP18 9RY | £25,823.00 - £26,522.00 Annually (FTE) Actual Salary £16,526.72 - £16974.08 Per Annum plus LGPS | Administrative Assistant
+SELECTED | Buckinghamshire | Aylesbury, South East, HP18 9RY | £25,823.00 - £26,522.00 Annually (FTE) Actual Salary £16,526.72 - £16,974.08 Per Annum plus LGPS | Administrative Assistant
 employer: Brill Church of England School
 closing_date: 2026-12-10T23:59:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b558d6b4f384b8dfda41ac58fd9840817286d253cac2f1ae2fe815eb1dec1e78
+factual_fingerprint: 04951b8187688769c96e7ef6157311d224b1580f70417f97f0942935fa1a4e5a
 source: Teaching Vacancies
 source_job_id: administrative-assistant-brill-church-of-england-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-brill-church-of-england-school
@@ -49,21 +49,6 @@ factual_fingerprint: e3708168264b8c2ab532ec7b6259688d02eb773f97cb73aa4cf3c8bd47f
 source: Teaching Vacancies
 source_job_id: governance-compliance-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-administrator
----
-
----
-action: 
-SELECTED | Buckinghamshire | Aylesbury, South East, HP22 7BR | £24,623.00 - £26,412.00 Annually (Actual) Bucks Pay Range 3 – actual salary £24,623 - £26,412 (Equivalent to £29,114 - £31,230 for full time) | Librarian and Careers Administrator
-employer: The Kingsbrook School
-closing_date: 2026-11-27T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8895a1a2391693fd9f36162502660b98a5a4e18cd80bb263f45f5342838e7e0e
-source: Teaching Vacancies
-source_job_id: librarian-and-careers-administrator-the-kingsbrook-school-aylesbury-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/librarian-and-careers-administrator-the-kingsbrook-school-aylesbury-buckinghamshire
 ---
 
 ---
@@ -109,6 +94,36 @@ factual_fingerprint: 64bbe1dca84d03467950e072647b654a92291802a15368f88d6fc8ba162
 source: Teaching Vacancies
 source_job_id: reprographics-technician-and-office-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-and-office-administrator
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Aylesbury, South East, HP18 9QY | £24,836.00 - £25,823.00 Annually (FTE) | School Administrator Part Time
+employer: Oakley Church of England Combined School
+closing_date: 2026-12-11T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 94c3feafaff2bc1647b36fb2a1c4a6000dd8807762b3c61e2a1e4e2a302023cf
+source: Teaching Vacancies
+source_job_id: school-administrator-part-time-oakley-church-of-england-combined-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-part-time-oakley-church-of-england-combined-school
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Aylesbury, South East, HP18 9QY | £24,836.00 - £25,823.00 Annually (FTE) | School Administrator Part Time
+employer: Oakley Church of England Combined School
+closing_date: 2026-12-11T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7cd015b1bb8f5ca2c80b4f6cdf0fd898cac3492bebf34f6c0137ca811a2b3786
+source: Teaching Vacancies
+source_job_id: school-administrator-part-time-oakley-church-of-england-combined-school-aylesbury-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-part-time-oakley-church-of-england-combined-school-aylesbury-buckinghamshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-11-26
-review_fingerprint: 4484ebb8d1302fbd32fe0861d3b0cf9177b3838e72339016abfda1119f529d20
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: c41cf34d8ac73558f6d2ccb9d5d8058e21a213ca271224234d44e20ddf83317a
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 2
+- Records: 4
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cheshire - West | Ellesmere Port, North West, CH65 7AQ | Actual £21,778 | 6th Form Administrator
+employer: Ellesmere Port Catholic High School, a Voluntary Academy
+closing_date: 2026-12-11T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8b4200e08c5c24719e7a6fa483c786eeee508b7d21b1e37e834a2e47b15c754a
+source: Teaching Vacancies
+source_job_id: 6th-form-administrator-ellesmere-port-catholic-high-school-a-voluntary-academy-ellesmere-port-cheshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/6th-form-administrator-ellesmere-port-catholic-high-school-a-voluntary-academy-ellesmere-port-cheshire
+---
 
 ---
 action: 

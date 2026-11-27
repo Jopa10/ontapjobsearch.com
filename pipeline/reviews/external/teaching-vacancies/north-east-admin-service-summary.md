@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-11-26
-review_fingerprint: efb575e88db76a8bdc8ff708c64eaa27f4b10a9e540bdb44a1b1f16967011963
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: d36d05028e1cc56d7840bbf7137b4967fb5c9d6790eb98cbd54299b29bca32a1
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 5
+- Records: 13
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | North East | Wallsend, North East, NE28 7LQ | Grade 5 - £26,403 - £27,254 *Pay Award Pending* | Administration Assistant
-employer: Burnside College
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8053979fbb45946a01e4a884e9d8664ccb0630a0b6fac48e19aa274877c0627b
-source: Teaching Vacancies
-source_job_id: administration-assistant-7c7ff27b-428f-43f8-b838-19b0716cb7d9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-7c7ff27b-428f-43f8-b838-19b0716cb7d9
----
 
 ---
 action: 
@@ -135,12 +120,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-o
 ## HARD_PASS
 
 - [Dual School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/dual-school-business-manager-bishop-wilkinson-catholic-education-trust) — Excluded senior/management title.
-- [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-hurworth-school-darlington-county-durham) — No usable numeric salary.
 - [Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-partner-the-education-village-academy-trust-darlington-not-recorded) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-kings-priory-school) — Insufficient admin/service evidence.
 - [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-bishop-auckland-college) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-centurion-multi-academy-trust) — Insufficient admin/service evidence.
-- [Marketing Specialist](https://teaching-vacancies.service.gov.uk/jobs/marketing-specialist) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-af43e27f-b30c-4ed7-9581-5362fb482ff1) — Excluded senior/management title.
 - [Payroll Partner](https://teaching-vacancies.service.gov.uk/jobs/payroll-partner) — Insufficient admin/service evidence.
 

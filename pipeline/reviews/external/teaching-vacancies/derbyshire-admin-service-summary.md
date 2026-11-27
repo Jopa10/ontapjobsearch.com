@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-11-26
+review_date: 2026-11-27
 review_fingerprint: ce8e73665d54179d742d758ca19ff999a97e547e26aae3aa07bf08f550988fcf
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -89,7 +89,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-ping
 
 ## HARD_PASS
 
-- [Employer Partnership Officer - Student Employment](https://teaching-vacancies.service.gov.uk/jobs/employer-partnership-officer-student-employment) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-ashwood-spencer-academy) — Excluded senior/management title.
 - [PA to SLT & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-cover-manager) — Excluded senior/management title.
 - [Pastoral Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-officer-93d815b7-0e82-49a1-9ded-1395abd2f79a) — No usable numeric salary.

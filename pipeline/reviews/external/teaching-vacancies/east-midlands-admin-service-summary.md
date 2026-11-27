@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-11-26
-review_fingerprint: 2a8f0f277e2bfecc510a0210fa1bcfdd52dfb6b8e1786518cc77cc30fa2c609c
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 49bdcc93f17e5ad710e038535ab4d0b2a317b54e62b41fa20a212485e34ddbe3
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -34,6 +34,21 @@ factual_fingerprint: 3be098174c0b88a21d496228a442cc51958cfa9b126441ce6d4ff87b9ef
 source: Teaching Vacancies
 source_job_id: administrative-assistant-john-of-rolleston-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-john-of-rolleston-primary-school
+---
+
+---
+action: 
+SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 8SU | £26,847.00 - £27,274.00 Annually (FTE) Actual salary Grade 4 (SCP 6-7) £13,164.73 - £13,374.12 per annum | Administrative Assistant
+employer: Needwood CofE Primary School
+closing_date: 2026-12-08T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 56b165ee66adbcdc38b3e66b025c4b3ea907c6233dccbe9c6c4a7806c0bcb378
+source: Teaching Vacancies
+source_job_id: administrative-assistant-needwood-cofe-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-needwood-cofe-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

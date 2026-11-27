@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-26
+review_date: 2026-11-27
 review_fingerprint: d27f69e3c8902337fa71414fe8b9f27e718de7d256752869ad75c003793ae45f
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
+- Records: 21
 - Selected: 4
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -182,6 +182,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 - [Attendance Assistant - 1 Year Fixed](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-1-year-fixed) — Insufficient admin/service evidence.
 - [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services-st-martin-s-school-brentwood) — Out-of-scope occupation: deputy head.
 - [Director of Human Resources and Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-human-resources-and-operations) — Excluded senior/management title.
+- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-brentwood-county-high-school-brentwood-essex) — Excluded senior/management title.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador-hearts-academy-trust) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-diocese-of-chelmsford-vine-schools-trust-chelmsford-not-recorded) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (L&D/Projects)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-l-d-projects) — Salary over £50k.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-11-26
-review_fingerprint: 9f3109d7c28dffcdfea485b00ee714d17ce71ca2b2f2cd4d7b5b9d314071406c
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 5d27bbb77efa667e6d77f546b2e1fe3c6e2ecc4cb6304f516b32c38afad25860
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 15
 - Selected: 7
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-prior
 
 ---
 action: 
-SELECTED | Suffolk | Beccles, East of England, NR34 9PG | £10,537.00 - £10,874.00 Annually (Actual) Grade 3, points 4-6, £26,016-£26,847 FTE | Business Support Officer - Sixth Form
-employer: Sir John Leman High School
-closing_date: 2026-11-27T12:00:00+00:00
-reason: Clear admin/service title: business support officer
+SELECTED | Suffolk | Woodbridge, East of England, IP12 4JX | £11,989.74 Annually (Actual) | Administrator
+employer: Farlingaye High School
+closing_date: 2026-12-07T09:00:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9ad88c437c62dfef935ee0894747be4261be1c06a93685389d22e3b660c86486
+factual_fingerprint: 1a57fcb85c5e0124a92e5a137cf194cf4d556ad5db4be8467f842ae52231816d
 source: Teaching Vacancies
-source_job_id: business-support-officer-sixth-form
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-sixth-form
+source_job_id: administrator-84264767-b92b-40ee-9ba7-79e7a88a4302
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-84264767-b92b-40ee-9ba7-79e7a88a4302
 ---
 
 ---
@@ -130,21 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-POSS | Suffolk | Woodbridge, East of England, IP12 4JX | £11,989.74 Annually (Actual) | Administrator
-employer: Farlingaye High School
-closing_date: 2026-12-07T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1a57fcb85c5e0124a92e5a137cf194cf4d556ad5db4be8467f842ae52231816d
-source: Teaching Vacancies
-source_job_id: administrator-84264767-b92b-40ee-9ba7-79e7a88a4302
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-84264767-b92b-40ee-9ba7-79e7a88a4302
----
-
----
-action: 
 POSS | Suffolk | Beccles, East of England, NR34 7BQ | £19,350- £22,735 actual pa | Finance Officer
 employer: Beccles High School
 closing_date: 2026-12-20T00:00:00+00:00
@@ -167,7 +152,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-beccl
 - [Curriculum and Capacity Planning Lead](https://teaching-vacancies.service.gov.uk/jobs/curriculum-and-capacity-planning-lead) — Excluded senior/management title.
 - [Group Senior Lead - SEND Admission and Tribunal](https://teaching-vacancies.service.gov.uk/jobs/group-senior-lead-send-admission-and-tribunal) — Excluded senior/management title.
 - [Head of Estates](https://teaching-vacancies.service.gov.uk/jobs/head-of-estates-east-anglian-schools-trust-ltd) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-northgate-high-school-ipswich-suffolk) — Excluded senior/management title.
 - [Payroll and Pensions Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-co-ordinator) — Insufficient admin/service evidence.
 - [SEND Officer](https://teaching-vacancies.service.gov.uk/jobs/send-officer-east-coast-college) — Insufficient admin/service evidence.
 - [Work Place Assessor - Childcare](https://teaching-vacancies.service.gov.uk/jobs/work-place-assessor-childcare) — Insufficient admin/service evidence.

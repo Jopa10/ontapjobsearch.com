@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-26
+review_date: 2026-11-27
 review_fingerprint: a1608d687aa0e14287ffc35334003cbb30f06466614c2ac35dd7723264e4260c
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -110,8 +110,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-pipe
 - [First Aid, Medical and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/first-aid-medical-and-administration-assistant-the-east-manchester-academy) — Insufficient admin/service evidence.
 - [Governance and Compliance Professional](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-professional-greater-manchester-academies-trust-manchester-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-3d87884e-d7d8-49bb-ac76-95af803b7698) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-loreto-college) — Insufficient admin/service evidence.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Excluded senior/management title.
-- [PDI Operations, Marketing & Programme Support Officer](https://teaching-vacancies.service.gov.uk/jobs/pdi-operations-marketing-programme-support-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

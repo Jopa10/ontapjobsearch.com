@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-11-26
-review_fingerprint: e5d076e38a676e01ee90a4dbb6ef949387705385412eb97622298f94d2f46409
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 53380aa07d16d9c31cb2436806af0c82779d8cb07136ae36b92e9f464309cc3f
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 4
+- Records: 13
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
@@ -23,32 +23,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV1 2BS | £26,427.00 - £26,847.00 Annually (FTE) Pro rata actual salary £19,283.98-£19,590.45 | Administration Assistant
-employer: Holy Rosary Catholic Primary Academy
-closing_date: 2026-11-27T12:00:00+00:00
+SELECTED | West Midlands - Black Country | Halesowen, West Midlands, B63 4HY | £22,812.00 - £22,812.00 Annually (FTE) | Administration Assistant - Level 2
+employer: Huntingtree Primary School
+closing_date: 2026-12-10T23:59:00+00:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b7270c86dd789652fe588dffe81c4c171ad344cd3391f8ec526751c719ca5053
+factual_fingerprint: 09d56cb3354465c9830c217ab892cb131d12072d2cb5685b8f66c9c75005aa25
 source: Teaching Vacancies
-source_job_id: administration-assistant-30ea18f5-6687-43df-b73a-b5583b1ab71b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-30ea18f5-6687-43df-b73a-b5583b1ab71b
+source_job_id: administration-assistant-level-2-huntingtree-primary-school-halesowen-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-huntingtree-primary-school-halesowen-west-midlands
 ---
 
 ---
 action: 
-SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B68 0RG | £25,615.00 - £27,710.00 Annually (FTE) Grade 2 Points 3-8 | Receptionist / Administrator
-employer: Perryfields Academy
-closing_date: 2026-11-27T09:00:00+00:00
+SELECTED | West Midlands - Black Country | Halesowen, B63 3HY | £29,542.00 - £31,526.00 Annually (Actual) | Finance Officer
+employer: Windsor Academy Trust
+closing_date: 2026-12-11T12:00:00+00:00
 reason: Owner-approved reception/finance role within salary limit
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 94988bb8b99b9f7625fe308220a6d484531dfcaacb01156c2c4b904881e6ba5f
+factual_fingerprint: eff27f386b03911dc32b573edd14f11df2aa035443b0b33d4b59d20782561788
 source: Teaching Vacancies
-source_job_id: receptionist-administrator-perryfields-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-perryfields-academy
+source_job_id: finance-officer-windsor-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-windsor-academy-trust
 ---
 
 ---
@@ -64,21 +64,6 @@ factual_fingerprint: 605549d9b3ee0b7b5f14e20faf29e90fb4d7c40ddd1acce1cdc61277e1e
 source: Teaching Vacancies
 source_job_id: receptionist-with-administration
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-with-administration
----
-
----
-action: 
-SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B68 8NE | £22,812.00 Annually (Actual) Grade 3 SCP 5 | School Administrative Assistant
-employer: Oldbury Academy
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2d18f7f97c87887119ae5a32bcc00eb14659e1411baf5122626110179fce0630
-source: Teaching Vacancies
-source_job_id: school-administrative-assistant-oldbury-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative-assistant-oldbury-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -124,8 +109,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-support-officer-ki
 - [HR Advisor - Senior](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-senior) — Excluded senior/management title.
 - [Office Manager/PA](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa) — Excluded senior/management title.
 - [Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/resources-manager-queen-mary-s-grammar-school) — Excluded senior/management title.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school-dudley-west-midlands) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-priory-primary-school) — Excluded senior/management title.
+- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-windsor-academy-trust) — Salary over £50k.
 - [Trust Facilities and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-facilities-and-operations-manager) — Excluded senior/management title.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-11-26
-review_fingerprint: 398333bb34608cd9b08d61bfb6c67763cbcf97fba5c63f0ff2676a3882826613
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 8c24b96eb55a8a8935b92c4f002a9cec9763ec86476c0018edfef808b75e247a
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 5
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -64,21 +64,6 @@ factual_fingerprint: 7967fd57d291ff2817006dc3ac03592e852fb7bd9aae7be46ae55c6e406
 source: Teaching Vacancies
 source_job_id: office-administrator-cbd6c43f-57ab-4772-adb4-47b38750d543
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cbd6c43f-57ab-4772-adb4-47b38750d543
----
-
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB25 9DL | NJC Cambridgeshire Scale 5 Point 12-17 (£29,542 to £32,046 FTE per annum) | PA to the Principal
-employer: Bottisham Village College
-closing_date: 2026-11-26T23:59:00+00:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dd7fcb042384d93fc3c14bd38d2ccd8e8d6c24dbc4c8319fa765c93d4a9a2b0c
-source: Teaching Vacancies
-source_job_id: pa-to-the-principal-bottisham-village-college-cambridge-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-bottisham-village-college-cambridge-cambridgeshire
 ---
 
 ---
@@ -134,15 +119,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/legal-support-officer
 
 ## HARD_PASS
 
+- [Administration Assistant Intern (6-weeks)](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-intern-6-weeks) — No usable numeric salary.
 - [Assistant Finance Associate](https://teaching-vacancies.service.gov.uk/jobs/assistant-finance-associate-grace-schools) — Insufficient admin/service evidence.
 - [Corporate Administrator](https://teaching-vacancies.service.gov.uk/jobs/corporate-administrator) — No usable numeric salary.
+- [Exams and Data Intern (6-weeks)](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-intern-6-weeks) — No usable numeric salary.
 - [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-grace-schools) — Insufficient admin/service evidence.
 - [Internal Scrutiny Officer](https://teaching-vacancies.service.gov.uk/jobs/internal-scrutiny-officer) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bottisham-village-college) — Excluded senior/management title.
+- [Investigating Officer](https://teaching-vacancies.service.gov.uk/jobs/investigating-officer) — No usable numeric salary.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-longsands-academy) — Excluded senior/management title.
-- [PA to Head of School & Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-administration-manager-hampton-college) — Excluded senior/management title.
+- [Personal Assistant to Headteacher and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-and-senior-leadership-team-st-john-fisher-catholic-high-school-peterborough-cambridgeshire) — Excluded senior/management title.
 - [Senior Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-data-assistant) — Excluded senior/management title.
-- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-80df4620-91d1-4dc5-b093-4937c078bedb) — Salary over £50k.
 
 ## Safety boundary
 

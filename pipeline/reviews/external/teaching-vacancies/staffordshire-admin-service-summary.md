@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-11-26
-review_fingerprint: 93ce5bd25b2f9418249a120df3cbd0f0d80c05399f3d51ebcf2e4e5610b225da
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 5d36e68f2c0dfc49489dd4d17097fb1da39490b0c4cd7246275175c64683ec6f
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -20,21 +20,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Staffordshire | Lichfield, West Midlands, WS14 0AL | £25,614 - £26,016 FTE, actual salary £17,274 - £17,545 per annum | Administration Assistant
-employer: Anna Seward Primary
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1183a1c0adbb1b9d33d40f1e4ce4705ab8d21e3bad51eb906f3af728446382f3
-source: Teaching Vacancies
-source_job_id: administration-assistant-anna-seward-primary
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-anna-seward-primary
----
 
 ---
 action: 
@@ -64,6 +49,21 @@ factual_fingerprint: a1da3e1cb40cb742c2e22098f70bce748f7dab9b8508c7bf59a02ab8516
 source: Teaching Vacancies
 source_job_id: finance-assistant-the-friary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-friary-school
+---
+
+---
+action: 
+SELECTED | Staffordshire | Tamworth, West Midlands, B78 1QT | £22,227.00 - £22,576.00 Annually (Actual) | School Receptionist
+employer: The Polesworth School
+closing_date: 2026-12-09T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b5f161cdc7f17991bbd236f1a6afd6b24f876dd43d8e4003293349257c099686
+source: Teaching Vacancies
+source_job_id: school-receptionist-the-polesworth-school-tamworth-staffordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-the-polesworth-school-tamworth-staffordshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

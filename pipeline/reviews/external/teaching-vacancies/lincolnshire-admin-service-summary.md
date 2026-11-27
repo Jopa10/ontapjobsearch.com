@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-26
-review_fingerprint: afe6930ffdd6466d5b99b233f73ac92074e860fbc37abb1c257c9d76b2af81c6
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: b4a2531e04385eed20bd35f7ee68fb36e6157d1931bf7ca5ccc862a3b7bbd218
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 5
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Lincolnshire | Spalding, East Midlands, PE11 3RP | £11,876.98 - £12,455.21 Annually (Actual) | Administrator
+employer: The Pinchbeck East Church of England Primary Academy
+closing_date: 2026-12-13T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 88d29e07150346dde8ecf9bad7d1736c0dc105789195364674da654407b41992
+source: Teaching Vacancies
+source_job_id: administrator-the-pinchbeck-east-church-of-england-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-pinchbeck-east-church-of-england-primary-academy
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Lincoln, East Midlands, LN3 4JP | PPS6 £26,847 per annum, pro rata to £23,052 per annum | Administrator
 employer: The Priory Pembroke Academy
 closing_date: 2026-11-29T23:59:00+00:00
@@ -64,6 +79,21 @@ factual_fingerprint: 9baf217d6595d3283ec26352ad1c689ba279a677d27d51da19258dbe45f
 source: Teaching Vacancies
 source_job_id: administrator-the-priory-pembroke-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-priory-pembroke-academy
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN16 1NT | £28,153 - £29,071 per annum. SCP 9 - 11 | Finance Assistant
+employer: Outwood Academy Brumby
+closing_date: 2026-12-11T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 00090e1c94e9d92b021b8a3153ff9e3b7ce9d74be9d9d27a9c38996e54c99c6a
+source: Teaching Vacancies
+source_job_id: finance-assistant-outwood-academy-brumby-scunthorpe-north-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-outwood-academy-brumby-scunthorpe-north-lincolnshire
 ---
 
 ---
@@ -134,7 +164,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
-- [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-franklin-sixth-form-college) — Excluded senior/management title.
 - [Finance Business Partner Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-assistant-lincoln-college) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-e6664367-3eb0-42c0-9724-283bf6ac70a0) — Excluded senior/management title.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership-boston-not-recorded) — Insufficient admin/service evidence.
@@ -142,7 +171,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [School Bursar](https://teaching-vacancies.service.gov.uk/jobs/school-bursar-cliffedale-primary-school-grantham-lincolnshire) — No usable numeric salary.
 - [School Business Manager & Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-chief-financial-officer-kesteven-and-grantham-girls-school) — Excluded senior/management title.
 - [School Business Manager (CFO)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cfo) — Excluded senior/management title.
-- [SEND Admin](https://teaching-vacancies.service.gov.uk/jobs/send-admin-sir-robert-pattinson-academy) — No usable numeric salary.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-thomas-middlecott-academy-boston-lincolnshire) — Excluded senior/management title.
 
 ## Safety boundary

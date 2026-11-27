@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - South
 
-review_date: 2026-11-26
+review_date: 2026-11-27
 review_fingerprint: 1ca2a1be4057b32d106d27351700e704a78f777f5750756c3598b2d22ae27c42
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Cumbria - South
 slice_category: admin_service
 slice_status: LIVE

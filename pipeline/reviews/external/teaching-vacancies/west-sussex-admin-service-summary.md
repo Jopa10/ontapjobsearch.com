@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Sussex
 
-review_date: 2026-11-26
+review_date: 2026-11-27
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: West Sussex
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -34,7 +34,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## HARD_PASS
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-albourne-church-of-england-primary-school-hassocks-west-sussex) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-albourne-church-of-england-primary-school) — Excluded senior/management title.
 
 ## Safety boundary
 

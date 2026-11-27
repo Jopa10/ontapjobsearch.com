@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-26
-review_fingerprint: 612c5a052eec3fe50dd552332f5361b2bcf3cfd8ffd3aa116af3f9080e3d1070
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 3c311ed09ccdc587c0db3b15998978c84ffc7dc5921161c65b56f528d25df60b
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 8
-- POSS awaiting decision: 4
+- Records: 23
+- Selected: 7
+- POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 10
 
@@ -49,21 +49,6 @@ factual_fingerprint: 46df077a6db3502c444141bd7a732fe2ddea85aacf10878fc8b1e40602b
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-wildmoor-heath-school-bracknell-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-wildmoor-heath-school-bracknell-berkshire
----
-
----
-action: 
-SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Receptionist/Administrative Assistant
-employer: James Elliman Academy
-closing_date: 2026-12-31T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8fa6a7e44c51b1859ec4705247897244b39d1ba04452bd1e1e5ea8c219d2ddd0
-source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-james-elliman-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-james-elliman-academy
 ---
 
 ---
@@ -201,6 +186,36 @@ factual_fingerprint: e5c8d881f373368eedf2f0b74e7b0b0214db18aafbf65076d3614a34c20
 source: Teaching Vacancies
 source_job_id: receptionist-john-rankin-junior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-john-rankin-junior-school
+---
+
+---
+action: 
+POSS | Berkshire | Bracknell, South East, RG12 0PE | £32,278.00 - £34,425.00 Annually (FTE) Actual salary £27,197- £29,007 per annum | SENDCO Administration Assistant
+employer: Crown Wood Primary School
+closing_date: 2026-12-16T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d14aa5919c6134d2b3ec27c8c51c0d4292e6cb1b72c1b8e3ffa1438280557576
+source: Teaching Vacancies
+source_job_id: sendco-administration-assistant-crown-wood-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sendco-administration-assistant-crown-wood-primary-school
+---
+
+---
+action: 
+POSS | Berkshire | Bracknell, South East, RG45 7HD | £32,278.00 - £34,425.00 Annually (FTE) Actual salary £27,197- £29,007 per annum | SENDCO Administration Assistant
+employer: Wildmoor Heath School
+closing_date: 2026-12-16T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 75a74766f087cf0af4608ec8a5bddb598a66017ad9d90e3dfb93dae379dbac15
+source: Teaching Vacancies
+source_job_id: sendco-administration-assistant-wildmoor-heath-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sendco-administration-assistant-wildmoor-heath-school
 ---
 
 ## EXCLUDED BY REVIEW

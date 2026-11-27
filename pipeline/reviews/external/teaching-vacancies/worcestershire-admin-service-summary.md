@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-11-26
+review_date: 2026-11-27
 review_fingerprint: 647044376055ad00fd5b0a2cd516cb2d3004fd829a2aeebb02f0ef1cb419e9cc
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -74,7 +74,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pin
 
 ## HARD_PASS
 
-- [Data Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administrative-assistant) — No usable numeric salary.
+- None.
 
 ## Safety boundary
 

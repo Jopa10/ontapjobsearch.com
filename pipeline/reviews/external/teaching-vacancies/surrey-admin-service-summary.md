@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-11-26
+review_date: 2026-11-27
 review_fingerprint: 9bfada831d535998d381327431b410557de3773aa40b4a328010564d5e9fac95
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -122,6 +122,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator-sun
 - [Annual Review Lead](https://teaching-vacancies.service.gov.uk/jobs/annual-review-lead-limpsfield-grange-school) — Excluded senior/management title.
 - [Apprenticeships Review Officer](https://teaching-vacancies.service.gov.uk/jobs/apprenticeships-review-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-grange-community-infant-school) — Excluded senior/management title.
+- [School Services Manager](https://teaching-vacancies.service.gov.uk/jobs/school-services-manager-royal-alexandra-and-albert-school) — Excluded senior/management title.
 - [Senior HR Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-officer-south-farnham-educational-trust) — Excluded senior/management title.
 - [Trust Leader Data and Insights](https://teaching-vacancies.service.gov.uk/jobs/trust-leader-data-and-insights) — Excluded senior/management title.
 - [Weekend Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/weekend-lettings-assistant-2c2d72e1-c063-494c-9325-f49422f35a9b) — Insufficient admin/service evidence.

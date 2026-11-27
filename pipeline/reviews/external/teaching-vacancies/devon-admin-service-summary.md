@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-26
-review_fingerprint: 545e15b3fe7d5848287ab0f5dcd3a21942ca8432880c59c1733b593d7edbc64b
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: a0ce12c581894e2ac440004f819683dc5c021d56e67e833d15b6c608a2e2a3e6
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 2
-- POSS awaiting decision: 7
+- Records: 20
+- Selected: 0
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 14
 
 ## SELECTED
 
----
-action: 
-SELECTED | Devon | Paignton, South West, TQ3 2SH | £10546.89 - £10883.77 | Admin Assistant
-employer: Sacred Heart Catholic School
-closing_date: 2026-11-27T17:00:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 660bf3afd040144725bd5e99b5dbf3f7be153ee3378517aefcd1677b5ab0fc7c
-source: Teaching Vacancies
-source_job_id: admin-assistant-sacred-heart-catholic-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-sacred-heart-catholic-school
----
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL5 4LS | £6777 to £6884 ACTUAL | Administrative Assistant
-employer: Mary Dean's CofE Primary School and Nursery
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9845cfb10561a30dc94e591b0b29612a29e62e136d16f9ccaa52dbc8404a0e59
-source: Teaching Vacancies
-source_job_id: administrative-assistant-mary-dean-s-cofe-primary-school-and-nursery
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-mary-dean-s-cofe-primary-school-and-nursery
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -57,12 +29,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 action: 
 POSS | Devon | Okehampton, EX20 1PU | £21,767.00 - £22,114.00 Annually (Actual) NJC Grade C. Range 6 to 7 | Administrator
 employer: Dartmoor Multi Academy Trust
-closing_date: 2026-11-29T23:59:00+00:00
+closing_date: 2026-12-06T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c314fc4c9f27c90706674d57be621c121e8e3f09f3498a0bda370937228e59e2
+factual_fingerprint: d51dfa74cc5b0c74f940cc42d434053b29cd71e7b733458dfab8f6fe7a8b49b9
 source: Teaching Vacancies
 source_job_id: administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
@@ -143,21 +115,6 @@ source_job_id: receptionist-longcause-community-special-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-longcause-community-special-school
 ---
 
----
-action: 
-POSS | Devon | Totnes, South West, TQ9 7BE | £12,062 - £12,254 prorated per annum. | School Administrator
-employer: Blackawton Primary School
-closing_date: 2026-11-27T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2804c9929b32de1df6d6f4ef7303328414cad569d3f71982485840af443fb8c6
-source: Teaching Vacancies
-source_job_id: school-administrator-blackawton-primary-school-totnes-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-blackawton-primary-school-totnes-devon
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -177,7 +134,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Permanent Pupil Support Administrator](https://teaching-vacancies.service.gov.uk/jobs/permanent-pupil-support-administrator) — No usable numeric salary.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-f0cae92f-fab5-4d71-9217-1ffc67fdf32d) — No usable numeric salary.
 - [School Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-stockland-church-of-england-primary-academy-honiton-devon) — No usable numeric salary.
-- [School Buildings and Grounds Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-buildings-and-grounds-caretaker) — Out-of-scope occupation: caretaker.
 - [Technician - Automotive](https://teaching-vacancies.service.gov.uk/jobs/technician-automotive) — Out-of-scope occupation: technician.
 
 ## Safety boundary

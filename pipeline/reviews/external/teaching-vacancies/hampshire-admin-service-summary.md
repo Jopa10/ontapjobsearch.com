@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-11-26
-review_fingerprint: c3c556e5644849bbacd3a48663ff489158accba281e2e2558db7e31af95c29d7
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: f1656b5a99a040cc789bbbdb277ed3fe7d7fb08c5af3edf485e0f0ee6a7d2386
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
-- POSS awaiting decision: 1
+- Records: 9
+- Selected: 3
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Hampshire | Southampton, South East, SO40 9FT | £26,017.00 - £27,110.00 Annually (FTE) Fixed Term until July 2027 | Admin Assistant
+employer: Hounsdown School
+closing_date: 2026-12-07T12:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fe58d1b8e4d4e7ac277bb5bfdbb9e7d4e78728a86404f679f8f56fdea049caee
+source: Teaching Vacancies
+source_job_id: admin-assistant-hounsdown-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-hounsdown-school
+---
 
 ---
 action: 
@@ -66,6 +81,21 @@ factual_fingerprint: d3bb72ffb72d8a29c63f58a065cce5d5e2c7f30357b3cb4a6514f6a93b4
 source: Teaching Vacancies
 source_job_id: administrative-officer-6f5b3994-a8dd-421a-bcd8-4822e0fb211d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-6f5b3994-a8dd-421a-bcd8-4822e0fb211d
+---
+
+---
+action: 
+POSS | Hampshire | Southampton, South East, SO19 9NA | £30,023 - £32,046 FTE / £25,753 - £28,234 | Cover Coordinator & Business Administration Assistant
+employer: Oasis Academy Mayfield
+closing_date: 2026-12-10T12:00:59+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 41632d93f49b83792b2b8e270a4c0412e27b62d390ea209292005cee0297c7de
+source: Teaching Vacancies
+source_job_id: cover-coordinator-business-administration-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-coordinator-business-administration-assistant
 ---
 
 ## EXCLUDED BY REVIEW

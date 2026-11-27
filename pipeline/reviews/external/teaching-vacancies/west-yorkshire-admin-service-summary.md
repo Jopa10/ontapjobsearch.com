@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-26
-review_fingerprint: eebe6d700f9a3b8cd6d54132e47429957030f9fa39ec584b0716f3b69c910af1
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 20f3b04c90947e74656e949236db9280fb3a02db61fa86a75fac194680111343
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 36
-- Selected: 5
+- Records: 37
+- Selected: 7
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 25
+- Hard pass: 24
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-7934
 
 ---
 action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD8 9AR | £36,581 to £40,444 per annum (pro rata £33,884 to £37,463 per annum) | Personal Assistant to SLT
+employer: Eden Boys' Leadership Academy, Bradford
+closing_date: 2026-12-18T23:59:00+00:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 68370d0b58c94a043221137b48a49ab4fa7e56974624ae4d802d6cb4be7ca194
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-slt-eden-boys-leadership-academy-bradford
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-slt-eden-boys-leadership-academy-bradford
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Batley, Yorkshire and the Humber, WF17 0AD | £23,021.00 Annually (Actual) Grade 5 | Receptionist/Administration Officer
 employer: Batley Grammar School
 closing_date: 2026-12-03T09:00:00+00:00
@@ -68,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS28 8EP | £27,274 - £29,071 pro rata £20,078 - £21,784 actual | School Administrator
-employer: Pudsey Bolton Royd Primary School
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Clear admin/service title: administrator
+SELECTED | Yorkshire - West | Castleford, Yorkshire and the Humber, WF10 4JQ | £23,433.00 - £25,311.00 Annually (Actual) £27,274-£29,071 FTE | School Office Administrator
+employer: Castleford Academy
+closing_date: 2026-12-07T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: a764d53bad1689ba5e2c8fbbef932e2ec8c426a9a0f0f05aa24f88d611f569c8
+factual_fingerprint: 5604e791516e4c8cf432718a849aa8e2bac1d54557766d85427743e79bc31366
 source: Teaching Vacancies
-source_job_id: school-administrator-pudsey-bolton-royd-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-pudsey-bolton-royd-primary-school
+source_job_id: school-office-administrator-castleford-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-castleford-academy
 ---
 
 ---
@@ -94,6 +109,21 @@ factual_fingerprint: e6ae7886fbb2f5333b9108cdf2db7f2293a5c76799a558d0e5e1879626d
 source: Teaching Vacancies
 source_job_id: send-administrator-leeds-east-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-leeds-east-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Keighley, Yorkshire and the Humber, BD20 6EB | £30,198.00 - £31,890.00 Annually (Actual) Band SO1, SCP 23-25, Fixed Term until July 2027, Core working pattern Mon-Thu 8:00am-4:00pm, Fri 8:00am-3:30pm (need of flexibility) | Sports Coach & School Games Administrator
+employer: Carlton Keighley
+closing_date: 2026-12-07T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 7229c26335650605c17cda6da3069640f8f683d90dd2013abbaee083f8bb35ba
+source: Teaching Vacancies
+source_job_id: sports-coach-school-games-administrator-carlton-keighley-keighley-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-coach-school-games-administrator-carlton-keighley-keighley-west-yorkshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -200,14 +230,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-beckfoot
 - [Attendance and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-welfare-officer-leeds-city-academy) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-owlcotes-multi-academy-trust) — Excluded senior/management title.
 - [Clerical Officer](https://teaching-vacancies.service.gov.uk/jobs/clerical-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-north-halifax-grammar-school) — Excluded senior/management title.
 - [Data Protection Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-officer-waterton-academy-trust) — Salary over £50k.
 - [Director of People & Culture](https://teaching-vacancies.service.gov.uk/jobs/director-of-people-culture-shipley-college) — Excluded senior/management title.
 - [Employee Relations (ER) Advisor - Fixed Term until 17th December 2027](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-er-advisor-fixed-term-until-17th-december-2027) — No usable numeric salary.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — No usable numeric salary.
 - [Examination Invigilator - Casual Contract (Fixed Term Contract)](https://teaching-vacancies.service.gov.uk/jobs/examination-invigilator-casual-contract-fixed-term-contract-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire) — No usable numeric salary.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dixons-academies-trust) — Salary over £50k.
-- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-impact-education-multi-academy-trust) — Excluded senior/management title.
+- [Finance Manager (8009)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-8009) — Excluded senior/management title.
 - [HR Administration Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-team-leader) — Excluded senior/management title.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-crawshaw-academy) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Salary over £50k.

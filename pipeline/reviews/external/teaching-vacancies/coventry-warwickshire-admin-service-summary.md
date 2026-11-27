@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-11-26
-review_fingerprint: bc237222071f137b4ba28f17ae7bc56fa47ca72d60fb52d27a22710d989582fe
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: cccbda617c5da1c8a41235f65310e44525e1e09de0c67f4e782f026b1737c606
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 6
-- POSS awaiting decision: 3
+- Records: 14
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-16-5-ho
 
 ---
 action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6EA | £11,943.00 Annually (Actual) Monday - Friday - 9am - 1pm | Business Administrator
-employer: Harris Church of England Academy
-closing_date: 2026-11-26T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4f762e2c3b199dd44b4002816821dbcb904b4ad1109515fbde6009893d548602
-source: Teaching Vacancies
-source_job_id: business-administrator-harris-church-of-england-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-harris-church-of-england-academy
----
-
----
-action: 
 SELECTED | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 7HN | NJC05 to NJC06 £26,427.00 to £26,847.00 FTE £13,745.72 to £13,964.18 Actual | Receptionist
 employer: Henry Hinde School
 closing_date: 2026-12-07T00:00:00+00:00
@@ -141,21 +126,6 @@ factual_fingerprint: dff7f45317f629e4f2fa04b84ecc4419a6f22b3fd5ac4f9a801f2901a6b
 source: Teaching Vacancies
 source_job_id: inclusion-assistant-shipston-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-assistant-shipston-high-school
----
-
----
-action: 
-POSS | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 2AJ | £22,932.00 - £23,296.00 Annually (Actual) Romero Grade 3 | School Receptionist
-employer: Cardinal Wiseman Catholic School
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6091705f8b1fdede13156d9fae31b09bb3edf09223b8873a562836b7d0883f04
-source: Teaching Vacancies
-source_job_id: school-receptionist-73981d4d-77b2-4607-b7b4-a3402b88378e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-73981d4d-77b2-4607-b7b4-a3402b88378e
 ---
 
 ## EXCLUDED BY REVIEW

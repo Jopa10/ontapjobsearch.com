@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-11-26
-review_fingerprint: 6f73de7ec75a65a3cd18036f75b7dc1da5ccd2c7de5877cdcf7d09d644658217
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 8aa411344ee664913f1d1810356267c5619eb0f8c12ddc59fc1f7c4d175ad580
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -34,6 +34,21 @@ factual_fingerprint: 068b073fdfef65fbcbc5b1bc321789424854159f1dea44de3bb848c2708
 source: Teaching Vacancies
 source_job_id: administration-assistant-cover-receptionist
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-cover-receptionist
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Royston, East of England, SG8 7JH | £27,274.00 - £29,071.00 Annually (FTE) Level 4 Scale Points 7 -11 | ATTENDANCE OFFICER
+employer: King James Academy Royston
+closing_date: 2026-12-07T10:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: eea413a0418c70c9db42cdd1d12a8f5d875be982c7dcbabc99779aff42933be0
+source: Teaching Vacancies
+source_job_id: attendance-officer-king-james-academy-royston-royston-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-king-james-academy-royston-royston-hertfordshire
 ---
 
 ---

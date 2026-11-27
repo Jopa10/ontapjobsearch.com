@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-11-26
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 358edd24129758dda27598b962064a5adf54c03dd2edea52de819f99b05a4cbe
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,14 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 0
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | North East - Tees Valley | Redcar, North East, TS10 1PJ | £22,478 - £22,833 | Business Support Assistant
+employer: Sacred Heart Catholic Secondary
+closing_date: 2026-12-06T09:00:00+00:00
+reason: Clear admin/service title: business support assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 9372512f75570c1a8c03a556644c85ed164da0a2f1c248dac741cd2090bad4e9
+source: Teaching Vacancies
+source_job_id: business-support-assistant-sacred-heart-catholic-secondary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-sacred-heart-catholic-secondary
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -33,7 +46,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Assistant School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-school-business-manager-river-tees-hospital-school) — Excluded senior/management title.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-fecc3916-9c14-434c-9e0b-d39660391a02) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-nicholas-postgate-catholic-academy-trust-middlesbrough-not-recorded) — No usable numeric salary.
 - [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-0059e65f-970d-422a-9b7d-94a093a318d4) — Excluded senior/management title.

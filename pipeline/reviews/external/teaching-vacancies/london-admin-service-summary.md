@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-26
-review_fingerprint: fbd141147b383f80ebb1c3f8b94db2cff44a2bf72e612862813329d19c5c5d2a
-routing_manifest_sha256: 00a4d3e60de0164690f12e22891a7c0bfcd47884fd408a59b48485ccbc98984b
+review_date: 2026-11-27
+review_fingerprint: 5a8f8a3e05c97f419e0ede5754f6a5fe3db25ce470c7be26d12451f7eeb82c76
+routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 69
-- Selected: 12
-- POSS awaiting decision: 8
+- Records: 67
+- Selected: 10
+- POSS awaiting decision: 9
 - Excluded: 0
-- Hard pass: 49
+- Hard pass: 48
 
 ## SELECTED
 
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | London | London, London, E1 2ND | NJC Scale 2 to 4 £31,224 to £34,448 full-time equivalent | Admin & Finance Officer
-employer: Bigland Green Primary School
-closing_date: 2026-11-27T12:00:00+00:00
-reason: Owner-approved reception/finance role within salary limit
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b1c4bcd512df01d20137e1c387dd863a9b27c53c52cfe14c3514460cafc2bb24
-source: Teaching Vacancies
-source_job_id: admin-finance-officer-bigland-green-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-officer-bigland-green-primary-school
----
-
----
-action: 
 SELECTED | London | Romford, London, RM6 4TR | £31,284.00 - £32,653.00 Annually (FTE) OUTL4 (SCP 7–10) Actual Salary: £8,891.62 | Administrative Assistant (part time)
 employer: Newbridge School
 closing_date: 2026-11-30T09:00:00+00:00
@@ -64,21 +49,6 @@ factual_fingerprint: da723b4722d2782a3f8ce43ab3aae60633fd24f0e415d4da406462340cc
 source: Teaching Vacancies
 source_job_id: administrative-assistant-part-time-newbridge-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-part-time-newbridge-school
----
-
----
-action: 
-SELECTED | London | London, London, W12 0SP | £33,036.00 - £34,488.00 Annually (FTE) Salary will be Prorated | Administrative Assistant to the SENCO
-employer: Cambridge School
-closing_date: 2026-11-27T09:00:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e6f99a8bed024e845a292712cdd0f1a9cdf28b0fff6edd6c19f9771e0001d10a
-source: Teaching Vacancies
-source_job_id: administrative-assistant-to-the-senco
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-to-the-senco
 ---
 
 ---
@@ -109,21 +79,6 @@ factual_fingerprint: 4dac70c9d6a52ac3b8bc15c30655a5b46041d043d1a5ab8811f56216dd8
 source: Teaching Vacancies
 source_job_id: afternoon-receptionist-bushey-meads-school-bushey-hertfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/afternoon-receptionist-bushey-meads-school-bushey-hertfordshire
----
-
----
-action: 
-SELECTED | London | Stanmore, London, HA7 1PL | £33,129.00 - £35,109.00 Annually (FTE) | Attendance Officer
-employer: Park High School
-closing_date: 2026-11-26T23:59:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 51d30ab88510d4886f343c7dab95c43716f7a74ae8d2f2b7506df5c0b623be36
-source: Teaching Vacancies
-source_job_id: attendance-officer-park-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-park-high-school
 ---
 
 ---
@@ -201,7 +156,37 @@ source_job_id: receptionist-administration-assistant-lake-farm-park-academy-haye
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-lake-farm-park-academy-hayes-middlesex
 ---
 
+---
+action: 
+SELECTED | London | Dagenham, London, RM10 7FN | £30,847.00 Annually (Actual) | Receptionist/Administrator
+employer: Brook Sixth Form and Academy
+closing_date: 2026-12-04T10:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 43dce890c867db7e4b2a7fc1d820a5fbe8f26a121cc10f1da54ae794d258d3e0
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-0742551b-6cc4-4d3e-acac-6ef8cfcc262a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-0742551b-6cc4-4d3e-acac-6ef8cfcc262a
+---
+
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | London | London, London, SE18 1HE | £29,562.00 Annually (FTE) Pro rota for Term Time Only is £25,770 | Administrative Assistant
+employer: Bannockburn Primary School
+closing_date: 2027-01-04T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bd8f8c8083c44eac4ceed404826bbac12368ddaca6d3423009d30be62d68e6c3
+source: Teaching Vacancies
+source_job_id: administrative-assistant-bannockburn-primary-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-bannockburn-primary-school-london
+---
 
 ---
 action: 
@@ -216,6 +201,21 @@ factual_fingerprint: 748eb25585b28e7d5732d5e690376e74736c4efc652c15baaafd5c5802d
 source: Teaching Vacancies
 source_job_id: administrative-assistant-oak-lodge-primary-school-west-wickham-kent
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-oak-lodge-primary-school-west-wickham-kent
+---
+
+---
+action: 
+POSS | London | London, London, SE1 6AG | £29,801 - £31,083 per year | Business Support Administrator
+employer: Ark Globe Academy
+closing_date: 2026-12-18T00:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b66d301116e000de3be84e2950f871b98be947edac8c782ef639217f5c307eba
+source: Teaching Vacancies
+source_job_id: business-support-administrator-ark-globe-academy-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-administrator-ark-globe-academy-london
 ---
 
 ---
@@ -261,21 +261,6 @@ factual_fingerprint: 3ae5338d51d19166b76dbfcf01cabf95469b9624996600b6a1df31791e2
 source: Teaching Vacancies
 source_job_id: receptionist-lift-kingsley
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-kingsley
----
-
----
-action: 
-POSS | London | Dagenham, London, RM10 7FN | £30,847.00 Annually (Actual) | Receptionist/Administrator
-employer: Brook Sixth Form and Academy
-closing_date: 2026-12-04T10:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 43dce890c867db7e4b2a7fc1d820a5fbe8f26a121cc10f1da54ae794d258d3e0
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-0742551b-6cc4-4d3e-acac-6ef8cfcc262a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-0742551b-6cc4-4d3e-acac-6ef8cfcc262a
 ---
 
 ---
@@ -332,7 +317,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-fd9da38b-d20a-4880-8cf1-32bc2f752164) — Insufficient admin/service evidence.
 - [Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-paddock-school-london) — No usable numeric salary.
 - [Admissions and Cover Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-cover-co-ordinator) — Insufficient admin/service evidence.
-- [Attendance & Inclusion Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-inclusion-officer-hurstmere-school) — Insufficient admin/service evidence.
 - [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-waltham-forest-college) — Insufficient admin/service evidence.
 - [Business Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-haberdashers-hatcham-college) — Insufficient admin/service evidence.
 - [Careers & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-work-experience-co-ordinator-davenant-foundation-school-loughton-essex) — No usable numeric salary.
@@ -345,6 +329,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-winchmore-school) — Excluded senior/management title.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal-haberdashers-borough-academy-london) — Out-of-scope occupation: principal.
 - [Employee Relations Specialist (x2)](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist-x2) — Salary over £50k.
+- [Federation Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/federation-senior-administration-officer) — Excluded senior/management title.
 - [Finance and Admissions Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-admissions-assistant) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Salary over £50k.
 - [Fixed Term Employability Coach](https://teaching-vacancies.service.gov.uk/jobs/fixed-term-employability-coach) — Out-of-scope occupation: coach.
@@ -356,24 +341,23 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-barking-abbey-school-a-specialist-sports-and-humanities-college) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-paddock-school) — No usable numeric salary.
 - [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover-oak-wood-school) — Excluded senior/management title.
-- [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college-london) — Insufficient admin/service evidence.
+- [Inclusion Senior Learning Support Practitioner](https://teaching-vacancies.service.gov.uk/jobs/inclusion-senior-learning-support-practitioner) — Excluded senior/management title.
 - [Lead Attendance Officer/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/lead-attendance-officer-receptionist) — Excluded senior/management title.
 - [Multisite HR Manager](https://teaching-vacancies.service.gov.uk/jobs/multisite-hr-manager) — Excluded senior/management title.
 - [Multisite HR Manager](https://teaching-vacancies.service.gov.uk/jobs/multisite-hr-manager-coombe-wood-school) — Excluded senior/management title.
 - [Music Department Administrator](https://teaching-vacancies.service.gov.uk/jobs/music-department-administrator) — No usable numeric salary.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-0e28a447-7d05-4d98-a982-7c5d569e40f0) — Excluded senior/management title.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-ark-evelyn-grace-academy) — Excluded senior/management title.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-ark-evelyn-grace-academy-london) — Excluded senior/management title.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-haberdashers-hatcham-college) — Excluded senior/management title.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-deer-park-school) — Excluded senior/management title.
 - [Operations Manager- Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-maternity-cover) — Excluded senior/management title.
-- [PA to Group Executive Director of HR](https://teaching-vacancies.service.gov.uk/jobs/pa-to-group-executive-director-of-hr) — Excluded senior/management title.
 - [PA to Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-office-manager-the-quest-academy) — Excluded senior/management title.
+- [People Manager](https://teaching-vacancies.service.gov.uk/jobs/people-manager-oasis-community-learning) — Excluded senior/management title.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy-orpington-kent) — Excluded senior/management title.
 - [Receptionist / Administrator in a large primary school](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-in-a-large-primary-school) — No usable numeric salary.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school-london) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-the-sherwood-school) — Excluded senior/management title.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-connaught-special-school-london) — Excluded senior/management title.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-the-grove) — Excluded senior/management title.
+- [Schools Liaison and Engagement Officer (6 month-FTC)](https://teaching-vacancies.service.gov.uk/jobs/schools-liaison-and-engagement-officer-6-month-ftc) — No usable numeric salary.
 - [Senior People Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-people-operations-manager) — Excluded senior/management title.
 - [Sixth Form Learning Mentor - Academic & Pastoral](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-learning-mentor-academic-pastoral-wren-academy-finchley) — Insufficient admin/service evidence.
 - [Student Engagement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/student-engagement-coordinator-croydon-college) — No usable numeric salary.
