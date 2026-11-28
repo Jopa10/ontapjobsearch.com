@@ -4,8 +4,8 @@
 - Live route: `/eastbourne/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 113
-- automatic exclude: 45
-- effective include: 9
-- effective review: 113
-- effective exclude: 45
+- automatic include: 5
+- automatic review: 63
+- automatic exclude: 34
+- effective include: 5
+- effective review: 63
+- effective exclude: 34
 
-## INCLUDE (9)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: HR GO Recruitment - Agency - Permanent
-location: Eastbourne
-source: JobG8
-job_id: jobg8-2371362
-reason: Exact approved Eastbourne workplace.
----
+## INCLUDE (5)
 
 ---
 action: 
@@ -57,18 +45,6 @@ company: South Downs Health and Care Ltd (SDHC)
 location: Eastbourne, BN20 7SS
 source: NHS Jobs
 job_id: nhs-5737256
-reason: Exact approved Eastbourne workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Assistant
-company: Recruitment Solutions - Agency - Permanent
-location: Eastbourne
-source: JobG8
-job_id: jobg8-2364205
 reason: Exact approved Eastbourne workplace.
 ---
 
@@ -100,30 +76,6 @@ reason: Exact approved Eastbourne workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Eastbourne
-source: JobG8
-job_id: jobg8-2439953
-reason: Exact approved Eastbourne workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Private Client Legal Secretary
-company: Recruitment Solutions - Agency - Permanent
-location: Eastbourne
-source: JobG8
-job_id: jobg8-2364206
-reason: Exact approved Eastbourne workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Recruitment Admin (Part-Time) Temp
 company: Pertemps Crawley - Agency - Temporary
 location: Eastbourne
@@ -132,7 +84,7 @@ job_id: jobg8-23643_225782744
 reason: Exact approved Eastbourne workplace.
 ---
 
-## REVIEW (113)
+## REVIEW (63)
 
 ---
 action: 
@@ -150,143 +102,11 @@ reason: The stated location is broader or less specific than the approved Eastbo
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2437957
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2468949
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: NC Associates - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2382382
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2358180
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: TPF Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2457140
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Assistant - Maternity Cover
 company: Alexander Lloyd - Agency - Contract
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225847624
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant - Maternity Cover
-company: Alexander Lloyd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2466493
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant - Sales Ledger
-company: International Logistics Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2444396
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: Reed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2359731
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: SRM RECRUITMENT LIMITED - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2463833
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Avon Search & Selection - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225779751
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Operations Resources Limited - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-108019280
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -330,18 +150,6 @@ reason: No approved Eastbourne employment-market rule matched the stated locatio
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Recruitment Solutions - Agency - Permanent
-location: East Grinstead
-source: JobG8
-job_id: jobg8-2446932
-reason: No approved Eastbourne employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bus & Coach PSV Warranty Administrator
 company: ACS Automotive Recruitment - Agency - Permanent
 location: Sussex
@@ -371,18 +179,6 @@ company: Streamline Search - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225847576
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Buyer / Purchasing Assistant
-company: Rise Technical Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225776908
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -426,23 +222,11 @@ reason: The stated location is broader or less specific than the approved Eastbo
 action: 
 decision: review
 automatic_decision: review
-title: Commercial Property Paralegal
-company: Recruitment Solutions - Agency - Permanent
+title: Clinical Administrator
+company: Huntress - Crawley - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2364210
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Paralegal - Progression opportunities
-company: qed legal - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2466229
+job_id: jobg8-23643_225882828
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -474,83 +258,11 @@ reason: The stated location is broader or less specific than the approved Eastbo
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Assistant
-company: GerrardWhite - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2462799
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Conveyancing Assistant (Progression to Paralegal)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225816723
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Conveyancing Asssitant
-company: GerrardWhite - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2467077
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Conveyancing Legal Assistant
-company: TN Recruits - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2432492
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Conveyancing Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2442125
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Control Assistant Trainee Finance Assistant
-company: Harvey John - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2453823
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Harvey John - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2455732
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -582,83 +294,11 @@ reason: The stated location is broader or less specific than the approved Eastbo
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2439938
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2439954
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: NC Associates - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2444012
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Reed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2359600
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Tony Alan Recruitment - Agency - Permanent
-location: Hailsham
-source: JobG8
-job_id: jobg8-2457783
-reason: No approved Eastbourne employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller - Accounts Assistant
 company: Morgan Mckinley (Crawley) - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225855415
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller - Accounts Assistant
-company: Morgan McKinley - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2437289
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -683,30 +323,6 @@ company: Travail Employment Group - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225868963
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital & Social Media Coordinator
-company: Pineapple Careers - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2390144
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Marketing Executive
-company: Reed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2432652
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -751,82 +367,10 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: Harvey John - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2453757
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
 company: Michael Page - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225793008
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2374396
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2470899
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Officer - Charity Sector
-company: Grafton Banks Limited - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2371762
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Administrator
-company: Financial Divisions - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2444316
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Freelance PR Specialist / Journalist - Press & Media
-company: H2O Recruitment Services Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2471116
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -840,6 +384,18 @@ location: Buxted, TN22 5FD, Heathfield, TN21 0DS
 source: NHS Jobs
 job_id: nhs-5734103
 reason: No approved Eastbourne employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Hospital Administrator
+company: Lloyd Recruitment - East Grinstead - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225883935
+reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
 ---
@@ -882,71 +438,11 @@ reason: The stated location is broader or less specific than the approved Eastbo
 action: 
 decision: review
 automatic_decision: review
-title: Interim Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2438217
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Internal Sales Executive
-company: Sapien - Agency - Permanent
-location: Haywards Heath
-source: JobG8
-job_id: jobg8-23643_225778933
-reason: No approved Eastbourne employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Internal Sales Executive
-company: Wise Monkey Recruitment ltd - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225816202
-reason: No approved Eastbourne employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: IP Records Administrator
-company: The Law Support Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2377973
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Administrator
 company: Lloyd Recruitment - East Grinstead - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225875428
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Leasehold Enfranchisement Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2368275
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -966,18 +462,6 @@ reason: The stated location is broader or less specific than the approved Eastbo
 action: 
 decision: review
 automatic_decision: review
-title: Legal Assistant
-company: Essential Employment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2471338
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing & Membership Manager
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
@@ -990,11 +474,11 @@ reason: The stated location is broader or less specific than the approved Eastbo
 action: 
 decision: review
 automatic_decision: review
-title: Marketing & Membership Manager
-company: First Recruitment Services - Agency - Permanent
+title: Marketing - Community Coordinator
+company: ASL Technical Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2449038
+job_id: jobg8-23643_225836390
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -1002,11 +486,11 @@ reason: The stated location is broader or less specific than the approved Eastbo
 action: 
 decision: review
 automatic_decision: review
-title: Marketing - Community Coordinator
-company: ASL Technical Ltd - Agency - Permanent
+title: Marketing Assistant (Part-Time) ASAP Start
+company: Office Angels - Agency - Temporary
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225836390
+job_id: jobg8-23643_225883685
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -1031,18 +515,6 @@ company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225830544
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: First Recruitment Services - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2466098
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -1079,30 +551,6 @@ company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225810365
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Accounts Assistant
-company: NC Associates - Agency - Permanent
-location: Haywards Heath
-source: JobG8
-job_id: jobg8-2463916
-reason: No approved Eastbourne employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Finance Assistant
-company: Harvey John - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2364442
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -1151,18 +599,6 @@ company: Portfolio Payroll Limited - Agency - Temporary
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225815820
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Lloyd Recruitment Services Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2437751
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -1314,30 +750,6 @@ reason: The stated location is broader or less specific than the approved Eastbo
 action: 
 decision: review
 automatic_decision: review
-title: Residential Property Legal Secretary
-company: The Recruiter Specialists Group Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2460392
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Hamptons - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2459645
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Administrator (Order Processing)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Sussex
@@ -1367,30 +779,6 @@ company: Excel Resourcing - Agency - Contract
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225840605
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Pembrook Resourcing - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2381242
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Reed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2449649
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
@@ -1454,67 +842,7 @@ job_id: jobg8-23643_225806110
 reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2465201
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Weekend Activities Coordinator
-company: Caring Homes Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2406038
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Wellbeing Coordinator
-company: Caring Homes Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2473313
-reason: The stated location is broader or less specific than the approved Eastbourne employment market and needs review.
----
-
-## EXCLUDE (45)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Littlehampton
-source: JobG8
-job_id: jobg8-2357943
-reason: The stated workplace belongs outside the approved Eastbourne employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable Assistant
-company: Reed - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-2443190
-reason: The stated workplace belongs outside the approved Eastbourne employment market.
----
+## EXCLUDE (34)
 
 ---
 action: 
@@ -1537,18 +865,6 @@ company: Avon Search & Selection - Agency - Permanent
 location: Worthing
 source: JobG8
 job_id: jobg8-23643_225792284
-reason: The stated workplace belongs outside the approved Eastbourne employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Activities Coordinator
-company: Avon Search & Selection Ltd - Agency - Permanent
-location: Worthing
-source: JobG8
-job_id: jobg8-2385761
 reason: The stated workplace belongs outside the approved Eastbourne employment market.
 ---
 
@@ -1604,71 +920,11 @@ reason: The stated workplace belongs outside the approved Eastbourne employment 
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clinical Administrator
-company: Hastings & Rother Healthcare
-location: St. Leonards-on-sea, TN37 6BG, Hastings, TN34 3DW, St Leonard's on Sea, TN38 9QU
-source: NHS Jobs
-job_id: nhs-5727859
-reason: The stated workplace belongs outside the approved Eastbourne employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Commercial Property Paralegal
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Worthing
-source: JobG8
-job_id: jobg8-2367275
-reason: The stated workplace belongs outside the approved Eastbourne employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Contracts Administrator
 company: Matchtech - Agency - Contract
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225838562
-reason: The stated workplace belongs outside the approved Eastbourne employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Conveyancing Secretary
-company: JS Legal Recruitment Ltd - Agency - Permanent
-location: Hastings
-source: JobG8
-job_id: jobg8-2382282
-reason: The stated workplace belongs outside the approved Eastbourne employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controller
-company: Reed - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-2451387
-reason: The stated workplace belongs outside the approved Eastbourne employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controller
-company: UK Plumbing Supplies Limited - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-2460788
 reason: The stated workplace belongs outside the approved Eastbourne employment market.
 ---
 
@@ -1693,18 +949,6 @@ company: Morgan Mckinley (Crawley) - Agency - Permanent
 location: Horsham
 source: JobG8
 job_id: jobg8-23643_225813158
-reason: The stated workplace belongs outside the approved Eastbourne employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Financial Services Administrator
-company: Morgan McKinley - Agency - Permanent
-location: Horsham
-source: JobG8
-job_id: jobg8-2413459
 reason: The stated workplace belongs outside the approved Eastbourne employment market.
 ---
 
@@ -1748,18 +992,6 @@ reason: The stated workplace belongs outside the approved Eastbourne employment 
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Mortgage Administrator
-company: Blakemore Recruitment - Agency - Permanent
-location: Horsham
-source: JobG8
-job_id: jobg8-2467068
-reason: The stated workplace belongs outside the approved Eastbourne employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Order processing Administrator
 company: Gi Group - Agency - Temporary
 location: Horsham
@@ -1772,11 +1004,11 @@ reason: The stated workplace belongs outside the approved Eastbourne employment 
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Paralegal - Sports & Technology Consultancy
-company: FLTalent - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-2470710
+title: Patient Care Advisor - Receptionist
+company: St Peter’s Medical Centre
+location: Brighton, BN1 4LA
+source: NHS Jobs
+job_id: nhs-5756698
 reason: The stated workplace belongs outside the approved Eastbourne employment market.
 ---
 
@@ -1981,18 +1213,6 @@ company: BIMM University - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225850587
-reason: The stated workplace belongs outside the approved Eastbourne employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Social Media Coordinator
-company: BIMM University - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-2471165
 reason: The stated workplace belongs outside the approved Eastbourne employment market.
 ---
 

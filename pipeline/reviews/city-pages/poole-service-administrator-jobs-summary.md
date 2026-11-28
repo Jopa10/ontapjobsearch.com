@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,62 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 44
+- automatic include: 8
+- automatic review: 24
 - automatic exclude: 0
-- effective include: 16
-- effective review: 44
+- effective include: 8
+- effective review: 24
 - effective exclude: 0
 
-## INCLUDE (16)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Manager
-company: Collaborate Recruitment - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-2389631
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-2441730
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Clerk
-company: Michael Page Finance - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-2374397
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-2374789
-reason: Exact approved Poole workplace.
----
+## INCLUDE (8)
 
 ---
 action: 
@@ -136,54 +88,6 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Administrator
-company: University Hospitals Dorset NHS Foundation Trust
-location: Poole, BH12 5AG
-source: NHS Jobs
-job_id: nhs-5726284
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Administrator
-company: Ashley Rees Associates - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225776924
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Payroll Clerk
-company: McGinnis Loy Associates Ltd - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-2374531
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Purchase Ledger Clerk
-company: Reed - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-2359414
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Administrator
 company: Wallace Hind Selection LTD - Agency - Permanent
 location: Poole
@@ -216,19 +120,7 @@ job_id: jobg8-23643_225817065
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (44)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2363886
-reason: No exact Poole workplace matched; local geographic review is required.
----
+## REVIEW (24)
 
 ---
 action: 
@@ -258,30 +150,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: Silcom Recruitment Limited - Agency - Permanent
-location: Christchurch
-source: JobG8
-job_id: jobg8-2419668
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant - Wareham - &;28-32K
-company: Bond Williams - Agency - Permanent
-location: Wareham
-source: JobG8
-job_id: jobg8-2364433
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrative Assistant
 company: Dorset HealthCare University NHS Foundation Trust
 location: Wareham, BH20 4PP
@@ -295,70 +163,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2439100
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Team Jobs - Commercial - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225858635
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: WR HVAC - Agency - Contract
-location: Wimborne
-source: JobG8
-job_id: jobg8-23643_225812150
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: CMA Recruitment Group - Agency - Permanent
-location: Ferndown
-source: JobG8
-job_id: jobg8-2363325
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Reed - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-2413355
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper - Bournemouth - up to &;40,000
-company: Bond Williams - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2364211
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -390,47 +198,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Legal Assistant
-company: 360 Recruitment - Agency - Permanent
-location: Wimborne
-source: JobG8
-job_id: jobg8-2409717
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: CMA Recruitment Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2363906
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225790377
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: T2M Resourcing Ltd - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2463069
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -514,19 +286,7 @@ title: Digital Account Manager
 company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2442204
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2363890
+job_id: jobg8-23643_225866461
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -546,35 +306,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant - Poole - up to &;16.00 per hour
-company: Bond Williams - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2463720
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Business Partner
 company: Canford School - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225848160
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Business Partner
-company: Canford School - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2467243
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -594,30 +330,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Group Accounts Assistant - Bournemouth - &;29,400
-company: Bond Williams - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2364237
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Accounts Assistant
-company: Reed - Agency - Permanent
-location: Ferndown
-source: JobG8
-job_id: jobg8-2441870
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Operations Assistant
 company: Team Jobs - Commercial - Agency - Temporary
 location: Bournemouth
@@ -630,59 +342,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Practice Administrator
-company: Christchurch Medical Practice
-location: Christchurch, BH23 3AF
-source: NHS Jobs
-job_id: nhs-5700886
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Chalk Hill Group - Agency - Permanent
-location: Christchurch
-source: JobG8
-job_id: jobg8-2442211
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Clerk
 company: Hays Accounts and Finance - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225827011
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2437974
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2442254
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 16
-- automatic exclude: 8
+- automatic review: 14
+- automatic exclude: 7
 - effective include: 8
-- effective review: 16
-- effective exclude: 8
+- effective review: 14
+- effective exclude: 7
 
 ## INCLUDE (8)
 
@@ -88,11 +88,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Support Worker
-company: Nurseplus UK Ltd - Agency - Temporary
+title: Support Care Worker
+company: Sunnylives support ltd - Agency - Permanent
 location: Southampton
 source: JobG8
-job_id: jobg8-23643_225815366
+job_id: jobg8-23643_225797789
 reason: Approved Southampton catchment.
 ---
 
@@ -100,11 +100,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Support Worker (Learning Disabilities)
-company: Cygnet - Agency - Permanent
+title: Support Worker
+company: Nurseplus UK Ltd - Agency - Temporary
 location: Southampton
 source: JobG8
-job_id: jobg8-2389628
+job_id: jobg8-23643_225815366
 reason: Approved Southampton catchment.
 ---
 
@@ -120,19 +120,7 @@ job_id: jobg8-23643_225864158
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (16)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Assistant
-company: TRIDENT HEALTHCARE SOLUTIONS LIMITED - Agency - Permanent
-location: Alton
-source: JobG8
-job_id: jobg8-2391873
-reason: No approved Southampton catchment rule matched; local review required.
----
+## REVIEW (14)
 
 ---
 action: 
@@ -282,11 +270,11 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Residential Childcare Worker
-company: First For Support - Agency - Temporary
+title: Support Worker
+company: Key Health - Agency - Permanent
 location: Tadley
 source: JobG8
-job_id: jobg8-23643_225781662
+job_id: jobg8-23643_225880731
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -302,31 +290,7 @@ job_id: jobg8-23643_225653471
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Waking Night Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-108357109
-reason: No approved Southampton catchment rule matched; local review required.
----
-
-## EXCLUDE (8)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Assistant
-company: Avon Search & Selection - Agency - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-23643_225779755
-reason: Separate employment market.
----
+## EXCLUDE (7)
 
 ---
 action: 
@@ -380,18 +344,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Residential Childcare Support Worker
-company: Apple Orchard - Agency - Permanent
-location: Aldershot
-source: JobG8
-job_id: jobg8-108370630
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Specialist Care Support Worker
 company: SCA Care - Agency - Permanent
 location: Winchester
@@ -409,5 +361,17 @@ company: Kingdom People - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225868667
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Support Worker - Full Time
+company: Enham Trust - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-23643_225881662
 reason: Separate employment market.
 ---

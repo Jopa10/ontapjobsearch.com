@@ -4,7 +4,7 @@
 - Live route: `/swansea/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 5
+- automatic include: 5
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 10
-- effective review: 5
+- effective include: 5
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (5)
 
 ---
 action: 
@@ -76,42 +76,6 @@ reason: Exact approved Swansea workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-2414814
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Mortgage Administrator
-company: KFS Recruitment - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-2434303
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Project Support Administrator
-company: CPS Group (UK) Limited - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225781406
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Reception - Swansea
 company: Office Angels - Agency - Temporary
 location: Swansea
@@ -120,31 +84,7 @@ job_id: jobg8-23643_225863486
 reason: Exact approved Swansea workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225782219
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Test Administrator (TIMSS) - Wales - Fully Remote
-company: Pearson Plc - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-2457829
-reason: Exact approved Swansea workplace.
----
-
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -155,18 +95,6 @@ company: Prospero Teaching Cardiff - Agency - Temporary
 location: Bridgend
 source: JobG8
 job_id: jobg8-23643_225856958
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Flotek - Agency - Permanent
-location: Bridgend
-source: JobG8
-job_id: jobg8-108373578
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

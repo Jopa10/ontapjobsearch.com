@@ -4,7 +4,7 @@
 - Live route: `/fareham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 142
-- automatic exclude: 51
-- effective include: 10
-- effective review: 142
-- effective exclude: 51
+- automatic include: 6
+- automatic review: 81
+- automatic exclude: 35
+- effective include: 6
+- effective review: 81
+- effective exclude: 35
 
-## INCLUDE (10)
+## INCLUDE (6)
 
 ---
 action: 
@@ -32,7 +32,7 @@ title: Accounts Receivable - French speaking
 company: CMA Recruitment Group - Agency - Permanent
 location: Fareham
 source: JobG8
-job_id: jobg8-2469587
+job_id: jobg8-23643_225878507
 reason: Exact approved Fareham workplace.
 ---
 
@@ -76,59 +76,11 @@ reason: Exact approved Fareham workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Assistant - Commercial Property
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-2368321
-reason: Exact approved Fareham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Assistant - Dispute Resolution
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-2368322
-reason: Exact approved Fareham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Media Capability Manager
 company: Matchtech - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225826307
-reason: Exact approved Fareham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Accounts Payable Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-2364092
-reason: Exact approved Fareham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Payroll Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-2364089
 reason: Exact approved Fareham workplace.
 ---
 
@@ -144,7 +96,7 @@ job_id: jobg8-23643_225794760
 reason: Exact approved Fareham workplace.
 ---
 
-## REVIEW (142)
+## REVIEW (81)
 
 ---
 action: 
@@ -155,66 +107,6 @@ company: Gi Group - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225793113
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Havant
-source: JobG8
-job_id: jobg8-2362849
-reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Waterlooville
-source: JobG8
-job_id: jobg8-2364076
-reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2364090
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2364111
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225782306
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -240,54 +132,6 @@ location: Waterlooville
 source: JobG8
 job_id: jobg8-23643_225794606
 reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Robert Half - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2421249
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: We Do Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2393518
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: Cluett Reeve Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2467381
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2452068
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
 ---
@@ -354,18 +198,6 @@ reason: The stated location is broader or less specific than the approved Fareha
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant
-company: Talentmark - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225779531
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Dynamite Recruitment - Agency - Temporary
 location: Hampshire
@@ -407,30 +239,6 @@ company: 2i Recruit Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225810845
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2446612
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2470031
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -486,71 +294,11 @@ reason: No approved Fareham employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Client Bookkeeper
-company: Accountability Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2453316
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Communications and Engagement Manager
-company: Saab UK - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2392949
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Conveyancing Legal Assistant
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2457763
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Chalk Hill Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2443210
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225868614
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2447383
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -570,83 +318,11 @@ reason: The stated location is broader or less specific than the approved Fareha
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: The Niche Partnership - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2385230
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: The Niche Partnership - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2385574
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: The Niche Partnership - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2430604
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller - 12 Month Fixed Term Contract
-company: Michael Page Finance - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2374682
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controllers
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2364257
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controllers
 company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225798871
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Care Coordinator
-company: Hiringpeople.co.uk - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225783577
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -660,6 +336,18 @@ location: Cosham
 source: JobG8
 job_id: jobg8-23643_225863589
 reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Admin £28k-£35k! Great perks + progression
+company: Office Angels - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225881384
+reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
 ---
@@ -751,18 +439,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customs Coordinator
-company: WHITE RECRUITMENT LIMITED - Agency - Permanent
-location: Totton
-source: JobG8
-job_id: jobg8-108302904
-reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customs Coordinator
 company: WR Logistics - Agency - Permanent
 location: Totton
 source: JobG8
@@ -810,59 +486,23 @@ reason: The stated location is broader or less specific than the approved Fareha
 action: 
 decision: review
 automatic_decision: review
+title: Document Controller
+company: Melior Associates - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225666375
+reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Administrator
 company: Dynamite Recruitment - Agency - Contract
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225849967
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2449357
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Havant
-source: JobG8
-job_id: jobg8-2362947
-reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Romsey
-source: JobG8
-job_id: jobg8-2364258
-reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2364264
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -882,47 +522,11 @@ reason: No approved Fareham employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: ParkAndersen - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2427775
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: The Niche Partnership - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2466237
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Coordinator
 company: Osprey Engineering Solutions - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225792459
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Services Administrator
-company: Premier Jobs UK Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2461915
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -966,6 +570,18 @@ reason: The stated location is broader or less specific than the approved Fareha
 action: 
 decision: review
 automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Temporary
+location: Gosport
+source: JobG8
+job_id: jobg8-23643_225814754
+reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Assistant
 company: Matchtech - Agency - Permanent
 location: Hampshire
@@ -978,119 +594,11 @@ reason: The stated location is broader or less specific than the approved Fareha
 action: 
 decision: review
 automatic_decision: review
-title: Insolvency Administrator
-company: FRP Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2391685
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Internal Communications and Engagement Manager
 company: Saab UK - Company - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225792727
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Internal Sales Coordinator
-company: Dovetail Recruitment Ltd - Agency - Permanent
-location: New Milton
-source: JobG8
-job_id: jobg8-23643_225779824
-reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior Billing Administrator
-company: Lane Clark and Peacock LLP - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2457297
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant - Wills Trust & Probate Team
-company: 360 Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2471482
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Secretary (Residential Conveyancing)
-company: SJC Partners - Agency - Permanent
-location: Southsea
-source: JobG8
-job_id: jobg8-2463817
-reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Secretary (Residential Conveyancing)
-company: SJC Partners - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2468502
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Secretary or Paralegal - Agricultural, Commercial & Residential Property
-company: 360 Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2469339
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marine Aftersales Administrator
-company: Cluett Reeve Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2442724
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Coordinator
-company: 1to1 Group Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2467523
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -1134,18 +642,6 @@ reason: No approved Fareham employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Mortgage Administrator
-company: LJ Recruitment - Agency - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-2461411
-reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Network Scheduler
 company: Eaton - Agency - Permanent
 location: Hampshire
@@ -1182,47 +678,11 @@ reason: No approved Fareham employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Operations Coordinator - Freight Forwarding
-company: Workshop Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225782358
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Accounts Assistant
 company: Michael Page - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225863943
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Accounts Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2434568
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-Time Bookkeeper
-company: SRM RECRUITMENT LIMITED - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2378525
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -1247,18 +707,6 @@ company: Source 4 - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225845609
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2359742
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -1303,30 +751,6 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2444516
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2450555
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Assistant
 company: CMA Recruitment Group - Agency - Temporary
 location: Havant
 source: JobG8
@@ -1343,18 +767,6 @@ company: CMA Recruitment Group - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225869915
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Specialist
-company: The Niche Partnership - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2457845
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -1410,42 +822,6 @@ reason: The stated location is broader or less specific than the approved Fareha
 action: 
 decision: review
 automatic_decision: review
-title: PR Account Executive
-company: Whiteoaks International - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2432660
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Practice Bookkeeper
-company: Curtis Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2460679
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Private Client Paralegal
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Emsworth
-source: JobG8
-job_id: jobg8-2368320
-reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Coordinator
 company: Mulberry Recruitment - Agency - Permanent
 location: Hampshire
@@ -1470,71 +846,11 @@ reason: The stated location is broader or less specific than the approved Fareha
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger
-company: NET Recruit - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2468894
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger 3 month Temporary Potential for Perm
-company: Office Angels - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2451017
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Assistant
 company: CMA Recruitment Group - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225798970
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Accountability Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2462724
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: The Niche Partnership - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2415631
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: The Niche Partnership - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2471079
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -1602,6 +918,18 @@ reason: The stated location is broader or less specific than the approved Fareha
 action: 
 decision: review
 automatic_decision: review
+title: Sales Ledger
+company: Active Staff - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225882015
+reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Ledger Administrator
 company: Conquip Engineering Group - Agency - Permanent
 location: Alton
@@ -1626,18 +954,6 @@ reason: The stated location is broader or less specific than the approved Fareha
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support Administrator (Engineering)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2420431
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Senior Conveyancing Assistant
 company: 2i Recruit Ltd - Agency - Permanent
 location: Hampshire
@@ -1650,47 +966,11 @@ reason: The stated location is broader or less specific than the approved Fareha
 action: 
 decision: review
 automatic_decision: review
-title: Senior Conveyancing Assistant
-company: 2i Recruit Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2466080
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Administrator / Coster
-company: Scania (Great Britain) Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2471036
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Advisor
 company: Perfect Placement - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225804741
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Perfect Placement Uk Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2414177
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
@@ -1758,66 +1038,6 @@ reason: The stated location is broader or less specific than the approved Fareha
 action: 
 decision: review
 automatic_decision: review
-title: Stores Administrator
-company: Latitude Recruitment - Agency - Contract
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225782245
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Telesales/Business Developer
-company: Howdens Joinery - Company - Permanent
-location: New Milton
-source: JobG8
-job_id: jobg8-23643_225822794
-reason: No approved Fareham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Credit Controller
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2414694
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee IP Legal Administrator - Southampton
-company: Dawn Ellmore Employment Agency - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2453012
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trust and Tax Administrator
-company: TEMPLEGATE RECRUITMENT - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2378639
-reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Weekend Receptionist
 company: Barchester Healthcare - Company - Permanent
 location: Hampshire
@@ -1850,31 +1070,7 @@ job_id: jobg8-23643_225810727
 reason: The stated location is broader or less specific than the approved Fareham employment market and needs review.
 ---
 
-## EXCLUDE (51)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Winchester
-source: JobG8
-job_id: jobg8-2444329
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Howett Thorpe - Agency - Permanent
-location: Aldershot
-source: JobG8
-job_id: jobg8-2359997
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
+## EXCLUDE (35)
 
 ---
 action: 
@@ -1885,30 +1081,6 @@ company: Howett Thorpe - Agency - Permanent
 location: Aldershot
 source: JobG8
 job_id: jobg8-23643_225804729
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant - Part Time 3 days per week £28k pro rata
-company: Office Angels - Agency - Permanent
-location: Winchester
-source: JobG8
-job_id: jobg8-23643_225783077
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Receivable
-company: CMA Recruitment Group - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-2364118
 reason: The stated workplace belongs outside the approved Fareham employment market.
 ---
 
@@ -1933,6 +1105,18 @@ company: Barchester Healthcare
 location: Basingstoke, RG21 5NW
 source: NHS Jobs
 job_id: nhs-5746870
+reason: The stated workplace belongs outside the approved Fareham employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Assistant - Care Home
+company: Barchester Healthcare
+location: Southampton, SO30 2ZS
+source: NHS Jobs
+job_id: nhs-5757421
 reason: The stated workplace belongs outside the approved Fareham employment market.
 ---
 
@@ -1976,35 +1160,11 @@ reason: The stated workplace belongs outside the approved Fareham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator (Part Time)
-company: Practice Plus Group - Health in Justice
-location: Winchester, SO22 5DF
-source: NHS Jobs
-job_id: nhs-5727216
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Contract Administrator
 company: Build Recruitment - Agency - Temporary
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_225865673
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controllers
-company: CMA Recruitment Group - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2364254
 reason: The stated workplace belongs outside the approved Fareham employment market.
 ---
 
@@ -2060,18 +1220,6 @@ reason: The stated workplace belongs outside the approved Fareham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Representative
-company: Everywhen, part of the Ardonagh Group - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2434353
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Data Entry Administrator
 company: Dynamite Recruitment - Agency - Temporary
 location: Basingstoke
@@ -2096,35 +1244,23 @@ reason: The stated workplace belongs outside the approved Fareham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Document Controller
+company: Tilbury Douglas Construction Ltd - Company - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225882143
+reason: The stated workplace belongs outside the approved Fareham employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Experienced Bookkeeper
 company: Morris Crocker - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225853739
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Experienced Bookkeeper
-company: Morris Crocker - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-2433405
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-2424558
 reason: The stated workplace belongs outside the approved Fareham employment market.
 ---
 
@@ -2168,47 +1304,11 @@ reason: The stated workplace belongs outside the approved Fareham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Inside Account Manager
-company: The Work Shop - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2430918
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Internal Sales Executive
-company: The Work Shop - Agency - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-2430919
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Internal Sales Executive - Electrical Wholesale
 company: Effective Recruitment Solutions Ltd - Agency - Permanent
 location: Aldershot
 source: JobG8
 job_id: jobg8-23643_225873938
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Administrator
-company: Lordshill Health Centre
-location: Southampton, SO16 8HY
-source: NHS Jobs
-job_id: nhs-5700697
 reason: The stated workplace belongs outside the approved Fareham employment market.
 ---
 
@@ -2240,35 +1340,11 @@ reason: The stated workplace belongs outside the approved Fareham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2460435
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Payroll officer / Clerk - Power/civil engineering
 company: Pinnacle Recruitment - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225800375
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll/Finance Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-2458397
 reason: The stated workplace belongs outside the approved Fareham employment market.
 ---
 
@@ -2300,30 +1376,6 @@ reason: The stated workplace belongs outside the approved Fareham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Private Client Legal Assistant
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-2457767
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger
-company: CMA Recruitment Group - Agency - Permanent
-location: Winchester
-source: JobG8
-job_id: jobg8-2444332
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Purchase Ledger
 company: Hunter James Recruitment Ltd - Agency - Permanent
 location: Southampton
@@ -2348,18 +1400,6 @@ reason: The stated workplace belongs outside the approved Fareham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Executive x 2
-company: Office Angels - Agency - Permanent
-location: Basingstoke
-source: JobG8
-job_id: jobg8-2451050
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales Representative
 company: PHL UK LTD - Agency - Permanent
 location: Basingstoke
@@ -2377,18 +1417,6 @@ company: Amour Recruitment - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225798173
-reason: The stated workplace belongs outside the approved Fareham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Receptionist (Automotive)
-company: Amour Recruitment - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-2431472
 reason: The stated workplace belongs outside the approved Fareham employment market.
 ---
 

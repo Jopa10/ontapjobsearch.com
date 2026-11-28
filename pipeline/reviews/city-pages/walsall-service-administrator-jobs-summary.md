@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 62
+- automatic review: 40
 - automatic exclude: 0
 - effective include: 12
-- effective review: 62
+- effective review: 40
 - effective exclude: 0
 
 ## INCLUDE (12)
@@ -65,10 +65,10 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
-company: MET Recruitment UK LTD - Agency - Temporary
+company: Interaction Recruitment - Agency - Temporary
 location: Walsall
 source: JobG8
-job_id: jobg8-23643_225826686
+job_id: jobg8-23643_225881012
 reason: Exact approved Walsall workplace.
 ---
 
@@ -76,11 +76,11 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Facilities Coordinator
-company: Michael Page - Agency - Contract
+title: Customer Service Advisor
+company: MET Recruitment UK LTD - Agency - Temporary
 location: Walsall
 source: JobG8
-job_id: jobg8-23643_225829223
+job_id: jobg8-23643_225826686
 reason: Exact approved Walsall workplace.
 ---
 
@@ -168,7 +168,7 @@ job_id: jobg8-23643_225863811
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (62)
+## REVIEW (40)
 
 ---
 action: 
@@ -179,30 +179,6 @@ company: SF Partners - Agency - Permanent
 location: West Bromwich
 source: JobG8
 job_id: jobg8-23643_225869027
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Account Assistant
-company: SF Partners - Agency - Permanent
-location: West Bromwich
-source: JobG8
-job_id: jobg8-2448705
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: Reed - Agency - Permanent
-location: Dudley
-source: JobG8
-job_id: jobg8-2359468
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -223,18 +199,6 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: AD Finance - Agency - Permanent
-location: Wednesbury
-source: JobG8
-job_id: jobg8-2386281
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
 company: Pertemps Black Country Perms - Agency - Contract
 location: Brierley Hill
 source: JobG8
@@ -246,95 +210,11 @@ reason: The stated location is broader or less specific than the approved Walsal
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: Pertemps Black Country Perms - Agency - Permanent
-location: Dudley
-source: JobG8
-job_id: jobg8-2442183
-reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Robert Half - Agency - Permanent
-location: Oldbury
-source: JobG8
-job_id: jobg8-2460669
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Assistant Part Time
 company: Extra Recruitment - Agency - Contract
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225848402
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable
-company: Mitchell Adam - Agency - Permanent
-location: West Midlands
-source: JobG8
-job_id: jobg8-2369339
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: Mitchell Adam - Agency - Permanent
-location: West Midlands
-source: JobG8
-job_id: jobg8-2460612
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: SF Partners - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-2447722
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Administrator
-company: People Solutions Group Limited - Agency - Permanent
-location: Dudley
-source: JobG8
-job_id: jobg8-2412926
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Administrator
-company: People Solutions Group Limited - Agency - Permanent
-location: Dudley
-source: JobG8
-job_id: jobg8-2421064
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -379,10 +259,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Black Country Healthcare NHS Foundation Trust
-location: West Bromwich, B70 8NL
-source: NHS Jobs
-job_id: nhs-5727362
+company: Pertemps Black Country Perms - Agency - Temporary
+location: Kingswinford
+source: JobG8
+job_id: jobg8-23643_225876173
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 
@@ -391,11 +271,23 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Pertemps Black Country Perms - Agency - Temporary
-location: Kingswinford
+company: The Royal Wolverhampton NHS Trust
+location: Wolverhampton, WV10 9RU
+source: NHS Jobs
+job_id: nhs-5757870
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Architectural Administrator
+company: Joshua Robert Recruitment - Agency - Permanent
+location: Dudley
 source: JobG8
-job_id: jobg8-23643_225876173
-reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+job_id: jobg8-23643_225882228
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -414,59 +306,11 @@ reason: The stated location is broader or less specific than the approved Walsal
 action: 
 decision: review
 automatic_decision: review
-title: BMW Service Advisor
-company: Sytner - Company - Permanent
-location: Oldbury
-source: JobG8
-job_id: jobg8-23643_225815664
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: BMW Service Advisor
-company: Sytner Group - Agency - Permanent
-location: Oldbury
-source: JobG8
-job_id: jobg8-2420080
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Booking Administrator
 company: The Dudley Group NHS Foundation Trust
 location: Dudley, DY1 2HQ
 source: NHS Jobs
 job_id: nhs-5734313
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: ENB Recruitment and Training Limited - Agency - Permanent
-location: Dudley
-source: JobG8
-job_id: jobg8-2452213
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Fortis Recruitment Solutions Ltd - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-2369477
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -498,59 +342,11 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Complex Care Co-ordinator
-company: RJS Resourcing Ltd - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-108371236
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Control - Hyrbid
 company: Gleeson Recruitment Group - Agency - Permanent
 location: West Midlands
 source: JobG8
 job_id: jobg8-23643_225854505
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: AD Finance - Agency - Permanent
-location: Dudley
-source: JobG8
-job_id: jobg8-2434383
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-2435945
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Robert Walters - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-2423154
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -594,54 +390,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator
-company: Office Angels - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-2452148
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist
-company: Tudor Medical Group
-location: Wolverhampton, WV100LS
-source: NHS Jobs
-job_id: nhs-5700366
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Health Records Clerk
-company: The Dudley Group NHS Foundation Trust
-location: Dudley, DY1 2HQ
-source: NHS Jobs
-job_id: nhs-5751342
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Immediate Start Accounts Payable Clerk
-company: Mitchell Adam - Agency - Permanent
-location: Dudley
-source: JobG8
-job_id: jobg8-2425270
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Buyer / Purchasing Assistant
 company: Adecco - Agency - Permanent
 location: Kingswinford
@@ -678,18 +426,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Reed - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-2359585
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: PFI Customer Service Advisor - West Bromwich
 company: Office Angels - Agency - Temporary
 location: West Bromwich
@@ -707,6 +443,18 @@ company: Advanced Resourcing Ltd - Agency - Permanent
 location: Dudley
 source: JobG8
 job_id: jobg8-23643_225856906
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Production Administrator
+company: Major Recruitment Oldbury - Agency - Permanent
+location: Oldbury
+source: JobG8
+job_id: jobg8-23643_225882329
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -803,18 +551,6 @@ company: Glen Callum Associates Ltd - Agency - Permanent
 location: Stourbridge
 source: JobG8
 job_id: jobg8-23643_225847802
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Co-ordinator
-company: Trinity Professional - Agency - Permanent
-location: Dudley
-source: JobG8
-job_id: jobg8-23643_225779125
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

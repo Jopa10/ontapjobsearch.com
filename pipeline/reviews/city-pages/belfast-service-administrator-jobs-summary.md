@@ -4,8 +4,8 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
-- Threshold currently met: yes
+- Effective included jobs: 4
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 5
+- automatic include: 4
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 7
-- effective review: 5
+- effective include: 4
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,30 +52,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Financial Services Administrator
-company: Brook Street - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2452604
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: PR & Communications - Senior Manager
-company: Fieldfisher - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2437405
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior Manager - CRM & Relationship Intelligence
 company: A&O Shearman - Agency - Permanent
 location: Belfast
@@ -96,31 +72,7 @@ job_id: jobg8-23643_225815380
 reason: Approved conservative Belfast launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2465199
-reason: Approved conservative Belfast launch catchment.
----
-
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-2458572
-reason: No approved Belfast catchment rule matched; local review required.
----
+## REVIEW (4)
 
 ---
 action: 

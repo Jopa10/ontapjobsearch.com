@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
-- automatic review: 13
+- automatic include: 23
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 33
-- effective review: 13
+- effective include: 23
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (33)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Three Bridges Recruitment LTD - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2390224
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant (Part-time 30 hrs)
-company: Michael Page Business Support - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2392608
-reason: Approved conservative Edinburgh launch catchment.
----
+## INCLUDE (23)
 
 ---
 action: 
@@ -100,90 +76,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Bookkeeper
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2434737
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contracts Coordinator
-company: LHH Recruitment Solutions - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2434179
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Conveyancing Paralegal
-company: Reed - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2437806
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Control
-company: Consula Group LTD - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2444302
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: ICONIC RESOURCING LTD - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2451355
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Three Bridges Recruitment LTD - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2464612
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller / Billing Assistant
-company: Michael Page Business Support - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2459049
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Adviser
 company: Pontoon - Agency - Temporary
 location: Edinburgh
@@ -225,18 +117,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225810889
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Robert Half - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2462297
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -316,18 +196,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Junior Accounts Assistant - Customer Service
-company: Robert Half - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2392855
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Junior Financial Administrator - Edinburgh Hybrid - 26/27K
 company: Lorien - Agency - Permanent
 location: Edinburgh
@@ -388,6 +256,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Temporary Estimator Administrator - West Edinburgh
+company: Office Angels - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225881887
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary HR Administrator
 company: Creideas - Agency - Temporary
 location: Edinburgh
@@ -420,19 +300,7 @@ job_id: jobg8-23643_225826088
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
-## REVIEW (13)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Simply Solutions - Agency - Permanent
-location: Livingston
-source: JobG8
-job_id: jobg8-2465681
-reason: No approved Edinburgh catchment rule matched; local review required.
----
+## REVIEW (5)
 
 ---
 action: 
@@ -450,71 +318,11 @@ reason: No approved Edinburgh catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Ezeflow UK Ltd (FKA Munro Miller) - Agency - Permanent
-location: West Lothian
-source: JobG8
-job_id: jobg8-23643_225821186
-reason: No approved Edinburgh catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal PA
-company: Creideas - Agency - Permanent
-location: Midlothian
-source: JobG8
-job_id: jobg8-2461177
-reason: No approved Edinburgh catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal PA
-company: G2 Legal Limited - Agency - Permanent
-location: Midlothian
-source: JobG8
-job_id: jobg8-2437440
-reason: No approved Edinburgh catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal PA - Corporate and Employment
-company: Creideas - Agency - Permanent
-location: Midlothian
-source: JobG8
-job_id: jobg8-2396144
-reason: No approved Edinburgh catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: JGA Recruitment - Agency - Permanent
 location: Livingston
 source: JobG8
 job_id: jobg8-23643_225781120
-reason: No approved Edinburgh catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Three Bridges Recruitment LTD - Agency - Permanent
-location: Livingston
-source: JobG8
-job_id: jobg8-2390191
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 
@@ -546,35 +354,11 @@ reason: No approved Edinburgh catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Team Leader
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Dalkeith
-source: JobG8
-job_id: jobg8-2378657
-reason: No approved Edinburgh catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Questech Recruitment Ltd - Agency - Temporary
 location: Dalkeith
 source: JobG8
 job_id: jobg8-23643_225793155
-reason: No approved Edinburgh catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Residential Property Legal Secretary - Edinburgh
-company: qed legal - Agency - Permanent
-location: Midlothian
-source: JobG8
-job_id: jobg8-2467216
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 13
+- automatic include: 4
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 5
-- effective review: 13
+- effective include: 4
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -40,23 +40,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant
-company: Humber Teaching NHS Foundation Trust
-location: Hull, HU2 9AY
-source: NHS Jobs
-job_id: nhs-5752933
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Administrator
 company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU3 2JZ
+location: Hull, HU16 5JQ
 source: NHS Jobs
-job_id: nhs-5753091
+job_id: nhs-5756114
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -84,67 +72,7 @@ job_id: jobg8-23643_225818060
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (13)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: AAT Accounts Assistant - Practice
-company: Si Recruitment - Agency - Permanent
-location: Goole
-source: JobG8
-job_id: jobg8-2435818
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Clerk
-company: GlobalData UK Ltd - Company - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225874863
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Controller
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2448494
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Controller
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2451479
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Consortium Professional Recruitment - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-2467822
-reason: No approved Hull catchment rule matched; local review required.
----
+## REVIEW (4)
 
 ---
 action: 
@@ -155,18 +83,6 @@ company: Consortium Professional Recruitment Ltd - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-23643_225848634
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Services Administrator
-company: NJR Recruitment - Agency - Permanent
-location: Beverley
-source: JobG8
-job_id: jobg8-2432551
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -198,47 +114,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Ledger Clerk
-company: Edwards & Pearce - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-23643_225793314
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Ledger Clerk
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2392956
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Bookkeeper
 company: KD Recruitment - Agency - Contract
 location: Bridlington
 source: JobG8
 job_id: jobg8-23643_225788061
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Bookkeeper
-company: KD Recruitment Limited - Agency - Permanent
-location: Bridlington
-source: JobG8
-job_id: jobg8-2385601
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

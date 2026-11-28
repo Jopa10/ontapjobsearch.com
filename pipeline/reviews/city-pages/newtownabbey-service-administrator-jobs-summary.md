@@ -16,27 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 12
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 0
-- effective review: 12
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (12)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-2458572
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
+## REVIEW (8)
 
 ---
 action: 
@@ -90,30 +78,6 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Financial Services Administrator
-company: Brook Street - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2452604
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: PR & Communications - Senior Manager
-company: Fieldfisher - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2437405
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Senior Manager - CRM & Relationship Intelligence
 company: A&O Shearman - Agency - Permanent
 location: County Antrim
@@ -155,18 +119,6 @@ company: CBSbutler Holdings Limited trading as CBSbutler - Agency - Contract
 location: Belfast
 source: JobG8
 job_id: jobg8-23643_225815380
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2465199
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
