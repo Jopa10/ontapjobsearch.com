@@ -2,11 +2,11 @@
 
 review_date: 2026-11-28
 
-- Open Administrative & Clerical rows reviewed: 2148
-- Auto/remembered selected: 339
+- Open Administrative & Clerical rows reviewed: 2144
+- Auto/remembered selected: 338
 - Selected HC Tier A: 171
-- Selected HC Tier B: 168
-- POSS awaiting decision: 1707
+- Selected HC Tier B: 167
+- POSS awaiting decision: 1704
 - Excluded: 0
 - HARD_PASS: 102
 
@@ -2414,18 +2414,6 @@ factual_fingerprint: 3a8916b3d11ea76541107373a880d96e81a88e7b01712646f57744ec720
 
 ---
 action:
-POSS | NHS Jobs | Leicestershire | Leicester, LE5 4PW | £25760.00 to £27476.00 | Research Administrator
-source_job_id: 5754730
-title: Research Administrator
-employer: University Hospitals of Leicester NHS Trust
-region: Leicestershire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-00026
-factual_fingerprint: afa78045be5de104288d36c04efbc00f3fc6e5d9060e4fba835838f3e4db871b
----
-
----
-action:
 POSS | NHS Jobs | Nottinghamshire | Nottingham, NG5 5EB | Negotiable | Lead Medical Secretary
 source_job_id: 5753110
 title: Lead Medical Secretary
@@ -4010,18 +3998,6 @@ factual_fingerprint: 019add010e7c18e331f3a66041ac3fa17b02987f33ea8e4be1b52717c70
 
 ---
 action:
-POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L8 7SS | £25272.00 | Data Quality Clerk
-source_job_id: 5752359
-title: Data Quality Clerk
-employer: Liverpool University Hospitals NHS Foundation Trust
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-00064
-factual_fingerprint: ebedefcd665bd344dfc28d4d0b5d65ca740950997b9762e4aa345ef5b32caf30
----
-
----
-action:
 POSS | NHS Jobs | Cambridgeshire | Wisbech, PE13 3UZ | £12.71 | Medical Receptionist and Administrator
 source_job_id: 5752447
 title: Medical Receptionist and Administrator
@@ -4474,18 +4450,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9461-26-00007
 factual_fingerprint: 1958dcd458c46439bf0aa3300664481cef3a44860530bb0c5b4f6caf3ca17ccf
----
-
----
-action:
-POSS | NHS Jobs | London | Edgware, HA8 9BA | £33262.00 to £36027.00 | Band 4 Medical Records Supervisor (Cross site)
-source_job_id: 5749458
-title: Band 4 Medical Records Supervisor (Cross site)
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-00069
-factual_fingerprint: ff76c902fb722b95f797a0f70e11a3a699efb5653c176e8b8d72a5c576cd05e4
 ---
 
 ---
@@ -10365,7 +10329,7 @@ employer: University Hospital of North Midlands NHS Trust
 region: Staffordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-00014
-factual_fingerprint: 5e80f3cd8f7239dce69f886a557d18a9a697593f61eb202df63c026a31c84b40
+factual_fingerprint: 5e011ff2cb5b691d937fc716a1206de5fc9d485b3b44462d9400d8e91223b1be
 ---
 
 ---
