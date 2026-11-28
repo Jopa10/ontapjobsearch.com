@@ -119,12 +119,18 @@ jobs:
           report = json.loads(Path("public/shadow-verification/city-report.json").read_text())
           assert report.get("exactPublishedInventoryMembershipAndOrder") is True, "Neon rebuild differs from the published inventory"
           assert report.get("inventoryDifferences") == [], "Neon rebuild has inventory differences"
-          assert report.get("productionInventoryFilesCompared", 0) >= 300, "Neon rebuild checked too few production inventory files"
+          expected_inventory_files = report.get("clearedInventoryFiles", 0)
+          checked_inventory_files = report.get("productionInventoryFilesCompared", 0)
+          assert expected_inventory_files > 0, "Neon rebuild found no production inventory files to compare"
+          assert checked_inventory_files == expected_inventory_files, (
+              f"Neon rebuild checked {checked_inventory_files} of {expected_inventory_files} expected production inventory files"
+          )
           receipt_path = Path(os.environ["READBACK_REPORT"])
           receipt = json.loads(receipt_path.read_text())
           receipt["fullSiteParity"] = {
               "status": "passed",
-              "productionInventoryFilesCompared": report["productionInventoryFilesCompared"],
+              "productionInventoryFilesCompared": checked_inventory_files,
+              "expectedProductionInventoryFiles": expected_inventory_files,
               "inventoryDifferences": report["inventoryDifferences"],
               "exactPublishedInventoryMembershipAndOrder": True,
           }
