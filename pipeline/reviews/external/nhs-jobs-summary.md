@@ -2,15 +2,39 @@
 
 review_date: 2026-11-28
 
-- Open Administrative & Clerical rows reviewed: 2144
-- Auto/remembered selected: 338
-- Selected HC Tier A: 171
+- Open Administrative & Clerical rows reviewed: 2140
+- Auto/remembered selected: 337
+- Selected HC Tier A: 170
 - Selected HC Tier B: 167
-- POSS awaiting decision: 1704
+- POSS awaiting decision: 1701
 - Excluded: 0
 - HARD_PASS: 102
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Worcestershire | Evesham, WR11 1JP | £12.71 | FULL TIME Receptionist - 8.00am-6.30pm
+source_job_id: 5758191
+title: FULL TIME Receptionist - 8.00am-6.30pm
+employer: Riverside Surgery
+region: Worcestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0509-26-00000
+factual_fingerprint: bb5f2647c1cafded6cf9abc3f7ba4f3c0b0054c9015edfa1a51f73ed10c915f5
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - East | Hornsea, HU18 1LP, Hull, HU11 4RN | Negotiable | Care Coordinator: Mental Health, Care Home and Cancer Care
+source_job_id: 5758173
+title: Care Coordinator: Mental Health, Care Home and Cancer Care
+employer: Eastgate Medical Group
+region: Yorkshire - East
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4063-26-00000
+factual_fingerprint: e225807716da9c04e46380f8433dcaebb333fbadc1f7374641543c18c3ea7510
+---
 
 ---
 action:
@@ -454,18 +478,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-26-00009
 factual_fingerprint: ae5268edab816b66d98a7b8de21a474ef0f76dd650109f33106a0eede52bf47e
----
-
----
-action:
-POSS | NHS Jobs | Essex | Basildon, SS16 5NL | £25272.00 | Women's Health - Receptionist
-source_job_id: 5756685
-title: Women's Health - Receptionist
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-00130
-factual_fingerprint: 10c1a794157ee03c28e2becc66d2ca004199e04e606d2d47e4257982eaf6064e
 ---
 
 ---
@@ -2630,18 +2642,6 @@ factual_fingerprint: e1c906a2bc75ea39f5ae28d26428fb008756eede46c3cf44b163c463be7
 
 ---
 action:
-POSS | NHS Jobs | London | Enfield, EN1 3XA | £33262.00 to £36027.00 | Band 4 Waiting List Coordinator - Admissions
-source_job_id: 5754243
-title: Band 4 Waiting List Coordinator - Admissions
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-00087
-factual_fingerprint: 0277cfc97cad26919c4572447e746f443e11a0c890bbb35e74e638112ac2e4cf
----
-
----
-action:
 POSS | NHS Jobs | Merseyside - Wirral | Wirral, CH49 5PE | £25272.00 | Clinic clerk - OPPROCs coding
 source_job_id: 5753619
 title: Clinic clerk - OPPROCs coding
@@ -3538,18 +3538,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9396-26-00010
 factual_fingerprint: 4017b9286edec8eed961df45ce111724ee6d31e53ef181a6cf75ee533a3bbe14
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - St Helens & Knowsley | Prescot, L35 5DR | £32073.00 to £39043.00 | Private Patient Co-ordinator
-source_job_id: 5752483
-title: Private Patient Co-ordinator
-employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
-region: Merseyside - St Helens & Knowsley
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-00039
-factual_fingerprint: 44fbbfa8e97eefb6a92d18780cd421b7adc2dcecc148a3c7860c49dd9a019289
 ---
 
 ---
@@ -5878,18 +5866,6 @@ region: Yorkshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3532-26-00004
 factual_fingerprint: 4de1b7a4cb57b4bf0a0ff076d325c58856ea2c1e49affbb9bafcd7cd3a83a5b8
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - St Helens & Knowsley | St Helens, WA9 3DA | £25760.00 to £27476.00 | Admissions Booking Officer
-source_job_id: 5750130
-title: Admissions Booking Officer
-employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
-region: Merseyside - St Helens & Knowsley
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-00034
-factual_fingerprint: 871e87cfb24f7d7df6c6f81aa6eedece33053db30c38e1c98cf4590e8f9ad6ad
 ---
 
 ---
@@ -9706,18 +9682,6 @@ region: Oxfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-00036
 factual_fingerprint: ddb71f47ddddb96df7647fcf418791743e920701fee2d3ea7b58a8d60aef976d
----
-
----
-action:
-POSS | NHS Jobs | Bristol & Bath | Bath, BA1 3QE | £49387.00 to £56515.00 | Band 7 Advanced Information Analyst-Bath
-source_job_id: 5744533
-title: Band 7 Advanced Information Analyst-Bath
-employer: Avon & Wiltshire Mental Health Partnership NHS Trust
-region: Bristol & Bath
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9342-26-00025
-factual_fingerprint: ae054900665445b06959bb295d2333c6119e79a207b4daee9562277b2c34a5af
 ---
 
 ---
