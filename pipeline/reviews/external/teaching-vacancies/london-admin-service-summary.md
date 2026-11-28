@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-11-27
-review_fingerprint: 5a8f8a3e05c97f419e0ede5754f6a5fe3db25ce470c7be26d12451f7eeb82c76
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+review_date: 2026-11-28
+review_fingerprint: 4961e690d7bc1eadb200bef8eed09bb20b8f467f8d87a7e4a620db74e8e9e286
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 67
-- Selected: 10
-- POSS awaiting decision: 9
+- Records: 68
+- Selected: 9
+- POSS awaiting decision: 10
 - Excluded: 0
-- Hard pass: 48
+- Hard pass: 49
 
 ## SELECTED
-
----
-action: 
-SELECTED | London | London, London, SW1V 3AT | £28,580.13- £28,998 | Academy Administrator
-employer: Pimlico Academy
-closing_date: 2026-12-01T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 19e25ac02bcc26851356020bca7a3276280bd907024ffcf98e4bd6411e1eba16
-source: Teaching Vacancies
-source_job_id: academy-administrator-pimlico-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-pimlico-academy
----
 
 ---
 action: 
@@ -172,6 +157,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | London | London, London, SW1V 3AT | £28,580.13- £28,998 | Academy Administrator
+employer: Pimlico Academy
+closing_date: 2026-12-01T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 19e25ac02bcc26851356020bca7a3276280bd907024ffcf98e4bd6411e1eba16
+source: Teaching Vacancies
+source_job_id: academy-administrator-pimlico-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-pimlico-academy
+---
 
 ---
 action: 
@@ -341,6 +341,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [HR and Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-officer-barking-abbey-school-a-specialist-sports-and-humanities-college) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-paddock-school) — No usable numeric salary.
 - [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover-oak-wood-school) — Excluded senior/management title.
+- [HR/Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-officer-hasmonean-multi-academy-trust) — Insufficient admin/service evidence.
 - [Inclusion Senior Learning Support Practitioner](https://teaching-vacancies.service.gov.uk/jobs/inclusion-senior-learning-support-practitioner) — Excluded senior/management title.
 - [Lead Attendance Officer/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/lead-attendance-officer-receptionist) — Excluded senior/management title.
 - [Multisite HR Manager](https://teaching-vacancies.service.gov.uk/jobs/multisite-hr-manager) — Excluded senior/management title.

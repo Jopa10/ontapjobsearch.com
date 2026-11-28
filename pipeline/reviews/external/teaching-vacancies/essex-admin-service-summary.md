@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-11-27
-review_fingerprint: d27f69e3c8902337fa71414fe8b9f27e718de7d256752869ad75c003793ae45f
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+review_date: 2026-11-28
+review_fingerprint: 392396e27341d7f1a658c5c5f1da4efac6b7871620e5c69de451daff89f67363
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 4
+- Records: 20
+- Selected: 3
 - POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 11
@@ -64,21 +64,6 @@ factual_fingerprint: b27d3ad04f1d6e07ddcee0f5acf17ecdb9fe7a3cacd8ef84ff179e0415f
 source: Teaching Vacancies
 source_job_id: send-co-educator-one-to-one-personal-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-co-educator-one-to-one-personal-assistant
----
-
----
-action: 
-SELECTED | Essex | Epping, East of England, CM16 5JB | £26,847.00 - £28,608.00 Annually (Actual) | Sixth Form Administrator
-employer: Epping St John's Church of England School
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3bd6285f58dbf978aec2be633925edfabf0a69945d4afe8278a3deea2d030f3d
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-epping-st-john-s-church-of-england-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-epping-st-john-s-church-of-england-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

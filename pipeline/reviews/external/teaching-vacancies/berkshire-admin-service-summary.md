@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-11-27
-review_fingerprint: 3c311ed09ccdc587c0db3b15998978c84ffc7dc5921161c65b56f528d25df60b
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+review_date: 2026-11-28
+review_fingerprint: 757ec7eba667f27ded13cbfbac5296a330b0dc024c28526018f2fecb6e31d449
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 7
+- Records: 22
+- Selected: 6
 - POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 10
@@ -49,21 +49,6 @@ factual_fingerprint: 46df077a6db3502c444141bd7a732fe2ddea85aacf10878fc8b1e40602b
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-wildmoor-heath-school-bracknell-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-wildmoor-heath-school-bracknell-berkshire
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG7 1JY | £15,121.00 - £16,404.00 Annually (Actual) Grade 5 SP 12-17, FTE salary £29.542 - £32,047 | School Administrator
-employer: Grazeley Church of England Primary School
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6b25434ada9e00bf658ed793332e9cb8bf8f870ba1b75f4821345b56dd37cc27
-source: Teaching Vacancies
-source_job_id: school-administrator-grazeley-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-grazeley-church-of-england-primary-school
 ---
 
 ---

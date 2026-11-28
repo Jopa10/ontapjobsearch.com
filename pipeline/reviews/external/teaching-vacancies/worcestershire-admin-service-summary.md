@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-11-27
+review_date: 2026-11-28
 review_fingerprint: 647044376055ad00fd5b0a2cd516cb2d3004fd829a2aeebb02f0ef1cb419e9cc
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE

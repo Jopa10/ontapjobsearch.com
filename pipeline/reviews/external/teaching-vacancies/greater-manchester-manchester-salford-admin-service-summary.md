@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-11-27
-review_fingerprint: a1608d687aa0e14287ffc35334003cbb30f06466614c2ac35dd7723264e4260c
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+review_date: 2026-11-28
+review_fingerprint: a95acfdf518194037cdd7a9db9b745da4e9b96424b0f0145ac7056ba3e92bcae
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 3
-- POSS awaiting decision: 2
+- Records: 11
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M24 2GT | DAT Level 3, SCP 18-25 (Actual salary £26,455-£31,083) | Academy Administrator L3
-employer: Dixons Middleton Academy
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ca710110be217aade762213f235ece0348ce57ae50d1f32babdd88ef93f0724e
-source: Teaching Vacancies
-source_job_id: academy-administrator-l3-dixons-middleton-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-middleton-academy
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M24 2GT | DAT Level 3, SCP 18-25 (Actual salary £26,455-£31,083) | Academy Administrator L3
-employer: Dixons Middleton Academy
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ece7237408d21af950c82ebc946beb3afde1c220786646cf81f277f0149117ae
-source: Teaching Vacancies
-source_job_id: academy-administrator-l3-dixons-middleton-academy-manchester
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-middleton-academy-manchester
----
 
 ---
 action: 
@@ -66,15 +36,13 @@ source_job_id: administration-assistant-piper-hill-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-piper-hill-high-school
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, M22 4FL | £34,237 - £37,563 | Finance Officer
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, M22 4FL | £34,237 - £37,563 | Finance Officer
 employer: Connect Alliance Trust
 closing_date: 2026-11-30T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: d0d1237ee8f0e479afd344cd6015231956f3b91b4b69d3931dda88b89c9507a3
@@ -82,6 +50,8 @@ source: Teaching Vacancies
 source_job_id: finance-officer-connect-alliance-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-connect-alliance-trust
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 

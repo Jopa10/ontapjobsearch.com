@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Central
 
-review_date: 2026-11-27
-review_fingerprint: d9ec25a93906269159d152bea7f96166c8bcb7fcf6a69fe3e823b0b4a0f128ca
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+review_date: 2026-11-28
+review_fingerprint: 03af6733675516e2562aa081ec01e53b84dc765d8fc45c6849089fad4a803e61
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Lancashire - Central
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 1
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
@@ -34,6 +34,21 @@ factual_fingerprint: bd60e7d263cf35c72a37c546288c45fedcc0426b373a960b44ad7e3b1cf
 source: Teaching Vacancies
 source_job_id: business-support-officer-fixed-term-from-january-2027-until-20-08-2027
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-fixed-term-from-january-2027-until-20-08-2027
+---
+
+---
+action: 
+SELECTED | Lancashire - Central | Preston, PR2 9ZZ | £17,046.00 - £19,420.00 Annually (Actual) Salary Range: £29,071-£33,119 FTE (Pro rata £17,046-£19,420 actual) | Finance Officer
+employer: Mater Ecclesiae Catholic Multi Academy Trust
+closing_date: 2026-12-07T10:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 96c644b0ef06da1c78924671bb3fbed13c4a8838a5da5a181414d3baff2993d4
+source: Teaching Vacancies
+source_job_id: finance-officer-mater-ecclesiae-catholic-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-mater-ecclesiae-catholic-multi-academy-trust
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-11-27
-review_fingerprint: faa7bd00babd0a25f2266de106d59291c203874945ac654156e2512b0b01b238
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+review_date: 2026-11-28
+review_fingerprint: 6fc971fd9e9fef33780aacd905b0cfb7484181d4e56f9f897cd4dab4169810a2
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Shropshire | Oswestry, West Midlands, SY11 2LF | £8,007.00 Annually (Actual) Grade 3 SCP 5 | Administrator Assistant
-employer: Holy Trinity Church of England Primary Academy and Nursery
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c9f92080c53effa80f3a053d571b9337e6561d8d3729b0c5db2b29c995716649
-source: Teaching Vacancies
-source_job_id: administrator-assistant-holy-trinity-church-of-england-primary-academy-and-nursery
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-assistant-holy-trinity-church-of-england-primary-academy-and-nursery
----
 
 ---
 action: 

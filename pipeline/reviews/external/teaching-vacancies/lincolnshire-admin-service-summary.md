@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-11-27
-review_fingerprint: b4a2531e04385eed20bd35f7ee68fb36e6157d1931bf7ca5ccc862a3b7bbd218
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+review_date: 2026-11-28
+review_fingerprint: fad22ec3d7a34148b67c26f60cd434213d9c6dd6c9ba921483c0d7ff9ac1cd50
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 16
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
@@ -94,21 +94,6 @@ factual_fingerprint: 00090e1c94e9d92b021b8a3153ff9e3b7ce9d74be9d9d27a9c38996e54c
 source: Teaching Vacancies
 source_job_id: finance-assistant-outwood-academy-brumby-scunthorpe-north-lincolnshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-outwood-academy-brumby-scunthorpe-north-lincolnshire
----
-
----
-action: 
-SELECTED | Lincolnshire | Lincoln, East Midlands, LN4 4PN | £30,023.00 - £30,023.00 Annually (Actual) NJC13 : £27,723.95pa pro rata | Personal Assistant
-employer: The Barnes Wallis Academy
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: personal assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 599f97cd2271cd9b98cf4401c7cb07ebd223e62377c337750b6b3f3bf953e3ed
-source: Teaching Vacancies
-source_job_id: personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-11-27
-review_fingerprint: a0ce12c581894e2ac440004f819683dc5c021d56e67e833d15b6c608a2e2a3e6
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+review_date: 2026-11-28
+review_fingerprint: d379ae25cf6a15b8396e41ad4d0f65e03cbc4ddab83c37bf3d2c384035a3f47e
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -14,14 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 20
-- Selected: 0
-- POSS awaiting decision: 6
+- Selected: 1
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 14
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL7 1JB | £16,621.58 Annually (Actual) Grade B | Receptionist
+employer: Longcause Community Special School
+closing_date: 2026-12-08T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ddcf6f66fe7a88c9d1238ee09128aaa91c3bb20b67b23cf1a94abf42a660b491
+source: Teaching Vacancies
+source_job_id: receptionist-longcause-community-special-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-longcause-community-special-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -98,21 +111,6 @@ factual_fingerprint: 23189389d94c620df22651fcef75f0dd2f71739d4fc6a83f957f87cc010
 source: Teaching Vacancies
 source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school-torquay-devon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school-torquay-devon
----
-
----
-action: 
-POSS | Devon | Plymouth, South West, PL7 1JB | £16,621.58 Annually (Actual) Grade B | Receptionist
-employer: Longcause Community Special School
-closing_date: 2026-12-08T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ddcf6f66fe7a88c9d1238ee09128aaa91c3bb20b67b23cf1a94abf42a660b491
-source: Teaching Vacancies
-source_job_id: receptionist-longcause-community-special-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-longcause-community-special-school
 ---
 
 ## EXCLUDED BY REVIEW

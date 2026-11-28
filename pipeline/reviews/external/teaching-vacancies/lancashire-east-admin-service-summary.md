@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-11-27
+review_date: 2026-11-28
 review_fingerprint: 9701596095c2e7bff2bb5e31ed841b2cba89128752fd97fd81dd8304a4b93ba4
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -121,7 +121,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-wilfr
 
 - [Casual Internal Quality Assurer - Health & Social Care](https://teaching-vacancies.service.gov.uk/jobs/casual-internal-quality-assurer-health-social-care) — No usable numeric salary.
 - [Examinations and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-and-administration-officer-e5f66a6e-ef50-497e-9ee8-9ef39fa4acd0) — Insufficient admin/service evidence.
-- [Funding & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/funding-compliance-manager) — Excluded senior/management title.
 - [General School Administrator](https://teaching-vacancies.service.gov.uk/jobs/general-school-administrator-pendle-education-trust) — No usable numeric salary.
 - [Talent Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/talent-systems-manager) — Excluded senior/management title.
 

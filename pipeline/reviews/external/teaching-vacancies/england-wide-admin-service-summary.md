@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **605**
-- REVIEW NOW (LIVE regions): **587**
-- EDITABLE NOW (no remembered action): **587**
+- All routed roles: **592**
+- REVIEW NOW (LIVE regions): **574**
+- EDITABLE NOW (no remembered action): **574**
 - REMEMBERED / RESOLVED: **0**
 - DEFERRED - REGION NOT LIVE: **18**
-- SELECTED: **176**
-- POSS: **83**
-- HARD PASS / EXCLUDED: **328**
+- SELECTED: **168**
+- POSS: **81**
+- HARD PASS / EXCLUDED: **325**
 
 ## BEDFORDSHIRE — SELECTED
 
@@ -80,17 +80,6 @@ reason: Owner-approved reception/finance role within salary limit
 factual_fingerprint: 46df077a6db3502c444141bd7a732fe2ddea85aacf10878fc8b1e40602bcc284
 source_job_id: receptionist-administrator-wildmoor-heath-school-bracknell-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-wildmoor-heath-school-bracknell-berkshire
----
-
----
-action:
-SELECTED | Berkshire | Reading, South East, RG7 1JY | £15,121.00 - £16,404.00 Annually (Actual) Grade 5 SP 12-17, FTE salary £29.542 - £32,047 | School Administrator
-employer: Grazeley Church of England Primary School
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 6b25434ada9e00bf658ed793332e9cb8bf8f870ba1b75f4821345b56dd37cc27
-source_job_id: school-administrator-grazeley-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-grazeley-church-of-england-primary-school
 ---
 
 ---
@@ -258,7 +247,7 @@ action:
 POSS | Bristol & Bath | Bristol, South West, BS9 3UF | £22,708.00 - £24,237.00 Annually (Actual) BG8 SCP12 to 16, salary shown based on 32hpw | Finance Assistant
 employer: Elmlea Junior School
 closing_date: 2026-12-07T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
+reason: Part-time finance requires actual earnings/hours and qualification checks
 factual_fingerprint: d7d52462fe7447286963e17143af0a50abcdc5720a350797122ea107edbb150a
 source_job_id: finance-assistant-elmlea-junior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-elmlea-junior-school
@@ -536,17 +525,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Cornwall | Truro, South West, TR4 9DA | Level 3A - Actual Annual Salary £21,846 (FTE £27,368) | Academy Administrator
-employer: Shortlanesend School
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: faa818c7e85ec03cb79df2fb29ef19a8141d09ba2282b13bda3e36d57d0809f0
-source_job_id: academy-administrator-shortlanesend-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-shortlanesend-school
----
-
----
-action:
 SELECTED | Cornwall | St Austell, PL26 7RN | £15,433.44 Annually (Actual) National Minimum Wage for Apprentices | Apprentice Business Administrator
 employer: Cornwall Education Learning Trust
 closing_date: 2026-11-30T23:59:00+00:00
@@ -627,7 +605,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-ping
 
 ## DEVON — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Devon | Plymouth, South West, PL7 1JB | £16,621.58 Annually (Actual) Grade B | Receptionist
+employer: Longcause Community Special School
+closing_date: 2026-12-08T09:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+factual_fingerprint: ddcf6f66fe7a88c9d1238ee09128aaa91c3bb20b67b23cf1a94abf42a660b491
+source_job_id: receptionist-longcause-community-special-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-longcause-community-special-school
+---
 
 ## DEVON — POSSIBLES
 
@@ -686,17 +673,6 @@ source_job_id: pupil-services-officer-st-marychurch-church-of-england-primary-an
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-officer-st-marychurch-church-of-england-primary-and-nursery-school-torquay-devon
 ---
 
----
-action:
-POSS | Devon | Plymouth, South West, PL7 1JB | £16,621.58 Annually (Actual) Grade B | Receptionist
-employer: Longcause Community Special School
-closing_date: 2026-12-08T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-factual_fingerprint: ddcf6f66fe7a88c9d1238ee09128aaa91c3bb20b67b23cf1a94abf42a660b491
-source_job_id: receptionist-longcause-community-special-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-longcause-community-special-school
----
-
 ## DORSET — SELECTED
 
 _No jobs in this group._
@@ -747,17 +723,6 @@ reason: Clear admin/service title: personal assistant
 factual_fingerprint: b27d3ad04f1d6e07ddcee0f5acf17ecdb9fe7a3cacd8ef84ff179e0415f07a65
 source_job_id: send-co-educator-one-to-one-personal-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-co-educator-one-to-one-personal-assistant
----
-
----
-action:
-SELECTED | Essex | Epping, East of England, CM16 5JB | £26,847.00 - £28,608.00 Annually (Actual) | Sixth Form Administrator
-employer: Epping St John's Church of England School
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 3bd6285f58dbf978aec2be633925edfabf0a69945d4afe8278a3deea2d030f3d
-source_job_id: sixth-form-administrator-epping-st-john-s-church-of-england-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-epping-st-john-s-church-of-england-school
 ---
 
 ## ESSEX — POSSIBLES
@@ -860,28 +825,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M24 2GT | DAT Level 3, SCP 18-25 (Actual salary £26,455-£31,083) | Academy Administrator L3
-employer: Dixons Middleton Academy
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: ca710110be217aade762213f235ece0348ce57ae50d1f32babdd88ef93f0724e
-source_job_id: academy-administrator-l3-dixons-middleton-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-middleton-academy
----
-
----
-action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M24 2GT | DAT Level 3, SCP 18-25 (Actual salary £26,455-£31,083) | Academy Administrator L3
-employer: Dixons Middleton Academy
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: ece7237408d21af950c82ebc946beb3afde1c220786646cf81f277f0149117ae
-source_job_id: academy-administrator-l3-dixons-middleton-academy-manchester
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-middleton-academy-manchester
----
-
----
-action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2YS | £26,427 | Administration Assistant
 employer: Piper Hill High School
 closing_date: 2026-12-04T23:59:00+00:00
@@ -891,18 +834,18 @@ source_job_id: administration-assistant-piper-hill-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-piper-hill-high-school
 ---
 
-## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
-
 ---
 action:
-POSS | Greater Manchester - Manchester & Salford | Manchester, M22 4FL | £34,237 - £37,563 | Finance Officer
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, M22 4FL | £34,237 - £37,563 | Finance Officer
 employer: Connect Alliance Trust
 closing_date: 2026-11-30T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
+reason: Owner-approved reception/finance role within salary limit
 factual_fingerprint: d0d1237ee8f0e479afd344cd6015231956f3b91b4b69d3931dda88b89c9507a3
 source_job_id: finance-officer-connect-alliance-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-connect-alliance-trust
 ---
+
+## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
 action:
@@ -944,39 +887,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-
 _No jobs in this group._
 
 ## GREATER MANCHESTER - SOUTH — SELECTED
-
----
-action:
-SELECTED | Greater Manchester - South | Ashton-under-Lyne, North West, OL6 8RF | DAT Level 2, SCP 14-17 (Actual salary £25,634-£26,040) | Academy Administrator L2
-employer: Dixons Ashton Academy
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: a064cedb587b8405fbc95318ed587bbbb95a8eae681b1cf0e9aaae82b8842557
-source_job_id: academy-administrator-l2-dixons-ashton-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l2-dixons-ashton-academy
----
-
----
-action:
-SELECTED | Greater Manchester - South | Ashton-under-Lyne, North West, OL6 8RF | DAT Level 2, SCP 14-17 (Actual salary £25,634-£26,040) | Academy Administrator L2
-employer: Dixons Ashton Academy
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: b87fcd4a4d40c8dbb3e0c99f379043c1061b6368397c9d60c5c1c48ea2552e1d
-source_job_id: academy-administrator-l2-dixons-ashton-academy-ashton-under-lyne-lancashire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l2-dixons-ashton-academy-ashton-under-lyne-lancashire
----
-
----
-action:
-SELECTED | Greater Manchester - South | Stalybridge, North West, SK15 3RR | DAT Level 3, SCP 18-25 (Actual salary £26,455-£31,083) | Academy Administrator L3
-employer: Dixons Pennine Academy
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 802d4fb359727f7c398b080ba54216846899e856e41e4fe7902694160812e446
-source_job_id: academy-administrator-l3-dixons-pennine-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-pennine-academy
----
 
 ---
 action:
@@ -1238,6 +1148,17 @@ source_job_id: business-support-officer-fixed-term-from-january-2027-until-20-08
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-fixed-term-from-january-2027-until-20-08-2027
 ---
 
+---
+action:
+SELECTED | Lancashire - Central | Preston, PR2 9ZZ | £17,046.00 - £19,420.00 Annually (Actual) Salary Range: £29,071-£33,119 FTE (Pro rata £17,046-£19,420 actual) | Finance Officer
+employer: Mater Ecclesiae Catholic Multi Academy Trust
+closing_date: 2026-12-07T10:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+factual_fingerprint: 96c644b0ef06da1c78924671bb3fbed13c4a8838a5da5a181414d3baff2993d4
+source_job_id: finance-officer-mater-ecclesiae-catholic-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-mater-ecclesiae-catholic-multi-academy-trust
+---
+
 ## LANCASHIRE - CENTRAL — POSSIBLES
 
 _No jobs in this group._
@@ -1419,17 +1340,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-out
 
 ---
 action:
-SELECTED | Lincolnshire | Lincoln, East Midlands, LN4 4PN | £30,023.00 - £30,023.00 Annually (Actual) NJC13 : £27,723.95pa pro rata | Personal Assistant
-employer: The Barnes Wallis Academy
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: personal assistant
-factual_fingerprint: 599f97cd2271cd9b98cf4401c7cb07ebd223e62377c337750b6b3f3bf953e3ed
-source_job_id: personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-the-barnes-wallis-academy-lincoln-lincolnshire
----
-
----
-action:
 SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN34 5BY | £25,626.00 - £25,626.00 Annually (FTE) As the role is part time, term time only, the actual salary is £13,386.60 per annum | Receptionist & Welcome Ambassador
 employer: Franklin Sixth Form College
 closing_date: 2026-12-03T12:00:00+00:00
@@ -1464,17 +1374,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 ---
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | London, London, SW1V 3AT | £28,580.13- £28,998 | Academy Administrator
-employer: Pimlico Academy
-closing_date: 2026-12-01T12:00:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 19e25ac02bcc26851356020bca7a3276280bd907024ffcf98e4bd6411e1eba16
-source_job_id: academy-administrator-pimlico-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-pimlico-academy
----
 
 ---
 action:
@@ -1576,6 +1475,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ---
 
 ## LONDON — POSSIBLES
+
+---
+action:
+POSS | London | London, London, SW1V 3AT | £28,580.13- £28,998 | Academy Administrator
+employer: Pimlico Academy
+closing_date: 2026-12-01T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 19e25ac02bcc26851356020bca7a3276280bd907024ffcf98e4bd6411e1eba16
+source_job_id: academy-administrator-pimlico-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-pimlico-academy
+---
 
 ---
 action:
@@ -2030,17 +1940,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action:
-SELECTED | Shropshire | Oswestry, West Midlands, SY11 2LF | £8,007.00 Annually (Actual) Grade 3 SCP 5 | Administrator Assistant
-employer: Holy Trinity Church of England Primary Academy and Nursery
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: c9f92080c53effa80f3a053d571b9337e6561d8d3729b0c5db2b29c995716649
-source_job_id: administrator-assistant-holy-trinity-church-of-england-primary-academy-and-nursery
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-assistant-holy-trinity-church-of-england-primary-academy-and-nursery
----
-
----
-action:
 SELECTED | Shropshire | Church Stretton, West Midlands, SY6 6EX | £27,709 - £29071 pro rata | Data & Exams Officer
 employer: Church Stretton School
 closing_date: 2026-11-30T09:00:00+00:00
@@ -2355,17 +2254,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action:
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 6HZ | £18,408.00 - £19,928.00 Annually (Actual) Selly Oak pay scale band B points 9-18 | Admin Assistant - SEND
-employer: Selly Oak Trust School
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: admin assistant
-factual_fingerprint: f06258990d13900416a7488d8992d6b1dfa4f17909cbe1a91314367cb1c31436
-source_job_id: admin-assistant-send-selly-oak-trust-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-send-selly-oak-trust-school
----
-
----
-action:
 SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B75 5BL | £25,614 - £27,709, actual salary £12,122 - £13,113 per annum | Administration Assistant
 employer: Mere Green Primary School
 closing_date: 2026-11-30T09:00:00+00:00
@@ -2443,6 +2331,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action:
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, B15 2AF | £25,721.00 - £27,709.00 Annually (FTE) | Finance Assistant
+employer: Think Differently Education Trust
+closing_date: 2026-12-06T20:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+factual_fingerprint: 2d83bed9b59df00e9a57590ea63b69e0c2db4ff7353f50041709d42de8d578f3
+source_job_id: finance-assistant-think-differently-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-think-differently-education-trust
+---
+
+---
+action:
 SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B75 5BL | £25,614 - £27,709 FTE, actual salary £22,426 - £24,260 per annum | Receptionist / Admin Assistant
 employer: Mere Green Primary School
 closing_date: 2026-11-30T09:00:00+00:00
@@ -2460,20 +2359,9 @@ POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B38 9D
 employer: Ark Kings Academy
 closing_date: 2026-12-08T00:00:00+00:00
 reason: Borderline school administration title: data officer
-factual_fingerprint: 8bf058554e3ce68bf6bfae0de5d4abd263d63d602c85481b31c6afeca5639b01
-source_job_id: data-officer-57a53ba5-d71e-45fc-acf6-ac877c1eb7ed
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-57a53ba5-d71e-45fc-acf6-ac877c1eb7ed
----
-
----
-action:
-POSS | West Midlands - Birmingham & Solihull | Birmingham, B15 2AF | £25,721.00 - £27,709.00 Annually (FTE) | Finance Assistant
-employer: Think Differently Education Trust
-closing_date: 2026-12-06T20:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-factual_fingerprint: 2d83bed9b59df00e9a57590ea63b69e0c2db4ff7353f50041709d42de8d578f3
-source_job_id: finance-assistant-think-differently-education-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-think-differently-education-trust
+factual_fingerprint: 27e29f2ac9a043a488cb075cd195fbf192a782531482890d6425c21510cbfe77
+source_job_id: data-officer-6d6bd5f7-9e30-4dea-b051-4926a559e12a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-6d6bd5f7-9e30-4dea-b051-4926a559e12a
 ---
 
 ---

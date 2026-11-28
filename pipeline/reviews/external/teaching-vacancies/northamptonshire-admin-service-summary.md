@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-11-27
+review_date: 2026-11-28
 review_fingerprint: 3dc4f67b11bc6b4498c54b398c2ab4c69d719942425b48f17cfe2f694ca04453
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -179,7 +179,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administr
 
 ## HARD_PASS
 
-- [Administrator - Admissions, Data & Attendance](https://teaching-vacancies.service.gov.uk/jobs/administrator-admissions-data-attendance) — No usable numeric salary.
 - [Admissions & Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/admissions-attendance-manager-moulton-school-and-science-college) — Excluded senior/management title.
 - [Casual Mini Bus Driver](https://teaching-vacancies.service.gov.uk/jobs/casual-mini-bus-driver-kingswood-secondary-academy) — No usable numeric salary.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-fc338d4c-5ff4-4177-bfa6-fee890e9c710) — Insufficient admin/service evidence.

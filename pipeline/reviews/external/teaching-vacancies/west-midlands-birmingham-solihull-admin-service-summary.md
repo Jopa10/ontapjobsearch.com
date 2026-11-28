@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-11-27
-review_fingerprint: cf365772ad15c10fe2e16a031f70f49b5f26ffd1a09616597e80e3ff33acaa90
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+review_date: 2026-11-28
+review_fingerprint: 5b88011b9746213c7c7a9b2483a3cefb274e79412388c1eba79be7f18e993ce2
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 29
+- Records: 27
 - Selected: 10
-- POSS awaiting decision: 5
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 13
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 2607c55edc8a5caee416d4ee8d0ae12842848440c53b7cbd63093e2a11e
 source: Teaching Vacancies
 source_job_id: academy-administrator-boa-stage-and-screen-production-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-boa-stage-and-screen-production-academy
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 6HZ | £18,408.00 - £19,928.00 Annually (Actual) Selly Oak pay scale band B points 9-18 | Admin Assistant - SEND
-employer: Selly Oak Trust School
-closing_date: 2026-11-27T23:59:00+00:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f06258990d13900416a7488d8992d6b1dfa4f17909cbe1a91314367cb1c31436
-source: Teaching Vacancies
-source_job_id: admin-assistant-send-selly-oak-trust-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-send-selly-oak-trust-school
 ---
 
 ---
@@ -158,6 +143,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, B15 2AF | £25,721.00 - £27,709.00 Annually (FTE) | Finance Assistant
+employer: Think Differently Education Trust
+closing_date: 2026-12-06T20:00:00+00:00
+reason: Owner-approved reception/finance role within salary limit
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2d83bed9b59df00e9a57590ea63b69e0c2db4ff7353f50041709d42de8d578f3
+source: Teaching Vacancies
+source_job_id: finance-assistant-think-differently-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-think-differently-education-trust
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B75 5BL | £25,614 - £27,709 FTE, actual salary £22,426 - £24,260 per annum | Receptionist / Admin Assistant
 employer: Mere Green Primary School
 closing_date: 2026-11-30T09:00:00+00:00
@@ -182,25 +182,10 @@ reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8bf058554e3ce68bf6bfae0de5d4abd263d63d602c85481b31c6afeca5639b01
+factual_fingerprint: 27e29f2ac9a043a488cb075cd195fbf192a782531482890d6425c21510cbfe77
 source: Teaching Vacancies
-source_job_id: data-officer-57a53ba5-d71e-45fc-acf6-ac877c1eb7ed
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-57a53ba5-d71e-45fc-acf6-ac877c1eb7ed
----
-
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, B15 2AF | £25,721.00 - £27,709.00 Annually (FTE) | Finance Assistant
-employer: Think Differently Education Trust
-closing_date: 2026-12-06T20:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2d83bed9b59df00e9a57590ea63b69e0c2db4ff7353f50041709d42de8d578f3
-source: Teaching Vacancies
-source_job_id: finance-assistant-think-differently-education-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-think-differently-education-trust
+source_job_id: data-officer-6d6bd5f7-9e30-4dea-b051-4926a559e12a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-6d6bd5f7-9e30-4dea-b051-4926a559e12a
 ---
 
 ---
@@ -263,7 +248,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-leigh-trust-birmingham-not-recorded) — Excluded senior/management title.
 - [Head of House PA](https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-dame-elizabeth-cadbury-school-birmingham-west-midlands) — Excluded senior/management title.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-pa-community-trust) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-clement-s-church-of-england-academy-birmingham-west-midlands) — Excluded senior/management title.
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-e15d4a7c-6c63-4d75-990a-2e0fe01305d0) — Excluded senior/management title.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-eden-boys-school-birmingham) — Excluded senior/management title.
 - [School Office Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-senior-administrator) — Excluded senior/management title.

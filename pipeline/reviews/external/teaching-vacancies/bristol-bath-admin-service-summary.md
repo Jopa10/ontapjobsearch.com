@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-11-27
-review_fingerprint: 0a4cadd60b8af15aba552a81b1e87ad1c428dd9e75ec1483b39bb7dc37d13eaa
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+review_date: 2026-11-28
+review_fingerprint: ba499b48cf186e864d4a829de3802871e5867db093dc2c08cb20723dde672e89
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -88,8 +88,8 @@ action:
 POSS | Bristol & Bath | Bristol, South West, BS9 3UF | £22,708.00 - £24,237.00 Annually (Actual) BG8 SCP12 to 16, salary shown based on 32hpw | Finance Assistant
 employer: Elmlea Junior School
 closing_date: 2026-12-07T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Part-time finance requires actual earnings/hours and qualification checks
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: d7d52462fe7447286963e17143af0a50abcdc5720a350797122ea107edbb150a

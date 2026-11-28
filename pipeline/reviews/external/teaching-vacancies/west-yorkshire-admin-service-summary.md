@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-11-27
+review_date: 2026-11-28
 review_fingerprint: 20f3b04c90947e74656e949236db9280fb3a02db61fa86a75fac194680111343
-routing_manifest_sha256: 583d73fe6346f5a8218b06b49cc9fb2401aebf2a8661874645d743345e4d6ae6
+routing_manifest_sha256: abf938ea610792a4ba1efc8b1245a3a72af10f1ae0ae699b29ff09c69f165d77
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 37
+- Records: 36
 - Selected: 7
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 24
+- Hard pass: 23
 
 ## SELECTED
 
@@ -243,7 +243,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-beckfoot
 - [Inclusion Lead (Primary Phase)](https://teaching-vacancies.service.gov.uk/jobs/inclusion-lead-primary-phase) — Excluded senior/management title.
 - [PA to Principal & Office Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-office-manager-outwood-academy-freeston) — Excluded senior/management title.
 - [PA to Principal and Senior Leadership Team](https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-and-senior-leadership-team-temple-learning-academy) — Excluded senior/management title.
-- [Purchase to Pay Assistant](https://teaching-vacancies.service.gov.uk/jobs/purchase-to-pay-assistant) — Insufficient admin/service evidence.
 - [Reprographics and Resources Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-resources-technician) — Out-of-scope occupation: technician.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-leodis-academies-trust) — Excluded senior/management title.
 - [Senior Operations Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-operations-administrator) — Excluded senior/management title.
