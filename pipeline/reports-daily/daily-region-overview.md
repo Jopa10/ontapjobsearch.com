@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Production source commit: `3fbf8c73d27d02ea1aa689f881ab131c0821c2ea`
+Production source commit: `38764011ffc7f9a979d4c406b51b70c32e2de43d`
 
-Generated: 2026-11-28T08:55:57+00:00
+Generated: 2026-11-28T16:52:58+00:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
